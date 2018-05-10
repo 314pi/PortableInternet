@@ -1,0 +1,22 @@
+
+PopMan 1.3 History
+-----------------------
+
+ (+) New feature
+ (*) Changed feature
+ (-) Bug fixed
+ 
+ 
+ 2010-04-12 - Version 1.3.1
+ 
+ (+) Messages can be protected from being deleted inadvertently using the context menu (or Ctrl+T) (thanks to Peter Boulton)
+ (+) New rule action "Protect" (thanks to Peter Boulton)
+ (+) New notification option to limit notification to protected messages (thanks to Peter Boulton)
+ (+) New IMAP4 parameter "FastMode" to increase speed for some IMAP4 servers (enabled by default)
+ (-) Fixed crash when aborting mail refresh of IMAP4 accounts
+ (-) Fixed crash on startup when using IMAP4 accounts
+ (-) Extract invalid HTML Links from HTML messages
+ (-) Accept invalid UTF-8 encoded text in mail source
+ (+) New setting "MultiLineTabs" can be used to specify multiline account tab arrangement
+ (+) Import mail account settings from Microsoft Windows Mail
+ (-) The new and unread state of mails from different accounts with same server and user name are not saved correctly

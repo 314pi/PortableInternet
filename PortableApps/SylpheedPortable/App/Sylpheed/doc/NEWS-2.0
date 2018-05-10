@@ -1,0 +1,283 @@
+Changes of Sylpheed
+
+* 2.0.0
+
+    * This is the first release of GTK2-based stable version.
+
+* 2.0.0rc
+
+    * The IMAP4rev1 code conversion was fixed so that it can handle folder
+      names that include '+' correctly.
+    * The correct row is selected after moving or deleting a message now when
+      sorting is enabled.
+    * The line-wrap of composition was modified so that it doesn't break line
+      after '/' (slash) to protect file path etc.
+    * The duplicated insertion when a text file is dragged onto the
+      composition window was fixed.
+    * The cache discrepancy problem of the draft folder was fixed.
+    * Temporary files are now cleaned up also on startup.
+
+* 2.0.0beta6
+
+    * A new application icon was added, and it is now used as a default window
+      icon.
+    * A margin was added for the summary view when scrolling.
+    * The folder selection dialog now displays new/unread information for each
+      folders.
+    * The displayed file size of attachments became more accurate.
+    * The filter rules are now modified after folders are moved.
+    * Several alert dialogs were modified.
+    * The line-wrap of composition was modified so that it doesn't break line
+      after '-' (hyphen) to protect e-mail address etc.
+    * UTF-8 text file is now properly inserted in composition window.
+    * The Content-Type's charset is used as a fallback encoding of broken
+      header strings on reply.
+    * The problem was fixed that signature was not switched properly by the
+      account selection in re-edit mode or after editing with external editor.
+    * Attached files without text/* as the Content-Type is not uncanonicalized
+      anymore.
+    * The URI parser of the text view was modified.
+    * The cache discrepancy problem of the queue folder was fixed.
+
+* 2.0.0beta5
+
+    * The order of the buttons of dialogs now complies with GNOME Human
+      Interface Guidelines (configurable with 'Common preferences/Interface/
+      Make the order of buttons comply with GNOME HIG').
+    * Existing window is put in front when trying to re-edit draft/queue
+      messages which are already open.
+    * The toolbar and special folder icons are replaced with new png images
+      which are based on GNOME icon theme.
+    * The Sylpheed logo of the about dialog was replaced with new one.
+    * The crash when cancelling the file selection dialog of vCard/JPilot
+      by Escape key was fixed.
+
+* 2.0.0beta4
+
+    * The feature to move folders within the same mailbox was implemented.
+    * The flag changes by manual filtering on IMAP4 folders are now reflected
+      to IMAP4 server.
+    * A warning is displayed on the first run if the locale encoding is not
+      UTF-8 but the environmental variable G_FILENAME_ENCODING is not set.
+    * A warning is displayed when sending message if it exceeds the hard line
+      length limit (998 bytes).
+    * Other minor bugs were fixed.
+
+* 2.0.0beta3
+
+    * The strict checking of the integrity of summary caches was disabled by
+      default, and the performance of displaying summary was improved.
+    * The columns of the summary view became reorderable by drag and drop.
+    * An option to execute command when new messages arrive was added.
+    * 'Compose new message', 'Add to address book' and 'Open with Web browser'
+      was added to the context menu of the text view.
+    * Encryption is enabled by default when replying to encrypted messages.
+    * GPGME and OpenSSL support are now enabled by default.
+    * The bug that caused failure of parsing IMAP4 response if embedded null
+      characters appeared in message headers.
+    * Selected text is used on reply even if the Attachment tab is selected.
+    * The quote color setting dialog works properly now.
+
+* 2.0.0beta2
+
+    * The junk mail filter setting was integrated into the common preferences,
+      and 'Tools/Filter junk mails' menus were added.
+    * The behavior of the flag search was modified.
+    * The bug that the change of color labels was not saved was fixed.
+    * The 'Insert signature' on the composition window now replaces the
+      current signature, or add a new one to the buttom.
+    * The bug that MIME headers were not properly parsed on some locales
+      (such as Turkish) was fixed.
+    * A possible crash when moving/deleting messages while the summary is
+      sorted was fixed.
+    * Wrong display of unread message number on some condition was fixed.
+    * The scroll position of the summary when opening folders was fixed.
+    * Sending messages by external command now checks for its exit status.
+
+* 2.0.0beta1
+
+    * A feature to assist junk mail control was added.
+    * An option to apply filter rules to sent messages was added.
+    * The progress dialog was reimplemented using GtkTreeView.
+    * The selection handling of the summary view was optimized a bit.
+    * The drag and drop from the summary view was improved.
+    * The Japanese auto-detection is always enabled if the locale string
+      begins with "ja".
+    * Hebrew encodings support was added.
+    * Lithuanian translation was added.
+    * The scanning of folders right after an IMAP4 account is created was
+      disabled for performance issue.
+    * Currently selected messages are skipped now when searching unread
+      messages.
+    * The typeahead search of the summary view was disabled.
+    * The sylpheed.spec file was updated.
+    * Several bugs were fixed.
+
+* 1.9.12 (development)
+
+    * The MIME view and the attachment list of the compose window were
+      reimplemented using GtkTreeView.
+    * An option to toggle cursor in the message view was added.
+    * The backward search button was added to the summary and message search
+      dialog.
+    * The PGP Sign and Encrypt check button were added to the compose window.
+    * The drag and drop of messages in the summary view to external
+      applications was enabled.
+    * The writing of summary cache and mark was optimized so that it will be
+      written only if it is required.
+    * The ~/.sylpheed-2.0/tmp/ directory is cleaned up on exit now.
+    * Errors are detected now when messages are sent with sendmail command.
+    * The phishing URL checking was modified so that it works even if
+      non-ascii space is put at the head of link strings.
+    * Several bugs of the summary view were fixed.
+    * The column width of the folder view is now remembered.
+    * The drag and drop of attached files with non-ascii filename was fixed.
+    * The attaching of files with locale-encoded filename by drag and drop
+      was fixed.
+    * A bug that caused crash when timeout happened while scanning IMAP4
+      folder tree was fixed.
+    * On IMAP4, a bug that only the first response of the SEARCH command was
+      recognized was fixed.
+    * Bcc header fields in mailto URL are no longer interpreted to conform to
+      RFC 2368.
+
+* 1.9.11 (development)
+
+    * The bug that Return, Space and Delete key were ignored when multiple
+      messages were selected was fixed.
+    * A compile error was fixed.
+    * The selection problem after the change of the contents of the summary
+      was fixed.
+    * The bug that prohibited the resizing of the summary columns was fixed.
+    * The bug that the summary view couldn't be scrolled after expanding a
+      thread at the bottom of the view was fixed.
+
+* 1.9.10 (development)
+
+    * The summary view was reimplemented using GtkTreeView.
+    * The performance of the update of the statusbar was improved.
+    * The CRAM-MD5 is preferred now on IMAP4 automatic authentication.
+    * Messages selected with 'View/Go to' will not open now if the message
+      view is hidden.
+    * The default message font was changed to Monospace 12.
+    * A redraw problem of the text view on smooth scroll was fixed.
+    * Several bugs of the folder view were fixed.
+
+* 1.9.9 (development)
+
+    * The memory usage when sending messages was reduced.
+    * The crash when ~/.gnupg not exist was fixed.
+    * A compile error with GTK+ 2.4 was fixed.
+    * Some bugs of the folder view were fixed.
+    * A problem that the Emacs gtk-key-theme didn't work on composition was
+      fixed.
+
+* 1.9.8 (development)
+
+    * The filter preferences dialog, the edit account dialog, and the folder
+      view were reimplemented using GtkTreeView.
+    * Auto-scroll on DnD was implemented.
+    * GBK encoding is supported.
+    * The broken PLAIN authentication for SMTP AUTH was fixed.
+    * A workaround for some SMTP servers, which terminate connection right
+      after QUIT command was sent, was made.
+    * Clear-signed messages are not MIME-encoded anymore.
+    * The line-wrapping of composition window was modified not to screw up
+      itemized lines.
+
+* 1.9.7 (development)
+
+    * The outgoing encoding can be changed on composition temporarily now.
+    * The folder selection dialog was reimplemented using GtkTreeView.
+    * An option that specifies whether to render HTML as text or not was added.
+    * The state of the expander of the file save dialog is now remembered.
+    * Every message-ids in References: header is now used for message
+      threading.
+    * The internal code conversion API has been changed.
+    * A possible crash on re-editing draft, queue and sent messages was fixed.
+    * The error checking of Japanese code conversion also became strict.
+    * An empty Reply-To: header is now ignored.
+
+* 1.9.6 (development)
+
+    * Multiple files can be attached to the composition window all at once now.
+    * In the file selection dialog, last opened directories are now remembered
+      for each operations.
+    * Inline images are now resized to fit window.
+    * 'Save this image as...' was added to the context menu of inline images.
+    * PLAIN authentication method was implemented for SMTP AUTH.
+    * The switching between text and MIME view became smoother.
+    * A workaround for huge slow down when displaying extremely long lines
+      was made.
+    * The replacement of signatures when switching accounts in the composition
+      dialog became stabilied.
+    * Error checking of code conversion on sending became strict.
+    * Bugfixes have been made for MIME view, message view, auto-wrapping
+      and GPG passphrase dialog.
+
+* 1.9.5 (development)
+
+    * A buffer overflow which occurred when replying to a message with
+      certain headers which contain non-ascii characters was fixed.
+    * A workaround for not MIME-encoded headers was made.
+
+* 1.9.4 (development)
+
+    * The bug in SSL connection which brought on sporadic crashes and errors
+      were fixed.
+    * The user-interface of MIME view was improved, and its several bugs were
+      fixed.
+    * Miscellaneous dialogs were modified.
+      - The design of alert dialog was modified to fit other Gtk2
+        applications (not yet HIG compliant, though).
+      - The file selection dialog was replaced with GtkFileChooserDialog.
+    * The line number limit of the log window was re-enabled.
+    * Text for printing is now output with locale encoding.
+    * The incompatibility of PGP signature between gnupg-1.2 and 1.4 when
+      attached text has trailing spaces was fixed.
+    * Locale encoding is now assumed for unencoded header strings on display.
+    * The version of GLib and GTK is now checked on configure.
+    * Code cleanups were made.
+    * Some minor bugs have been fixed.
+
+* 1.9.3 (development)
+
+    * The line-wrapping function has been reimplemented.
+      - The i18n is now fully supported.
+      - Proper line-breaking is enabled.
+      - It actually complies with the 'Wrap quotation' option now.
+    * 'Copy this link' has been added to the context menu of text view.
+    * The incompatibility of PGP signature between gnupg-1.2 and 1.4 occurred
+      when trailing spaces appeared has been fixed.
+    * A bug that attached files with non-ascii filename couldn't be opened
+      has been fixed.
+    * Some minor bugs have been fixed.
+
+* 1.9.2 (development)
+
+    * The inline image display has been implemented.
+    * The processing of hypertext has been improved.
+    * The message text search has been reimplemented.
+    * The popup of windows has been improved.
+    * Non-UTF8 filename handling of the file selection dialog has been fixed.
+
+* 1.9.1 (development)
+
+    * The bug that quoted texts were corrupted on replying or forwarding
+      while auto-wrapping was enabled has been fixed.
+    * The help message is now converted to locale encding.
+    * The sylpheed.spec file has been fixed.
+    * The documents have been updated.
+
+* 1.9.0 (development)
+
+    * This is the first release of GTK2 development version.
+    * From GTK2 feature:
+      - Multilingualization (m17n) has been supported.
+      - Anti-aliased font has been supported.
+      - Many glitches related to font management have been solved.
+      - The user-interface has been improved in many respects.
+    * Gpgme-1.0 has been supported.
+      - A warning is displayed if a key for encryption is untrusted.
+      - The status of signature validity became more descriptive.
+      - Signatures inside nested multipart are now recognized.

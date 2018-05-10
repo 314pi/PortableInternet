@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created by Max Velasques-->
+<resource version="2.3.0.1">
+    <object class="wxFrame" name="mainframe">
+        <style>wxDEFAULT_FRAME_STYLE</style>
+        <object class="wxStatusBar" name="statusbar">
+            <fields>3</fields>
+            <widths>-1,200</widths>
+        </object>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <option>1</option>
+                <flag>wxEXPAND</flag>
+                <object class="wxNotebook" name="notebook01" subclass="mNotebook">
+                    <!-- <style>wxNB_BOTTOM</style> -->
+                    <usenotebooksizer>1</usenotebooksizer>
+                    <object class="notebookpage">
+                    <!--<label>Downloads in Progress</label>-->
+                    <object class="wxPanel" name="notebookpanel01">
+                        <style>wxTAB_TRAVERSAL</style>
+                        <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxFlexGridSizer">
+                                    <growablerows>1</growablerows>
+                                    <rows>3</rows>
+                                    <growablecols>0</growablecols>
+                                    <cols>1</cols>
+                                    <vgap>5</vgap>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+                                        <object class="wxPanel" name="graphpanel" subclass="mGraph">
+                                            <style>wxTAB_TRAVERSAL</style>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+                                        <object class="wxSplitterWindow" name="splitter01">
+                                            <sashpos>199</sashpos>
+                                            <style>wxSP_3D</style>
+                                            <orientation>horizontal</orientation>
+                                            <object class="wxListCtrl" name="inprogresslist" subclass="mInProgressList">
+                                                <style>wxLC_REPORT|wxSUNKEN_BORDER  </style>
+                                            </object>
+                                            <object class="wxPanel" name="panelmessages01">
+                                                <style>wxTAB_TRAVERSAL</style>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxHORIZONTAL</orient>
+                                                    <object class="sizeritem">
+                                                        <option>1</option>
+                                                        <flag>wxEXPAND</flag>
+                                                        <object class="wxSplitterWindow" name="splitter02">
+                                                            <sashpos>99</sashpos>
+                                                            <minsize>30</minsize>
+                                                            <style>wxSP_3D</style>
+                                                            <orientation>vertical</orientation>
+                                                            <object class="wxPanel" name="panelmessages02">
+                                                                <style>wxTAB_TRAVERSAL</style>
+                                                                <object class="wxFlexGridSizer">
+                                                                    <hgap>0</hgap>
+                                                                    <rows>2</rows>
+                                                                    <cols>1</cols>
+                                                                    <vgap>0</vgap>
+                                                                    <growablecols>0</growablecols>
+                                                                    <growablerows>0</growablerows>
+                                                                    <object class="sizeritem">
+                                                                        <option>1</option>
+                                                                        <flag>wxEXPAND</flag>
+                                                                        <object class="wxTreeCtrl" name="treemessages">
+                                                                            <style>wxTR_HIDE_ROOT|wxTR_DEFAULT_STYLE|wxTR_FULL_ROW_HIGHLIGHT</style>
+                                                                        </object>
+                                                                    </object>
+                                                                    <object class="sizeritem">
+                                                                        <flag>wxFIXED_MINSIZE</flag>
+                                                                        <object class="wxPanel" name="previewpanel">
+                                                                            <style>wxTAB_TRAVERSAL</style>
+                                                                            <size>20, 70</size>
+                                                                            <object class="wxBoxSizer">
+                                                                                <orient>wxVERTICAL</orient>
+                                                                                <object class="sizeritem">
+                                                                                    <option>1</option>
+                                                                                    <flag>wxEXPAND</flag>
+                                                                                    <object class="wxStaticText" name="lblpreview">
+                                                                                        <label>File type</label>
+                                                                                    </object>
+                                                                                </object>
+                                                                                <object class="sizeritem">
+                                                                                    <option>1</option>
+                                                                                    <flag>wxEXPAND</flag>
+                                                                                    <object class="wxButton" name="btnpreview">
+                                                                                        <label>Preview</label>
+                                                                                        <enabled>0</enabled>
+                                                                                    </object>
+                                                                                </object>
+                                                                            </object>
+                                                                        </object>
+                                                                    </object>
+                                                                </object>
+                                                            </object>
+                                                            <!--<object class="wxTextCtrl" name="messages"> -->
+                                                            <!--    <style>wxTE_MULTILINE|wxTE_READONLY|wxTE_RICH|wxTE_RICH2|wxTE_AUTO_URL</style> -->
+                                                            <object class="wxHtmlWindow" name="messages">
+                                                            </object>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+                                        <object class="wxPanel" name="progressbar" subclass="mProgressBar">
+                                            <style>wxTAB_TRAVERSAL</style>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    </object>
+                    <object class="notebookpage">
+                    <!--<label>Finished Downloads</label> -->
+                    <object class="wxPanel" name="notebookpanel02">
+                        <style>wxTAB_TRAVERSAL</style>
+                        <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxListCtrl" name="finishedlist" subclass="mFinishedList">
+                                    <style>wxLC_REPORT|wxSUNKEN_BORDER</style>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxListCtrl" name="infolist">
+                                    <style>wxLC_REPORT|wxLC_HRULES|wxLC_VRULES|wxSUNKEN_BORDER </style>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

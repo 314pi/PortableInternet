@@ -1,0 +1,514 @@
+[File Info]
+
+Language=Lithuanian
+Author=Romanas Nomeika
+Email=Romashka@postbox.lt
+Date=01/05/2012
+Comment=PopMan 1.3.1 Lithuanian Translation (Lietuviø)
+LangID=39
+
+
+[Translations]
+
+Not connected<=>Neprisijungta
+Connection failure<=>Sujungimo nesëkmë
+Canceled<=>Atðaukta
+Invalid server response<=>Klaidingas serverio atsakas
+Timeout<=>Nutraukta
+Login failed<=>Registracija nepavyko
+Message not found<=>Þinutë nerasta
+Server failure: Message not found!<=>Serverio nesëkmë: Þinutë nerasta!
+Busy<=>Uþimta
+Ready<=>Paruoðta
+Connecting...<=>Jungiamasi...
+Connected!<=>Prisijungta!
+Login...<=>Ásiregistravimas...
+Successfully logged in!<=>Sëkmingai prisiregistruota!
+Loading message ...<=>Ákeliama þinutë ...
+Loading message {1} of {2} ...<=>Ákeliama þinutë {1} ið {2} ...
+Deleting message {1} of {2} ...<=>Naikinama þinutë {1} ið {2} ...
+
+# Update Wizard
+
+Update Wizard<=>Naujinimo Vedlys
+There are no updates available.<=>Nëra jokie atnaujinimai prieinami.
+There is a new version {1} available!<=>Yra nauja versija {1} prieinama!
+There is a new {1} Beta version available!<=>Yra nauja {1} Beta versija prieinama!
+Click "Next" to update your copy of PopMan...<=>Paspausti "Toliau" atnaujinti savo kopijà PopMan...
+Unable to retrieve version infomation!<=>Negalima gauti versijos informacijos!
+Error number: {1}<=>Klaidos numeris: {1}
+Welcome to the PopMan Update Wizard<=>Jûs Sveikina PopMan Naujinimo Vedlys
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Vedlys dabar jungiasi prie PopMan tinklo serverio tikrinti atnaujinimus. Jeigu yra naujesnë versija, visi failai bus atsiøsti ir ádiegti automatiðkai.
+Failed to load Decompress.dll!<=>Nepavyko ákelti Decompress.dll!
+Initializing...<=>Inicijuojama...
+Do you really want to cancel the update process?<=>Ar tikrai norite atðaukti naujinimo procesà?
+Update process failed!<=>Naujinimo procesas nepavyko!
+Error while downloading initialization file!<=>Klaida bandant atsisiøsti inicijavimo failà!
+No updates available.<=>Nëra galimø atnaujinimø.
+Failed to retrieve temporary directory!<=>Nepavyko iðrinkti laikino katalogo!
+Saving {1} ...<=>Iðsaugojama {1} ...
+Failed to create directory:<=>Nepavyko sukurti katalogo:
+Failed to decompress file:<=>Nepavyko iðpakuoti failo:
+Failed to download file:<=>Nepavyko atsiøsti failo:
+(checksum error)<=>(kontrolinë klaida)
+Please try again later.<=>Praðom bandyti dar kartà vëliau.
+Error while saving downloaded file!<=>Klaida iðsaugant atsiøstà failà!
+All files downloaded successfully.<=>Visi failai atsiøsti sëkmingai.
+Press the "Finish" button to complete the update process...<=>Spauskite mygtukà "Baigti" uþbaigti naujinimo procesà...
+Failed to initialize the final copy process!<=>Nepavyko inicijuoti galutinio kopijavimo proceso!
+Downloading {1} ...<=>Atsiunèiama {1} ...
+Progress all:<=>Visø eiga:
+Progress current file:<=>Einamo failo eiga:
+Download of updated files<=>Atsisiøsti atnaujintus failus
+
+# Import Accounts Dialog
+
+Account<=>Paskyra
+Type<=>Tipas
+User<=>Vartotojas
+Server<=>Serveris
+Port<=>Prievadas
+Please select the accounts that you want to import from Outlook Express.<=>Praðom iðrinkti paskyrà, kurià norite importuoti ið Outlook Express.
+&Properties...<=>&Ypatybës...
+OK<=>Gerai
+Cancel<=>Atðaukti
+Import email accounts<=>Importuoti el.paðto paskyras
+Description<=>Apraðymas
+
+# Account Dialog
+
+General<=>Bendras
+Colors<=>Spalvos
+Advanced<=>Iðplëstinë
+Can not change account settings while there are busy accounts.<=>Negali pakeisti paskyros nustatymø tuo metu, kai yra uþsiëmusiø paskyrø.
+Please enter the address of the Server!<=>Praðom ávesti Serverio adresà!
+Please enter the account name!<=>Praðom ávesti paskyros vardà!
+Please enter user name!<=>Praðom ávesti vartotojo vardà!
+Account name:<=>Paskyra:
+Protocol:<=>Protokolas:
+Server:<=>Serveris:
+Port:<=>Prievadas:
+User name:<=>Vartotojas:
+Password:<=>Slaptaþodis:
+Include this account when receiving mail<=>Átraukti ðià paskyrà, kai gaunamas paðtas
+1 minute<=>1 minutë
+{1} minutes<=>{1} min.
+1 second<=>1 sekundë
+{1} seconds<=>{1} sek.
+Use UIDL when deleting messages<=>Panaudoti UIDL, panaikinant þinutes
+Use custom AutoCheck timer interval<=>Panaudoti nurodytà AutoTikrinimo laikmaèio intervalà
+Timer interval:<=>Laiko intervalas:
+minutes<=>min.
+Server Timeouts<=>Serverio Laiko limitas
+Short<=>Trumpas
+Long<=>Ilgas
+Load all emails completely<=>Ákelti visà el.paðtà pilnai
+Retrieve header and {1} lines of message body<=>Atkurti antraðtæ ir {1} eiluèiø þinutës tekstà
+Number of lines:<=>Linijø skaièius:
+Load small emails completely<=>Ákelti maþà el.paðtà pilnai
+Small emails are < <=>Maþas el.paðtas yra <
+Parameters<=>Parametrai
+Use individual font color:<=>Naudoti savitas ðriftø spalvas:
+Circle color in system tray:<=>Apskritimo spalva sistemos dëkle:
+Invalid parameter string!<=>Negaliojanti parametro eilutë!
+Default<=>Numatyta
+
+# Accounts Dialog
+
+Mail Accounts<=>Paðto Paskyros
+&Add...<=>&Pridëti...
+&Remove<=>&Paðalinti
+Move &up<=>&Aukðtyn
+Move &down<=>&Þemyn
+&Close<=>&Uþdaryti
+
+# Download Dialog
+
+Loading the following mail:<=>Kraunasi ðis paðtas:
+Loading Mail...<=>Kraunasi Paðtas...
+
+# BlackList/WhiteList Dialog
+
+Black List<=>Juodas Sàraðas
+Messages from senders in the list below will be deleted automatically from the server.<=>Þinutës nuo siuntëjø sàraðo toliau bus panaikintos automatiðkai ið serverio.
+White List<=>Baltas Sàraðas
+Messages from senders in the list below will never be deleted automatically.<=>Þinutës nuo siuntëjø sàraðo toliau niekada nebus panaikintos automatiðkai.
+Address:<=>Adresas:
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>Praðom ávesti el.paðto adresà (pvz. somebody@somewhere.com) ar sritis (pvz. somewhere.com):
+Enter address<=>Ávesti adresà
+
+# Password Dialog
+
+Password - {1}<=>Slaptaþodis - {1}
+Enter the password of the following account.<=>Ávesti slaptaþodá á kità paskyrà.
+Account:<=>Paskyra:
+Remember password<=>Ásiminti slaptaþodá
+Password incorrect! Please note that the password is case-sensitive.<=>Slaptaþodis neteisingas! Praðom atkreipti dëmesá, kad slaptaþodyje reikia skirti diþiàsias-maþàsias raides.
+Please enter the password.<=>Praðom ávesti slaptaþodá.
+
+# Add item to Rules list Dialog
+
+Add item to Rules list<=>Pridëti punktà prie Taisykliø sàraðo
+Destination List<=>Marðruto Sàraðas
+New Item<=>Naujas Punktas
+Item Type<=>Punkto Tipas
+Word<=>Þodis
+String<=>Eilutë
+Regular Expression<=>Reguliari Iðraiðka
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Praðom nurodyti kur iðsaugoti el.paðtus.
+The specified folder does not exist!<=>Nurodyto aplanko nëra!
+Please specify a template for the file names.<=>Praðom nurodyti ðablonà failo vardø.
+A file name must not contain any of the following characters:<=>Failo varde neturi bûti në vieno ið ðiø simboliø:
+Invalid template! Use a combination of the following placeholders:<=>Neteisingas ðablonas! Naudokite ðiø rezervavimo þenklø deriná:
+Subject<=>Tema
+From<=>Nuo
+To<=>Kam
+Date<=>Data
+Time<=>Laikas
+Save As...<=>Áraðyti Kaip...
+Destination<=>Paskirties vieta
+Folder:<=>Aplankas:
+Browse...<=>Narðyti...
+Save Format<=>Áraðyti Formatà
+Template For File Names<=>Failo Vardø Ðablonas
+Email File (*.eml)<=>El.paðto Failas (*.eml)
+Text File (*.txt)<=>Tekstinis Failas (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Failo "{1}" nëra!
+Sound (*.wav)<=>Garsas (*.wav)
+Notify when new mail arrives<=>Informuoti atëjus naujam paðtui
+Always<=>Visada
+When AutoChecked or minimized<=>Esant ájungtai AutoPatikrai arba minimizavus
+Only when minimized<=>Tik minimizavus
+On new mail<=>Esant naujam paðtui
+Acoustic notification<=>Garsinis praneðimas
+Sound:<=>Garsas:
+&Test<=>&Testas
+Show PopMan window<=>Rodyti PopMan langà
+Show new mail tip<=>Rodyti naujo paðto dalá
+Limit tips to [PROTECTED] messages<=>Apriboti patarimai á [APSAUGOTAS] þinutes
+Include sender and subject of new mails<=>Áskaitant naujø paðtø siuntëjà ir temà
+Use balloon tip<=>Naudoti etiketës dalá
+Flash keyboard light:<=>Blyksnio klaviatûros ðviesa:
+Unread Messages<=>Neskaitytos Þinutës
+Display unread messages in bold font<=>Rodyti neskaitytas þinutes pusjuodþiu ðriftu
+Preview Pane<=>Perþiûros Langelis
+Use the preview pane to quickly view a message without opening a separate window.<=>Naudoti perþiûros langelá, greitai pamatyti þinutæ neatveriant atskiro lango.
+Show preview pane<=>Rodyti perþiûros langelá
+Be&low messages<=>Þe&miau þinuèiø
+Be&side messages<=>Ða&lia þinuèiø
+Use logging to record all data communication between PopMan and the email server.<=>Naudoti protokolavimà, áraðyti visà PopMan ir serverio komunikavimà.
+Enable logging<=>Ágalinti protokolavimà
+Only log compact mail info instead of entire data traffic<=>Tiktai registruoti kompaktiðkà paðto informacijà vietoj viso duomenø eismo
+Log file size:<=>Protokolo failo dydis:
+KB<=>KB
+Enable logging of applied rules<=>Ágalinti registravimà taikomos taisyklës
+Location of the log file "PopManLogFile.log":<=>Protokolo failo vieta "PopManLogFile.log":
+Use dial-up networking<=>Naudoti komutuojamà ryðá
+Launch PopMan on Windows startup<=>Paleisti PopMan su Windows
+Check for new mail on startup<=>Paleidþiant tikrinti naujus paðtus
+First wait<=>Ið pradþiø laukti
+seconds<=>sek.
+X button hides to tray<=>Mygtukas "X" sumaþins á dëklà
+Min button hides to tray<=>Minimizavimo mygtukas sumaþins á dëklà
+Delete confirmation in main window<=>Panaikinti patvirtinimà pagrindiniame lange
+Delete confirmation in preview pane and message window<=>Panaikinti patvirtinimà perþiûros langelyje ir þinutës lange
+Delete command marks message for deletion<=>Panaikinti komandos þymiø þinutæ panaikinimui
+Enable password protection:<=>Ágalinti apsaugà slaptaþodþiu:
+AutoCheck only while minimized<=>AutoPatikra tik minimizavus
+Don't check between:<=>Netikrinti tarp:
+and<=>ir
+Enable custom AutoCheck interval per account:<=>Ágalinti nurodytà AutoTikrinimo intervalà per paskyrà:
+Interval<=>Intervalas
+Custom<=>Pasirinktinis
+Executable (*.exe)<=>Vykdomasis (*.exe)
+Hide PopMan to tray<=>Slëpti PopMan dëkle
+Quit PopMan<=>Baigti PopMan
+Email client:<=>El.paðto programa:
+When launching email client:<=>Paleidþiant el.paðto programà:
+When replying<=>Atsakant
+Use temporary eml file (Outlook Express)<=>Naudoti laikinà "eml" failà (Outlook Express)
+Use mailto (without quotted original message)<=>Naudoti "mailto" (necituojant orginalios þinutës)
+Use MAPI<=>Naudoti MAPI
+Use HTML linebreaks in reply body<=>Naudoti HTML eiluèiø trûkius atsakymo tekste
+Enforce email address (Yahoo! Mail)<=>Primesti el.paðto adresà (Yahoo! Mail)
+Launch email client with command line parameter:<=>Pradëti el.paðto klientà su komandos linijos parametru:
+Number of messages<=>Þinuèiu skaièius
+Show number of messages in tray icon<=>Rodyti skaièiø þinuèiø dëklo þenkliuke
+Show number of all messages<=>Rodyti visø þinuèiø skaièiø
+Show number of unread messages<=>Rodyti neskaitytø þinuèiø skaièiø
+Show number of new messages<=>Rodyti naujø þinuèiø skaièiø
+Rotate icon for each account<=>Kaitalioti kiekvienos paskyros þenkliukus
+Rotation interval:<=>Kaitaliojimo intervalas:
+tenths of a second<=>sekundës deðimtadalis
+Show advanced account info<=>Rodyti iðplëstinæ paskyros informacijà
+Enable HighColor icons in system tray<=>Ágalinti paryðkintus dëklo þenkliukus
+Nothing<=>Nieko
+Show Window<=>Rodyti Langà
+Check Mail<=>Tikrinti Paðtà
+PopUp Menu<=>Krentantis Meniu
+Run Email Client<=>Paleisti El.paðto Programà
+Check And Show<=>Tikrinti Ir Rodyti
+Toggle Window<=>Perjungti Langà
+Toggle AutoCheck<=>Perjungti AutoPatikrà
+Show Mail Info<=>Rodyti Paðto Informacijà
+Tray Mouse Actions<=>Pelës Veiksmai Dëkle
+Left Click:<=>Kairys Paspaud.:
+Right Click:<=>Deðinys Paspaud.:
+Middle Click:<=>Vidurinis Paspaud.:
+Double Click:<=>Dvigubas Paspaud.:
+Double click delay on click<=>Dvigubo paspaudimo delsa paspaudus
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Þemiau galima pasirinkti vertimà, esantá Jûsø kompiuteryje.{BR}Jei Jûs nerandate savo kalbos, praðom aplankyti PopMan tinklo svetainæ:
+Language:<=>Kalba:
+Author:<=>Autorius:
+Email:<=>El.paðtas:
+Updated:<=>Atnaujinta:
+Comment:<=>Komentaras:
+
+# Source Dialog
+
+RichEdit control init failed.<=>RichEdit kontrolë init nepavyko.
+Source - "{1}"<=>Ðaltinis - "{1}"
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Þurnalo failas "{1}" negali bûti atidarytas.{BR}Prisijungimas uþdraustas!
+Error while writing to the log file:<=>Klaida raðant á þurnalo failà:
+Logging disabled!<=>Prisijungimas uþdraustas!
+[PROTECTED]<=>[APSAUGOTAS]
+
+# List View
+
+Size<=>Dydis
+Received<=>Gautas
+Attachment<=>Priedas
+Sent<=>Nusiøstas
+Priority<=>Prioritetas
+UserAgent<=>Vartotojø Atstovas
+Rules<=>Taisyklës
+High<=>Aukðtas
+Low<=>Þemas
+Normal<=>Normalus
+Are you sure you want to delete the selected email?<=>Ar tikrai norite panaikinti iðrinktà el.paðtà?
+Are you sure you want to delete the {1} selected emails?<=>Ar tikrai norite panaikinti {1} iðrinktus el.paðtus?
+&Open...{TAB}Ctrl+O<=>&Atidaryti...{TAB}Ctrl+O
+Sou&rce...<=>Ðal&tinis...
+&Save As...{TAB}Ctrl+S<=>&Áraðyti Kaip...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Atsakyt&i Siuntëjui{TAB}Ctrl+R
+&Trust Sender<=>&Patikimas Siuntëjas
+&Block Sender<=>&Blokuotas Siuntëjas
+&Delete{TAB}Del<=>&Panaikinti{TAB}Del
+&Unmark{TAB}Ins<=>&Neþymëti{TAB}Ins
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>Pe&rjungti [APSAUGOTAS] Valstybës{TAB}Ctrl+T
+This will add the following email addresses to the Black List:<=>Tai pridës kito el.paðto adresus prie Juodo Sàraðo:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Pastaba: Visi bûsimi el.paðtai nuo siuntëjø Juodame Sàraðe bus panaikinti automatiðkai!
+This will add the following email addresses to the White List:<=>Tai pridës kito el.paðto adresus prie Balto Sàraðo:
+
+# Main Window
+
+Empty Trash<=>Naikinti Ðiukðles
+Options<=>Parinktys
+AutoCheck<=>AutoPatikra
+Notification<=>Signalizavimas
+Email Client<=>El.paðto Programa
+View<=>Rodyti
+Tray Icon<=>Dëklo Þenkliukas
+Language<=>Kalba
+Mouse Actions<=>Pelës Veiksmai
+Logging<=>Protokolavimas
+&File<=>&Failas
+&Accounts...<=>&Paskyros...
+&Update{TAB}F5<=>&Naujinti{TAB}F5
+&Cancel{TAB}Esc<=>&Atðaukti{TAB}Esc
+Delete &Marked Emails{TAB}F12<=>Panaikinti &Paþymëtus El.paðtus{TAB}F12
+&Exit<=>&Iðeiti
+&View<=>&Rodyti
+&Toolbar<=>&Árankiø juosta
+&Statusbar<=>&Bûsenos juosta
+&Hide Marked Messages<=>&Slëpti Paþymëtas Þinutes
+Move Marked Messages to Tr&ash Tab<=>Perkelti Paþymëtas Þinutes Ði&ukðliø Etiketei
+Tab &View{TAB}Ctrl+M<=>Etiketës &Vaizdas{TAB}Ctrl+M
+&Tools<=>&Árankiai
+&Font...<=>&Ðriftas...
+Font &Color...<=>Ðrifto &Spalva...
+&Themes<=>&Tëmos
+Launch &Email Client{TAB}Ctrl+E<=>Paleisti &El.paðto Programà{TAB}Ctrl+E
+&Import Accounts...<=>&Importuoti Paskyras...
+&White List...<=>&Baltas Sàraðas...
+&Black List...<=>&Juodas Sàraðas...
+&Rules...<=>&Taisyklës...
+Add Item To Rules &List...{TAB}F9<=>Pridëti Punktà Prie Taisykliø &Sàraðo...{TAB}F9
+&Options<=>&Parinktys
+&Help<=>&Pagalba
+&Help Topics...{TAB}F1<=>&Pagalbos Temos...{TAB}F1
+Check For &Updates<=>Tikrinti &Atnaujinimus
+&About PopMan...<=>&Apie PopMan...
+Edit email accounts.{BR}Accounts<=>Redaguoti el.paðto paskyras.{BR}Paskyros
+Update email listing.{BR}Update<=>Naujinti el.paðto sàraðà.{BR}Naujinti
+Cancel current operation.{BR}Cancel<=>Atðaukti dabartinæ operacijà.{BR}Atðaukti
+Show email content.{BR}Show<=>Rodyti el.paðto turiná.{BR}Rodyti
+Show source code of this email.{BR}Source code<=>Rodyti ðaltinio kodà ðio el.paðto.{BR}Ðaltinio kodas
+Save selected email to file.{BR}Save<=>Áraðyti iðrinktà el.paðtà faile.{BR}Áraðyti
+Create a reply message to the sender.{BR}Reply<=>Kurti atsakymo þinutæ siuntëjui.{BR}Atsakyti
+Delete selected emails.{BR}Delete<=>Panaikinti iðrinktus el.paðtus.{BR}Panaikinti
+Delete marked emails.{BR}Delete marked emails<=>Panaikinti paþymëtus el.paðtus.{BR}Panaikinti paþymëtus el.paðtus
+Unmark (undelete) selected emails.{BR}Unmark<=>Neþymëti (nepanaikinti) iðrinktus el.paðtus.{BR}Neþymëti
+Add sender to Black List.{BR}Block Sender<=>Pridëti siuntëjà prie Juodo Sàraðo.{BR}Blokuotas Siuntëjas
+Add sender to White List.{BR}Trust Sender<=>Pridëti siuntëjà prie Balto Sàraðo.{BR}Patikimas Siuntëjas
+Quit the application.{BR}Exit<=>Baigti programos darbà.{BR}Iðeiti
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Rodyti arba slëpti árankiø juostà.{BR}Perjungti Árankiø Juostà
+Show or hide the status bar.{BR}Toggle StatusBar<=>Rodyti arba slëpti bûsenos juostà.{BR}Perjungti Bûsenos Juostà
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Ágalinti\Uþdrausti Etiketës vaizdà.{BR}Perjungti Etiketës vaizdà
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Slëpti þinutes, kurios yra paþymëtos, panaikinimui.{BR}Slëpti paþymëtas þinutes
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Perkelti paþymëtas þinutes atskirai "ðiukðliø" etiketei.{BR}Ágalinti ðiukðliø etiketæ
+Change font.{BR}Font<=>Keisti ðriftà.{BR}Ðriftas
+Change font color.{BR}Font Color<=>Keisti ðrifto spalvà.{BR}Ðrifto Spalva
+Launch email client.{BR}Email Client<=>Paleisti el.paðto programà.{BR}El.paðto Programa
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importuoti el.paðto paskyras ið Outlook Express.{BR}Importuoti Paskyras
+Edit the rules.{BR}Rules<=>Redaguoti taisykles.{BR}Taisyklës
+Add item to Rules list.{BR}Add To List<=>Pridëti punktà prie Taisykliø sàraðo.{BR}Pridëti Á Sàraðà
+Edit list of trusted senders.{BR}WhiteList<=>Redaguoti patikimø siuntëjø sàraðà.{BR}Baltas Sàraðas
+Edit list of blocked senders.{BR}BlackList<=>Redaguoti blokuotø siuntëjø sàraðà.{BR}Juodas Sàraðas
+Change program settings.{BR}Settings<=>Keisti programos nustatymus.{BR}Nustatymai
+Show Help Topics.{BR}Help<=>Rodyti Pagalbos Temas.{BR}Pagalba
+Check if a new version is available.{BR}Check for updates<=>Tikrinti ar nauja versija yra prieinama.{BR}Tikrinti atnaujinimus
+Display program information, version number and copyright.{BR}About<=>Parodyti programos informacijà, versijos numerá ir autoriø teisës.{BR}Apie
+Show the main window.{BR}Show<=>Rodyti pagrindiná langà.{BR}Rodyti
+Enable AutoChecking.{BR}Enable<=>Ágalinti AutoPatikrà.{BR}Ágalinti
+Suspend New Mail Notification Sound.{BR}Mute<=>Sustabdyti Naujo Paðto Praneðimo Garsà.{BR}Begarsis
+Open the selected attachment.{BR}Open<=>Atidaryti iðrinktà priedà.{BR}Atidaryti
+Save the selected attachments.{BR}Save<=>Áraðyti iðrinktà priedà.{BR}Áraðyti
+Save all attachments.{BR}Save All<=>Áraðyti visus priedus.{BR}Áraðyti Visus
+Change the window size.<=>Keisti lango dydá.
+Change the window position.<=>Keisti lango vietà.
+Reduce the window to an icon.<=>Sumaþinti langà á þenkliukà.
+Enlarge the window to full size.<=>Iðdidinti langà iki viso dydþio.
+Close the active window.<=>Uþdaryti aktyvø langà.
+Restore the window to normal size.<=>Atkurti langà á normalø dydá.
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>Perjungti dabartiná [APSAUGOTAS] valstybës iðrinktas þinutes.{BR}Perjungti [APSAUGOTAS]
+Don't display this &message again.<=>Nerodyti ðio &praneðimo dar kartà.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>S&pausdinti...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Uþdaryti{TAB}Esc
+&Edit<=>&Redaguoti
+&Cut{TAB}Ctrl+X<=>&Iðkirpti{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>K&opijuoti{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Áklijuoti{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Rasti...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Rasti &Kità{TAB}F3
+Select &All{TAB}Ctrl+A<=>Iðrinkti &Visus{TAB}Ctrl+A
+Print this email.{BR}Print<=>Spausdinti ðá el.paðtà.{BR}Spausdinti
+Delete this email.{BR}Delete<=>Panaikinti ðá el.paðtà.{BR}Panaikinti
+Close window.{BR}Close<=>Uþdaryti langà.{BR}Uþdaryti
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Iðkirpti pasirinkimà ir ádëti já á Mainø sritá.{BR}Iðkirpti
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Kopijuoti pasirinkimà ir ádëti já á Mainø sritá.{BR}Kopijuoti
+Insert Clipboard contents.{BR}Paste<=>Áterpti Mainø srities turiná.{BR}Áklijuoti
+Find the specified text.{BR}Find<=>Rasti nurodytà tekstà.{BR}Rasti
+Find next occurence of specified text.{BR}Find next<=>Rasti kità nurodytà teksto fragmentà.{BR}Rasti kità
+Select the entire message.{BR}Select All<=>Iðrinkti visà þinutæ.{BR}Iðrinkti Visus
+"{1}" not found.<=>"{1}" nerastas.
+&Open<=>&Atidaryti
+&Save As...<=>&Áraðyti Kaip...
+Save &All...<=>Áraðyti &Visus...
+This attachment can not be accessed anymore.<=>Prie ðio priedo niekaip negalima prieiti.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}", labai panaðu, kad turi virusà, kirminà arba kitoká kenksmingà kodà!
+Opening this file is therefore denied.<=>Todël ðità failà atverti yra draudþiama.
+Do you really want to save this file to your hard disk?<=>Ar tikrai norite áraðyti ðità failà á savo standøjá diskà?
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Ðie priedai, labai panaðu, kad turi virusà, kirminà arba kitoká kenksmingà kodà!
+Do you really want to save these files to your hard disk?<=>Ar tikrai norite áraðyti ðiuos failus á savo standøjá diskà?
+Please specify where to save the attachments.<=>Praðom nurodyti kur áraðyti priedus.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Failas "{1}" jau yra!{BR}Ar já perraðyti?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Atsiuntimas el.paðto nepavyko.{BR}Spauskite Ctrl+F5 atnaujinti el.paðto sàraðà ir bandykite dar kartà.
+Are you sure you want to delete this email?<=>Ar tikrai norite panaikinti ðità el.paðtà?
+Deleting email failed!<=>Panaikinti el.paðto nepavyko!
+From:<=>Nuo:
+Date:<=>Data:
+To:<=>Kam:
+Subject:<=>Tema:
+Attach:<=>Priedas:
+Protocol plugin not initialized correctly!<=>Protokolo papildinys neinicijuotas teisingai!
+
+# PopMan Start
+
+Please start one instance only.<=>Praðom paleisti tik vienà programos kopijà.
+Windows socket init failed.<=>Windows socket init klaida.
+{1} Beta version has been updated successfully!<=>{1} Beta versija atnaujinta sëkmingai!
+You have successfully updated to version {1} !<=>Jûs sëkmingai atnaujinote á versijà {1} !
+About PopMan<=>Apie PopMan
+PopMan, Version {1}<=>PopMan, Versija {1}
+Website:<=>Svetainë:
+Forum:<=>Forumas:
+
+# Document
+
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>Nepavyko inicijuoti paskyrà {1}: Nëra papildinio pasiekiamo, pateikto protokolo {2}!
+The error log file "{1}" could not be created.<=>Klaida þurnalo faile "{1}" negali bûti sukurta.
+Checking {1}...<=>Tikrinama {1}...
+Email (*.eml)<=>El.paðtas (*.eml)
+Text (*.txt)<=>Tekstas (*.txt)
+Unable to load mail system support.<=>Negalima pakrauti paðto sistemos palaikymà.
+Mail system DLL is invalid.<=>Paðto sistemos DLL yra sugadintas.
+Unable to detect if a new version is available.<=>Negalima nustatyti ar yra galima nauja versija.
+There is no update available.<=>Nëra naujø atnaujinimø.
+Do you want to start the update wizard and download the latest version?<=>Ar norite paleisti atnaujinimo vedlá ir atsisiøsti naujausià versijà?
+Deleting mail...<=>Paðalinamas paðtas...
+Downloading mail...<=>Atsiunèiamas paðtas...
+AutoCheck disabled<=>AutoPatikra uþdrausta
+No messages<=>Jokios þinutës
+1 new message<=>1 nauja þinutë
+{1} new messages<=>{1} naujos þinutës
+PopMan - New Mail<=>PopMan - Naujas Paðtas
+&Open PopMan<=>&Atidaryti PopMan
+Check &Mail<=>Tikrinti &Paðtà
+&Cancel<=>&Atðaukti
+&Email Client<=>&El.paðto Programa
+A&utoCheck Enabled<=>A&utoPatikra Ágalinta
+Mu&te Mode<=>Be&garsis Bûdas
+O&ptions...<=>P&arinktys...
+&About...<=>&Apie...
+E&xit<=>I&ðeiti
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} þinutës. ({2} neskaitytos, {3} naujos){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - Paðto Info
+1 message<=>1 þinutë
+{1} messages<=>{1} þinutës
+1 unread message<=>1 neskaityta
+{1} unread messages<=>{1} neskaitytos
+in {1}<=>{1}
+in {1} accounts<=>{1} paskyros
+Show<=>Rodyti
+Delete<=>Panaikinti
+Close<=>Uþdaryti
+(last check: {1})<=>(pask. patikra: {1})
+You are about to irrevocably delete all marked messages.<=>Jûs galite negráþtamai panaikinti visas paþymëtas þinutes.
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Jûs paþymëjote þinutæ panaikinimui. Kad nepaþymëti tai, spausti "Ins" klaviatûros mygtukà. Kad panaikinti visas paþymëtas þinutes, spausti F12 ar paspausti tinkamà árankiø juostos mygtukà.
+You can also delete selected messages immediately by pressing Shift+Del.<=>Jûs galite taip pat panaikinti iðrinktas þinutes nedelsiant, spausdamas Shift+Del.
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Jei Jûs norite atkurti tradiciná elgesá (panaikinti visas iðrinktas þinutes nedelsiant), netikrinti "{1}" parinkèiø dialoge.
+Failed to add item to Rules list!<=>Nepavyko pridëti punktà prie Taisykliø sàraðo!
+
+# Main View
+
+Separate account | All<=>Atskira paskyra | Visi
+Check accounts{TAB}F7<=>Einamos paskyros{TAB}F7
+Join with tab<=>Sujungti su etikete
+Rename tab{TAB}F2<=>Pervardyti etiketæ{TAB}F2
+Mark All Mails Read<=>Paþymëti Visus Paðtus Skaitytus
+Mark All Mails Unread<=>Paþymëti Visus Paðtus Neskaitytus
+You have to add at least one account before you can switch to tab view.<=>Jûs turite pridëti bent jau vienà paskyrà anksèiau, negu Jûs galësite perjungti á etiketës vaizdà.
+Caption:<=>Antraðtë:
+Please enter the caption of the tab:<=>Praðom ávesti etiketës antraðtæ:
+Rename tab<=>Pervardyti etiketæ
+Trash<=>Ðiukðlës
+Tab accounts:<=>Etiketës paskyros:
+
+# Rules
+
+Error while parsing rules file at line {1}!<=>Klaida, gramatiðkai nagrinëdamas taisykliø failà linijoje {1}!
+The item is already contained in the list!<=>Punktas yra jau pateiktas sàraðe!
+
+# Text View
+
+Copy Link Address<=>Kopijuoti Nuorodos Adresà

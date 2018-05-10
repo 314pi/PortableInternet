@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY app "Ekiga">
+<!ENTITY appversion "4.0">
+<!ENTITY manrevision "4.0">
+]>
+<!-- Begin -->
+<article id="index" lang="ca">
+<articleinfo>
+<title><application>Ekiga</application> Manual 4.0 </title>
+
+<copyright><year>2003-2012</year><holder>Damien Sandras</holder></copyright>
+<copyright><year>2003-2004</year><holder>Matthias Redlich</holder></copyright>
+<copyright><year>2003-2004</year><holder>Christopher Warner</holder></copyright><copyright><year>2009</year><holder>Joan Duran (jodufi@gmail.com)</holder></copyright>
+<!-- translators: uncomment this:
+
+<copyright>
+<year>2002</year>
+<holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+</copyright>
+
+-->
+
+<revhistory>
+<revision>
+<revnumber>Ekiga Manual 4.0</revnumber>
+<date>2012-06-03</date>
+<revdescription>
+<para role="author">Damien Sandras</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>Manual de l'Ekiga (versió 3.0)</revnumber>
+<date>31-08-2008</date>
+<revdescription>
+<para role="author">Damien Sandras</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>Manual de l'Ekiga (versió 2.0)</revnumber>
+<date>22-01-2006</date>
+</revision>
+</revhistory>
+
+<publisher>
+<publishername>Damien Sandras</publishername>
+<address><email>dsandras@seconix.com</email></address>
+</publisher>
+<publisher>
+<publishername>Christopher Warner</publishername>
+<address><email>zanee@kernelcode.com</email></address>
+</publisher>
+<publisher>
+<publishername>Matthias Redlich</publishername>
+<address><email>m-redlich@t-online.de</email></address>
+</publisher>
+
+<authorgroup>
+<author role="maintainer">
+<firstname>Damien</firstname>
+<surname>Sandras</surname>
+</author>
+<author>
+<firstname>Christopher</firstname>
+<surname>Warner</surname>
+<othername>zanee</othername>
+</author>
+<author>
+<firstname>Matthias</firstname>
+<surname>Redlich</surname>
+</author>
+</authorgroup>
+
+<releaseinfo>
+This documentation is for version 4.0 of Ekiga.
+</releaseinfo>
+
+<abstract role="description">
+<para>L'Ekiga és una aplicació de veu sobre IP, telefonia IP i vídeoconferència, amb compatibilitat per a múltiples còdecs d'àudio i de vídeo.</para>
+</abstract>
+</articleinfo>
+
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+
+<!-- INTODUCTION          -->
+<!-- What is &app; -->
+
+<section id="ekiga-introduction">
+<title>Introducció</title>
+
+<section><title>Ekiga</title>
+<para>L'<application>Ekiga</application> és una aplicació lliure de veu sobre IP, telefonia IP i vídeoconferència per al Linux i altres sistemes UNIX (ex. BSD, OpenSolaris o MacOSX). L'ha desenvolupat en Damien Sandras sota la llicència GNU/GPL.</para>
+
+<para>L'Ekiga és capaç d'utilitzar protocols moderns de veu sobre IP com ara el SIP i l'H.323. Admet totes les funcions principals d'aquests protocols com la <emphasis>trucada en espera</emphasis>, la <emphasis>transferència de trucada</emphasis>, la <emphasis>desviació de trucades</emphasis>, etc. També inclou <emphasis>missatgeria instantània</emphasis> i poder establir la <emphasis>presència</emphasis>. Té una gran compatibilitat per al <emphasis>NAT transversal</emphasis>. L'Ekiga és compatible amb els millors còdecs d'àudio i vídeo <emphasis>lliures</emphasis> i ofereix compatibilitat per a banda ampla, que juntament amb la supressió de l'eco permeten obtenir una qualitat d'àudio superior.</para>
+</section>
+
+<section><title>SIP i H.323</title>
+<para>El protocol d'inici de sessió (Session Initiation Protocol, SIP) és un protocol desenvolupat per l'IETF MMUSIC Working Group i és un estàndard proposat per a iniciar, modificar i finalitzar una sessió interactiva d'usuari que inclogui elements multimèdia com ara vídeo, veu, missatgeria instantània, jocs en línia i realitat virtual. El novembre de l'any 2000 es va acceptar el SIP com a protocol de senyalització 3GPP i com a element permanent de l'arquitectura IMS. És un del protocols de senyalització líder per a veu sobre IP.</para>
+
+<para>L'H.323 es va crear originalment per a proporcionar un mecanisme per a transportar aplicacions multimèdia a través de xarxes d'àrea local, però va evolucionar ràpidament per a adreçar les necessitats creixents de les xarxes VoIP. Un punt fort de l'H.323 fou la disponibilitat relativament precoç d'un conjunt d'estàndards que no només definien el model bàsic de trucada, si no que afegien els serveis suplementaris necessaris per a les expectatives de les comunicacions dels negocis. L'H.323 va ser el primer estàndard VoIP a adoptar l'estàndard RTP de l'IETF per a transportar àudio i vídeo a través de xarxes IP. L'H.323 està basat en el protocol ISDN Q.931 i és apropiat per a escenaris de treball compartit entre IP i ISDN, així com entre IP i QSIG. Un model de trucada, semblant al model de trucada ISDN, facilita la introducció de la telefonia IP a les xarxes existents dels sistemes PBX basats en ISDN.</para>
+<para>
+<graphic fileref="figures/lumi.png"/>
+</para>
+</section>
+</section>
+
+<section id="ekiga-getting-started">
+<title>Primers passos</title>
+<para>Quan s'inicia l'<application>Ekiga</application> per primer cop, es mostrarà automàticament l'auxiliar de configuració. Aquest és un qüestionari pas a pas que us guiarà a través de tots els passos necessaris per a la creació de la configuració bàsica que necessitareu per a utilitzar l'<application>Ekiga</application>. Hauríeu de realitzar tots aquests passos, en cas contrari l'auxiliar tornarà a aparèixer (quan no s'hagi completat) o l'<application>Ekiga</application> no funcionarà correctament (si alguna de les respostes no és correcta). En qualsevol moment podeu executar l'auxiliar de configuració des del menú «Edita».</para>
+
+<tip><title>Consell</title><para>En qualsevol moment es poden canviar tots els paràmetres mitjançant la finestra de preferències.</para></tip>
+
+
+<section><title>Introducció a l'auxiliar de configuració</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d1.png"/>
+</figure>
+
+<para>La navegació està disponible a la part inferior de la finestra durant tot el procés de configuració. Podreu navegar a través de les preguntes utilitzant «Endavant», «Endarrere» i «Cancel·la». Si feu clic a «Cancel·la» durant la configuració, l'<application>Ekiga</application> no quedarà afectat pels canvis i es descartarà tota la informació introduïda.</para>
+
+<para>Aquesta pàgina us dóna la benvinguda a l'auxiliar de configuració. No hi ha res per a canviar o editar aquí. Premeu el botó «Endavant» a la part inferior de la finestra per a iniciar la configuració.</para>
+</section>
+
+
+<section><title>Informació personal</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d2.png"/>
+</figure>
+
+<para>La finestra d'informació personal necessita que li subministreu informació personal per a utilitzar l'<application>Ekiga</application>. Aquesta informació es mostra quan us connecteu a altres aplicacions d'àudio/vídeo.</para>
+</section>
+
+
+<section><title>Accounts</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d3.png"/>
+</figure>
+
+<para>
+The Accounts window gives you a clear explanation of what accounts are for. You may simply skip it if you already know what an account is and what to use it for.
+</para>
+</section>
+
+
+<section><title>Compte a Ekiga.net</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d4.png"/>
+</figure>
+
+<para>Ekiga.net és una plataforma de serveis SIP lliure per als usuaris de l'<application>Ekiga</application>. Si voleu trucar a altres usuaris o que us puguin trucar, necessiteu una adreça SIP. En podeu obtenir una a <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>. Ekiga.net també ofereix serveis addicionals com sales de conferència, correu de veu o pàgines blanques en línia. Per a obtenir més informació vegeu <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>.</para>
+
+<para>Seguiu l'enllaç proporcionat al diàleg per a obtenir un compte en cas que no en tingueu, i llavors ompliu el nom d'usuari i la contrasenya. Premeu «Endavant» després d'introduir tota la informació necessària per a continuar.</para>
+</section>
+
+
+<section><title>Compte PC-a-telèfon de l'Ekiga</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d5.png"/>
+</figure>
+
+<para>L'<application>Ekiga</application> es pot utilitzar amb diversos proveïdors de serveis de telefonia per Internet. Aquests proveïdors us permeten fer trucades a telèfons reals des de l'ordinador utilitzant l'<application>Ekiga</application> a tarifes interessants. Es recomana utilitzar el proveïdor predeterminat de l'<application>Ekiga</application>.</para>
+
+<para>Si voleu crear un compte i utilitzar-lo per a trucar als amics i als familiars que utilitzen telèfons normals a tarifes interessants, simplement creeu un compte utilitzant l'enllaç «Obteniu un compte PC-a-telèfon de l'Ekiga». Un cop s'hagi creat el compte, rebreu un nom d'usuari i una contrasenya per correu electrònic. Simplement introduïu-los al diàleg i podreu fer trucades normals utilitzant l'<application>Ekiga</application></para>
+
+<para>Amb la configuració predeterminada, podeu utilitzar simplement sip:3210444555 i triar sip.diamondcard.us per a trucar al telèfon real +3210444555 (32 és el codi de país i 10444555 és el número a trucar). Es recomanable que afegiu els vostres números de telèfons preferits a la llibreta d'adreces.</para>
+
+<para>Seguiu l'enllaç proporcionat al diàleg per a obtenir un compte en cas que no en tingueu cap i llavors introduïu el nom d'usuari i la contrasenya. Premeu «Endavant» després d'introduir tota la informació necessària per a continuar.</para>
+</section>
+
+
+<section><title>Tipus de connexió</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d6.png"/>
+</figure>
+
+<para>L'<application>Ekiga</application> és compatible amb diversos còdecs d'àudio i de vídeo. Inclou des de còdecs amb una qualitat excel·lent fins a còdecs amb una qualitat mitjana a bona. Com més gran sigui la qualitat del còdec, més amplada de banda es necessitarà. A més, els còdecs de vídeo poden adaptar la seva qualitat a l'amplada de banda disponible. Aquesta opció és necessària a la configuració inicial de l'<application>Ekiga</application>, de manera que aquest utilitzi el còdec òptim per a la vostra connexió de xarxa i que ajusti els paràmetres que qualitat del vídeo. Si el vostre tipus de connexió no apareix a la llista, hauríeu de seleccionar el tipus de connexió més propera a la vostra xarxa i seguidament ajustar manualment l'<application>Ekiga</application> amb la finestra de preferències (secció de còdecs).</para>
+
+<para>Quan estigueu, continueu amb la configuració.</para>
+</section>
+
+
+<section><title>Dispositius d'àudio</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d7.png"/>
+</figure>
+
+<para>L'<application>Ekiga</application> necessita dispositius d'àudio per a reproduir i enregistrar so. En una trucada, el dispositiu de sortida d'àudio reprodueix el flux d'entrada de so. Seleccioneu el dispositiu on estan connectats els auriculars o els altaveus. El dispositiu d'entrada d'àudio és on està connectat el micròfon. Si només teniu una targeta de so, llavors aquest paràmetre hauria de ser el mateix que els del reproductor d'àudio. Fixeu-vos que també és possible enregistrar so mitjançant un altre dispositiu (ex. micròfon intern d'una càmera web). Aquesta secció també us permet triar el dispositiu del so del timbre. Aquest dispositiu pot ser diferent del dispositiu de sortida d'àudio. Això us permet sentir l'esdeveniment de so del timbre d'una trucada entrant als altaveus mentre teniu els auriculars connectats per a les trucades.</para>
+
+<para>Quan estigueu, continueu amb la configuració.</para>
+</section>
+
+
+<section><title>Dispositius de vídeo</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d8.png"/>
+</figure>
+
+<para>Aquest pas és opcional i només té sentit per els usuaris amb dispositius de vídeo (ex. càmeres web). Podeu ometre aquesta pàgina si no teniu cap dispositiu de vídeo.</para>
+
+<para>Si teniu una càmera web o un dispositiu de vídeo de la llista podeu seleccionar-lo aquí.</para>
+
+<para>Quan estigueu, continueu amb la configuració.</para>
+</section>
+
+
+<section><title>Configuració completada</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d9.png"/>
+</figure>
+
+<para>La configuració de l'<application>Ekiga</application> ja està completada. L'última finestra només mostra un resum breu de la configuració dels paràmetres que heu triat. Verifiqueu que tots aquests paràmetres siguin correctes. Si alguna cosa no és correcta, utilitzeu el botó «Endarrere» a la cantonada inferior dreta de la finestra per a moure-us a qualsevol pàgina de l'auxiliar i corregir l'errada.</para>
+
+<para>Si tot és correcte, premeu el botó «Aplica» per a desar la configuració. L'auxiliar es tancarà i apareixerà la finestra principal de l'<application>Ekiga</application>. Recordeu que tots els paràmetres es poden canviar en qualsevol moment mitjançant la finestra de preferències.</para>
+</section>
+
+</section>
+
+
+
+
+<section id="ekiga-basic-usage">
+<title>Utilització bàsica</title>
+
+<section id="ekiga-calling-and-being-called">
+<title>Com trucar i rebre trucades</title>
+
+<graphic fileref="figures/call_d1.png"/>
+
+<section><title>D'un ordinador a un ordinador (PC-a-PC)</title>
+<para>Si voleu trucar a altres usuaris i que us puguin trucar, necessiteu una adreça SIP. Podeu obtenir una adreça SIP a <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>, com es descriu en la secció anterior.</para>
+
+<para>Altres usuaris poden utilitzar l'adreça SIP per a trucar-vos. De la mateixa manera, podeu utilitzar l'adreça SIP dels vostres amics i familiars per a trucar-los. Per exemple podeu utilitzar <emphasis>sip:dsandras@ekiga.net</emphasis> per a trucar l'autor de l'Ekiga.</para>
+
+<para>Podeu utilitzar la llibreta d'adreces en línia de l'<application>Ekiga</application> per a trobar les adreces SIP d'altres usuaris de l'<application>Ekiga</application>. Per suposat també és possible trucar usuaris que utilitzen un altre proveïdor diferent a Ekiga.net. De fet podeu trucar a qualsevol usuari que utilitzi programari o maquinari SIP i s'hagi registrat a qualsevol proveïdor de SIP públic.</para>
+
+<para>If you know the URI address of the party that you wish to call, you may choose the Chat -&gt; Call a number action, enter that URI into the sip: input box at the bottom of the window and press the Connect button; eg: sip:foo@ekiga.net and clicking on the Connect button would call the user at that address.</para>
+
+<para>També podeu trucar als contactes utilitzant la llibreta d'adreces, l'historial de trucades o la llista. Podeu afegir els contactes que truqueu freqüentment a la llista i veure la seva informació de presència per a saber quan estan disponibles. Consulteu la secció apropiada del manual per a obtenir-ne una explicació completa.</para>
+
+<tip><title>Consell</title><para>L'<application>Ekiga</application> també és compatible amb l'H.323, per la qual cosa podeu trucar a qualsevol programari o maquinari H.323. Consulteu la secció relacionada als URI per a aprendre més coses sobre els diversos tipus d'URI que es poden utilitzar per a trucar a usuaris remots H.323 i SIP.</para></tip>
+</section>
+
+<section><title>D'un ordinador a un telèfon real (PC-a-telèfon)</title>
+<para>L'<application>Ekiga</application> es pot utilitzar amb diversos proveïdors de serveis de telefonia per Internet. Aquest proveïdors us permeten trucar a telèfons reals des del vostre ordinador utilitzant l'<application>Ekiga</application> a tarifes interessants. Es recomana utilitzar el proveïdor predeterminat de l'<application>Ekiga</application>. Podeu obtenir un compte utilitzant l'enllaç a l'auxiliar de configuració tal com es descriu en la secció anterior.</para>
+
+<para>With the default setup, you can simply use sip:3210444555 and select sip.diamondcard.us in the list to call the real phone number +3210444555, 32 being the country code and 10444555 being the number you wish to call.</para>
+
+<para>També podeu trucar a números de telèfon reals des de la llibreta d'adreces. Si el número de telèfon del contacte a qui voleu trucar està emmagatzemat a la llibreta d'adreces, simplement seleccioneu «Acció -&gt; Trucada» [PC-a-telèfon de l'Ekiga] quan el contacte estigui ressaltat. D'aquesta manera trucareu al número de telèfon del contacte utilitzant el PC-a-telèfon de l'Ekiga.</para>
+
+<tip><title>Consell</title><para>L'<application>Ekiga</application> també es pot connectar a sistemes H.323 i SIP PBX. Si el PBX de la vostra oficina admet aquests protocols, podreu trucar a telèfons reals i us podran trucar des de telèfons reals després de connectar-vos al PBX. Demaneu els paràmetres al vostre administrador.</para></tip>
+</section>
+
+<section><title>D'un telèfon real a un ordinador (Telèfon-a-PC)</title>
+<para>L'<application>Ekiga</application> es pot utilitzar per a rebre trucades de telèfons normals. Per a poder-ho fer, simplement cal que entreu el vostre compte PC-a-telèfon utilitzant el menú «Eines» -com s'ha descrit en la secció anterior- i que compreu un número de telèfon del país que trieu. L'<application>Ekiga</application> sonarà quan la gent truqui a aquest número de telèfon.</para>
+
+<tip><title>Consell</title><para>Podeu utilitzar qualsevol proveïdor ITSP d'H.323 o SIP, incloent el vostre propi PBX de la feina. De tota manera es recomana utilitzar el proveïdor integrat.</para></tip>
+</section>
+
+</section>
+
+
+<section id="ekiga-manage-contacts">
+<title>Gestió dels contactes</title>
+
+<section><title>Com afegir contactes a la llista</title>
+<graphic fileref="figures/roster.png"/>
+
+<para>
+<application>Ekiga</application> allows you to add the contacts you
+dial the most to the roster, so that you can call or start a chat conversation with your friends without having to remember their URI. If supported by the service you are connecting to, <application>Ekiga</application> will display <emphasis>extended presence information</emphasis> about your friends.
+Ekiga.net supports publishing presence information for its users. Software PBX systems like <ulink url="http://www.asterisk.org" type="http">Asterisk</ulink> can report if a user is on the phone or not, and <application>Ekiga</application> will display that information in its roster.
+</para>
+
+<para>Podeu utilitzar l'<application>Ekiga</application> per a fer un seguiment de les línies del vostre PBX.</para>
+
+<para>L'<application>Ekiga</application> també pot detectar altres usuaris de l'<application>Ekiga</application> de la LAN gràcies a la tecnologia Bonjour popularitzada per Apple (tm) i els mostrarà a la llista. Se suposa que heu de tenir un dimoni local mDNSResponder executant-se al vostre ordinador. En sistemes Linux aquest servei normalment el proporciona l'Avahi.</para>
+
+<para>
+To add a contact to the roster, select Chat -&gt; Add Contact, and fill in the required fields. If the service managing the URI you entered for the contact is able to publish presence status, Ekiga will automatically display it.
+</para>
+
+<para>
+If you do not know the VoIP URI of a contact, you might try searching for him/her using the Ekiga.net online directory. To do so, select Chat -&gt; Address Book, and start searching using the 'Search Filter' feature.
+</para>
+
+<tip><title>Consell</title><para>Podeu organitzar els contactes en grups a la llista.</para></tip>
+</section>
+
+<section><title>Com gestionar els contactes</title>
+<graphic fileref="figures/addressbook_d1.png"/>
+
+<para>
+<application>Ekiga</application> allows you to look for contacts using various sources like the <ulink url="https://www.suse.com/products/desktop/features/evolution.html" type="http">Novell Evolution Email and Calendaring</ulink> address book, any LDAP directory or the Ekiga.net contact directory. You can use the result of your search to start a chat, call the contact, or simply add him to your roster if you have frequent calls with him. To start looking for contacts, select Chat -&gt; Address Book in the menu.
+To your left there will be a list dialog showing the LDAP directories as well as a list of local Address Books. The defaults are the <application>Ekiga</application> white pages, and the personal address book from <ulink url="https://www.suse.com/products/desktop/features/evolution.html" type="http">Novell Evolution</ulink>. Support for more contact sources is possible.
+</para>
+
+<para>L'<application>Ekiga</application> pot cercar a qualsevol directori LDAP i utilitzar qualsevol atribut com a adreça URI per a trucar. Per exemple, podeu tenir un directori LDAP a la vostra empresa, amb un atribut específic que contingui les extensions locals de tots els companys de feina. L'<application>Ekiga</application> pot utilitzar aquest tipus de directoris LDAP. Simplement seleccioneu «Llibreta d'adreces -&gt; Afegeix una llibreta d'adreces LDAP» i empleneu els detalls necessaris. Llavors podeu fer clic amb el botó secundari al contacte per a trucar-lo utilitzant l'atribut de trucada com a URI de VoIP.</para>
+
+<graphic fileref="figures/addressbook_d2.png"/>
+
+<para>
+The LDAP Address Book supports a range of settings to allow it to work with any LDAPv3 directory. It allows you to choose the attribute to use for displaying a contact's name in the address book as well as a list of attributes for calling info. E.g., if the directory uses the LDAP inetOrgPerson schema you can configure the Address Book to retrieve the homePhone, mobile, and pager attributes make those values available for calling or messaging. You can also customize a Filter Template for the default LDAP search filter, and override the default filter at any time if you need to perform a more specialized search. The browser also supports all security options for LDAP including ldaps:// (LDAP over SSL), StartTLS, and SASL authentication.
+</para>
+
+<para>Per a refrescar la llista d'usuaris d'una llibreta d'adreces específica, simplement feu clic al botó «Cerca», amb la qual cosa es cercaran tots els usuaris d'aquesta llibreta d'adreces. Podeu contactar amb gent en fer doble clic al seu camp ressaltat. També els hi podeu enviar un missatge en fer-hi clic amb el botó secundari o en triar l'acció apropiada al menú «Acció» de la finestra.</para>
+
+<para>En alguns casos voldreu cercar especificant el nom d'una persona o el seu URI de trucada a les pàgines blanques de l'<application>Ekiga</application>. La finestra de la llibreta d'adreces us permet aplicar filtres quan cerqueu contactes. Quan cerqueu a un directori LDAP, en introduir un nom simple al camp «Filtre de cerca» es realitzarà una cerca d'una subcadena LDAP utilitzant la plantilla de filtre configurada. Si necessiteu realitzar una cerca més especialitzada, podeu introduir una cadena de filtre LDAP completa i aquesta s'utilitzara en lloc de la plantilla de filtre configurada.</para>
+
+<tip><title>Consell</title><para>The <application>Ekiga</application> white pages return a limited number of results corresponding to your search. You can then add them to your personal roster to call them later.</para></tip>
+</section>
+
+<section><title>Com editar els contactes</title>
+<graphic fileref="figures/addressbook_d3.png"/>
+
+<para>
+Local address books provided by Novell Evolution allow you to add new contacts, or to edit existing contacts. Each different address book allows a different set of features depending on what makes sense for that specific address book. To discover what features are possible, simply select the address book and consult the Action menu, or right-click on the address book name.
+</para>
+
+<para>
+To add a contact to one of your local address books, simply select the address book you wish to add the contact to and select Action -&gt; New Contact. The option of adding a New Contact will appear and you may now enter his name and VoIP URI as well as other settings. When finished, select 'OK' and your contact has been added. You can only add contacts to local address books. The contact parameters can be changed at any time by selecting Action -&gt; Edit when the contact is highlighted. He can also be deleted by selecting Action -&gt; Remove.
+</para>
+
+<para>
+You can also add a contact from the white pages (or any other local or remote address book) to the roster by selecting Action -&gt; Add to local roster.
+</para>
+
+</section>
+
+</section>
+
+<section id="ekiga-sending-instant-messages">
+<title>Com enviar missatges instantanis</title>
+
+<graphic fileref="figures/chat_d1.png"/>
+
+<para>L'<application>Ekiga</application> us permet enviar missatges instantanis a usuaris remots si sabeu el seu URI.</para>
+
+<para>
+You can send instant messages from the roster, from the call history or from the address book. From the roster or from the call history, simply select Chat -&gt; Contact -&gt; Message in the main window when a contact is highlighted. From the address book window, simply select Action -&gt; Message when the contact is highlighted. A window pops up, enter your text message, and hit the Enter key.
+</para>
+
+<tip><title>Consell</title><para>No tots els protocols de comunicació permeten intercanviar missatges de text. L'<application>Ekiga</application> només mostrarà l'element de menú «Missatge» quan el protocol associat amb l'usuari ho permeti.</para></tip>
+</section>
+
+
+<section id="ekiga-changing-status">
+<title>Com actualitzar el propi estat</title>
+
+<graphic fileref="figures/status.png"/>
+
+<para>L'<application>Ekiga</application> us permet publicar el vostre estat a altres usuaris.</para>
+
+<para>
+There are three categories of status messages : online, away and busy. Each of them allows you to specify a more complete status information. Simply select Custom message in the status menu at the bottom of the main window. You can then define your extended status message that will be published using all available protocols supporting it.
+</para>
+
+<tip><title>Consell</title><para>Molts servidors no admeten la publicació de la informació de presència ampliada. Per a assegurar-vos que aquesta funció està disponible al servidor que utilitzeu o al PBX on esteu connectat, demaneu-ho al vostre l'administrador. Tingueu en compte que Ekiga.net publicarà la vostra informació de presència.</para></tip>
+</section>
+
+
+<section id="ekiga-manage-calls">
+<title>Com gestionar les trucades</title>
+
+<section><title>Desviació de les trucades d'entrada</title>
+<para>L'<application>Ekiga</application> admet diferents configuracions per a trucades perdudes. Per defecte es mostra una finestra emergent que us permet decidir si voleu acceptar o rebutjar la petició d'una trucada entrant. Si no contesteu la trucada dins del temps establert, si esteu ocupat o si no voleu rebre cap trucada, l'<application>Ekiga</application> pot desviar la trucada a un altre interlocutor.</para>
+
+<para>Fixeu-vos que heu d'especificar un URI on desviar les trucades a les preferències per a poder activar aquesta opció. Obriu la finestra de preferències amb el menú «Edita -&gt; Preferències» a la finestra principal i seleccioneu «Opcions de trucada» a l'esquerra. Veureu la secció corresponent. Aquesta conté tres caselles de selecció per als tres casos descrits anteriorment. L'URI de l'interlocutor on es desviaran les trucades es pot configurar separadament als «Paràmetres SIP» per al SIP i als «Paràmetres H.323» per a l'H.323.</para>
+</section>
+
+<section><title>Com controlar la trucada</title>
+<para><application>Ekiga</application> supports several actions which can be performed when being in a call. These actions enable you to control active sessions. It can be done using the menu and toolbar icons from the call window that appears as soon as a call is setup.</para>
+
+<graphic fileref="figures/call_window.png"/>
+
+<itemizedlist>
+<listitem>
+<para>Ending a call: The communication to the remote user can be ended by selecting Call -&gt; Hang up.</para>
+</listitem>
+
+<listitem>
+<para>Holding a call: You can hold a remote party call by selecting Call -&gt; Hold Call. This effectively pauses Video and Audio transmission; to continue transmission again you select Call -&gt; Retrieve Call and Video and Audio Transmission will begin again.</para>
+</listitem>
+
+<listitem>
+<para>Suspending Audio: This effectively prevents all Audio communication to your respective party when selecting Call -&gt; Mute Audio.</para>
+</listitem>
+
+<listitem>
+<para>Suspending Video: This effectively prevents all Video transmission to your respective party when selecting Call -&gt; Suspend Video.</para>
+</listitem>
+
+<listitem>
+<para>Transferring the remote party: You can transfer the remote user to another user by selecting Call -&gt; Transfer Call. It is also possible to transfer an active call by right-clicking and choosing the transfer action when a contact is highlighted in the roster, in the address book or in the call history. Double-clicking or selecting the Contact menu in the main window or the Action menu in the Address Book window and choosing the transfer action will also work.</para>
+</listitem>
+</itemizedlist>
+
+<tip><title>Consell</title><para>Es poden utilitzar tots els URI compatibles amb l'<application>Ekiga</application> per a transferir una trucada si el protocol ho admet.</para></tip>
+</section>
+
+<section><title>Com ajustar els paràmetres d'àudio i de vídeo</title>
+<para>
+Your audio and video settings can be adjusted through the call window while you are in a call. The audio volume, but also the brightness, whiteness, color and contrast of your video input device can be changed to achieve the best quality.
+</para>
+
+<para>També podeu canviar els vostres dispositius d'àudio i de vídeo durant una trucada. Només heu d'anar a la finestra de preferències seleccionant el menú «Edita -&gt; Preferències» i ajustar els dispositius a la secció apropiada.</para>
+</section>
+
+<section><title>Com comprovar l'historial de trucades</title>
+
+<graphic fileref="figures/call_history.png"/>
+
+<para>The Call History stores information (date, duration, URI, Remote user) about all outgoing and incoming calls. They are divided into three groups - received calls, placed calls and missed calls. You can consult the call history by selecting View -&gt; Call History in the menu or by clicking on the appropriate icon in the toolbar.</para>
+
+<tip><title>Consell</title><para>En fer doble clic a una fila de l'historial de trucades trucareu a l'usuari seleccionat o transferireu una trucada activa a aquest usuari. Fixeu-vos que també podeu afegir el contacte a la llista en seleccionar al menú «Xat -&gt; Contacte -&gt; Afegeix a la llista local» quan la trucada està ressaltada.</para></tip>
+</section>
+
+</section>
+</section>
+
+<section id="ekiga-advanced-usage">
+<title>Utilització avançada</title>
+
+<section id="ekiga-registering-additional-accounts">
+<title>Com registrar comptes addicionals</title>
+
+<section><title>La finestra de comptes</title>
+
+<graphic fileref="figures/accounts_d1.png"/>
+
+<para>
+You can open the accounts window by selecting Edit -&gt; Accounts. This will open the accounts window. The accounts window will allow you to add Ekiga.net, Ekiga Call Out, SIP and H.323 accounts and to register to them.
+An account describes the user login and password parameters to register to SIP and H.323 services. Those <emphasis>services</emphasis> can be an Internet Telephony Service provider (like ekiga.net), or an IPBX (like CISCO, Nortel, or Asterisk).
+</para>
+</section>
+
+<section><title>Com afegir un compte d'Ekiga.net</title>
+
+<graphic fileref="figures/accounts_ekiga_net.png"/>
+
+<para>
+To add an Ekiga.net account, simply select Accounts -&gt; Add an Ekiga.net Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Nom d'usuari:</emphasis> Podeu introduir el vostre nom d'usuari.</para></listitem>
+<listitem><para><emphasis>Contrasenya:</emphasis> Podeu introduir la vostra contrasenya.</para></listitem>
+</itemizedlist>
+</para>
+
+<para>Ekiga.net és una plataforma de serveis SIP lliure per als usuaris de l'<application>Ekiga</application>. Si voleu trucar a altres usuaris o que us puguin trucar us caldrà una adreça SIP. En podeu obtenir una a <ulink url="http://www.ekiga.net" type="http">http://www.Ekiga.net</ulink>. Ekiga.net també ofereix serveis addicionals com ara sales de conferència, correu de veu o pàgines blanques en línia. Per a obtenir més informació vegeu <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>.</para>
+</section>
+
+<section><title>Com afegir un compte PC-a-telèfon de l'Ekiga</title>
+
+<graphic fileref="figures/accounts_ekiga_call_out.png"/>
+
+<para>
+To add an Ekiga Call Out account, simply select Accounts -&gt; Add an Ekiga Call Out Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Identificador del compte:</emphasis> Podeu introduir el vostre identificador del compte.</para></listitem>
+<listitem><para><emphasis>Codi PIN:</emphasis> Podeu introduir el vostre codi PIN.</para></listitem>
+</itemizedlist>
+</para>
+
+<para>Si encara no teniu un compte PC-a-telèfon de l'Ekiga, en podeu obtenir un si aneu feu clic a l'enllaç «Obteniu un compte PC-a-telèfon d'Ekiga.net» del diàleg. Com s'ha descrit en les seccions anteriors, aquest servei us permetrà trucar a telèfons normals de qualsevol lloc del món a tarifes interessants. Un cop s'ha afegit el compte, podeu recarrega-lo, consultar l'historial del balanç o l'historial de trucades si seleccioneu l'element del menú apropiat al menú «Compte» de la finestra quan el compte estigui ressaltat.</para>
+</section>
+
+<section><title>Com afegir un compte SIP</title>
+
+<graphic fileref="figures/accounts_sip.png"/>
+
+<para>
+To add a SIP account, simply select Accounts -&gt; Add a SIP Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Nom:</emphasis> Podeu introduir el nom del compte.</para></listitem>
+<listitem><para><emphasis>Registrador:</emphasis> el registrador on us voleu registrar. Normalment és una adreça IP o el nom d'un ordinador remot que us proporcionarà el vostre proveïdor de serveis de telefonia per Internet o el vostre administrador si intenteu registrar-vos a un SIP IPBX.</para></listitem>
+<listitem><para><emphasis>Nom d'usuari:</emphasis> Podeu introduir el vostre nom d'usuari.</para></listitem>
+<listitem><para><emphasis>Usuari per a l'autenticació:</emphasis> si és diferent del paràmetre nom d'usuari proporcionat a sobre. En aquest cas, el nom d'usuari s'utilitzarà per a controlar l'identitat de sortida del compte que esteu afegint, mentre que l'usuari per a l'autenticació s'utilitzarà a la fase d'autenticació.</para></listitem>
+<listitem><para><emphasis>Contrasenya:</emphasis> Podeu introduir la vostra contrasenya.</para></listitem>
+<listitem><para><emphasis>Temps d'espera:</emphasis> el temps d'espera després del qual el registre s'hauria d'actualitzar.</para></listitem>
+</itemizedlist>
+</para>
+
+</section>
+
+<section><title>Com afegir un compte H.323</title>
+
+<graphic fileref="figures/accounts_h323.png"/>
+
+<para>
+To add an H.323 account, simply select Accounts -&gt; Add an H.323 Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Nom:</emphasis> Podeu introduir el nom del compte.</para></listitem>
+<listitem><para><emphasis>Gatekeeper:</emphasis> el gatekeeper on us voleu registrar. Normalment és una adreça IP o el nom d'un ordinador remot que us proporcionarà el vostre proveïdor de serveis de telefonia per Internet o el vostre administrador si intenteu registrar-vos a un H.323 IPBX.</para></listitem>
+<listitem><para><emphasis>Nom d'usuari:</emphasis> Podeu introduir el vostre nom d'usuari.</para></listitem>
+<listitem><para><emphasis>Usuari per a l'autenticació:</emphasis> si és diferent del paràmetre nom d'usuari proporcionat a sobre. En aquest cas, el nom d'usuari s'utilitzarà per a controlar l'identitat de sortida del compte que esteu afegint, mentre que l'usuari per a l'autenticació s'utilitzarà a la fase d'autenticació.</para></listitem>
+<listitem><para><emphasis>Contrasenya:</emphasis> Podeu introduir la vostra contrasenya.</para></listitem>
+<listitem><para><emphasis>Temps d'espera per al registre:</emphasis> el temps d'espera després del qual el registre s'hauria d'actualitzar.</para></listitem>
+</itemizedlist>
+</para>
+
+</section>
+
+</section>
+
+<section id="ekiga-uris">
+<title>Entendre els URI</title>
+
+<section><title>URI SIP</title>
+
+<para>Els URI SIP tenen una estructura a l'estil «sip:usuari@[ordinador[:port]]»</para>
+
+<para>Això us permet trucar a l'usuari determinat o l'extensió del servidor intermediari SIP especificat: <emphasis>sip:jonita@ekiga.net</emphasis></para>
+</section>
+
+
+<section><title>URI H.323</title>
+
+<para>Els URI H.323 tenen una estructura a l'estil «h323:[usuari@][ordinador[:port]]»</para>
+
+<para>Això us permet: <itemizedlist>
+<listitem><para>Trucar a un ordinador remot determinat a un port diferent del port predeterminat, que és el 1720: <emphasis>h323:seconix.com:1740</emphasis></para></listitem>
+<listitem><para>Trucar a un usuari determinat utilitzant el seu respectiu sobrenom si s'ha registrat a un gatekeeper: <emphasis>h323:jonita</emphasis></para></listitem>
+<listitem><para>Trucar a un número de telèfon determinat si esteu registrat a un gatekeeper des d'un proveïdor PC-a-telèfon o si aquest usuari té un registre ENUM associat a un URI H.323: <emphasis>h323:003210111222</emphasis></para></listitem>
+<listitem><para>Trucar a un usuari determinat utilitzant el seu sobrenom a través d'una passarel·la o d'un servidor intermediari específic: <emphasis>h323:jonita@gateway.seconix.com</emphasis></para></listitem>
+<listitem><para>Trucar a un MCU i entrar a una sala específica: <emphasis>h323:myfriendsroom@mcu.seconix.com</emphasis></para></listitem>
+</itemizedlist></para>
+</section>
+
+</section>
+
+
+<section id="ekiga-video-bandwidth">
+<title>Control de l'amplada de banda del vídeo</title>
+
+<para><application>Ekiga</application> uses a best-effort algorithm to maintain a low bandwidth when transmitting video.  It will permit <application>Ekiga</application> to dynamically adjust the video bandwidth and the number of transmitted images per second during a call while trying to respect the requested video bandwidth.</para>
+
+<para>Fixeu-vos que l'algorisme és «el més òptim», cosa que significa que si els paràmetres de l'amplada de banda del vídeo són baixos, serà impossible respectar-los. Tot i així, si l'amplada de banda del vídeo permet transmetre amb una millor qualitat o més ràpid que els valors sol·licitats, llavors l'<application>Ekiga</application> els incrementarà dinàmicament de manera que la qualitat i les imatges per segon siguin sempre les millors possibles.</para>
+
+<!-- <para>Choosing a higher framerate and a lower quality will have the same result in terms of video bandwidth as choosing a higher quality with a lower framerate. The choice depends on if you prefer using your bandwidth to transmit more lower quality images or fewer high quality images.</para>-->
+</section>
+
+
+<section id="ekiga-monitoring-lines">
+<title>Seguiment de les línies</title>
+
+<graphic fileref="figures/monitoring_lines.png"/>
+
+<para>L'<application>Ekiga</application> es pot connectar a sistemes PBX que admeten el protocol SIP. En aquests casos, és capaç d'indicar si la línia associada amb un usuari s'està utilitzant. Consulteu la documentació del vostre PBX per a habilitar aquesta funció.</para>
+
+<para>Per a habilitar aquesta funció a l'<application>Ekiga</application>, només heu d'afegir a la llista el contacte amb el seu URI. Si el servidor admet la publicació de la informació de presència, l'<application>Ekiga</application> publicarà automàticament la vostra informació de presència i mostrarà la presència dels contactes a la llista.</para>
+</section>
+
+<section id="ekiga-audio-codecs">
+<title>Gestió dels còdecs</title>
+
+<section><title>Còdecs d'àudio</title>
+
+<graphic fileref="figures/audio_codecs.png"/>
+
+<para>La taula de còdecs d'àudio a les preferències de l'<application>Ekiga</application> us permet canviar l'ordre dels còdecs, així com inhabilitar els que no vulgueu utilitzar. Cada còdec té punts forts i dèbils. Per exemple, el G.711 us donarà la millor qualitat de veu però utilitzarà més amplada de banda, mentre que l'SPEEX us donarà una qualitat de veu mitjana però necessitarà un ús d'amplada de banda molt baix. Fixeu-vos que hi ha dues versions de l'SPEEX, una de les quals és l'SPEEX WideBand, que té 16 kHz de freqüència.</para>
+</section>
+
+<section><title>Còdecs de vídeo</title>
+
+<graphic fileref="figures/video_codecs.png"/>
+
+<para>La taula de còdecs de vídeo a les preferències de l'<application>Ekiga</application> us permet canviar l'ordre dels còdecs, així com inhabilitar els que no vulgueu utilitzar. L'<application>Ekiga</application> admet còdecs com ara l'H.261, l'H.263+, l'H.264, el MPEG-4 o el Theora.</para>
+</section>
+
+
+<section><title>Reordenació dels còdecs</title>
+<para>
+When you reorder the codecs, you are reordering the local capabilities table, ie the codecs you will use for sending. The codec used is the first active codec on receiver which is active on sender.</para>
+</section>
+
+<section><title>Com forçar l'ús d'un còdec específic</title>
+<para>Podeu forçar la utilització d'un còdec específic en inhabilitar tots els altres còdecs, tot i que això pot resultar en trucades fallides si l'usuari remot no admet el còdec específic. La millor opció es posar els vostres còdecs preferits a la part superior de la llista, de manera que sempre transmeteu amb ells si l'usuari remot ho permet i inhabilitar els còdecs que no vulgueu utilitzar per a transmetre o rebre.</para>
+</section>
+
+<section><title>Com ajustar la memòria intermèdia del jitter</title>
+<para>Podeu ajustar el retard per a esperar abans de reproduir les memòries intermèdies de so que heu rebut utilitzant l'ajustament de la memòria intermèdia del jitter. Si també s'han perdut masses paquets, el retard necessari per a rebre tots els paquets pot ser tant important que excedeixi la memòria intermèdia del jitter. En aquests casos, el so que esteu rebent tindrà una qualitat dolenta. Una solució pot ser incrementar el límit màxim de la memòria intermèdia del jitter a uns quants segons, cosa que suposaria un gran retard però milloraria la qualitat de la veu. Fixeu-vos que la memòria intermèdia del jitter es readaptarà al retard més baix que permeti una transmissió òptima, i que una qualitat de veu dolenta a la recepció no és deguda a un valor baix de la memòria intermèdia del jitter, sinó a una qualitat dolenta de la connexió d'Internet.</para>
+</section>
+
+</section>
+
+
+<section id="ekiga-defining-ports">
+<title>Com canviar els ports</title>
+
+<section><title>Els ports on escoltar</title>
+<para>A l'<application>Ekiga</application> el port principal utilitzat per a escoltar les connexions entrants per a SIP és el port 5060 (UDP), mentre que el 1720 (TCP) s'utilitza per a l'H.323. Per a canviar aquests ports haureu d'iniciar el «gconf-editor». Obriu el gconf-editor, seleccioneu «apps» al menú a la banda esquerra, després «ekiga» i finalment «protocols». Llavors seleccioneu «sip» o «h323» i us hauria d'aparèixer una llista a la finestra corresponent a la dreta. Seleccioneu «listen_port» i canvieu-lo al valor desitjat. També podeu canviar els rangs de ports UDP/RTP.</para>
+</section>
+
+<section><title>Explicació dels rangs de ports</title>
+
+<para>1. El valor de «listen_port» es el port que utilitzarà l'<application>Ekiga</application> per a escoltar les connexions entrants. És diferent per al SIP i per a l'H.323.</para>
+
+<para>2. El valor de «udp_port_range» és el rang de ports UDP que l'<application>Ekiga</application> utilitzarà per a la senyalització SIP o quan es registri als gatekeepers H.323. També s'utilitza per a l'RTP (canals de comunicació d'àudio i vídeo).</para>
+
+<para>3. El valor de «tcp_port_range» és el rang de ports TCP que l'<application>Ekiga</application> utilitzarà juntament amb els definits a «listen_port» per al canal H.245 amb el protocol H.323. Aquest rang de ports no s'utilitza amb el SIP. Tampoc s'utilitza quan la tunelització H.245 està habilitada, cosa que és habitual, excepte quan truqueu a implementacions velles de l'H.323, com ara el NetMeeting.</para>
+</section>
+</section>
+
+
+<section id="controlling-sip-h323-settings">
+<title>Com controlar els paràmetres del SIP i de l'H.323</title>
+<section id="ekiga-sip">
+<title>Com controlar els paràmetres del SIP</title>
+
+<section><title>Altres paràmetres</title>
+<para><emphasis>Servidor intermediari de sortida</emphasis></para>
+<para>El servidor intermediari de sortida és el servidor intermediari SIP que repetirà les vostres trucades. El seu comportament és semblant al del d'un servidor intermediari HTTP, és a dir, un element que realitza les peticions en lloc vostre i que fa de servidor intermediari dels fluxos.</para>
+
+<para><emphasis>URI de desviament</emphasis></para>
+<para>L'URI on les trucades entrants SIP s'haurien de desviar si es configura a les preferències.</para>
+
+</section>
+</section>
+
+<section id="ekiga-h323">
+<title>Com controlar els paràmetres de l'H.323</title>
+
+<section><title>Altres paràmetres</title>
+<para><emphasis>URI de desviament</emphasis></para>
+<para>L'URI on les trucades entrants H.323 s'haurien de desviar si es configura a les preferències.</para>
+
+</section>
+
+<section><title>Paràmetres avançats</title>
+<para>L'<application>Ekiga</application> permet un control precís dels paràmetres H.323 a la secció de paràmetres avançats de l'H.323 de les preferències. Podeu habilitar la tunelització H.245, l'H.245 a l'inici i l'arrencada ràpida.</para>
+
+<para><emphasis>Tunelització H.245</emphasis></para>
+
+<para>La tunelització H.245 és l'encapsulament dels missatges H.245 amb els missatges H.225/Q.931 (tunelització H.245). Si teniu un talla-focs i habiliteu la tunelització H.245, hi haurà un port TCP menys on haureu de permetre les connexions entrants.</para>
+
+<para><emphasis>H.245 a l'inici</emphasis></para>
+
+<para>Habilita l'H.245 a l'inici de la configuració i permet aconseguir un inici de trucada més ràpid.</para>
+
+<para><emphasis>Arrencada ràpida</emphasis></para>
+
+<para>L'arrencada ràpida és un mètode nou d'establiment de trucada que omet alguns passos normals per a fer-lo més ràpid. A més de la millora de velocitat, l'arrencada ràpida permet que els canals del medi siguin operacionals abans que s'hagi enviat el missatge CONNECT, que és un requeriment per a certs procediments de facturació. Es va introduir a la versió 2 de l'H.323.</para>
+</section>
+
+</section>
+</section>
+</section>
+
+<section id="ekiga-about">
+<title>Quant a l'<application>Ekiga</application></title>
+<para><application>Ekiga</application> is written by Damien Sandras (<email>dsandras@seconix.com</email>) with the help of many volunteers. Active maintainers are Damien Sandras (<email>dsandras@seconix.com</email>), Eugen Dedu (<email>Eugen.Dedu@pu-pm.univ-fcomte.fr</email>) and Julien Puydt (<email>jpuydt@free.fr</email>).
+To find more information about <application>Ekiga</application>, please visit the <ulink url="http://www.ekiga.org" type="http"><application>Ekiga</application> Home Page</ulink>.
+</para>
+
+<para>Per a informar d'un error o fer algun suggeriment sobre aquesta aplicació o aquest manual, seguiu les indicacions d'<ulink url="ghelp:user-guide?feedback" type="help">aquest document</ulink>.</para>
+
+<para>Aquest programa es distribueix sota els termes de la Llicència pública general de GNU tal com publica la Free Software Foundation; tant en la versió 2 de la llicència, o (a la vostra opció) una versió posterior. Es pot trobar una còpia d'aquesta llicència a aquest <ulink url="ghelp:gpl" type="help">enllaç</ulink>, o en el fitxer COPYING inclòs amb el codi font d'aquest programa.</para>
+</section>
+
+
+
+<section id="ekiga-appendix">
+<title>Apèndix</title>
+
+<section id="ekiga-related">
+<title>Programari relacionat</title>
+
+<para><emphasis>IPBX</emphasis></para>
+<itemizedlist>
+<listitem><para>Asterisk PBX: <ulink url="http://asterisk.org" type="http">http://asterisk.org</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>SIP</emphasis></para>
+<itemizedlist>
+<listitem><para>SIP Express Router: <ulink url="http://www.iptel.org/ser" type="http">http://www.iptel.org/ser</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>H.323</emphasis></para>
+<itemizedlist>
+<listitem><para>OpenH323 Gatekeeper: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+<listitem><para>GNU Gatekeeper: <ulink url="http://www.gnugk.org" type="http">http://www.gnugk.org</ulink></para></listitem>
+<listitem><para>OpenH323 Proxy: <ulink url="http://openh323.sourceforge.net" type="http">http://openh323.sourceforge.net</ulink></para></listitem>
+<listitem><para>H323 - ISDN Gateway: <ulink url="http://www.telos.de/linux/H323/" type="http">http://www.telos.de/linux/H323/</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>Programari de conferència i VoIP</emphasis></para>
+
+<itemizedlist>
+<listitem><para>OpenMCU: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>Clients similars</emphasis></para>
+
+<itemizedlist>
+<listitem><para>XTen: <ulink url="http://www.xten.com" type="http">http://www.xten.com</ulink></para></listitem>
+<listitem><para>SJPhone: <ulink url="http://www.sjlabs.com/" type="http">http://www.sjlabs.com/</ulink></para></listitem>
+<listitem><para>OpenPhone: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+<listitem><para>Netmeeting: <ulink url="http://www.microsoft.com" type="http">http://www.microsoft.com</ulink></para></listitem>
+</itemizedlist>
+
+</section>
+</section>
+
+</article>
+<!-- END -->

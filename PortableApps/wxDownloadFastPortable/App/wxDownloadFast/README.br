@@ -1,0 +1,152 @@
+wxDownload Fast
+=====================================================================
+
+1) Introdução
+-------------
+wxDownload Fast (também conhecido como wxDFast) é um gerenciador de
+downloads de código aberto. Ele é multi-plataforma, por isso ele é
+compatível com Windows(2k,XP), Linux e MacOS. Além disso, ele é um
+gerenciador de downloads multi-threaded. Isto significa que ele pode
+quebrar um arquivo em várias partes e baixar estas partes simultanea-
+mente, juntando-as novamente no final.
+Ele foi criado com o intuito de substituir os gerenciadores de down-
+loads comerciais existentes hoje em dia. Deste modo pretendo adicionar
+o máximo de opções possíveis de modo a deixar o programa o mais
+completo possível.
+
+2) Características do Programa
+------------------------------
+* Downloads mais rápidos (com transferências Segmentadas/Multi-threaded/Aceleradas)
+* Reinicio de downloads (Pare e reinicie onde você parou)
+* Agendamento de downloads
+* Organiza os arquivos que você já baixou
+* Visualização de mensagens do servidor (HTTP, FTP, file://). Sem suporte HTTPS.
+* Disponível em vários idiomas e facilmente traduzível. Disponível agora
+  em Português [Brasil], Espanhol, Inglês, Alemão, Russo, Húngaro, Polonês,
+  Indonésio, Francês, Turco e Holandês
+* Conexão com servidores FTP/HTTP que necessitam de senhas
+* Calcula o código de verificação MD5/SHA1 dos arquivos baixados, de modo que possam
+  ser verificados facilmente
+* Integração com o Firefox usando FlashGot
+* Pode ser utilizado como um gerenciador de downloads portável, podendo ser utilizado
+  diretamente de um pendrive (apenas no sistema Windows)
+* Pode ser utilizado sobre servidores de proxy(suporte à HTTP proxy)
+
+
+3) Parâmetros da linha de comando
+--------------------------------
+[URLS],
+Urls, separadas por espaço, dos arquivos a serem baixados
+Ex: www.foo.com/foo.exe ftp://ftp.foo.com/foo2.exe http://foo.com:8080/foo3.exe
+
+--hide,
+Iniciar com a janela principal escondida
+
+--notray,
+Não mostrar o ícone do programa na bandeja do sistema
+
+-list TEXTFILE, --list=TEXTFILE,
+Passa um arquivo de texto com a lista de arquivos a serem baixados
+sendo cada linha uma url
+
+-destination DIR, --destination=DIR,
+Diretório de destino
+
+-reference URL, --reference=URL
+Passa uma URL, que será guardada como uma URL de referência
+
+-comments COMMENTS, --comments=COMMENTS,
+Adiciona comentários ao download
+
+4) Integração com o Firefox
+---------------------------
+Para ativar a integração com o Firefox faça o seguinte:
+
+1) Instale a extenção FlashGot para o Firefox(www.flashgot.org/getit)
+2) Após reiniciar o Firefox vá em Ferramentas -> FlashGot -> Mais opções
+3) Agora selecione "wxDownload Fast" na lista de Gerenciadores de Download
+
+5) Instalação
+-------------
+
+5.1) Win32
+----------
+
+- Instalando a partir do binário
+
+Está disponível na página do programa um arquivo binário contendo este programa.
+Este arquivo está na forma de uma programa de instalação.
+
+- Compilando código fonte
+
+* Utilizando o make+gcc
+
+Para compilar o programa no Windows é necessário o MinGW e o MSys[www.mingw.org]
+que são o compilador GCC para windows e um ambiente unix respectivamente.
+Além disso é necessário a biblioteca wxWidgets[www.wxwidgets.org], compilada
+com a opções: --enable-xrc --enable-unicode.
+De posse dos requisitos acima basta entrar na pasta onde o código fonte foi 
+descompactado e digitar:
+# make -f Makefile.gcc BUILD=win32
+
+Com isso o executável será gerado, bastando em seguida copiar o arquivo executável
+para um local desejado, e utilizá-lo.
+
+* Utilizando o nmake+MSVC
+
+Para compilar o programa no Windows é necessário o Microsoft Visual C++[versão
+comercial] ou ainda o Microsoft Visual C++ Toolkit 2003 [versão freeware] + o 
+Microsoft Platform SDK.
+Além disso é necessário a biblioteca wxWidgets[www.wxwidgets.org], compilada
+com a opções: --enable-xrc --enable-unicode.
+De posse dos requisitos acima basta entrar na pasta onde o código fonte foi 
+descompactado e digitar:
+# nmake -f Makefile.vc
+
+OBS: Não esqueça de carregar as varáveis de ambiente referentes ao VC.
+     Normalmente existe um atalho na pasta do VC no menu iniciar que faz
+     isso automaticamente.
+
+5.2) Linux
+----------
+
+- Compilando código fonte
+
+Para compilar o programa no Linux é necessário o gcc e o programa make.
+Além disso é necessário a biblioteca wxWidgets[www.wxwindows.org], compilada
+com a opções: --enable-xrc --enable-unicode.
+De posse dos requisitos acima basta entrar na pasta onde o código fonte foi 
+descompactado e digitar:
+# ./configure
+# make
+
+Com isso o executável será gerado, bastando em seguida copiar o arquivo executável
+para um local desejado, e utilizá-lo. Para isso digite:
+# su
+# make install
+
+- Compilando no Linux para o Windows
+
+Este método tem como objetivo criar um executável para o sistema Windows sem
+ter o Windows instalado.
+Neste caso é necessário instalar o compilador MinGW no linux e compilar a
+biblioteca wxWidgets com o seguinte comando:
+# ./configure --prefix=/usr/i586-mingw32msvc --host=i586-mingw32msvc --target=i586-mingw32msvc --with-msw --enable-monolithic --disable-shared --enable-xrc --enable-unicode
+# make
+
+Onde "/usr/i586-mingw32msvc" é o diretório onde o MinGW foi instalado.
+
+Agora para compilar o wxDownload Fast faça:
+# ./configure --prefix=/usr/i586-mingw32msvc --host=i586-mingw32msvc  --with-wxdir=/home/user/wxWidgets-2.8.0
+# make
+
+Onde "/home/user/wxWidgets-2.8.0" é o diretório onde a biblioteca wxWidgets foi compilada.
+
+5.3) MacOS
+----------
+
+- Compilando código fonte
+
+Como não tenho acesso a um sistema rodando o MacOS nunca compilei o programa neste
+sistema, porém acredito que os passos utilizados no Linux devem servir para o MacOS.
+

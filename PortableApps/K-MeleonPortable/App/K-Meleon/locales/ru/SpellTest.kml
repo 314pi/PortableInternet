@@ -1,0 +1,20 @@
+# LANGUAGE DEFINITION FILE
+
+#--------------------------------------------------------
+# Added by SpellTest Extension (don't edit this comment)
+#--------------------------------------------------------
+
+Spell Checker=Проверка орфографии
+Add this word=Добавить в словарь это слово
+Ignore this word=Игнорировать это слово
+Dictionaries=Словари
+Disable spellchecker=Отключить проверку орфографии
+Enable spellchecker=Включить проверку орфографии
+K-Meleon spellchecker=Проверка орфографии в K-Meleon
+Spellchecker is disabled.\r\nEnable?=Проверка орфографии отключена.\r\nВключить?
+Set Default=Установить по умолчанию
+Choose the Dictionaries Folder=Выберите папку для словарей
+You have to restart K-Meleon to make changes take effect,\n and access to new dictionaries folder.=Вы должны перезапустить K-Meleon для того, чтобы произведённые изменения вступили в силу,\nи доступ в новую папку для словарей был получен.
+Dictionaries Folder Modified=Папка для словарей изменена
+
+#--------------------------------------------------------

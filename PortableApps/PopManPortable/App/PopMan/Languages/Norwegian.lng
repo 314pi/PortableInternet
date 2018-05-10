@@ -1,0 +1,521 @@
+[File Info]
+
+Language=Norwegian
+Author=FreewareTips (http://home.c2i.net/freewaretips/)
+Email=lvo001@safe-mail.net
+Date=5/4/2008
+Comment=PopMan 1.3 Norwegian Translation
+LangID=20
+
+
+[Translations]
+
+Not connected<=>Ikke oppkoblet
+Connection failure<=>Oppkoblingsfeil
+Canceled<=>Avbrutt
+Invalid server response<=>Ugyldig serverrespons
+Timeout<=>Tidsavbrudd
+Login failed<=>Mislykket innlogging
+Message not found<=>Ikke funnet melding
+Server failure: Message not found!<=>Server-feil: Melding ikke funnet!
+Busy<=>Opptatt
+Ready<=>Klar
+Connecting...<=>Oppkobler...
+Connected!<=>Oppkoblet!
+Login...<=>Logger inn...
+Successfully logged in!<=>Vellykket innlogging!
+Loading message ...<=>Laster melding...
+Loading message {1} of {2} ...<=>Laster melding {1} av {2}...
+Deleting message {1} of {2} ...<=>Sletter melding {1} av {2}...
+
+# Update Wizard
+
+Update Wizard<=>Oppdateringsveiviser
+There are no updates available.<=>Ingen oppdatering tilgjengelig.
+There is a new version {1} available!<=>Det er en ny versjon {1} tilgjengelig!
+There is a new {1} Beta version available!<=>Det er en ny {1} betaversjon tilgjengelig!
+Click "Next" to update your copy of PopMan...<=>Klikk "Neste" for å oppdatere din kopi av PopMan...
+Unable to retrieve version infomation!<=>Ikke istand til å innhente versjonsinformasjon!
+Error number: {1}<=>Feilnummer: {1}
+Welcome to the PopMan Update Wizard<=>Velkommen til PopMans oppdateringsveiviser
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Veiviseren kobler seg nå opp til PopMans nettserver for å se etter oppdateringer. Hvis det er en ny versjon tilgjengelig, kan alle nødvendige filer bli lastet ned og installert automatisk.
+Failed to load Decompress.dll!<=>Mislyktes i å laste Decompress.dll!
+Initializing...<=>Igangsetter...
+Do you really want to cancel the update process?<=>Avbryte oppdateringsprosessen?
+Update process failed!<=>Oppdateringen mislyktes!
+Error while downloading initialization file!<=>Feil ved nedlasting av igangsettingsfil!
+No updates available.<=>Ingen oppdatering tilgjengelig.
+Failed to retrieve temporary directory!<=>Mislyktes i å finne midlertidig mappe!
+Saving {1} ...<=>Lagrer {1} ...
+Failed to create directory:<=>Mislyktes i å opprette mappe:
+Failed to decompress file:<=>Mislyktes i å dekomprimere fil:
+Failed to download file:<=>Mislyktes i å laste ned fil:
+(checksum error)<=>(sjekksumfeil)
+Please try again later.<=>Prøv igjen senere.
+Error while saving downloaded file!<=>Feil ved lagring av nedlastet fil!
+All files downloaded successfully.<=>Alle filer vellykket nedlastet.
+Press the "Finish" button to complete the update process...<=>Klikk "Fullfør"-knappen for å fullføre oppdateringsprosessen...
+Failed to initialize the final copy process!<=>Mislyktes i å igangsette den avsluttende kopieringsprosessen!
+Downloading {1} ...<=>Laster ned {1}...
+Progress all:<=>Framdrift totalt:
+Progress current file:<=>Framdrift gjeldende fil:
+Download of updated files<=>Nedlasting av oppdaterte filer
+
+# Import Accounts Dialog
+
+Account<=>Konto
+User<=>Bruker
+Server<=>Server
+Port<=>Port
+Please select the accounts that you want to import from Outlook Express.<=>Velg kontoene du vil importere fra Outlook Express.
+&Properties...<=>&Egenskaper...
+OK<=>OK
+Cancel<=>Avbryt
+Import email accounts<=>Importer e-postkontoer
+Description<=>Beskrivelse
+
+# Account Dialog
+
+General<=>Generelt
+Advanced<=>Avansert
+Please enter the account name!<=>Oppfør kontonavnet!
+Please enter the address of the POP3 server!<=>Oppfør adressen til POP3-serveren!
+Please enter user name!<=>Oppfør brukernavn!
+Account name:<=>Kontonavn:
+POP3 server:<=>POP3-server:
+Port:<=>Port:
+User name:<=>Brukernavn:
+Password:<=>Passord:
+Include this account when receiving mail<=>Inkluder denne konto ved mottak av e-post
+1 minute<=>1 minutt
+{1} minutes<=>{1} minutter
+1 second<=>1 sekund
+{1} seconds<=>{1} sekunder
+Colors<=>Farger
+Use individual font color:<=>Bruk tilpasset skriftfarge:
+Circle color in system tray:<=>Sirkelfarge i systemstatusfelt:
+Server Timeouts<=>Server-tidsavbrudd 
+Short<=>Kort
+Long<=>Lang
+Load big emails incompletely<=>Last store meldinger ufullstendig
+Limit size:<=>Grensestørrelse:
+
+# Accounts Dialog
+
+Mail Accounts<=>E-postkontoer
+&Add...<=>&Legg til...
+&Remove<=>&Fjern
+Move &up<=>Flytt opp
+Move &down<=>Flytt ned
+&Close<=>&Lukk
+
+# Download Dialog
+
+Loading the following mail:<=>Følgende e-post lastes fra server:
+Loading Mail...<=>Laster e-post...
+
+# Password Dialog
+
+Password - {1}<=>Passord - {1}
+Enter the password of the following server.<=>Oppgi passordet til følgende server.
+Server:<=>Server:
+Remember password<=>Husk passord
+Password incorrect! Please note that the password is case-sensitive.<=>Feil passord! Husk at passordet er følsom for store/små bokstaver.
+Please enter the password.<=>Oppgi passordet.
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Spesifiser hvor e-posten skal lagres.
+The specified folder does not exist!<=>Den spesifiserte mappen eksisterer ikke!
+Please specify a template for the file names.<=>Spesifiser en mal for filnavnene.
+A file name must not contain any of the following characters:<=>Et filnavn må ikke inneholde noen av de følgende tegn:
+Invalid template! Use a combination of the following placeholders:<=>Ugyldig mal! Bruk en kombinasjon av følgende plassholdere:
+Subject<=>Emne
+From<=>Fra
+To<=>Til
+Date<=>Dato
+Time<=>Klokkeslett
+Save As...<=>Lagre som...
+Destination<=>Lagringssted
+Folder:<=>Mappe:
+Browse...<=>Bla gjennom...
+Save Format<=>Lagre-format
+Template For File Names<=>Mal for filnavn
+Email File (*.eml)<=>E-postfil (*.eml)
+Text File (*.txt)<=>Tekstfil (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Filen "{1}" eksisterer ikke!
+Sound (*.wav)<=>Lyd (*.wav)
+Notify when new mail arrives<=>Varsle når ny e-post ankommer
+Always<=>Alltid
+When AutoChecked or minimized<=>Når autosjekket eller minimert
+Only when minimized<=>Bare når minimert
+On new mail<=>Ved ny e-post
+Acoustic notification<=>Akustisk varsling
+Sound:<=>Lyd:
+&Test<=>&Test
+Show PopMan window<=>Vis PopMan-vindu
+Show new mail tip<=>Vis info-vindu for ny e-post
+Include sender and subject of new mails<=>Inkluder nye meldingers sender og emne 
+Use balloon tip<=>Bruk ballongtips
+Unread Messages<=>Uleste meldinger
+Display unread messages in bold font<=>Vis uleste meldinger i fet skrift
+Preview Pane<=>Forhåndsvisningsfelt
+Use the preview pane to quickly view a message without opening a separate window.<=>Bruk forhåndsvisningsfeltet for raskt å vise en melding uten å åpne et separat vindu.
+Show preview pane<=>Vis forhåndsvisningsfelt
+Be&low messages<=>Under meldingslisten
+Be&side messages<=>Ved siden av meldingslisten
+Use logging to record all data communication between PopMan and the email server.<=>Bruk logging for å oppta all datakommunikasjon mellom PopMan og e-postserveren.
+Enable logging<=>Aktiver logging
+Enable error logging<=>Aktiver feillogging
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(hvis et problem inntreffer under kommunikasjonen med e-postserveren, blir loggen lagret i en separat feil-fil)
+Log file size:<=>Loggfilstørrelse:
+KB<=>KB
+Location of the log file "PopManLogFile.log":<=>Loggfilplassering - "PopManLogFile.log":
+Use dial-up networking<=>Bruk oppringningsnettverk
+Launch PopMan on Windows startup<=>Start PopMan ved Windows-oppstart
+Check for new mail on startup<=>Se etter ny e-post ved programoppstart
+First wait<=>Vent
+seconds<=>sekunder
+X button hides to tray<=>X-knappen minimerer til systemstatusfelt
+Min button hides to tray<=>Minimer-knappen minimerer til systemstatusfelt
+Delete confirmation in main window<=>Slette-bekreftelse i hovedvindu
+Delete confirmation in preview pane and message window<=>Slette-bekreftelse i forhåndsvisningfelt og meldingsvindu
+Enable password protection:<=>Aktiver passordbeskyttelse:
+Timer interval:<=>Tidsintervall:
+minutes<=>minutter
+AutoCheck only while minimized<=>Autosjekk bare når minimert
+Don't check between:<=>Ikke sjekk mellom:
+and<=>og
+Executable (*.exe)<=>Programfil {*.exe}
+Hide PopMan to tray<=>Minimer PopMan
+Quit PopMan<=>Avslutt PopMan
+Email client:<=>E-postklient:
+When launching email client:<=>Ved start av e-postklient:
+When replying<=>Ved svar
+Use temporary eml file (Outlook Express)<=>Bruk midlertidig "eml"-fil (Outlook Express)
+Use mailto (without quotted original message)<=>Bruk "mailto" (uten sitert originalmelding)
+Use MAPI<=>Bruk MAPI
+Use HTML linebreaks in reply body<=>Bruk HTML-linjebrudd i svarmelding
+Enforce email address (Yahoo! Mail)<=>Fremtving e-postadresse (Yahoo! Mail)
+Number of messages<=>Antall meldinger
+Show number of messages in tray icon<=>Vis antall meldinger i systemstatusfelt
+Show number of all messages<=>Vis totale antall meldinger
+Show number of unread messages<=>Vis antall uleste meldinger
+Show number of new messages<=>Vis antall nye meldinger
+Rotate icon for each account<=>Roter ikon for hver konto
+Rotation interval:<=>Rotasjonsintervall:
+tenths of a second<=>tideler av et sekund
+Show advanced account info<=>Vis avansert kontoinfo
+Enable HighColor icons in system tray<=>Bruk HighColor-ikoner i systemstatusfelt
+Nothing<=>Ingenting
+Show Window<=>Vis vindu
+Check Mail<=>Sjekk e-post
+PopUp Menu<=>Oppsprettsmeny
+Run Email Client<=>Start e-postklient
+Check And Show<=>Sjekk og vis
+Toggle Window<=>Vis/Skjul vindu
+Toggle AutoCheck<=>Aktiver/Deaktiver Autosjekk
+Show Mail Info<=>Vis e-postinfo
+Tray Mouse Actions<=>Systemstatusfelt - musehandlinger
+Left Click:<=>Venstre klikk:
+Right Click:<=>Høyreklikk:
+Middle Click:<=>Midteklikk:
+Double Click:<=>Dobbelklikk:
+Double click delay on click<=>Dobbelklikk-forsinkelse
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Under kan du velge mellom tilgjengelige oversettelser i ditt system.{BR}Hvis du ikke finner ditt eget språk, vennligst besøk PopMans nettsted:
+Language:<=>Språk:
+Author:<=>Oversetter:
+Email:<=>E-post:
+Updated:<=>Oppdatert:
+Comment:<=>Kommentar:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Feil ved initialiseringen av RichText-Controls.
+Source - "{1}"<=>Kilde - "{1}"
+
+# Main Window
+
+Options<=>Alternativer
+AutoCheck<=>Autosjekk
+Notification<=>Varsling
+Email Client<=>E-postklient
+View<=>Vis
+Tray Icon<=>Systemstatusfeltikon
+Language<=>Språk
+Mouse Actions<=>Musehandlinger
+Logging<=>Logging
+&File<=>&Fil
+&Accounts...<=>&Kontoer...
+&Update{TAB}F5<=>&Oppdater{TAB}F5
+&Cancel{TAB}Esc<=>Avbr&yt{TAB}Esc
+&Open...{TAB}Ctrl+O<=>&Åpne...{TAB}Ctrl+O
+Sou&rce...<=>K&ilde...
+&Save As...{TAB}Ctrl+S<=>&Lagre som...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>S&var til avsender{TAB}Ctrl+R
+&Delete{TAB}Del<=>&Slett{TAB}Del
+&Exit<=>&Avslutt
+&View<=>&Vis
+&Toolbar<=>&Verktøylinje
+&Statusbar<=>&Statuslinje
+&Tools<=>&Verktøy
+&Font...<=>&Skrift...
+Font &Color...<=>Skrift&farge...
+Launch &Email Client{TAB}Ctrl+E<=>Start &e-postklient{TAB}Ctrl+E
+&Import Accounts...<=>&Importer kontoer...
+&Options<=>&Alternativer
+&Help<=>&Hjelp
+&Help Topics...{TAB}F1<=>&Hjelpeemner...{TAB}F1
+Check For &Updates<=>Se etter opp&dateringer
+&About PopMan...<=>&Om PopMan...
+Edit email accounts.{BR}Accounts<=>Rediger e-postkontoer.{BR}Kontoer
+Update email listing.{BR}Update<=>Oppdater e-postlisting.{BR}Oppdater
+Cancel current operation.{BR}Cancel<=>Avbryt aktuelle operasjon.{BR}Avbryt
+Show email content.{BR}Show<=>Vis e-postinnhold.{BR}Vis
+Show source code of this email.{BR}Source code<=>Vis denne e-postens kildekode.{BR}Kildekode
+Save selected email to file.{BR}Save<=>Lagre valgte e-post i en fil.{BR}Lagre
+Create a reply message to the sender.{BR}Reply<=>Lag en svarmelding til avsenderen.{BR}Svar
+Delete selected emails.{BR}Delete<=>Slett valgte e-poster.{BR}Slett
+Quit the application.{BR}Exit<=>Avslutt programmet.{BR}Avslutt
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Vis eller skjul verktøylinjen.{BR}Vis/Skjul verktøylinje
+Show or hide the status bar.{BR}Toggle StatusBar<=>Vis eller skjul statuslinjen.{BR}Vis/Skjul statuslinje
+Change font.{BR}Font<=>Endre skrift.{BR}Skrifttype
+Change font color.{BR}Font Color<=>Endre skriftfarge.{BR}Skriftfarge
+Launch email client.{BR}Email Client<=>Start e-postklient.{BR}E-postklient
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importer e-postkontoer fra Outlook Express.{BR}Importer kontoer
+Change program settings.{BR}Settings<=>Endre programinnstillinger.{BR}Innstillinger
+Show Help Topics.{BR}Help<=>Vis hjelpeemner.{BR}Hjelp
+Check if a new version is available.{BR}Check for updates<=>Sjekk om en ny versjon er tilgjengelig.{BR}Se etter oppdateringer
+Display program information, version number and copyright.{BR}About<=>Vis programinformasjon, versjonsnummer og copyright.{BR}Info
+Show the main window.{BR}Show<=>Vis hovedvindu.{BR}Vis
+Enable AutoChecking.{BR}Enable<=>Aktiver autosjekking.{BR}Aktiver
+Open the selected attachment.{BR}Open<=>Åpne det valgte vedlegg.{BR}Åpne
+Save the selected attachments.{BR}Save<=>Lagre de valgte vedleggene.{BR}Lagre
+Save all attachments.{BR}Save All<=>Lagre alle vedlegg.{BR}Lagre alle
+Change the window size.<=>Endre vindusstørrelsen.
+Change the window position.<=>Endre vindusposisjonen.
+Reduce the window to an icon.<=>Reduser vinduet til et ikon.
+Enlarge the window to full size.<=>Forstørr vinduet til full størrelse
+Close the active window.<=>Lukk det aktive vinduet.
+Restore the window to normal size.<=>Gjenopprett vinduet til normal størrelse.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>&Skriv ut...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Lukk{TAB}Esc
+&Edit<=>&Rediger
+&Cut{TAB}Ctrl+X<=>&Klipp ut{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>K&opier{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Lim inn{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Søk...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Søk& neste{TAB}F3
+Select &All{TAB}Ctrl+A<=>Merk &alt{TAB}Ctrl+A
+Print this email.{BR}Print<=>Skriv ut denne e-post.{BR}Skriv ut
+Delete this email.{BR}Delete<=>Slett denne e-post.{BR}Slett
+Close window.{BR}Close<=>Lukk vindu.{BR}Lukk
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Klipp ut markeringen og overfør til utklippstavlen.{BR}Klipp ut
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Kopier markeringen og overfør til utklippstavlen.{BR}Kopier
+Insert Clipboard contents.{BR}Paste<=>Sett inn utklippstavleinnhold.{BR}Lim inn
+Find the specified text.{BR}Find<=>Søk etter angitte tekst
+Find next occurence of specified text.{BR}Find next<=>Søk etter neste forekomst av angitte tekst.{BR}Søk neste
+Select the entire message.{BR}Select All<=>Merk hele meldingen.{BR}Merk alt
+"{1}" not found.<=>"{1}" ikke funnet.
+&Open<=>&Åpne
+&Save As...<=>&Lagre som...
+Save &All...<=>Lagre &alle...
+This attachment can not be accessed anymore.<=>Kan ikke få tilgang til dette vedlegg mer.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}" kan inneholde virus, orm eller annen farlig kode!
+Opening this file is therefore denied.<=>Derfor nektes åpning av filen.
+Do you really want to save this file to your hard disk?<=>Lagre denne filen på harddisken?
+Attachment<=>Vedlegg
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Disse vedleggene kan inneholde virus, orm eller annen farlig kode!
+Do you really want to save these files to your hard disk?<=>Lagre disse filene på harddisken?
+Please specify where to save the attachments.<=>Oppgi hvor vedleggene skal lagres.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Filen "{1}" eksisterer allerede!{BR}Overskrive?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Nedlasting av e-post mislyktes.{BR}Tast Ctrl+F5 for å oppdatere e-postlisten og prøv igjen.
+Are you sure you want to delete this email?<=>Er du sikker på at du vil slette denne e-posten?
+Deleting email failed!<=>Sletting av e-post mislyktes!
+From:<=>Fra:
+Date:<=>Dato:
+To:<=>Til:
+Subject:<=>Emne:
+Attach:<=>Vedlegg:
+
+# PopMan Start
+
+Please start one instance only.<=>Start bare en programinstans.
+Windows socket init failed.<=>Feil ved initialisering av Windows-Sockets.
+{1} Beta version has been updated successfully!<=>{1} Betaversjon har blitt vellykket oppdatert!
+You have successfully updated to version {1} !<=>Du har lykkes i å oppdatere til versjon {1}!
+About PopMan<=>Om PopMan
+PopMan, Version {1}<=>PopMan, versjon {1}
+Website:<=>Nettsted:
+
+# Document
+
+The error log file "{1}" could not be created.<=>Feilloggfilen "{1}" kunne ikke opprettes.
+Checking {1}...<=>Sjekker {1}...
+Error while writing to the log file:<=>Feil ved skriving til loggfilen:
+Logging disabled!<=>Logging deaktivert!
+Email (*.eml)<=>E-post (*.eml)
+Text (*.txt)<=>Tekst (*.txt)
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Loggfilen "{1}" kunne ikke åpnes.{BR}Logging deaktivert!
+Unable to load mail system support.<=>Systemstøtte for e-post kunne ikke lastes.
+Mail system DLL is invalid.<=>System-dll for e-post er ugyldig.
+Unable to detect if a new version is available.<=>Ikke istand til å se om en ny versjon er tilgjengelig.
+There is no update available.<=>Ingen oppdatering er tilgjengelig.
+Do you want to start the update wizard and download the latest version?<=>Vil du starte oppdateringsveiviseren og laste ned nyeste versjon?
+Deleting mail...<=>Sletter e-post...
+Downloading mail...<=>Laster ned e-post...
+AutoCheck disabled<=>Autosjekk deaktivert
+No messages<=>Ingen meldinger
+1 new message<=>1 ny melding
+{1} new messages<=>{1} nye meldinger
+PopMan - New Mail<=>PopMan - Ny e-post
+&Open PopMan<=>&Åpne PopMan
+Check &Mail<=>Sjekk e-&post
+&Cancel<=>&Avbryt
+&Email Client<=>&E-postklient
+A&utoCheck Enabled<=>A&utosjekk aktivert
+O&ptions...<=>A&lternativer...
+&About...<=>&Om PopMan...
+E&xit<=>A&vslutt
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} meldinger ({2} uleste, {3} nye){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - E-postinfo
+1 message<=>1 melding
+{1} messages<=>{1} meldinger
+1 unread message<=>1 ulest melding
+{1} unread messages<=>{1} uleste meldinger
+in {1}<=>i {1}
+in {1} accounts<=>i {1} kontoer
+Show<=>Vis
+Delete<=>Slett
+Close<=>Lukk
+(last check: {1})<=>(siste sjekk: {1})
+
+# Main View
+
+Size<=>Størrelse
+Received<=>Mottatt
+Are you sure you want to delete the selected email?<=>Er du sikker på at du vil slette den merkede e-posten?
+Are you sure you want to delete the {1} selected emails?<=>Er du sikker på at du vil slette de {1} merkede e-postene?
+
+# 10/22/2005
+
+Can not change account settings while there are busy accounts.<=>Kan ikke endre kontoinnstillinger mens det er aktive kontoer.
+Please enter the address of the Server!<=>Oppfør serveradressen!
+Protocol:<=>Protokoll:
+Use custom AutoCheck timer interval<=>Bruk egendefinert tidsintervall for Autosjekk
+Load all emails completely<=>Last alle e-poster fullstendig
+Retrieve header and {1} lines of message body<=>Last hode og {1} linjer av meldingen
+Number of lines:<=>Antall linjer:
+Parameters<=>Parametere
+Invalid parameter string!<=>Ugyldig parameterstreng!
+Default<=>Standard
+Black List<=>Svarteliste
+Messages from senders in the list below will be deleted automatically from the server.<=>Meldinger fra sendere i listen nedenfor vil automatisk bli slettet fra serveren.
+Address:<=>Adresse:
+Enter address<=>Oppfør adressen
+Enter the password of the following account.<=>Oppfør passordet for den følgende kontoen. 
+Account:<=>Konto:
+Flash keyboard light:<=>La tastaturlys blinke:
+Enable custom AutoCheck interval per account:<=>Aktiver egendefinert Autosjekk-intervall pr. konto:
+Interval<=>Intervall
+Custom<=>Egendefinert
+Launch email client with command line parameter:<=>Start e-postklient med kommandolinjeparameter:
+Sent<=>Sendt
+Priority<=>Prioritet
+UserAgent<=>Brukeragent
+High<=>Høy
+Low<=>Lav
+Normal<=>Normal
+&Block Sender<=>&Blokkér avsender
+This will add the following email addresses to the Black List:<=>Følgende e-postadresser vil legges til i svartelisten:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Merk: Alle framtidige e-poster fra avsendere på svartelisten vil bli slettet automatisk!
+Tab &View{TAB}Ctrl+M<=>&Faneark-visning{TAB}Ctrl+M
+&Themes<=>&Temaer
+&Black List...<=>&Svarteliste...
+Add sender to Black List.{BR}Block Sender<=>Legg til avsender i svarteliste.{BR}Blokkér avsender
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Aktiver/Deaktiver faneark-visning.{BR}Faneark-visning
+Edit list of blocked senders.{BR}BlackList<=>Rediger listen med blokkerte avsendere.{BR}Svarteliste
+Separate account | All<=>Separat konto | Alle
+Check accounts{TAB}F7<=>Sjekk kontoer{TAB}F7
+Join with tab<=>Slå sammen med faneark
+Rename tab{TAB}F2<=>Endre fanearknavn{TAB}F2
+You have to add at least one account before you can switch to tab view.<=>Du må minst legge til en konto før du kan skifte til faneark-visning.
+Caption:<=>Tittel:
+Please enter the caption of the tab:<=>Oppfør fanearkets tittel:
+Rename tab<=>Endre fanearknavn
+Tab accounts:<=>Faneark-kontoer:
+Copy Link Address<=>Kopier lenkeadresse
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>Bruk UIDL ved sletting av meldinger
+Delete command marks message for deletion<=>Slette-kommandoen merker melding for sletting
+&Unmark{TAB}Ins<=>&Fravelg{TAB}Ins
+Empty Trash<=>Tøm søppel
+Delete &Marked Emails{TAB}F12<=>Slett slette-&merkede e-poster{TAB}F12
+&Hide Marked Messages<=>&Skjul slette-merkede meldinger
+&Rules...<=>&Regler...
+Delete marked emails.{BR}Delete marked emails<=>Slett slette-merkede e-poster.{BR}Slett slette-merkede e-poster
+Unmark (undelete) selected emails.{BR}Unmark<=>Fravelg slette-merkede e-poster.{BR}Fravelg
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Skjul meldinger som er merket for sletting.{BR}Skjul merkede meldinger
+Edit the rules.{BR}Rules<=>Rediger reglene.{BR}Regler
+Don't display this &message again.<=>Ikke vis denne &melding igjen.
+You are about to irrevocably delete all marked messages.<=>Du er ugjenkallelig i ferd med å slette alle slette-merkede meldinger.
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Du har nettopp valgt en melding for sletting. For å fravelge den, tast Ins-tasten eller bruk høyreklikkmeny. For å slette alle slette-merkede meldinger, tast F12 eller klikk verktøylinjeknappen "Tøm søppel".
+You can also delete selected messages immediately by pressing Shift+Del.<=>Du kan også slette valgte meldinger umiddelbart ved å taste Shift+Del.
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Hvis du foretrekker den vanlige måte (slette alle valgte meldinger umiddelbart), fjern innstilling "{1}" i alternativdialogen.
+Error while parsing rules file at line {1}!<=>Feil ved regelfil-analysering i linje {1}!
+
+# 09/30/2007
+
+Load small emails completely<=>Last små e-poster fullstendig
+Small emails are < <=>Små e-poster er <
+Add item to Rules list<=>Ny oppføring for regelliste
+Destination List<=>Mål-liste
+New Item<=>Ny oppføring
+Item Type<=>Type
+Word<=>Ord
+String<=>Streng
+Regular Expression<=>Regulære uttrykk
+Only log compact mail info instead of entire data traffic<=>Bare logg kompakt meldingsinformasjon istedenfor hele datatrafikken
+Enable logging of applied rules<=>Aktiver logging av anvendte regler
+Rules<=>Regler
+Move Marked Messages to Tr&ash Tab<=>Flytt slette-merkede meldinger til s&øppel-fane
+Add Item To Rules &List...{TAB}F9<=>Legg til ny oppføring i regel&liste...{TAB}F9
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Flytt slette-merkede meldinger til en separat "søppel"-fane.{BR}Aktiver søppel-fane
+Add item to Rules list.{BR}Add To List<=>Legg til ny oppføring i regelliste.{BR}Legg til i liste
+Forum:<=>Forum:
+Failed to add item to Rules list!<=>Feilet i å legge til i regelliste!
+Trash<=>Søppel
+The item is already contained in the list!<=>Oppføringen er allerede i listen!
+
+# 10/14/2007
+
+White List<=>Hviteliste
+Messages from senders in the list below will never be deleted automatically.<=>Meldinger fra sendere i listen nedenfor vil aldri bli slettet automatisk.
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>Oppfør e-postadressen (f.eks. somebody@somewhere.com) eller domenet (f.eks. somewhere.com):
+&Trust Sender<=>&Stol på avsender
+This will add the following email addresses to the White List:<=>Følgende e-postadresser vil legges til i hvitelisten:
+&White List...<=>&Hviteliste
+Add sender to White List.{BR}Trust Sender<=>Legg til avsender i hviteliste.{BR}Stol på avsender
+Edit list of trusted senders.{BR}WhiteList<=>Rediger listen med pålitelige avsendere.{BR}Hviteliste
+Suspend New Mail Notification Sound.{BR}Mute<=>Undertrykker varslingslyd for ny e-post.{BR}Stille
+Mu&te Mode<=>St&ille-modus
+Mark All Mails Read<=>Merk alle e-poster leste
+Mark All Mails Unread<=>Merk alle e-poster uleste
+
+# 04/10/2010
+
+Type<=>
+Limit tips to [PROTECTED] messages<=>
+[PROTECTED]<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Protocol plugin not initialized correctly!<=>
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>

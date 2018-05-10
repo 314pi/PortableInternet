@@ -1,0 +1,514 @@
+[File Info]
+
+Language=Greek
+Author=Pol Vardakis
+Email=polvardakis@yahoo.gr	
+Date=06/20/2010
+Comment=PopMan 1.3 Greek Translation
+LangID=08
+
+
+[Translations]
+
+Not connected<=>Εκτός σύνδεσης
+Connection failure<=>Αποτυχία σύνδεσης
+Canceled<=>Ακυρώθηκε
+Invalid server response<=>Μη έγκυρη απόκριση διακομιστή
+Timeout<=>Εκτός χρονικού ορίου
+Login failed<=>Η σύνδεση απέτυχε
+Message not found<=>Δεν βρέθηκε μήνυμα
+Server failure: Message not found!<=>Αποτυχία διακομιστή: Δεν βρέθηκε μήνυμα!
+Busy<=>Απασχολημένο
+Ready<=>Έτοιμο
+Connecting...<=>Συνδέεται...
+Connected!<=>Συνδέθηκε!
+Login...<=>Είσοδος...
+Successfully logged in!<=>Επιτυχής είσοδος!
+Loading message ...<=>Φόρτωση μηνυμάτων...
+Loading message {1} of {2} ...<=>Φόρτωση μηνύματος {1} από {2}...
+Deleting message {1} of {2} ...<=>Διαγραφή μηνύματος {1} από {2}...
+
+# Update Wizard
+
+Update Wizard<=>Οδηγός Ενημέρωσης
+There are no updates available.<=>Δεν υπάρχουν διαθέσιμες ενημερώσεις.
+There is a new version {1} available!<=>Υπάρχει μια καινούργια έκδοση {1) διαθέσιμη!
+There is a new {1} Beta version available!<=>Υπάρχει μια καινούργια {1} Beta έκδοση διαθέσιμη!
+Click "Next" to update your copy of PopMan...<=>Πατήσετε "Επόμενο" για αναβάθμιση του PopMan αντιγράφου σας...
+Unable to retrieve version infomation!<=>Αδύνατη η εξαγωγή πληροφοριών έκδοσης!
+Error number: {1}<=>Κωδικός σφάλματος: {1}
+Welcome to the PopMan Update Wizard<=>Καλωσήρθατε στον Οδηγό Ενημέρωσης PopMan
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Ο οδηγός αυτή τη στιγμή συνδέεται με τον διακομιστή διαδικτύου PopMan και ελέγχει για ενημερώσεις. Αν υπάρχει μια νέα έκδοση διαθέσιμη, όλα τα απαραίτητα αρχεία μπορούν να κατεβούν και να εγκατασταθούν αυτόματα.
+Failed to load Decompress.dll!<=>Η φόρτωση της βιβλιοθήκης Decompress.dll απέτυχε!
+Initializing...<=>Εκκίνηση...
+Do you really want to cancel the update process?<=>Σίγουρα θέλετε να ακυρώσετε την διαδικασία ενημέρωσης;
+Update process failed!<=>Η διαδικασία ενημέρωσης απέτυχε!
+Error while downloading initialization file!<=>Σφάλμα κατά το κατέβασμα του αρχείου εκκίνησης!
+No updates available.<=>Δεν υπάρχουν διαθέσιμες ενημερώσεις.
+Failed to retrieve temporary directory!<=>Η εξαγωγή του φακέλου προσωρινών δεδομένων απέτυχε!
+Saving {1} ...<=>Αποθήκευση {1}...
+Failed to create directory:<=>Απέτυχε η δημιουργία του φακέλου:
+Failed to decompress file:<=>Απέτυχε η αποσυμπίεση του αρχείου:
+Failed to download file:<=>Απέτυχε η λήψη του αρχείου:
+(checksum error)<=>(σφάλμα αθροιστικού ελέγχου)
+Please try again later.<=>Παρακαλούμε δοκιμάστε ξανά αργότερα.
+Error while saving downloaded file!<=>Σφάλμα κατά την αποθήκευση του ληφθέντος αρχείου!
+All files downloaded successfully.<=>Όλα τα αρχεία λήφθηκαν επιτυχώς.
+Press the "Finish" button to complete the update process...<=>Πατήστε το "Τέλος" για να ολοκληρώσετε την διαδικασία ενημέρωσης...
+Failed to initialize the final copy process!<=>Απέτυχε η εκκίνηση της τελικής διαδικασίας αντιγραφής!
+Downloading {1} ...<=>Λήψη {1}...
+Progress all:<=>Συνολική πρόοδος:
+Progress current file:<=>Πρόοδος τρέχοντος αρχείου:
+Download of updated files<=>Λήψη των ενημερωμένων αρχείων
+
+# Import Accounts Dialog
+
+Account<=>Λογαριασμός
+Type<=>Τύπος
+User<=>Χρήστης
+Server<=>Διακομιστής
+Port<=>Θύρα
+Please select the accounts that you want to import from Outlook Express.<=>Παρακαλούμε επιλέξτε τους λογαριασμούς που θέλετε να εισάγετε από το Outlook Express.
+&Properties...<=>Ιδιότητες...
+OK<=>ΟΚ
+Cancel<=>’κυρο
+Import email accounts<=>Εισαγωγή λογαριασμών e-mail
+Description<=>Περιγραφή
+
+# Account Dialog
+
+General<=>Γενικά
+Colors<=>Χρώματα
+Advanced<=>Για προχωρημένους
+Can not change account settings while there are busy accounts.<=>Δεν είναι δυνατή η αλλαγή ρυθμίσεων λογαριασμών όταν υπάρχουν απασχολημένοι λογαριασμοί.
+Please enter the address of the Server!<=>Παρακαλούμε εισάγετε την διεύθυνση του διακομιστή!
+Please enter the account name!<=>Παρακαλούμε εισάγετε το όνομα λογαριασμού!
+Please enter user name!<=>Παρακαλούμε εισάγετε το όνομα χρήστη!
+Account name:<=>Όνομα λογαριασμού:
+Protocol:<=>Πρωτόκολλο:
+Server:<=>Διακομιστής:
+Port:<=>Θύρα:
+User name:<=>Όνομα χρήστη:
+Password:<=>Κωδικός:
+Include this account when receiving mail<=>Περιλάβετε αυτόν τον λογαριασμό κατά την λήψη μηνυμάτων
+1 minute<=>1 λεπτό
+{1} minutes<=>{1} λεπτά
+1 second<=>1 δευτερόλεπτο
+{1} seconds<=>{1} δευτερόλεπτα
+Use UIDL when deleting messages<=>Χρήση UIDL κατά την διαγραφή των μηνυμάτων
+Use custom AutoCheck timer interval<=>Προσαρμοσμένο μεσοδιάστημα Αυτόματου Ελέγχου
+Timer interval:<=>Μεσοδιάστημα:
+minutes<=>λεπτά
+Server Timeouts<=>Χρονικό όριο διακομιστή
+Short<=>Βραχύ
+Long<=>Μακρύ
+Load all emails completely<=>Πλήρης φόρτωση όλων των μηνυμάτων
+Retrieve header and {1} lines of message body<=>Λήψη επικεφαλίδας και {1} γραμμών του μηνύματος
+Number of lines:<=>Αριθμός γραμμών:
+Load small emails completely<=>Πλήρης φόρτωση των μικρών μηνυμάτων 
+Small emails are < <=>Μικρά μηνύματα είναι < 
+Parameters<=>Παράμετροι
+Use individual font color:<=>Ιδιαίτερο χρώμα γραμματοσειράς:
+Circle color in system tray:<=>Χρώμα κύκλου στη Γραμμή ειδοποιήσεων:
+Invalid parameter string!<=>Μη έγκυρη σειρά παραμέτρων!
+Default<=>Προεπιλογή
+
+# Accounts Dialog
+
+Mail Accounts<=>Λογαριασμοί e-mail
+&Add...<=>Προσθήκη
+&Remove<=>Διαγραφή
+Move &up<=>Μετακίνηση πάνω
+Move &down<=>Μετακίνηση κάτω
+&Close<=>Κλείσιμο
+
+# Download Dialog
+
+Loading the following mail:<=>Φόρτωση του παρακάτω λογαριασμού:
+Loading Mail...<=>Φορτώνεται ο λογαριασμός...
+
+# BlackList/WhiteList Dialog
+
+Black List<=>Μαύρη Λίστα
+Messages from senders in the list below will be deleted automatically from the server.<=>Τα μηνύματα από αποστολείς στην παρακάτω λίστα θα διαγράφονται αυτόματα από τον διακομιστή.
+White List<=>Λευκή Λίστα
+Messages from senders in the list below will never be deleted automatically.<=>Μηνύματα από αποστολείς στην παρακάτω λίστα δεν θα διαγράφονται ποτέ αυτόματα.
+Address:<=>Διεύθυνση:
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>Παρακαλούμε εισάγετε την πλήρη διεύθυνση e-mail (π.χ somebody@somewhere.com) ή την διεύθυνση παρόχου (π.χ somewhere.com):
+Enter address<=>Εισάγετε διεύθυνση
+
+# Password Dialog
+
+Password - {1}<=>Κωδικός πρόσβασης - {1}
+Enter the password of the following account.<=>Εισάγετε τον κωδικό πρόσβασης του παρακάτω λογαριασμού:
+Account:<=>Λογαριασμός:
+Remember password<=>Αποθήκευση κωδικού προσβασης
+Password incorrect! Please note that the password is case-sensitive.<=>Λανθασμένος κωδικός πρόσβασης! Παρακαλούμε σημειώστε ότι ο κωδικός πρόσβασης εξαρτάται από μικρά ή κεφαλαία γράμματα.
+Please enter the password.<=>Παρακαλούμε εισάγετε τον κωδικό πρόσβασης.
+
+# Add item to Rules list Dialog
+
+Add item to Rules list<=>Προσθέστε είδος στον κατάλογο Κανόνων
+Destination List<=>Κατάλογος προορισμών
+New Item<=>Νέο είδος
+Item Type<=>Τύπος είδους
+Word<=>Λέξη
+String<=>Φράση
+Regular Expression<=>Συνηθισμένη έκφραση
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Παρακαλούμε καθορίστε πού θα αποθηκεύονται τα μηνύματα
+The specified folder does not exist!<=>Ο φάκελος που καθορίστηκε δεν υπάρχει!
+Please specify a template for the file names.<=>Παρακαλούμε καθορίστε ένα πρότυπο για τα ονόματα αρχείων.
+A file name must not contain any of the following characters:<=>Ένα όνομα αρχείου δεν πρέπει να περιέχει κανένα από τους παρακάτω χαρακτήρες:
+Invalid template! Use a combination of the following placeholders:<=>Μη έγκυρο πρότυπο! Χρησιμοποιείστε ένα συνδυασμό από τους παρακάτω διακρατητές θέσης:
+Subject<=>Θέμα
+From<=>Από
+To<=>Προς
+Date<=>Ημερομηνία
+Time<=>Ώρα
+Save As...<=>Αποθήκευση ως...
+Destination<=>Προορισμός
+Folder:<=>Φάκελος:
+Browse...<=>Αναζήτηση...
+Save Format<=>Μορφή αποθήκευσης
+Template For File Names<=>Πρότυπο για ονόματα αρχείων
+Email File (*.eml)<=>Αρχείο αλληλογραφίας (*.eml)
+Text File (*.txt)<=>Αρχείο κειμένου (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Το αρχείο "{1}" δεν υπάρχει!
+Sound (*.wav)<=>Ήχος (*.wav)
+Notify when new mail arrives<=>Ειδοποίηση όταν φθάνει ένα νέο μήνυμα 
+Always<=>Πάντα
+When AutoChecked or minimized<=>Σε ενεργοποιημένο Αυτόματο Έλεγχο ή όταν είναι ελαχιστοποιημένο
+Only when minimized<=>Μόνο όταν είναι ελαχιστοποιημένο
+On new mail<=>Σε νέο μήνυμα
+Acoustic notification<=>Ηχητική ειδοποίηση
+Sound:<=>Ήχος:
+&Test<=>Δοκιμή
+Show PopMan window<=>Εμφάνιση του παραθύρου PopMan
+Show new mail tip<=>Εμφάνιση ιδιαίτερης πληροφορίας νέων μηνυμάτων
+Limit tips to [PROTECTED] messages<=>Περιορισμός πληροφορίας σε  μηνύματα [ΠΡΟΣΤΑΤΕΥΜΕΝΟ]
+Include sender and subject of new mails<=>Να περιέχονται ο αποστολέας και το θέμα των νέων μηνυμάτων
+Use balloon tip<=>Χρήση ιδιαίτερου μηνύματος σε μπαλόνι
+Flash keyboard light:<=>Αναλάμπον λαμπάκι πληκτρολογίου:
+Unread Messages<=>Μη αναγνωσμένα μηνύματα
+Display unread messages in bold font<=>Τονισμένη γραμματοσειρά για μη αναγνωσμένα μηνύματα. 
+Preview Pane<=>Πλαίσιο Προεπισκόπησης
+Use the preview pane to quickly view a message without opening a separate window.<=>Χρήση του πλαισίου προεπισκόπησης για γρήγορη εμφάνιση ενός μηνύματος χωρίς να ανοιχτεί χωριστό παράθυρο.
+Show preview pane<=>Εμφάνιση πλαισίου προεπισκόπησης
+Be&low messages<=>Κάτω από μηνύματα
+Be&side messages<=>Πλάι από μηνύματα
+Use logging to record all data communication between PopMan and the email server.<=>Χρήση καταγραφής για αποθήκευση όλων των δεδομένων επικοινωνίας μεταξύ PopMan και του διακομιστή e-mail 
+Enable logging<=>Ενεργοποίηση καταγραφής
+Only log compact mail info instead of entire data traffic<=>Να καταγράφονται μόνο συμπυκνωμένες πληροφορίες μηνυμάτων αντί της πλήρους κυκλοφορίας δεδομένων
+Log file size:<=>Μέγεθος αρχείου καταγραφής:
+KB<=>KB
+Enable logging of applied rules<=>Ενεργοποίηση καταγραφής των εφαρμοζόμενων κανόνων
+Location of the log file "PopManLogFile.log":<=>Τοποθεσία του αρχείου καταγραφής "PopManLogFile.log":
+Use dial-up networking<=>Χρήση δικτύου μέσω τηλεφώνου
+Launch PopMan on Windows startup<=>Εκκίνηση PopMan κατά την έναρξη των Windows
+Check for new mail on startup<=>Έλεγχος για νέα μηνύματα κατά την εκκίνηση
+First wait<=>Αρχική αναμονή
+seconds<=>δευτερόλεπτα
+X button hides to tray<=>Το κουμπί Χ ελαχιστοποιεί στην Γραμμή ειδοποιήσεων
+Min button hides to tray<=>Το κουμπί _ ελαχιστοποιεί στην Γραμμή ειδοποιήσεων
+Delete confirmation in main window<=>Επιβεβαίωση διαγραφής στο κύριο παράθυρο
+Delete confirmation in preview pane and message window<=>Επιβεβαίωση διαγραφής σε προεπισκόπηση/παράθυρο μηνύματος
+Delete command marks message for deletion<=>Η εντολή διαγραφής επισημαίνει το μήνυμα προς διαγραφή
+Enable password protection:<=>Προστασία με κωδικό πρόσβασης:
+AutoCheck only while minimized<=>Αυτόματος Έλεγχος μόνο όταν είναι ελαχιστοποιημένο
+Don't check between:<=>Όχι έλεγχος μεταξύ:
+and<=>και
+Enable custom AutoCheck interval per account:<=>Μεσοδιάστημα Αυτόματου Ελέγχου προσαρμοσμένο ανά λογαριασμό:
+Interval<=>Μεσοδιάστημα
+Custom<=>Προσαρμοσμένο
+Executable (*.exe)<=>Εκτελέσιμο (*.exe)
+Hide PopMan to tray<=>Ελαχιστοποίηση του PopMan στην Γραμμή ειδοποιήσεων
+Quit PopMan<=>Έξοδος από PopMan
+Email client:<=>Πρόγραμμα e-mail:
+When launching email client:<=>Στην εκκίνηση προγράμματος e-mail:
+When replying<=>Κατά την απάντηση
+Use temporary eml file (Outlook Express)<=>Χρήση προσωρινού αρχείου eml (Outlook Express)
+Use mailto (without quotted original message)<=>Χρήση mailto (χωρίς προσάρτηση του αρχικού μηνύματος)
+Use MAPI<=>Χρήση MAPI
+Use HTML linebreaks in reply body<=>Χρήση συμβόλων αλλαγής γραμμής HTML στο σώμα κειμένου απάντησης
+Enforce email address (Yahoo! Mail)<=>Επιβολή διεύθυνσης e-mail (Yahoo! Mail)
+Launch email client with command line parameter:<=>Εκκίνηση προγράμματος e-mail με παράμετρο γραμμής εντολών:
+Number of messages<=>Αριθμός μηνυμάτων
+Show number of messages in tray icon<=>Εμφάνιση αριθμού μηνυμάτων στην εικονίδιο Γραμμής ειδοποιήσεων
+Show number of all messages<=>Εμφάνιση αριθμού όλων των μηνυμάτων
+Show number of unread messages<=>Εμφάνιση αριθμού των μη αναγνωσμένων μηνυμάτων
+Show number of new messages<=>Εμφάνιση αριθμού των νέων μηνυμάτων
+Rotate icon for each account<=>Περιστρεφόμενο εικονίδιο για κάθε λογαριασμό
+Rotation interval:<=>Μεσοδιάστημα περιστροφής:
+tenths of a second<=>δέκατα του δευτερολέπου
+Show advanced account info<=>Εμφάνιση προχωρημένων πληροφοριών λογαριασμού
+Enable HighColor icons in system tray<=>Ενεργοποίηση εικονιδίων σε πραγματικό χρώμα στη Γραμμή ειδοποιήσεων
+Nothing<=>Τίποτα
+Show Window<=>Εμφάνιση παραθύρου
+Check Mail<=>Έλεγχος Ταχυδρομείου
+PopUp Menu<=>Αναδυόμενο μενού
+Run Email Client<=>Εκκίνηση προγράμματος e-mail
+Check And Show<=>Έλεγχος και Εμφάνιση
+Toggle Window<=>Aλλαγή Παραθύρου
+Toggle AutoCheck<=>Aλλαγή Αυτόματου Ελέγχου
+Show Mail Info<=>Εμφάνιση πληροφοριών ταχυδρομείου
+Tray Mouse Actions<=>Ενέργειες ποντικιού στη Γραμμή ειδοποιήσεων
+Left Click:<=>Αριστερό κλικ:
+Right Click:<=>Δεξί κλικ:
+Middle Click:<=>Μεσαίο κλικ:
+Double Click:<=>Διπλό κλικ:
+Double click delay on click<=>Καθυστέρηση διπλού κλικ σε κλικ
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Μπορείτε να επιλέξετε από τις παρακάτω μεταφράσεις που βρίσκονται στο σύστημά σας. {BR}Αν δεν βρίσκετε την γλώσσα σας, επισκεφθείτε τον ιστότοπο PopMan:
+Language:<=>Γλώσσα:
+Author:<=>Συγγραφέας:
+Email:<=>E-mail
+Updated:<=>Ενημερώθηκε:
+Comment:<=>Σχόλιο:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Η εκκίνηση του ελέγχου RichEdit απέτυχε.
+Source - "{1}"<=>Πηγαίος κώδικας - "{1}"
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Το αρχείο καταγραφής "{1}" δεν ήταν δυνατό να ανοιχτεί.{BR}Η καταγραφή απενεργοποιήθηκε!
+Error while writing to the log file:<=>Σφάλμα κατά την εγγραφή στο αρχείο καταγραφής:
+Logging disabled!<=>Η καταγραφή απενεργοποιήθηκε!
+[PROTECTED]<=>[ΠΡΟΣΤΑΤΕΥΜΕΝΟ]
+
+# List View
+
+Size<=>Μέγεθος
+Received<=>Παρελήφθη
+Attachment<=>Συνημμένο
+Sent<=>Στάλθηκε
+Priority<=>Προτεραιότητα
+UserAgent<=>Υπηρεσία Χρήστη
+Rules<=>Κανόνες
+High<=>Υψηλή
+Low<=>Χαμηλή
+Normal<=>Κανονική
+Are you sure you want to delete the selected email?<=>Είστε σίγουροι ότι θέλετε να διαγράψετε τα επιλεγμένα μηνύματα;
+Are you sure you want to delete the {1} selected emails?<=>Είστε σίγουροι ότι θέλετε να διαγράψετε τα {1} επιλεγμένα μηνύματα;
+&Open...{TAB}Ctrl+O<=>’νoιγμα...{TAB}Ctrl+O
+Sou&rce...<=>Πηγαίος Κώδικας...
+&Save As...{TAB}Ctrl+S<=>Αποθήκευση ως...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Απάντηση...{TAB}Ctrl+R
+&Trust Sender<=>Έμπιστος Αποστολέας
+&Block Sender<=>Αποκλεισμός Αποστολέα
+&Delete{TAB}Del<=>Διαγραφή{TAB}Del
+&Unmark{TAB}Ins<=>Αποεπιλογή{TAB}Ins
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>Αλλαγή κατάστασης από/σε [ΠΡΟΣΤΑΤΕΥΜΕΝΟ]{TAB}Ctrl+T
+This will add the following email addresses to the Black List:<=>Αυτό θα προσθέσει τις ακόλουθες διευθύνσεις e-mail στην Μαύρη Λίστα:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Σημείωση: Όλα τα μελλοντικά μηνύματα από αποστολείς στην Μαύρη Λίστα θα διαγράφονται αυτόματα!
+This will add the following email addresses to the White List:<=>Αυτό θα προσθέσει τις ακόλουθες διευθύνσεις e-mail στην Λευκή Λίστα:
+
+# Main Window
+
+Empty Trash<=>’δειασμα Κάδου Απορριμμάτων
+Options<=>Επιλογές
+AutoCheck<=>Αυτόματος Έλεγχος
+Notification<=>Ειδοποίηση
+Email Client<=>Πρόγραμμα e-mail
+View<=>Προβολή
+Tray Icon<=>Εικονίδιο Γραμμής ειδοποιήσεων
+Language<=>Γλώσσα
+Mouse Actions<=>Ενέργειες ποντικιού
+Logging<=>Καταγραφή
+&File<=>Αρχείο
+&Accounts...<=>Λογαριασμοί...
+&Update{TAB}F5<=>Ανανέωση{TAB}F5
+&Cancel{TAB}Esc<=>Ακύρωση{TAB}Esc
+Delete &Marked Emails{TAB}F12<=>Διαγραφή σημασμένων μηνυμάτων{TAB}F12
+&Exit<=>Έξοδος
+&View<=>Προβολή
+&Toolbar<=>Γραμμή εργαλείων
+&Statusbar<=>Γραμμή κατάστασης
+&Hide Marked Messages<=>Απόκρυψη σημασμένων μηνυμάτων
+Move Marked Messages to Tr&ash Tab<=>Μετακίνηση σημασμένων μηνυμάτων στην καρτέλα "Κάδος Απορριμμάτων"
+Tab &View{TAB}Ctrl+M<=>Εμφάνιση σε καρτέλες{TAB}Ctrl+M
+&Tools<=>Εργαλεία
+&Font...<=>Γραμματοσειρά...
+Font &Color...<=>Χρώμα Γραμματοσειράς...
+&Themes<=>Θέματα
+Launch &Email Client{TAB}Ctrl+E<=>Εκκίνηση προγράμματος e-mail{TAB}Ctrl+E
+&Import Accounts...<=>Εισαγωγή Λογαριασμών...
+&White List...<=>Λευκή Λίστα...
+&Black List...<=>Μαύρη Λίστα...
+&Rules...<=>Κανόνες...
+Add Item To Rules &List...{TAB}F9<=>Προσθήκη είδους σε κατάλογο Κανόνων...{TAB}F9
+&Options<=>Επιλογές
+&Help<=>Βοήθεια
+&Help Topics...{TAB}F1<=>Θέματα στη Βοήθεια...{TAB}F1
+Check For &Updates<=>Έλεγχος για ενημερώσεις
+&About PopMan...<=>Σχετικά με PopMan...
+Edit email accounts.{BR}Accounts<=>Επεξεργασία λογαριασμών e-mail.{BR}Λογαριασμοί
+Update email listing.{BR}Update<=>Ανανέωση καταλόγου μηνυμάτων.{BR}Ανανέωση
+Cancel current operation.{BR}Cancel<=>Ακύρωση τρέχουσας λειτουργίας.{BR}Ακύρωση
+Show email content.{BR}Show<=>Εμφάνιση περιεχομένου μηνύματος.{BR}Εμφάνιση
+Show source code of this email.{BR}Source code<=>Εμφάνιση πηγαίου κώδικα αυτού του μηνύματος.{BR}Πηγαίος κώδικας
+Save selected email to file.{BR}Save<=>Αποθήκευση επιλεγμένων μηνυμάτων σε αρχείο.{BR}Αποθήκευση
+Create a reply message to the sender.{BR}Reply<=>Δημιουργία ενός απαντητικού μηνύματος προς τον αποστολέα.{BR}Απάντηση
+Delete selected emails.{BR}Delete<=>Διαγραφή επιλεγμένων μηνυμάτων.{BR}Διαγραφή
+Delete marked emails.{BR}Delete marked emails<=>Διαγραφή σημασμένων μηνυμάτων.{BR}.Διαγραφή σημασμένων μηνυμάτων
+Unmark (undelete) selected emails.{BR}Unmark<=>Αποεπιλογή (μη διαγραφή) επιλεγμένων μηνυμάτων.{BR}Αποεπιλογή
+Add sender to Black List.{BR}Block Sender<=>Προσθήκη αποστολέα στην Μαύρη λίστα.{BR}Αποκλεισμός αποστολέα
+Add sender to White List.{BR}Trust Sender<=>Προσθήκη αποστολέα στην Λευκή λίστα.{BR}Έμπιστος αποστολέας
+Quit the application.{BR}Exit<=>Έξοδος από εφαρμογή.{BR}Έξοδος
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Εμφάνιση ή απόκρυψη γραμμής εργαλείων.{BR}Αλλαγή γραμμής εργαλείων
+Show or hide the status bar.{BR}Toggle StatusBar<=>Εμφάνιση ή απόκρυψη της γραμμής κατάστασης.{BR}Αλλαγή γραμμής κατάστασης
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Ενεργοποίηση\Απενεργοποίηση της εμφάνισης σε καρτέλες.{BR}Αλλαγή εμφάνισης σε καρτέλες
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Απόκρυψη μηνυμάτων που έχουν σημανθεί για διαγραφή.{BR}Απόκρυψη σημασμένων μηνυμάτων
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Μετακίνηση των σημασμένων μηνυμάτων σε ξεχωριστή καρτέλα "Κάδος Απορριμμάτων".{BR}Ενεργοποίηση καρτέλας "Κάδος Απορριμμάτων"
+Change font.{BR}Font<=>Αλλαγή γραμματοσειράς.{BR}Γραμματοσειρά
+Change font color.{BR}Font Color<=>Αλλαγή χρώματος γραμματοσειράς.{BR}Χρώμα γραμματοσειράς
+Launch email client.{BR}Email Client<=>Εκκίνηση προγράμματος e-mail.{BR}Πρόγραμμα e-mail
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Εισαγωγή λογαριασμών e-mail από Outlook Express.{BR}Εισαγωγή Λογαριασμών
+Edit the rules.{BR}Rules<=>Επεξεργασία των κανόνων.{BR}Κανόνες
+Add item to Rules list.{BR}Add To List<=>Προσθήκη ειδών στον κατάλογο Κανόνων.{BR}Προσθήκη στον κατάλογο
+Edit list of trusted senders.{BR}WhiteList<=>Επεξεργασία καταλόγου των έμπιστων αποστολέων.{BR}Λευκή λίστα
+Edit list of blocked senders.{BR}BlackList<=>Επεκεργασία των αποκλεισμένων αποστολέων.{BR}Μαύρη λίστα
+Change program settings.{BR}Settings<=>Αλλαγή ρυθμίσεων προγράμματος.{BR}Ρυθμίσεις
+Show Help Topics.{BR}Help<=>Εμφάνιση Θεμάτων Βοήθειας.{BR}Βοήθεια
+Check if a new version is available.{BR}Check for updates<=>Έλεγχος αν είναι διαθέσιμη μια νέα έκδοση.{BR}Έλεγχος για ενημερώσεις
+Display program information, version number and copyright.{BR}About<=>Εμφάνιση πληροφοριών προγράμματος, αριθμού έκδοσης και πνευματικής ιδιοκτησίας.{BR}Σχετικά
+Show the main window.{BR}Show<=>Εμφάνιση κύριου παραθύρου.{BR}Εμφάνιση
+Enable AutoChecking.{BR}Enable<=>Ενεργοποίηση Αυτόματου Ελέγχου.{BR}Ενεργοποίηση
+Suspend New Mail Notification Sound.{BR}Mute<=>Αναστολή ήχου ειδοποίησης νέων μηνυμάτων.{BR}Σίγαση
+Open the selected attachment.{BR}Open<=>’νοιγμα του επιλεγμένου συνημμένου.{BR}’νοιγμα
+Save the selected attachments.{BR}Save<=>Αποθήκευση των επιλεγμένων συνημμένων.{BR}Αποθήκευση
+Save all attachments.{BR}Save All<=>Αποθήκευση όλων των συνημμένων.{BR}Αποθήκευση όλων
+Change the window size.<=>Αλλαγή μεγέθους παραθύρου.
+Change the window position.<=>Αλλαγή θέσης παραθυρου.
+Reduce the window to an icon.<=>Ελαχιστοποίηση του παραθύρου σε ένα εικονίδιο.
+Enlarge the window to full size.<=>Μεγιστοποίηση του παραθύρου σε πλήρη οθόνη
+Close the active window.<=>Κλείσμο του ενεργού παραθύρου.
+Restore the window to normal size.<=>Επαναφορά του παραθύρου σε κανονικό μέγεθος.
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>Αλλαγή της τρέχουσας κατάστασης των επιλεγμένων μηνυμάτων από/σε [ΠΡΟΣΤΑΤΕΥΜΕΝΟ].{BR}Αλλαγή από/σε [ΠΡΟΣΤΑΤΕΥΜΕΝΟ]
+Don't display this &message again.<=>Να μην εμφανιστεί αυτό το μήνυμα ξανά.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>Εκτύπωση...{TAB}Ctrl+P
+&Close{TAB}Esc<=>Κλείσιμο{TAB}Esc
+&Edit<=>Επεξεργασία
+&Cut{TAB}Ctrl+X<=>Αποκοπή{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>Αντιγραφή{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>Επικόλληση{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>Αναζήτηση...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Αναζήτηση επόμενου{TAB}F3
+Select &All{TAB}Ctrl+A<=>Επιλογή όλων{TAB}Ctrl+A
+Print this email.{BR}Print<=>Εκτύπωση αυτού του μηνύματος.{BR}Εκτύπωση
+Delete this email.{BR}Delete<=>Διαγραφή αυτού του μηνύματος.{BR}Διαγραφή
+Close window.{BR}Close<=>Κλείσιμο παραθύρου.{BR}Κλείσιμο
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Αποκοπή του επιλεγμένου και τοποθέτησή του στο Πρόχειρο.{BR}Αποκοπή
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Αντιγραφή του επιλεγμένου και τοποθέτησή του στο Πρόχειρο.{BR}Αντιγραφή
+Insert Clipboard contents.{BR}Paste<=>Εισαγωγή περιεχομένων Προχείρου.{BR}Επικόλληση
+Find the specified text.{BR}Find<=>Αναζήτηση του καθορισμένου κειμένου.{BR}Αναζήτηση
+Find next occurence of specified text.{BR}Find next<=>Αναζήτηση της επόμενης εμφάνισης του καθορισμένου κειμένου.{BR}Αναζήτηση επόμενου
+Select the entire message.{BR}Select All<=>Επιλογή όλου του μηνύματος.{BR}Επιλογή όλων
+"{1}" not found.<=>"{1}" δεν βρέθηκε.
+&Open<=>’νοιγμα
+&Save As...<=>Αποθήκευση ως...
+Save &All...<=>Αποθήκευση όλων...
+This attachment can not be accessed anymore.<=>Αυτό το συνημμένο δεν μπορεί πια να προσπελαστεί.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>Το "{1}" είναι πολύ πιθανό να περιέχει έναν ιό, "σκουλήκι" ή άλλου τύπου επικίνδυνο κώδικα!
+Opening this file is therefore denied.<=>Γι αυτό απορρίφθηκε το άνοιγμα αυτού του αρχείου.
+Do you really want to save this file to your hard disk?<=>Θέλετε πραγματικά να αποθηκεύσετε αυτό το αρχείο στο σκληρό δίσκο σας;
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Αυτά τα συνημμένα είναι πολύ πιθανό να περιέχουν κάποιο ιό, "σκουλήκι" ή άλλου τύπου επικίνδυνο κώδικα!
+Do you really want to save these files to your hard disk?<=>Θέλετε πραγματικά να αποθηκεύσετε αυτά τα αρχεία στο σκληρό δίσκο σας;
+Please specify where to save the attachments.<=>Παρακαλούμε καθορίστε πού να αποθηκευτούν τα συνημμένα.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Το αρχείο "{1}" υπάρχει ήδη!{BR}Να αντικατασταθεί;
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Η λήψη του μηνύματος απέτυχε.{BR}Πατήστε Ctrl+F5 για ανανέωση του καταλόγου μηνυμάτων και προσπαθήστε ξανά.
+Are you sure you want to delete this email?<=>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το μήνυμα;
+Deleting email failed!<=>Η διαγραφή του μηνύματος απέτυχε!
+From:<=>Από:
+Date:<=>Ημερομηνία:
+To:<=>Προς:
+Subject:<=>Θέμα:
+Attach:<=>Επισύναψη:
+Protocol plugin not initialized correctly!<=>Το πρόσθετο πρωτοκόλλων δεν εκκινήθηκε σωστά!
+
+# PopMan Start
+
+Please start one instance only.<=>Παρακαλούμε εκκινήστε μόνο μια συνεδρία.
+Windows socket init failed.<=>Η εκκίνηση του Windows socket απέτυχε.
+{1} Beta version has been updated successfully!<=>Η έκδοση {1} Beta ενημερώθηκε επιτυχώς.
+You have successfully updated to version {1} !<=>Έχετε επιτυχώς αναβαθμιστεί στην έκδοση {1} !
+About PopMan<=>Περί PopMan
+PopMan, Version {1}<=>PopMan, Έκδοση {1}
+Website:<=>Ιστότοπος:
+Forum:<=>Συζήτηση:
+
+# Document
+
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>Αποτυχία εκκίνησης λογαριασμού {1}: Δεν είναι διαθέσιμο πρόσθετο για να παράσχει το πρωτόκολλο {2}!
+The error log file "{1}" could not be created.<=>Το εσφαλμένο αρχείο καταγραφής "{1}" δεν ήταν δυνατό να δημιουργηθεί.
+Checking {1}...<=>Ελέγχεται {1}...
+Email (*.eml)<=>Αρχείο αλληλογραφίας (*.eml)
+Text (*.txt)<=>Αρχείο κειμένου (*.txt)
+Unable to load mail system support.<=>Αδύνατη η φόρτωση της υποστήριξης συστήματος ηλεκτρονικού ταχυδρομείου.
+Mail system DLL is invalid.<=>Η DLL συστήματος για ηλεκτρονικό ταχυδρομείο είναι μη έγκυρη
+Unable to detect if a new version is available.<=>Αδύνατη η ανίχνευση αν είναι διαθέσιμη μια νέα έκδοση.
+There is no update available.<=>Δεν υπάρχει διαθέσιμη αναβάθμιση.
+Do you want to start the update wizard and download the latest version?<=>Θέλετε να εκκινήσετε τον οδηγό αναβάθμισης και να λάβετε την τελευταία έκδοση;
+Deleting mail...<=>Διαγραφή μηνύματος...
+Downloading mail...<=>Λήψη μηνύματος...
+AutoCheck disabled<=>Ο Αυτόματος Έλεγχος απενεργοποιήθηκε
+No messages<=>Κανένα μήνυμα
+1 new message<=>1 νέο μήνυμα
+{1} new messages<=>{1} νέα μηνύματα
+PopMan - New Mail<=>PopMan - Νέο μήνυμα
+&Open PopMan<=>’νοιγμα PopMan
+Check &Mail<=>Έλεγχος ταχυδρομείου
+&Cancel<=>Ακύρωση
+&Email Client<=>Πρόγραμμα e-mail
+A&utoCheck Enabled<=>Ο Αυτόματος Έλεγχος ενεργοποιήθηκε
+Mu&te Mode<=>Κατάσταση Σίγασης
+O&ptions...<=>Επιλογές...
+&About...<=>Σχετικά...
+E&xit<=>Έξοδος
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} μηνύματα ({2} μη αναγνωσμένα, {3} νέα){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - Πληροφορίες ταχυδρομείου
+1 message<=>1 μήνυμα
+{1} messages<=>{1} μηνύματα
+1 unread message<=>1 μη αναγνωσμένο μήνυμα
+{1} unread messages<=>{1} μη αναγνωσμένα μηνύματα
+in {1}<=>σε {1}
+in {1} accounts<=>σε {1} λογαριασμούς
+Show<=>Εμφάνιση
+Delete<=>Διαγραφή
+Close<=>Κλείσιμο
+(last check: {1})<=>(τελευταίος έλεγχος: {1})
+You are about to irrevocably delete all marked messages.<=>Είστε έτοιμοι να διαγράψετε αμετάκλητα όλα τα σημασμένα μηνύματα.
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Μόλις σημάνατε ένα μήνυμα προς διαγραφή. Για να το απο-επισημάνετε, πατήστε το κουμπί Ins στο πληκτρολόγιο. Για να διαγράψετε όλα τα σημασμένα μηνύματα, πατήστε F12 ή κάντε κλικ στο κατάλληλο κουμπί της γραμμής εργαλείων.
+You can also delete selected messages immediately by pressing Shift+Del.<=>Μπορείτε ακόμα να διαγράψετε άμεσα τα επιλεγμένα μηνύματα πατώντας Shift+Del.
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Αν θέλετε να επαναφέρετε την παραδοσιακή συμπεριφορά (διαγραφή όλων των επιλεγμένων μηνυμάτων άμεσα), αποεπιλέξτε το "{1}" στον διάλογο επιλογών
+Failed to add item to Rules list!<=>Η προσθήκη είδους στον κατάλογο Κανόνων απέτυχε!
+
+# Main View
+
+Separate account | All<=>Χωριστός λογαριασμός | Όλοι
+Check accounts{TAB}F7<=>Έλεγχος λογαριασμού{TAB}F7
+Join with tab<=>Σύνδεση με καρτέλα
+Rename tab{TAB}F2<=>Μετονομασία καρτέλας{TAB}F2
+Mark All Mails Read<=>Σήμανση όλων των μηνυμάτων ως αναγνωσμένων
+Mark All Mails Unread<=>Σήμανση όλων των μηνυμάτων ως μη αναγνωσμένων
+You have to add at least one account before you can switch to tab view.<=>Πρέπει να προσθέσετε τουλάχιστον ένα λογαριασμό πριν αλλάξετε σε εμφάνιση καρτελών.
+Caption:<=>Τίτλος:
+Please enter the caption of the tab:<=>Παρακαλούμε εισάγετε τον τίτλο της καρτέλας:
+Rename tab<=>Μετονομασία καρτέλας
+Trash<=>Κάδος Απορριμμάτων
+Tab accounts:<=>Λογαριασμοί καρτέλας:
+
+# Rules
+
+Error while parsing rules file at line {1}!<=>Σφάλμα κατά την εισαγωγή του αρχείου κανόνων στην γραμμή {1}!
+The item is already contained in the list!<=>Το είδος περιέχεται ήδη στον κατάλογο!
+
+# Text View
+
+Copy Link Address<=>Αντιγραφή διεύθυνσης του συνδέσμου

@@ -1,0 +1,1593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-02-13 11:38+0200\n"
+"Last-Translator: Erhan BURHAN <eburhan@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: Turkey\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: /home/max/Projetos/wxDFast\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: resources\n"
+
+#: src/TaskBarIcon.cpp:63
+#: src/MainFrame.cpp:813
+msgid "Total Speed:"
+msgstr "Toplam hız"
+
+#: src/TaskBarIcon.cpp:65
+msgid "Total Complete:"
+msgstr "Toplam tamamlanma"
+
+#: src/TaskBarIcon.cpp:67
+msgid "Downloads in progress:"
+msgstr "İşlemdeki indirmeler"
+
+#: src/TaskBarIcon.cpp:84
+msgid "Hide the main window"
+msgstr "Ana pencereyi gizle"
+
+#: src/TaskBarIcon.cpp:86
+msgid "Show the main window"
+msgstr "Ana pencereyi göster"
+
+#: src/TaskBarIcon.cpp:87
+msgid "New download"
+msgstr "Yeni indirme"
+
+#: src/TaskBarIcon.cpp:88
+#: src/MainFrame.cpp:2726
+msgid "Close the program"
+msgstr "Programı kapat"
+
+#: src/TaskBarIcon.cpp:91
+#: src/TaskBarIcon.cpp:167
+#: src/TaskBarIcon.cpp:184
+#: src/TaskBarIcon.cpp:202
+#: src/MainFrame.cpp:423
+#: src/MainFrame.cpp:430
+#: src/MainFrame.cpp:438
+#: src/MainFrame.cpp:1764
+#: src/MainFrame.cpp:1771
+#: src/MainFrame.cpp:1779
+#: src/MainFrame.cpp:2422
+#: src/MainFrame.cpp:2434
+#: src/MainFrame.cpp:2446
+msgid "Band control"
+msgstr "Bant kontrolü"
+
+#: src/TaskBarIcon.cpp:93
+#: src/TaskBarIcon.cpp:169
+#: src/MainFrame.cpp:440
+#: src/MainFrame.cpp:1781
+#: src/MainFrame.cpp:2448
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: src/TaskBarIcon.cpp:93
+#: src/TaskBarIcon.cpp:95
+#: src/TaskBarIcon.cpp:96
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr ""
+
+#: src/TaskBarIcon.cpp:94
+#: src/TaskBarIcon.cpp:186
+#: src/MainFrame.cpp:432
+#: src/MainFrame.cpp:1773
+#: src/MainFrame.cpp:2436
+msgid "Active"
+msgstr "Aktif"
+
+#: src/TaskBarIcon.cpp:96
+#: src/TaskBarIcon.cpp:204
+#: src/MainFrame.cpp:425
+#: src/MainFrame.cpp:1766
+#: src/MainFrame.cpp:2424
+msgid "Per Download"
+msgstr "İndirme başına"
+
+#: src/MainFrame.cpp:144
+msgid "Downloads in Progress"
+msgstr "İşlemdeki indirmeler"
+
+#: src/MainFrame.cpp:145
+msgid "Finished Downloads"
+msgstr "Bitmiş indirmeler"
+
+#: src/MainFrame.cpp:345
+#: /tmp/dummy:25
+msgid "Schedule Download"
+msgstr "İndirmeyi zamanla"
+
+#: src/MainFrame.cpp:346
+#: /tmp/dummy:26
+#: /tmp/dummy:89
+msgid "Start Download"
+msgstr "İndirmeyi başlat"
+
+#: src/MainFrame.cpp:347
+#: /tmp/dummy:27
+msgid "Stop Download"
+msgstr "İndirmeyi durdur"
+
+#: src/MainFrame.cpp:348
+#: /tmp/dummy:24
+msgid "Remove Download"
+msgstr "İndirmeyi kaldır"
+
+#: src/MainFrame.cpp:349
+msgid "Properties of Download"
+msgstr "İndirmenin özellikleri"
+
+#: src/MainFrame.cpp:350
+#: /tmp/dummy:60
+msgid "Download File Again"
+msgstr "Dosyayı tekrar indir"
+
+#: src/MainFrame.cpp:351
+#: /tmp/dummy:57
+msgid "Move File"
+msgstr "Dosyayı taşı"
+
+#: src/MainFrame.cpp:352
+#: /tmp/dummy:58
+msgid "Check Integrity"
+msgstr "Doğruluğu kontrol et"
+
+#: src/MainFrame.cpp:353
+#: /tmp/dummy:33
+msgid "Copy URL"
+msgstr "Adresi kopyala"
+
+#: src/MainFrame.cpp:354
+#: /tmp/dummy:34
+msgid "Copy Download Data"
+msgstr "İndirme verisini kopyala"
+
+#: src/MainFrame.cpp:355
+#: /tmp/dummy:59
+msgid "Open Destination Directory"
+msgstr "Hedef dizini aç"
+
+#: src/MainFrame.cpp:416
+#: src/MainFrame.cpp:1757
+#: src/MainFrame.cpp:2869
+msgid "NEW RELEASE: "
+msgstr "YENİ DAĞITIM: "
+
+#: src/MainFrame.cpp:418
+#: src/MainFrame.cpp:1759
+#: src/MainFrame.cpp:2871
+#: src/MainFrame.cpp:2873
+msgid " is available."
+msgstr " geçerli."
+
+#: src/MainFrame.cpp:447
+#: src/MainFrame.cpp:610
+#: src/MainFrame.cpp:1397
+#: src/MainFrame.cpp:1736
+#: src/InProgressList.cpp:129
+#: src/FinishedList.cpp:143
+#: src/FinishedList.cpp:284
+#: /tmp/dummy:100
+msgid "File type"
+msgstr "Dosya türü"
+
+#: src/MainFrame.cpp:450
+#: src/MainFrame.cpp:1739
+#: /tmp/dummy:101
+msgid "Preview"
+msgstr "Önizleme"
+
+#: src/MainFrame.cpp:624
+msgid "Piece "
+msgstr "Parça"
+
+#: src/MainFrame.cpp:1004
+msgid "Stopping the download..."
+msgstr "İndirme durduruluyor..."
+
+#: src/MainFrame.cpp:1004
+msgid "Stopping the current download before removing..."
+msgstr "Kaldırmadan önce geçerli indirme durduruluyor..."
+
+#: src/MainFrame.cpp:1016
+msgid "Do you also want to remove the partial downloaded file from the disk?"
+msgstr "Kısmen indirilmiş dosyayı diskten de kaldırmak istiyor musunuz?"
+
+#: src/MainFrame.cpp:1016
+#: src/MainFrame.cpp:1054
+msgid "Remove..."
+msgstr "Kaldır..."
+
+#: src/MainFrame.cpp:1054
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "İndirilmiş dosyaları diskten de kaldırmak istiyor musunuz?"
+
+#: src/MainFrame.cpp:1171
+#: src/MainFrame.cpp:2853
+msgid "Error creating thread!"
+msgstr "İş oluşturma hatası!"
+
+#: src/MainFrame.cpp:1171
+#: src/MainFrame.cpp:1179
+#: src/MainFrame.cpp:1344
+#: src/MainFrame.cpp:1456
+#: src/MainFrame.cpp:2081
+#: src/MainFrame.cpp:2148
+#: src/MainFrame.cpp:2154
+#: src/MainFrame.cpp:2174
+#: src/MainFrame.cpp:2212
+#: src/MainFrame.cpp:2532
+#: src/MainFrame.cpp:2543
+#: src/MainFrame.cpp:2554
+#: src/MainFrame.cpp:2765
+#: src/MainFrame.cpp:2915
+#: src/MainFrame.cpp:2918
+#: src/MainFrame.cpp:2921
+#: src/BoxFind.cpp:45
+#: src/wxDFast.cpp:339
+#: src/BoxNew.cpp:46
+#: src/BoxNew.cpp:61
+#: src/BoxNew.cpp:79
+#: src/BoxNew.cpp:91
+#: src/BoxNew.cpp:113
+#: src/BoxNew.cpp:126
+#: src/BoxNew.cpp:163
+#: src/BoxNew.cpp:195
+msgid "Error..."
+msgstr "Hata..."
+
+#: src/MainFrame.cpp:1179
+#: src/MainFrame.cpp:2859
+msgid "Error starting thread!"
+msgstr "İş başlatma hatası!"
+
+#: src/MainFrame.cpp:1218
+msgid "Starting the downloads..."
+msgstr "İndirmeler başlatılıyor..."
+
+#: src/MainFrame.cpp:1235
+msgid "Stopping the downloads..."
+msgstr "İndirmeler durduruluyor..."
+
+#: src/MainFrame.cpp:1344
+#: src/MainFrame.cpp:1456
+msgid "Unable to open the clipboard!"
+msgstr "Panoyu açmak olanaksız!"
+
+#: src/MainFrame.cpp:1392
+#: src/FinishedList.cpp:142
+#: src/FinishedList.cpp:283
+msgid "Name"
+msgstr "İsim"
+
+#: src/MainFrame.cpp:1402
+#: src/InProgressList.cpp:252
+#: src/FinishedList.cpp:144
+#: src/FinishedList.cpp:271
+#: src/FinishedList.cpp:285
+msgid "Size"
+msgstr "Boyut"
+
+#: src/MainFrame.cpp:1407
+#: src/FinishedList.cpp:145
+#: src/FinishedList.cpp:286
+msgid "Time"
+msgstr "Süre"
+
+#: src/MainFrame.cpp:1412
+#: src/FinishedList.cpp:146
+#: src/FinishedList.cpp:287
+msgid "Destination"
+msgstr "Hedef"
+
+#: src/MainFrame.cpp:1419
+#: src/FinishedList.cpp:149
+#: src/FinishedList.cpp:290
+msgid "MD5"
+msgstr "MD5"
+
+#: src/MainFrame.cpp:1425
+#: src/FinishedList.cpp:150
+#: /tmp/dummy:94
+#: /tmp/dummy:95
+msgid "Reference URL"
+msgstr "Referans adresi"
+
+#: src/MainFrame.cpp:1430
+#: src/FinishedList.cpp:151
+#: src/FinishedList.cpp:291
+#: /tmp/dummy:93
+msgid "Comments"
+msgstr "Açıklama"
+
+#: src/MainFrame.cpp:1435
+#: src/FinishedList.cpp:152
+#: src/FinishedList.cpp:292
+msgid "URLs"
+msgstr "Adresler"
+
+#: src/MainFrame.cpp:1537
+msgid "Find file..."
+msgstr "Dosya bul..."
+
+#: src/MainFrame.cpp:1866
+#: /tmp/dummy:56
+msgid "Download Properties"
+msgstr "İndirme özellikleri"
+
+#: src/MainFrame.cpp:2037
+#: src/MainFrame.cpp:2167
+#: src/BoxNew.cpp:141
+#: src/BoxOptions.cpp:55
+#: src/BoxOptions.cpp:77
+msgid "Select the directory:"
+msgstr "Dizin seçin:"
+
+#: src/MainFrame.cpp:2072
+msgid "Moving..."
+msgstr "Taşınıyor..."
+
+#: src/MainFrame.cpp:2072
+msgid "Moving file..."
+msgstr "Dosya taşınıyor..."
+
+#: src/MainFrame.cpp:2081
+msgid "Error moving file."
+msgstr "Dosya taşıma hatası"
+
+#: src/MainFrame.cpp:2087
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"Dosya başlangıçta kaydedildiği yolda bulunmuyor.\n"
+"Eski yolu geçerli bir yol ile değiştirmek ister misiniz?"
+
+#: src/MainFrame.cpp:2090
+#: src/MainFrame.cpp:2758
+#: src/BoxNew.cpp:108
+msgid "Continue..."
+msgstr "Devam et..."
+
+#: src/MainFrame.cpp:2134
+msgid "Checking file's MD5..."
+msgstr "Dosyanın MD5'i kontrol ediliyor..."
+
+#: src/MainFrame.cpp:2141
+msgid "The file was verified successfully."
+msgstr "Dosya başarıyla doğrulandı."
+
+#: src/MainFrame.cpp:2141
+#: src/MainFrame.cpp:2172
+#: src/MainFrame.cpp:2207
+msgid "Success..."
+msgstr "Başarılı..."
+
+#: src/MainFrame.cpp:2145
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "Önceden hesaplanan MD5, geçerli olandan farklı."
+
+#: src/MainFrame.cpp:2146
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"Eski MD5 =\t\t"
+
+#: src/MainFrame.cpp:2147
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"Geçerli MD5 =\t"
+
+#: src/MainFrame.cpp:2154
+#: src/MainFrame.cpp:2921
+#: src/BoxFind.cpp:107
+msgid "File not found."
+msgstr "Dosya bulunamıyor."
+
+#: src/MainFrame.cpp:2172
+msgid "The configuration was exported successfully."
+msgstr "Yapılandırma başarıyla dışarıya verildi."
+
+#: src/MainFrame.cpp:2174
+msgid "Error exporting configuration."
+msgstr "Yapılandırmayı dışarı verme hatası."
+
+#: src/MainFrame.cpp:2201
+msgid "Select the file..."
+msgstr "Dosyayı seç..."
+
+#: src/MainFrame.cpp:2207
+msgid ""
+"The configuration was imported successfully.\n"
+"The program will be restated now for the changes to take effect."
+msgstr ""
+"Yapılandırma başarıyla içeriye alındı.\n"
+"Değişikliklerin uygulanabilmesi için program şimdi yeniden başlatılacak."
+
+#: src/MainFrame.cpp:2212
+msgid "Error importing configuration."
+msgstr "Yapılandırmayı içeri alma hatası"
+
+#: src/MainFrame.cpp:2242
+#: src/MainFrame.cpp:2253
+msgid "Command :\t"
+msgstr "Komut :\t"
+
+#: src/MainFrame.cpp:2242
+msgid "Shutdown Command..."
+msgstr "Kapatma komutu..."
+
+#: src/MainFrame.cpp:2253
+msgid "Disconnect Command..."
+msgstr "Bağlantıyı kesme komutu..."
+
+#: src/MainFrame.cpp:2335
+msgid "Updating the configuration..."
+msgstr "Yapılandırma güncelleniyor..."
+
+#: src/MainFrame.cpp:2335
+msgid "Updating and saving the configuration..."
+msgstr "Yapılandırma kaydediliyor ve güncelleniyor..."
+
+#: src/MainFrame.cpp:2531
+#: src/MainFrame.cpp:2542
+#: src/MainFrame.cpp:2553
+#: src/MainFrame.cpp:2764
+msgid ""
+"Unable to find the browser.\n"
+"Go to \"Options\" and specify a valid one."
+msgstr ""
+"Web tarayıcısını bulmak olanaksız.\n"
+"\"Seçenekler\" bölümünden geçerli bir tane belirtin."
+
+#: src/MainFrame.cpp:2563
+msgid "Version: "
+msgstr "Sürüm: "
+
+#: src/MainFrame.cpp:2564
+msgid "Author: "
+msgstr "Yazar: "
+
+#: src/MainFrame.cpp:2566
+msgid "I'd like to thank the following contributors for their help:\n"
+msgstr "Katkılarından dolayı aşağıdaki yardımcılara teşekkür ederim:\n"
+
+#: src/MainFrame.cpp:2568
+msgid " - several tips and donations\n"
+msgstr " - birkaç ipucu ve bağışlar\n"
+
+#: src/MainFrame.cpp:2570
+msgid ""
+" - Ripstop theme\n"
+"\n"
+msgstr ""
+" - Ripstop teması\n"
+"\n"
+
+#: src/MainFrame.cpp:2571
+msgid "Visit our website:\n"
+msgstr "Web sitemizi gezin:\n"
+
+#: src/MainFrame.cpp:2574
+msgid "Help to improve the program!\n"
+msgstr "Programı geliştirmek için yardım edin!\n"
+
+#: src/MainFrame.cpp:2575
+msgid "Donate to this project!"
+msgstr "Bu projeye bağışta bulunun!"
+
+#: src/MainFrame.cpp:2596
+msgid "Do you want to close the program?"
+msgstr "Programı kapatmak istiyor musunuz?"
+
+#: src/MainFrame.cpp:2596
+msgid "Close..."
+msgstr "Kapat..."
+
+#: src/MainFrame.cpp:2686
+#: /tmp/dummy:3
+#: /tmp/dummy:73
+msgid "Add new download"
+msgstr "Yeni indirme ekle"
+
+#: src/MainFrame.cpp:2690
+#: /tmp/dummy:5
+msgid "Remove the selected download"
+msgstr "Seçili indirmeyi kaldır"
+
+#: src/MainFrame.cpp:2694
+#: /tmp/dummy:7
+msgid "Mark the selected download as scheduled"
+msgstr "Seçili indirmeyi zamanlanmış olarak işaretle"
+
+#: src/MainFrame.cpp:2698
+#: /tmp/dummy:9
+msgid "Start the selected download"
+msgstr "Seçili indirmeyi başlat"
+
+#: src/MainFrame.cpp:2702
+#: /tmp/dummy:11
+msgid "Stop the selected download"
+msgstr "Seçili indirmeyi durdur"
+
+#: src/MainFrame.cpp:2706
+#: /tmp/dummy:13
+#: /tmp/dummy:28
+msgid "Start all downloads"
+msgstr "Tüm indirmeleri başlat"
+
+#: src/MainFrame.cpp:2710
+#: /tmp/dummy:15
+#: /tmp/dummy:29
+msgid "Stop all downloads"
+msgstr "Tüm indirmeleri durdur"
+
+#: src/MainFrame.cpp:2714
+msgid "Raise in one level the selected download in the queue"
+msgstr "Seçili indirmeyi kuyrukta bir seviye yukarıya çıkart"
+
+#: src/MainFrame.cpp:2718
+msgid "Lower in one level the selected download in the queue"
+msgstr "Seçili indirmeyi kuyrukta bir seviye aşağıya indir"
+
+#: src/MainFrame.cpp:2722
+#: /tmp/dummy:21
+msgid "Show the properties of the selected download"
+msgstr "Seçili indirmenin özelliklerini göster"
+
+#: src/MainFrame.cpp:2757
+msgid ""
+"You have downloaded a HTML file.\n"
+"Open this file in your browser?"
+msgstr ""
+"Bir HTML dosyası indirmişsiniz.\n"
+"Dosya web tarayıcınızla açılsın mı?"
+
+#: src/MainFrame.cpp:2774
+msgid "Shutting down the computer..."
+msgstr "Bilgisayar kapatılıyor..."
+
+#: src/MainFrame.cpp:2774
+msgid "The computer will shut down in seconds..."
+msgstr "Bilgisayar saniyeler içerisinde kapatılacak..."
+
+#: src/MainFrame.cpp:2786
+msgid "Disconnecting from the Internet..."
+msgstr "İnternet ile bağlantı kesiliyor..."
+
+#: src/MainFrame.cpp:2786
+msgid "The Internet connection will be closed in seconds..."
+msgstr "İnternet bağlantısı saniyeler içerisinde kapatılacak..."
+
+#: src/MainFrame.cpp:2873
+msgid "Visit http://dfast.sourceforge.net for more informations."
+msgstr "Daha çok bilgi http://dfast.sourceforge.net/ adresinde."
+
+#: src/MainFrame.cpp:2911
+msgid "List of files in Zip archive:"
+msgstr "Zip arşivli dosyaların listesi:"
+
+#: src/MainFrame.cpp:2911
+msgid "Zip Preview"
+msgstr "Zip önizleme"
+
+#: src/MainFrame.cpp:2915
+#: src/MainFrame.cpp:2918
+msgid "Unable to extract zip file content!"
+msgstr "Zip dosyasının içeriğini çıkartmak olanaksız!"
+
+#: src/BoxFind.cpp:45
+msgid ""
+"Unable to search in this page.\n"
+"Change to another page and try again"
+msgstr ""
+"Bu sayfada arama yapmak olanaksız.\n"
+"Başka sayfaya geçin ve tekrar deneyin"
+
+#: src/BoxFind.cpp:107
+#: src/BoxNew.cpp:99
+msgid "Information..."
+msgstr "Bilgi..."
+
+#: src/wxDFast.cpp:327
+msgid "Cannot set locale to"
+msgstr ""
+
+#: src/wxDFast.cpp:329
+msgid "This language is not supported by your system."
+msgstr "Bu dil sisteminiz tarafından desteklenmiyor."
+
+#: src/BoxNew.cpp:46
+#: src/BoxNew.cpp:79
+msgid "The following URL is invalid:\n"
+msgstr "Aşağıdaki adres geçersiz:\n"
+
+#: src/BoxNew.cpp:61
+#: src/BoxNew.cpp:163
+#: src/BoxNew.cpp:195
+msgid "The URL is invalid!"
+msgstr "Adres geçersiz!"
+
+#: src/BoxNew.cpp:91
+msgid "The following URL has a different filename:\n"
+msgstr "Aşağıdaki adresin farklı bir dosya ismi var:\n"
+
+#: src/BoxNew.cpp:99
+msgid "Select at least one item of the address list!\n"
+msgstr "Adres listesinden en az bir öğe seçiniz!\n"
+
+#: src/BoxNew.cpp:108
+msgid ""
+"The destination directory does not exist!\n"
+"Do you want to create it?"
+msgstr ""
+"Hedef dizin mevcut değil!\n"
+"Oluşturmasını ister misiniz?"
+
+#: src/BoxNew.cpp:113
+msgid "You don't have permission to create the directory!"
+msgstr "Dizin oluşturmak için gerekli izniniz yok!"
+
+#: src/BoxNew.cpp:126
+msgid "I can't split the file into so many pieces!"
+msgstr "Dosyayı pekçok parçaya bölemiyorum!"
+
+#: src/BoxNew.cpp:177
+msgid "Edit the URL"
+msgstr "Adresi düzenle"
+
+#: src/InProgressList.cpp:35
+msgid "Double-click on the item to Start/Stop the download"
+msgstr "İndirmeyi başlatmak/durdurmak için öğeye çift tıklatın"
+
+#: src/InProgressList.cpp:208
+msgid "   [ Yes ]"
+msgstr "   [ Evet ]"
+
+#: src/InProgressList.cpp:210
+msgid "   [ No  ]"
+msgstr "   [ Hayır  ]"
+
+#: src/InProgressList.cpp:246
+msgid "Restart"
+msgstr "Yeniden başlat"
+
+#: src/InProgressList.cpp:249
+#: src/FinishedList.cpp:269
+msgid "Filename"
+msgstr "Dosya adı"
+
+#: src/InProgressList.cpp:255
+msgid "Completed"
+msgstr "Bitmiş"
+
+#: src/InProgressList.cpp:258
+msgid "Percentage"
+msgstr "Yüzde oranı"
+
+#: src/InProgressList.cpp:261
+msgid "Time Passed"
+msgstr "Geçen süre"
+
+#: src/InProgressList.cpp:264
+msgid "Remaining"
+msgstr "Kalan"
+
+#: src/InProgressList.cpp:267
+msgid "Speed"
+msgstr "Hız"
+
+#: src/InProgressList.cpp:270
+msgid "Attempts"
+msgstr "Denemeler"
+
+#: src/InProgressList.cpp:273
+msgid "URL"
+msgstr "Adres"
+
+#: src/FinishedList.cpp:39
+msgid "Double-click on the item to open the destination directory"
+msgstr "Hedef dizini açmak için öğeye çift tıklatın"
+
+#: src/FinishedList.cpp:147
+#: src/FinishedList.cpp:288
+msgid "Started"
+msgstr "Başladı"
+
+#: src/FinishedList.cpp:148
+#: src/FinishedList.cpp:273
+#: src/FinishedList.cpp:289
+msgid "Finished"
+msgstr "Bitti"
+
+#: src/DownloadThread.cpp:67
+msgid ""
+"You have downloaded a HTML file.\n"
+"Opening this file in your browser.\n"
+msgstr ""
+"Bir HTML dosyası indirmişsiniz.\n"
+"Bu dosya  web tarayıcınızla açılıyor.\n"
+
+#: src/DownloadThread.cpp:193
+msgid "This protocol isn't supported.\n"
+msgstr "Bu protokol desteklenmiyor.\n"
+
+#: src/DownloadThread.cpp:247
+#: src/DownloadThread.cpp:915
+msgid "Redirecting to "
+msgstr "Yönlendiriliyor "
+
+#: src/DownloadThread.cpp:265
+msgid "Metalink file detected\n"
+msgstr "Metalink dosyası bulundu\n"
+
+#: src/DownloadThread.cpp:266
+msgid "Getting Metalink data...\n"
+msgstr "Metalink verisi alınıyor...\n"
+
+#: src/DownloadThread.cpp:296
+#: src/DownloadThread.cpp:715
+#: src/DownloadThread.cpp:962
+#: src/DownloadThread.cpp:1138
+#: /tmp/dummy:176
+msgid "Not available"
+msgstr "Kullanılır değil"
+
+#: src/DownloadThread.cpp:317
+msgid "This Metalink file contains multiples files.\n"
+msgstr "Bu Metalink dosyasında birden fazla dosya var.\n"
+
+#: src/DownloadThread.cpp:320
+msgid "Creating all downloads...\n"
+msgstr "Tüm indirmeler oluşturuluyor...\n"
+
+#: src/DownloadThread.cpp:330
+msgid "Getting file number "
+msgstr "Dosya sayısı alınıyor "
+
+#: src/DownloadThread.cpp:336
+msgid "Error retrieving Metalink data\n"
+msgstr "Metalink verisini alma hatası\n"
+
+#: src/DownloadThread.cpp:355
+msgid "New attempt in "
+msgstr "Şu süre içerisinde yeniden denenecek: "
+
+#: src/DownloadThread.cpp:355
+msgid " seconds\n"
+msgstr " saniye\n"
+
+#: src/DownloadThread.cpp:369
+msgid "Attempt "
+msgstr "Deneme "
+
+#: src/DownloadThread.cpp:369
+msgid " of "
+msgstr ""
+
+#: src/DownloadThread.cpp:390
+msgid "Canceled.\n"
+msgstr "İptal edildi.\n"
+
+#: src/DownloadThread.cpp:412
+msgid "Critical error!! The start point is bigger that the end point!!\n"
+msgstr "Kritik hata!! Başlangıç noktası, bitiş noktasına göre daha büyük!!\n"
+
+#: src/DownloadThread.cpp:434
+msgid "Error establishing input stream.\n"
+msgstr "Giriş akımını kurma hatası.\n"
+
+#: src/DownloadThread.cpp:449
+msgid "Copying file...\n"
+msgstr "Dosya kopyalanıyor...\n"
+
+#: src/DownloadThread.cpp:454
+msgid "Error opening file "
+msgstr "Dosya açma hatası "
+
+#: src/DownloadThread.cpp:548
+msgid "Error copying file.\n"
+msgstr "Dosya kopyalama hatası.\n"
+
+#: src/DownloadThread.cpp:568
+msgid "Error writing file.\n"
+msgstr "Dosya yazma hatası.\n"
+
+#: src/DownloadThread.cpp:639
+msgid "Finished this piece\n"
+msgstr "Bu parça tamamlandı\n"
+
+#: src/DownloadThread.cpp:657
+msgid "Waiting for the other pieces...\n"
+msgstr "Diğer parçalar bekleniyor...\n"
+
+#: src/DownloadThread.cpp:665
+msgid "Putting all the pieces together...\n"
+msgstr "Tüm parçalar birleştiriliyor...\n"
+
+#: src/DownloadThread.cpp:669
+msgid ""
+"Error joining the pieces.\n"
+"Try to restart the download.\n"
+msgstr ""
+"Parçaları birleştirme hatası.\n"
+"İndirmeyi yeniden başlatmayı deneyin.\n"
+
+#: src/DownloadThread.cpp:675
+msgid "Checking MD5...\n"
+msgstr "MD5 kontrolü...\n"
+
+#: src/DownloadThread.cpp:676
+msgid "Checking MD5 ... ("
+msgstr "MD5 kontrolü... ("
+
+#: src/DownloadThread.cpp:684
+msgid "Comparing expected and calculated MD5...\n"
+msgstr "Beklenen MD5 ile hesaplanan MD5 karşılaştırılıyor...\n"
+
+#: src/DownloadThread.cpp:687
+msgid "File verified successfully\n"
+msgstr "Dosya başarıy doğrulandı\n"
+
+#: src/DownloadThread.cpp:688
+#: src/DownloadThread.cpp:698
+msgid "Finished\n"
+msgstr "Bitti\n"
+
+#: src/DownloadThread.cpp:692
+msgid "Error comparing MD5.\n"
+msgstr "MD5 karşılaştırma hatası.\n"
+
+#: src/DownloadThread.cpp:724
+#: src/DownloadThread.cpp:975
+msgid "Resolving host '"
+msgstr "Sunucu çözülüyor '"
+
+#: src/DownloadThread.cpp:727
+#: src/DownloadThread.cpp:978
+msgid ""
+"\n"
+"Host not found.\n"
+msgstr ""
+"\n"
+"Sunucu bulunamıyor.\n"
+
+#: src/DownloadThread.cpp:733
+#: src/DownloadThread.cpp:984
+#: src/DownloadThread.cpp:999
+#: src/DownloadThread.cpp:1023
+msgid " OK\n"
+msgstr " Tamam\n"
+
+#: src/DownloadThread.cpp:737
+#: src/DownloadThread.cpp:988
+msgid "Trying to connect in '"
+msgstr "Bağlanmayı deniyor '"
+
+#: src/DownloadThread.cpp:742
+msgid "Connection denied.\n"
+msgstr "Bağlantı reddedildi.\n"
+
+#: src/DownloadThread.cpp:753
+msgid ""
+"Accessing server...\n"
+"\n"
+msgstr ""
+"Sunucuya erişiliyor...\n"
+"\n"
+
+#: src/DownloadThread.cpp:853
+#: src/DownloadThread.cpp:1104
+msgid ""
+"The file size has changed since the last time.\n"
+"Removing the partially downloaded files...\n"
+msgstr ""
+"Dosya boyutu son zamandan bu yana değiştirilmiş.\n"
+"Kısmen indirilmiş dosyalar kaldırılıyor...\n"
+
+#: src/DownloadThread.cpp:885
+msgid "This server does not support restart.\n"
+msgstr "Bu sunucu yeniden başlatmayı desteklemiyor.\n"
+
+#: src/DownloadThread.cpp:898
+#: src/DownloadThread.cpp:905
+#: src/DownloadThread.cpp:1072
+#: src/DownloadThread.cpp:1160
+msgid "Unable to return the file size.\n"
+msgstr "Dosya boyutunu geri döndürme hatası.\n"
+
+#: src/DownloadThread.cpp:929
+msgid "Error requesting file.\n"
+msgstr "Dosya isteme hatası.\n"
+
+#: src/DownloadThread.cpp:937
+msgid "The server timed out.\n"
+msgstr "Sunucu zaman aşımında.\n"
+
+#: src/DownloadThread.cpp:993
+msgid ""
+"\n"
+"Connection denied.\n"
+msgstr ""
+"\n"
+"Bağlantı reddedildi.\n"
+
+#: src/DownloadThread.cpp:1003
+msgid "Waiting for welcome message.\n"
+msgstr "Hoşgeldiniz mesajı bekleniyor.\n"
+
+#: src/DownloadThread.cpp:1008
+msgid "Verifying if the server supports restarting..."
+msgstr "Sunucunun yeniden başlatmayı destekleyip desteklemediği doğrulanıyor..."
+
+#: src/DownloadThread.cpp:1011
+msgid ""
+"\n"
+"This server does not support restart.\n"
+msgstr ""
+"\n"
+"Bu sunucu yeniden başlatmayı desteklemiyor.\n"
+
+#: src/DownloadThread.cpp:1030
+msgid "Changing to directory "
+msgstr "Dizin değiştiriliyor "
+
+#: src/DownloadThread.cpp:1033
+msgid "Invalid directory.\n"
+msgstr "Geçersiz dizin.\n"
+
+#: src/DownloadThread.cpp:1042
+msgid "Changing to binary mode...\n"
+msgstr "İkili kipe geçiliyor...\n"
+
+#: src/DownloadThread.cpp:1045
+msgid "Unable to change to binary mode.\n"
+msgstr "İkili kipe geçiş yapmak olanaksız.\n"
+
+#: src/DownloadThread.cpp:1054
+#: src/DownloadThread.cpp:1157
+msgid "Verifying the size of the "
+msgstr "Boyutu doğrulanıyor "
+
+#: src/DownloadThread.cpp:1080
+#: src/DownloadThread.cpp:1177
+msgid "File size: "
+msgstr "Dosya boyutu: "
+
+#: src/DownloadThread.cpp:1125
+#: src/DownloadThread.cpp:1185
+msgid "Requesting file...\n"
+msgstr "Dosya isteniyor...\n"
+
+#: src/DownloadThread.cpp:1149
+msgid "Looking for file "
+msgstr "Dosya aranıyor "
+
+#: src/DownloadThread.cpp:1152
+msgid "File not found.\n"
+msgstr "Dosya bulunamıyor.\n"
+
+#: src/DownloadThread.cpp:1258
+msgid "There isn't enough disk space to join the file parts.\n"
+msgstr "Dosya parçalarını birleştirmek için yeterli disk alanı yok.\n"
+
+#: src/BoxOptions.cpp:62
+#: src/BoxOptions.cpp:69
+msgid "Choose a file..."
+msgstr "Bir dosya seç..."
+
+#: src/BoxOptions.cpp:135
+#: src/BoxOptions.cpp:142
+msgid "Select the date..."
+msgstr "Tarihi seç..."
+
+#: src/BoxOptions.cpp:158
+msgid "Remove some items before adding a new one."
+msgstr "Yeni bir tane eklemeden önce bazı öğeleri kaldır"
+
+#: src/wxDFast.h:239
+msgid "Sundays"
+msgstr "Pazarları"
+
+#: src/wxDFast.h:239
+msgid "Mondays"
+msgstr "Pazartesileri"
+
+#: src/wxDFast.h:239
+msgid "Tuesdays"
+msgstr "Salıları"
+
+#: src/wxDFast.h:240
+msgid "Wednesdays"
+msgstr "Çarşambaları"
+
+#: src/wxDFast.h:240
+msgid "Thursdays"
+msgstr "Perşembeleri"
+
+#: src/wxDFast.h:240
+msgid "Fridays"
+msgstr "Cumaları"
+
+#: src/wxDFast.h:241
+msgid "Saturdays"
+msgstr "Cumartesileri"
+
+#: src/wxDFast.h:745
+msgid "OK"
+msgstr "Tamam"
+
+#: /tmp/dummy:1
+msgid "About..."
+msgstr "Hakkında..."
+
+#: /tmp/dummy:2
+msgid "New"
+msgstr "Yeni"
+
+#: /tmp/dummy:4
+#: /tmp/dummy:165
+msgid "Remove"
+msgstr "Kaldır"
+
+#: /tmp/dummy:6
+#: /tmp/dummy:92
+msgid "Schedule"
+msgstr "Zamanla"
+
+#: /tmp/dummy:8
+msgid "Start"
+msgstr "Başlat"
+
+#: /tmp/dummy:10
+msgid "Stop"
+msgstr "Durdur"
+
+#: /tmp/dummy:12
+msgid "Start All"
+msgstr "Hepsini başlat"
+
+#: /tmp/dummy:14
+msgid "Stop All"
+msgstr "Hepsini durdur"
+
+#: /tmp/dummy:16
+msgid "Up"
+msgstr "Yukarı"
+
+#: /tmp/dummy:17
+msgid "Push download higher up the queue"
+msgstr "İndirmeyi kuyruğun en üstüne çıkar"
+
+#: /tmp/dummy:18
+msgid "Down"
+msgstr "Aşağı"
+
+#: /tmp/dummy:19
+msgid "Push download lower down the queue"
+msgstr "İndirmeyi kuyruğun en altına indir"
+
+#: /tmp/dummy:20
+msgid "Properties"
+msgstr "Özellikler"
+
+#: /tmp/dummy:22
+msgid "&File"
+msgstr "&Dosya"
+
+#: /tmp/dummy:23
+msgid "New Download"
+msgstr "Yeni indirme"
+
+#: /tmp/dummy:30
+msgid "Exit"
+msgstr "Çıkış"
+
+#: /tmp/dummy:31
+#: /tmp/dummy:81
+msgid "&Edit"
+msgstr "&Düzen"
+
+#: /tmp/dummy:32
+msgid "Paste URL"
+msgstr "Adres yapıştır"
+
+#: /tmp/dummy:35
+msgid "Select All"
+msgstr "Hepsini seç"
+
+#: /tmp/dummy:36
+msgid "Invert Selection"
+msgstr "Seçinmi ters çevir"
+
+#: /tmp/dummy:37
+msgid "Find Download"
+msgstr "İndirme bul"
+
+#: /tmp/dummy:38
+msgid "&View"
+msgstr "&Görünüm"
+
+#: /tmp/dummy:39
+msgid "Show/Hide Graph"
+msgstr "Grafiği göster/gizle"
+
+#: /tmp/dummy:40
+msgid "Show/Hide Progress Bar"
+msgstr "İlerleme çubuğunu göster/gizle"
+
+#: /tmp/dummy:41
+msgid "Show/Hide Details"
+msgstr "Detayları göster/gizle"
+
+#: /tmp/dummy:42
+msgid "Language"
+msgstr "Lîsan (Dil)"
+
+#: /tmp/dummy:43
+msgid "(Default)"
+msgstr "(Varsayılan)"
+
+#: /tmp/dummy:44
+msgid "English"
+msgstr "İngilizce"
+
+#: /tmp/dummy:45
+msgid "Portuguese"
+msgstr "Portekizce"
+
+#: /tmp/dummy:46
+msgid "Portuguese(Brazil)"
+msgstr "Portekizce(Brezilya)"
+
+#: /tmp/dummy:47
+msgid "German"
+msgstr "Almanca"
+
+#: /tmp/dummy:48
+msgid "Spanish"
+msgstr "İspanyolca"
+
+#: /tmp/dummy:49
+msgid "Czech"
+msgstr "Çekçe"
+
+#: /tmp/dummy:50
+msgid "Russian"
+msgstr "Rusça"
+
+#: /tmp/dummy:51
+msgid "Hungarian"
+msgstr "Macarca"
+
+#: /tmp/dummy:52
+msgid "Indonesian"
+msgstr "Endonezyaca"
+
+#: /tmp/dummy:53
+msgid "Armenian"
+msgstr "Ermenice"
+
+#: /tmp/dummy:54
+msgid "Polish"
+msgstr "Polca"
+
+#: /tmp/dummy:55
+msgid "&Tools"
+msgstr "&Araçlar"
+
+#: /tmp/dummy:61
+msgid "Export Configuration"
+msgstr "Yapılandırmayı dışarı ver"
+
+#: /tmp/dummy:62
+msgid "Import Configuration"
+msgstr "Yapılandırmayı içeri al"
+
+#: /tmp/dummy:63
+msgid "Shutdown when finished"
+msgstr "Bittiğinde bilgisayarı kapat"
+
+#: /tmp/dummy:64
+#: /tmp/dummy:66
+msgid "This option is only valid in this session of the program"
+msgstr "Bu seçenek yalnızca programın bu oturumu için geçerlidir"
+
+#: /tmp/dummy:65
+msgid "Disconnect when finished"
+msgstr "Bittiğinde bağlantıyı kes"
+
+#: /tmp/dummy:67
+#: /tmp/dummy:102
+msgid "Options"
+msgstr "Seçenekler"
+
+#: /tmp/dummy:68
+msgid "&Help"
+msgstr "&Yardım"
+
+#: /tmp/dummy:69
+msgid "wxDownload Fast Site"
+msgstr "wxDownload Fast sitesi"
+
+#: /tmp/dummy:70
+msgid "Report Bugs..."
+msgstr "Hata raporla..."
+
+#: /tmp/dummy:71
+msgid "Donate..."
+msgstr "Bağış yap..."
+
+#: /tmp/dummy:72
+msgid "About"
+msgstr "Hakkında"
+
+#: /tmp/dummy:74
+msgid "Save to:"
+msgstr "Kaydet:"
+
+#: /tmp/dummy:75
+msgid "Directory"
+msgstr "Dizin"
+
+#: /tmp/dummy:76
+msgid "Address:"
+msgstr "Adres:"
+
+#: /tmp/dummy:77
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"İndirilecek adres\n"
+"Örnek: http://www.foo.com/foo.exe\n"
+"Örnek: http://www.foo.com:80/foo.exe\n"
+"Örnek: ftp://ftp.foo.com:21/foo.exe"
+
+#: /tmp/dummy:78
+#: /tmp/dummy:163
+msgid "Add"
+msgstr "Ekle"
+
+#: /tmp/dummy:79
+msgid "Address List:"
+msgstr "Adres listesi:"
+
+#: /tmp/dummy:80
+msgid "Only the selected addresses will be downloaded"
+msgstr "Yalnızca seçili adresler indirilecek"
+
+#: /tmp/dummy:82
+msgid "Server Permission"
+msgstr "Sunucu izini"
+
+#: /tmp/dummy:83
+msgid "User:"
+msgstr "Kullanıcı:"
+
+#: /tmp/dummy:84
+msgid "Password:"
+msgstr "Parola:"
+
+#: /tmp/dummy:85
+msgid "Segmented download"
+msgstr "Parçalı indir"
+
+#: /tmp/dummy:86
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr "İndirme kaç parçaya bölünecek?"
+
+#: /tmp/dummy:87
+msgid "Download bandwidth (in kB/s)"
+msgstr "İndirme bant genişliği (kB/s)"
+
+#: /tmp/dummy:88
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Bu indirme için bant genişliği sınırını belirle.\n"
+"Sınırsız için \"0\" değerini girin."
+
+#: /tmp/dummy:90
+msgid "Manual"
+msgstr "El ile"
+
+#: /tmp/dummy:91
+msgid "Now"
+msgstr "Şimdi"
+
+#: /tmp/dummy:96
+#: /tmp/dummy:97
+msgid "Execute the following command after download completes"
+msgstr "İndirme tamamlandıktan sonra aşağıdaki komutu çalıştır"
+
+#: /tmp/dummy:98
+msgid "&OK"
+msgstr "&Tamam"
+
+#: /tmp/dummy:99
+#: /tmp/dummy:178
+msgid "&Cancel"
+msgstr "İ&ptal"
+
+#: /tmp/dummy:103
+msgid "General"
+msgstr "Genel"
+
+#: /tmp/dummy:104
+msgid "Attempts:"
+msgstr "Denemeler:"
+
+#: /tmp/dummy:105
+msgid "Number of attempts"
+msgstr "Deneme sayısı"
+
+#: /tmp/dummy:106
+msgid "Time between the attempts in seconds:"
+msgstr "Denemeler arasındaki süre (saniye):"
+
+#: /tmp/dummy:107
+msgid "Number of simultaneous downloads:"
+msgstr "Eş zamanlı indirme sayısı:"
+
+#: /tmp/dummy:108
+msgid "Remember the last settings on the New Download box"
+msgstr "Yeni İndirme kutusu için son ayarları hatırla"
+
+#: /tmp/dummy:109
+msgid "Shutdown when all downloads finish"
+msgstr "Tüm indirmeler bittiğinde bilgisayarı kapat"
+
+#: /tmp/dummy:110
+msgid "Disconnect when all downloads finish"
+msgstr "Tüm indirmeler bittiğinde bağlantıyı kes"
+
+#: /tmp/dummy:111
+msgid "Show dialog box when program closes"
+msgstr "Program kapatılışlarında doğrulama penceresı göster"
+
+#: /tmp/dummy:112
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "İndirme listesinin yenilenme hızı (milisaniye):"
+
+#: /tmp/dummy:113
+msgid "Download Read Buffer size(in Bytes):"
+msgstr ""
+
+#: /tmp/dummy:114
+msgid "Restore the main window when all downloads finish"
+msgstr "Tüm indirmeler bittiğinde ana pencereyi geri yükle"
+
+#: /tmp/dummy:115
+msgid "Hide the main window when you start a download"
+msgstr "Bir indirme başlatıldığında ana pencereyi gizle"
+
+#: /tmp/dummy:116
+msgid "Check for updates automatically"
+msgstr "Güncellemeleri otomatik kontrol et"
+
+#: /tmp/dummy:117
+msgid "Paths"
+msgstr "Yollar"
+
+#: /tmp/dummy:118
+msgid "Default destination:"
+msgstr "Varsayılan hedef:"
+
+#: /tmp/dummy:119
+#: /tmp/dummy:121
+#: /tmp/dummy:123
+#: /tmp/dummy:128
+#: /tmp/dummy:139
+#: /tmp/dummy:141
+#: /tmp/dummy:143
+#: /tmp/dummy:145
+#: /tmp/dummy:150
+#: /tmp/dummy:155
+msgid "..."
+msgstr "..."
+
+#: /tmp/dummy:120
+msgid "Browser path:"
+msgstr "Web tarayıcısının yolu:"
+
+#: /tmp/dummy:122
+msgid "File manager path:"
+msgstr "Dosya yöneticisinin yolu:"
+
+#: /tmp/dummy:124
+msgid "Shutdown command:"
+msgstr "Kapatma komutu:"
+
+#: /tmp/dummy:125
+msgid "Disconnect command:"
+msgstr "Bağlantıyı kesme komutu:"
+
+#: /tmp/dummy:126
+msgid "Partial Temporary Files Path"
+msgstr "Geçici dosyaların yolu"
+
+#: /tmp/dummy:127
+msgid "Use the destination directory"
+msgstr "Hedef dizini kullan"
+
+#: /tmp/dummy:129
+msgid "Graph"
+msgstr "Grafik"
+
+#: /tmp/dummy:130
+msgid "Show Graph"
+msgstr "Grafiği göster"
+
+#: /tmp/dummy:131
+msgid "Save how many points to graph?"
+msgstr ""
+
+#: /tmp/dummy:132
+msgid "Graph refresh rate (millisecs):"
+msgstr "Grafik yenilenme hızı (milisaniye):"
+
+#: /tmp/dummy:133
+msgid "Graph maximum value (kB/s):"
+msgstr "Maksimum grafik değeri (kB/s):"
+
+#: /tmp/dummy:134
+msgid "The text area Width (pixels):"
+msgstr "Metin alanının genişliği (piksel):"
+
+#: /tmp/dummy:135
+msgid "Graph height:"
+msgstr "Grafik yüksekliği:"
+
+#: /tmp/dummy:136
+msgid "Text font size (points):"
+msgstr "Yazı boyutu (punto):"
+
+#: /tmp/dummy:137
+msgid "Main line width:"
+msgstr "Ana çizgi genişliği:"
+
+#: /tmp/dummy:138
+msgid "Background colour:"
+msgstr "Arkaplan rengi:"
+
+#: /tmp/dummy:140
+msgid "Graph grid colour:"
+msgstr "Grafik çizgilerinin rengi:"
+
+#: /tmp/dummy:142
+msgid "Main line colour:"
+msgstr "Ana çizgi rengi:"
+
+#: /tmp/dummy:144
+msgid "Speed font colour:"
+msgstr "Hız yazısının rengi:"
+
+#: /tmp/dummy:146
+msgid "Scheduling"
+msgstr "Zamanlama"
+
+#: /tmp/dummy:147
+msgid "Activate scheduling"
+msgstr "Zamanlamayı aktifleştir"
+
+#: /tmp/dummy:148
+msgid "Start Date:"
+msgstr "Başlangıç tarihi:"
+
+#: /tmp/dummy:149
+msgid "Start Time:"
+msgstr "Baçlangıç saati:"
+
+#: /tmp/dummy:151
+#: /tmp/dummy:156
+msgid "hours"
+msgstr "saat"
+
+#: /tmp/dummy:152
+#: /tmp/dummy:157
+msgid "minutes"
+msgstr "dakika"
+
+#: /tmp/dummy:153
+msgid "Finish Date:"
+msgstr "Bitiş tarihi:"
+
+#: /tmp/dummy:154
+msgid "Finish Time:"
+msgstr "Bitiş saati:"
+
+#: /tmp/dummy:158
+msgid "Deactivate downloads on:"
+msgstr "İndirmeleri şu zamanlarda pasifleştir:"
+
+#: /tmp/dummy:159
+msgid "Between"
+msgstr "Arasında"
+
+#: /tmp/dummy:160
+#: /tmp/dummy:162
+msgid ":"
+msgstr ":"
+
+#: /tmp/dummy:161
+msgid "and"
+msgstr "ve"
+
+#: /tmp/dummy:164
+msgid "Exceptions List:"
+msgstr "İstisnalar listesi:"
+
+#: /tmp/dummy:166
+msgid "Bandwidth"
+msgstr "Bant genişliği"
+
+#: /tmp/dummy:167
+msgid "Bandwidth Control"
+msgstr "Bant genişliği kontrolü"
+
+#: /tmp/dummy:168
+msgid "Unlimited bandwidth"
+msgstr "Sınırsız bant genişliği"
+
+#: /tmp/dummy:169
+msgid "Limit band width independently for each download"
+msgstr "Her indirme için bağımsız bant genişliği sınırı"
+
+#: /tmp/dummy:170
+msgid "Limit band width for the program (in kB/s):"
+msgstr "Program için bant genişliği sınırı (kB/s):"
+
+#: /tmp/dummy:171
+msgid "Band width limit in kB/s to be used by the program"
+msgstr "Programın kullanacağı bant genişliğinin sınırı (kB/s)"
+
+#: /tmp/dummy:172
+msgid "Browser Integration"
+msgstr "Tarayıcı entagrasyonu"
+
+#: /tmp/dummy:173
+msgid "Firefox Integration"
+msgstr "Firefox entagrasyonu"
+
+#: /tmp/dummy:174
+msgid ""
+"To integrate with Firefox, do the following:\n"
+"\n"
+"1) Install the FlashGot extension for Firefox (www.flashgot.org/getit)\n"
+"2) Then restart Firefox and go to:\n"
+"     Tools -> FlashGot -> More Options\n"
+"3)Now select the wxDownload Fast on the Download Manager's List"
+msgstr ""
+"Firefox entegrasyonu için aşağıdakileri yapın:\n"
+"\n"
+"1) Firefox'un FlashGot eklentisini yükleyin (www.flashgot.org/getit)\n"
+"2) Firefox'u yeniden başlattıktan sonra şuraya gidin:\n"
+"     Araçlar -> FlashGot -> Daha çok seçenek\n"
+"3) İndirme Yöneticileri listesinden wxDownload Fast seçeneğini seçin"
+
+#: /tmp/dummy:175
+msgid "Internet Explorer Integration"
+msgstr "Internet Explorer entagrasyonu"
+
+#: /tmp/dummy:177
+msgid "&Save"
+msgstr "&Kaydet"
+

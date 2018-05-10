@@ -1,0 +1,165 @@
+{
+   "bookmark_bar": {
+      "show_on_all_tabs": true
+   },
+   "browser": {
+      "clear_lso_data_enabled": true,
+	  "default_browser_infobar_last_declined":"15187169260000000",
+      "pepper_flash_settings_enabled": false,
+	  "should_reset_check_default_browser":false,
+      "window_placement": {
+         "bottom": 1150,
+         "left": 10,
+         "maximized": false,
+         "right": 955,
+         "top": 10,
+         "work_area_bottom": 1160,
+         "work_area_left": 0,
+         "work_area_right": 1920,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 2,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "",
+      "icon_url": "",
+      "id": "6",
+      "instant_url": "",
+      "prepopulate_id": "0",
+      "suggest_url": "",
+      "synced_guid": "D01A1B75-6028-4805-9697-8960A9C4A257"
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "enhanced_bookmarks_enabled": 0,
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "autoupdate": {
+         "next_check": "15187169260000000"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "last_chrome_version": "65.0.3400.0"
+   },
+   "intl": {
+      "accept_languages": "en-US,en"
+   },
+   "invalidator": {
+      "client_id": "+33MJhFECefoqYJOStKpnA=="
+   },
+   "media": {
+      "device_id_salt": "wlGTotC59gkFsPsYeLz7Gw=="
+   },
+   "net": {
+      "http_server_properties": {
+         "servers": {
+            "clients2.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "clients2.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "cm.g.doubleclick.net:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               }
+            },
+            "www.facebook.com:443": {
+               "supports_spdy": true
+            },
+            "www.google-analytics.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               }
+            }
+         },
+         "version": 3
+      }
+   },
+   "ntp": {
+      "intro_display_count": 11,
+      "most_visited_blacklist": {
+         "04473b90d711c1986d6d8f9d359d24ff": null
+      },
+      "pinned_urls": {
+
+      },
+      "pref_version": 3,
+      "shown_page": 1024,
+      "shown_sections": 5,
+      "web_resource_cache_update": ""
+   },
+   "plugins": {
+      "migrated_to_pepper_flash": true,
+      "plugins_list": [  ],
+      "removed_old_component_pepper_flash_settings": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "clear_on_exit_migrated": true,
+         "pattern_pairs": {
+
+         },
+         "pref_version": 1
+      },
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "id": "not-signed-in",
+      "managed_user_id": "",
+      "name": "",
+      "nickname": "",
+      "per_host_zoom_levels": {
+
+      }
+   },
+   "protection": {
+      "macs": {
+
+      }
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "session": {
+      "restore_on_startup_migrated": true,
+      "startup_urls_migration_time": "15187169260000000"
+   },
+   "translate_accepted_count": {
+      "en": 0
+   },
+   "translate_blocked_languages": [ "en" ],
+   "translate_denied_count": {
+      "en": 1
+   },
+   "translate_site_blacklist": [ "iron-start.com" ],
+   "translate_whitelists": {
+
+   }
+}

@@ -1,0 +1,1591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-01-07 17:37-0300\n"
+"Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
+"Language-Team: Arif Rahman <frozenman89@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src/wxMD5\n"
+"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:63
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:813
+msgid "Total Speed:"
+msgstr "Kecepatan Total:"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:65
+msgid "Total Complete:"
+msgstr "Total Selesai:"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:67
+msgid "Downloads in progress:"
+msgstr "Pengunduhan sedang berlangsung:"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:84
+msgid "Hide the main window"
+msgstr "Sembunyikan jendela utama"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:86
+msgid "Show the main window"
+msgstr "Munculkan jendela utama"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:87
+msgid "New download"
+msgstr "Unduhan baru"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:88
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2719
+msgid "Close the program"
+msgstr "Tutup aplikasi"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:91
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:167
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:184
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:202
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:423
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:430
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:438
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1761
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1768
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1776
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2415
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2427
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2439
+msgid "Band control"
+msgstr "Atur lebar data"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:93
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:169
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:440
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1778
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2441
+msgid "Unlimited"
+msgstr "Tak terbatas"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:93
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:95
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:96
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "Hanya untuk sesi ini. Untuk mengganti seterusnya lihat di \"Pilihan\" "
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:94
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:186
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:432
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1770
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2429
+msgid "Active"
+msgstr "Aktif"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:96
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:204
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:425
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1763
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2417
+msgid "Per Download"
+msgstr "Per Pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:144
+msgid "Downloads in Progress"
+msgstr "Pengunduhan sedang Berlangsung"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:145
+msgid "Finished Downloads"
+msgstr "Pengunduhan Terselesaikan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:345
+#: /tmp/dummy:25
+msgid "Schedule Download"
+msgstr "Jadwalkan Pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:346
+#: /tmp/dummy:26
+#: /tmp/dummy:89
+msgid "Start Download"
+msgstr "Mulai Pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:347
+#: /tmp/dummy:27
+msgid "Stop Download"
+msgstr "Hentikan Pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:348
+#: /tmp/dummy:24
+msgid "Remove Download"
+msgstr "Hilangkan Pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:349
+msgid "Properties of Download"
+msgstr "Properti pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:350
+#: /tmp/dummy:60
+msgid "Download File Again"
+msgstr "Unduh Sekali Lagi"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:351
+#: /tmp/dummy:57
+msgid "Move File"
+msgstr "Pindahkan file"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:352
+#: /tmp/dummy:58
+msgid "Check Integrity"
+msgstr "Periksa kesatuan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:353
+#: /tmp/dummy:33
+msgid "Copy URL"
+msgstr "Salin URL"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:354
+#: /tmp/dummy:34
+msgid "Copy Download Data"
+msgstr "Salin Data Pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:355
+#: /tmp/dummy:59
+msgid "Open Destination Directory"
+msgstr "Buka direktori tujuan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:416
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1754
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2862
+msgid "NEW RELEASE: "
+msgstr "VERSI TERBARU: "
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:418
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1756
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2864
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2866
+msgid " is available."
+msgstr " sudah tersedia."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:447
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:610
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1394
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1733
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:129
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:143
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:284
+#: /tmp/dummy:100
+msgid "File type"
+msgstr "Jenis file"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:450
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1736
+#: /tmp/dummy:101
+msgid "Preview"
+msgstr "Pratayang"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:624
+msgid "Piece "
+msgstr "Bagian"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1001
+msgid "Stopping the download..."
+msgstr "Menghentikan pengunduhan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1001
+msgid "Stopping the current download before removing..."
+msgstr "Menghentikan uduhan yang ada sebelum menghapus..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1013
+msgid "Do you also want to remove the partial downloaded file from the disk?"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1013
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1051
+msgid "Remove..."
+msgstr "Hapus..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1051
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1168
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2846
+msgid "Error creating thread!"
+msgstr "Gagal membuat thread!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1168
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1176
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1341
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1453
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2074
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2141
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2147
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2167
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2205
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2525
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2536
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2547
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2758
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2908
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2911
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2914
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:45
+#: /home/max/Projetos/wxDFast/src/wxDFast.cpp:338
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:46
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:61
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:79
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:91
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:113
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:126
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:163
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:195
+msgid "Error..."
+msgstr "Kesalahan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1176
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2852
+msgid "Error starting thread!"
+msgstr "Gagal memulai thread!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1215
+msgid "Starting the downloads..."
+msgstr "Memulai pengunduhan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1232
+msgid "Stopping the downloads..."
+msgstr "Menghentikan pengunduhan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1341
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1453
+msgid "Unable to open the clipboard!"
+msgstr "Mustahil untuk membuka clipboard!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1389
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:142
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:283
+msgid "Name"
+msgstr "Nama"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1399
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:252
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:144
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:271
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:285
+msgid "Size"
+msgstr "Ukuran"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1404
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:145
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:286
+msgid "Time"
+msgstr "Waktu"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1409
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:146
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:287
+msgid "Destination"
+msgstr "Tujuan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1416
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:149
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:290
+msgid "MD5"
+msgstr "MD5"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1422
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:150
+#: /tmp/dummy:94
+#: /tmp/dummy:95
+msgid "Reference URL"
+msgstr "Referensi URL"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1427
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:151
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:291
+#: /tmp/dummy:93
+msgid "Comments"
+msgstr "Komentar"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1432
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:152
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:292
+msgid "URLs"
+msgstr "URLs"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1534
+msgid "Find file..."
+msgstr "Cari file..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1863
+#: /tmp/dummy:56
+msgid "Download Properties"
+msgstr "Properti pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2030
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2160
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:141
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:55
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:77
+msgid "Select the directory:"
+msgstr "Pilih direktori:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2065
+msgid "Moving..."
+msgstr "Memindahkan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2065
+msgid "Moving file..."
+msgstr "Memindahkan file..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2074
+msgid "Error moving file."
+msgstr "Gagal memindahkan file."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2080
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"File tidak pada tempat disimpan pertamakali.\n"
+"Apa anda hendak mengganti hanya tempat lama ke tempat yang baru?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2083
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2751
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:108
+msgid "Continue..."
+msgstr "Melanjutkan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2127
+msgid "Checking file's MD5..."
+msgstr "Memeriksa MD5 file..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2134
+msgid "The file was verified successfully."
+msgstr "File telah diperiksa dengan sukses."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2134
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2165
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2200
+msgid "Success..."
+msgstr "Berhasil..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2138
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "MD5 dihitung sebelumnya berbeda dengan yang ada."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2139
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"MD5 lama =\t\t"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2140
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"MD5 barul =\t"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2147
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2914
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:107
+msgid "File not found."
+msgstr "File tidak ditemukan."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2165
+msgid "The configuration was exported successfully."
+msgstr "Pengaturan telah diekspor dengan baik."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2167
+msgid "Error exporting configuration."
+msgstr "Gagal mengekspor pengaturan."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2194
+msgid "Select the file..."
+msgstr "Pilih file..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2200
+msgid ""
+"The configuration was imported successfully.\n"
+"The program will be restated now for the changes to take effect."
+msgstr ""
+"Pengaturan diimpor dengan baik.\n"
+"Program akan dijalankan ulang agar pergantian dirasakan."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2205
+msgid "Error importing configuration."
+msgstr "Gagal mengimpor pengaturan."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2235
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2246
+msgid "Command :\t"
+msgstr "Perintah :\t"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2235
+msgid "Shutdown Command..."
+msgstr "Perintah Mematikan Komputer..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2246
+msgid "Disconnect Command..."
+msgstr "Perintah Memutus Sambungan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2328
+msgid "Updating the configuration..."
+msgstr "Memperbarui pengaturan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2328
+msgid "Updating and saving the configuration..."
+msgstr "Memperbarui dan menyimpan pengaturan..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2524
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2535
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2546
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2757
+msgid ""
+"Unable to find the browser.\n"
+"Go to \"Options\" and specify a valid one."
+msgstr ""
+"Mustahil menemukan perambah.\n"
+"Silakan lihat \"Pengaturan\" dan tentukan yang tepat."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2556
+msgid "Version: "
+msgstr "Versi:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2557
+msgid "Author: "
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2559
+msgid "I'd like to thank the following contributors for their help:\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2561
+msgid " - several tips and donations\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2563
+msgid ""
+" - Ripstop theme\n"
+"\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2564
+msgid "Visit our website:\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2567
+msgid "Help to improve the program!\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2568
+msgid "Donate to this project!"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2589
+msgid "Do you want to close the program?"
+msgstr "Anda ingin menutup aplikasi?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2589
+msgid "Close..."
+msgstr "Tutup..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2679
+#: /tmp/dummy:3
+#: /tmp/dummy:73
+msgid "Add new download"
+msgstr "Tambahkan unduhan baru"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2683
+#: /tmp/dummy:5
+msgid "Remove the selected download"
+msgstr "Hapus unduhan yang terpilih"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2687
+#: /tmp/dummy:7
+msgid "Mark the selected download as scheduled"
+msgstr "Tandai unduhan yang terpilih sebagai terjadual"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2691
+#: /tmp/dummy:9
+msgid "Start the selected download"
+msgstr "Mulai unduhan yang terpilih"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2695
+#: /tmp/dummy:11
+msgid "Stop the selected download"
+msgstr "Hentikan unduhan yang terpilih"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2699
+#: /tmp/dummy:13
+#: /tmp/dummy:28
+msgid "Start all downloads"
+msgstr "Mulai seluruh unduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2703
+#: /tmp/dummy:15
+#: /tmp/dummy:29
+msgid "Stop all downloads"
+msgstr "Hentikan seluruh unduhan"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2707
+msgid "Raise in one level the selected download in the queue"
+msgstr "Naikkan unduhan yang terpilih setingkat pada antrian"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2711
+msgid "Lower in one level the selected download in the queue"
+msgstr "Turunkan unduhan yang terpilih setingkat pada antrian"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2715
+#: /tmp/dummy:21
+msgid "Show the properties of the selected download"
+msgstr "Tampilkan properti dari unduhan yangterpilih"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2750
+msgid ""
+"You have downloaded a HTML file.\n"
+"Open this file in your browser?"
+msgstr ""
+"File HTML dideteksi pada unduhan yang sedang berlangsung.\n"
+"Apakah anda hendak membuka file ini pada perambah?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2767
+msgid "Shutting down the computer..."
+msgstr "Matikan komputer..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2767
+msgid "The computer will shut down in seconds..."
+msgstr "Komputer akan mati dalam beberapa detik..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2779
+msgid "Disconnecting from the Internet..."
+msgstr "Memutuskan dari internet..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2779
+msgid "The Internet connection will be closed in seconds..."
+msgstr "Sambungan internet akan ditutup dalam beberapa detik..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2866
+msgid "Visit http://dfast.sourceforge.net for more informations."
+msgstr "Kunjungi http://dfast.sourceforge.net untuk informasi lebih banyak. "
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2904
+msgid "List of files in Zip archive:"
+msgstr "Daftar file dalam arsip Zip:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2904
+msgid "Zip Preview"
+msgstr "Pratayangkan Zip"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2908
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2911
+msgid "Unable to extract zip file content!"
+msgstr "Musthil mengekstrak isi file zip!"
+
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:45
+msgid ""
+"Unable to search in this page.\n"
+"Change to another page and try again"
+msgstr ""
+"Mustahil mencari pada halaman ini.\n"
+"Ganti halaman lain dan coba lagi"
+
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:107
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:99
+msgid "Information..."
+msgstr "Informasi..."
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.cpp:327
+msgid "Cannot set locale to"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.cpp:329
+msgid "This language is not supported by your system."
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:46
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:79
+msgid "The following URL is invalid:\n"
+msgstr "URL beriikut salah:\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:61
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:163
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:195
+msgid "The URL is invalid!"
+msgstr "URL salah!"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:91
+msgid "The following URL has a different filename:\n"
+msgstr "URL berikut mempuyai nama file berbeda:\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:99
+msgid "Select at least one item of the address list!\n"
+msgstr "Pilih setidaknya satu pada daftar alamat!\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:108
+msgid ""
+"The destination directory does not exist!\n"
+"Do you want to create it?"
+msgstr ""
+"Direktori tujuan belum ada!\n"
+"Anda ingin membuatnya?"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:113
+msgid "You don't have permission to create the directory!"
+msgstr "Anda tidak diizinkan membuat direktori!"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:126
+msgid "I can't split the file into so many pieces!"
+msgstr "Aku tak bisa membelah menjadi sedemikian banyak!"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:177
+msgid "Edit the URL"
+msgstr "Sunting URL"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:35
+msgid "Double-click on the item to Start/Stop the download"
+msgstr "Klik-ganda pada item Memulai/Menghentikan pengunduhan"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:208
+msgid "   [ Yes ]"
+msgstr "   [ Ya  ]"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:210
+msgid "   [ No  ]"
+msgstr "   [ Tidak ]"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:246
+msgid "Restart"
+msgstr "Mulai lagi"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:249
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:269
+msgid "Filename"
+msgstr "Nama file"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:255
+msgid "Completed"
+msgstr "Terselesaikan"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:258
+msgid "Percentage"
+msgstr "Persentasi"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:261
+msgid "Time Passed"
+msgstr "Waktu dilalui"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:264
+msgid "Remaining"
+msgstr "Tersisa"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:267
+msgid "Speed"
+msgstr "Kecepatan"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:270
+msgid "Attempts"
+msgstr "Percobaan"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:273
+msgid "URL"
+msgstr "URL"
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:39
+msgid "Double-click on the item to open the destination directory"
+msgstr "Klik-ganda pada item untuk membuka direktori tujuan"
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:147
+#: /tmp/dummy:8
+msgid "Start"
+msgstr "Mulai "
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:148
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:273
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:289
+msgid "Finished"
+msgstr "Selesai"
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:288
+msgid "Started"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:67
+msgid ""
+"You have downloaded a HTML file.\n"
+"Opening this file in your browser.\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:193
+msgid "This protocol isn't supported.\n"
+msgstr "Protokol ini tidak didukung.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:247
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:915
+msgid "Redirecting to "
+msgstr "Mengalihkan ke "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:265
+msgid "Metalink file detected\n"
+msgstr "File Metalink terdeteksi\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:266
+msgid "Getting Metalink data...\n"
+msgstr "Mendapatkan data Metalink...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:296
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:715
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:962
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1138
+#: /tmp/dummy:176
+msgid "Not available"
+msgstr "Tak tersedia"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:317
+msgid "This Metalink file contains multiples files.\n"
+msgstr "File Metalink ini mengandung beberapa file.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:320
+msgid "Creating all downloads...\n"
+msgstr "Membuat semua unfuhan...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:330
+msgid "Getting file number "
+msgstr "Mendapatkan jumlah file"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:336
+msgid "Error retrieving Metalink data\n"
+msgstr "Gagal menerima data Metalink\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:355
+msgid "New attempt in "
+msgstr "Percobaan baru dalam "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:355
+msgid " seconds\n"
+msgstr " detik\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:369
+msgid "Attempt "
+msgstr "Percobaan "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:369
+msgid " of "
+msgstr " dari "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:390
+msgid "Canceled.\n"
+msgstr "Dibatalkan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:412
+msgid "Critical error!! The start point is bigger that the end point!!\n"
+msgstr "Kesalahan kritis!! Titik awal lebih besar dari titik akhir!!\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:434
+msgid "Error establishing input stream.\n"
+msgstr "Gagal membuat aliran masukan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:449
+msgid "Copying file...\n"
+msgstr "Menyalin file...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:454
+msgid "Error opening file "
+msgstr "Gagal membuka file "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:548
+msgid "Error copying file.\n"
+msgstr "Gagal menyalin file.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:568
+msgid "Error writing file.\n"
+msgstr "Gagal menulisi file.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:639
+msgid "Finished this piece\n"
+msgstr "Selesai pada bagian ini\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:657
+msgid "Waiting for the other pieces...\n"
+msgstr "Menanti bagian lain...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:665
+msgid "Putting all the pieces together...\n"
+msgstr "Menempatkan semua bagian bersama...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:669
+msgid ""
+"Error joining the pieces.\n"
+"Try to restart the download.\n"
+msgstr ""
+"Gagal menggabungkan bagian-bagian.\n"
+"Coba ulangi pengunduhan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:675
+msgid "Checking MD5...\n"
+msgstr "Memeriksa MD5... \n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:676
+msgid "Checking MD5 ... ("
+msgstr "Memeriksa MD5 ... ("
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:684
+msgid "Comparing expected and calculated MD5...\n"
+msgstr "Membandingkan antara MD5 yang diharap dengan perhitungan...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:687
+msgid "File verified successfully\n"
+msgstr "File diperiksa dengan sukses\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:688
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:698
+msgid "Finished\n"
+msgstr "Terselesaikan\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:692
+msgid "Error comparing MD5.\n"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:724
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:975
+msgid "Resolving host '"
+msgstr "Resolving host '"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:727
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:978
+msgid ""
+"\n"
+"Host not found.\n"
+msgstr ""
+"\n"
+"Host tidak ditemukan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:733
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:984
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:999
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1023
+msgid " OK\n"
+msgstr " OK\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:737
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:988
+msgid "Trying to connect in '"
+msgstr "Mencoba menghubungi '"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:742
+msgid "Connection denied.\n"
+msgstr "Sanbungan ditolakj.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:753
+msgid ""
+"Accessing server...\n"
+"\n"
+msgstr ""
+"Mengakses server...\n"
+"\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:853
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1104
+msgid ""
+"The file size has changed since the last time.\n"
+"Removing the partially downloaded files...\n"
+msgstr ""
+"Ukuran file telah berubah sejak terakhir kali.\n"
+"Menghapus file terunduh sebagian...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:885
+msgid "This server does not support restart.\n"
+msgstr "Server ini tidak mendukung pengulangan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:898
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:905
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1072
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1160
+msgid "Unable to return the file size.\n"
+msgstr "Mustahil mengembalikan ukuran file.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:929
+msgid "Error requesting file.\n"
+msgstr "Gagal meminta file.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:937
+msgid "The server timed out.\n"
+msgstr "Server sudah terlalu lama tidak menjawab.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:993
+msgid ""
+"\n"
+"Connection denied.\n"
+msgstr ""
+"\n"
+"Sambungan ditolak.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1003
+msgid "Waiting for welcome message.\n"
+msgstr "Menanti pesan selamat datang.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1008
+msgid "Verifying if the server supports restarting..."
+msgstr "Memeriksa apabila server membolehkan pengulangan..."
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1011
+msgid ""
+"\n"
+"This server does not support restart.\n"
+msgstr ""
+"\n"
+"Server ini tidak mendukung pengulangan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1030
+msgid "Changing to directory "
+msgstr "Mengganti ke direktori"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1033
+msgid "Invalid directory.\n"
+msgstr "Direktori salah.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1042
+msgid "Changing to binary mode...\n"
+msgstr "Mengganti ke modus biner...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1045
+msgid "Unable to change to binary mode.\n"
+msgstr "Mustahil mengganti ke modus biner.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1054
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1157
+msgid "Verifying the size of the "
+msgstr "Memeriksa ukuran dari "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1080
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1177
+msgid "File size: "
+msgstr "Ukuran file: "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1125
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1185
+msgid "Requesting file...\n"
+msgstr "Meminta file...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1149
+msgid "Looking for file "
+msgstr "Mencari file "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1152
+msgid "File not found.\n"
+msgstr "File tidak ditemukan.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1258
+msgid "There isn't enough disk space to join the file parts.\n"
+msgstr "Tidak cukup ruang pada disk untuk menyatukan bagian file.\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:62
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:69
+msgid "Choose a file..."
+msgstr "Pilih sebuah file..."
+
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:135
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:142
+msgid "Select the date..."
+msgstr "Pilih tanggal..."
+
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:158
+msgid "Remove some items before adding a new one."
+msgstr "Hapus beberapa item sebelum menambah yang baru."
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:239
+msgid "Sundays"
+msgstr "Ahad"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:239
+msgid "Mondays"
+msgstr "Senin"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:239
+msgid "Tuesdays"
+msgstr "Selasa"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:240
+msgid "Wednesdays"
+msgstr "Rabu"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:240
+msgid "Thursdays"
+msgstr "Kamis"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:240
+msgid "Fridays"
+msgstr "Jum'at"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:241
+msgid "Saturdays"
+msgstr "Sabtu "
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:745
+msgid "OK"
+msgstr "OK"
+
+#: /tmp/dummy:1
+msgid "About..."
+msgstr "Tentang..."
+
+#: /tmp/dummy:2
+msgid "New"
+msgstr "Baru"
+
+#: /tmp/dummy:4
+#: /tmp/dummy:165
+msgid "Remove"
+msgstr "Hapus"
+
+#: /tmp/dummy:6
+#: /tmp/dummy:92
+msgid "Schedule"
+msgstr "Jadualkan"
+
+#: /tmp/dummy:10
+msgid "Stop"
+msgstr "Hentikan"
+
+#: /tmp/dummy:12
+msgid "Start All"
+msgstr "Mulai Semua"
+
+#: /tmp/dummy:14
+msgid "Stop All"
+msgstr "Hentikan Semua"
+
+#: /tmp/dummy:16
+msgid "Up"
+msgstr "Naik "
+
+#: /tmp/dummy:17
+msgid "Push download higher up the queue"
+msgstr ""
+
+#: /tmp/dummy:18
+msgid "Down"
+msgstr "Turun"
+
+#: /tmp/dummy:19
+msgid "Push download lower down the queue"
+msgstr ""
+
+#: /tmp/dummy:20
+msgid "Properties"
+msgstr "Properti"
+
+#: /tmp/dummy:22
+msgid "&File"
+msgstr "&File"
+
+#: /tmp/dummy:23
+msgid "New Download"
+msgstr "Unduhan Baru"
+
+#: /tmp/dummy:30
+msgid "Exit"
+msgstr "Keluar"
+
+#: /tmp/dummy:31
+#: /tmp/dummy:81
+msgid "&Edit"
+msgstr "&Sunting"
+
+#: /tmp/dummy:32
+msgid "Paste URL"
+msgstr ""
+
+#: /tmp/dummy:35
+msgid "Select All"
+msgstr "Pilih Semua"
+
+#: /tmp/dummy:36
+msgid "Invert Selection"
+msgstr "Balik Pilihan"
+
+#: /tmp/dummy:37
+msgid "Find Download"
+msgstr "Temukan Unduhan"
+
+#: /tmp/dummy:38
+msgid "&View"
+msgstr "&Tampilan"
+
+#: /tmp/dummy:39
+msgid "Show/Hide Graph"
+msgstr "Munculkan/Sembunyikan Grafik"
+
+#: /tmp/dummy:40
+msgid "Show/Hide Progress Bar"
+msgstr "Munculkan/Sembunyikan Grafik Kemajuan"
+
+#: /tmp/dummy:41
+msgid "Show/Hide Details"
+msgstr "Munculkan/Sembunyikan Detail"
+
+#: /tmp/dummy:42
+msgid "Language"
+msgstr "Bahasa"
+
+#: /tmp/dummy:43
+msgid "(Default)"
+msgstr "(Standar)"
+
+#: /tmp/dummy:44
+msgid "English"
+msgstr "Inggris"
+
+#: /tmp/dummy:45
+msgid "Portuguese"
+msgstr "Portugis"
+
+#: /tmp/dummy:46
+msgid "Portuguese(Brazil)"
+msgstr "Portugis(Brasil)"
+
+#: /tmp/dummy:47
+msgid "German"
+msgstr "Bahasa Jerman"
+
+#: /tmp/dummy:48
+msgid "Spanish"
+msgstr "Bahasa Spanyol"
+
+#: /tmp/dummy:49
+msgid "Czech"
+msgstr ""
+
+#: /tmp/dummy:50
+msgid "Russian"
+msgstr ""
+
+#: /tmp/dummy:51
+msgid "Hungarian"
+msgstr ""
+
+#: /tmp/dummy:52
+msgid "Indonesian"
+msgstr ""
+
+#: /tmp/dummy:53
+msgid "Armenian"
+msgstr ""
+
+#: /tmp/dummy:54
+msgid "Polish"
+msgstr ""
+
+#: /tmp/dummy:55
+msgid "&Tools"
+msgstr "&Peralatan"
+
+#: /tmp/dummy:61
+msgid "Export Configuration"
+msgstr "Ekspor Pengaturan"
+
+#: /tmp/dummy:62
+msgid "Import Configuration"
+msgstr "Impor Pengaturan"
+
+#: /tmp/dummy:63
+msgid "Shutdown when finished"
+msgstr "Matikan komputer ketika selesai"
+
+#: /tmp/dummy:64
+#: /tmp/dummy:66
+msgid "This option is only valid in this session of the program"
+msgstr "Pilihan ini hanya berlaku untuk penggunaan sesi ini dari aplikasi"
+
+#: /tmp/dummy:65
+msgid "Disconnect when finished"
+msgstr "Putuskan sambungan ketika selesai"
+
+#: /tmp/dummy:67
+#: /tmp/dummy:102
+msgid "Options"
+msgstr "Pilihan"
+
+#: /tmp/dummy:68
+msgid "&Help"
+msgstr "&Pertolongan"
+
+#: /tmp/dummy:69
+msgid "wxDownload Fast Site"
+msgstr "Situs wxDownload Fast"
+
+#: /tmp/dummy:70
+msgid "Report Bugs..."
+msgstr "Laporkan Cacat..."
+
+#: /tmp/dummy:71
+msgid "Donate..."
+msgstr "Sumbang..."
+
+#: /tmp/dummy:72
+msgid "About"
+msgstr "Tentang"
+
+#: /tmp/dummy:74
+msgid "Save to:"
+msgstr "Simpan di:"
+
+#: /tmp/dummy:75
+msgid "Directory"
+msgstr "Tujuan"
+
+#: /tmp/dummy:76
+msgid "Address:"
+msgstr "Alamat:"
+
+#: /tmp/dummy:77
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"URL untuk pengunduhan\n"
+"Contoh: http://www.foo.com/foo.exe\n"
+"Contoh: http://www.foo.com:80/foo.exe\n"
+"Contoh: ftp://ftp.foo.com:21/foo.exe"
+
+#: /tmp/dummy:78
+#: /tmp/dummy:163
+msgid "Add"
+msgstr "Tambah "
+
+#: /tmp/dummy:79
+msgid "Address List:"
+msgstr "Daftar Alamat:"
+
+#: /tmp/dummy:80
+msgid "Only the selected addresses will be downloaded"
+msgstr "Hanya alamat yang ditandai yang diperhitungkan"
+
+#: /tmp/dummy:82
+msgid "Server Permission"
+msgstr "Izin Server"
+
+#: /tmp/dummy:83
+msgid "User:"
+msgstr "Nama:"
+
+#: /tmp/dummy:84
+msgid "Password:"
+msgstr "Kata kunci:"
+
+#: /tmp/dummy:85
+msgid "Segmented download"
+msgstr "Pengunduhan tersegmentasi"
+
+#: /tmp/dummy:86
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+"Belah unduhan menjadi berapa\n"
+"bagian?"
+
+#: /tmp/dummy:87
+msgid "Download bandwidth (in kB/s)"
+msgstr "Lebar pita pengunduhan (dalam kB/s)"
+
+#: /tmp/dummy:88
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Atur lebar pita yang digunakan pada pengunduhan ini.\n"
+"tentukan \"0\" untuk tak terbatas."
+
+#: /tmp/dummy:90
+msgid "Manual"
+msgstr "Manual"
+
+#: /tmp/dummy:91
+msgid "Now"
+msgstr "Sekarang"
+
+#: /tmp/dummy:96
+#: /tmp/dummy:97
+msgid "Execute the following command after download completes"
+msgstr "Jalankan perintah berikut ketika pengunduhan selesai"
+
+#: /tmp/dummy:98
+msgid "&OK"
+msgstr "&OK"
+
+#: /tmp/dummy:99
+#: /tmp/dummy:178
+msgid "&Cancel"
+msgstr "&Batal"
+
+#: /tmp/dummy:103
+msgid "General"
+msgstr "Umum"
+
+#: /tmp/dummy:104
+msgid "Attempts:"
+msgstr "Percobaan:"
+
+#: /tmp/dummy:105
+msgid "Number of attempts"
+msgstr "Jumlah percobaan"
+
+#: /tmp/dummy:106
+msgid "Time between the attempts in seconds:"
+msgstr "Waktu antara percobaan dalam detik:"
+
+#: /tmp/dummy:107
+msgid "Number of simultaneous downloads:"
+msgstr "Jumlah pengunduhan berbarengan:"
+
+#: /tmp/dummy:108
+msgid "Remember the last settings on the New Download box"
+msgstr "Ingat pengaturan terakhir di kotak Unduhan Baru"
+
+#: /tmp/dummy:109
+msgid "Shutdown when all downloads finish"
+msgstr "Matikan komputer ketika semua unduhan selesai"
+
+#: /tmp/dummy:110
+msgid "Disconnect when all downloads finish"
+msgstr "Putus hubungan ketika semua unduhan selesai"
+
+#: /tmp/dummy:111
+msgid "Show dialog box when program closes"
+msgstr "Tunjukkan kotak dialog ketika aplikasi ditutup"
+
+#: /tmp/dummy:112
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "Laju penyegaran daftar unduhan (milisek):"
+
+#: /tmp/dummy:113
+msgid "Download Read Buffer size(in Bytes):"
+msgstr "Ukuran Pembacaan Buffer pengunduhan (dalam Bytes):"
+
+#: /tmp/dummy:114
+msgid "Restore the main window when all downloads finish"
+msgstr "Kembalikan jendela utama ketika pengunduhan selesai semua"
+
+#: /tmp/dummy:115
+msgid "Hide the main window when you start a download"
+msgstr "Sembunyikan jendela utama ketika memulai pengunduhan"
+
+#: /tmp/dummy:116
+msgid "Check for updates automatically"
+msgstr ""
+
+#: /tmp/dummy:117
+msgid "Paths"
+msgstr ""
+
+#: /tmp/dummy:118
+msgid "Default destination:"
+msgstr "Tujuan standar:"
+
+#: /tmp/dummy:119
+#: /tmp/dummy:121
+#: /tmp/dummy:123
+#: /tmp/dummy:128
+#: /tmp/dummy:139
+#: /tmp/dummy:141
+#: /tmp/dummy:143
+#: /tmp/dummy:145
+#: /tmp/dummy:150
+#: /tmp/dummy:155
+msgid "..."
+msgstr "..."
+
+#: /tmp/dummy:120
+msgid "Browser path:"
+msgstr "Perambah internet:"
+
+#: /tmp/dummy:122
+msgid "File manager path:"
+msgstr "Manajer file:"
+
+#: /tmp/dummy:124
+msgid "Shutdown command:"
+msgstr "Perintah mematikan komputer:"
+
+#: /tmp/dummy:125
+msgid "Disconnect command:"
+msgstr "Perintah memutus sambungan:"
+
+#: /tmp/dummy:126
+msgid "Partial Temporary Files Path"
+msgstr "Jalur parsial file temporer"
+
+#: /tmp/dummy:127
+msgid "Use the destination directory"
+msgstr "Gunakan direktori tujuan"
+
+#: /tmp/dummy:129
+msgid "Graph"
+msgstr "Grafik"
+
+#: /tmp/dummy:130
+msgid "Show Graph"
+msgstr "Tunjukkan Grafik"
+
+#: /tmp/dummy:131
+msgid "Save how many points to graph?"
+msgstr "Simpan berapa banyak titik ke grafik?"
+
+#: /tmp/dummy:132
+msgid "Graph refresh rate (millisecs):"
+msgstr "Laju penyegaran grafik (milisek):"
+
+#: /tmp/dummy:133
+msgid "Graph maximum value (kB/s):"
+msgstr "Nilai maksimum grafik (kB/s):"
+
+#: /tmp/dummy:134
+msgid "The text area Width (pixels):"
+msgstr "Lebar area teks (pixels):"
+
+#: /tmp/dummy:135
+msgid "Graph height:"
+msgstr "Tinggi grafik:"
+
+#: /tmp/dummy:136
+msgid "Text font size (points):"
+msgstr "Ukuran huruf teks (pt):"
+
+#: /tmp/dummy:137
+msgid "Main line width:"
+msgstr "Lebar garis utama:"
+
+#: /tmp/dummy:138
+msgid "Background colour:"
+msgstr "Warna latar:"
+
+#: /tmp/dummy:140
+msgid "Graph grid colour:"
+msgstr "Warna garis grafik:"
+
+#: /tmp/dummy:142
+msgid "Main line colour:"
+msgstr "Warna garis utama:"
+
+#: /tmp/dummy:144
+msgid "Speed font colour:"
+msgstr "Warna huruf untuk kecepatan:"
+
+#: /tmp/dummy:146
+msgid "Scheduling"
+msgstr "Penjadwalan"
+
+#: /tmp/dummy:147
+msgid "Activate scheduling"
+msgstr "Aktifkan penjadwalan"
+
+#: /tmp/dummy:148
+msgid "Start Date:"
+msgstr "Tanggal Memulai:"
+
+#: /tmp/dummy:149
+msgid "Start Time:"
+msgstr "Waktu Memulai:"
+
+#: /tmp/dummy:151
+#: /tmp/dummy:156
+msgid "hours"
+msgstr "jam"
+
+#: /tmp/dummy:152
+#: /tmp/dummy:157
+msgid "minutes"
+msgstr "menit"
+
+#: /tmp/dummy:153
+msgid "Finish Date:"
+msgstr "Tanggal Penyelesaian:"
+
+#: /tmp/dummy:154
+msgid "Finish Time:"
+msgstr "Waktu Penylesaian:"
+
+#: /tmp/dummy:158
+msgid "Deactivate downloads on:"
+msgstr "Nonaktifkan pengunduhan pada:"
+
+#: /tmp/dummy:159
+msgid "Between"
+msgstr "Antara"
+
+#: /tmp/dummy:160
+#: /tmp/dummy:162
+msgid ":"
+msgstr ":"
+
+#: /tmp/dummy:161
+msgid "and"
+msgstr "dan"
+
+#: /tmp/dummy:164
+msgid "Exceptions List:"
+msgstr "Daftar kekecualian:"
+
+#: /tmp/dummy:166
+msgid "Bandwidth"
+msgstr "Lebar pita"
+
+#: /tmp/dummy:167
+msgid "Bandwidth Control"
+msgstr "Pengaturan lebar pita"
+
+#: /tmp/dummy:168
+msgid "Unlimited bandwidth"
+msgstr "Lebar pita tak terbatas"
+
+#: /tmp/dummy:169
+msgid "Limit band width independently for each download"
+msgstr "Lebar pita tersendiri untuk tiap unduhan"
+
+#: /tmp/dummy:170
+msgid "Limit band width for the program (in kB/s):"
+msgstr "Lebar pita untuk aplikasi (dalam kB/s):"
+
+#: /tmp/dummy:171
+msgid "Band width limit in kB/s to be used by the program"
+msgstr "Atur maksimum lebar pita dalam kB/s untuk dipakai oleh aplikasi"
+
+#: /tmp/dummy:172
+msgid "Browser Integration"
+msgstr "Penggabungan"
+
+#: /tmp/dummy:173
+msgid "Firefox Integration"
+msgstr "Penggabungan dengan Firefox"
+
+#: /tmp/dummy:174
+msgid ""
+"To integrate with Firefox, do the following:\n"
+"\n"
+"1) Install the FlashGot extension for Firefox (www.flashgot.org/getit)\n"
+"2) Then restart Firefox and go to:\n"
+"     Tools -> FlashGot -> More Options\n"
+"3)Now select the wxDownload Fast on the Download Manager's List"
+msgstr ""
+"Untuk menyatukan dengan Firefox lakukan hal berikut:\n"
+"\n"
+"1) Instal FlashGot sebagai tambahan untuk Firefox(www.flashgot.org/getit)\n"
+"2) Setelah menjalankan ulang Firefox, atur di:\n"
+" Tools -> FlashGot -> More Options\n"
+"3) Kini pilih wxDownloadFast pada Daftar Manajer Pengunduhan"
+
+#: /tmp/dummy:175
+msgid "Internet Explorer Integration"
+msgstr "Penggabungan dengan Internet Explorer"
+
+#: /tmp/dummy:177
+msgid "&Save"
+msgstr "&Simpan"
+

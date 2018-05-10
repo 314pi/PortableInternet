@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="%cssPath%" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+    google.load("language", "1");
+	
+	function translate(contactId , senderName , message , time ,lang )
+	{
+		if( lang != "unknown")
+		{
+			google.language.translate(message, "", lang, 
+				function(result) 
+				{
+					if (!result.error)
+					{
+						parent.translationFinishedSlot(result.translation,contactId , senderName , message , time );
+					}
+					else
+						parent.translationFinishedSlot("",contactId , senderName , message , time );
+				}
+			);
+		}
+		else
+			parent.translationFinishedSlot("",contactId , senderName , message , time );
+	}
+    
+    function insertMessage( text )
+    {
+		var insert = document.getElementById('insert');
+		if(insert)
+			insert.outerHTML = text;
+		else
+			document.getElementsByTagName("BODY").item(0).innerHTML += text;
+    }
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

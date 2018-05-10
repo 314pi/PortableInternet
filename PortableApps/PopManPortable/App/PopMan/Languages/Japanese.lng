@@ -1,0 +1,517 @@
+[File Info]
+
+Language=Japanese
+Author=Nardog
+Email=nardog@e2umail.com
+Date=11/11/2007
+Comment=PopMan 1.3 Japanese Translation
+LangID=17
+
+
+[Translations]
+
+Not connected<=>接続されていません
+Connection failure<=>接続の失敗
+Canceled<=>キャンセルされました
+Invalid server response<=>不正なサーバーの応答です
+Timeout<=>タイムアウト
+Login failed<=>ログインの失敗
+Message not found<=>メッセージが見つかりません
+Server failure: Message not found!<=>サーバーの失敗: メッセージが見つかりません!
+Busy<=>
+Ready<=>レディ
+Connecting...<=>接続しています...
+Connected!<=>接続されました!
+Login...<=>ログイン...
+Successfully logged in!<=>ログインに成功しました!
+Loading message ...<=>メッセージを読み込んでいます ...
+Loading message {1} of {2} ...<=>メッセージ {2} 中 {1} を読み込んでいます ...
+Deleting message {1} of {2} ...<=>メッセージ {2} 中 {1} を削除しています ...
+
+# Update Wizard
+
+Update Wizard<=>更新ウィザード
+There are no updates available.<=>利用可能な更新がありません。
+There is a new version {1} available!<=>利用可能な新しいバージョン {1} があります!
+There is a new {1} Beta version available!<=>利用可能な Beta バージョン {1} があります!
+Click "Next" to update your copy of PopMan...<=>PopMan のコピーを更新するには "次へ" をクリックしてください...
+Unable to retrieve version infomation!<=>バージョン情報を受信することができません!
+Error number: {1}<=>エラー番号: {1}
+Welcome to the PopMan Update Wizard<=>PopMan 更新ウィザードへようこそ
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>ウィザードは現在 PopMan のウェブサーバーへ接続して更新をチェックしています。利用可能な新しいバージョンがある場合、すべての必要なファイルは自動的にダウンロードおよびインストールできます。
+Failed to load Decompress.dll!<=>Decompress.dll の読み込みに失敗しました!
+Initializing...<=>初期化しています...
+Do you really want to cancel the update process?<=>本当に更新処理を中止しますか?
+Update process failed!<=>更新処理が失敗しました!
+Error while downloading initialization file!<=>初期化ファイルのダウンロード中のエラーです!
+No updates available.<=>更新は利用できません。
+Failed to retrieve temporary directory!<=>一時ディレクトリの受信に失敗しました!
+Saving {1} ...<=>{1} を保存しています ...
+Failed to create directory:<=>ディレクトリの作成に失敗しました:
+Failed to decompress file:<=>ファイルの解凍に失敗しました:
+Failed to download file:<=>ファイルのダウンロードに失敗しました:
+(checksum error)<=>(チェックサムのエラー)
+Please try again later.<=>後で再び試行してください。
+Error while saving downloaded file!<=>ダウンロードされたファイルの保存中のエラーです!
+All files downloaded successfully.<=>すべてのファイルのダウンロードに成功しました!
+Press the "Finish" button to complete the update process...<=>更新処理を完了するには "完了" ボタンをクリックします
+Failed to initialize the final copy process!<=>最終コピー処理の初期化に失敗しました!
+Downloading {1} ...<=>{1} をダウンロードしています ...
+Progress all:<=>すべての進行状況:
+Progress current file:<=>現在のファイルの進行状況:
+Download of updated files<=>更新されたファイルのダウンロード
+
+# Import Accounts Dialog
+
+Account<=>アカウント
+User<=>ユーザー
+Server<=>サーバー
+Port<=>ポート
+Please select the accounts that you want to import from Outlook Express.<=>Outlook Express からインポートしたいアカウントを選択してください。
+&Properties...<=>プロパティ(&P)...
+OK<=>OK
+Cancel<=>キャンセル
+Import email accounts<=>電子メール アカウントのインポート
+Description<=>説明
+
+# Account Dialog
+
+General<=>一般
+Colors<=>色
+Advanced<=>詳細設定
+Can not change account settings while there are busy accounts.<=>ビジー状態のアカウントがある間にアカウントの設定を変更できません。
+Please enter the address of the Server!<=>サーバーのアドレスを入力してください!
+Please enter the account name!<=>アカウント名を入力してください!
+Please enter user name!<=>ユーザー名を入力してください!
+Account name:<=>アカウント名:
+Protocol:<=>プロトコル:
+Server:<=>サーバー:
+Port:<=>ポート:
+User name:<=>ユーザー名:
+Password:<=>パスワード:
+Include this account when receiving mail<=>メールの受信時にこのアカウントを含める
+1 minute<=>1 分
+{1} minutes<=>{1} 分
+1 second<=>1 秒
+{1} seconds<=>{1} 秒
+Use UIDL when deleting messages<=>メッセージの削除時に UIDL を使用する
+Use custom AutoCheck timer interval<=>カスタム自動チェックのタイマーの間隔を使用する
+Timer interval:<=>タイマーの間隔:
+minutes<=>分
+Server Timeouts<=>サーバー タイムアウト
+Short<=>短い
+Long<=>長い
+Load all emails completely<=>完全にすべての電子メールを読み込む
+Retrieve header and {1} lines of message body<=>ヘッダーとメッセージの本文の {1} 行を受信する
+Number of lines:<=>行数:
+Load small emails completely<=>完全に小さい電子メールを読み込む
+Small emails are < <=>小さい電子メールは < 
+Parameters<=>パラメータ
+Use individual font color:<=>個別のフォントの色を使用する:
+Circle color in system tray:<=>システム トレイの円の色:
+Invalid parameter string!<=>不正なパラメータの文字列です!
+Default<=>既定
+
+# Accounts Dialog
+
+Mail Accounts<=>メール アカウント
+&Add...<=>追加(&A)...
+&Remove<=>削除(&R)
+Move &up<=>上へ移動(&U)
+Move &down<=>下へ移動(&D)
+&Close<=>閉じる(&C)
+
+# Download Dialog
+
+Loading the following mail:<=>以下のメールを読み込んでいます:
+Loading Mail...<=>メールを読み込んでいます...
+
+# BlackList/WhiteList Dialog
+
+Black List<=>ブラック リスト
+Messages from senders in the list below will be deleted automatically from the server.<=>以下の一覧の送信者からのメッセージはサーバーから自動的に削除されます。
+White List<=>ホワイト リスト
+Messages from senders in the list below will never be deleted automatically.<=>以下の一覧の送信者からのメッセージは自動的に削除されません。
+Address:<=>アドレス:
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>電子メール アドレス (例: somebody@somewhere.com) かドメイン (例: somewhere.com) を入力してください:
+Enter address<=>アドレスの入力
+
+# Password Dialog
+
+Password - {1}<=>パスワード - {1}
+Enter the password of the following account.<=>以下のアカウントのパスワードを入力します
+Account:<=>アカウント:
+Remember password<=>パスワードを記憶する
+Password incorrect! Please note that the password is case-sensitive.<=>パスワードが不正確です! パスワードは大文字と小文字を区別することにご注意ください。
+Please enter the password.<=>パスワードを入力してください。
+
+# Add item to Rules list Dialog
+
+Add item to Rules list<=>アイテムを規則の一覧に追加
+Destination List<=>宛先の一覧
+New Item<=>新しいアイテム
+Item Type<=>アイテムの種類
+Word<=>単語
+String<=>文字列
+Regular Expression<=>正規表現
+
+# Save Dialog
+
+Please specify where to save the emails.<=>電子メールの保存先を指定してください。
+The specified folder does not exist!<=>指定されたフォルダが存在しません!
+Please specify a template for the file names.<=>ファイル名のテンプレートを指定してください。
+A file name must not contain any of the following characters:<=>ファイル名は以下の文字をどれも含まない必要があります:
+Invalid template! Use a combination of the following placeholders:<=>不正なテンプレートです! 以下のプレースホルダの組み合わせを使用します:
+Subject<=>件名
+From<=>送信者
+To<=>宛先
+Date<=>日付
+Time<=>時間
+Save As...<=>名前を付けて保存...
+Destination<=>保存先
+Folder:<=>フォルダ:
+Browse...<=>参照...
+Save Format<=>保存フォーマット
+Template For File Names<=>ファイル名のテンプレート
+Email File (*.eml)<=>電子メール ファイル (*.eml)
+Text File (*.txt)<=>テキスト ファイル (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>ファイル "{1}" が存在しません!
+Sound (*.wav)<=>サウンド (*.wav)
+Notify when new mail arrives<=>新しいメールの到着時に通知する
+Always<=>常に
+When AutoChecked or minimized<=>自動チェックまたは最小化時
+Only when minimized<=>最小化時のみ
+On new mail<=>新しいメール
+Acoustic notification<=>音響通知
+Sound:<=>サウンド:
+&Test<=>テスト(&T)
+Show PopMan window<=>PopMan ウィンドウを表示する
+Show new mail tip<=>新しいメール チップを表示する
+Include sender and subject of new mails<=>新しいメールの送信者と件名を含める
+Use balloon tip<=>バルーン チップを使用する
+Flash keyboard light:<=>キーボード ライトをフラッシュする
+Unread Messages<=>未読のメッセージ
+Display unread messages in bold font<=>太字のフォントで未読のメッセージを表示する
+Preview Pane<=>プレビュー ペイン
+Use the preview pane to quickly view a message without opening a separate window.<=>分割ウィンドウを開かずにメッセージを素早く表示するにはプレビュー ペインを使用します。
+Show preview pane<=>プレビュー ペインを表示する
+Be&low messages<=>下のメッセージ(&L)
+Be&side messages<=>側面のメッセージ(&S)
+Use logging to record all data communication between PopMan and the email server.<=>PopMan と電子メール サーバーの間のすべてのデータ コミュニケーションの記録するにはログを使用します。
+Enable logging<=>ログを有効にする
+Only log compact mail info instead of entire data traffic<=>データ転送の全体の代わりにコンパクト メール情報のみ記録する
+Log file size:<=>ログ ファイルのサイズ:
+KB<=>KB
+Enable logging of applied rules<=>適用される規則のログを有効にする
+Location of the log file "PopManLogFile.log":<=>ログ ファイル "PopManLogFile.log" の場所
+Use dial-up networking<=>ダイヤルアップ ネットワークを使用する
+Launch PopMan on Windows startup<=>Windows の起動時に PopManを起動する
+Check for new mail on startup<=>起動時に新しいメールをチェックする
+First wait<=>初回待機
+seconds<=>秒
+X button hides to tray<=>X ボタンはトレイへ隠す
+Min button hides to tray<=>最小化ボタンはトレイへ隠す
+Delete confirmation in main window<=>メイン ウィンドウでの削除確認
+Delete confirmation in preview pane and message window<=>プレビュー ペインとメッセージ ウィンドウでの削除確認
+Delete command marks message for deletion<=>削除コマンドは削除にメッセージをマークする
+Enable password protection:<=>パスワード保護を有効にする:
+AutoCheck only while minimized<=>最小化中のみ自動チェックする
+Don't check between:<=>次の間はチェックしない
+and<=>から
+Enable custom AutoCheck interval per account:<=>アカウントごとの自動チェック間隔を有効にする:
+Interval<=>間隔
+Custom<=>カスタム
+Executable (*.exe)<=>実行ファイル (*.exe)
+Hide PopMan to tray<=>トレイへ PopMan を隠す
+Quit PopMan<=>PopMan の終了
+Email client:<=>電子メール クライアント:
+When launching email client:<=>電子メール クライアントの起動時:
+When replying<=>返信時
+Use temporary eml file (Outlook Express)<=>一時 eml ファイルを使用する (Outlook Express)
+Use mailto (without quotted original message)<=>mailto を使用する (引用された元のメッセージなしで)
+Use MAPI<=>MAPI を使用する
+Use HTML linebreaks in reply body<=>返信の本文に HTML の改行を使用する
+Enforce email address (Yahoo! Mail)<=>電子メール アドレス (Yahoo! Mail) を強制する
+Launch email client with command line parameter:<=>コマンド ライン パラメータで電子メール クライアントを起動する:
+Number of messages<=>メッセージの数
+Show number of messages in tray icon<=>トレイ アイコンにメッセージの数を表示する
+Show number of all messages<=>すべてのメッセージの数を表示する
+Show number of unread messages<=>未読のメッセージの数を表示する
+Show number of new messages<=>新しいメッセージの数を表示する
+Rotate icon for each account<=>それぞれのアカウントにアイコンを回転する
+Rotation interval:<=>回転の間隔
+tenths of a second<=>1/10 秒
+Show advanced account info<=>高度なアカウント情報を表示する
+Enable HighColor icons in system tray<=>システム トレイに HighColor のアイコンを表示する
+Nothing<=>なし
+Show Window<=>ウィンドウの表示
+Check Mail<=>メールのチェック
+PopUp Menu<=>ポップアップ メニュー
+Run Email Client<=>電子メール クライアントの起動
+Check And Show<=>チェックと表示
+Toggle Window<=>ウィンドウの切り替え
+Toggle AutoCheck<=>自動チェックの切り替え
+Show Mail Info<=>メール情報の表示
+Tray Mouse Actions<=>トレイのマウス動作
+Left Click:<=>左クリック
+Right Click:<=>右クリック
+Middle Click:<=>中クリック
+Double Click:<=>ダブル クリック
+Double click delay on click<=>クリックの遅れをダブル クリックする
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>以下で翻訳を選択できます。{BR}お使いの言語が見つからない場合、PopMan のウェブ サイトを訪問してください:
+Language:<=>言語:
+Author:<=>作者:
+Email:<=>電子メール:
+Updated:<=>更新日:
+Comment:<=>コメント:
+
+# Source Dialog
+
+RichEdit control init failed.<=>RichEdit コントロールの初期化が失敗しました。
+Source - "{1}"<=>ソース - "{1}"
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>ログ ファイル "{1}" は開けませんでした。{BR}ログが有効になりました!
+Error while writing to the log file:<=>ログ ファイルへの書き込み中のエラーです:
+Logging disabled!<=>ログが無効になりました!
+
+# List View
+
+Size<=>サイズ
+Received<=>受信日
+Attachment<=>添付
+Sent<=>送信日
+Priority<=>優先度
+UserAgent<=>ユーザーエージェント
+Rules<=>規則
+High<=>高
+Low<=>低
+Normal<=>通常
+Are you sure you want to delete the selected email?<=>選択された電子メールを削除してもよろしいですか?
+Are you sure you want to delete the {1} selected emails?<=>{1} 個の選択された電子メールを削除してもよろしいですか?
+&Open...{TAB}Ctrl+O<=>開く(&O)...{TAB}Ctrl+O
+Sou&rce...<=>ソース(&R)...
+&Save As...{TAB}Ctrl+S<=>名前を付けて保存(&S)...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>送信者へ返信(&Y){TAB}Ctrl+R
+&Trust Sender<=>信用する送信者(&T)
+&Block Sender<=>ブロックする送信者(&B)
+&Delete{TAB}Del<=>削除(&D){TAB}Del
+&Unmark{TAB}Ins<=>マーク解除(&U){TAB}Ins
+This will add the following email addresses to the Black List:<=>これは以下の電子メール アドレスをブラック リストに追加します:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>注意: ブラック リストにある送信者からのすべての未来の電子メールは自動的に削除されます!
+This will add the following email addresses to the White List:<=>これは以下の電子メール アドレスをホワイト リストに追加します:
+
+# Main Window
+
+Empty Trash<=>ごみ箱を空にする
+Options<=>オプション
+AutoCheck<=>自動チェック
+Notification<=>通知
+Email Client<=>電子メール クライアント
+View<=>表示
+Tray Icon<=>トレイ アイコン
+Language<=>言語
+Mouse Actions<=>マウス動作
+Logging<=>ログ
+&File<=>ファイル(&F)
+&Accounts...<=>アカウント(&A)...
+&Update{TAB}F5<=>更新(&U){TAB}F5
+&Cancel{TAB}Esc<=>キャンセル(&C){TAB}Esc
+Delete &Marked Emails{TAB}F12<=>マーク済み電子メールの削除(&M){TAB}F12
+&Exit<=>終了(&E)
+&View<=>表示(&V)
+&Toolbar<=>ツール バー(&T)
+&Statusbar<=>ステータスバー(&S)
+&Hide Marked Messages<=>マーク済みメッセージの非表示(&H)
+Move Marked Messages to Tr&ash Tab<=>ごみ箱タブへマーク済みメッセージを移動(&A)
+Tab &View{TAB}Ctrl+M<=>タブ ビュー(&V){TAB}Ctrl+M
+&Tools<=>ツール(&T)
+&Font...<=>フォント(&F)...
+Font &Color...<=>フォントの色(&C)...
+&Themes<=>テーマ(&T)
+Launch &Email Client{TAB}Ctrl+E<=>電子メール クライアントの起動(&E){TAB}Ctrl+E
+&Import Accounts...<=>アカウントのインポート(&I)...
+&White List...<=>ホワイト リスト(&W)...
+&Black List...<=>ブラック リスト(&B)...
+&Rules...<=>規則(&R)...
+Add Item To Rules &List...{TAB}F9<=>アイテムを規則の一覧に追加(&L)...{TAB}F9
+&Options<=>オプション(&O)
+&Help<=>ヘルプ(&H)
+&Help Topics...{TAB}F1<=>ヘルプ トピック(&H)...{TAB}F1
+Check For &Updates<=>更新のチェック(&U)
+&About PopMan...<=>PopMan のバージョン情報(&A)...
+Edit email accounts.{BR}Accounts<=>電子メール アカウントを編集します。{BR}アカウント
+Update email listing.{BR}Update<=>電子メールの一覧を更新します。{BR}更新
+Cancel current operation.{BR}Cancel<=>現在の操作をキャンセルします。{BR}キャンセル
+Show email content.{BR}Show<=>電子メールの内容を表示します。{BR}表示
+Show source code of this email.{BR}Source code<=>このメールのソース コードを表示します。{BR}ソース コード
+Save selected email to file.{BR}Save<=>ファイルへ選択された電子メールを保存します。{BR}保存
+Create a reply message to the sender.{BR}Reply<=>送信者への返信メッセージを作成します。{BR}返信
+Delete selected emails.{BR}Delete<=>選択された電子メールを削除します。{BR}削除
+Delete marked emails.{BR}Delete marked emails<=>マークされた電子メールを削除します。{BR}マーク済み電子メールの削除
+Unmark (undelete) selected emails.{BR}Unmark<=>選択された電子メールをマーク解除 (削除解除) します。{BR}マーク解除
+Add sender to Black List.{BR}Block Sender<=>送信者をブラック リストに追加します。{BR}送信者のブロック
+Add sender to White List.{BR}Trust Sender<=>送信者をホワイト リストに追加します。{BR}送信者の信用
+Quit the application.{BR}Exit<=>アプリケーションを終了します。{BR}終了
+Show or hide the toolbar.{BR}Toggle ToolBar<=>ツール バーの表示または非表示を切り替えます。{BR}ツール バーの切り替え
+Show or hide the status bar.{BR}Toggle StatusBar<=>ステータス バーの表示または非表示を切り替えます。{BR}ステータスバーの切り替え
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>タブ ビューを有効/無効にします。{BR}タブ ビューの切り替え
+Hide messages that are marked for delete.{BR}Hide marked messages<=>削除にマークされたメッセージを非表示にします。{BR}マーク済みメッセージの非表示
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>分割された "ごみ箱" タブへマークされたメッセージを移動します。{BR}ごみ箱タブを有効にする
+Change font.{BR}Font<=>フォントを変更します。{BR}フォント
+Change font color.{BR}Font Color<=>フォントの色を変更します{BR}フォントの色
+Launch email client.{BR}Email Client<=>電子メール クライアントを起動します。{BR}電子メール クライアント
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Outlook Express から電子メール アカウントをインポートします。{BR}アカウントのインポート
+Edit the rules.{BR}Rules<=>規則を編集します。{BR}規則
+Add item to Rules list.{BR}Add To List<=>アイテムを規則の一覧に追加します。{BR}一覧に追加
+Edit list of trusted senders.{BR}WhiteList<=>信用された送信者の一覧を編集します{BR}ホワイトリスト
+Edit list of blocked senders.{BR}BlackList<=>ブロックされた送信者の一覧を編集します。{BR}ブラックリスト
+Change program settings.{BR}Settings<=>プログラムの設定を変更します。{BR}設定
+Show Help Topics.{BR}Help<=>ヘルプ トピックを表示します。{BR}ヘルプ
+Check if a new version is available.{BR}Check for updates<=>新しいバージョンが利用可能かチェックします。{BR}更新のチェック
+Display program information, version number and copyright.{BR}About<=>プログラムの情報、バージョン番号および著作権を表示します。{BR}バージョン情報
+Show the main window.{BR}Show<=>メイン ウィンドウを表示します。{BR}表示
+Enable AutoChecking.{BR}Enable<=>自動チェックを有効にします。{BR}有効にする
+Suspend New Mail Notification Sound.{BR}Mute<=>新しいメールの通知サウンドを休止します。{BR}ミュート
+Open the selected attachment.{BR}Open<=>選択された添付を開きます。{BR}開く
+Save the selected attachments.{BR}Save<=>選択された添付を保存します。{BR}保存
+Save all attachments.{BR}Save All<=>すべての添付を保存します。{BR}すべて保存
+Change the window size.<=>ウィンドウ サイズを変更します。
+Change the window position.<=>ウィンドウの位置を変更します。
+Reduce the window to an icon.<=>アイコンへウィンドウを縮小します。
+Enlarge the window to full size.<=>フル サイズへウィンドウを拡大します。
+Close the active window.<=>アクティブなウィンドウを閉じます。
+Restore the window to normal size.<=>通常のサイズへウィンドウを復元します。
+Don't display this &message again.<=>再びこのメッセージを表示しない。(&M)
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>印刷(&P)...{TAB}Ctrl+P
+&Close{TAB}Esc<=>閉じる(&C){TAB}Esc
+&Edit<=>編集(&E)
+&Cut{TAB}Ctrl+X<=>切り取り(&C){TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>コピー(&O){TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>貼り付け(&P){TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>検索(&F)...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>次を検索(&N){TAB}F3
+Select &All{TAB}Ctrl+A<=>すべて選択(&A){TAB}Ctrl+A
+Print this email.{BR}Print<=>この電子メールを印刷します。{BR}印刷
+Delete this email.{BR}Delete<=>この電子メールを削除します。{BR}削除
+Close window.{BR}Close<=>ウィンドウを閉じます。{BR}閉じる
+Cut the selection and put it on the Clipboard.{BR}Cut<=>選択範囲を切り取ってクリップボードに挿入します。{BR}切り取り
+Copy the selection and put it on the Clipboard.{BR}Copy<=>選択範囲をコピーしてクリップボードに挿入します。{BR}コピー
+Insert Clipboard contents.{BR}Paste<=>クリップボードの内容を挿入します。{BR}貼り付け
+Find the specified text.{BR}Find<=>指定されたテキストを検索します。{BR}検索
+Find next occurence of specified text.{BR}Find next<=>指定されたテキストの次の発生を検索します。{BR}次を検索
+Select the entire message.{BR}Select All<=>メッセージの全体を選択します。{BR}すべて選択
+"{1}" not found.<=>"{1}" が見つかりません。
+&Open<=>開く(&O)
+&Save As...<=>名前を付けて保存(&S)...
+Save &All...<=>すべて保存(&A)...
+This attachment can not be accessed anymore.<=>この添付はもうアクセスできません。
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}" はウイルス、ワームまたはその他の危険なコードの性質を含む可能性が非常に高いです!
+Opening this file is therefore denied.<=>このファイルを開くことはしたがって拒否されました。
+Do you really want to save this file to your hard disk?<=>本当にハード ディスクへこのファイルを保存しますか?
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>これらの添付はウイルス、ワームまたはその他の危険なコードの性質を含む可能性が非常に高いです!
+Do you really want to save these files to your hard disk?<=>本当にハード ディスクへこれらのファイルを保存しますか?
+Please specify where to save the attachments.<=>添付の保存先を指定してください。
+The file "{1}" does already exist!{BR}Overwrite it?<=>ファイル "{1}" がすでに存在します!{BR}上書きしますか?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>電子メールのダウンロードが失敗しました。{BR}電子メールの一覧を更新するには Ctrl+F5 を押して再び試行します。
+Are you sure you want to delete this email?<=>この電子メールを削除してもよろしいですか?
+Deleting email failed!<=>電子メールの削除が失敗しました!
+From:<=>送信者:
+Date:<=>日付:
+To:<=>宛先:
+Subject:<=>件名:
+Attach:<=>添付:
+
+# PopMan Start
+
+Please start one instance only.<=>1 つの起動のみ開始してください。
+Windows socket init failed.<=>Windows ソケットの初期化が失敗しました。
+{1} Beta version has been updated successfully!<=>{1} Beta バージョンの更新に成功しました!
+You have successfully updated to version {1} !<=>Version {1} への更新に成功しました !
+About PopMan<=>PopMan のバージョン情報
+PopMan, Version {1}<=>PopMan, Version {1}
+Website:<=>ウェブサイト:
+Forum:<=>フォーラム:
+
+# Document
+
+The error log file "{1}" could not be created.<=>エラー ログ ファイル "{1}" は作成できませんでした。
+Checking {1}...<=>{1} をチェックしています...
+Email (*.eml)<=>電子メール (*.eml)
+Text (*.txt)<=>テキスト (*.txt)
+Unable to load mail system support.<=>メール システム サポートを読み込むことができません。
+Mail system DLL is invalid.<=>メール システム DLL は不正です。
+Unable to detect if a new version is available.<=>新しいバージョンが利用可能か検出することができません。
+There is no update available.<=>更新は利用できません。
+Do you want to start the update wizard and download the latest version?<=>更新ウィザードを開始して最新のバージョンをダウンロードしますか?
+Deleting mail...<=>メールを検出しています...
+Downloading mail...<=>メールをダウンロードしてます...
+AutoCheck disabled<=>自動チェックが無効です
+No messages<=>メッセージがありません
+1 new message<=>1 個の新しいメッセージ
+{1} new messages<=>{1} 個の新しいメッセージ
+PopMan - New Mail<=>PopMan - 新しいメール
+&Open PopMan<=>PopMan を開く(&O)
+Check &Mail<=>メールのチェック(&M)
+&Cancel<=>キャンセル(&C)
+&Email Client<=>電子メール クライアント(&E)
+A&utoCheck Enabled<=>自動チェックが有効(&U)
+Mu&te Mode<=>ミュート モード(&T)
+O&ptions...<=>オプション(&P)...
+&About...<=>バージョン情報(&A)...
+E&xit<=>終了(&X)
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} 個のメッセージ。({2} 個の未読、{3} 個の新規){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - メール情報
+1 message<=>1 個のメッセージ
+{1} messages<=>{1} 個のメッセージ
+1 unread message<=>1 個の未読メッセージ
+{1} unread messages<=>{1} 個の未読メッセージ
+in {1}<=>({1})
+in {1} accounts<=>({1} アカウント)
+Show<=>表示
+Delete<=>削除
+Close<=>閉じる
+(last check: {1})<=>(最後のチェック: {1})
+You are about to irrevocably delete all marked messages.<=>すべてのマーク済みメッセージを撤回不能に削除しようとしています。
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>削除にメッセージをマークしました。マーク解除するには、Ins キーボード ボタンを押します。すべてのマーク済みメッセージを削除するには、F12 を押すか適切なツール バー ボタンをクリックします。
+You can also delete selected messages immediately by pressing Shift+Del.<=>Shift+Del を押すことによってすぐに選択されたメッセージを削除することもできます。
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>伝統的な挙動 (すぐにすべての選択されたメッセージを削除する) を復元したい場合は、オプション ダイアログの "{1}" をチェック解除します。
+Failed to add item to Rules list!<=>規則の一覧へのアイテムの追加に失敗しました。
+
+# Main View
+
+Separate account | All<=>アカウントの分割 | すべて
+Check accounts{TAB}F7<=>アカウントのチェック{TAB}F7
+Join with tab<=>タブと結合
+Rename tab{TAB}F2<=>タブの名前の変更{TAB}F2
+Mark All Mails Read<=>すべてのメールを既読にする
+Mark All Mails Unread<=>すべてのメールを未読にする
+You have to add at least one account before you can switch to tab view.<=>タブ ビューへ切り替える前に少なくとも 1 つのアカウントを追加する必要があります。
+Caption:<=>キャプション:
+Please enter the caption of the tab:<=>タブのキャプションを入力してください:
+Rename tab<=>タブの名前の変更
+Trash<=>ごみ箱
+Tab accounts:<=>タブ アカウント:
+
+# Rules
+
+Error while parsing rules file at line {1}!<=>{1} 行での規則ファイルの構文解析中のエラーです
+The item is already contained in the list!<=>アイテムはすでに一覧に含まれています
+
+# Text View
+
+Copy Link Address<=>リンク アドレスのコピー
+
+# 04/10/2010
+
+Type<=>
+Limit tips to [PROTECTED] messages<=>
+[PROTECTED]<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Protocol plugin not initialized correctly!<=>
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>

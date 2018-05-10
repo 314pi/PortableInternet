@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY app "Ekiga">
+<!ENTITY appversion "4.0">
+<!ENTITY manrevision "4.0">
+]>
+<!-- Begin -->
+<article id="index" lang="el">
+<articleinfo>
+<title><application>Ekiga</application> Manual 4.0 </title>
+
+<copyright><year>2003-2012</year><holder>Damien Sandras</holder></copyright>
+<copyright><year>2003-2004</year><holder>Matthias Redlich</holder></copyright>
+<copyright><year>2003-2004</year><holder>Christopher Warner</holder></copyright>
+<!-- translators: uncomment this:
+
+<copyright>
+<year>2002</year>
+<holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+</copyright>
+
+-->
+
+<revhistory>
+<revision>
+<revnumber>Ekiga Manual 4.0</revnumber>
+<date>2012-06-03</date>
+<revdescription>
+<para role="author">Damien Sandras</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>Εγχειρίδιο Ekiga 3.0</revnumber>
+<date>31-08-2008</date>
+<revdescription>
+<para role="author">Damien Sandras</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>Εγχειρίδιο Ekiga 2.0</revnumber>
+<date>2006-01-22</date>
+</revision>
+</revhistory>
+
+<publisher>
+<publishername>Damien Sandras</publishername>
+<address><email>dsandras@seconix.com</email></address>
+</publisher>
+<publisher>
+<publishername>Christopher Warner</publishername>
+<address><email>zanee@kernelcode.com</email></address>
+</publisher>
+<publisher>
+<publishername>Matthias Redlich</publishername>
+<address><email>m-redlich@t-online.de</email></address>
+</publisher>
+
+<authorgroup>
+<author role="maintainer">
+<firstname>Damien</firstname>
+<surname>Sandras</surname>
+</author>
+<author>
+<firstname>Christopher</firstname>
+<surname>Warner</surname>
+<othername>zanee</othername>
+</author>
+<author>
+<firstname>Matthias</firstname>
+<surname>Redlich</surname>
+</author>
+</authorgroup>
+
+<releaseinfo>
+This documentation is for version 4.0 of Ekiga.
+</releaseinfo>
+
+<abstract role="description">
+<para>Το Ekiga είναι μια εφαρμογή φωνης επί ΙΡ, τηλεφωνίας επί ΙΡ και συνεδριάσεων μέσω βίντεο, με υποστήριξη πολλών κωδικοποιητών ήχου (audio codecs) και βίντεο (video codecs).</para>
+</abstract>
+</articleinfo>
+
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+
+<!-- INTODUCTION          -->
+<!-- What is &app; -->
+
+<section id="ekiga-introduction">
+<title>Εισαγωγή</title>
+
+<section><title>Ekiga</title>
+<para>Το <application>Ekiga</application> είναι μια εφαρμογή φωνής επί ΙΡ, τηλεφωνίας επί ΙΡ και βιντεο-συνεδριάσεων για το Linux και τα άλλα Unix-οειδή (π.χ. BSD, OpenSolaris ή MacOSX).  Γράφτηκε από τον Damien Sandras και ακολουθεί την άδεια GNU/GPL.</para>
+
+<para>Το Ekiga μπορεί να χρησιμοποιήσει σύγχρονα πρωτόκολλα φωνής επί ΙΡ όπως το SIP και το H.323.  Υποστηρίζει τα σπουδαιότερα χαρακτηριστικά που ορίζουν τα πρωτόκολλα αυτά όπως <emphasis>call hold</emphasis>, <emphasis>call transfer</emphasis>,  <emphasis>call forwarding</emphasis>.  Επίσης υποστηρίζει βασικό <emphasis>άμεσης επικοινωνίας</emphasis> (instan messaging) και διαθέτει εξελειγμένη υποστήριξη για μεταβάσεις μέσω ΝΑΤ (NAT traversal) .  Το Ekiga υποστηρίζει τους καλύτερους  <emphasis>δωρεάν</emphasis> κωδικοποιητές ήχου και βίντεο και έχει ευρυζωνική υποστήριξη ανώτερης ποιότητας ήχου, αλλά και καταστολή ηχούς (echo cancellation).</para>
+</section>
+
+<section><title>SIP και H.323</title>
+<para>Πρωτόκολλο Έναρξης Συνόδου (Session Initiation Protocol--SIP) είναι ένα πρωτόκολο που αναπτύχθηκε από την Ομάδα Εργασίας IEFT MMUSIC και προτάθηκε ως ένα στάνταρντ για την έναρξη, την τροποποίηση και τερματισμό μια, διαδραστικής συνεδρίας χρήστη η οποία περιλαμβάνει στοιχεία πολυμέσων όπως βίντεο, φωνή, άμεση επικοινωνία, δικτυακά παιχνίδια και εικονική πραγματικότητα.  Τον Νοέμβριο του 2000 το SIP έγινε δεκτό ως πρωτόκολλο σηματοδότησης 3GPP και ως μόνιμο στοιχείο της αρχιτεκτονικής IMS.  Είναι ένα από τα ηγετικά πρωτόκολλα σηματοδότησης για την Φωνή επί ΙΡ.</para>
+
+<para>Το Η323 δημιουργήθηκε αρχικά ώστε να παράσχει ένα μηχανισμό για την μεταφορά εφαρμογών πολυμέσων μέσω Δικτύων Μεγάλης Περιοχής(LAN), αλλά γρήγορα εξελίχθηκε σε εργαλείο για τις αυξανόμενες ανάγκες των δικτύων VoIP.  Ένα ισχυρό χαρακτηριστικό του Η323 ήταν η σχετικά πρώιμη διάθεση ενός συνόλου προτύπων, που προσδιόριζαν όχι μόνο το βασικό μοντέλο κλήσης αλλά, επιπρόσθετα, τις συμπληρωματικές υπηρεσίες που χρειάζονταν για την ικανοποίηση των προσδοκιών των επιχειρηματικών επικοινωνιών.  Το Η323 ήταν το πρώτο πρότυπο VoIP που υιοθετούσε το πρότυπο IETF για την μεταφορά ήχου και βίντεο μέσω δικτύων ΙΡ.  Το Η323 βασίζεται στο πρωτόκολλο ISDN Q.931 και είναι κατάλληλο για αλληλεπιδραστικά σενάρια μεταξύ ΙΡ και ISDN και αντίστοιχα μεταξύ ΙΡ και QSIG.  Ένα μοντέλο κλήσης, όπως και ένα ISDN μοντέλο κλήσης, διευκολύνει την εισαγωγή Τηλεφωνίας ΙΡ μέσα σε υπάρχοντα δίκτυα ISDN που βασίζονται σε συστήματα PBX.</para>
+<para>
+<graphic fileref="figures/lumi.png"/>
+</para>
+</section>
+</section>
+
+<section id="ekiga-getting-started">
+<title>Ξεκινώντας</title>
+<para>Όταν εκκινείτε το <application>Ekiga</application> για πρώτη φορά ο βοηθός ρύθμισης θα εμφανισθεί αυτομάτως.  Ο Βοηθός Ρύθμισης είναι ένα ερωτηματολόγιο που θα σας καθοδηγήσει βήμα-βήμα σε όλα τα στάδια δημιουργίας των βασικών ρυθμίσεων που χρειάζονται για να δουλέψετε το <application>Ekiga</application>.  Θα πρέπει να περάσετε από όλα αυτά τα βήματα σωστά, ειδάλλως ο βοηθός θα επανεμφανίζεται (όταν δεν θα τον ολοκληρώνετε) ή το <application>Ekiga</application> δεν θα λειτουργεί σωστά (αν κάποια από τις απαντήσεις σας δεν είναι σωστή).  Μπορείτε να εκτελέσετε τον Βοηθό Ρύθμισης ανά πάσα στιγμή μέσω του μενού Επεξεργασία (Edit).</para>
+
+<tip><title>Υπόδειξη</title><para>Όλες οι ρυθμίσεις μπορούν να αλλάξουν οποτεδήποτε μέσω του παραθύρου των προτιμήσεων.</para></tip>
+
+
+<section><title>Εισαγωγή στον βοηθό ρυθμίσεων</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d1.png"/>
+</figure>
+
+<para>Καθόλη την διάρκεια της διαδικασίας ρυθμίσεων διατίθεται περιήγηση στο κατώτατο άκρο του παραθύρου.  Θα μπορείτε να διατρέξετε τις ερωτήσεις χρησιμοποιώντας πατώντας Πίσω, Μπροστά και Άκυρο.  Αν πατήσετε Άκυρο κατά την διάρκεια της ρύθμισης, το <application>Ekiga</application> δεν θα επηρεαστεί από τις αλλαγές που κάνατε και όσες πληροφορίες πληκτρολογήσατε θα ακυρωθούν.</para>
+
+<para>Η σελίδα αυτή σας καλωσορίζει στον Βοηθό Ρυθμίσεων.  Δεν υπάρχει κάτι εδώ που να χρειάζεται αλλαγή ή σύνταξη.  Πατήστε το κουμπί "Εμπρός" που βρισκεται στο κάτω μέρος του παραθύρου για να ξεκινήσετε τις ρυθμίσεις.</para>
+</section>
+
+
+<section><title>Προσωπικές πληροφορίες</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d2.png"/>
+</figure>
+
+<para>Το παράθυρο Προσωπικών Πληροφοριών απαιτεί από εσάς να δώσετε προσωπικές πληροφορίες που θα χρησιμοποιηθούν από το <application>Ekiga</application>.  Οι πληροφορίες αυτές εμφανίζονται όταν συνδέεστε σε άλλες εφαρμογές ήχου/βίντεο.</para>
+</section>
+
+
+<section><title>Accounts</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d3.png"/>
+</figure>
+
+<para>
+The Accounts window gives you a clear explanation of what accounts are for. You may simply skip it if you already know what an account is and what to use it for.
+</para>
+</section>
+
+
+<section><title>Λογαριασμός Ekiga.net</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d4.png"/>
+</figure>
+
+<para>Το Ekiga.net είναι μια πλατφόρμα ελεύθερων υπηρεσιών SIP που παρέχονται στους χρήστες του <application>Ekiga</application>.  Αν επιθυμείτε να καλέσετε άλλους χρήστες και να σας καλούν άλλοι χρήστες, χρειάζεστε μια διεύθυνση SIP.  Μπορείτε να λάβετε μια τέτοια διεύθυνση από εδώ <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>.  Το Ekiga.net επίσης προσφέρει επιπρόσθετες υπηρεσίες όπως χώρους συνεδριάσεων (conference rooms), ηχητικά μηνύματα ή αλφαβητικούς καταλόγους στο διαδίκτυο.  Παρακαλούμε δείτε το  <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink> για περισσότερες πληροφορίες.</para>
+
+<para>Απλώς ακολουθήστε τον σύνδεσμο που σας δίνει ο διάλογος για να λάβετε ένα λογαριασμός, αν δεν έχετε ήδη έναν, και έπειτα συμπληρώστε το όνομα χρήστη και τον κωδικό σας.  Παρακαλούμε πιέστε "Εμπρός" για να συνεχίσετε αφού εισάγετε όλες τις απαιτούμενες πληροφορίες.</para>
+</section>
+
+
+<section><title>Λογαριασμός Ekiga Call Out</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d5.png"/>
+</figure>
+
+<para>Το <application>Ekiga</application> μπορεί να χρησιμοποιηθεί με πολλούς Παροχείς Τηλεφωνικών Υπηρεσιών Διαδικτύου.  Οι παροχείς αυτοί επιτρέπουν να καλείτε συνηθισμένα τηλέφωνα από τον υπολογιστή σας χρησιμοποιώντας το <application>Ekiga</application> σε συμφέρουσες τιμές.  Συνιστούμε να χρησιμοποιήσετε τον προεπιλεγμένο παροχέα <application>Ekiga</application>.</para>
+
+<para>Αν επιθυμείτε να δημιουργήσετε ένα λογαριασμό και να τον χρησιμοποιείτε για να καλείτε τους φίλους και την οικογένειά σας μέσω συνηθισμένων τηλεφώνων σε συμφέρουσες τιμές, απλώς δημιουργήστε έναν λογαριασμό με την χρήση του συνδέσμου "Αποκτήστε λογαριασμό Ekiga Call Out". Μόλις δημιουργηθεί ο λογαριασμός θα σας σταλεί μέσω ηλεκτρονικού ταχυδρομείου ένα όνομα χρήστη κι ένας κωδικός. Απλώς εισάγετε αυτά τα δύο στον διάλογο, και θα μπορείτε να καλείτε συνήθη τηλέφωνα μέσω του <application>Ekiga</application></para>
+
+<para>Με τις προεπιλεγμένες ρυθμίσεις, μπορείτε να χρησιμοποιήσετε απλώς τον sip:3210444555 και να επιλέξετε sip.diamondcard.us για να καλέσετε τον πραγματικό τηλεφωνικό αριθμό +3210444555, 32 είναι ο κωδικός χώρας και 10444555 είναι ο καλούμενος τηλεφωνικός αριθμός. Σας ενθαρρύνουμε να βάζετε τους αγαπημένους σας τηλεφωνικούς αριθμούς στο βιβλίο διευθύνσεων.</para>
+
+<para>Απλώς ακολουθήστε τον σύνδεσμο που σας δίνει ο διάλογος για να λάβετε ένα λογαριασμό, αν δεν έχετε ήδη έναν, και έπειτα συμπληρώστε το όνομα χρήστη και τον κωδικό σας. Παρακαλούμε πιέστε 'Μπροστά' για να συνεχίσετε αφού εισάγετε όλες τις απαιτούμενες πληροφορίες.</para>
+</section>
+
+
+<section><title>Τύπος σύνδεσης</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d6.png"/>
+</figure>
+
+<para>Το <application>Ekiga</application> υποστηρίζει πολλούς κωδικοποιητές ήχου και βίντεο.  Περιλαμβάνει κωδικοποιητές εξαιρετικης ποιότητας καθώς και κωδικοποιητές μέσης προς καλής ποιότητας.  Όσο υψηλότερη είναι η ποιότητα του κωδικοποιητή, τόσο μεγαλύτερο εύρος ζώνης απαιτεί.  Επιπλέον, οι κωδικοποιητές βίντεο μπορούν να προσαρμόσουν την ποιότητά τους προς το διαθέσιμο εύρος ζώνης.  Αυτή η δυνατότητα επιλογής είναι απαραίτητη κατά την αρχική ρύθμιση του <application>Ekiga</application> ώστε να επιλέξει το βέλτιστο κωδικοποιητή, κατάλληλο για τον τύπο της σύνδεσης και να προσαρμόσει τις ρυθμίσεις ποιότητας του βίντεο.  Αν ο τύπος της σύνδεσής σας δεν αναφέρεται στον κατάλογο πρέπει να επιλέξετε τον πλησιέστερο προς την σύνδεσή σας τύπο και να ρυθμίσετε το <application>Ekiga</application> χειροκίνητα μέσω του παραθύρου των ρυθμίσεων (τμήμα κωδικοποιητών) αργότερα.</para>
+
+<para>Όταν τελειώσετε, συνεχίστε με την ρύθμιση.</para>
+</section>
+
+
+<section><title>Συσκευές ήχου</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d7.png"/>
+</figure>
+
+<para>Το <application>Ekiga</application> απαιτεί συσκευές ήχου για να αναπαράγει και να εγγράψει ήχους.  Η συσκευή εξόδου ήχου παράγει το εισερχόμενο ρεύμα ήχου κατά την διάρκεια μιας κλήσης.  Παρακαλούμε επιλέξτε την συσκευή στην οποία συνδέονται τα ακουστικά ή τα ηχεία σας.  Η συσκευή εισόδου ήχου είναι εκείνη με την οποία συνδέεται το μικρόφωνό σας.  Οι ρυθμίσεις αυτές ίσως είναι οι ίδιες με εκείνες της εφαρμογής αναπαραγωγής ήχων, αν έχετε μόνο μια κάρτα ήχου.  Όμως σημειώστε ότι είναι επίσης εφικτό να εγγράψετε ήχους μέσω κάποιας άλλης συσκευής (π.χ. ενός εσωτερικού μικροφώνου σε μια webcam). Αυτή η ενότητα σας επιτρέπει επίσης να επιλέξετε την συσκευή που θα κουδουνίζει. Αυτή η συσκευή μπορεί να είναι διαφορετική από την συσκευή εξόδου ήχου. Σας επιτρέπει να ακούτε το κουδούνισμα ειδοποίησης εισερχόμενης κλήσης στα ηχεία σας, καθώς έχετε τα ακουστικά συνδεδεμένα για κλήσεις.</para>
+
+<para>Όταν τελειώσετε, συνεχίστε με την ρύθμιση.</para>
+</section>
+
+
+<section><title>Συσκευές βίντεο</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d8.png"/>
+</figure>
+
+<para>Το βήμα αυτό είναι προεραιτικό και σχετίζεται μόνο με συσκευές βίντεο (π.χ. μια webcam).  Αν δεν έχετε κάποια συσκευή βίντεο μπορείτε να προσπεράσετε αυτή τη σελίδα.</para>
+
+<para>Αν έχετε κάποια webcam ή συσκευή βίντεο της λίστας μπορείτε να την επιλέξετε απο εδώ.</para>
+
+<para>Όταν τελειώσετε, συνεχίστε με την ρύθμιση.</para>
+</section>
+
+
+<section><title>Η ρύθμιση ολοκληρώθηκε</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d9.png"/>
+</figure>
+
+<para>Η ρύθμιση του <application>Ekiga</application> ολοκληρώθηκε.  Το τελευταίο παράθυρο δείχνει απλώς μια μικρή περίληψη των ρυθμίσεων που επιλέξατε.  Παρακαλούμε βεβαιωθείτε ότι όλες αυτές οι ρυθμίσεις είναι σωστές.  Αν κάτι δεν είναι σωστό μπορείτε να χρησιμοποιήσετε το πλήκτρο "Πίσω" στην κάτω δεξιά γωνία του παραθύρου για να μεταβείτε σε οποιαδήποτε σελίδα του Βοηθού και διορθώσετε τα λάθη.</para>
+
+<para>Αν όλα είναι σωστά, παρακαλούμε πατήστε το πλήκτρο "Εφαρμογή" για να αποθηκεύσετε τις ρυθμίσεις.  Ο βοηθός θα κλείσει και θα εμφανισθεί το κυρίως παράθυρο του <application>Ekiga</application>.  Να θυμάστε ότι, όλες οι ρυθμίσεις μπορούν να αλλαχθούν μέσω του παραθύρου των προτιμήσεων ανά πάσα στιγμή το θελήσετε.</para>
+</section>
+
+</section>
+
+
+
+
+<section id="ekiga-basic-usage">
+<title>Βασική χρήση</title>
+
+<section id="ekiga-calling-and-being-called">
+<title>Κλήση από και προς εσάς</title>
+
+<graphic fileref="figures/call_d1.png"/>
+
+<section><title>Από υπολογιστή σε υπολογιστή (PC-To-PC)</title>
+<para>Αν επιθυμείτε να καλέσετε άλλους χρήστες και να σας καλούν, θα χρειαστείτε μια διεύθυνση SIP.  Μπορείτε να λάβετε μια διεύθυνση SIP από <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink> όπως περιγράψαμε παραπάνω.</para>
+
+<para>Η διεύθυνση SIP μπορεί να χρησιμοποιηθεί από άλλους χρήστες για να σας καλέσουν.  Παρομοίως, μπορείτε να χρησιμοποιήσετε την διεύθυνση SIP των φίλων σας και της οικογένειάς σας για να τους καλέσεε.  Για παράδειγμα, μπορείτε να χρησιμοποιήσετε το <emphasis>sip:dsandras@ekiga.net</emphasis> για να καλέσετε τον δημιουργό του Ekiga.</para>
+
+<para>Μπορείτε να χρησιμοποιήσετε το ηλεκτρονικό βιβλίο διευθύνσεων του <application>Ekiga</application> για να βρείτε τις SIP διευθύνσεις άλλων χρηστών του <application>Ekiga</application>.  Φυσικά, μπορείτε να καλέσετε χρήστες οι οποίοι χρησιμοποιούν άλλον παροχέα υπηρεσιών από το ekiga.net.  Μπορείτε να καλέσετε οποιονδήποτε χρήστη χρησιμοποιεί λογισμικό ή μηχάνημα που υποστηρίζει SIP και είναι εγγεγραμμένο σε κάποιον δημόσιο παροχέα SIP</para>
+
+<para>If you know the URI address of the party that you wish to call, you may choose the Chat -&gt; Call a number action, enter that URI into the sip: input box at the bottom of the window and press the Connect button; eg: sip:foo@ekiga.net and clicking on the Connect button would call the user at that address.</para>
+
+<para>Είναι επίσης δυνατό η κλήση επαφών με τη χρήση του βιβλίου διευθύνσεων, το ιστορικό κλήσεων ή τον κατάλογο ονομάτων ομάδας. Μπορείτε να προσθέσετε επαφές που καλείτε συχνά στον κατάλογο ονομάτων ομάδας και να παρακολουθήσετε αν είναι παρόν για να ξέρετε αν είναι διαθέσιμοι. Παρακαλώ αναφερθείτε στο κατάλληλο τμήμα του εγχειριδίου για πλήρη εξήγηση.</para>
+
+<tip><title>Υπόδειξη</title><para>Επίσης, το <application>Ekiga</application> υποστηρίζει το Η323 και έτσι μπορεί να καλέσει οποιοδήποτε μηχάνημα ή λογισμικό που υποστηρίζει Η323.  Παρακαλούμε διαβάστε το τμήμα που αναφέρετε στο πρότυπο URI αν θέλετε να μάθετε περισσότερα για τους διαφόρους τύπους URI που μπορούν να χρησιμοποιηθούν για κλήσεις απομακρυσμένων χρηστών Η323 και SIP.</para></tip>
+</section>
+
+<section><title>Από υπολογιστή προς πραγματικά τηλέφωνα (PC-To-Phone)</title>
+<para>Το <application>Ekiga</application> μπορεί να χρησιμοποιηθεί με πολλούς Παροχείς Τηλεφωνικών Υπηρεσιών Διαδικτύου.  Οι παροχείς αυτοί επιτρέπουν να καλείτε συνηθισμένα τηλέφωνα από τον υπολογιστή σας χρησιμοποιώντας το <application>Ekiga</application> σε συμφέρουσες τιμές.  Συνιστούμε να χρησιμοποιήσετε τον προεπιλεγμένο παροχέα <application>Ekiga</application>. Μπορείτε να φτιάξετε έναν λογαριασμό χρησιμοποιώντας τους συνδέσμους στον βοηθό ρύθμισης όπως περιγράφεται παραπάνω.</para>
+
+<para>With the default setup, you can simply use sip:3210444555 and select sip.diamondcard.us in the list to call the real phone number +3210444555, 32 being the country code and 10444555 being the number you wish to call.</para>
+
+<para>Μπορείτε επίσης να καλείτε πραγματικούς τηλεφωνικούς αριθμούς από το βιβλίο διευθύνσεων. Αν ο τηλεφωνικός αριθμός της επαφής που επιθυμείτε να καλέσετε είναι αποθηκευμένο στο βιβλίο διευθύνσεων, απλά επιλέξτε Ενέργεια -&gt; Κλήση [Λογαριασμός κλήσεων Ekiga] εφόσον είναι επιλεγμένη η επαφή. Θα γίνει κλήση του τηλεφωνικού αριθμού της επαφής χρησιμοποιώντας το λογαριασμός κλήσεων του Ekiga.</para>
+
+<tip><title>Υπόδειξη</title><para>Το <application>Ekiga</application> υποστηρίζει επίσης την σύνδεση σε συστήματα H.323 και SIP PBX. Αν το PBX στο γραφείο σας υποστηρίζει αυτά τα πρωτόκολλα, θα μπορείτε να καλέσετε συνηθισμένα τηλέφωνα και να καλείσθε μετά την σύνδεση σας στο PBX. Παρακαλώ ρωτήστε για τις ρυθμίσεις από τον διαχειριστή σας.</para></tip>
+</section>
+
+<section><title>Από τηλέφωνο προς υπολογιστή (Phone-To-PC)</title>
+<para>Το <application>Ekiga</application> μπορεί να χρησιμοποιηθεί για να λαμβάνετε εισερχόμενες κλήσεις από συνήθεις τηλεφωνικές συσκευές.  Για να γίνει αυτό, συνδεθείτε στον λογαριασμός σας PC-Προς-Τηλέφωνο μέσω του μενού Εργαλεία όπως περιγράφεται παραπάνω και αγοράστε έναν τηλεφωνικό αριθμό στην χώρα της επιλογής σας.  Το <application>Ekiga</application> θα ηχήσει όταν άλλοι χρήστες θα καλέσουν τον τηλεφωνικό αριθμό.</para>
+
+<tip><title>Υπόδειξη</title><para>Μπορείτε να χρησιμοποιήσετε οποιονδήποτε παροχέα Η323 ή SIP ITSP, συμπεριλαμβανομένου και του δικού σας PBX στην εργασία σας.  Όμως, προτείνουμε την χρήση του ολοκληρωμένου παροχέα.</para></tip>
+</section>
+
+</section>
+
+
+<section id="ekiga-manage-contacts">
+<title>Διαχείριση των επαφών</title>
+
+<section><title>Προσθήκη επαφών στον κατάλογο επαφών</title>
+<graphic fileref="figures/roster.png"/>
+
+<para>
+<application>Ekiga</application> allows you to add the contacts you
+dial the most to the roster, so that you can call or start a chat conversation with your friends without having to remember their URI. If supported by the service you are connecting to, <application>Ekiga</application> will display <emphasis>extended presence information</emphasis> about your friends.
+Ekiga.net supports publishing presence information for its users. Software PBX systems like <ulink url="http://www.asterisk.org" type="http">Asterisk</ulink> can report if a user is on the phone or not, and <application>Ekiga</application> will display that information in its roster.
+</para>
+
+<para>Έτσι μπορείτε να χρησιμοποιήσεται το <application>Ekiga</application> για παρακολούθηση γραμμών στο PBX σας.</para>
+
+<para>Το <application>Ekiga</application> μπορεί επίσης να εντοπίσει άλλους χρήστες του εντός του LAN χρησιμοποιώντας την τεχνολογία Bonjour που διέδωσε η Apple (tm).  Κάτι τέτοιο προϋποθέτει ότι στον υπολογιστή σας εκτελείτε τοπικά κάποιος δαίμονας mDNSResonder. Σε συστήματα Linux αυτή η υπηρεσία συνήθως προμηθεύεται από την Avahi.</para>
+
+<para>
+To add a contact to the roster, select Chat -&gt; Add Contact, and fill in the required fields. If the service managing the URI you entered for the contact is able to publish presence status, Ekiga will automatically display it.
+</para>
+
+<para>
+If you do not know the VoIP URI of a contact, you might try searching for him/her using the Ekiga.net online directory. To do so, select Chat -&gt; Address Book, and start searching using the 'Search Filter' feature.
+</para>
+
+<tip><title>Υπόδειξη</title><para>Μπορείτε να οργανώσετε τις επαφές της λίστας σας σε ομάδες.</para></tip>
+</section>
+
+<section><title>Διαχείριση των επαφών</title>
+<graphic fileref="figures/addressbook_d1.png"/>
+
+<para>
+<application>Ekiga</application> allows you to look for contacts using various sources like the <ulink url="https://www.suse.com/products/desktop/features/evolution.html" type="http">Novell Evolution Email and Calendaring</ulink> address book, any LDAP directory or the Ekiga.net contact directory. You can use the result of your search to start a chat, call the contact, or simply add him to your roster if you have frequent calls with him. To start looking for contacts, select Chat -&gt; Address Book in the menu.
+To your left there will be a list dialog showing the LDAP directories as well as a list of local Address Books. The defaults are the <application>Ekiga</application> white pages, and the personal address book from <ulink url="https://www.suse.com/products/desktop/features/evolution.html" type="http">Novell Evolution</ulink>. Support for more contact sources is possible.
+</para>
+
+<para>Το <application>Ekiga</application> μπορεί να ψάξει σε κάθε κατάλογο LDAP και να χρησιμοποιήσει ένα συγκεκριμένο χαρακτηριστικό ως URI.  Για παράδειγμα, αν έχετε ένα κατάλογο LDAP στην εταιρεία σας, με ένα συγκεκριμένο χαρακτηριστικό που περιέχει πληροφορίες για όλους τους συναδέλφους σας.  Το <application>Ekiga</application> μπορεί να χρησιμοποιήσει ένα κατάλογο LDAP.  Απλώς επιλέξτε Βιβλίο Διευθύνσεων -&gt; προσθέστε ένα βιβλίο διευθύνσεων LDAP και γεμίστε τα ζητούμενες λεπτομέρειες. Μετά μπορείτε με δεξί κλικ στην επαφή να καλέσετε χρησιμοποιώντας την ιδιότητα σαν VoIP URI.</para>
+
+<graphic fileref="figures/addressbook_d2.png"/>
+
+<para>
+The LDAP Address Book supports a range of settings to allow it to work with any LDAPv3 directory. It allows you to choose the attribute to use for displaying a contact's name in the address book as well as a list of attributes for calling info. E.g., if the directory uses the LDAP inetOrgPerson schema you can configure the Address Book to retrieve the homePhone, mobile, and pager attributes make those values available for calling or messaging. You can also customize a Filter Template for the default LDAP search filter, and override the default filter at any time if you need to perform a more specialized search. The browser also supports all security options for LDAP including ldaps:// (LDAP over SSL), StartTLS, and SASL authentication.
+</para>
+
+<para>Για να ανανεώσετε τον κατάλογο των χρηστών σε ένα συγκεκριμένο βιβλίο διευθύνσεων, απλά πατήστε το κουμπί Εύρεση.  Θα γίνει αναζήτηση για όλους τους χρήστες που βρίσκονται σε αυτό το βιβλίο διευθύνσεων.  Μπορείτε να επικοινωνήσετε με άλλα άτομα κάνοντας διπλό κλικ επάνω στο επιλεγμένο πεδίο του βιβλίου. Μπορείτε επίσης να τους στείλετε κάποιο μήνυμα κάνοντας διπλό κλικ ή επιλέγοντας την κατάλληλη ενέργεια στο μενού Ενέργεια του παραθύρου.</para>
+
+<para>Σε ορισμένες περιπτώσεις θα προτιμήσετε να αναζητήσετε συγκεκριμένα ένα όνομα επαφής σας, ή τη δική του/της διαδρομή κλήσεων στις λευκές σελίδες του <application>Ekiga</application>. Το παράθυρο του βιβλίου διευθύνσεων σας επιτρέπει να εφαρμόσετε φίλτρα κατά την αναζήτηση επαφών. Κατά την αναζήτηση ενός καταλόγου LDAP, εισάγοντας ένα απλό όνομα στο πεδίο Φίλτρο αναζήτησης θα εφαρμοστεί μία δευτερεύουσα συμβολοσειρά LDAP χρησιμοποιώντας το προσαρμοσμένο πρότυπο φίλτρο. Αν χρειάζεστε να εφαρμόσετε μία πιο εξειδικευμένη αναζήτηση μπορείτε να εισάγετε ένα ολοκληρωμένο αλφαριθμητικό φίλτρο LDAP, και αυτό θα χρησιμοποιηθεί αντί για το προσαρμοσμένο πρότυπο φίλτρο.</para>
+
+<tip><title>Υπόδειξη</title><para>The <application>Ekiga</application> white pages return a limited number of results corresponding to your search. You can then add them to your personal roster to call them later.</para></tip>
+</section>
+
+<section><title>Επεξεργασία επαφών</title>
+<graphic fileref="figures/addressbook_d3.png"/>
+
+<para>
+Local address books provided by Novell Evolution allow you to add new contacts, or to edit existing contacts. Each different address book allows a different set of features depending on what makes sense for that specific address book. To discover what features are possible, simply select the address book and consult the Action menu, or right-click on the address book name.
+</para>
+
+<para>
+To add a contact to one of your local address books, simply select the address book you wish to add the contact to and select Action -&gt; New Contact. The option of adding a New Contact will appear and you may now enter his name and VoIP URI as well as other settings. When finished, select 'OK' and your contact has been added. You can only add contacts to local address books. The contact parameters can be changed at any time by selecting Action -&gt; Edit when the contact is highlighted. He can also be deleted by selecting Action -&gt; Remove.
+</para>
+
+<para>
+You can also add a contact from the white pages (or any other local or remote address book) to the roster by selecting Action -&gt; Add to local roster.
+</para>
+
+</section>
+
+</section>
+
+<section id="ekiga-sending-instant-messages">
+<title>Αποστολή άμεσων μηνυμάτων</title>
+
+<graphic fileref="figures/chat_d1.png"/>
+
+<para>Το <application>Ekiga</application> σας επιτρέπει να αποστέλλετε άμεσα μηνύματα σε απομακρυσμένους χρήστες με την προϋπόθεση ότι γνωρίζετε τη διαδρομή τους.</para>
+
+<para>
+You can send instant messages from the roster, from the call history or from the address book. From the roster or from the call history, simply select Chat -&gt; Contact -&gt; Message in the main window when a contact is highlighted. From the address book window, simply select Action -&gt; Message when the contact is highlighted. A window pops up, enter your text message, and hit the Enter key.
+</para>
+
+<tip><title>Υπόδειξη</title><para>Δε μπορείτε να ανταλλάσσετε μηνύματα κειμένου με όλα τα πρωτόκολλα. Το <application>Ekiga</application> θα εμφανίσει μόνο το στοιχείο του μενού Μήνυμα όταν το πρωτόκολλο που έχει σχέση με τον άλλο χρήστη το επιτρέπει.</para></tip>
+</section>
+
+
+<section id="ekiga-changing-status">
+<title>Ενημέρωση της κατάστασης χρήστη</title>
+
+<graphic fileref="figures/status.png"/>
+
+<para>Το <application>Ekiga</application> σας επιτρέπει να δημοσιεύετε στις άλλες επαφές την κατάστασή σας.</para>
+
+<para>
+There are three categories of status messages : online, away and busy. Each of them allows you to specify a more complete status information. Simply select Custom message in the status menu at the bottom of the main window. You can then define your extended status message that will be published using all available protocols supporting it.
+</para>
+
+<tip><title>Υπόδειξη</title><para>Πολλοί εξυπηρετητές δεν υποστηρίζονται αναμεταδίδοντας την προσαρμοσμένη πληροφορία για την παρουσία σας. Για να βεβαιωθείτε ότι αυτή η λειτουργία είναι διαθέσιμη με τον εξυπηρετητή που χρησιμοποιείτε ή με το PBX στο οποίο είστε συνδεδεμένοι, παρακαλώ ρωτήστε τον διαχειριστή σας. Παρακαλώ σημειώστε ότι το Ekiga.net θα δημοσιεύσει την πληροφορία για την παρουσία σας.</para></tip>
+</section>
+
+
+<section id="ekiga-manage-calls">
+<title>Διαχείριση κλήσεων</title>
+
+<section><title>Προώθηση εισερχομένων κλήσεων</title>
+<para>Το <application>Ekiga</application> υποστηρίζει διάφορες πολιτικές για τις αναπάντητες εισερχόμενες κλήσεις.  Εξορισμού εμφανίζει ένα αναδυόμενο παράθυρο το οποίο σας επιτρέπει να απορρίψετε ή να αποδεχθείτε κάποιο αίτημα για μία εισερχόμενη κλήση.  Αν δεν απαντήσετε στην κλήση στον απαιτούμενο χρόνο, ή αν είστε απασχολημένος, ή αν δεν επιθυμείτε την αποδοχή κλήσεων, το <application>Ekiga</application> μπορεί να προωθήσει την κλήση σε κάποια άλλη ομάδα.</para>
+
+<para>Σημειώστε ότι πρέπει να προσδιορίσετε μία διαδρομή για την προώθηση των κλήσεων στις προτιμήσεις ώστε να είναι δυνατή η ενεργοποίηση της επιλογής αυτής. Ανοίξτε τις προτιμήσεις επιλέγοντας Επεξεργασία -&gt; Προτιμήσεις στο κύριο παράθυρο και επιλέξτε Επιλογές κλήσεων στα αριστερά. Θα δείτε τώρα την κατάλληλη ενότητα. Περιέχει τρία πεδία ελέγχου για τις τρεις περιπτώσεις που περιγράφηκαν πιο πάνω. Η διαδρομή της ομάδας όπου θα πρέπει να προωθούνται οι κλήσεις μπορεί να ρυθμιστεί ξεχωριστά στις Επιλογές SIP για το πρωτόκολλο SIP και αντίστοιχα στις Επιλογές H.323 για το H.323.</para>
+</section>
+
+<section><title>Ελέγχοντας την κλήση</title>
+<para><application>Ekiga</application> supports several actions which can be performed when being in a call. These actions enable you to control active sessions. It can be done using the menu and toolbar icons from the call window that appears as soon as a call is setup.</para>
+
+<graphic fileref="figures/call_window.png"/>
+
+<itemizedlist>
+<listitem>
+<para>Ending a call: The communication to the remote user can be ended by selecting Call -&gt; Hang up.</para>
+</listitem>
+
+<listitem>
+<para>Holding a call: You can hold a remote party call by selecting Call -&gt; Hold Call. This effectively pauses Video and Audio transmission; to continue transmission again you select Call -&gt; Retrieve Call and Video and Audio Transmission will begin again.</para>
+</listitem>
+
+<listitem>
+<para>Suspending Audio: This effectively prevents all Audio communication to your respective party when selecting Call -&gt; Mute Audio.</para>
+</listitem>
+
+<listitem>
+<para>Suspending Video: This effectively prevents all Video transmission to your respective party when selecting Call -&gt; Suspend Video.</para>
+</listitem>
+
+<listitem>
+<para>Transferring the remote party: You can transfer the remote user to another user by selecting Call -&gt; Transfer Call. It is also possible to transfer an active call by right-clicking and choosing the transfer action when a contact is highlighted in the roster, in the address book or in the call history. Double-clicking or selecting the Contact menu in the main window or the Action menu in the Address Book window and choosing the transfer action will also work.</para>
+</listitem>
+</itemizedlist>
+
+<tip><title>Υπόδειξη</title><para>Όλες οι διαδρομές που υποστηρίζει το <application>Ekiga</application> μπορούν να χρησιμοποιηθούν για μεταφορές κλήσεων αν το υποστηρίζει αυτό το πρωτόκολλο.</para></tip>
+</section>
+
+<section><title>Προσαρμογή των ρυθμίσεων ήχου και βίντεο</title>
+<para>
+Your audio and video settings can be adjusted through the call window while you are in a call. The audio volume, but also the brightness, whiteness, color and contrast of your video input device can be changed to achieve the best quality.
+</para>
+
+<para>Μπορείτε επίσης να αλλάξετε τις συσκευές ήχου και βίντεο κατά τη διάρκεια μίας κλήσης. Απλά μεταβείτε στο παράθυρο προτιμήσεων επιλέγοντας Επεξεργασία -&gt;  Προτιμήσεις στο μενού, και προσαρμόστε τις συσκευές σας στην κατάλληλη ενότητα.</para>
+</section>
+
+<section><title>Έλεγχος του ιστορικού κλήσεων</title>
+
+<graphic fileref="figures/call_history.png"/>
+
+<para>The Call History stores information (date, duration, URI, Remote user) about all outgoing and incoming calls. They are divided into three groups - received calls, placed calls and missed calls. You can consult the call history by selecting View -&gt; Call History in the menu or by clicking on the appropriate icon in the toolbar.</para>
+
+<tip><title>Υπόδειξη</title><para>Κάνοντας διπλό κλικ σε σε ένα βέλος στο Ιστορικό κλήσεων θα κληθεί εκ νέου ο επιλεγμένος χρήστης ή θα μεταφερθεί σε αυτόν το χρήστη κάθε ενεργή κλήση. Σημειώστε ότι μπορείτε επίσης να προσθέσετε την επαφή στη λίστα ονομάτων σας επιλέγοντας Συνομιλία -&gt; Επαφή -&gt; Προσθήκη στον τοπικό κατάλογο από το κύριο όταν είναι επιλεγμένη η κλήση.</para></tip>
+</section>
+
+</section>
+</section>
+
+<section id="ekiga-advanced-usage">
+<title>Χρήση για προχωρημένους</title>
+
+<section id="ekiga-registering-additional-accounts">
+<title>Καταχώρηση επιπρόσθετων λογαριασμών</title>
+
+<section><title>Το παράθυρο των λογαριασμών</title>
+
+<graphic fileref="figures/accounts_d1.png"/>
+
+<para>
+You can open the accounts window by selecting Edit -&gt; Accounts. This will open the accounts window. The accounts window will allow you to add Ekiga.net, Ekiga Call Out, SIP and H.323 accounts and to register to them.
+An account describes the user login and password parameters to register to SIP and H.323 services. Those <emphasis>services</emphasis> can be an Internet Telephony Service provider (like ekiga.net), or an IPBX (like CISCO, Nortel, or Asterisk).
+</para>
+</section>
+
+<section><title>Προσθήκη ενός λογαριασμού Ekiga.net</title>
+
+<graphic fileref="figures/accounts_ekiga_net.png"/>
+
+<para>
+To add an Ekiga.net account, simply select Accounts -&gt; Add an Ekiga.net Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Χρήστης:</emphasis>Εισάγετε το όνομα χρήστη της επιλογής σας.</para></listitem>
+<listitem><para><emphasis>Κωδικός:</emphasis> Μπορείτε να εισάγετε τον κωδικό σας.</para></listitem>
+</itemizedlist>
+</para>
+
+<para>Το Εkiga.net είναι μια πλατφόρμα ελεύθερων υπηρεσιών SIP που παρέχονται στους χρήστες του <application>Ekiga</application>.  Αν επιθυμείτε να καλέσετε άλλους χρήστες και να σας καλούν άλλοι χρήστες, χρειάζεστε μια διεύθυνση SIP.  Μπορείτε να λάβετε μια τέτοια διεύθυνση από εδώ <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>.  Το Εkiga.net επίσης προσφέρει επιπρόσθετες υπηρεσίες όπως χώρους συνεδριάσεων, ηχητικά μηνύματα ή αλφαβητικούς καταλόγους στο διαδίκτυο.  Παρακαλούμε δείτε το  <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink> για περισσότερες πληροφορίες.</para>
+</section>
+
+<section><title>Προσθήκη ενός λογαριασμού κλήσης Ekiga</title>
+
+<graphic fileref="figures/accounts_ekiga_call_out.png"/>
+
+<para>
+To add an Ekiga Call Out account, simply select Accounts -&gt; Add an Ekiga Call Out Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Όνομα Λογαριασμού:</emphasis>Εδώ εισάγετε το αναγνωριστικό του λογαριασμού.</para></listitem>
+<listitem><para><emphasis>Προσωπικός αριθμός:</emphasis>Εισάγετε τον προσωπικό σας αριθμό.</para></listitem>
+</itemizedlist>
+</para>
+
+<para>Αν δεν έχετε ακόμη ένα λογαριασμό κλήσεων Ekiga, μπορείτε να τον καταχωρήσετε χρησιμοποιώντας το σύνδεσμο 'Λάβετε ένα λογαριασμό κλήσεων Ekiga.net' στο παράθυρο διαλόγου. Όπως έχουμε περιγράψει πιο πάνω, η υπηρεσία αυτή θα σας επιτρέψει να καλείτε κανονικές τηλεφωνικές γραμμές σε όλον τον κόσμο με ενδιαφέρουσα αναλογία. Αφού έχει προστεθεί ο λογαριασμός, μπορείτε να τον καλέσετε ξανά, να ανατρέξετε στο ιστορικό ισορροπίας ή το ιστορικό κλήσεων επιλέγοντας το κατάλληλο στοιχείο μενού στο μενού Λογαριασμός του παραθύρου όταν ο λογαριασμός επικαλύπτεται.</para>
+</section>
+
+<section><title>Προσθήκη λογαριασμού SIP</title>
+
+<graphic fileref="figures/accounts_sip.png"/>
+
+<para>
+To add a SIP account, simply select Accounts -&gt; Add a SIP Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Όνομα Λογαριασμού:</emphasis>Εδώ εισάγετε το όνομα του λογαριασμού.</para></listitem>
+<listitem><para><emphasis>Καταχωρητής:</emphasis>Ο κατάλογος στον οποίο επιθυμείτε να καταχωρηθείτε.  Συνήθως είναι κάποια διεύθυνση ΙΡ ή όνομα υπολογιστή το οποίο θα σας έχει δοθεί από τον Παροχέα Διαδυκτιακών Υπηρεσιών είτε από τον διαχειριστή του συστήματός σας εφόσον επιχειρείτε να καταχωρηθείτε σε κάποιο SIP IPBX.</para></listitem>
+<listitem><para><emphasis>Χρήστης:</emphasis>Εισάγετε το όνομα χρήστη της επιλογής σας.</para></listitem>
+<listitem><para><emphasis>Πιστοποίηση χρήστη:</emphasis> Εφόσον διαφέρει από την παράμετρο χρήστη που δηλώσατε πιο πάνω. Στην περίπτωση αυτή, το πεδίο χρήστη θα εξυπηρετήσει τον έλεγχο της εξερχόμενης ταυτότητας για τον λογαριασμό που προσθέτετε, ενώ το όνομα σύνδεσης θα χρησιμοποιηθεί κατά την διαδικασία της πιστοποίησης.</para></listitem>
+<listitem><para><emphasis>Κωδικός:</emphasis> Μπορείτε να εισάγετε τον κωδικό σας.</para></listitem>
+<listitem><para><emphasis>Λήξη ορίου χρόνου εγγραφής:</emphasis> Ο χρόνος μετά το πέρας του οποίου θα πρέπει να ενημερώνεται η καταχώρηση.</para></listitem>
+</itemizedlist>
+</para>
+
+</section>
+
+<section><title>Προσθήκη ενός λογαριασμού Η.323</title>
+
+<graphic fileref="figures/accounts_h323.png"/>
+
+<para>
+To add an H.323 account, simply select Accounts -&gt; Add an H.323 Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Όνομα Λογαριασμού:</emphasis>Εδώ εισάγετε το όνομα του λογαριασμού.</para></listitem>
+<listitem><para><emphasis>Διατηρητής πύλης:</emphasis> Ο διατηρητής πύλης στον οποίο επιθυμείτε να καταχωρηθείτε. Συνήθως πρόκειται για κάποια διεύθυνση ΙΡ ή κάποιο όνομα υπολογιστή το οποίο θα σας δοθεί από τον παροχέα διαδικτυακών τηλεφωνικών υπηρεσιών, ή από τον διαχειριστή του συστήματός σας εφόσον επιχειρείτε να καταχωρηθείτε σε ένα Η.323 ΙΡΒΧ.</para></listitem>
+<listitem><para><emphasis>Χρήστης:</emphasis>Εισάγετε το όνομα χρήστη της επιλογής σας.</para></listitem>
+<listitem><para><emphasis>Πιστοποίηση χρήστη:</emphasis> Εφόσον διαφέρει από την παράμετρο χρήστη που δηλώσατε πιο πάνω. Στην περίπτωση αυτή, το πεδίο χρήστη θα εξυπηρετήσει τον έλεγχο της εξερχόμενης ταυτότητας για τον λογαριασμό που προσθέτετε, ενώ το όνομα σύνδεσης θα χρησιμοποιηθεί κατά την διαδικασία της πιστοποίησης.</para></listitem>
+<listitem><para><emphasis>Κωδικός:</emphasis> Μπορείτε να εισάγετε τον κωδικό σας.</para></listitem>
+<listitem><para><emphasis>Λήξη ορίου χρόνου εγγραφής:</emphasis>Ο χρόνοςμετά το πέρας του οποίου θα ενημερώνεται η καταχώρησή σας.</para></listitem>
+</itemizedlist>
+</para>
+
+</section>
+
+</section>
+
+<section id="ekiga-uris">
+<title>Κατανόηση των URI</title>
+
+<section><title>SIP URI</title>
+
+<para>Τα URI κατά SIP έχουν την εξής μορφή:"sip:user@[host[:port]]"</para>
+
+<para>Αυτό σας επιτρέπει να καλέσετε τον δεδομένο χρήστη στον συγκεκριμένο υπολογιστή μεσολάβησης ο οποίος διαθέτει SIP:<emphasis>sip:jonita@ekiga.net</emphasis></para>
+</section>
+
+
+<section><title>URI κατά Η.323</title>
+
+<para>Τα URI κατά Η.323 έχουν την μορφή "h323:[user@][host[:port]]"</para>
+
+<para>Αυτό σας επιτρέπει να: <itemizedlist>
+<listitem><para>Κλήση ενός κεντρικού υπολογιστή σε μια θύρα διαφορετική από την εξ' ορισμού που είναι η 1720:<emphasis>h323:seconix.com:1740</emphasis></para></listitem>
+<listitem><para>Κλήση ενός χρήστη βάσει του αντίστοιχου ψευδώνυμου, εφόσον αυτό είναι καταχωρημένο στον gatekeeper:<emphasis>h323:jonita</emphasis></para></listitem>
+<listitem><para>Κλήση ενός τηλεφωνικού αριθμού εφόσον είστε εγγεγραμμένος σε έναν gatekeeper για παροχείς υπηρεσιών PC-To-Phone, ή αν ο χρήστης αυτός διαθέτει </para></listitem>
+<listitem><para>Κλήση ενός συγκεκριμένου χρήστη χρησιμοποιώντας το ψευδώνυμό του/της μέσω ενός συγκεκριμένοου υπολογιστή-πύλη ή μέσω κάποιου διαμεσολαβητή: <emphasis>h323:jonita@gateway.seconix.com</emphasis></para></listitem>
+<listitem><para>Κλήση ενός MCU (Multipoint Control Unit=Μονάδα (Συσκευή) Ελέγχου Πολλαπλών Σημείων) και συμμετοχή σε ένα κανάλι συζητήσεων: <emphasis>h323:myfriendsroom@mcu.seconix.com</emphasis></para></listitem>
+</itemizedlist></para>
+</section>
+
+</section>
+
+
+<section id="ekiga-video-bandwidth">
+<title>Έλεγχος του εύρους ζώνης βίντεο</title>
+
+<para><application>Ekiga</application> uses a best-effort algorithm to maintain a low bandwidth when transmitting video.  It will permit <application>Ekiga</application> to dynamically adjust the video bandwidth and the number of transmitted images per second during a call while trying to respect the requested video bandwidth.</para>
+
+<para>Σημειώστε ότι ο αλγόριθμος πρόκειται για αλγόριθμο βέλτιστης απόδοσης, πράγμα που σημαίνει ότι, αν επιλέξετε πολύ χαμηλές ρυθμίσεις εύρους ταχύτητας βίντεο, θα είναι αδύνατον να τηρηθούν αυτές οι ρυθμίσεις. Εντούτοις, αν το εύρος ταχύτητας του βίντεο επιτρέπει την μετάδοση με καλύτερη ποιότητα, ή ταχύτερα από τις απαιτούμενες τιμές, τότε το <application>Ekiga</application> θα αυξήσει τις τιμές αυτές δυναμικά ώστε η ποιότητα και η συχνότητα πλαισίων του βίντεο να είναι πάντοτε οι καλύτερες δυνατές.</para>
+
+<!-- <para>Choosing a higher framerate and a lower quality will have the same result in terms of video bandwidth as choosing a higher quality with a lower framerate. The choice depends on if you prefer using your bandwidth to transmit more lower quality images or fewer high quality images.</para>-->
+</section>
+
+
+<section id="ekiga-monitoring-lines">
+<title>'Αξονες παρακολούθησης</title>
+
+<graphic fileref="figures/monitoring_lines.png"/>
+
+<para>Το <application>Ekiga</application> μπορεί να συνδεθεί σε συστήματα PBX που υποστηρίζουν το πρωτόκολλο SIP. Στην περίπτωση αυτή, είναι δυνατό να αποτελεί ένδειξη αν η γραμμή που συσχετίζεται με ένα χρήστη είναι σε χρήση ή όχι. Παρακαλώ ανατρέξτε στην τεκμηρίωση του PBX σας για να ενεργοποιήσετε αυτή τη λειτουργία.</para>
+
+<para>Για να ενεργοποιήσετε τη λειτουργία αυτή στο <application>Ekiga</application>, απλώς προσθέστε την επαφή με τη διαδρομή της στη λίστα. Αν ο εξυπηρετητής υποστηρίζει τη δημοσίευση της πληροφορίας παρουσίας σας, το <application>Ekiga</application> θα δημοσιεύσει αυτόματα τη δική σας πληροφορία παρουσίας και θα εμφανίσει την παρουσία των επαφών στη λίστα ονομάτων σας.</para>
+</section>
+
+<section id="ekiga-audio-codecs">
+<title>Διαχείριση κωδικοποιητών</title>
+
+<section><title>Κωδικοποιητές ήχου</title>
+
+<graphic fileref="figures/audio_codecs.png"/>
+
+<para>Ο πίνακας κωδικοποιήσεων ήχου στις προτιμήσεις του <application>Ekiga</application> επιτρέπουν να αλλάξετε την σειρά των κωδικοποιήσεων καθώς και την απενεργοποίηση των κωδικοποιήσεων που δεν επιθυμείτε να χρησιμοποιείτε. Κάθε κωδικοποίηση έχει δυνατά και αδύναμα σημεία. Για παράδειγμα, η G.711 θα δώσει τη βέλτιστη ποιότητα φωνής αλλά θα χρησιμοποιήσει το μεγαλύτερο εύρος της ταχύτητας σύνδεσης ενώ η SPEEX θα δώσει μία μέση ποιότητα φωνής αλλά απαιτώντας μία πολύ χαμηλή χρήση του εύρους της ταχύτητας σύνδεσης. Σημειώστε ότι υπάρχουν δύο εκδόσεις της SPEEX, μία από αυτές είναι η SPEEX WideBand, η οποία έχει ένα συχνότητα χρονομέτρησης 16 ΚHz.</para>
+</section>
+
+<section><title>Κωδικοποιητές μαγνητοσκόπησης</title>
+
+<graphic fileref="figures/video_codecs.png"/>
+
+<para>Ο πίνακας με τις κωδικοποιήσεις για βίντεο του <application>Ekiga</application> στις προτιμήσεις σας επιτρέπει να τροποποιήσετε τη σειρά κωδικοποίησης όπως επίσης και να απενεργοποιήσετε τις κωδικοποιήσεις που δεν επιθυμείτε να χρησιμοποιήσετε. Το <application>Ekiga</application> υποστηρίζει κωδικοποιήσεις όπως η H.261,η  H.263+, η H.264, η MPEG-4 ή η Theora.</para>
+</section>
+
+
+<section><title>Αναταξινόμηση των κωδικοποιητών</title>
+<para>
+When you reorder the codecs, you are reordering the local capabilities table, ie the codecs you will use for sending. The codec used is the first active codec on receiver which is active on sender.</para>
+</section>
+
+<section><title>Εξαναγκαστική χρήση συγκεκριμένου κωδικοποιητή</title>
+<para>Μπορείτε να εξαναγκάσετε την χρήση συγκεκριμένης κωδικοποίησης απενεργοποιώντας όλες τις άλλες κωδικοποιήσεις, αλλά αυτό θα έχει ως αποτέλεσμα αποτυχημένες κλήσεις εφόσον ο απομακρυσμένος χρήστης δεν υποστηρίζει τη συγκεκριμένη κωδικοποίηση. Η καλύτερη λύση είναι να τοποθετήσετε τις κωδικοποιήσεις που προτιμάτε στην κορυφή της λίστας έτσι ώστε να χρησιμοποιούνται πάντοτε κατά τη μετάδοση εφόσον το επιτρέπει ο απομακρυσμένος χρήστης και να απενεργοποιήσετε εκείνες τις κωδικοποιήσεις που δεν επιθυμείτε να χρησιμοποιείτε για μετάδοση και λήψη.</para>
+</section>
+
+<section><title>Προσαρμογή της προσωρινής μνήμης διακύμανσης-αυξομείωσης δεδομένων</title>
+<para>Μπορείτε να προσαρμόσετε το χρόνο αναμονής πριν την έναρξη αναπαραγωγής του ήχου που είναι αποθηκευμένος στην ενδιάμεση μνήμη, χρησιμοποιώντας την προσαρμογή της ενδιάμεσης μνήμης διακύμανσης. Αν υπάρχει πολύ μεγάλη απώλεια πακέτων, η καθυστέρηση που απαιτείται να έχει λάβει όλα τα πακέτα θα μπορούσε να είναι τόσο σημαντική εξαιτίας της επέκτασης της ενδιάμεσης μνήμης διακύμανσης. Σε αυτήν την περίπτωση, ο ήχος που λαμβάνετε θα είναι χαμηλής ποιότητας. Μία λύση σε αυτό το πρόβλημα θα μπορούσε να είναι η αύξηση του ανώτατου ορίου της ενδιάμεσης μνήμης διακύμανσης για λίγα δευτερόλεπτα, με αποτέλεσμα μία μεγάλη καθυστέρηση αλλά σε μία βελτιωμένη ποιότητα φωνής. Σημειώστε ότι η ενδιάμεση μνήμης διακύμανσης θα τεθεί στη πιο χαμηλή καθυστέρηση για βέλτιστη μετάδοση, και επειδή μία κακή ποιότητας φωνής δεν οφείλεται σε μία χαμηλή τιμής για την ενδιάμεση μνήμη διακύμανσης, αλλά σε κακή ποιότητα σύνδεσης στο διαδίκτυο.</para>
+</section>
+
+</section>
+
+
+<section id="ekiga-defining-ports">
+<title>Αλλαγή θυρών</title>
+
+<section><title>Οι θύρες ακρόασης listen</title>
+<para>Η κυρίως θύρα για ακρόαση των εισερχομένων συνδέσεων στο <application>Ekiga</application> για το προτώκολλο SIP είναι η 5060 (UDP), ενώ η θύρα 1720 (TCP) χρησιμοποιείται από το Η.323. Για να αλλάξετε τις θύρες αυτές πρέπει να εκκινήσετε τον "gconf-editor". Ανοίξτε τον gconf-editor, επιλέξτε apps από το αριστερό μενού και έπειτα επιλέξτε Πρωτόκολλα <application>Ekiga</application>. Ύστερα επιλέξτε "sip" ή "h323". Θα εμφανιστεί μια λίστα στο αντίστοιχο δεξιό παράθυρο. Επιλέξτε listen_port και θέστε την επιθυμητή τιμή. Μπορείτε επίσης να αλλάξετε την κλίμακα των θυρών UDP/RTP.</para>
+</section>
+
+<section><title>Εξήγηση της κλίμακας των θυρών</title>
+
+<para>1. Η τιμή "listen_port" είναι η θύρα μέσω της οποίας το <application>Ekiga</application> θα ανιχνεύσει εισερχόμενες κλήσεις. Η τιμή αυτή είναι διαφορετική για SIP και Η.323.</para>
+
+<para>3. Η τιμή "udp_port_range" είναι το εύρος των θυρών UDP που θα χρησιμοποιήσει το <application>Ekiga</application> για την σηματοδότηση του SIP ή για την καταχώρησή του στους διατηρητές πύλης για Η.323. Επίσης χρησιμοποιείται για RTP (κανάλια επικοινωνίας ήχου και βίντεο).</para>
+
+<para>4. Η τιμή "tcp_port_range" είναι το εύρος των θυρών TCP που μαζί με την listen_port θα χρησιμοποιήσει το <application>Ekiga</application> για το κανάλι Η.245 με το πρωτόκολλο Η.323. Η κλίμακα αυτή δεν χρησιμοποιείται από το SIP. Δεν χρησιμοποιείται επίσης όταν είναι ενεργοποιημένη η διακύμανση H.245, που γενικά είναι η περίπτωση, εκτός από την περίπτωση κλήσης με παλαιές εφαρμογές H.245 όπως το Netmeeting.</para>
+</section>
+</section>
+
+
+<section id="controlling-sip-h323-settings">
+<title>Έλεγχος των ρυθμίσεων SIP και Η.323</title>
+<section id="ekiga-sip">
+<title>Έλεγχος των ρυθμίσεων SIP</title>
+
+<section><title>Διάφορες ρυθμίσεις</title>
+<para><emphasis>Μεσολαβητής (Proxy) Εξερχομένων</emphasis></para>
+<para>Ο μεσολαβητής εξερχομένων είναι ένας μεσολαβητής SIP ο οποίος θα αναμεταδώσει τις κλήσεις σας. Η συμπεριφορά ενός μεσολαβητή SIP είναι όμοια με εκείνη ενός μεσολαβητή HTTP, δηλαδή, κάποιος φορέας που εκδίδει τα αιτήματά σας και μεσολαβεί στις ροές δεδομένων (stream).</para>
+
+<para><emphasis>URI Προώθησης</emphasis></para>
+<para>Το URI προς τις οποίες θα προωθηθούν οι εισερχόμενες κλήσεις SIP, εφόσον έχει γίνει ρύθμιση στις προτιμήσεις.</para>
+
+</section>
+</section>
+
+<section id="ekiga-h323">
+<title>Έλεγχος των Ρυθμίσεων Η.323</title>
+
+<section><title>Διάφορες ρυθμίσεις</title>
+<para><emphasis>URI Προώθησης</emphasis></para>
+<para>Το URI προς το οποίο θα προωθηθούν οι κλήσεις κατά Η.323, εφόσον έχει γίνει ρύθμιση στις προτιμήσεις.</para>
+
+</section>
+
+<section><title>Ρυθμίσεις για προχωρημένους</title>
+<para>Το <application>Ekiga</application> επιτρέπει πλήρη έλεγχο των ρυθμίσεων Η.323 στο τμήμα Ρυθμίσεις Η.323 για Προχωρημένους των προτιμήσεων.  Μπορείτε να ενεργοποιήσετε την Διείσδυση Η.245 και την Γρήγορη Έναρξη.</para>
+
+<para><emphasis>Διείσδυση Η.245</emphasis></para>
+
+<para>Η Διείσδυση Η.245 είναι το "περίβλημα" των μηνυμάτων Η.245 μέσα στα μηνύματα Η.225/Q.931 (Ενθηλάκωση Η.245).  Εάν έχετε κάποι τοίχος προστασίας και ενεργοποιήσετε την Διείσδυση Η.245, απαιτούνται μια λιγότερη θύρα TCP ελεύθερη για την αποδοχή εισερχομένων κλήσεων.</para>
+
+<para><emphasis>Έγκαιρο Η.245</emphasis></para>
+
+<para>Η επιλογή αυτή ενεργοποιεί εγκαίρως το Η.245 κατά την διάρκεια της ρύθμισης και επιτρέπει την επίτευξη ταχύτερης έναρξης της κλήσης.</para>
+
+<para><emphasis>Γρήγορη εκκίνηση</emphasis></para>
+
+<para>Η Γρήγορη Σύνδεση είναι μια νέα μέθοδος ρύθμισης μιας κλήσης που παρακάμπτει μερικά από τα συνήθη βήματα ώστε να πραγματοποιηθεί γρήγορα.  Επιπρόσθετα με τις βελτιώσεις της ταχύτητας, η Γρήγορη Σύνδεση βοηθά τα κανάλια πολυμέσων να ετοιμαστούν για την μετάδοση πριν σταλεί το μήνυμα CONNECT, μήνυμα το οποίο είναι απαιτούμενο για κάποιες διεργασίες τιμολόγησης.  Η λειτουργία αυτή πρωτοεισήχθη στην έκδοση 2 του Η.323.</para>
+</section>
+
+</section>
+</section>
+</section>
+
+<section id="ekiga-about">
+<title>Σχετικά με το <application>Ekiga</application></title>
+<para><application>Ekiga</application> is written by Damien Sandras (<email>dsandras@seconix.com</email>) with the help of many volunteers. Active maintainers are Damien Sandras (<email>dsandras@seconix.com</email>), Eugen Dedu (<email>Eugen.Dedu@pu-pm.univ-fcomte.fr</email>) and Julien Puydt (<email>jpuydt@free.fr</email>).
+To find more information about <application>Ekiga</application>, please visit the <ulink url="http://www.ekiga.org" type="http"><application>Ekiga</application> Home Page</ulink>.
+</para>
+
+<para>Για να δηλώσετε ένα σφάλμα (bug) ή για να κάνετε προτάσεις σχετικές με αυτή την εφαρμογή ακολουθείστε τις οδηγίες που θα βρείτε στην ιστοσελίδα <ulink url="ghelp:user-guide?feedback" type="help">this document</ulink>.</para>
+
+<para>Το πρόγραμμα αυτό διανέμεται υπό τους όρους της Γενικής Δημόσιας Άδειας GNU, όπως αυτή εκδίδεται από το Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation), ή της έκδοσης 2 της Άδειας είτε (αν προτιμάτε) κάθε παλαιότερης έκδοσης.  Αντίγραφο της Άδειας αυτής μπορείτε να βρείτε στην σελίδα <ulink url="ghelp:gpl" type="help">link</ulink> ή στο αρχείο COPYING που περιλαμβάνεται στον πηγαίο κώδικα αυτού του προγράμματος.</para>
+</section>
+
+
+
+<section id="ekiga-appendix">
+<title>Παράρτημα</title>
+
+<section id="ekiga-related">
+<title>Άλλο σχετικό λογισμικό</title>
+
+<para><emphasis>IPBX</emphasis></para>
+<itemizedlist>
+<listitem><para>Asterisk PBX: <ulink url="http://asterisk.org" type="http">http://asterisk.org</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>SIP</emphasis></para>
+<itemizedlist>
+<listitem><para>SIP Express Router: <ulink url="http://www.iptel.org/ser" type="http">http://www.iptel.org/ser</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>H.323</emphasis></para>
+<itemizedlist>
+<listitem><para>OpenH323 Gatekeeper: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+<listitem><para>GNU Gatekeeper: <ulink url="http://www.gnugk.org" type="http">http://www.gnugk.org</ulink></para></listitem>
+<listitem><para>OpenH323 Proxy:<ulink url="http://openh323.sourceforge.net" type="http">http://openh323.sourceforge.net</ulink></para></listitem>
+<listitem><para>H323 - ISDN Gateway: <ulink url="http://www.telos.de/linux/H323/" type="http">http://www.telos.de/linux/H323/</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>Λογισιμικό Βιντεοδιασκέψεων/VoIP</emphasis></para>
+
+<itemizedlist>
+<listitem><para>OpenMCU: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>Παρόμοιοι Πελάτες</emphasis></para>
+
+<itemizedlist>
+<listitem><para>XTen:<ulink url="http://www.xten.com" type="http">http://www.xten.com</ulink></para></listitem>
+<listitem><para>SJPhone: <ulink url="http://www.sjlabs.com/" type="http">http://www.sjlabs.com/</ulink></para></listitem>
+<listitem><para>OpenPhone: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+<listitem><para>Netmeeting: <ulink url="http://www.microsoft.com" type="http">http://www.microsoft.com</ulink></para></listitem>
+</itemizedlist>
+
+</section>
+</section>
+
+</article>
+<!-- END -->

@@ -1,0 +1,16 @@
+By default, all PopMan settings (e.g. email account information) are stored
+in the Windows registry: HKEY_CURRENT_USER\Software\PopMan
+You can use the Windows tool regedit.exe to modify the settings.
+All user specific files (log files, black list, white list, rules, temp files)
+are stored in the Application Data folder. The exact name depends on 
+the system language and your user name, e.g.:
+  
+  English: C:\Documents and Settings\USERNAME\Application Data\PopMan
+  German:  C:\Dokumente und Einstellungen\BENUTZERNAME\Anwendungsdaten\PopMan
+
+  
+If you want to store the settings into an ini File instead of the registry,
+you only need to create an empty file called PopMan.ini in the PopMan folder.
+On the next PopMan startup, all settings are imported from the registry
+and will be saved to this ini file when PopMan quits. The user specific files
+are stored in the PopMan subfolder "Data".

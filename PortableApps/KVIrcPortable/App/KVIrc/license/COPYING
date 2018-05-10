@@ -1,0 +1,50 @@
+This is the KVIrc Irc Client license.
+
+It is based on the GNU General Public License either version 2, or
+(at your option) any later version. The full text of versions 2 and 3 of 
+the GPL can be found respectively in the files LICENSE-GPLV2 and LICENSE-GPLV3.
+KVIrc License contains all the GPL terms and conditions and adds a special
+exception (see "OpenSSL Exception" below) to the distribution limitations.
+
+Note that the GPL is copyrighted by the Free Software Foundation,
+but the instance of code that it refers to is copyrighted by
+Szymon Stefanek and other members of the KVIrc Development Team.
+
+The source code for all versions of KVIrc is available at http://www.kvirc.net
+
+Have fun!
+Szymon Stefanek :)
+
+
+                       _OpenSSL Exception_
+
+0. Definitions
+
+"KVIrc" means KVIrc software licensed under version 2 or any later
+version of the GNU General Public License (collectively, "GPL"), or a
+work based on such software and licensed under the GPL.
+
+"OpenSSL" means OpenSSL toolkit software distributed by the OpenSSL
+Project and licensed under the OpenSSL Licenses, or a work based on such
+software and licensed under the OpenSSL Licenses.
+
+"OpenSSL Licenses" means the OpenSSL License and Original SSLeay License
+under which the OpenSSL Project distributes the OpenSSL toolkit software,
+as those licenses appear in the file LICENSE-OPENSSL.
+
+1. Exception
+
+You have permission to copy, modify, propagate, and distribute a work
+formed by combining OpenSSL with KVIrc, or a work derivative of such a
+combination, even if such copying, modification, propagation, or
+distribution would otherwise violate the terms of the GPL. You must
+comply with the GPL in all respects for all of the code used other than
+OpenSSL.
+
+You may include this OpenSSL Exception and its grant of permissions when
+you distribute KVIrc.  Inclusion of this notice with such a
+distribution constitutes a grant of such permission.  If you do not wish
+to grant these permissions, remove this section entitled "OpenSSL
+Exception" from your distribution.
+
+

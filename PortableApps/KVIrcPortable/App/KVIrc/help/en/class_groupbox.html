@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>groupbox class</title>
+<style type="text/css">
+body {
+ font-size: 11pt;
+ margin-left: 8px;
+ margin-right: 8px;
+ margin-top: 6px;
+ margin-bottom: 6px;
+ font-family:Helvetica,Arial,Verdana;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" cellpadding="1" cellspacing="0" border="0">
+ <tr>
+  <td align="left" bgcolor="#FFFFFF">
+    <a href="index.html"><img src="helplogoleft.png" iorder="0"></a>
+  </td>
+  <td align="right" bgcolor="#FFFFFF">
+    <img src="helplogoright.png">
+  </td>
+ </tr>
+</table>
+<table width="100%" cellpadding="3" cellspacing="1" border="0">
+  <tr bgcolor="#BEBEF0">
+    <td>
+      <font color="#31507B">
+      <h1>groupbox class</h1>
+Provides a groupbox bar.
+      </font>
+    </td>
+  </tr>
+  <tr bgcolor="#D2D2D2">
+    <td><b>Inherits</b></td>
+  </tr>
+  <tr bgcolor="#EAEAEA">
+    <td><a href="class_object.html">object</a>
+<a href="class_widget.html">widget</a></td>
+  </tr>
+  <tr bgcolor="#D2D2D2">
+    <td><b>Description</b></td>
+  </tr>
+  <tr bgcolor="#EAEAEA">
+    <td>This widget can be used to display a groupbox.
+It will be usually a parent for other child controls.
+You can either use a child layout to manage the children geometries
+or use $setColumnLayout to manage the layout automatically.
+</td>
+  </tr>
+  <tr bgcolor="#D2D2D2">
+    <td><b>Functions</b></td>
+  </tr>
+  <tr bgcolor="#EAEAEA">
+    <td>
+      <table bgcolor="#E0E0E0">
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setTitle">$setTitle(&lt;text:String&gt;)</a></font></b></code></td></tr>
+<tr><td>Sets the group box title to &lt;text&gt;.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="&lt;string&gt; title">&lt;string&gt; $title()</a></font></b></code></td></tr>
+<tr><td>Returns the group box title text.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setFlat">$setFlat(&lt;bflag:boolean&gt;)</a></font></b></code></td></tr>
+<tr><td>Sets whether the group box is painted flat. Valid Values are 1 or 0.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="&lt;boolean&gt; isFlat">&lt;boolean&gt; $isFlat()</a></font></b></code></td></tr>
+<tr><td>Returns 1 (TRUE) if the group box is painted flat; otherwise returns 0 (FALSE).</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="&lt;boolean&gt; isCheckable">&lt;boolean&gt; $isCheckable()</a></font></b></code></td></tr>
+<tr><td>Returns 1 (TRUE) if the group box has a checkbox in its title; otherwise returns 0 (FALSE).</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setCheckable">$setCheckable(&lt;bflag:boolean&gt;)</a></font></b></code></td></tr>
+<tr><td>Sets whether the group box has a checkbox in its title: Valid values are 1 or 0.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setInsideMargin">$setInsideMargin(&lt;margin:uint&gt;)</a></font></b></code></td></tr>
+<tr><td>Sets the the width of the inside margin to m pixels.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="&lt;integer&gt; insideMargin">&lt;integer&gt; $insideMargin()</a></font></b></code></td></tr>
+<tr><td>Returns the width of the empty space between the items in the group and margin of groupbox.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setInsideSpacing">$setInsideSpacing(&lt;spacing:uint&gt;)</a></font></b></code></td></tr>
+<tr><td>Sets the width of the empty space between each of the items in the group to m pixels.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="&lt;integer&gt; insideSpacing">&lt;integer&gt; $insideSpacing()</a></font></b></code></td></tr>
+<tr><td>Returns the width of the empty space between each of the items in the group.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="addSpace">$addSpace()</a></font></b></code></td></tr>
+<tr><td>Adds an empty cell at the next free position.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="&lt;string&gt; alignment">&lt;string&gt; $alignment()</a></font></b></code></td></tr>
+<tr><td>Returns the alignment of the group box title.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setAlignment">$setAlignment(&lt;alignment:string&gt;)</a></font></b></code></td></tr>
+<tr><td>Set the alignment of the groupbox;  Valid values are Left,Right,HCenter.</td></tr>
+<tr bgcolor="#D5D5D5"><td><code><b><font color=""><a name="setOrientation&lt;orientation:string&gt;">$setOrientation&lt;orientation:string&gt;</a></font></b></code></td></tr>
+<tr><td>Sets the group box's orientation. Valid values are: Horizontal, Vertical.</td></tr>
+      </table>
+    </td>
+  </tr>
+  <tr bgcolor="#D2D2D2">
+    <td><b>Examples</b></td>
+  </tr>
+  <tr bgcolor="#EAEAEA">
+    <td><p><table width="100%" cellpadding="3" cellspacing="1" border="0" bgcolor="#D5D5D5"><tr><td bgcolor="#F5F5F5"><pre><code><font color="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;//Let's start.
+&nbsp;&nbsp;&nbsp;&nbsp;//First we'll create the main widget. as a dialog
+&nbsp;&nbsp;&nbsp;&nbsp;%widget=$new(dialog)
+&nbsp;&nbsp;&nbsp;&nbsp;%layout=$new(layout,%widget)
+&nbsp;&nbsp;&nbsp;&nbsp;//then the groupbox
+&nbsp;&nbsp;&nbsp;&nbsp;%gb=$new(groupbox,%widget)
+&nbsp;&nbsp;&nbsp;&nbsp;%gb-&gt;$setTitle(Login)
+&nbsp;&nbsp;&nbsp;&nbsp;%gb-&gt;$setAlignment("Left")
+&nbsp;&nbsp;&nbsp;&nbsp;// add the gbox to the main layout
+&nbsp;&nbsp;&nbsp;&nbsp;%layout-&gt;$addWidget(%gb,0,0)
+&nbsp;&nbsp;&nbsp;&nbsp;// now we create the user field  (labels + lineedit)
+&nbsp;&nbsp;&nbsp;&nbsp;// in a horizontal box
+&nbsp;&nbsp;&nbsp;&nbsp;%hbox=$new(hbox,%gb)
+&nbsp;&nbsp;&nbsp;&nbsp;%labeluser=$new(label,%hbox)
+&nbsp;&nbsp;&nbsp;&nbsp;%labeluser-&gt;$settext(User: )
+&nbsp;&nbsp;&nbsp;&nbsp;%inputuser=$new(lineedit,%hbox)
+&nbsp;&nbsp;&nbsp;&nbsp;//now we create the pass field  (labels + lineedit).
+&nbsp;&nbsp;&nbsp;&nbsp;// in a horizontal box
+&nbsp;&nbsp;&nbsp;&nbsp;%hbox=$new(hbox,%gb)
+&nbsp;&nbsp;&nbsp;&nbsp;%labelpass=$new(label,%hbox)
+&nbsp;&nbsp;&nbsp;&nbsp;%labelpass-&gt;$settext(Pass: )
+&nbsp;&nbsp;&nbsp;&nbsp;%inputpass=$new(lineedit,%hbox)
+&nbsp;&nbsp;&nbsp;&nbsp;%inputpass-&gt;$setechomode("password")
+&nbsp;&nbsp;&nbsp;&nbsp;// now we create the ok/cancel box buttons
+&nbsp;&nbsp;&nbsp;&nbsp;%hbox=$new(hbox,%gb)
+&nbsp;&nbsp;&nbsp;&nbsp;%btnok=$new(button,%hbox)
+&nbsp;&nbsp;&nbsp;&nbsp;%btnok-&gt;$settext("OK")
+&nbsp;&nbsp;&nbsp;&nbsp;%btncancel=$new(button,%hbox)
+&nbsp;&nbsp;&nbsp;&nbsp;%btncancel-&gt;$settext("Cancel")
+&nbsp;&nbsp;&nbsp;&nbsp;//Let's show our nice form
+&nbsp;&nbsp;&nbsp;&nbsp;%widget-&gt;$show()
+</font></code></pre></td></tr></table></p>
+</td>
+  </tr>
+</table>
+<hr><a href="index.html">Index</a>, <a href="doc_class_index_all.html">Object Classes</a>
+<hr>KVIrc 4.2.0.6190 Documentation<br>Generated by fabio at Wed Jul  4 14:49:41 2012
+</body>
+</html>

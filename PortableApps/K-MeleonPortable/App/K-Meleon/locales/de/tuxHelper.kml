@@ -1,0 +1,34 @@
+# TuxHelpers for K-Meleon / Unix Helfer für K-Meleon
+# Alain Aupeix (2014), Deutsche Übersetzung Katharina Weißill (2014)
+
+# sendto.kmm
+Mailed from the webpage:'=gesendet von der Webseite:'
+
+# mail.kmm
+Link URL from '=Link Adresse von'
+Link URL: '=Link Adresse'
+Image URL from '= Bild Adresse von'
+Image URL:'= Bild Adresse:'
+Frame URL from '=Frame Adresse von'
+Frame URL '= Frame Adresse'
+Selected text from '= Ausgewählter Text von'
+# Error box - Fehler Anzeige
+To be able to use this function, you need to install a packet named '= Um diese Funktion nutzen zu können. müssen Sie das Paket mit dem folgenden Namen installieren:'
+" xdg_utils."=": xdg_utils."
+For that purpose, you can use this command in a terminal: '= Dazu können Sie den folgenden Befehl in einem Terminal nutzen‘
+sudo apt-get install xdg_utils'=  sudo apt-get install xdg_utils'
+If xdg_utils is already installed, you have to set it in: '= Wenn xdg_utils bereits installiert ist, müssen Sie es wie folgt einstellen:‘
+
+"Edit => Configuration => Tux Helper=> Configure Mailto program"="Bearbeiten => Konfiguration => Tux Helfer => Configurer le client Mailto"
+" Example: Z:\\\\usr\\\\bin\\\\xdg_email"="Beispiel: Z:\\\\usr\\\\bin\\\\xdg_email'
+Missing packet ... or setting to do '= Fehlende Pakete … oder Einstellungen, die noch fehlen'
+
+#tuxhelper.kmm
+Configure &Mailto program '= Konfiguration von E-Mail-Programm und Senden an'
+Configure &Open file program '= Konfiguration & Datei öffnen mit Programm'
+Specify your client for mailto protocol '= Geben Sie Ihr Programm für das Mail senden Protokoll an'
+Mailto client path configuration '= Einstellung des Pfades zum E-Mail-Pragramm'
+Enter your mailto client's path:'=Eingabe des Pfades zum E-Mail-Programm'
+Specify your client to open files ‘’= Geben Sie de Namen des Programms für Datei öffnen an'
+Open client path configuration ‘’= Öffnen der Konfiguration des Programms zum Öffnen’’
+ Enter your open client's path:’’= Eingabe der des Pfades zum  Programm zum Öffnen’’

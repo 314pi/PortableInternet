@@ -1,0 +1,13 @@
+# LANGUAGE DEFINITION FILE FOR oGet
+
+# ----- oGet -----
+
+Download link with &Oget=&Загрузить ссылку с помощью oGet
+Download image with &Oget=&Загрузить изображение с помощью oGet
+Download managers=Выбор менеджера загрузок...
+Download selection with &Oget=Загрузить выбранное с помощью oGet
+
+Special for Remix
+//////////////////////////////////////////////////////////////////
+Oget Download=Загрузить с помощью oGet
+Download Managers=Менеджеры загрузок

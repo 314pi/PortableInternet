@@ -1,0 +1,547 @@
+[File Info]
+
+Language=Dutch
+Author=J. C. Barnhoorn; BitterCrash; Luud Demarteau
+Email=jc.barnhoorn@orange.nl; bittercrash@pandora.be; l.demarteau@home.nl;
+Date=10/16/2007
+Comment=PopMan 1.3 Dutch Translation
+LangID=19
+
+
+[Translations]
+
+# Import Accounts Dialog
+
+Account<=>Account
+User<=>Gebruikersnaam
+Server<=>Server
+Port<=>Poort
+Please select the accounts that you want to import from Outlook Express.<=>Selecteer de accounts die je wilt importeren uit Outlook Express.
+&Properties...<=>&Eigenschappen...
+OK<=>OK
+Cancel<=>Annuleren
+Import email accounts<=>Importeer e-mailaccounts
+
+# Account Dialog
+
+General<=>Algemeen
+Advanced<=>Gevorderde
+Please enter the account name!<=>Een accountnaam opgeven a.u.b.!
+Please enter the address of the POP3 server!<=>Het POP3-serveradres opgeven a.u.b.!
+Please enter user name!<=>Gebruikersnaam opgeven a.u.b.!
+Account name:<=>Accountnaam:
+POP3 server:<=>POP3-server:
+Port:<=>Poort:
+User name:<=>Gebruikersnaam:
+Password:<=>Wachtwoord:
+Include this account when receiving mail<=>Check deze account bij het ophalen van email
+1 minute<=>1 minuut
+{1} minutes<=>{1} minuten
+1 second<=>1 seconde
+{1} seconds<=>{1} seconden
+Colors<=>Kleuren
+Use individual font color:<=>Gebruik apart lettertypekleur:
+Circle color in system tray:<=>Kleur van cirkel in systeembalk:
+Server Timeouts<=>Server time-outs:
+Short<=>Kort
+Long<=>Lang
+Load big emails incompletely<=>Haal grote e-mailberichten niet volledig op
+Limit size:<=>Maximaal:
+
+# Accounts Dialog
+
+Mail Accounts<=>E-mailaccounts
+&Add...<=>&Toevoegen...
+&Remove<=>&Verwijderen...
+Move &up<=>Omhoog
+Move &down<=>Omlaag
+&Close<=>Sluiten
+
+# Download Dialog
+
+Loading the following mail:<=>Bezig deze e-mail op te halen:
+Loading Mail...<=>E-mail ophalen
+
+# Password Dialog
+
+Password - {1}<=>Wachtwoord - {1}
+Enter the password of the following server.<=>Geef het wachtwoord op voor deze server.
+Server:<=>Server:
+Remember password<=>Wachtwoord onthouden
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Geef op waar je de e-mailberichten wil opslaan.
+The specified folder does not exist!<=>De opgegeven map bestaat niet!
+Please specify a template for the file names.<=>Geef een sjabloon op voor de bestandsnamen.
+A file name must not contain any of the following characters:<=>Een bestandsnaam mag niet een van de volgende tekens bevatten:
+Invalid template! Use a combination of the following placeholders:<=>Ongeldig sjabloon! Gebruik een combinatie van de volgende velden:
+Subject<=>Onderwerp
+From<=>Van
+To<=>Naar
+Date<=>Datum
+Time<=>Tijd
+Save As...<=>Opslaan als...
+Destination<=>Bestemming
+Folder:<=>Map:
+Browse...<=>Doorbladeren...
+Save Format<=>Formaat opslaan
+Template For File Names<=>Sjabloon voor bestandsnamen
+Email File (*.eml)<=>E-mailbestand (*.eml)
+Text File (*.txt)<=>Tekstbestand (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Dit bestand "{1}" bestaat niet!
+Sound (*.wav)<=>Geluid (*.wav)
+Notify when new mail arrives<=>Waarschuw me als er nieuwe e-mail is
+Always<=>Altijd
+When AutoChecked or minimized<=>bij automatisch- of geminimaliseerd
+Only when minimized<=>Alleen geminimaliseerd
+On new mail<=>Bij nieuwe e-mail
+Acoustic notification<=>Geluidssignaal
+Sound:<=>Geluid:
+&Test<=>&Test
+Show PopMan window<=>Open PopMan-venster
+Show new mail tip<=>Open nieuwe e-mail-infotip
+Include sender and subject of new mails<=>Toon afzender en onderwerp van nieuwe e-mailberichten
+Use balloon tip<=>Gebruik ballonvenster
+Unread Messages<=>Ongelezen berichten
+Display unread messages in bold font<=>Toon ongelezen berichten dikgedrukt
+Preview Pane<=>Voorbeeldvenster
+Use the preview pane to quickly view a message without opening a separate window.<=>Gebruik het voorbeeldvenster om een bericht te lezen zonder een apart venster te openen.
+Show preview pane<=>Toon het voorbeeldvenster
+Be&low messages<=>Onder berichten
+Be&side messages<=>Naast berichten
+Use logging to record all data communication between PopMan and the email server.<=>Gebruik loggen om alle communicatie van data tussen PopMan en de e-mailserver op te slaan.
+Enable logging<=>Schakel loggen in
+Reset log on program startup<=>Herstel log bij opstarten programma
+Enable error logging<=>Gebruik loggen van fouten
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(bij problemen in de communicatie met de emailserver zal dit in een apart logbestand opgeslagen worden)
+Use dial-up networking<=>Gebruik inbellen
+Launch PopMan on Windows startup<=>Start PopMan bij opstarten Windows
+Check for new mail on startup<=>Check onmiddellijk op nieuwe e-mail 
+First wait<=>Wacht eerst
+seconds<=>seconden
+X button hides to tray<=>X-knop verbergt programmavenster naar systeembalk
+Min button hides to tray<=>Min-knop verbergt programmavenster naar systeembalk
+Delete confirmation in main window<=>Bevestig verwijderen van bericht in programmavenster
+Delete confirmation in preview pane and message window<=>Bevestig verwijderen van bericht in voorbeeldvenster en berichtvenster
+Timer interval:<=>Controle interval:
+minutes<=>minuten
+AutoCheck only while minimized<=>Enkel automatisch wanneer geminimaliseerd
+Don't check between:<=>Controleer niet tussen:
+and<=>en
+Executable (*.exe)<=>Toepassing (*.exe)
+Email client:<=>Emailprogramma
+Quit PopMan when launching email client<=>Sluit PopMan af bij openen van e-mailprogramma
+When replying<=>Bij beantwoorden
+Use temporary eml file (Outlook Express)<=>Gebruik tijdelijk eml-bestand (Outlook Express)
+Use mailto (without quotted original message)<=>Gebruik mailto (zonder ingevoegd origineel bericht)
+Use MAPI<=>Gebruik MAPI
+Use HTML linebreaks in reply body<=>Gebruik HTML-regelafbrekingen in antwoordbericht
+Enforce email address (Yahoo! Mail)<=>Emailadres afdwingen (Yahoo! Mail)
+Number of messages<=>Aantal berichten
+Show number of messages in tray icon<=>Toon aantal berichten in tray-ikoon 
+Show number of all messages<=>Toon aantal berichten
+Show number of unread messages<=>Toon aantal ongelezen berichten
+Show number of new messages<=>Toon alleen nieuwe berichten
+Rotate icon for each account<=>Roteer ikoon voor elke account
+Rotation interval:<=>Rotatie interval:
+tenths of a second<=>tienden van een seconde
+Show advanced account info<=>Toon geavanceerde accountinfo
+Enable HighColor icons in system tray<=>Gebruik HighColor-ikonen in tray
+Nothing<=>Niets
+Show Window<=>Toon venster
+Check Mail<=>Check mail
+PopUp Menu<=>PopUpmenu
+Run Email Client<=>Start e-mailprogramma
+Check And Show<=>Check en toon
+Toggle Window<=>Venster tonen/verbergen
+Toggle AutoCheck<=>Automatisch aan/uit
+Show Mail Info<=>Toon e-mailinfo
+Tray Mouse Actions<=>Systeembalk-muisacties
+Left Click:<=>Linkermuisknop:
+Right Click:<=>Rechtermuisknop:
+Middle Click:<=>Middelste muisknop:
+Double Click:<=>Dubbelklik:
+Double click delay on click<=>Dubbelklikvertraging
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Kies hieronder welke taal je wilt gebruiken.{BR}Als je de gewenste taal niet kunt vinden, bezoek dan de PopManwebsite:
+Language:<=>Taal: 
+Author:<=>Auteur:
+Email:<=>E-mail:
+Updated:<=>Bijgewerkt:
+Comment:<=>Commentaar:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Fout bij initialiseren van RichText-controls
+Source - "{1}"<=>Bron - "{1}" 
+
+# Main Window
+
+Options<=>Opties
+AutoCheck<=>Automatisch
+Notification<=>Waarschuwen
+Email Client<=>E-mailprogramma
+View<=>Beeld
+Tray Icon<=>Systeembalk-icoon
+Language<=>Taal
+Mouse Actions<=>Muisacties
+Logging<=>Loggen
+&File<=>&Bestand
+&Accounts...<=>&Accounts...
+&Update{TAB}F5<=>&Update{TAB}F5
+&Cancel{TAB}Esc<=>&Annuleren{TAB}Esc
+&Open...{TAB}Ctrl+O<=>&Openen...{TAB}Ctrl+O
+Sou&rce...<=>Bron...
+&Save As...{TAB}Ctrl+S<=>&Opslaan als...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Afzender beantwoorden{TAB}Ctrl+R
+&Delete{TAB}Del<=>&Verwijderen{TAB}Del
+&Exit<=>&Afsluiten
+&View<=>&Beeld
+&Toolbar<=>&Werkbalk
+&Statusbar<=>&Statusbalk
+&Tools<=>&Extra
+&Font...<=>&Lettertype
+Font &Color...<=>Letterkleur
+Launch &Email Client{TAB}Ctrl+E<=>Start e-mailprogramma{TAB}Ctrl+E
+&Import Accounts...<=>&Importeer accounts...
+Black List...<=>Zwarte lijst...
+&Options<=>&Opties
+&Help<=>&Help
+&Help Topics...{TAB}F1<=>&Helponderwerpen...{TAB}F1
+Check For &Updates<=>Check voor updates van programma
+&About PopMan...<=>&Over PopMan
+Ready<=>Klaar
+Edit email accounts.{BR}Accounts<=>Wijzig accounts.{BR}Accounts
+Update email listing.{BR}Update<=>Update e-maillijst.{BR}Update
+Cancel current operation.{BR}Cancel<=>Annuleer deze opdracht.{BR}Cancel
+Show email content.{BR}Show<=>Toon inhoud van bericht.{BR}Toon
+Show source code of this email.{BR}Source code<=>Toon broncode van bericht.{BR}Broncode 
+Save selected email to file.{BR}Save<=>Sla geselecteerd bericht op naar bestand.{BR}Opslaan
+Create a reply message to the sender.{BR}Reply<=>Bericht beantwoorden.{BR}Beantwoorden
+Delete selected emails.{BR}Delete<=>Verwijder geselecteerde berichten.{BR}Delete
+Quit the application.{BR}Exit<=>Sluit programma af.{BR}Afsluiten
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Toon of verberg de werkbalk.{BR}Toon/verberg werkbalk
+Show or hide the status bar.{BR}Toggle StatusBar<=>Toon of verberg de statusbalk.{BR}Toon/verberg statusbalk
+Change font.{BR}Font<=>Wijzig lettertype.{BR}Lettertype
+Change font color.{BR}Font Color<=>Wijzig lettertypekleur.{BR}Letterkleur
+Launch email client.{BR}Email Client<=>Start emailprogramma.{BR}E-mailprogramma
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importeer accounts vanuit Outlook Express.{BR}Importeer Accounts
+Change program settings.{BR}Settings<=>Wijzig programmainstellingen.{BR}Instellingen
+Show Help Topics.{BR}Help<=>Toon helponderwerpen.{BR}Help
+Check if a new version is available.{BR}Check for updates<=>Controleer voor nieuwe versies.{BR}Controleer op updates
+Display program information, version number and copyright.{BR}About<=>Toon programma-info, versienummer en auteursrecht.{BR}Over
+Show the main window.{BR}Show<=>Toon het hoofdvenster.{BR}Toon
+Enable AutoChecking.{BR}Enable<=>Schakel AutoChecking in.{BR}Inschakelen
+Open the selected attachment.{BR}Open<=>Open de geselecteerde bijlage.{BR}Openen
+Save the selected attachments.{BR}Save<=>Sla de geselecteerde bijlagen op.{BR}Opslaan
+Save all attachments.{BR}Save All<=>Sla alle bijlagen op.{BR}Alles opslaan
+Change the window size.<=>Venstergrootte wijzigen.
+Change the window position.<=>Vensterpositie wijzigen.
+Reduce the window to an icon.<=>Programmavenster verkleinen tot icoon.
+Enlarge the window to full size.<=>Programmavenster vergroten tot volledig scherm.
+Close the active window.<=>Sluit het actieve venster.
+Restore the window to normal size.<=>Programmavenster terug op normale grootte brengen.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>&Afdrukken...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Sluiten{TAB}Esc
+&Edit<=>&Bewerken
+&Cut{TAB}Ctrl+X<=>&Knippen{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>Kopiëren{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Plakken{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Zoeken...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Volgende zoeken{TAB}F3
+Select &All{TAB}Ctrl+A<=>Alles selecteren{TAB}Ctrl+A
+Print this email.{BR}Print<=>Deze e-mail afdrukken.{BR}Afdrukken
+Delete this email.{BR}Delete<=>Deze e-mail verwijderen.{BR}Verwijderen
+Close window.{BR}Close<=>Sluit venster.{BR}Sluiten
+Cut the selection and put it on the Clipboard.{BR}Cut<=>De selectie knippen en op het prikbord plaatsen.{BR}Knippen
+Copy the selection and put it on the Clipboard.{BR}Copy<=>De selectie kopiëren en op het prikbord plaatsen.{BR}Kopiëren
+Insert Clipboard contents.{BR}Paste<=>De inhoud van het prikbord invoegen.{BR}Plakken
+Find the specified text.{BR}Find<=>Zoek deze tekst.{BR}Zoeken
+Find next occurence of specified text.{BR}Find next<=>Zoek volgende.{BR}Volgende zoeken.
+Select the entire message.{BR}Select All<=>Selecteer het volledige bericht.{BR}Alles selecteren
+"{1}" not found.<=>"{1}" niet gevonden.
+&Open<=>&Open
+&Save As...<=>&Opslaan als...
+Save &All...<=>Alles opslaan...
+This attachment can not be accessed anymore.<=>Deze bijlage kan niet meer geopend worden.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>Het risico is groot dat "{1}" een virus, worm of andere gevaarlijke code bevat!
+Opening this file is therefore denied.<=>Het openen van dit bestand wordt daardoor geweigerd.
+Do you really want to save this file to your hard disk?<=>Weet je zeker dat je dit bestand wil opslaan op je harde schijf?
+Attachment<=>Bijlage
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Het risico is groot dat deze bijlage een virus, worm of andere gevaarlijke code bevatten!
+Do you really want to save these files to your hard disk?<=>Weet je zeker dat je dit bestand wilt opslaan op je harde schijf?
+Please specify where to save the attachments.<=>Selecteer de map waar je de bijlagen wilt opslaan.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Dit bestand "{1}" bestaat al.{BR}Overschrijven?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Ophalen e-mail is mislukt.{BR}Druk Ctrl+5 om de e-maillijst te updaten, en probeer opnieuw.
+Are you sure you want to delete this email?<=>Weet je zeker dat je deze e-mail wilt verwijderen?
+Deleting email failed!<=>Verwijderen e-mail is mislukt!
+From:<=>Van:
+Date:<=>Datum:
+To:<=>Naar:
+Subject:<=>Onderwerp:
+Attach:<=>Bijlage:
+
+# PopMan Start
+
+Please start one instance only.<=>Programma maar één keer starten!
+Windows socket init failed.<=>Windowssocket-initiatie mislukt
+About PopMan<=>Over PopMan
+PopMan, Version {1}<=>PopMan, versie {1}
+Website:<=>Website:
+
+# Document
+
+The error log file "{1}" could not be created.<=>Het fouten-logbestand "{1}" kan niet gemaakt worden.
+Checking {1}...<=>Controleren {1}...
+Email (*.eml)<=>E-mail (*.eml)
+Text (*.txt)<=>Tekst (*.txt)
+Connecting...<=>Verbinden...
+Connected!<=>Verbonden!
+Login...<=>Inloggen...
+Successfully logged in!<=>Succesvol ingelogd!
+Loading message ...<=>Ophalen bericht...
+Loading message {1} of {2} ...<=>Bericht {1} van {2} ophalen...
+Deleting message {1} of {2} ...<=>Bericht {1} van {2} verwijderen...
+Not connected<=>Niet verbonden
+Connection failure<=>Verbinding mislukt
+Canceled<=>Geannuleerd
+Invalid server response<=>Foutief server antwoord
+Timeout<=>Timeout
+Login failed<=>Inloggen mislukt
+Message not found<=>Bericht niet gevonden
+Server failure: Message not found!<=>Serverprobleem: bericht niet gevonden!
+Busy<=>Bezig
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Het logbestand kon niet geopend worden.{BR}Loggen uitgeschakeld!
+Unable to load mail system support.<=>Kan mailsysteem-support niet laden.
+Mail system DLL is invalid.<=>Mailsysteem-DLL is ongeldig.
+Unable to detect if a new version is available.<=>Onmogelijk te detecteren of er een nieuwe versie beschikbaar is. 
+There is no update available.<=>Er is geen update beschikbaar.
+New version {1} available!{BR}Do you want to go to the PopMan website and download the latest version?<=>Nieuwe versie {1} beschikbaar!{BR}Wil je de PopManwebsite openen, en deze versie downloaden?
+Deleting mail...<=>E-mail verwijderen...
+Downloading mail...<=>E-mail ophalen...
+AutoCheck disabled<=>Automatisch uitgeschakeld
+No messages<=>Geen berichten
+1 new message<=>1 nieuw bericht
+{1} new messages<=>{1} nieuwe berichten
+PopMan - New Mail<=>PopMan - Nieuwe e-mail
+&Open PopMan<=>&Open PopMan
+Check &Mail<=>Controleer e-mail
+&Cancel<=>&Annuleren
+&Email Client<=>&E-mailprogramma
+A&utoCheck Enabled<=>Automatisch ingeschakeld
+O&ptions...<=>Opties...
+&About...<=>&Over...
+E&xit<=>Afsluiten
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} berichten ({2} ongelezen, {3} nieuw){TAB}{4} Kb
+PopMan - Mail Info<=>PopMan - E-mail info
+1 message<=>1 bericht
+{1} messages<=>{1} berichten
+1 unread message<=>1 ongelezen bericht
+{1} unread messages<=>{1} ongelezen berichten
+in {1}<=>in {1}
+in {1} accounts<=>in {1} accounts
+
+# Main View
+
+Size<=>Grootte
+Received<=>Ontvangen
+Are you sure you want to delete the selected email?<=>Weet je zeker dat je het geselecteerde bericht wilt verwijderen?
+Are you sure you want to delete the {1} selected emails?<=>Weet je zeker dat je de {1} geselecteerde berichten wilt verwijderen?
+
+Show<=>Tonen
+Delete<=>Verwijderen
+Close<=>Sluiten
+
+# 12/28/2003
+
+Update Wizard<=>Update Wizard
+There are no updates available.<=>Er zijn geen updates beschikbaar
+There is a new version {1} available!<=>Er is een nieuwe versie {1} beschikbaar!
+There is a new {1} Beta version available!<=>Er is een nieuwe Bèta versie beschikbaar!
+Click "Next" to update your copy of PopMan...<=>Klik op "Volgende" om jouw versie van Popman bij te werken...
+Unable to retrieve version infomation!<=>Kan geen informatie krijgen over deze versie!
+Error number: {1}<=>Foutnummer: {1}
+Welcome to the PopMan Update Wizard<=>Welkom bij de Popman Update Wizard
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>De wizard is nu verbonden met de Popman webserver om te kijken of er updates zijn. Wanneer een nieuwe versie beschikbaar is, kunnen alle noodzakelijke bestanden gedownload en automatisch geïnstalleerd worden.
+Failed to load Decompress.dll!<=>Het laden van decompress.dll is mislukt!
+Initializing...<=>Initialiseren...
+Do you really want to cancel the update process?<=>Wil je echt het update proces ongedaan maken?
+Update process failed!<=>Update proces mislukt!
+Error while downloading initialization file!<=>Fout bij het downloaden van het initialisatie bestand!
+No updates available.<=>Geen updates beschikbaar.
+Failed to retrieve temporary directory!<=>Het ophalen van de tijdelijke map is mislukt!
+Saving {1} ...<=>Opslaan {1} ...
+Failed to create directory:<=>Het aanmaken van de volgende map is mislukt:
+Failed to decompress file:<=>Het uitpakken van het volgende bestand is mislukt:
+Failed to download file:<=>Het downloaden van het volgende bestand is mislukt:
+(checksum error)<=>(checksum error)
+Please try again later.<=>Probeer het later nog eens.
+Error while saving downloaded file!<=>Fout bij het opslaan van het opgehaalde bestand!
+All files downloaded successfully.<=>Alle bestanden met succes opgehaald.
+Press the "Finish" button to complete the update process...<=>Klik op de "Klaar" knop om het update proces af te maken ...
+Failed to initialize the final copy process!<=>Het initialiseren van het laatste kopieer proces is mislukt!
+Downloading {1} ...<=>Ophalen {1} ...
+Progress all:<=>Totale voortgang:
+Progress current file:<=>Voortgang huidig bestand:
+Download of updated files<=>Haal bijgewerkte bestanden op
+Log file size:<=>Grootte van het log bestand:
+KB<=>KB
+{1} Beta version has been updated successfully!<=>{1} Bèta versie is bijgewerkt!
+You have successfully updated to version {1} !<=>Je hebt met succes geupdate naar versie {1} !
+Error while writing to the log file:<=>Fout bij het schrijven naar logbestand:
+Logging disabled!<=>Loggen uit!
+Do you want to start the update wizard and download the latest version?<=>Wil je de update wizard starten en de nieuwste versie downloaden?
+
+# 01/26/2004
+
+Description<=>Beschrijving
+Password incorrect! Please note that the password is case-sensitive.<=>Wachtwoord niet goed! Denk aan hoofdlettergevoeligheid.
+Please enter the password.<=>Vul wachtwoord in.
+Location of the log file "PopManLogFile.log":<=>Plaats van het logbestand "PopManLogFile.log":
+Enable password protection:<=>Wachtwoord beveiliging:
+Hide PopMan to tray<=>Verberg Popman in systeembalk
+Quit PopMan<=>Beëindig PopMan
+When launching email client:<=>Bij het starten van e-mail programma:
+(last check: {1})<=>(laatste melding: {1})
+
+# 11/01/2004
+
+Can not change account settings while there are busy accounts.<=>Kan accountinstellingen niet wissen omdat er accounts worden gebruikt.
+Please enter the address of the Server!<=>Voer het server adres in!
+Protocol:<=>Protocol:
+Black List<=>Zwarte lijst
+Messages from senders in the list below will be deleted automatically from the server.<=>Berichten van afzenders in de onderstaande lijst worden gelijk van de server verwijderd.
+Address:<=>Adres
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>Voer het e-mailadres in of het domein dat moet worden geblokkeerd.
+Enter address<=>Adres invoeren
+Enter the password of the following account.<=>Wachtwoord van de volgende account invoeren
+Account:<=>Account:
+&Block Sender<=>&Blokkeer afzender
+&Black List...<=>&Zwarte lijst...
+Add sender to Black List.{BR}Block Sender<=>Afzender toevoegen aan zwarte lijst{BR}Blokkeer afzender!
+Edit list of blocked senders.{BR}BlackList<=>Bewerk adressen op zwarte lijst{BR}Zwarte lijst
+This will add the following email addresses to the Black List:<=>Dit zal het volgende adres toevoegen aan de zwarte lijst.
+Note: All future emails from senders on the Black List will be deleted automatically!<=>LET OP!: Alle e-mailadressen op de zwarte lijst zullen vanaf nu direct worden verwijderd!!
+
+# 12/22/2004
+
+Load all emails completely<=>Laad alle e-mailberichten volledig
+Retrieve header and {1} lines of message body<=>Haal koptitels en {1}regels op van het bericht
+Number of lines:<=>Aantal regels:
+
+# 03/12/2005
+
+Launch email client with command line parameter:<=>Start e-mail client met commando regel parameter:
+Tab &View{TAB}Ctrl+M<=>&Tabbladenvenster
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>In/Uitschakelen tabbladenvenster{BR}Omschakelen
+Rename tab{TAB}F2<=>Hernoem tab{TAB}F2
+Join with tab<=>Voeg tabbladen samen
+You have to add at least one account before you can switch to tab view.<=>Je moet in ieder geval een account toevoegen voor het tabbladenvenster.
+Caption:<=>Titel
+Please enter the caption of the tab:<=>Vul de titel in van het tabblad:
+Rename tab<=>Hernoem tabblad
+Copy Link Address<=>Kopieer hyperlinkadres
+
+# 03/25/2005
+
+Separate account | All<=>Gescheiden accounts | Alle
+Check accounts{TAB}F7<=>Controleer accounts(TAB)F7
+Tab accounts:<=>Tabblad accounts:
+
+# 04/10/2005
+
+Use custom AutoCheck timer interval<=>Gebruik afwijkende automatische controle tijd
+Sent<=>Verzenden
+Priority<=>Prioriteit
+UserAgent<=>UserAgent
+High<=>Hoog
+Low<=>Laag
+Normal<=>Normaal
+
+# 05/07/2005
+
+Flash keyboard light:<=>Knipperend toetsenbord lampje
+Enable custom AutoCheck interval per account:<=>Inschakelen afwijkende automatische controle
+Interval<=>Tussenruimte
+Custom<=>Standaard
+&Themes<=>&Uiterlijk
+Default<=>Standaard
+
+# 10/22/2005
+
+Parameters<=>Parameters
+Invalid parameter string!<=>Ongeldige parameter!
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>Gebruik UIDL als je berichten wilt verwijderen
+Delete command marks message for deletion<=>Verwijder opdracht markering om te verwijderen.
+&Unmark{TAB}Ins<=>&Demarkeer{TAB}
+Empty Trash<=>Leegmaken prullenmand
+Delete &Marked Emails{TAB}F12<=>Verwijder &gemarkeerde e-mails{TAB}F12
+&Hide Marked Messages<=>&Verberg gemarkeerde e-mails
+&Rules...<=>&Regels...
+Delete marked emails.{BR}Delete marked emails<=>Verwijder gemarkeerde e-mails{BR}Verwijder gemarkeerde e-mails
+Unmark (undelete) selected emails.{BR}Unmark<=>Demarkeer (niet verwijderen) geselecteerde e-mails{BR}Demarkeer
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Verberg berichten die zijn gemarkeerd om te verwijderen{BR}Verberg gemarkeerde berichten
+Edit the rules.{BR}Rules<=>Bewerk regels.{BR}Regels
+Don't display this &message again.<=>Laat dit bericht niet meer zien
+You are about to irrevocably delete all marked messages.<=>Je staat op het punt de gemarkeerde berichten onomkeerbaar te verwijderen
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Je hebt een bericht gemarkeerd om te verwijderen. Wil je dat niet, druk de INS toets in. Om alle gemarkeerde berichten te verwijderen , druk op de F12 toets of klik op de werkbalkknop.
+You can also delete selected messages immediately by pressing Shift+Del.<=>Je kunt berichten ook gelijk verwijderen door op SHIFT-DEL te drukken
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Als je de ouderwetste manier wil gebruiken (dus gelijk alles verwijderen), haal "{1}" weg in het optie venster.
+Error while parsing rules file at line {1}!<=>Fout bij het uitvoeren van een regel op regel {1}!
+
+# 09/30/2007
+
+Load small emails completely<=>Laad kleine berichten volledig
+Small emails are < <=>Kleine berichten zijn
+Add item to Rules list<=>Voeg onderdeel toe aan regels lijst
+Destination List<=>Doel lijst
+New Item<=>Nieuw onderdeel
+Item Type<=>Onderdeel type
+Word<=>Woord
+String<=>Zin
+Regular Expression<=>Reguliere uitdrukking
+Only log compact mail info instead of entire data traffic<=>Alleen kleine mail loggen inplaats van gehele data verkeer
+Enable logging of applied rules<=>Inschakelen loggen toegevoegde regels
+Rules<=>Regels
+Move Marked Messages to Tr&ash Tab<=>Verplaats gemarkeerde berichten naar het V&erwijderen Tabblad
+Add Item To Rules &List...{TAB}F9<=>Onderdeel toevoegen aan &Regels lijst
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Verplaats gemarkeerde berichten naar een Verwijderen tabblad{BR}Inschakelen Verwijderen Tabblad
+Add item to Rules list.{BR}Add To List<=>Onderdeel toevoegen aan Regels lijst.{BR}Toevoegen aan lijst
+Forum:<=>Forum:
+Failed to add item to Rules list!<=>Het toevoegen aan de regels lijst is mislukt!
+Trash<=>Verwijderen
+The item is already contained in the list!<=>Dit onderdeel staat al in de lijst!
+
+# 10/14/2007
+
+White List<=>Betrouwbare adressen
+Messages from senders in the list below will never be deleted automatically.<=>Berichten van de afzenders op deze lijst zullen nooit automatisch worden verwijderd.
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=> Vul hier het e-postadres (ie.mand@brh.nl) of dde domein naam in (ie.mand.nl)
+&Trust Sender<=>&Betrouwbaar adres
+This will add the following email addresses to the White List:<=>Het volgende adres wordt nu toegevoegd aan de lijst met betrouwbare adressen
+&White List...<=>&Betrouwbare lijst
+Add sender to White List.{BR}Trust Sender<=>Afzender toevoegen aan de betrouwbare lijst
+Edit list of trusted senders.{BR}WhiteList<=>Bewerk lijst van betrouwbare adressen{BR}Betrouwbare lijst
+Suspend New Mail Notification Sound.{BR}Mute<=>Uitschakelen "nieuw e-post geluid"{Uistchakelen}
+Mu&te Mode<=>Ge&luid uit
+Mark All Mails Read<=>Markeer alle e-post als gelezen
+Mark All Mails Unread<=>Markeer alle e-post als ongelezen
+
+# 04/10/2010
+
+Type<=>
+Limit tips to [PROTECTED] messages<=>
+[PROTECTED]<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Protocol plugin not initialized correctly!<=>
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>

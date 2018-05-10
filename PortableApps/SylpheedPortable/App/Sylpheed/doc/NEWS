@@ -1,0 +1,1666 @@
+Changes of Sylpheed
+
+* 3.7.0 (stable)
+
+    * The message catalogs were updated.
+
+* 3.7.0beta1 (development)
+
+    * The function to export the address book to CSV files was added.
+    * 'Nick Name' column was added to the address book.
+    * Context menu was added to the search result of the query search dialog.
+    * When attaching UTF-16 text files, they are automatically converted
+      into UTF-8 now.
+    * Show original From on the summary view if the display-name seems to
+      be an e-mail address.
+    * The bug that wrong reply target could be selected when the summary was
+      sorted by the unread flag (#286).
+    * Win32: the bug that Japanese characters were overlapped on printings
+      with some font settings was fixed.
+    * Win32: the bug that empty lines were not properly spaced on printings
+      with some font settings was fixed.
+
+* 3.6.0 (stable)
+
+    * The Japanese manual was updated.
+
+* 3.6.0beta1 (development)
+
+    * The feature to use multiple signatures in one account was added.
+    * The edit group dialog of the address book was improved to allow
+      multilple selection and display its available list with folder tree.
+    * The menu 'Tools - Open configuration/attachments folder' was added.
+    * Printing settings and page setup are now saved.
+    * The Japanese manual was updated.
+    * IMAP: SUBSCRIBE command is explicitly issued for a newly created folder
+      by CREATE.
+    * Unix: the search location of SSL certificates for OpenBSD was added
+      (#222).
+    * Win32: a notice about not removing user data in the installer was
+      modified.
+
+* 3.5.1 (stable)
+
+    * New plug-in APIs to handle compose view were added.
+    * Autotools scripts were updated.
+    * Included documents were updated.
+
+* 3.5.0 (stable)
+
+    * A fix for ARM architecture was made.
+    * TLSv1.1 and TLSv1.2 will be enabled for STARTTLS when OpenSSL 1.0.1 or
+      above is used.
+    * Some bugfixes and stability improvements were made.
+    * Win32: more fix for the crash when linked with newer MSVCRT was made.
+    * Win32: irresponsibe text entries on the first display of the filter
+      edit dialog were fixed.
+    * Win32: libpng was updated to 1.4.19.
+    * Win32: OpenSSL was updated to v0.9.8zh.
+
+* 3.5.0beta3 (development)
+
+    * A bug that reorder of filter runes by DnD was not saved was fixed.
+    * The original file names of attachments are kept when opening them,
+      and shorter suffixes are added in the case they conflict.
+    * The crash when displaying HTML messages was fixed (#215).
+    * The bug that column sizes of the address book were not properly set was
+      fixed.
+    * Win32: the bug that maximized state was unset on minimize was fixed.
+    * Win32: the crash when linked with newer MSVCRT was fixed.
+    * Win32: dependency on libtiff was removed (GDI+ is used).
+    * Win32: libjpeg was updated.
+    * Win32: libpng was updated to 1.4.16.
+    * Win32: OpenSSL was updated to v0.9.8zg.
+    * Win32: included SSL certificates were updated.
+
+* 3.5.0beta2 (development)
+
+    * Windows / widgets are now adjusted to their optimal sizes by reference
+      to system DPI value.
+    * The option to specify startup online mode was added.
+    * The bug that wrote the first part of data if the message body in the
+      IMAP4 responses didn't end with CR+LF was fixed (#84).
+    * The bug that previously selected folder on the file selection dialog
+      was not remembered with GTK+ 2.24.x was fixed.
+    * Hebrew translation was added.
+    * Win32: The bug that 'Minimize to tray icon' didn't work with 3.5.0beta1
+      was fixed.
+    * Win32: 'Toggle window on trayicon click' now works.
+    * Win32: sylpheed.exe executable became DPI-Aware.
+    * Win32: OpenSSL was updated to 0.9.8zc.
+    * Win32: included SSL certificates were updated.
+
+* 3.5.0beta1 (development)
+
+    * Mbox locking became NFS-safe (#202).
+    * Configure: silent rules are enabled by default.
+    * Configure.in was renamed to configure.ac.
+    * Fade effect was added to the notification window.
+    * Sylpheed.desktop file was updated.
+    * Win32: build fix for newer MinGW was made.
+    * Win32: 32-bit time_t is always used on win32 for backward compatibility.
+    * Win32: included third-party libraries were updated:
+      - GTK+ 2.24.23
+      - GLib 2.38.2
+      - GDK-Pixbuf 2.30.7
+      - Pango 1.36.3
+      - Cairo 1.10.2
+      - libpng 1.14.13
+      - GPGME 1.4.3
+    * Win32: the following issues were fixed because of GTK+ update:
+      - System Icon issue when ran on Windows 7 (#13, #85)
+      - Scroll jumping issue on text views when using Japanese IME
+      - Menus became more native-looking
+      - File dialogs were improved
+
+* 3.4.2 (stable)
+
+    * Remote mailbox: additional fix for Bug #193 was made.
+    * Win32: OpenSSL was updated to 0.9.8za (security fix for CVE-2014-0224).
+
+* 3.4.1 (stable)
+
+    * Fixed Bug #193: Lose mails when mailbox is inaccessible.
+
+* 3.4.0 (stable)
+
+* 3.4.0rc (release candidate)
+
+    * SSL wildcard certificate is also validated now (#167).
+    * The compile error with OpenSSL disabled was fixed.
+
+* 3.4.0beta8 (development)
+
+    * Mac OS X support was improved.
+    * SSL certificate hostname is validated now (#167).
+    * The Japanese manual was modified so that IE correctly detect its
+      character encoding.
+    * The rightmost column of folder view and summary view became easier to
+      resize.
+    * Appropriate columns of folder view, summary view, etc. are
+      auto-expanded by window resize when using GTK+ 2.14 or later.
+    * The initial setup dialog is now resizabe.
+    * PGP encrypt-to-self feature was added.
+    * The display period of notification window became configurable.
+
+* 3.4.0beta7 (development)
+
+    * Win32: the tray icon is recreated when explorer.exe crashes now.
+    * The bug that 'File - Folder - Move folder...' menu didn't work was
+      fixed.
+    * The bug that MIME nest level restriction was not working was fixed.
+    * Many defects discovered by Coverity Scan were fixed:
+      - FILE handle resource leaks
+      - memory leaks
+      - possible buffer overrun
+      - strict error checks
+      - correct null pointer checks
+
+* 3.4.0beta6 (development)
+
+    * Icon theme feature was added.
+    * HTML mail is distinguished from other messages with attachments now.
+    * 'Last 30 days' was added to the quick search menu.
+    * Attached images are rotated based on Exif orientation tag.
+    * Config.guess and config.sub included in the tarball were updated to the
+      latest version.
+
+* 3.4.0beta5 (development)
+
+    * Basque translation was added.
+    * Escaped special characters in HTML links are now properly unescaped
+      (#120).
+    * IMAP: parsing of folder names that contain brackets was fixed.
+    * Config.guess and config.sub included in the tarball were updated.
+    * The order of templates became stable.
+
+* 3.4.0beta4 (development)
+
+    * The feature to save message as plain text was added.
+    * Printing now prints all texts in messages, not only the first one.
+    * The HTML parser now supports <blockquote> tag.
+    * An option to prefer HTML part in multipart/alternative was added
+      (default: off).
+    * Compose window is raised when the external editor exits.
+    * Bugfixes of HTML display were made.
+
+* 3.4.0beta3 (development)
+
+    * Rebuilding of folder tree which was broken at 3.4.0beta1 was fixed
+      (#103).
+    * The bug that double-quote (") and backslash (\) in
+      folder/username/password were not escaped and could not be used on IMAP4
+      was fixed.
+    * Quotation of forwarded messages is enabled for template now.
+    * When marking a message as junk and moving it to a junk folder, proper
+      junk folder is selected instead of default one.
+    * When applying a template for a new message, current date is inserted
+      with '%d'.
+
+* 3.4.0beta2 (development)
+
+    * New message notification window was added.
+    * An option to the junk filter setting was added:
+      'Do not classify message as junk if sender is in the address book'.
+    * Some non-standard Date header patterns are handled now.
+    * Win32: start menu shortcuts are translated.
+
+* 3.4.0beta1 (development)
+
+    * Safe mode (which does not load plug-ins) was added (--safe-mode).
+    * The existence of destination folders are checked when creating a filter
+      rule.
+    * The recursion level is restricted up to 64 when scanning local mailbox
+      (prevents infinite loop with symlink. Note: Linux automatically limits
+      the symlink loop up to 40)
+    * The labels used in POP3 remote mailbox dialog was modified.
+    * POP3: do not disconnect immediately but send QUIT command on normal
+      POP3 errors (prevents deleted messages appear again).
+    * IMAP: "INBOX" folder became case insensitive as specified in RFC 3501.
+    * IMAP: server name for cache directory is escaped now
+      (fixes cache creation when using IPv6 address for server name on Windows).
+    * Win32: socket timeout setting now works on Windows.
+
+* 3.3.0
+
+* 3.3.0rc (release candidate)
+
+    * The Japanese manual was updated.
+    * The bug that hyperlinks did not respond when 'Show attached files
+      first on message view' option was set was fixed.
+    * Some compilation fixes were made.
+    * Win32: .eml file association was added to installer.
+    * Win32: mailto and .eml association are automatically set to default
+      on Windows 7 on installation.
+    * Win32: included libtiff library was updated to 3.9.7 (security fix).
+
+* 3.3.0beta2 (development)
+
+    * The ability of opening external rfc822 format message files (.eml) was
+      added.
+    * Sylpheed now accepts mailto: and file: URL without command-line option.
+      (sylpheed file:///path/to/file.eml)
+    * The option to specify the position of the attach tool button was added.
+    * The header labels on the header view now have tooltips.
+    * A minor memory leak related to tooltips was fixed.
+    * The long-standing drag-without-button-press bug on IMAP folders (since
+      3.0) was fixed (#93).
+    * The sylpheed.desktop file was modified so that desktop shells can
+      recognize Sylpheed as rfc822 and mailto handler.
+    * The sylpheed.spec file was fixed so that it builds on x86_64 platform,
+      and also builds sylpheed-plugins package.
+
+* 3.3.0beta1 (development)
+
+    * Attached files are now placed first on the message view.
+    * Attached files can be opened from the attachment tool menu.
+    * The attachment tool menu was moved to the left of the header view.
+    * The option 'Toggle attachment list view with tab' and 'Show attached
+      files first on message view' were added at 'Common preferences -
+      Display - Attachment'.
+    * 'Export only selected messages' option was added to the message export
+      dialog.
+    * The import/export of messages became cancellable.
+    * config.rpath and install-sh script in the tarball were updated.
+    * IMAP FETCH command response parser was fixed.
+
+* 3.2.0 (stable)
+
+* 3.2.0rc (release candidate)
+
+    * The Japanese manual was updated.
+    * The "show_attach_tab" option (without UI), which reverts the attachments
+      interface to the old one, was added.
+    * The clip icon was replaced with more visible one on selected row.
+    * The compilation failure with --disable-ipv6 was fixed.
+    * Some compiler warnings were removed.
+    * The bug that 'Stop' button did't become inactive after receiving was
+      fixed.
+    * Win32: the default junk commands were changed to sylfilter.
+    * Win32: included libpng library was updated to 1.2.49 (security fix).
+    * Win32: included libtiff library was updated to 3.9.6 with CVE-2012-1173
+      patch (security fix).
+    * Win32: OpenSSL was updated to 0.9.8x (security fix).
+
+* 3.2.0beta9 (development)
+
+    * The Attachments tab was replaced with a toggle button to save the
+      vertical space, and attachment tool menu was also added.
+    * Other minor fixes and UI improvements were made.
+    * Win32: the file selector now follows Windows shortcut (.lnk).
+
+* 3.2.0beta8 (development)
+
+    * Address autocomplete drop-down list was fixed (#52).
+    * Line-space for auto-wrapped lines now reflects the line-space setting
+      (#64).
+    * The encoding of Japanese manual was changed to UTF-8 to prevent display
+      failure on some browsers.
+    * DNS lookup error is now distinguished from other connection errors.
+    * Some minor fixes for IMAP were made.
+    * Other minor fixes were made.
+    * Win32: an option to play sound when new messages arrive was added.
+    * Win32: the launch of Windows installer became faster.
+
+* 3.2.0beta7 (development)
+
+    New features
+
+    * The context menu of the folder view and the summary view can be popped
+      up using Menu key or Shift+F10.
+    * The details of new message counts are displayed on the tooltip of the
+      tray icon.
+    * Win32: SylFilter is now also included in the installer (since 3.2beta6).
+
+    Improvements
+
+    * Corrupted message caches of news and IMAP are automatically discarded
+      now.
+    * Address auto-completion now also matches to the subsequent part of the
+      name of contacts.
+    * On file selection dialog, the last selected folders are preserved
+      between sessions now.
+
+    Bugfixes
+
+    * The check of IMAP AUTHENTICATE response was fixed.
+    * The compilation failure with GLib 2.32 or later was fixed.
+    * The bug that a MIME part that didn't have its name could not be saved
+      was fixed.
+    * Win32: the bug that the installation process continued even if uninstall
+      was cancelled on update was fixed.
+
+* 3.2.0beta6 (development)
+
+    * The blinking period of the tray icon was extended to 10 seconds.
+    * New plug-in signals were added.
+    * 'Is shorter than' became the default for 'Age' filter condition.
+    * News (NNTP) now supports SOCKS proxy.
+    * A bug that filter settings were lost if Escape key was pressed
+      quickly on auto filter creation was fixed.
+    * Other bugfixes were made.
+    * Win32: OpenSSL was updated to 0.9.8t (security fix).
+    * Win32: included libpng library was updated to 1.2.47 (security fix).
+    * Win32: included curl executable was updated to 7.24.0.
+
+* 3.2.0beta5 (development)
+
+    * The POP3 remote mailbox now supports SOCKS proxy.
+    * The POP3 remote mailbox now retrieves headers from the newer messages
+      (useful for slow connection).
+    * The POP3 remote mailbox can now reload message headers after the loading
+      is stopped.
+    * The previous change of the message view (always show the message view
+      on startup) was reverted except for vertical view mode.
+    * The crash bug that occurred when IMAP message fetching and new message
+      checking happened at the same time was fixed.
+
+* 3.2.0beta4 (development)
+
+    * Multiple keywords search of the quick search was implemented.
+    * Sylfilter command was added as a preset of junk filter program.
+    * MIME debug output was modified.
+    * On browsing IMAP folder, the error "imap_cmd_gen_send: cannot send
+      command because another command is already running." was fixed.
+    * The focus on quick search entry is not stolen by the refresh of summary.
+    * Both filtered and original numbers of messages are displayed on the
+      status label now.
+    * Always show the message view on startup (fixes wrong view size on
+      vertical-view mode).
+
+* 3.2.0beta3 (development)
+
+    * The translation was updated.
+    * The Japanese manual was updated.
+    * Win32: included GTK+ MS-Windows theme engine (libwimp.dll) was updated
+      to fix potential DLL loading vulnerability. Other parts of
+      GTK+ (2.10.14) are not affected.
+    * Win32: included libpng library was updated to 1.2.46 (security fix).
+
+* 3.2.0beta2 (development)
+
+    * The performance of reading cache files was improved by using memory
+      mapped file (requires GTK+ >= 2.8).
+    * 'Account Preferences - Advanced - Put deleted messages in' account
+      setting actually works now.
+    * Style colors are used for attachment label widgets now.
+    * The text color of quick search on dark themes was fixed.
+    * The HTML parser was modified.
+
+* 3.2.0beta1 (development)
+
+    New features
+
+      * Each attachments on the message view now have graphical label and
+        popup menu.
+      * Win32: IPv6 support on Windows XP or later was enabled again.
+        (This time, it will also work on Windows 2000 (IPv4 only support))
+
+    Improvements
+
+      * Number of maximum characters per line of configuration files was
+        increased.
+      * Compose window will not be closed if saving of message to outbox
+        failed.
+      * Sender's e-mail address became not guessable from generated Message-Id.
+      * New plug-in APIs were added.
+
+    Bugfixes
+
+      * The crash bug that was caused by offline switch while IMAP session was
+        active was fixed.
+      * Queue control headers are removed when moving messages from queue
+        folders to trash.
+      * Duplicated keyboard accelerators on some dialogs were fixed.
+      * Fixed a memory leak.
+
+    Other changes
+
+      * Many alloca() calls were removed.
+      * Win32: the updater executables were not included in the zip version
+        anymore to prevent incorrect update.
+
+* 3.1.1 (stable)
+
+    * The column width of the address book will be saved now.
+    * The keyboard shortcut of 'File/Send' menu of compose window was changed
+      to prevent accidental sending.
+    * The bug that caused occasional crash when summary was updated while
+      receiving messages was fixed.
+    * The compilation problem on some environment was fixed.
+    * Some locale problems on Mac OS X was fixed.
+    * The compilation error on newer gcc was fixed.
+    * Finnish translation was added.
+
+* 3.1.0 (stable)
+
+    * Copyright year was updated.
+    * A compiler warning was removed.
+    * The return value of procmime API was fixed.
+
+* 3.1.0rc (release candidate)
+
+    * Junk-filtered or trashed messages are not counted as new on mail
+      receiving.
+    * Show error dialog if junk mail filter command exit with fatal error.
+    * The long-standing bug in undo/redo was fixed.
+    * The bug that caused crash if the quick search was executed while folder
+      tree was empty was fixed.
+
+* 3.1.0beta7 (development)
+
+    * 'Reply to this address' was added to the e-mail address context menu.
+    * The default boolean type of query search and filter condition became AND.
+    * The matching algorithm of filtering was optimized (time-consuming
+      conditions will be evaluated later).
+    * The option not to display the send progress dialog was added.
+    * Move/copy marks are now preserved on folder refresh when immediate
+      execution is off.
+    * Build revision number was added to the about dialog.
+    * The bug that wrong unread message number was displayed after mail
+      receiving if 'Open inbox after receiving new mail' was enabled was fixed.
+    * Win32: The parameter for automatic update URL is properly added now.
+    * Win32: The wabread.exe executable that was missing on the previous
+      release was included. The automatic import of Windows Address Book
+      (WAB) file on initial startup actually works since this release.
+    * The Japanese manual was updated.
+
+* 3.1.0beta6 (development)
+
+    * A new option 'Set only mail address when entering recipient from address
+      book' was added.
+    * The menu items 'Add to recipient/Cc/Bcc' were added to the address book.
+    * On junk mail filtering, appropriate Junk folder for accounts will be
+      selected.
+    * When going offline, all current network sessions will be disconnected.
+    * Low priority will be used for long timeout interval.
+    * The behavior on opening folders and mark-read timing was modified again.
+    * The HTML parser was fixed to handle 'a' tag correctly.
+    * Win32: The text font setting will be checked always on startup
+      (Japanese locale only).
+    * The Japanese manual was updated.
+
+* 3.1.0beta5 (development)
+
+    * Win32: The crash on update check was fixed.
+    * The bug that temporary password was not cleared when authentication
+      failed on SMTP AUTH.
+    * Plug-in update check will be also disabled if --disable-updatecheck is
+      specified on configure.
+
+* 3.1.0beta4 (development)
+
+    * New features
+
+      * SOCKS4/SOCKS5 proxy support was added (per-account option).
+      * Win32: The automatic import of Windows Address Book (WAB) file on
+        initial startup was added.
+      * Win32: Automatic update of program and plug-ins was implemented.
+
+    * Improvements
+
+      * Messages on POP3 server will be left for 7 days by default.
+      * New plug-in APIs for sending messages were added.
+      * The option 'Always mark as read when a message is opened' was added.
+        This will bring back the previous behavior.
+      * Win32: The installer now allows users to choose plug-ins to be
+        installed.
+      * Win32: The installer now remembers the previous install settings
+        on update.
+
+    * Bugfixes
+
+      * The bug that temporary password was not cleared when authentication
+        failed with remote POP3 mailbox.
+
+    * Other changes
+
+      * The Japanese manual was updated.
+      * NSIS installer script files are included in the distribution.
+
+* 3.1.0beta3 (development)
+
+    * New features
+
+      * Drag and drop of addresses on the address book is supported now.
+      * New plug-in 'Attachment Tool Plug-in' was added. It enables the
+        removal of attachments in messages.
+      * MS Outlook Express mail stores (dbx) can be imported now.
+      * Win32: MS Outlook Express mail stores can be imported automatically
+        on first run.
+
+    * Improvements
+
+      * 'Alias' attribute can be selected on CSV addressbook import.
+      * When modification of templates are cancelled, confirm dialog will
+        be displayed now.
+      * The order of templates can be changed now.
+      * Virtual folders can be moved now.
+      * 'Always show messages in summary when selected' was improved, and
+        it is enabled by default.
+        - Automatically selected messages will not be marked as read anymore.
+        - The message view will not be cleared on multiple selection.
+      * "mark_as_read_on_new_window" setting became a hidden option.
+      * Redundant menu items are not displayed on the context menu of the
+        folder view now.
+      * 'Junk' special folder was added. It will be automatically created
+        if not exist.
+      * 'Empty junk' context menu will be displayed on the Junk folder.
+      * A new account option 'Put signature before quote (not recommended)'
+        was added.
+      * A new option 'Change current account on folder open' was added, and
+        it is enabled by default.
+      * 'Cancel all' button was added to the POP3 receive dialog.
+      * The POP3 receive dialog will display only the number and size of
+        messages in current session, not including previously received ones.
+      * On 'File - Save as...' dialog, '.eml' extension was added for the
+        default file name.
+      * New plug-in APIs for summary view and alert panel were added.
+      * English Sylpheed FAQ was updated.
+
+    * Bugfixes
+
+      * The bug that accepted SSL certs were not loaded when using --configdir
+        option was fixed.
+      * The IMAP4 response parser was fixed.
+      * The LDIF parser was modified.
+
+* 3.1.0beta2 (development)
+
+    * On POP3 receiving, new messages are displayed on the summary view
+      immediately. Folder switching is not required anymore.
+    * The feature to combine partial messages (RFC 2046, message/partial)
+      was added.
+    * Users can move up/collapse/expand the folder view using left/right arrow
+      key now.
+    * When inline image setting is off, images are not displayed in the
+      Attachment tab too.
+    * When a connection to IMAP/News server fails, an error dialog will be
+      displayed now.
+    * The menu items 'Mark/Mark' and 'Mark/Unmark' were changed to
+      'Mark/Set flag' and 'Mark/Unset flag' for understandability.
+    * The upper limit of auto-check interval was changed to 1000 minutes.
+    * The new plug-in APIs for user-agent string and the summary view were
+      added.
+    * The source files of the English FAQ and manual were added.
+    * The hidden <account-id> filter condition works now.
+    * Fixed-positioned windows (such as main window, compose window, etc.)
+      are always displayed on screen now. This prevents windows displayed
+      outside of screen between multi and single monitor switching.
+    * The crash when POP3 session was cancelled while processing received mail
+      was fixed.
+
+* 3.1.0beta1 (development)
+
+    * Full automatic address completion was implemented. Users can also
+      configure to use the previous behavior (start completion on Tab key).
+    * The debug log output for filtering was added.
+    * Update check can also show alternative version as well as internal
+      version now.
+    * New plug-in APIs for update check and folder view were added.
+    * A new option '--instance-id <ID>' was added. This allows users to run
+      multiple instances of Sylpheed.
+    * 'Open' menu was added to the attach context menu of the message
+      composition window. This allows users to open attached files before
+      sending.
+    * English Sylpheed FAQ was updated.
+    * Plug-ins are also loaded from user plug-in directory now.
+    * Unix: the default web browser command was changed to xdg-open, and
+      obsolete commands were removed.
+    * Unix: the crash when using %f on IMAP messages at the action tool was
+      fixed.
+    * The crash when clicking tray icon menu 'Get from current account' when
+      no account exist was fixed.
+    * The crash on 64-bit architecture with LDAP was fixed (debian BTS #463366).
+    * Some GTK+ warnings were removed.
+    * Redundant debug or error messages were removed.
+    * The bug that MIME flags were not set to imported mbox file and filtered
+      sent messages was fixed.
+
+* 3.0.2 (stable)
+
+    * The random scrolling problem on selecting folders with GTK+ 2.12 or
+      later was fixed.
+    * The problem that config files are not updated after creating new
+      accounts was fixed.
+    * The problem that folder config file was not updated after changing IMAP
+      or News account name was fixed.
+    * Win32: OpenSSL was updated to 0.9.8n (security fix).
+
+* 3.0.1 (stable)
+
+    * Several typos in dialogs were fixed.
+    * The Japanese manual was updated.
+    * Win32: included libpng library was updated to 1.2.43 (security fix).
+    * Win32: included libtiff library was updated to 3.9.2 (security fix).
+
+* 3.0.0 (stable)
+
+    * The message catalogs were updated.
+    * The bug that caused freeze when sending or receiving messages with
+      STARTTLS and 'SSL certificate verify failed' dialog popped up.
+
+* 3.0.0rc (development)
+
+    * The Japanese manual was updated.
+    * The 'Enable address auto-completion' setting was added.
+    * Curl command timeout was set to 10 seconds.
+    * The compile error with OpenSSL disabled was fixed.
+    * Win32: multiple reference to a folder with different letter case is
+      prohibited when creating a new one.
+    * Some minor bugs were fixed.
+
+* 3.0.0beta8 (development)
+
+    * The new filter match type 'is in addressbook' was added. This can be
+      used from filtering, query search and quick search.
+    * The new account setup dialog was implemented. It also supports easy
+      Gmail setup.
+    * The address completion was modified.
+    * The spell-checking and PGP settings are preserved for draft messages now.
+    * The crash problem when trying to check PGP signatures while GnuPG was
+      not available was fixed.
+
+* 3.0.0beta7 (development)
+
+    * The feature to add new recipients to address book on sending was added.
+    * Color labels are saved on IMAP server now (partially compatible with
+      Thunderbird).
+    * The auto-wrapping setting is preserved for draft messages now.
+    * The problem that beep sound was out when opening folders which were
+      sorted in descending order was fixed.
+    * The new plug-in APIs for compose window were added.
+
+* 3.0.0beta6 (development)
+
+    * The bug that IMAP caches get wrongly deleted was fixed.
+    * The copyright year was updated.
+
+* 3.0.0beta5 (development)
+
+    * The feature to customize the color label text was added.
+    * The option to set only mail address of recipients when replying was
+      added.
+    * When messages are added to IMAP folders, received-date information
+      is also set using Date header (mainly for Gmail).
+    * The configure option '--disable-updatecheck' which disables the update
+      check feature was added.
+    * The configure option '--enable-silent-rules' is enabled if automake is
+      equal or greater than 1.11.
+    * A workaround for crash caused by enchant with zemberek was added
+      (requires dbus-glib-1 if enchant is equal or greater than 1.4.2).
+    * The bug that caused freeze when remote IPC commands were executed.
+    * The bug that IMAP caches with UIDs larger than INT_MAX were never
+      deleted was fixed.
+
+* 3.0.0beta4 (development)
+
+    * The folder icons were renewed.
+    * 'Last 7 days' was added to the quick search options.
+    * The number of matched messages is displayed at the side of quick search
+      now.
+    * Description is displayed on the quick search entry when it does not have
+      focus.
+    * Always show warning dialog when SSL certificate is expired.
+    * The menu item to request disposition notification was added to the
+      compose window.
+    * The setup dialog on the first run became user-friendly.
+    * The update check dialog will not be displayed if modal dialog exists
+      or receiving of mail is active to prevent dialogs becoming
+      uncontrollable.
+    * The button order of folder selection dialog was modified.
+    * Win32: the button order of close confirmation dialog of compose window
+      was modified.
+
+* 3.0.0beta3 (development)
+
+    * SHA1/MD5 fingerprint and validity period of certificate is now
+      displayed when verification of server SSL certificate failed.
+    * Address book is now sortable by each column.
+    * Address book search feature was added.
+    * The visibility of message number columns in the folder view is now
+      configurable for each column.
+    * The error check of socket connection became more strict.
+    * Win32: OpenSSL was updated to 0.9.8l.
+
+* 3.0.0beta2 (development)
+
+    * Many important bugs related to multi-threading were fixed.
+    * The unintended drag start on IMAP folders was fixed.
+    * The libtool version was increased to prevent linking problem.
+    * Several new APIs were added to the plug-in library.
+    * Win32: 48x48(32bpp) icon was added.
+
+* 3.0.0beta1 (development)
+
+    * Multi-threading was introduced.
+      (can be disabled by --disable-threads configure option)
+    * Win32: network connection runs on another thread to prevent blocking
+      of the user interface.
+    * Execution of external commands (such as bsfilter) on filtering will
+      not block the user interface anymore.
+    * The major part of IMAP protocol communication runs on another thread
+      to prevent blocking of the user interface.
+    * The query search is executed on another thread.
+    * LibSylph is (almost) thread-safe now.
+    * Summary caches are updated on the fly (on receive/move/copy/delete).
+      This improves the performance of opening folders with many new messages.
+    * Progress is displayed while scanning folders.
+    * The user interface of address book was rewritten using the new API
+      (GtkTreeView). This will reduce the glitches in the older versions.
+    * Included Sylpheed FAQ (English) was updated.
+    * Some bugfixes are made.
+
+* 2.7.1 (stable)
+
+    * The feature to import and export .eml files was added.
+    * Progress is displayed during import and export now.
+    * The warning about non-exist plug-in directory was removed.
+    * The comments within Content-Type header are handled now.
+    * The order of signals emitted at moving messages was modified.
+    * The sylpheed.spec file was fixed.
+
+* 2.7.0 (stable)
+
+    * The plug-in system was implemented (still experimental. See
+      PLUGIN.txt for detail).
+    * LibSylph (internal version) is built as shared library now.
+    * The update check feature was implemented (requires curl command).
+    * fsync() will be called after writing configuration files.
+    * 'Send queued messages' is shown instead of 'Mark all read'
+      in the context menu of the Queue folder.
+    * The default command line options of spam filters were modified.
+    * Win32: hard link will be used to improve file I/O performance if
+      available.
+    * A crash bug on CSV import of the address book was fixed.
+    * Several other bugfixes were made.
+
+* 2.6.0 (stable)
+
+    * A workaround for raw-JIS filename used for attachments (specifically
+      Eudora) was made.
+    * Some build fixes were made.
+
+* 2.6.0rc (development)
+
+    * The backups for configuration files are kept for four generations now.
+    * Only new messages are counted when incorporating from local mbox.
+    * In the folder selection dialog, only folders which are expanded in the
+      folder view are expanded now.
+    * The folders which should not be selected in the folder selection dialog
+      became unselectable now.
+    * The bug that the addressbook window was not refreshed when sender of
+      message was added to the addressbook was fixed.
+    * The compilation error in GTK+ 2.14.x was fixed.
+
+* 2.6.0beta2 (development)
+
+    * The menu was added to the remote POP3 mailbox window.
+    * The sorting of remote POP3 mailbox was fixed.
+    * The remote POP3 mailbox button was added to the toolbar.
+    * The Japanese manual was updated.
+    * Warnings about --datarootdir on configure was removed.
+
+* 2.6.0beta1 (development)
+
+    * The remote POP3 mailbox feature which can view/download/delete messages
+      on POP3 servers directly was added.
+    * Enchant (with GtkSpell 2.0.13) was supported.
+    * When creating filter rule automatically, the target header field is used
+      as a default filter name now.
+    * The progress column was added to the progress dialog.
+    * The parser of IMAP4 was fixed.
+    * Unix: SIGHUP/SIGINT/SIGTERM/SIGQUIT signals are handled now.
+    * Win32: system shutdown event is also handled on debug mode now.
+
+* 2.5.0 (stable)
+
+    * The sylpheed.desktop file was updated.
+
+* 2.5.0rc2 (development)
+
+    * A crash bug was fixed.
+    * Content-Transfer-Encoding header with comments was supported.
+    * UTF-8 locale strings with suffix '.utf8' were supported.
+    * The 8KB restriction of template body size was removed.
+
+* 2.5.0rc (development)
+
+    * The sylpheed.desktop file was fixed.
+    * The compose window now remembers the maximized state.
+    * The focus will not move from the text view to the summary view with
+      'Next/Prev' keyboard operation now.
+    * The alert dialog is displayed now when PGP signing/encryption failed.
+
+* 2.5.0beta3 (development)
+
+    * Quoted lines are excluded when notifying missing attachments.
+    * The option of excluded addresses/domains for recipients confirmation
+      was added.
+
+* 2.5.0beta2 (development)
+
+    * The feature to confirm missing attachments was added.
+    * The feature to confirm recipients before sending was added.
+    * To: header is also searched in Sent/Draft/Queue folders.
+    * 'Edit/Quick search' menu was added.
+    * Spaces in address and server entries on account preferences dialog
+      are now automatically removed when applied.
+    * The address completion was fixed.
+    * The compilation failure with GTK+ <= 2.8 was fixed.
+    * Win32: --attach option was fixed.
+
+* 2.5.0beta1 (development)
+
+    * The vertical 3-paned view mode was added.
+    * The feature to save SSL peer certificate was added.
+    * The option 'Treat HTML only message as attachment' was added.
+    * The bug that caused busy loop when initial connection was immediately
+      refused was fixed.
+    * The bug that the quote description dialog never appeared again after
+      closing it with the close button was fixed.
+    * The new/unread status display on quick search filtered mode was fixed.
+    * The windres command will not be enabled on non-win32 platforms now.
+
+* 2.4.8 (stable)
+
+    * The encoding method of MIME headers is now determined by outgoing
+      encoding rather than the value of MB_CUR_MAX.
+    * The memory leaks and warnings in LDAP search were fixed.
+    * The beep on folders with one message when using GTK+ 2.12 was removed.
+    * Win32: The crash that occurred when trying to display some TIFF files
+      was fixed.
+    * Win32: Settings are now automatically saved on the shutdown of system.
+
+* 2.4.7 (stable)
+
+    * The bug that 'Set display item of summary...' button in common
+      preferences always show send folder setting was fixed.
+    * The all compiler warnings were removed.
+    * The previous focus is kept when separation of view is changed.
+    * The status label is automatically resized now when there is not enough
+      width.
+    * The bug that virtual folders were not sorted properly was fixed.
+    * The crash when trying to use ascii-armored PGP encryption was fixed.
+
+* 2.4.6 (stable)
+
+    * The 'To' column was added to the summary view.
+    * In Sent, Draft, and Queue folders, the 'To' column is displayed by
+      default.
+    * The display column setting of send folders became independent from
+      normal folders.
+    * The ascii-armored PGP encryption was fixed.
+    * The combined method is used now when both PGP encryption and PGP signing
+      are specified.
+    * The PGP passphrase dialog was disabled on filtering and query search.
+    * The new message notify will be blocked when a new message is read on
+      receiving.
+    * 'LIST "" "*"' command is used instead of 'LIST "" "%"' to obtain folder
+      list from IMAP4 server.
+    * The bug that noinferior and noselect flags were ignored until rebuilding
+      folder tree when a new folder was created on IMAP4 server was fixed.
+    * If attached files become nonexistent on sending, error dialog will be
+      displayed and the sending will abort.
+
+* 2.4.5 (stable)
+
+    * The vulnerability that may be exploited by malicious POP3 server was
+      fixed (SA26550).
+    * The potential crash bug in address completion was fixed.
+    * The signature separator '--' is not joined on line wrapping now.
+    * Win32: GLib and GTK+ was updated to the latest version.
+    * Win32: The focus problem when closing dialogs was fixed (GTK+).
+
+* 2.4.4 (stable)
+
+    * Reply and forward marks are appended after messages are actually sent.
+    * The feature to reply to attached message/rfc822 messages was added.
+    * When a folder is renamed, the path of junk folder is also updated.
+    * A workaround for the error which occurs with Gmail SMTP server was made.
+    * Win32: The bug that the name entry of creating or renaming an address
+      book didn't accept key input was fixed.
+    * Win32: The bug that the renaming of folders didn't modify filter
+      actions in some cases was fixed.
+
+* 2.4.3 (stable)
+
+    * The quick search entry is cleared when Escape key is pressed on it.
+    * UTF-8 with BOM is handled correctly when inserting signature.
+    * A possible crash when adding address from address book was fixed.
+    * Win32: Sylpheed now can be specified as a default mail program in
+      Windows Vista.
+    * Win32: The stall of SMTP session when sending messages via dial-up
+      connection was fixed.
+    * Win32: The infinite loop bug which occurred when PID of external editor
+      was not obtained was fixed.
+    * Win32: The bug that dialogs which popup on auto-checking becoming
+      invisible if the main window was minimized was fixed.
+
+* 2.4.2 (stable)
+
+    * The recursive download of remote folders were enabled.
+    * SSL ports in Advanced tab of the account prefs dialog are now
+      automatically set when SSL is enabled.
+    * The '--open' command line option which open messages in new window was
+      added.
+    * The quick search condition for each folder now persists between sessions.
+    * The selection now persists when the quick search condition is updated.
+    * Quoted-printable or base64 encoding is now forced on PGP/MIME signing
+      instead of stripping trailing spaces (except for the case of ISO-2022-JP
+      encoding).
+    * The quoted-pair in From header is now processed correctly when displaying
+      its name.
+    * The performance of 'Mark all read' on IMAP folders was improved.
+    * The bug that the character '+' in address was treated as URI-escaped
+      space was fixed.
+    * Unix: the problem that 'Get' and 'Get all' button could not be clicked
+      after receiving while mouse pointer was over the buttons was fixed.
+
+* 2.4.1 (stable)
+
+    * If shift or control key is pressed on address completion, only address
+      string is inserted now.
+    * When completing addresses, display name is used rather than nickname.
+    * Win32: The sylpheed.ini file is read on startup if exist, and
+      '--ipcport' option was also added.
+    * Win32: The autocheck timer is disabled while suspending to prevent
+      network error on resuming.
+    * Win32: OpenSSL library was replaced with self-compiled DLLs.
+    * Win32: A bug that the folder path separator was not processed correctly
+      when creating and renaming search folders was fixed.
+
+* 2.4.0 (stable)
+
+    * Invalid APOP timestamp is rejected now (CVE-2007-1558).
+    * The configuration file is written out after the toolbar is customized.
+    * Win32: OpenSSL was updated to 0.9.8e.
+
+* 2.4.0rc (development)
+
+    * The file copy and move were optimized.
+    * The crash on the cancellation of POP3/SMTP session was fixed.
+    * The crash when a person was removed and its e-mail addresses were
+      referenced by a group in another folder was fixed.
+    * The Japanese manual was updated.
+    * Win32: If the initial loading of "MS Gothic" font failed, multi-byte
+      font name is used now (workaround for JIS2004 MS Gothic font).
+    * Win32: The crash when fetching messages more than 64KB from IMAP4 server
+      via FreeCap (a SOCKS wrapper) was fixed.
+
+* 2.4.0beta8 (development)
+
+    * In the address book, the import of CSV and Tab-separated text file was
+      implemented.
+    * 'Within 1 day' and 'Recent 5 days' was added to the quick search rule.
+    * The toolbar style switch was added to the toolbar context menu.
+    * Stop button now cancels all sessions.
+    * The limitation of the nesting level of MIME structure was relaxed.
+    * A margin for text was added to the composition window.
+    * An error dialog is displayed if the execution of junk filter command
+      fails.
+    * The overwrite confirmation of the file selection dialog was improved.
+    * ISO-8859-16 was supported in code conversion.
+    * Several UI problems in the address book were fixed.
+    * The stability of the cancellation of POP3/SMTP session was improved.
+    * The bug that the displayed number of message becoming incorrect on
+      folder search was fixed.
+
+* 2.4.0beta7 (development)
+
+    * In-Reply-To header was supported in mailto URL.
+    * Stop button was added to the main toolbar.
+    * An error message is displayed now when the decryption of PGP encrypted
+      messages failed.
+    * Remote commands such as 'compose', 'receive' and 'send' are disabled
+      when a modal dialog exists.
+    * Process termination is forced after the execution of finalizer routine.
+    * The behavior of 'Go to next unread' with changing folders was fixed.
+    * The sylpheed.desktop file was modified.
+    * Win32: A bug that the folder path separator was not processed correctly
+      in some cases (fixes path information becoming incorrect on renaming
+      subfolders).
+
+* 2.4.0beta6 (development)
+
+    * The bug in automatic IMAP4 filtering that messages which were not
+      filtered were not counted as new ones was fixed.
+    * Win32: The workaroud for the redraw problem of GtkCList and GtkCTree
+      in GTK+ 2.10.11 was made.
+    * Win32: The stall on rebuilding folder tree which appeared since GTK+
+      2.10.11 was fixed.
+    * Win32: Environmental variable "LANGUAGE" was disabled (fixes incorrect
+      language selection on some environments).
+
+* 2.4.0beta5 (development)
+
+    * Close button was added to the address book dialog, and the layout was
+      improved.
+    * The automatic junk mail filtering on IMAP4 was enabled.
+    * Automatically filtered IMAP4 messages are also counted for new mail
+      notification now.
+    * The default directory of the printing dialog became the document
+      directory.
+    * The crash on some environments when verifying signed messages was fixed.
+    * The crash on exit when the order of summary columns were modified by
+      DnD was fixed.
+    * The wrong handling of quotation in multi-byte strings on MIME header
+      encoding was fixed.
+    * Win32: The bug that the timeout on receiving and sending didn't work
+      was fixed.
+    * Win32: The path separator problem of folderlist.xml was fixed.
+    * Win32: libcairo-2.dll, libgpg-error-0.dll, libgpgme-11.dll, GLib and
+      GTK+ was updated to the latest version.
+    * Win32: The redraw of windows became smoother (GTK+).
+    * Win32: Win32 shell icons are now displayed on the file selection dialog
+      (GTK+).
+
+* 2.4.0beta4 (development)
+
+    * The address book was improved.
+      - Copy and paste of persons in the address book was enabled.
+      - The menu sensitivity of the address book became accurate.
+      - When deleting addresses from a group, they are just removed from the
+        group (not from person) now.
+      - 'Lookup' button is disabled if LDAP search is not available.
+    * The checking of remote folders doesn't abort with non-fatal errors now
+      except for network failure.
+    * The problem that the width of the folder view was not saved when the
+      main window was maximized was fixed.
+    * The coloring of message number columns in the folder view was enabled.
+    * Win32: In Windows Vista, the problem that the selected menu items were
+      not visible was fixed.
+
+* 2.4.0beta3 (development)
+
+    * The toolbar customization dialog was improved.
+    * 'Not junk' and 'Search' button were added to the main toolbar.
+    * The 'Send' button is disabled when no queued messages exist.
+    * Junk mails are filtered when incorporating from local spool even if
+      'Filter on incorporation' is disabled.
+    * The 'Get' button of the main toolbar was fixed.
+    * Several bugs of the search dialog were fixed.
+    * Win32: The sorted column of the selected row on the summary view becomes
+      visible when it doesn't have focus.
+    * Win32: System fonts with multi-byte font names (such as 'MS PGothic' and
+      'Meiryo') can be available now.
+
+* 2.4.0beta2 (development)
+
+    * The toolbar was rewritten with new API.
+    * 'Prev', 'Print', 'Address', 'Prefs', and 'Account' was added to the
+      main toolbar, and 'Prefs' and 'Account' was added to the compose toolbar.
+    * The overflow menu for toolbar was added.
+    * The width of toolbar buttons was reduced when the labels are displayed.
+    * The option to place toolbar labels at the right of icons was added, and
+      it became the default.
+    * The bug that the window was kept being skipped from window list after it
+      became visible with window shading or switching workspaces.
+    * Some of the UI labels are modified.
+    * Unix: Symbolic links are now also scanned when scanning MH folders.
+
+* 2.4.0beta1 (development)
+
+    * The automatic filtering of new messages in INBOX folder of IMAP4 account
+      was implemented.
+    * The customization of the toolbars was implemented.
+    * The option to toggle window on trayicon click was added.
+    * Junk mails are now filtered when incorporating from local spool.
+    * UTF-8 is forced for headers instead of substituting characters if the
+      code conversion failed.
+    * The crash of the text view when switching between MIME parts was fixed.
+    * Win32: the socket buffer size was increased to improve the performance
+      of network communication.
+    * Win32: GTK+ and GLib was updated to the latest version.
+
+* 2.3.0 (stable)
+
+    * The Japanese manual was updated.
+
+* 2.3.0rc (development)
+
+    * CA certificates bundle file is now looked up in multiple location.
+    * Cancelling the verification of certificates is only applied for current
+      connection now.
+    * The version string was changed.
+    * The bug that the blank message view appeared when displaying window from
+      the tray icon while the message view was hidden in separate window mode
+      was fixed.
+    * Win32: The common CA certificates were included in the package.
+
+* 2.3.0beta7 (development)
+
+    * Page setup for printing was added.
+    * The range specification of printing now works correctly.
+    * The printing of MIME part now uses the new printing function.
+    * The font size of printing now follows the display setting.
+    * The option to input signature directly was added to the account
+      preferences.
+    * Signature is automatically generated when creating a new account.
+    * Bcc: and Reply-To: were added to the template.
+    * '/etc/ssl/certs' directory is used for SSL certificate verification if
+      exist.
+    * When SSL certificate cannot be verified, the confirmation dialog is now
+      displayed.
+    * Cursor is now placed at the top of the text (alternatively To or Subject
+      entry if they are empty) when reediting messages.
+    * Unix: Resolver is now reinitialized if '/etc/resolv.conf' is modified.
+
+* 2.3.0beta6 (development)
+
+    * The new printing function was implemented.
+      - Each page is now rendered by Cairo.
+      - The native print dialog is used.
+      - Page number is printed for each page.
+      - The option "Use external program for printing" was added.
+      - The printing of MIME part was implemented.
+    * Cc: was added to the header view.
+    * The option "Inherit recipients on reply to self messages" was added.
+    * Pilot-link (libpisock) 0.12 was supported.
+    * The window position and the layout of the 'Add Address' dialog was
+      modified.
+    * The default directory of the file selection dialog was changed
+      (in Win32, 'My Documents' is used. In Unix, the home directory is used).
+    * The UI is now updated periodically on manual filtering.
+    * The new mail notification on the tray icon is reset when any message
+      is read now.
+    * The encoding setting of the message view in new window is enabled also
+      on reply.
+    * Win32: The bug that the window was sometimes not displayed at the top
+      when the tray icon was clicked was fixed.
+    * Win32: The issue that the progress dialog was not updated while sending
+      large messages was fixed.
+
+* 2.3.0beta5 (development)
+
+    * When new mails arrive, the tray icon is changed, and it will be kept
+      until a new mail is read.
+    * The option "Open inbox on startup" was added.
+    * The option "Remeber last selected message" was added.
+    * The crash when printing a message with empty subject was fixed.
+    * The bug that the text in the composition window was not redrawn on the
+      undo of large text was fixed.
+
+* 2.3.0beta4 (development)
+
+    * POP before SMTP was implemented.
+    * Win32: The e-mail menu in the start menu now works when Sylpheed is
+      selected as a default mailer.
+    * WIn32: The character corruption on printing when environment-dependent
+      Japanese characters are used was fixed.
+    * Win32: The GDI resource leaks of GtkTreeView in XP classic theme and
+      2000 which had introduced eventual application crash was fixed.
+
+* 2.3.0beta3 (development)
+
+    * The vertical padding of the folder view was reduced.
+    * The change between folders became faster at GTK+ 2.10.x.
+    * The bug that the window was kept hidden from taskbar on popup with
+      another process when the window was minimized to tray was fixed.
+    * The text insertion by the action was fixed again.
+    * The height of the statusbar was adjusted.
+    * The padding of the folder view was reduced.
+    * Win32: The selection of the labels on the header view and the alert
+      dialog are now visible.
+    * Win32: The application icon was modified.
+    * Win32: GTK+ was updated to 2.10.6, and OpenSSL was updated to 0.9.8d.
+    * Win32: The network communication failure in some environments was fixed.
+
+* 2.3.0beta2 (development)
+
+    * Messages marked as read or junk mails are now excluded from the numbers
+      of new messages.
+    * Win32: GTK+ was updated to 2.10.4, and GLib was updated to 2.12.4.
+    * Win32: The crash that occurred when Desktop folder was selected on the
+      file selection dialog was fixed.
+    * Win32: The bug that window position was reset when quitting Sylpheed
+      while window was hidden was fixed.
+    * Win32: The WSAEWOULDBLOCK state is now properly handled in socket I/O.
+
+* 2.3.0beta1 (development)
+
+    * GtkStatusIcon is used for the tray icon if available.
+    * When GtkStatusIcon is used, the tray icon blinks for 5 seconds when new
+      mails arrive.
+    * The option 'Minimize to tray icon' was added.
+    * The left click on the tray icon now only brings the main window in front.
+    * Win32: The tray icon was implemented.
+    * Win32: The SSL connection problem was fixed.
+    * Win32: The included libraries (GLib, GTK+, Pango) were updated to the
+      latest version. This introduces the following improvements:
+      - The performance of network communication at receiving and sending
+        was improved.
+      - The appearance of the UI became more native-like.
+      - The scrolling speed of the summary view with cursor keys was improved.
+      - The broken display of the text view when it was partially hidden was
+        fixed.
+      - The position of color labels menu in the search dialog is correct now.
+      - The problem that GTK+ strings became untranslated after the popup of
+        context menu on GtkTextView was fixed.
+      - The crash that occurred on startup if a font with non-ascii name was
+        specified for system font was fixed.
+      - The application doesn't freeze anymore when desktop theme is changed.
+
+* 2.2.9 (stable)
+
+    * The crash that occurred if the summary was sorted by invisible column
+      was fixed.
+    * The URI of the about dialog was updated.
+    * Win32: OpenSSL was updated to 0.9.8c.
+
+* 2.2.8 (stable)
+
+    * The PLAIN authentication method for IMAP4 was supported.
+    * The verification of encrypted and signed messages with combined method
+      was supported.
+    * Oniguruma regex library can be used instead of system's regex API.
+    * The LDIF import of the addressbook was improved.
+    * Full PGP signature information is displayed on the main text view.
+    * All trailing spaces are removed when signing with PGP/MIME instead of
+      using quoted-printable to improve compatibility with other MUAs.
+    * A warning is displayed before sending when Bcc is specified at PGP
+      encryption.
+    * The bug that possibly lost relatively small messages on receiving when
+      there was no disk space was fixed.
+    * The behavior of manual junk filtering was fixed.
+    * UTF-8 text can be inserted correctly in the compose window.
+    * The error messages of the failure of displaying message body was
+      improved.
+    * Some workarounds for GTK+ 2.10 were made.
+    * Minor UI fixes were made.
+    * Other minor bugs were fixed.
+    * Win32: Regular expression was supported in filtering.
+    * Win32: The version information was added to the executable file.
+
+* 2.2.7 (stable)
+
+    * "Mark all read" was added to the folder context menu.
+    * "Set as (not) junk mail" was added to the summary context menu.
+    * The option to filter junk mails before normal filtering was added.
+    * When replying to all, the original address strings are used for Cc
+      instead of stripped ones.
+    * Windows-1257 was added for display encoding.
+    * Some menu items of the folder context menu were enabled even on receiving
+      messages.
+    * The bug that manual junk filtering didn't work when no filter rule exist
+      was fixed.
+    * Several crash bugs were fixed.
+    * Win32: libgpg-error-0.dll and libgpgme-11.dll was updated.
+    * Win32: The scanning of folders was optimized so that receiving or moving
+      of messages become faster when folders contain large number of messages.
+
+* 2.2.6 (stable)
+
+    * The 8-bit literal (literal8) in IMAP4 response was supported.
+    * The missing timeout handling was added for SMTP.
+    * The failure of URI security check when they have leading space was
+      fixed.
+
+* 2.2.5 (stable)
+
+    * The character corruption and crash bug when using Japanese half-width
+      kana on sending messages was fixed.
+    * The execution failure when using the accessibility module was fixed.
+    * The bug that new/unread count becoming negative value was fixed.
+    * The bug that bold face was disabled in the folder selection dialog
+      with GLib 2.10 and Pango 1.12 was fixed.
+    * The incorrect progressbar display when expired messages exist was fixed.
+
+* 2.2.4 (stable)
+
+    * MIME filename encoding with RFC 2231 parameter value extension was
+      supported.
+    * The clear button for the quick search entry was added.
+    * The bug that bold face was disabled in GtkTreeView with GLib 2.10 and
+      Pango 1.12 was fixed.
+    * Win32: libwimp.dll was updated.
+    * Win32: The bug that subfolders were duplicated when rebuilding folder
+      tree while the settings were shared between Win32 and Unix was fixed.
+    * Win32: The uninstaller was modified so that it only removes files and
+      folders created by the installer.
+
+* 2.2.3 (stable)
+
+    * The sorting of the result of the query search was enabled.
+    * The printing of messages now follows the state of 'Show all headers'.
+    * Relative path is allowed for signature files.
+    * The To, Cc, and Bcc button of the address book are now always enabled.
+    * The window position of the address book is now preserved.
+    * The toggle of the Cc entry on the composition window was enabled.
+    * The appearance of the address book was modified.
+    * Unix: The support of metamail command was removed, and it was replaced
+      with the alternative implementation.
+    * Win32: libwimp.dll was updated, and the appearance of the UI was
+      improved.
+    * Win32: zlib1.dll was updated.
+    * Win32: The application icon was updated.
+    * Win32: The unnecessary message catalog files were removed to reduce the
+      archive size.
+
+* 2.2.2 (stable)
+
+    * The crash bug that occurred when trying to move IMAP4 folders right
+      under the root folder was fixed.
+    * The crash bug that occurred after a message window was closed while the
+      search dialog was still open was fixed.
+    * Win32: The console window is newly created if --debug or --help option
+      is specified.
+    * Win32: The non-ASCII filename encoding problem on executing external
+      commands was fixed.
+    * Win32: The bug that the main window became not responsive when an error
+      occurred on automatic receiving while the window was minimized was fixed.
+    * Win32: Spanish translation was added for the installer.
+    * Win32: The installer was fixed so that it selects correct language on
+      environments other than Japanese.
+
+* 2.2.1 (stable)
+
+    * GtkSpell is enabled on configure by default now.
+    * Spanish translation of the README file was added.
+    * The bug that account names with filename-unsafe characters couldn't be
+      used was fixed.
+    * The crash bug that occurred if non-ascii newsgroup names appeared while
+      getting newsgroup list was fixed.
+    * The performance problem of the quick search while the summary was sorted
+      by thread date with descending order was fixed.
+    * Win32: The problem that the UI didn't respond occasionally when receiving
+      messages was fixed.
+
+* 2.2.0 (stable)
+
+    * The move and copy of messages to queue folders and virtual folders are
+      prohibited.
+    * The included sylpheed.spec was modified.
+
+* 2.2.0rc (development)
+
+    * The 'minimize to tray icon' feature was modified.
+    * The command line options help dialog is not duplicated anymore.
+    * The problem that the UI was still insensitive after the execution of
+      external editor failed was fixed.
+    * The nonstandard Japanese encoding 'x-sjis' was supported.
+    * Win32: The locale encoding problem on some languages was fixed.
+
+* 2.2.0beta8 (development)
+
+    * The help of command line options was added.
+    * The Japanese manual was updated.
+    * When checking IMAP4 mailboxes, the number of new messages is properly
+      counted now.
+    * The key event handling of the quick search entry was fixed.
+    * The wrong status display of the receive dialog on BSD systems was fixed.
+    * The unread flag is not reset anymore when moving or copying messages
+      into a trash folder.
+    * Some UI fixes were made.
+    * Win32: Some UIs for unsupported functions were disabled.
+    * Win32: The bug that the contents of folders with specific Japanese
+      characters such as 'Hyou' (which contains 0x5c ('\') at the second byte)
+      at the end of its name couldn't be seen was fixed.
+
+* 2.2.0beta7 (development)
+
+    * When moving, copying, or deleting a collapsed thread, all the messages
+      in the thread are processed now.
+    * 'Mark thread as read' feature was implemented.
+    * The keys on keypad are also recognized in the summary and message view.
+    * The window size of the address book is now remembered.
+    * PGP passphrase is converted into locale encoding before passing to gpg.
+    * Arabic encoding support was added.
+    * The premature trimming of strings on the statusbar was disabled.
+    * The 'Wrap before sending' option was removed.
+    * The issue that it falsely entered drag begin state after passphrase
+      dialog was shown was fixed.
+    * The bug that the automatic account selection on reply was disabled on
+      IMAP4 folders was fixed.
+    * Win32: IPv6 was supported.
+    * Win32: Window is properly popup on multiple launching now.
+
+* 2.2.0beta6 (development)
+
+    * The cleanup of IMAP4 message caches on exit was implemented.
+    * Cache files in IMAP4 folders are now properly removed on move or delete.
+    * The temporary passwords of IMAP4 accounts are now preserved until exit.
+    * 'File/Insert signature' now inserts signature into current cursor
+      position, and 'File/Append signature' was added for the previous
+      behavior.
+    * Some dialogs are now placed at the center on parent window.
+    * The confirmation dialog for emptying trash is not displayed anymore if
+      messages don't exist in trash folders.
+    * Trash folders are excluded on recursive search.
+    * Locale encoding strings can be passed to --compose and --attach command
+      line option.
+    * Several minor bugs were fixed.
+
+* 2.2.0beta5 (development)
+
+    * The quick search was implemented.
+    * The filter conditions for message status such as 'unread', 'mark',
+      'color-label', and 'attachment' were added.
+    * The window management of the export and import dialog was modified.
+    * Several minor bugs were fixed.
+
+* 2.2.0beta4 (development)
+
+    * Unix: The popup menu on the trayicon was implemented.
+    * Unix: Clicking the trayicon now toggles the visibility of the main
+      window.
+    * Unix: The visibility of the trayicon is now configurable.
+    * The context menu of the folder view on search folders was modified.
+    * The bug that stopped checking of new messages if search folders exist
+      in IMAP4 or News mailboxes was fixed.
+    * The renaming of search folders under IMAP4 or News folders was fixed.
+    * A memory leak that occurs when thread display was off was fixed.
+
+* 2.2.0beta3 (development)
+
+    * The results of search folders are cached to speed up the next search.
+    * The search folder property dialog was implemented.
+    * The position of 'Delete' menu was changed to prevent its accidental
+      selection.
+    * The HTTP scheme is added to the URIs begin with 'www.'.
+    * Some trailing punctuations were included as URI.
+    * The bug that search folders under IMAP4 or News folders couldn't be
+      removed was fixed.
+
+* 2.2.0beta2 (development)
+
+    * The forwarding of messages with attachments was modified.
+    * The bug that previously selected row was removed from the view instead
+      of currently selected one when deleting folders from the context menu
+      was fixed.
+    * The bug that messages with subject that includes characters that can't
+      be used for filename couldn't be attached was fixed.
+    * Windows-1252 was added for display encoding.
+    * After incomplete POP3 session, duplicate retrieval of messages doesn't
+      happen anymore.
+
+* 2.2.0beta1 (development)
+
+    * The major improvements of the search function were made.
+      - The query search was implemented.
+      - Search conditions can be specified with the same UI as the filter rule.
+      - Subfolders can be searched.
+      - The search folder (virtual folder) was implemented.
+    * The maximized window state is now remembered.
+    * The option "Display recipient on 'From' column if sender is yourself" now
+      looks for all accounts.
+    * The line-wrapping of composition now doesn't join enumerated lines.
+    * The nonstandard Korean encoding 'ks_c_5601-1987' was supported.
+    * The bug that the initial directory was not properly selected in the file
+      selection dialog with GTK+ 2.8 was fixed.
+    * Some other bugs were fixed.
+
+* 2.1.9 (development)
+
+    * An option to update only INBOX on checking new messages of IMAP4
+      accounts was added.
+    * The custom queue folder can be specified for each account now.
+    * The progress of local filtering is displayed now.
+    * "Update summary" was added to the context menu of the folder view.
+    * Appending of messages to an IMAP4 folder was optimized.
+    * "Reply to all" now works for newsgroups post.
+    * The crash when an address in an address group was modified was fixed.
+    * The bug that subscribed newsgroups were removed after refreshing
+      subscribe dialog was fixed.
+    * The complication failure on some environments was fixed.
+    * Win32: The bug that blocked the application when enterning passphrase
+      for GnuPG was fixed.
+
+* 2.1.8 (development)
+
+    * The common preferences dialog was reorganized.
+    * The memory usage on SMTP and POP3 session was reduced drastically.
+    * The last position of the composition window is remembered, and the
+      windows are automatically placed so that they don't overlap.
+    * Filtered sent messages are not put into Sent folder anymore.
+    * When attached text files are saved, their linebreaks are normalized
+      depending on platforms.
+    * The occasional encoding conversion failure bug on inserting a text file
+      into composition window was fixed.
+
+* 2.1.7 (development)
+
+    * The spell checking feature was implemented (requires GtkSpell).
+    * The drop of files is allowed on the whole composition window.
+    * The insertion of text by drag and drop was disabled.
+    * The PGP interface is disabled if GnuPG is not available.
+    * A bug that aborted program if invalid UTF-8 text is put in the log
+      window was fixed.
+    * The pane between summary and message view became more visible.
+    * Reply-to-list is not enabled for subscribe confirmation request etc.
+    * The bug that the separator of newsgroups was broken was fixed.
+    * The bug that broke the summary selection when mark, unread, and
+      colorlabel flags were changed while the summary was sorted by them
+      was fixed.
+    * The bug that caused crash when quote colors dialog was closed by the
+      window close button was fixed.
+    * The bug that showed wrong value if the total size of a folder was more
+      than 2GB was fixed.
+    * Win32: The bug that occasionally the summary was not properly updated
+      right after messages were added to a folder was fixed.
+    * Win32: The problem that message strings were not translated if digit
+      locale environmental variable (such as "LANG=1041") was set was fixed.
+    * Win32: PGP sign and encryption was supported.
+    * Win32: The window focus problem of account and filter setting dialog
+      was fixed.
+    * Win32: The method of detecting executables was modified.
+
+* 2.1.6 (development)
+
+    * The auto-save to draft of composing messages was implemented.
+    * The setting of default (fallback) encoding was added.
+    * The command line option '--exit' was added.
+    * The preset menu for junk mail learning commands was added, and now
+      bogofilter and bsfilter are selectable.
+    * The option to mark filtered junk mails as read was added.
+    * The buffer overflow of LDIF import was fixed.
+
+    * Win32: The external editor function was implemented.
+    * Win32: Junk mail filtering now works.
+    * Win32: The default junk mail learning commands were changed to bsfilter.
+    * Win32: Some options which are useless on win32 became hidden.
+    * Win32: The program icon was added.
+    * Win32: Some bugfixes were made.
+
+* 2.1.5 (development)
+
+    * The command line option to specify directory which stores configuration
+      files (--configdir dirname) was added.
+    * The output headers of printed messages now match to those of the message
+      view.
+    * Confirmation dialog is displayed instead of input dialog on printing.
+    * When replying to ML post that has the Reply-To set, both addresses will
+      be set.
+    * The option to delete filtered junk mails from server was added.
+    * The locale name 'zh_TW.Big5' was changed to 'zh_TW'.
+    * The problem that drag and drop didn't work with GTK+ 2.8 was fixed.
+    * The sample mime.types was included into the source package.
+    * Win32: The remote command was implemented using TCP socket.
+    * Win32: The drag and drop of files from Explorer was supported.
+    * Win32: The default print command for text file is used for printing when
+      the command is unspecified.
+    * Win32: Several bugfixes were made.
+
+* 2.1.4 (development)
+
+    * Bugfixes:
+      - The IMAP4 parser was fixed so that it can handle literals in response.
+      - A bug that caused crashes on receive if Date header has abnormal time
+        was fixed.
+      - Sylpheed will not close anymore even if the tray icon is closed.
+
+      - Win32:
+        o The problem that prevented the rename and move of folders was fixed.
+	o The problem that prevented the creation of temporary files by users
+	  who don't have the write permission of the root directory was fixed.
+	o The action of Drag'n'drop now becomes move.
+    * Feature changes / enhancements:
+      - The directory with multiple hierarchy can be specified when creating
+        a new mailbox.
+      - Error messages are now output to the log window and the log file.
+      - The 'Create filter rule' menu was brought back in the context menu.
+      - The display of the property of top folders was enabled.
+
+      - Win32:
+        o SSL/TLSv1 was supported.
+	o The console window was disabled.
+	o The environmental variable APPDATA is used for the location of
+	  configuration files.
+	o The default browser is used now when opening URL.
+	o The system settings will be used when opening attachments.
+	o The launch of executable files was disabled.
+	o The support of environment-dependent Japanese characters was
+	  enhanced.
+	o The duplicate launch is prohibited now.
+
+* 2.1.3 (development)
+
+    * The feature to save all attachments at once was added.
+    * The subscription dialog of newsgroups was reimplemented with GtkTreeView.
+    * The verification of S/MIME sigunature (PKCS#7) was enabled.
+    * The support of character entity references in HTML messages was improved.
+    * The subject line is now displayed in the title bar of the composition
+      window.
+    * The vertical scrollbar of the folder view now shows or hides itself
+      automatically.
+    * The message number columns of the folder view can be toggled now.
+    * The selected row of the summary view will be kept when the state of
+      thread display is changed.
+    * The selected row will be aligned to center when it reaches the edge of
+      the summary view on key operation.
+    * The code conversion error and line limit warning will not be displayed
+      anymore when saving as draft.
+    * Some code cleanups were made.
+
+* 2.1.2 (development)
+
+    * The core parts were separated into a library (LibSylph), and its license
+      was changed to LGPL.
+    * The feature to sort the summary by thread date was implemented.
+    * When executing IMAP4 operations which take long time, its progress is
+      now displayed on the statusbar, and the UI is periodically updated.
+    * The number of messages to be copied at a time on IMAP4 was limited to
+      prevent timeout error.
+    * GPG and SSL settings are now saved even if they are disabled at the
+      compile time.
+    * The auto detection of Japanese encoding now supports UTF-8 encoding.
+    * The text display has been modified a bit.
+    * The initial implementation of tray icon was added.
+    * Address fields are now normalized before sending.
+    * Some problems of the addressbook was fixed.
+    * A bug in which message/rfc822 attachments were broken when pgp-signed
+      was fixed.
+    * Win32: A bug in which opened sockets were not closed properly was fixed.
+
+* 2.1.1 (development)
+
+    * IMAP4 now works with Win32 platform.
+    * The sorting of summary now fall backs to comparison by date.
+    * localedir, manualdir, and faqdir became user-configurable on configure.
+    * A bug that multiple selection of the addressbook with Control key
+      didn't work with GTK+ 2.6.9 was fixed.
+
+* 2.1.0 (development)
+
+    * Win32 (MinGW) platform was supported.
+    * Many portability fixes were made.

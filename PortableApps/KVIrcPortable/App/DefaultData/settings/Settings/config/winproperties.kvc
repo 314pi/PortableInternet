@@ -1,0 +1,11 @@
+# KVIrc configuration file
+[console]
+TextEncoding_CONSOLE=
+commandLineIsUserFriendly=false
+Splitter=630,100
+IsDocked=true
+NotifyListViewVisible=false
+EntryTimestamp=1277745984
+inputToolButtonsHidden=true
+IsMaximized=true
+WinRect=0,0,630,424

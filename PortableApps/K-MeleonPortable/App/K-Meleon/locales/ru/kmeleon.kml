@@ -1,0 +1,984 @@
+# K-Meleon Localization
+
+OK=ОК
+Cancel=Отмена
+
+URL Bar=Адресная строка
+
+# ---------- Plugins -----------------------------------------------------------------------------------------------
+
+# ----- Plugin Names (Preferences > Plugins)
+
+Bitmapped Menus=
+External Program Control Plugin=
+Fullscreen Plugin=&Полноэкранный режим
+IE Favorites Plugin=&Избранное IE
+Kmeleon JS Bridge=&Kmeleon JS Bridge
+Macro Extension Plugin=&Поддержка макросов
+Mouse Gestures Plugin=&Жесты мышью
+Netscape Bookmark Plugin=&Закладки Netscape
+Opera Hotlist Plugin=&Закладки Opera
+Privacy Plugin=&Приватность
+Rebar Menu Plugin=
+Session Saver Plugin=&Сохранение сессий
+Toolbar Control Plugin=&&Настраиваемая панель инструментов #уточнить
+
+# ----- Toolbar Names (View > Toolbars)
+
+Bookmarks=Закладки
+Favorites=Избранное
+Links=Ссылки
+Hotlist=Закладки Opera
+URL Bar=Адресная строка
+Menu=Меню
+Throbber=Индикатор загрузки
+
+# ----- Internal Strings
+
+# external, gestures, rebarmenu
+This plugin has no user configurable options=Данный модуль не имеет пользовательских настроек
+
+# bookmarks
+Failed to create bookmark toolbar=Невозможно создать панель закладок
+
+# favorites
+Links=Ссылки
+
+# history
+All URLs=Все ссылки
+Delete=Удалить
+Deletion is not implemented=Удаление не удалось
+Delete all items in your History folder?=Удалить все записи Истории?
+
+# rebarmenu
+Error! Failed to create menu toolbar=Ошибка! Не удалось создать панель меню 
+
+# sessions
+Invalid name=Недопустимое имя
+
+# toolbars
+Failed to create toolbar=Не удалось создать панель инструментов
+Could not open file=Не удалось открыть файл
+Extra { found=Найдены дополнительные пункты #уточнить
+
+# ---------- menus.cfg ---------------------------------------------------------------------------------------------
+
+# ----- Plugins
+
+&Add Page=&Добавить страницу
+&Edit...=&Редактировать...
+Se&ttings...=&Настройки...
+
+# Bookmarks
+&Bookmarks=&Закладки
+Add Page To &Bookmarks=Добавить страницу в &Закладки
+Add Link To &Bookmarks=Добавить ссылку в &Закладки
+Add Bookmark. Right-click for more options.=Добавить закладку. Нажмите правую кнопку мыши чтобы открыть меню опций
+
+# Favorites
+F&avorites=&Избранное
+Add Page To F&avorites=Добавить страницу в &Избранное
+Add Link To F&avorites=Добавить ссылку в &Избранное
+
+# Hotlist
+H&otlist=З&акладки Opera
+Add Page To H&otlist=Добавить страницу в З&акладки Opera
+Add Link To H&otlist=Добавить ссылку в З&акладки Opera
+
+# Fullscreen
+Fu&ll Screen=&Полноэкранный режим
+
+# History
+Histor&y=&Журнал посещений
+View &History=Открыть &Журнал посещений
+&Clear History=&Очистить Журнал посещений
+
+# Tabs/Windows
+T&abs=&Вкладки
+&Windows=Ок&на
+C&lose Tab=&Закрыть вкладку
+Close All Ta&bs=З&акрыть все вкладки
+Close Ot&her Tabs=Закрыть &другие вкладки
+N&ext Tab=С&ледующая вкладка
+Previ&ous Tab=Предыд&ущая вкладка
+Previously Sele&cted Tab=Последняя выделенна&я вкладка
+
+
+# Privacy
+Clear C&ache=Очистить к&эш
+Clear &Cookies=Уд&алить Cookies
+Clear &History=Очистить &Журнал посещений
+Clear &URL Bar History=Стереть историю а&дресной строки
+Clear Pass&words=Удалить сохранённые паро&ли
+&Clear Data=Удалить данные
+Clear &All=Удалить всё
+Clear Au&tomatically...=Автоматически удалять...
+Clear &Form History=Очистить Журнал форм
+
+# Sessions
+&Sessions=С&ессии
+&Load Session=&Загрузить сессию
+&Save Session=&Сохранить сессию
+&Undo Last Closed=&Отменить последнее закрытие
+
+# ----- Toolbars
+
+Tool&bars=Панели &инструментов
+Loc&k Toolbars=&Закрепить панели инструментов
+&Status Bar=&Строка состояния
+
+# Main Bar
+&Print...=&Печать...
+Print Pre&view=Предварительный п&росмотр
+Page Set&up=&Настройки печати
+
+# Tab/Window Buttons
+Pre&vious Window=&Предыдущее окно
+Ne&xt Window=&Следующее окно
+New &Tab=Новая &вкладка
+&New Window=&Новое окно
+&Close Window=&Закрыть окно
+Exit &K-Meleon=&Выход
+
+# ----- Main Menu
+
+# File
+&File=&Файл
+Work O&ffline=Работать &автономно
+&Open...=&Открыть...
+
+# Edit
+&Edit=&Правка
+&Redo=Пов&торить
+Cu&t=&Вырезать
+&Copy=&Копировать выделенное
+&Paste=&Вставить
+Select &All=В&ыделить всё
+&Find In Page=&Поиск на странице
+Find Ne&xt=Найти &следующее
+Find Pre&vious=Найти &предыдущее
+&Manage Profiles...=&Управление профилями...
+Pr&eferences=&Настройки
+
+
+
+# View
+&View=&Вид
+Bac&k=&Назад
+For&ward=&Вперёд
+S&top=&Стоп
+&Reload=&Обновить
+&Force Reload=&Принудительное обновление
+Open &Home Page=Открыть &домашнюю страницу
+Zoom In &Text=Увеличить &текст
+Zoom Out T&ext=Уменьшить т&екст
+Page &Properties=Свойства страни&цы
+Page Pro&perties=Сво&йства страницы
+Frame &Properties=&Свойства фрейма
+&Background Image=Ф&оновое изображение
+So&urce Code=&Исходный код страницы
+Cache &Information=Ин&формация о кэше
+
+# Tools
+&Privacy=&Приватность
+&Web Search=П&оиск в интернете
+&Tools=&И&нструменты
+Co&okies=Co&okies
+&Passwords=&Пароли
+P&ermissions=Разрешения
+&Popups=Всплывающие окна
+Im&ages=Изображения
+Vie&w Data=Показать данные
+View Co&okies=Показать cookies
+View &Passwords=Показать пароли
+
+# Help
+&Help=&Справка
+About &Plugins=Информация об установленных &плагинах
+About &K-Meleon=Информация о &K-Meleon
+&User's Guide=&Руководство пользователя
+&FAQ=&Часто задаваемые вопросы
+K-Meleon &Forums=&Форумы K-Meleon
+K-Meleon &Home=&Домашняя страница K-Meleon
+Check for update=Проверить наличие обновлений
+
+# ----- Context Menus
+
+# Document Elements
+&Save Page As...=&Сохранить страницу как...
+&Save Frame As...=&Сохранить фрейм как...
+&Save Image As...=&Сохранить изображение как...
+&Save Link Target As...=&Сохранить ссылку как...
+Show &Only This Frame=Показать &только этот фрейм
+&Frame=&Фрейм
+Open In Ne&w Tab=Открыть в &новой вкладке
+Open In Bac&kground Tab=Открыть в новой вкладке в &фоне
+Open In &New Window=Открыть в новом о&кне
+Open In Backgro&und Window=Открыть в новом ок&не в фоне
+C&opy Image=&Копировать изображение
+&Copy Image URL=Копи&ровать адрес изображения
+&Copy Link URL=Копи&ровать URL ссылки
+&View Image=&Просмотреть изображение
+I&mage=Изобра&жение
+
+# Text
+&Undo=&Отменить
+
+# Selected Text
+&Delete=&Удалить
+
+# ---------- toolbars.cfg ------------------------------------------------------------------------------------------
+
+&Main Bar=&Главная панель
+Go back one page=На предыдущую страницу
+Go forward one page=На следующую страницу
+Stop loading this page=Прервать загрузку страницы
+Reload this page=Обновить текущую страницу
+Reload this page. Right-click for more options.=Обновить текущую страницу. Чтобы открыть меню, нажмите правую кнопку мыши
+Open Home Page=Открыть домашнюю страницу
+Open Home Page. Right-click for more options.=Открыть домашнюю страницу. Чтобы открыть меню, нажмите правую кнопку мыши
+Edit Bookmarks. Right-click to view Bookmarks menu.=Редактировать закладки. Нажмите правую кнопку мыши, чтобы просмотреть список закладок
+Edit Hotlist. Right-click to view Hotlist menu.=Редактировать закладки Opera. Нажмите правую кнопку мыши, чтобы просмотреть закладки Opera
+Explore Favorites. Right-click to view Favorites menu.=Редактировать Избранное. Нажмите правую кнопку мыши, чтобы просмотреть список Избранного
+Open Group or Folder. Right-click to view Groups menu.=Открыть группу или папку. Нажмите правую кнопку мыши, чтобы просмотреть список групп
+View History. Right-click for more options.=Просмотреть Журнал посещений. Чтобы открыть меню, нажмите правую кнопку мыши
+Print this page. Right-click for more options.=Печатать эту страницу. Чтобы открыть меню, нажмите правую кнопку мыши
+Block Popups. Press F8 to toggle.=Блокировать всплывающие окна. Для переключения настроек нажмите F8
+View Preferences. Right-click to view Compact Menu.=Открыть Настройки браузера. Нажмите правую кнопку мыши, чтобы увидеть Компактное меню
+
+Mail/&News Buttons=Кнопки Почта/&Новости
+Read Mail. Right-click for more options.=Читать почту. Чтобы открыть меню, нажмите правую кнопку мыши
+Read News=Читать новости
+Read RSS Feeds=Читать ленты новостей
+
+&Zoom Buttons=&Кнопки масштаба
+Zoom In Text=Увеличить шрифт
+Zoom Out Text=Уменьшить шрифт
+Zoom In. Right-click for more options.=Увеличить.Чтобы открыть меню, нажмите правую кнопку мыши
+Zoom Out. Right-click for more options.=Уменьшить. Чтобы открыть меню, нажмите правую кнопку мыши
+
+&Search Buttons=К&нопки поиска
+Search the Web=Поиск в Интернете
+Type a word or phrase in the URL Bar, then click this button or press Ctrl+G to search the Web. Right-click to choose different search engine.=Введите слово или фразу в адресной строке и нажмите Ctrl+G для поиска. Чтобы открыть меню, нажмите правую кнопку мыши
+Search K-Meleon Forums=Поиск по форумам K-Meleon
+
+&Go Buttons=Кн&опки перехода
+Go to URL=Перейти по ссылке.
+Go to URL. Right-click for more options.=Перейти по ссылке. Чтобы открыть меню, нажмите правую кнопку мыши
+Go up one directory level. Right-click for more options.=Перейти на уровень выше. Чтобы открыть меню, нажмите правую кнопку мыши
+
+Tab/&Window Buttons=Кнопки Вкладок/&Окон
+Previous Window=Предыдущее окно
+Next Window=Следующее окно
+New Window=Новое окно
+Close Window. Right-click for more options.=Закрыть окно. Чтобы открыть меню, нажмите правую кнопку мыши
+Previous Tab. Right-click for more options.=Предыдущая вкладка. Чтобы открыть меню, нажмите правую кнопку мыши
+Next Tab. Right-click for more options.=Следующая вкладка. Чтобы открыть меню, нажмите правую кнопку мыши
+New Tab. Right-click for more options.=Новая вкладка. Чтобы открыть меню, нажмите правую кнопку мыши
+Close Tab. Right-click for more options.=Закрыть вкладку. Чтобы открыть меню, нажмите правую кнопку мыши
+
+&Privacy Bar=П&анель приватности
+Block Image Animation=Блокировать анимированные изображения
+Block Page Colors=Блокировать цвета сайта
+Block Cookies=Блокировать Cookies
+Block Images. Press F9 to toggle=Блокировать изображения. Нажмите F9 для переключения
+Block Images. Press F9 to toggle.=Блокировать изображения. Нажмите F9 для переключения
+Block Java Applets=Блокировать Java-апплеты
+Block JavaScript. Press F7 to toggle=Блокировать выполнение сценариев JavaScript. Нажмите F7 для переключения
+Block JavaScript. Press F7 to toggle.=Блокировать выполнение сценариев JavaScript. Нажмите F7 для переключения
+Block JavaScript on the current page=Отключить выполнение сценариев JavaScript только на этой странице
+Block JavaScript on the current page.=Отключить выполнение сценариев JavaScript только на этой странице
+Block Popups. Press F8 to toggle=Блокировать всплывающие окна. Нажмите F8 для переключения
+Block Popups. Press F8 to toggle.=Блокировать всплывающие окна. Нажмите F8 для переключения
+Block HTTP Referer=Не посылать HTTP Referer
+Clear Cache=Очистить кэш
+Clear Disk Cache=Очистить дисковый кэш
+Clear Cookies=Удалить cookies
+Clear History=Очистить журнал посещений
+Clear Passwords=Удалить сохранённые пароли
+Clear URL Bar History=Стереть историю адресной строки
+Clear All=Удалить все приватные данные
+Kill Flash Objects=Вырезать флеш из текущей страницы
+Kill Java Applets=Вырезать Java-апплеты из текущей страницы
+Check Browser Identity. Right-click to choose different User Agent=Идентификация браузера. Нажмите правую кнопку мыши, чтобы сменить User Agent
+# Animation=Анимация
+# Colors=Цвета
+# Info/UA=О браузере
+# Proxy=Прокси
+# JS-tab=JS в табе
+# Kill Flash=Выкл.флеш
+# Kill Java=Выкл.Java
+# Cache=Кэш
+
+
+# ---------- main.kmm ----------------------------------------------------------------------------------------------
+
+enabled=: включено
+disabled=: отключено
+
+# ----- K-Meleon Plugins
+
+Reloa&ding=О&бновление
+Reload &All Tabs=Обновить &все вкладки
+Reload all tabs in the current window=Обновить все вкладки в этом ок&не
+&Detach Tab=От&делить вкладку
+Detach this tab from the current window=Отделить вкладку от &текущего окна
+Clear A&ll=Удалить вс&ё
+Clear all privacy related data=Удалить все приватные данные?
+
+# ----- K-Meleon Preferences Panel (kmPrefs)
+
+Con&figure...=Настроить...
+&Options...=Опции...
+Change preferences and settings=Изменить предпочтения и настройки
+Mouse &Gestures...= Жесты мышью...
+&JavaScript=
+
+
+# ----- File Handling
+
+%s File=Файл %s	
+
+# ----- Opening URLs
+
+Enter URL:=Введите URL:
+Open=Открыть
+
+# ----- Mozilla Chrome
+
+C&onfiguration=Кон&фигурация
+P&ermissions=Р&азрешения
+&Master Password=&Мастер-пароль
+&Certificates=&Сертификаты
+JavaScript &Console=Консоль &JavaScript
+View cache information=Показать информацию о кэше
+View the browser configuration page=Показать страницу конфигурации браузера
+View C&ache=Показать кэш
+View information about the Cache Service=Показать информацию о кэш-сервисе #уточнить
+View &Certificates=Показать &сертификаты
+View stored certificates=Показать сохраненные сертификаты
+Error &Console=Консоль ошибок
+Open the error console=Открыть консоль ошибок
+
+
+# ----- Mozilla Preferences
+
+# Accessibility/Privacy/Security
+Toggle image animation=Вкл./Выкл. анимацию 
+Toggle page colors=Вкл./Выкл. цвета страницы
+Toggle cookie acceptance=Вкл./Выкл. прием cookie
+Toggle frame support=Вкл./Выкл. поддержку фреймов
+Toggle image loading=Вкл./Выкл. загрузку изображений
+Toggle Java support=Вкл./Выкл. исполнение Java-апплетов
+Toggle JavaScript execution=Вкл./Выкл. Java&Script
+Toggle popup blocking=Вкл./Выкл. блокировку всплывающих окон
+Toggle HTTP referer transmission=Вкл./Выкл. передачу HTTP referrer
+Image animation %s=Анимированные изображения %s
+Page color usage %s=Использование цветов сайта %s
+Cookie acceptance %s=Прием cookie %s
+Frame support %s=Поддержка фреймов %s
+Image loading %s=Загрузка изображений %s
+Java support %s=Поддержка Java %s
+JavaScript execution %s=Выполнение сценариев JavaScript %s
+Popup blocking %s=Блокировка всплывающих окон %s
+HTTP referer transmission %s=Передача HTTP referer %s 
+Block Co&okies=Блоки&ровать Cookies
+Block &Java=Блокироват&ь Java
+Block Java&Script=Блокирова&ть JavaScript
+Block &Popups=Блокировать &всплывающие окна
+Block &Images=Блокировать &изображения
+Block Image Ani&mation=Блокировать &анимированные изображения
+Block Page Co&lors=Блокировать &цвета сайтов
+Block &Frames=Блокировать &фреймы
+Block HTTP &Referer=Не посылать HTTP &Referer
+
+# Type Ahead Find
+Find As You Type %s.=Поиск по мере набора %s
+Find As You Type Autostart %s.=Автостарт поиска по мере набора %s
+Search All Text.=Искать во всём тексте
+Search Links Only.=Искать только ссылки
+Page &Search=Поиск на &странице
+Find As You &Type=Поиск по мере &набора
+Start &Automatically=Начинать &автоматически
+Search &Links Only=Искать &только ссылки
+Toggle Find As You Type =Вкл./Выкл. поиск по мере набора
+Toggle Find As You Type Autostart=Вкл./Выкл. автостарт поиска по мере набора (если автостарт выключен то для поиска в тексте надо сперва нажать  /  [слэш],  а для поиска в ссылках -  '  [апостроф])
+Toggle Find As You Type in links only=Вкл./Выкл. поиск только среди активных ссылок
+
+# ----- K-Meleon Preferences
+
+Ho&me=Н&ачало работы
+M&ake This Page Your Home Page=&Сделать эту страницу домашней
+Start With Home &Page=&Начинать работу с домашней страницы
+Start With &Blank Page=Начинать работу с &пустой страницы
+
+Toggle Flashblock=Вкл./Выкл. блокировку Flash
+Toggle Ad-Blocking StyleSheet=Вкл./Выкл. блокировку рекламы средствами CSS
+Flashblock %s=Блокировка флеш %s
+CSS Ad-Blocking %s=Блокировка рекламы средствами CSS %s
+Set the current page as the Home page=&Сделать эту страницу домашней
+Let K-Meleon start with a blank page=Начинать работу с &пустой страницы
+Let K-Meleon start with the Home page=&Начинать работу с домашней страницы
+Let K-Meleon start with a saved session=Начинать работу с со&храненной сессии
+Start With &Session...=На&чинать работу с сессии...
+Block F&lash=Блокировать флэш
+Block A&dvertisement=Блокировать рекламное содержимое
+
+# ----- JavaScript Document Handling
+
+Kill Fl&ash Objects=Вырезать флеш из текуще&й страницы
+Kill Ja&va Applets=Вырезать java-апплеты и&з текущей страницы
+&Reload Image=Об&новить изображение
+
+# ----- Miscellaneous
+
+# Go Buttons
+Open In &New Page=Открыть в &новой вкладке
+&Paste And Go=&Вставить и перейти по ссылке
+&Reset URL Bar=&Очистить адресную строку
+Go &Up One Directory Level=П&ерейти на уровень выше
+Go To &Top Directory Level=Пе&рейти на верхний уровень сайта
+Copy URL Bar contents to the Clipboard=Скопировать URL в буфер обмена
+Open URL Bar contents in a new page=Открыть URL на новой странице
+Open Clipboard contents as URL=Открыть содержимое буфера обмена как URL
+Reset the URL Bar=Сбросить адресную строку
+Open the selected text as URL or open URL Bar contents=Открыть выделенное как URL или открыть URL из адресной строки 
+Go to the topmost directory level of the current domain=Перейти в корневой каталог домена
+Go up one directory level in the current domain=Перейти в каталог на уровень выше текущего
+
+# Home Button
+Perform the Home button action=
+
+# RSS Button
+Perform the RSS button action=
+
+# Special Opening
+Open the selected text as URL=Открыть выделенный текст как URL
+View basic information on the K-Meleon project=Показать информацию о проекте K-Meleon
+Go to the K-Meleon Wiki=Перейти в K-Meleon Wiki
+Wel&come to K-Meleon != Доб&ро пожаловать в K-Meleon!
+K-Meleon &Wiki=K-Meleon &Wiki
+Open In &Background=Открыть в фо&не
+&Open As URL=&Открыть как URL
+
+# Special Macro Execution
+Frame support is currently disabled. It must be enabled to use this feature.=В данный момент поддержка фреймов отключена. Для использования этой функции необходима поддержка фреймов.
+JavaScript execution is currently disabled. It must be enabled to use this feature.=Выполнение сценариев JavaScript в данный момент отключено. Для использования этой функции необходимо выполнение сценариев JavaScript.
+Enable frame support and continue?=Включить поддержку фреймов и продолжить?
+Enable JavaScript execution and continue?=Включить выполнение сценариев JavaScript и продолжить?
+Frame Support Disabled=Поддержка фреймов отключена
+JavaScript Execution Disabled=Выполнение сценариев JavaScript отключено
+
+# ---------- accel.kmm ---------------------------------------------------------------------------------------------
+
+Mouse &Accelerators=Настройка кнопок м&ыши
+K-Meleon %1 (Default)=По умолчанию #уточнить
+Apply the specified mouse accelerator configuration=Применить указанные настройки кнопок мыши
+Default=По умолчанию
+
+
+# ---------- cfg.kmm -----------------------------------------------------------------------------------------------
+
+Browser Con&figuration=Кон&фигурация браузера
+&Profile Settings=Настройки &профиля
+&User Settings=Настройки &пользователя
+User-Defined &StyleSheet=Пользовательские таблицы &стилей
+&Toolbars=&Панели инструментов
+A&ccelerators=К&лавиатурные сокращения
+M&acros=Макрос&ы
+User-Defined Macr&os=Мак&росы пользователя
+M&enus=М&еню
+Co&mmands List=Список коман&д
+Profile &Directory=Папка профил&я
+Settings D&irectory=Папка нас&троек
+The file %s could not be found.=Файл %s не найден
+Open the profile directory=Открыть папку профиля
+Open the settings directory=Открыть папку settings
+Open the default macros directory=Открыть основную папку макросов
+Open the user macros directory=Открыть папку пользовательских макросов
+View a list of commands available for menus, macros and toolbars=Показать список команд для меню, макросов и панелей инструментов
+Edit a skin configuration file=Править файл конфигурации темы (скина)
+Edit a configuration file=Править файл конфигурации
+Edit a preferences file=Править файл настроек пользователя user.js
+Edit a user style sheet=Настроить пользовательские CSS
+Ad-&Blocking StyleSheet=CSS-файл для блокировки рекламы
+Me&nu Icons=Иконки в меню
+
+
+# ---------- compat.kmm --------------------------------------------------------------------------------------------
+
+Your profile was created by a version prior to K-Meleon %1. The following data has been updated:=Ваш профиль был создан в старой версии K-Meleon, вышедшей раньше K-Meleon %1. Были обновлены следующие данные:
+Please restart K-Meleon.=Пожалуйста, перезапустите K-Meleon.
+Welcome to K-Meleon %1 !=Добро пожаловать в K-Meleon %1 !
+Groups=Группы
+Groups converted to Sessions=Группы, преобразованные в сессии
+Former group:=Прошлая группа:
+
+
+# ---------- console2.kmm ------------------------------------------------------------------------------------------
+
+Error &Console=Консоль &ошибок
+Open the enhanced error console=Открыть улучшенную консоль ошибок
+
+# ---------- docinfo.kmm -------------------------------------------------------------------------------------------
+View image properties=Показать свойства изображения
+View link properties=Показать свойства ссылки
+Link Properties:=Свойства ссылки
+Image Properties:=Свойства изображения:
+URL:\\t%s=URL:\\t%s
+Size:\\t%W x %H Pixels=Размер:\\t%W x %H пикселов
+Alt. Text:\\t%s=Альтернативный текст:\\t%s
+A description is available for this image. Do you want to view it now?=Доступно описание этого изображения. Вы хотите просмотреть его сейчас?
+Link Properties:=Свойства ссылки:
+Ping:\\t%s=Пинг:\\t%s
+Properties of Linked Resource:=Свойства ресурса по ссылке:
+MIME Type:\\t%s=MIME тип:\\t%s
+Language:\\t%s=Язык:\\t%s
+Do you want to view the linked resource now?=Вы хотите просмотреть содержимое ссылки сейчас?
+(unknown)=(неизвестно)
+View all links in the current page=Показать все ссылки на текущей странице
+View all links in the current frame=Показать все ссылки в данном фрейме
+View all images linked by the current page=Показать все изображения, на которые ссылается эта страница
+View all images linked by the current frame=Показать все изображения, на которые ссылается этот фрейм
+View all images in the current page=Показать все изображения с данной страницы
+View all images in the current frame=Показать все изображения из данного фрейма
+A script error occured accessing this frame. Probably this frame belongs to another domain and access was denied for security reasons.=Ошибка сценария, произошедшая при попытке доступа к этому фрейму. Возможно, этот фрейм связан с другим доменом и доступ закрыт по соображениям безопасности.
+No links found.=Ссылки не найдены.
+Links: %s=Ссылки: %s
+No linked images found.=Изображения по ссылкам не найдены.
+Linked Images: %s=Изображения по ссылкам: %s
+No images found.=Изображения не найдены.
+Images: %s=Изображения: %s
+
+Image &Properties=&Свойства изображения
+Link &Properties=&Свойства ссылки
+Li&nks=Сс&ылки
+Link&ed Images=Изображени&я по ссылкам
+Im&ages=Изображения
+
+# ---------- domcomplete.kmm ---------------------------------------------------------------------------------------
+
+Apply the specified domain completion=Применить выбранный способ завершения домена
+
+# ---------- encoding.kmm ------------------------------------------------------------------------------------------
+
+En&coding=&Кодировка
+
+&Auto Detect=&Автоопределение
+(O&ff)=(&Отключено)
+Uni&versal=&Универсальная
+Ch&inese=&Китайская
+J&apanese=&Японская
+K&orean=К&орейская
+&East Asian=&Восточноазиатская
+Ru&ssian=&Русская
+U&krainian=&Украинская
+
+&More Encodings=&Дополнительные
+&West European=&Западноевропейская
+E&ast European=&Восточноевропейская
+&SE And SW Asian=&Юговосточная и югозападная азиатская
+&Middle Eastern=&Средневосточная
+&Unicode=Ю&никод
+
+# see chrome\xx-YY.jar!/locale/xx-YY/global/charsetTitles.properties
+&Western (ISO-8859-1)=&Западноевропейская (ISO-8859-1)
+Western (ISO-8859-15)=Западноевропейская (ISO-8859-15)
+Western (IBM-850)=Западноевропейская (IBM-850)
+Western (MacRoman)=Западноевропейская (MacRoman)
+We&stern (Windows-1252)=За&падноевропейская (Windows-1252)
+Celtic (ISO-8859-14)=Кельтская (ISO-8859-14)
+Greek (ISO-8859-7)=Греческая (ISO-8859-7)
+Greek (MacGreek)=Греческая (MacGreek)
+Greek (Windows-1253)=Греческая (Windows-1253)
+Icelandic (MacIcelandic)=Исландская (MacIcelandic)
+Nordic (ISO-8859-10)=Скандинавская (ISO-8859-10)
+South European (ISO-8859-3)=Южноевропейская (ISO-8859-3)
+Baltic (ISO-8859-4)=Прибалтийская (ISO-8859-4)
+Baltic (ISO-8859-13)=Прибалтийская (ISO-8859-13)
+Baltic (Windows-1257)=Прибалтийская (Windows-1257)
+Central European (IBM-852)=Центральноевропейская (IBM-852)
+Central European (ISO-8859-2)=Центральноевропейская (ISO-8859-2)
+Central European (MacCE)=Центральноевропейская (MacCE)
+Central European (Windows-1250)=Центральноевропейская (Windows-1250)
+Croatian (MacCroatian)=Хорватская (MacCroatian)
+Cyrillic (IBM-855)=Кириллица (IBM-855)
+Cyrillic (ISO-8859-5)=Кириллица (ISO-8859-5)
+Cyrillic (ISO-IR-111)=Кириллица (ISO-IR-111)
+Cyrillic (KOI8-R)=Кириллица (KOI8-R)
+Cyrillic (MacCyrillic)=Кириллица (MacCyrillic)
+Cyrillic (Windows-1251)=Кириллица (Windows-1251)
+Cyrillic/Russian (CP-866)=Кириллица/Россия (CP-866)
+Cyrillic/Ukrainian (KOI8-U)=Кириллица/Украина (KOI8-U)
+Cyrillic/Ukrainian (MacUkrainian)=Кириллица/Украина (MacUkrainian)
+Romanian (ISO-8859-16)=Румынская (ISO-8859-16)
+Romanian (MacRomanian)=Румынская (MacRomanian)
+Chinese Simplified (GB2312)=Китайская упрощённая (GB2312)
+Chinese Simplified (GBK)=Китайская упрощённая (GBK)
+Chinese Simplified (GB18030)=Китайская упрощённая (GB18030)
+Chinese Simplified (HZ)=Китайская упрощённая (HZ)
+Chinese Simplified (ISO-2022-CN)=Китайская упрощённая (ISO-2022-CN)
+Chinese Traditional (Big5)=Китайская традиционная (Big5)
+Chinese Traditional (Big5-HKSCS)=Китайская традиционная (Big5-HKSCS)
+Chinese Traditional (EUC-TW)=Китайская традиционная (EUC-TW)
+Japanese (EUC-JP)=Японская (EUC-JP)
+Japanese (ISO-2022-JP)=Японская (ISO-2022-JP)
+Japanese (Shift_JIS)=Японская (Shift_JIS)
+Korean (EUC-KR)=Корейская (EUC-KR)
+Korean (UHC)= Корейская (UHC)
+Korean (JOHAB)=Корейская (JOHAB)
+Korean (ISO-2022-KR)=Корейская (ISO-2022-KR)
+Armenian (ARMSCII-8)=Армянская (ARMSCII-8)
+Georgian (GEOSTD8)=Грузинская (GEOSTD8)
+Thai (TIS-620)=Тайская (TIS-620)
+Thai (ISO-8859-11)=Тайская (ISO-8859-11)
+Thai (Windows-874)=Тайская (Windows-874)
+Turkish (IBM-857)=Турецкая (IBM-857)
+Turkish (ISO-8859-9)=Турецкая (ISO-8859-9)
+Turkish (MacTurkish)=Турецкая (MacTurkish)
+Turkish (Windows-1254)=Турецкая (Windows-1254)
+Vietnamese (TCVN)=Вьетнамская (TCVN)
+Vietnamese (VISCII)=Вьетнамская (VISCII)
+Vietnamese (VPS)=Вьетнамская (VPS)
+Vietnamese (Windows-1258)=Вьетнамская (Windows-1258)
+Hindi (MacDevanagari)=Хинди (MacDevanagari)
+Gujarati (MacGujarati)=Гуджарати (MacGujarati)
+Gurmukhi (MacGurmukhi)=Гурмуки (MacGurmukhi)
+Arabic (ISO-8859-6)=Арабская (ISO-8859-6)
+Arabic (Windows-1256)=Арабская (Windows-1256)
+Arabic (IBM-864)=Арабская (IBM-864)
+Arabic (MacArabic)=Арабская (MacArabic)
+Farsi (MacFarsi)=Фарси (MacFarsi)
+Hebrew (ISO-8859-8-I)=Иврит (ISO-8859-8-I)
+Hebrew (Windows-1255)=Иврит (Windows-1255)
+Hebrew Visual (ISO-8859-8)=Иврит Visual (ISO-8859-8)
+Hebrew (IBM-862)=Иврит (IBM-862)
+Hebrew (MacHebrew)=Иврит (MacHebrew)
+&Unicode (UTF-8)=&Юникод (UTF-8)
+U&nicode (UTF-16)=Ю&никод (UTF-16)
+Unicode (UTF-16 Little Endian)=Юникод (UTF-16 Little Endian)
+Unicode (UTF-16 Big Endian)=Юникод (UTF-16 Big Endian)
+Unicode (UTF-32 Little Endian)=Юникод (UTF-32 Little Endian)
+Unicode (UTF-32 Big Endian)=Юникод (UTF-32 Big Endian)
+Unicode (UTF-7)=Юникод (UTF-7)
+
+# ---------- groups.kmm --------------------------------------------------------------------------------------------
+
+Add To Group=Добавить в группу
+Enter group name to add this page to:=Ввести название группы и добавить эту страницу:
+Enter group name to add this link to:=Ввести название группы и добавить эту ссылку:
+Enter group name to add these layers to:=Ввести название группы и добавить вкладки:
+Delete Group=Удалить группу
+Enter name of group to delete:=Введите название группы для удаления #уточнить
+No group named '%s' found.=Группа '%s' не найдена
+No folder named '%s' found.=Папка '%s' не найдена
+No group or folder named '%s' found.=Группа или папка '%s' не найдены
+Enter folder nick:=Введите псеводним папки
+Enter group name:=Введите название группы
+Enter group name or folder nick:=Введите псеводним группы или папки
+Open Folder=Открыть папку
+Open Group=Открыть группу
+Open Group Or Folder=Открыть группу или папку
+Startup Folder=Стартовая папка
+Startup Group=Стартовая группа
+Startup Group Or Folder=Стартовая группа или папка
+K-Meleon wasn't closed properly. Do you want to resume your last browsing session?=Работа K-Meleon была завершена некорректно. Восстановить последнюю сессию?
+
+Open &Last Session=Открыть &последнюю сессию
+Open &Startup Group=Открыть &стартовую группу
+Open &Startup Folder=Открыть &стартовую папку
+Start With &Group...=Начать работу с &группы
+Start With &Folder...=Начать работу с &папки
+Start With Last S&ession=начать работу с последней &сессии
+&Groups=&Группы
+&Add Page To Group...=&Добавить страницу в группу...
+Add &Layers To Group...=Добавить &вкладки в группу...
+&Delete Group...=&Удалить группу...
+Add Page To &Group...=Добавить страницу в &группу...
+Add Link To &Group...=Добавить ссылку в &группу...
+&Last Session=&Последняя сессия
+
+# ---------- hotlink.kmm -------------------------------------------------------------------------------------------
+
+&Hotlinks...=Популярные ссылки
+Open the specified hotlink=Открыть выбранную популярную ссылку
+
+# ---------- ie.kmm ------------------------------------------------------------------------------------------------
+
+Program Files=Файлы программ
+Open In &Internet Explorer=Открыть в &Internet Explorer
+&Internet Explorer=&Internet Explorer
+Open page in Internet Explorer=Открыть ст?раницу в Internet Explorer
+Open link in Internet Explorer=Открыть ?ссылку в Internet Explorer
+Open image in Internet Explorer=Открыть ?изображение в Internet Explorer
+Open URL Bar contents in Internet Explorer=Открыть содержимое &адресной строки в Internet Explorer
+
+# ---------- kmprefs.kmm -------------------------------------------------------------------------------------------
+
+Con&figure...=Нас&троить...
+&Options...=&Параметры...
+
+A&dvanced Preferences=Д&ополнительные настройки
+Ad-&Blocking StyleSheet=Таблица стилей блокирования рекламного содержимого
+Mouse &Gestures...=Жесты &мышью
+&Hotlinks...=&Горячие ссылки...
+Content &Filters=Фильтрация &содержимого
+&JavaScript=&JavaScript
+&Master Password=&мастер-пароль
+
+# ---------- mail.kmm ----------------------------------------------------------------------------------------------
+
+Mail Configuration=Установка пути к почтовому клиенту
+News Configuration=Установка пути к клиенту новостей
+Enter your mail client's path or your web mailer's URL:=Введите путь к вашему почтовому клиенту или адрес вашего почтового сервера:
+Enter your news client's path or your news provider's URL:=Введите путь к вашему клиенту новостей или адрес вашего новостного провайдера:
+
+Specify your client for reading mail=Выберите программу для чтения почты
+Specify your client for reading news=Выберите программу для чтения новостей
+Open your client for reading mail=Открыть почтовый клиент
+Open your client for reading news=Открыть новостной клиент
+Compose a new message=Создать новое сообщение
+Send a link to the current page by mail=Послать ссылку на текущую страницу по почте
+Send the current link by mail=Послать данную ссылку по почте
+Send a link to the current image by mail=Послать ссылку на текущее изображение по почте
+Send a link to the current frame by mail=Послать ссылку на текущий фрейм по почте
+Send the selected text by mail=Послать выделенный текст по почте
+
+&Mail And News=&Почта и новости
+Read &Mail=Чтение &почты
+Read &News=Чтение &новостей
+Read &RSS Feeds=Чтение н&овостных лент в NewsFox
+Configure M&ail...=Установка внешнего по&чтового клиента...
+Configure N&ews...=&Установка внешнего новостного клиента...
+New Me&ssage...=Новое &сообщение...
+Sen&d Page As Link...=&Отправить страницу как ссылку...
+Sen&d Frame As Link...=&Отправить фрейм как ссылку...
+Sen&d Image As Link...=&Отправить изображение как ссылку...
+Sen&d Link URL...=О&тправить адрес ссылки...
+Sen&d By Mail...=О&тправить по почте...
+
+# ---------- mru.kmm -----------------------------------------------------------------------------------------------
+
+#&Undo Last Closed=&Отменить последние закрытия
+
+# ---------- mtypes.kmm --------------------------------------------------------------------------------------------
+
+MIME T&ypes=MIME т&ипы
+Change file type settings=Изменить настройки работы с типами данных
+
+# ---------- newsfox.kmm -------------------------------------------------------------------------------------------
+
+#NewsFo&x=NewsFo&x
+Open NewsFox for reading news feeds=Открыть NewsFox для чтения новостных лент
+
+# ---------- proxy.kmm ---------------------------------------------------------------------------------------------
+
+HTTP Proxy Configuration=Конфигурация HTTP прокси
+Current settings for automatic proxy configuration:=Текущие параметры для автоматической настройки прокси
+(not set)= (не указано)
+URL: %s=URL: %s
+Do you want to change these settings?=Хотите изменить эти настройки:
+Connecting directly=Прямое соединение
+Connecting over proxy %url:%port=
+Connecting according to %s=Подключать по %s
+Connecting over any detected proxy=Подключать через любой найденный прокси
+Automatic proxy configuration URL:=Адрес автоматической настройки прокси
+Current settings for proxy %n:=Текущие параметры для прокси %n:
+Server name:\t%s=Имя сервера:\t%s
+Server URL:\t%s=URL сервера:\t%s
+Server port:\t%s=Порт сервера:\t%s
+Server name:=Имя сервера:
+Server URL:=URL сервера:
+Server port:=Порт сервера:
+
+Pro&xy=Про&кси
+&Direct Connection=&Подключаться напрямую
+&Auto Detect=&Автоматическое определение
+Auto &Configure=Автоматическая &настройка
+#Con&figure...=#Настройка...
+
+# ---------- reload.kmm --------------------------------------------------------------------------------------------
+
+Continuously reload the current page=Периодически обновлять текущую страницу
+Continuous Reload=Обновлять каждые...
+Enter number of seconds between reloads:=Введите число секунд между обновлениями:
+hours=час(ы,ов)
+minutes=минут(ы)
+seconds=секунд(ы)
+Reloading: %s=Обновление: %s
+Reloading in %t %u (Click to abort)=Обновление через %t %u (нажмите, чтобы прервать)
+&Continuous Reload...=&Обновлять каждые...
+
+# ---------- search.kmm --------------------------------------------------------------------------------------------
+
+Consult the default search engine=Искать в основном поисковике
+Search the Web for Clipboard contents=Искать в Сети содержимое буфера обмена
+Lock or unlock the current search engine as the default engine=Зафиксировать этот поисковик как основной/снять фиксацию
+Search the Web using multiple engines=Искать в Сети с помощью нескольких поисковых систем
+Search the K-Meleon forums=Искать на форумах K-Meleon
+Search the Web using the specified engine=Искать в Сети с использованием выбранного поисковика
+Last used engine=Последняя использованная поисковая система
+Default search engine: %s=Поисковая система по умолчанию: %s
+K-Meleon Forums Search=Поиск по форумам K-Meleon
+Enter search query:=Введите поисковый запрос
+Search (%s)=Поиск (%s)
+Multisearch=Мультипоиск
+
+K-Meleon Forums &Search...=&Поиск по форумам K-Meleon...
+&Multisearch=&Мультипоиск
+Use As &Default Engine=Использовать в качестве поисковой машины по &умолчанию
+Paste And &Search=Вставить и &произвести поиск
+
+# ---------- sendto.kmm --------------------------------------------------------------------------------------------
+
+S&end Page To=От&править страницу в
+S&end Link To=От&править ссылку в
+S&end Image To=От&править изображение в
+S&end To=От&править в
+
+# ---------- translate.kmm -----------------------------------------------------------------------------------------
+
+Translate from the specified language=Перевести с выбранного языка
+Translate to the specified language=Перевести на выбранный язык
+Show languages from the specified region in the translation menu or not=Показывать языки выбранного региона в меню перевода или нет
+Sorry, local and secure pages cannot be translated!=Извините, но локальные и безопасные страницы не могут быть переведены!
+&Translation=Перевод
+&Languages=Языки
+&To=На
+&Using=С помощью
+&West European=Западноевропейские
+&North European=Североевропейские
+E&ast European=Восточноевропейские
+S&outh European=Южноевропейские
+#&East Asian=Восточно-азиатские
+#&SE And SW Asian=Югозападно- и юговосточно-азиатские
+#&Middle Eastern=Языки среднего востока
+&Babel Fish Translation=Перевод с помощью Babel Fish
+Use Babel Fish Translation=Использовать переводчик Babel Fish
+Use Google Translate=Использовать Google-переводчик
+&Google Translate=Google-переводчик
+From (Detect &Language)=С (определить язык)
+Available target languages:=Доступные языки перевода:
+From &English=С английского
+From &Spanish=С испанского
+From &Portuguese=С португальского
+From &French=С французского
+From &German=С немецкого
+From &Dutch=С голландского
+From Da&nish=С датского
+From S&wedish=Со шведского
+From Fi&nnish=С финского
+From &Norwegian=С норвежского
+From &Russian=С русского
+From P&olish=С польского
+From C&zech=С чешского
+From &Italian=С итальянского
+From Cro&atian=С хорватского
+From Ro&manian=С румынского
+From &Bulgarian=С болгарского
+From Gr&eek=С греческого
+From Chi&nese (Simplified)=C упрощенного китайского
+From &Chinese (Traditional)=С традиционного китайского
+From &Korean=С корейского
+From &Japanese=С японского
+From &Hindi=С хинди
+From &Arabic=С арабского
+P&olish=Польский
+C&zech=&Чешский
+Cro&atian=Х&орватский
+Ro&manian=Ру&мынский
+&Bulgarian=&Болгарский
+&English=&Английский
+&Spanish=&Испанский
+&Portuguese=&Португальский
+&French=&Французский
+&German=&Немецкий
+&Dutch=&Голландский
+Da&nish=&Датский
+S&wedish=&Шведский
+Fi&nnish=&Финский
+&Norwegian=Норве&жский
+&Italian=&Итальянский
+Gr&eek=&Греческий
+&Russian=&Русский
+&Korean=&Корейский
+&Japanese=&Японский
+&Chinese (Traditional)=&Китайский (традиционный)
+Chi&nese (Simplified)=&Китайский (упрощённый)
+&Hindi=Хинди
+&Arabic=Арабский
+
+"English\t\t =Английский\t\t
+"Spanish\t\t =Испанский\t\t
+"Portuguese\t =Португальский\t\t
+"French\t\t =Французский\t\t
+"German\t\t =Немецкий\t\t
+"Dutch\t\t =Датский\t\t
+"Italian\t\t =Итальянский\t\t
+"Greek\t\t =Греческий\t\t
+"Russian\t\t =Русский\t\t
+"Korean\t\t =Корейский\t\t
+"Japanese\t\t =Японский\t\t
+"Chinese (Traditional) =Китайский (традиционный)
+"Chinese (Simplified)\t =Китайский (упрощённый)
+Enter the desired language's two-letter code into the following prompt.=Введите двухбуквенный код желаемого языка в следующем поле.
+Two-letter target language code:=Двухбуквенный код языка:
+Sorry, local and secure pages cannot be translated!=Извините, локальные и зашифрованные страницы не могут быть переведены!
+&To (Specify Language)...=&На (указать язык)...
+
+# ---------- useragent.kmm -----------------------------------------------------------------------------------------
+
+Enter the User Agent string to identify K-Meleon as:=Введите строку User Agent для идентифицикации K-Meleon как:
+Custom User Agent=User Agent браузера, установленный пользователем
+
+&User Agent=П&редставляться как...
+#K-Meleon %1 (Default)=K-Meleon %1 (по умолчанию)
+&Custom...=&Установить...
+&Reset To Default On Exit=&Вернуть User Agent по умолчанию при выходе
+
+# ---------- zoom.kmm ----------------------------------------------------------------------------------------------
+
+Perform the Zoom In button action=Выполнить команду кнопки увеличения
+Perform the Zoom Out button action=Выполнить команду кнопки уменьшения
+Zoom into the current page=Увеличить текущую страницу
+Zoom out of the current page=Уменьшить текущую страницу
+Increase image size=Увеличить изображение
+Decrease image size=Уменьшить изображение
+Increase the size of the current image=Увеличить размер данного изображения
+Decrease the size of the current image=Уменьшить размер данного изображения
+Let zoom buttons effect text and images=Позволить кнопкам масштабировать текст и изображения
+Let zoom buttons effect text only=Позволить кнопкам масштабировать только текст 
+Let zoom buttons effect images only=Позволить кнопкам масштабировать только изображения
+Zoom buttons effect text and images.=Кнопки масштабируют текст и изображения.
+Zoom buttons effect text only.=Кнопки масштабируют только текст
+Zoom buttons effect images only.=Кнопки масштабируют только изображения
+
+&Zoom=&Масштаб
+Zoom In &Page=Увеличить &страницу
+Zoom In &Images=Увеличить &изображения
+Zoom Out P&age=Уменьшить стр&аницу
+Zoom Out I&mages=Уменьшить и&зображения
+Zoom I&n=&Увеличить
+Zoom Ou&t=У&меньшить
+Zoom &Buttons=&Параметры кнопок масштаба
+Zoom Full &Page=Масштабировать &страницу полностью
+Zoom &Text Only=Масштабировать только &текст
+Zoom &Images Only=Масштабировать только &изображения
+&Reset Zoom=Сбросить масшта&бирование
+
+# ---------- useragentmode.kmm ---------------------------------------------------------------------------------------
+Firefox compatibility mode=Режим web-совместимости с Firefox
+
+# ---------- troubleshooting.kmm ---------------------------------------------------------------------------------------
+Troubleshooting=Решение проблем установки
+Check Privilege=Проверить права доступа к папке профиля
+Check Program Defaults=Проверить установки браузера по умолчанию
+KM profile privilege checked successfully=Доступ на запись к папке профиля K-Meleon проверен успешно!
+Check KM profile write privilege=Проверить права записи в каталог профиля K-Meleon
+
+# ---------- flashblock.kmm ---------------------------------------------------------------------------------------
+Flash&block=Блокировка Flash
+Disable flash for this website=Запретить Flash на этой странице
+Enable flash for this website=Разрешить Flash на этой странице
+More options and whitelisting=Больше настроек блокировки
+Open advanced Flashblock options=Открыть панель настройки Flashblock

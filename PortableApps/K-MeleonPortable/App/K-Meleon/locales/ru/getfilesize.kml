@@ -1,0 +1,6 @@
+# LANGUAGE DEFINITION FILE FOR Get file size
+
+# ----- Get file size -----
+Link Services=Информация о файле по ссылке
+File Information=&Определить размер файла
+Image Information=&Информация об изображении

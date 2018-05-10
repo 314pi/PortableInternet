@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created by Max Velasques-->
+<resource version="2.3.0.1">
+    <object class="wxToolBar" name="toolbar">
+        <!--REMOVE THE wxTB_TEXT FLAG TO REMOVE LABELS -->
+        <style>wxTB_FLAT|wxTB_3DBUTTONS|wxTB_TEXT</style>
+        <bitmapsize>40,40</bitmapsize>
+        <object class="tool"  name="toolnew">
+            <label>New</label>
+            <bitmap>RipStop/toolbar/download_new.png</bitmap>
+            <tooltip>Add new download</tooltip>
+        </object>
+        <object class="tool"  name="toolremove">
+            <label>Remove</label>
+            <bitmap>RipStop/toolbar/download_remove.png</bitmap>
+            <tooltip>Remove the selected download</tooltip>
+        </object>
+            <object class="separator"/>
+        <object class="tool"  name="toolschedule">
+            <label>Schedule</label>
+            <bitmap>RipStop/toolbar/download_schedule.png</bitmap>
+            <tooltip>Mark the selected download as scheduled</tooltip>
+        </object>
+        <object class="tool"  name="toolstart">
+            <label>Start</label>
+            <bitmap>RipStop/toolbar/download_start.png</bitmap>
+            <tooltip>Start the selected download</tooltip>
+        </object>
+        <object class="tool"  name="toolstop">
+            <label>Stop</label>
+            <bitmap>RipStop/toolbar/download_stop.png</bitmap>
+            <tooltip>Stop the selected download</tooltip>
+        </object>
+        <object class="tool"  name="toolstartall">
+            <label>Start All</label>
+            <bitmap>RipStop/toolbar/download_start_all.png</bitmap>
+            <tooltip>Start all downloads</tooltip>
+        </object>
+        <object class="tool"  name="toolstopall">
+            <label>Stop All</label>
+            <bitmap>RipStop/toolbar/download_stop_all.png</bitmap>
+            <tooltip>Stop all downloads</tooltip>
+        </object>
+            <object class="separator"/>
+        <object class="tool"  name="toolup">
+            <label>Up</label>
+            <bitmap>RipStop/toolbar/download_move_up.png</bitmap>
+            <tooltip>Push download higher up the queue</tooltip>
+        </object>
+        <object class="tool"  name="tooldown">
+            <label>Down</label>
+            <bitmap>RipStop/toolbar/download_move_down.png</bitmap>
+            <tooltip>Push download lower down the queue</tooltip>
+        </object>
+            <object class="separator"/>
+        <object class="tool"  name="toolproperties">
+            <label>Properties</label>
+            <bitmap>RipStop/toolbar/download_info.png</bitmap>
+            <tooltip>Show the properties of the selected download</tooltip>
+        </object>
+        <!--    <object class="separator"/>
+        <object class="tool"  name="toolclose">
+            <label>Close</label>
+            <bitmap>big/close.xpm</bitmap>
+            <tooltip>Close the program</tooltip>
+        </object> -->
+    </object>
+</resource>

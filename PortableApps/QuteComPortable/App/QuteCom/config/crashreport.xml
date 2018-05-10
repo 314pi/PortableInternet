@@ -1,0 +1,5 @@
+<settings>
+<ftp.server><string>qutecom.org/reports/</string></ftp.server>
+<ftp.login><string>crashreport</string></ftp.login>
+<ftp.password><string>qutecom</string></ftp.password>
+</settings>

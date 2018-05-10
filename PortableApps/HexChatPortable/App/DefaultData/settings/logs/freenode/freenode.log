@@ -1,0 +1,58 @@
+**** BEGIN LOGGING AT Wed Jan  4 22:08:59 2017
+
+Jan 04 22:08:59 *	*** Looking up your hostname...
+Jan 04 22:08:59 *	*** Checking Ident
+Jan 04 22:08:59 *	*** Found your hostname
+Jan 04 22:09:03 *	*** No Ident response
+Jan 04 22:09:03 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jan 04 22:09:03 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jan 04 22:09:03 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed Jan  4 22:09:03 2017
+
+**** BEGIN LOGGING AT Wed Jan  4 22:09:03 2017
+
+Jan 04 22:09:03 *	Welcome to the freenode Internet Relay Chat Network John
+Jan 04 22:09:03 *	Your host is cherryh.freenode.net[149.56.134.238/6697], running version ircd-seven-1.1.4
+Jan 04 22:09:03 *	This server was created Mon Jan 2 2017 at 17:21:31 EST
+Jan 04 22:09:03 *	cherryh.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jan 04 22:09:03 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jan 04 22:09:03 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+Jan 04 22:09:03 *	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+Jan 04 22:09:03 *	There are 138 users and 81910 invisible on 33 servers
+Jan 04 22:09:03 *	28 :IRC Operators online
+Jan 04 22:09:03 *	19 :unknown connection(s)
+Jan 04 22:09:03 *	54580 :channels formed
+Jan 04 22:09:03 *	I have 4380 clients and 1 servers
+Jan 04 22:09:03 *	4380 4995 :Current local users 4380, max 4995
+Jan 04 22:09:03 *	82048 90166 :Current global users 82048, max 90166
+Jan 04 22:09:03 *	Highest connection count: 4996 (4995 clients) (46642 connections received)
+Jan 04 22:09:03 *	- cherryh.freenode.net Message of the Day - 
+Jan 04 22:09:03 *	- Welcome to freenode - supporting the free and open source
+Jan 04 22:09:03 *	- software communities since 1998.
+Jan 04 22:09:03 *	-  
+Jan 04 22:09:03 *	- By connecting to freenode you indicate that you have read and
+Jan 04 22:09:03 *	- accept our policies as set out on http://www.freenode.net
+Jan 04 22:09:03 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jan 04 22:09:03 *	- any network-related questions or queries, where a number of
+Jan 04 22:09:03 *	- volunteer staff and helpful users will be happy to assist you.
+Jan 04 22:09:03 *	-  
+Jan 04 22:09:03 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jan 04 22:09:03 *	- together with like-minded FOSS enthusiasts for talks and
+Jan 04 22:09:03 *	- real-life collaboration.
+Jan 04 22:09:03 *	-  
+Jan 04 22:09:03 *	- We would like to thank Private Internet Access
+Jan 04 22:09:03 *	- (https://www.privateinternetaccess.com/) and the other
+Jan 04 22:09:03 *	- organisations that help keep freenode and our other projects
+Jan 04 22:09:03 *	- running for their sustained support.
+Jan 04 22:09:03 *	-  
+Jan 04 22:09:03 *	- In particular we would like to thank the sponsor
+Jan 04 22:09:03 *	- of this server, details of which can be found above.
+Jan 04 22:09:03 *	-  
+Jan 04 22:09:03 *	End of /MOTD command.
+Jan 04 22:09:03 *	John sets mode +Z on John
+Jan 04 22:09:03 *	John sets mode +i on John
+Jan 04 22:09:03 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+Jan 04 22:09:03 -NickServ-	You have 30 seconds to identify to your nickname before it is changed.
+Jan 04 22:09:17 Update Checker plugin unloaded
+**** ENDING LOGGING AT Wed Jan  4 22:09:17 2017
+

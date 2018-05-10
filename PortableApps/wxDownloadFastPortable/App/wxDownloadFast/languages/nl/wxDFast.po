@@ -1,0 +1,1650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-03-05 18:48-0300\n"
+"Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: resources\n"
+
+#: src/TaskBarIcon.cpp:63
+#: src/MainFrame.cpp:838
+msgid "Total Speed:"
+msgstr "Totale Snelheid:"
+
+#: src/TaskBarIcon.cpp:65
+msgid "Total Complete:"
+msgstr "Totaal reeds gereed:"
+
+#: src/TaskBarIcon.cpp:67
+msgid "Downloads in progress:"
+msgstr "Actieve downloads:"
+
+#: src/TaskBarIcon.cpp:84
+msgid "Hide the main window"
+msgstr "Verberg hoofdvenster"
+
+#: src/TaskBarIcon.cpp:86
+msgid "Show the main window"
+msgstr "Toon hoofdvenster"
+
+#: src/TaskBarIcon.cpp:87
+msgid "New download"
+msgstr "Nieuwe download"
+
+#: src/TaskBarIcon.cpp:88
+#: src/MainFrame.cpp:2967
+msgid "Close the program"
+msgstr "Sluit programma af"
+
+#: src/TaskBarIcon.cpp:91
+#: src/TaskBarIcon.cpp:171
+#: src/TaskBarIcon.cpp:192
+#: src/TaskBarIcon.cpp:214
+#: src/MainFrame.cpp:441
+#: src/MainFrame.cpp:448
+#: src/MainFrame.cpp:456
+#: src/MainFrame.cpp:1857
+#: src/MainFrame.cpp:1864
+#: src/MainFrame.cpp:1872
+#: src/MainFrame.cpp:2652
+#: src/MainFrame.cpp:2664
+#: src/MainFrame.cpp:2676
+msgid "Band control"
+msgstr "Bandbreedte"
+
+#: src/TaskBarIcon.cpp:93
+#: src/TaskBarIcon.cpp:173
+#: src/MainFrame.cpp:458
+#: src/MainFrame.cpp:1874
+#: src/MainFrame.cpp:2678
+msgid "Unlimited"
+msgstr "Ongelimiteerd"
+
+#: src/TaskBarIcon.cpp:93
+#: src/TaskBarIcon.cpp:95
+#: src/TaskBarIcon.cpp:96
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "Alleen voor deze sessie. Ga naar \"Opties\" voor permanente verandering."
+
+#: src/TaskBarIcon.cpp:94
+#: src/TaskBarIcon.cpp:194
+#: src/MainFrame.cpp:450
+#: src/MainFrame.cpp:1866
+#: src/MainFrame.cpp:2666
+msgid "Active"
+msgstr "Actief"
+
+#: src/TaskBarIcon.cpp:96
+#: src/TaskBarIcon.cpp:216
+#: src/MainFrame.cpp:443
+#: src/MainFrame.cpp:1859
+#: src/MainFrame.cpp:2654
+msgid "Per Download"
+msgstr "Per download"
+
+#: src/MainFrame.cpp:147
+msgid "Downloads in Progress"
+msgstr "Actieve downloads"
+
+#: src/MainFrame.cpp:148
+msgid "Finished Downloads"
+msgstr "Downloads gereed"
+
+#: src/MainFrame.cpp:361
+#: /tmp/dummy:25
+msgid "Schedule Download"
+msgstr "Rooster download in"
+
+#: src/MainFrame.cpp:362
+#: /tmp/dummy:26
+#: /tmp/dummy:93
+msgid "Start Download"
+msgstr "Start download"
+
+#: src/MainFrame.cpp:363
+#: /tmp/dummy:27
+msgid "Stop Download"
+msgstr "Stop download"
+
+#: src/MainFrame.cpp:364
+#: /tmp/dummy:24
+msgid "Remove Download"
+msgstr "Verwijder download"
+
+#: src/MainFrame.cpp:365
+msgid "Properties of Download"
+msgstr "Eigenschappen download"
+
+#: src/MainFrame.cpp:366
+#: /tmp/dummy:63
+msgid "Download File Again"
+msgstr "Download bestand opnieuw"
+
+#: src/MainFrame.cpp:367
+#: /tmp/dummy:60
+msgid "Move File"
+msgstr "Verplaats bestand"
+
+#: src/MainFrame.cpp:368
+#: /tmp/dummy:61
+msgid "Check Integrity"
+msgstr "Controleer integriteit"
+
+#: src/MainFrame.cpp:369
+#: /tmp/dummy:33
+msgid "Copy URL"
+msgstr "Kopieer URL"
+
+#: src/MainFrame.cpp:370
+#: /tmp/dummy:34
+msgid "Copy Download Data"
+msgstr "Kopieer downloadgegevens"
+
+#: src/MainFrame.cpp:371
+#: /tmp/dummy:62
+msgid "Open Destination Directory"
+msgstr "Open bestemmingsmap"
+
+#: src/MainFrame.cpp:434
+#: src/MainFrame.cpp:1850
+#: src/MainFrame.cpp:3135
+msgid "NEW RELEASE: "
+msgstr "NIEUWE VERSIE: "
+
+#: src/MainFrame.cpp:436
+#: src/MainFrame.cpp:1852
+#: src/MainFrame.cpp:3137
+#: src/MainFrame.cpp:3139
+msgid " is available."
+msgstr " is beschikbaar."
+
+#: src/MainFrame.cpp:465
+#: src/MainFrame.cpp:630
+#: src/MainFrame.cpp:1464
+#: src/MainFrame.cpp:1829
+#: src/InProgressList.cpp:129
+#: src/FinishedList.cpp:143
+#: src/FinishedList.cpp:306
+#: /tmp/dummy:104
+msgid "File type"
+msgstr "Bestandstype"
+
+#: src/MainFrame.cpp:468
+#: src/MainFrame.cpp:1832
+#: /tmp/dummy:105
+msgid "Preview"
+msgstr "Bekijken"
+
+#: src/MainFrame.cpp:637
+msgid "Piece "
+msgstr "Deel "
+
+#: src/MainFrame.cpp:1041
+msgid "Stopping the download..."
+msgstr "Bezig met stoppen download..."
+
+#: src/MainFrame.cpp:1041
+msgid "Stopping the current download before removing..."
+msgstr "Bezig met stoppen actuele download, alvorens deze te verwijderen..."
+
+#: src/MainFrame.cpp:1053
+msgid "Do you also want to remove the partial downloaded file from the disk?"
+msgstr "Wilt u deels gedownloade bestanden eveneens verwijderen?"
+
+#: src/MainFrame.cpp:1053
+#: src/MainFrame.cpp:1091
+msgid "Remove..."
+msgstr "Verwijder..."
+
+#: src/MainFrame.cpp:1091
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "Wilt u gedownloade bestand(en) eveneens van schijf verwijderen?"
+
+#: src/MainFrame.cpp:1225
+#: src/MainFrame.cpp:3119
+msgid "Error creating thread!"
+msgstr "Fout bij opsplitsen!"
+
+#: src/MainFrame.cpp:1225
+#: src/MainFrame.cpp:1233
+#: src/MainFrame.cpp:1406
+#: src/MainFrame.cpp:1535
+#: src/MainFrame.cpp:2247
+#: src/MainFrame.cpp:2350
+#: src/MainFrame.cpp:2356
+#: src/MainFrame.cpp:2376
+#: src/MainFrame.cpp:2423
+#: src/MainFrame.cpp:2773
+#: src/MainFrame.cpp:2784
+#: src/MainFrame.cpp:2795
+#: src/MainFrame.cpp:3023
+#: src/MainFrame.cpp:3181
+#: src/MainFrame.cpp:3184
+#: src/MainFrame.cpp:3187
+#: src/BoxFind.cpp:45
+#: src/wxDFast.cpp:372
+#: src/BoxNew.cpp:46
+#: src/BoxNew.cpp:61
+#: src/BoxNew.cpp:79
+#: src/BoxNew.cpp:91
+#: src/BoxNew.cpp:113
+#: src/BoxNew.cpp:126
+#: src/BoxNew.cpp:163
+#: src/BoxNew.cpp:195
+msgid "Error..."
+msgstr "Fout..."
+
+#: src/MainFrame.cpp:1233
+#: src/MainFrame.cpp:3125
+msgid "Error starting thread!"
+msgstr "Fout bij starten opsplitsing!"
+
+#: src/MainFrame.cpp:1272
+msgid "Starting the downloads..."
+msgstr "Bezig met starten downloads..."
+
+#: src/MainFrame.cpp:1289
+msgid "Stopping the downloads..."
+msgstr "Bezig met stoppen downloads..."
+
+#: src/MainFrame.cpp:1406
+#: src/MainFrame.cpp:1535
+msgid "Unable to open the clipboard!"
+msgstr "Kan prikbord niet openen!"
+
+#: src/MainFrame.cpp:1459
+#: src/FinishedList.cpp:142
+#: src/FinishedList.cpp:305
+msgid "Name"
+msgstr "Naam"
+
+#: src/MainFrame.cpp:1469
+#: src/InProgressList.cpp:352
+#: src/FinishedList.cpp:144
+#: src/FinishedList.cpp:293
+#: src/FinishedList.cpp:307
+msgid "Size"
+msgstr "Grootte"
+
+#: src/MainFrame.cpp:1474
+#: src/FinishedList.cpp:145
+#: src/FinishedList.cpp:308
+msgid "Time"
+msgstr "Tijd"
+
+#: src/MainFrame.cpp:1491
+#: src/FinishedList.cpp:146
+#: src/FinishedList.cpp:309
+msgid "Destination"
+msgstr "Bestemming"
+
+#: src/MainFrame.cpp:1498
+#: src/FinishedList.cpp:149
+#: src/FinishedList.cpp:312
+msgid "MD5"
+msgstr "MD5"
+
+#: src/MainFrame.cpp:1504
+#: src/FinishedList.cpp:150
+#: /tmp/dummy:98
+#: /tmp/dummy:99
+msgid "Reference URL"
+msgstr "Gerefereerde URL"
+
+#: src/MainFrame.cpp:1509
+#: src/FinishedList.cpp:151
+#: src/FinishedList.cpp:313
+#: /tmp/dummy:97
+msgid "Comments"
+msgstr "Opmerkingen"
+
+#: src/MainFrame.cpp:1514
+#: src/FinishedList.cpp:152
+#: src/FinishedList.cpp:314
+msgid "URLs"
+msgstr "URL's"
+
+#: src/MainFrame.cpp:1616
+msgid "Find file..."
+msgstr "Zoek bestand..."
+
+#: src/MainFrame.cpp:1974
+#: /tmp/dummy:59
+msgid "Download Properties"
+msgstr "Downloadeigenschappen"
+
+#: src/MainFrame.cpp:2168
+#: src/MainFrame.cpp:2369
+#: src/BoxNew.cpp:141
+#: src/BoxOptions.cpp:55
+#: src/BoxOptions.cpp:77
+msgid "Select the directory:"
+msgstr "Selecteer map:"
+
+#: src/MainFrame.cpp:2221
+msgid "Moving..."
+msgstr "Verplaatsen..."
+
+#: src/MainFrame.cpp:2221
+msgid "Moving file..."
+msgstr "Verplaatsen bestand..."
+
+#: src/MainFrame.cpp:2247
+msgid "Error moving file."
+msgstr "Fout bij verplaatsen bestand."
+
+#: src/MainFrame.cpp:2253
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"Bestand staat niet in originele pad.\n"
+"Wilt u oude pad veranderen naar huidige?"
+
+#: src/MainFrame.cpp:2256
+#: src/MainFrame.cpp:3016
+#: src/BoxNew.cpp:108
+msgid "Continue..."
+msgstr "Doorgaan..."
+
+#: src/MainFrame.cpp:2336
+msgid "Checking file's MD5..."
+msgstr "Bezig met controleren MD5 van bestand..."
+
+#: src/MainFrame.cpp:2343
+msgid "The file was verified successfully."
+msgstr "Bestand is met succes geverifieerd."
+
+#: src/MainFrame.cpp:2343
+#: src/MainFrame.cpp:2374
+#: src/MainFrame.cpp:2418
+msgid "Success..."
+msgstr "Succes..."
+
+#: src/MainFrame.cpp:2347
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "Vorige MD5 komt niet overeen met huidige."
+
+#: src/MainFrame.cpp:2348
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"Oude MD5 =\t\t"
+
+#: src/MainFrame.cpp:2349
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"Huidige MD5 =\t"
+
+#: src/MainFrame.cpp:2356
+#: src/MainFrame.cpp:3187
+#: src/BoxFind.cpp:107
+msgid "File not found."
+msgstr "Bestand niet gevonden."
+
+#: src/MainFrame.cpp:2374
+msgid "The configuration was exported successfully."
+msgstr "Configuratie is met succes geëxporteerd."
+
+#: src/MainFrame.cpp:2376
+msgid "Error exporting configuration."
+msgstr "Fout bij exporteren configuratie."
+
+#: src/MainFrame.cpp:2412
+msgid "Select the file..."
+msgstr "Selecteer bestand..."
+
+#: src/MainFrame.cpp:2418
+msgid ""
+"The configuration was imported successfully.\n"
+"The program will be restated now for the changes to take effect."
+msgstr ""
+"Configuratie is met succes geïmporteerd.\n"
+"Het programma zal opnieuw opstarten met nieuwe configuratie."
+
+#: src/MainFrame.cpp:2423
+msgid "Error importing configuration."
+msgstr "Fout bij importeren configuratie."
+
+#: src/MainFrame.cpp:2462
+#: src/MainFrame.cpp:2473
+msgid "Command :\t"
+msgstr "Commando :\t"
+
+#: src/MainFrame.cpp:2462
+msgid "Shutdown Command..."
+msgstr "Commando om systeem af te sluiten..."
+
+#: src/MainFrame.cpp:2473
+msgid "Disconnect Command..."
+msgstr "Commando om verbinding te verbreken..."
+
+#: src/MainFrame.cpp:2563
+msgid "Updating the configuration..."
+msgstr "Bezig met bijwerken configuratie..."
+
+#: src/MainFrame.cpp:2563
+msgid "Updating and saving the configuration..."
+msgstr "Bezig met bijwerken en bewaren configuratie..."
+
+#: src/MainFrame.cpp:2772
+#: src/MainFrame.cpp:2783
+#: src/MainFrame.cpp:2794
+#: src/MainFrame.cpp:3022
+msgid ""
+"Unable to find the browser.\n"
+"Go to \"Options\" and specify a valid one."
+msgstr ""
+"Kan browser niet vinden.\n"
+"Ga naar \"Opties\" en controleer instelling."
+
+#: src/MainFrame.cpp:2804
+msgid "Version: "
+msgstr "Versie: "
+
+#: src/MainFrame.cpp:2805
+msgid "Author: "
+msgstr "Auteur: "
+
+#: src/MainFrame.cpp:2807
+msgid "I'd like to thank the following contributors for their help:\n"
+msgstr "Graag zou ik de volgende mensen willen bedanken voor hun bijdrage:\n"
+
+#: src/MainFrame.cpp:2809
+msgid " - several tips and donations\n"
+msgstr " - tips en donaties\n"
+
+#: src/MainFrame.cpp:2811
+msgid ""
+" - Ripstop theme\n"
+"\n"
+msgstr ""
+" - Ripstop-thema\n"
+"\n"
+
+#: src/MainFrame.cpp:2812
+msgid "Visit our website:\n"
+msgstr "Bezoek onze website:\n"
+
+#: src/MainFrame.cpp:2815
+msgid "Help to improve the program!\n"
+msgstr "Help mee dit programma te verbeteren!\n"
+
+#: src/MainFrame.cpp:2816
+msgid "Donate to this project!"
+msgstr "Maak een donatie!"
+
+#: src/MainFrame.cpp:2837
+msgid "Do you want to close the program?"
+msgstr "Wilt u het programma afsluiten?"
+
+#: src/MainFrame.cpp:2837
+msgid "Close..."
+msgstr "Afsluiten..."
+
+#: src/MainFrame.cpp:2927
+#: /tmp/dummy:3
+#: /tmp/dummy:76
+msgid "Add new download"
+msgstr "Voeg nieuwe download toe"
+
+#: src/MainFrame.cpp:2931
+#: /tmp/dummy:5
+msgid "Remove the selected download"
+msgstr "Verwijder geselecteerde download"
+
+#: src/MainFrame.cpp:2935
+#: /tmp/dummy:7
+msgid "Mark the selected download as scheduled"
+msgstr "Pas tijdschema toe op geselecteerde download"
+
+#: src/MainFrame.cpp:2939
+#: /tmp/dummy:9
+msgid "Start the selected download"
+msgstr "Start geselecteerde download"
+
+#: src/MainFrame.cpp:2943
+#: /tmp/dummy:11
+msgid "Stop the selected download"
+msgstr "Stop geselecteerde download"
+
+#: src/MainFrame.cpp:2947
+#: /tmp/dummy:13
+#: /tmp/dummy:28
+msgid "Start all downloads"
+msgstr "Start alle downloads"
+
+#: src/MainFrame.cpp:2951
+#: /tmp/dummy:15
+#: /tmp/dummy:29
+msgid "Stop all downloads"
+msgstr "Stop alle downloads"
+
+#: src/MainFrame.cpp:2955
+msgid "Raise in one level the selected download in the queue"
+msgstr "Verplaats geselecteerde download omhoog in wachtrij"
+
+#: src/MainFrame.cpp:2959
+msgid "Lower in one level the selected download in the queue"
+msgstr "Verplaats geselecteerde download omlaag in wachtrij"
+
+#: src/MainFrame.cpp:2963
+#: /tmp/dummy:21
+msgid "Show the properties of the selected download"
+msgstr "Toon eigenschappen geselecteerde download"
+
+#: src/MainFrame.cpp:3015
+msgid ""
+"You have downloaded a HTML file.\n"
+"Open this file in your browser?"
+msgstr ""
+"U heeft een HTML-bestand gedownload.\n"
+"Openen in standaard browser?"
+
+#: src/MainFrame.cpp:3032
+msgid "Shutting down the computer..."
+msgstr "Bezig met afsluiten systeem..."
+
+#: src/MainFrame.cpp:3032
+msgid "The computer will shut down in seconds..."
+msgstr "Systeem zal afsluiten over enkele seconden..."
+
+#: src/MainFrame.cpp:3052
+msgid "Disconnecting from the Internet..."
+msgstr "Bezig met verbreken Internetverbinding..."
+
+#: src/MainFrame.cpp:3052
+msgid "The Internet connection will be closed in seconds..."
+msgstr "Internetverbinding zal verbroken worden over enkele seconden..."
+
+#: src/MainFrame.cpp:3139
+msgid "Visit http://dfast.sourceforge.net for more informations."
+msgstr "Bezoek http://dfast.sourceforge.net voor meer informatie."
+
+#: src/MainFrame.cpp:3177
+msgid "List of files in Zip archive:"
+msgstr "Lijst met bestanden in Zip-archief:"
+
+#: src/MainFrame.cpp:3177
+msgid "Zip Preview"
+msgstr "Zip-archief bekijken"
+
+#: src/MainFrame.cpp:3181
+#: src/MainFrame.cpp:3184
+msgid "Unable to extract zip file content!"
+msgstr "Kan Zip-archief niet uitpakken!"
+
+#: src/BoxFind.cpp:45
+msgid ""
+"Unable to search in this page.\n"
+"Change to another page and try again"
+msgstr ""
+"Kan niet zoeken in deze pagina.\n"
+"Kies andere pagina en probeer opnieuw"
+
+#: src/BoxFind.cpp:107
+#: src/BoxNew.cpp:99
+msgid "Information..."
+msgstr "Informatie..."
+
+#: src/wxDFast.cpp:360
+msgid "Cannot set locale to"
+msgstr "Kan lokalisering niet uitvoeren voor"
+
+#: src/wxDFast.cpp:362
+msgid "This language is not supported by your system."
+msgstr "Deze taal wordt niet ondersteund door uw syteem."
+
+#: src/BoxNew.cpp:46
+#: src/BoxNew.cpp:79
+msgid "The following URL is invalid:\n"
+msgstr "Volgende URL is niet geldig:\n"
+
+#: src/BoxNew.cpp:61
+#: src/BoxNew.cpp:163
+#: src/BoxNew.cpp:195
+msgid "The URL is invalid!"
+msgstr "URL is ongeldig!"
+
+#: src/BoxNew.cpp:91
+msgid "The following URL has a different filename:\n"
+msgstr "Volgende URL kent een andere bestandsnaam:\n"
+
+#: src/BoxNew.cpp:99
+msgid "Select at least one item of the address list!\n"
+msgstr "Selecteer minimaal één item in de adreslijst!\n"
+
+#: src/BoxNew.cpp:108
+msgid ""
+"The destination directory does not exist!\n"
+"Do you want to create it?"
+msgstr ""
+"Bestemmingsmap bestaat niet!\n"
+"Wilt u deze aanmaken?"
+
+#: src/BoxNew.cpp:113
+msgid "You don't have permission to create the directory!"
+msgstr "U bent niet geautoriseerd om deze map aan te maken!"
+
+#: src/BoxNew.cpp:126
+msgid "I can't split the file into so many pieces!"
+msgstr "Kan bestand niet in zo veel delen splitsen!"
+
+#: src/BoxNew.cpp:177
+msgid "Edit the URL"
+msgstr "Bewerk URL"
+
+#: src/InProgressList.cpp:35
+msgid "Double-click on the item to Start/Stop the download"
+msgstr "Dubbel-klik op item om download te starten/stoppen"
+
+#: src/InProgressList.cpp:218
+msgid "   [ Yes ]"
+msgstr "   [ Ja ]"
+
+#: src/InProgressList.cpp:220
+msgid "   [ No  ]"
+msgstr "   [ Nee ]"
+
+#: src/InProgressList.cpp:346
+msgid "Restart"
+msgstr "Herstart"
+
+#: src/InProgressList.cpp:349
+#: src/FinishedList.cpp:291
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: src/InProgressList.cpp:355
+msgid "Completed"
+msgstr "Gereed"
+
+#: src/InProgressList.cpp:358
+msgid "Percentage"
+msgstr "Percentage"
+
+#: src/InProgressList.cpp:361
+msgid "Time Passed"
+msgstr "Verstreken tijd"
+
+#: src/InProgressList.cpp:364
+msgid "Remaining"
+msgstr "Nog te gaan"
+
+#: src/InProgressList.cpp:367
+msgid "Speed"
+msgstr "Snelheid"
+
+#: src/InProgressList.cpp:370
+msgid "Attempts"
+msgstr "Pogingen"
+
+#: src/InProgressList.cpp:373
+msgid "URL"
+msgstr "URL"
+
+#: src/FinishedList.cpp:39
+msgid "Double-click on the item to open the destination directory"
+msgstr "Dubbel-klik een item om bestemmingsmap te openen"
+
+#: src/FinishedList.cpp:147
+#: src/FinishedList.cpp:310
+msgid "Started"
+msgstr "Gestart"
+
+#: src/FinishedList.cpp:148
+#: src/FinishedList.cpp:295
+#: src/FinishedList.cpp:311
+msgid "Finished"
+msgstr "Gereed"
+
+#: src/DownloadThread.cpp:67
+msgid ""
+"You have downloaded a HTML file.\n"
+"Opening this file in your browser.\n"
+msgstr ""
+"U heeft een HTML-bestand gedownload.\n"
+"Bestand wordt geopend in uw browser.\n"
+
+#: src/DownloadThread.cpp:217
+msgid "FTP over a proxy isn't supported.\n"
+msgstr "FTP via een proxy wordt niet ondersteund.\n"
+
+#: src/DownloadThread.cpp:225
+msgid "This protocol isn't supported.\n"
+msgstr "Dit protocol wordt niet ondersteund.\n"
+
+#: src/DownloadThread.cpp:279
+#: src/DownloadThread.cpp:995
+msgid "Redirecting to "
+msgstr "Verwijzen naar "
+
+#: src/DownloadThread.cpp:297
+msgid "Metalink file detected\n"
+msgstr "Metalink-bestand herkend\n"
+
+#: src/DownloadThread.cpp:298
+msgid "Getting Metalink data...\n"
+msgstr "Ophalen Metalink-gegevens...\n"
+
+#: src/DownloadThread.cpp:328
+#: src/DownloadThread.cpp:765
+#: src/DownloadThread.cpp:1042
+#: src/DownloadThread.cpp:1226
+#: /tmp/dummy:185
+msgid "Not available"
+msgstr "Niet beschikbaar"
+
+#: src/DownloadThread.cpp:349
+msgid "This Metalink file contains multiples files.\n"
+msgstr "Dit Metalink-bestand bevat meerdere bestanden.\n"
+
+#: src/DownloadThread.cpp:352
+msgid "Creating all downloads...\n"
+msgstr "Bezig met aanmaken alle downloads...\n"
+
+#: src/DownloadThread.cpp:362
+msgid "Getting file number "
+msgstr "Bezig met ophalen bestandsnummer "
+
+#: src/DownloadThread.cpp:368
+#: src/DownloadThread.cpp:376
+msgid "Error retrieving Metalink data\n"
+msgstr "Fout bij ophalen Metalink-gegevens\n"
+
+#: src/DownloadThread.cpp:394
+msgid "New attempt in "
+msgstr "Nieuwe poging over "
+
+#: src/DownloadThread.cpp:394
+msgid " seconds\n"
+msgstr " seconden\n"
+
+#: src/DownloadThread.cpp:408
+msgid "Attempt "
+msgstr "Poging "
+
+#: src/DownloadThread.cpp:408
+msgid " of "
+msgstr " van "
+
+#: src/DownloadThread.cpp:429
+msgid "Canceled.\n"
+msgstr "Geannuleerd.\n"
+
+#: src/DownloadThread.cpp:452
+msgid "Critical error!! The start point is bigger that the end point!!\n"
+msgstr "Kritieke fout!! Startpunt ligt voorbij eindpunt!!\n"
+
+#: src/DownloadThread.cpp:475
+msgid "Error establishing input stream.\n"
+msgstr "Fout bij totstandbrengen datatoevoer.\n"
+
+#: src/DownloadThread.cpp:490
+msgid "Copying file...\n"
+msgstr "Bezig met kopiëren bestand...\n"
+
+#: src/DownloadThread.cpp:495
+msgid "Error opening file "
+msgstr "Fout bij openen bestand "
+
+#: src/DownloadThread.cpp:595
+msgid "Error copying file.\n"
+msgstr "Fout bij kopiëren bestand.\n"
+
+#: src/DownloadThread.cpp:615
+msgid "Error writing file.\n"
+msgstr "Fout bij wegschrijven bestand.\n"
+
+#: src/DownloadThread.cpp:689
+msgid "Finished this piece\n"
+msgstr "Gereed met dit deel\n"
+
+#: src/DownloadThread.cpp:707
+msgid "Waiting for the other pieces...\n"
+msgstr "Wachten op overige delen...\n"
+
+#: src/DownloadThread.cpp:715
+msgid "Putting all the pieces together...\n"
+msgstr "Bezig met samenvoegen delen...\n"
+
+#: src/DownloadThread.cpp:719
+msgid ""
+"Error joining the pieces.\n"
+"Try to restart the download.\n"
+msgstr ""
+"Fout bij samenvoegen delen!\n"
+"Probeer download te herstarten.\n"
+
+#: src/DownloadThread.cpp:725
+msgid "Checking MD5...\n"
+msgstr "Bezig met controleren MD5...\n"
+
+#: src/DownloadThread.cpp:726
+msgid "Checking MD5 ... ("
+msgstr "Bezig met controleren MD5 ... ("
+
+#: src/DownloadThread.cpp:734
+msgid "Comparing expected and calculated MD5...\n"
+msgstr "Bezig met vergelijken verwachte en gecalculeerde MD5...\n"
+
+#: src/DownloadThread.cpp:737
+msgid "File verified successfully\n"
+msgstr "Bestand met succes geverifieerd\n"
+
+#: src/DownloadThread.cpp:738
+#: src/DownloadThread.cpp:748
+msgid "Finished\n"
+msgstr "Gereed\n"
+
+#: src/DownloadThread.cpp:742
+msgid "Error comparing MD5.\n"
+msgstr "Fout bij vergelijken MD5.\n"
+
+#: src/DownloadThread.cpp:785
+msgid "Resolving proxy host '"
+msgstr "Opzoeken proxy..."
+
+#: src/DownloadThread.cpp:788
+msgid ""
+"\n"
+"Proxy not found.\n"
+msgstr ""
+"\n"
+"Proxy niet gevonden.\n"
+
+#: src/DownloadThread.cpp:794
+#: src/DownloadThread.cpp:807
+#: src/DownloadThread.cpp:1072
+#: src/DownloadThread.cpp:1087
+#: src/DownloadThread.cpp:1111
+msgid " OK\n"
+msgstr " OK\n"
+
+#: src/DownloadThread.cpp:798
+#: src/DownloadThread.cpp:1063
+msgid "Resolving host '"
+msgstr "Bezig met zoeken naar server '"
+
+#: src/DownloadThread.cpp:801
+#: src/DownloadThread.cpp:1066
+msgid ""
+"\n"
+"Host not found.\n"
+msgstr ""
+"\n"
+"Server niet gevonden.\n"
+
+#: src/DownloadThread.cpp:814
+#: src/DownloadThread.cpp:816
+#: src/DownloadThread.cpp:1076
+msgid "Trying to connect in '"
+msgstr "Bezig verbinding te maken met '"
+
+#: src/DownloadThread.cpp:822
+msgid "Connection denied.\n"
+msgstr "Connectie geweigerd.\n"
+
+#: src/DownloadThread.cpp:833
+msgid ""
+"Accessing server...\n"
+"\n"
+msgstr ""
+"Benaderen server...\n"
+"\n"
+
+#: src/DownloadThread.cpp:933
+#: src/DownloadThread.cpp:1192
+msgid ""
+"The file size has changed since the last time.\n"
+"Removing the partially downloaded files...\n"
+msgstr ""
+"Grootte van bestand is gewijzigd sinds vorige keer.\n"
+"Bezig met verwijderen deelbestanden...\n"
+
+#: src/DownloadThread.cpp:965
+msgid "This server does not support restart.\n"
+msgstr "Deze server ondersteund geen herstarts.\n"
+
+#: src/DownloadThread.cpp:978
+#: src/DownloadThread.cpp:985
+#: src/DownloadThread.cpp:1160
+#: src/DownloadThread.cpp:1248
+msgid "Unable to return the file size.\n"
+msgstr "Kan bestandsgrootte niet bepalen.\n"
+
+#: src/DownloadThread.cpp:1009
+msgid "Error requesting file.\n"
+msgstr "Fout bij opvragen bestand.\n"
+
+#: src/DownloadThread.cpp:1017
+msgid "The server timed out.\n"
+msgstr "Time-out op server.\n"
+
+#: src/DownloadThread.cpp:1081
+msgid ""
+"\n"
+"Connection denied.\n"
+msgstr ""
+"\n"
+"Connectie gewijgerd.\n"
+
+#: src/DownloadThread.cpp:1091
+msgid "Waiting for welcome message.\n"
+msgstr "Wachten op welkomsboodschap.\n"
+
+#: src/DownloadThread.cpp:1096
+msgid "Verifying if the server supports restarting..."
+msgstr "Controleren of server herstarten ondersteunt..."
+
+#: src/DownloadThread.cpp:1099
+msgid ""
+"\n"
+"This server does not support restart.\n"
+msgstr ""
+"\n"
+"Deze server ondersteunt geen herstarts.\n"
+
+#: src/DownloadThread.cpp:1118
+msgid "Changing to directory "
+msgstr "Naar map aan het gaan..."
+
+#: src/DownloadThread.cpp:1121
+msgid "Invalid directory.\n"
+msgstr "Ongeldige map.\n"
+
+#: src/DownloadThread.cpp:1130
+msgid "Changing to binary mode...\n"
+msgstr "Omschakelen naar binaire modus...\n"
+
+#: src/DownloadThread.cpp:1133
+msgid "Unable to change to binary mode.\n"
+msgstr "Kan niet naar binaire modus omschakelen.\n"
+
+#: src/DownloadThread.cpp:1142
+#: src/DownloadThread.cpp:1245
+msgid "Verifying the size of the "
+msgstr "Grootte verifieren van "
+
+#: src/DownloadThread.cpp:1168
+#: src/DownloadThread.cpp:1265
+msgid "File size: "
+msgstr "Bestandsgrootte: "
+
+#: src/DownloadThread.cpp:1213
+#: src/DownloadThread.cpp:1273
+msgid "Requesting file...\n"
+msgstr "Bestand opvragen...\n"
+
+#: src/DownloadThread.cpp:1237
+msgid "Looking for file "
+msgstr "Op zoek naar bestand "
+
+#: src/DownloadThread.cpp:1240
+msgid "File not found.\n"
+msgstr "Bestand niet gevonden.\n"
+
+#: src/DownloadThread.cpp:1346
+msgid "There isn't enough disk space to join the file parts.\n"
+msgstr "Niet genoeg schijfruimte beschikbaar om bestandsdelen samen te voegen.\n"
+
+#: src/BoxOptions.cpp:62
+#: src/BoxOptions.cpp:69
+msgid "Choose a file..."
+msgstr "Selecteer bestand..."
+
+#: src/BoxOptions.cpp:135
+#: src/BoxOptions.cpp:142
+msgid "Select the date..."
+msgstr "Selecteer datum..."
+
+#: src/BoxOptions.cpp:158
+msgid "Remove some items before adding a new one."
+msgstr "Verwijder enkele items alvorens nieuwe toe te voegen."
+
+#: src/wxDFast.h:252
+msgid "Sundays"
+msgstr "Zondag"
+
+#: src/wxDFast.h:252
+msgid "Mondays"
+msgstr "Maandag"
+
+#: src/wxDFast.h:252
+msgid "Tuesdays"
+msgstr "Dinsdag"
+
+#: src/wxDFast.h:253
+msgid "Wednesdays"
+msgstr "Woensdag"
+
+#: src/wxDFast.h:253
+msgid "Thursdays"
+msgstr "Donderdag"
+
+#: src/wxDFast.h:253
+msgid "Fridays"
+msgstr "Vrijdag"
+
+#: src/wxDFast.h:254
+msgid "Saturdays"
+msgstr "Zaterdag"
+
+#: src/wxDFast.h:776
+msgid "OK"
+msgstr "OK"
+
+#: /tmp/dummy:1
+msgid "About..."
+msgstr "Over..."
+
+#: /tmp/dummy:2
+msgid "New"
+msgstr "Nieuw"
+
+#: /tmp/dummy:4
+#: /tmp/dummy:174
+msgid "Remove"
+msgstr "Verwijder"
+
+#: /tmp/dummy:6
+#: /tmp/dummy:96
+msgid "Schedule"
+msgstr "Tijdschema"
+
+#: /tmp/dummy:8
+msgid "Start"
+msgstr "Start"
+
+#: /tmp/dummy:10
+msgid "Stop"
+msgstr "Stop"
+
+#: /tmp/dummy:12
+msgid "Start All"
+msgstr "Start alles"
+
+#: /tmp/dummy:14
+msgid "Stop All"
+msgstr "Stop alles"
+
+#: /tmp/dummy:16
+msgid "Up"
+msgstr "Omhoog"
+
+#: /tmp/dummy:17
+msgid "Push download higher up the queue"
+msgstr "Verplaats download omhoog in wachtrij"
+
+#: /tmp/dummy:18
+msgid "Down"
+msgstr "Omlaag"
+
+#: /tmp/dummy:19
+msgid "Push download lower down the queue"
+msgstr "Verplaats download omlaag in wachtrij"
+
+#: /tmp/dummy:20
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#: /tmp/dummy:22
+msgid "&File"
+msgstr "&Bestand"
+
+#: /tmp/dummy:23
+msgid "New Download"
+msgstr "Nieuwe download"
+
+#: /tmp/dummy:30
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: /tmp/dummy:31
+#: /tmp/dummy:85
+msgid "&Edit"
+msgstr "Be&werken"
+
+#: /tmp/dummy:32
+msgid "Paste URL"
+msgstr "Invoegen URL"
+
+#: /tmp/dummy:35
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: /tmp/dummy:36
+msgid "Invert Selection"
+msgstr "Keer selectie om"
+
+#: /tmp/dummy:37
+msgid "Find Download"
+msgstr "Zoek download"
+
+#: /tmp/dummy:38
+msgid "&View"
+msgstr "&Tonen"
+
+#: /tmp/dummy:39
+msgid "Show/Hide Graph"
+msgstr "Toon/verberg grafiek"
+
+#: /tmp/dummy:40
+msgid "Show/Hide Progress Bar"
+msgstr "Toon/verberg voortgang"
+
+#: /tmp/dummy:41
+msgid "Show/Hide Details"
+msgstr "Toon/verberg details"
+
+#: /tmp/dummy:42
+msgid "Language"
+msgstr "Taal"
+
+#: /tmp/dummy:43
+msgid "(Default)"
+msgstr "(Standaard)"
+
+#: /tmp/dummy:44
+msgid "English"
+msgstr "Engels"
+
+#: /tmp/dummy:45
+msgid "French"
+msgstr "Frans"
+
+#: /tmp/dummy:46
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: /tmp/dummy:47
+msgid "Portuguese(Brazil)"
+msgstr "Portugees (Brazilië)"
+
+#: /tmp/dummy:48
+msgid "German"
+msgstr "Duits"
+
+#: /tmp/dummy:49
+msgid "Nederlands"
+msgstr ""
+
+#: /tmp/dummy:50
+msgid "Spanish"
+msgstr "Spaans"
+
+#: /tmp/dummy:51
+msgid "Czech"
+msgstr "Tjechisch"
+
+#: /tmp/dummy:52
+msgid "Russian"
+msgstr "Russisch"
+
+#: /tmp/dummy:53
+msgid "Hungarian"
+msgstr "Hongaars"
+
+#: /tmp/dummy:54
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+#: /tmp/dummy:55
+msgid "Armenian"
+msgstr "Armeens"
+
+#: /tmp/dummy:56
+msgid "Polish"
+msgstr "Pools"
+
+#: /tmp/dummy:57
+msgid "Turkish"
+msgstr "Turks"
+
+#: /tmp/dummy:58
+msgid "&Tools"
+msgstr "Hulp&middelen"
+
+#: /tmp/dummy:64
+msgid "Export Configuration"
+msgstr "Exporteer configuratie"
+
+#: /tmp/dummy:65
+msgid "Import Configuration"
+msgstr "Importeer configuratie"
+
+#: /tmp/dummy:66
+msgid "Shutdown when finished"
+msgstr "Systeem afsluiten wanneer gereed"
+
+#: /tmp/dummy:67
+#: /tmp/dummy:69
+msgid "This option is only valid in this session of the program"
+msgstr "Optie is slechts geldig gedurende deze sessie"
+
+#: /tmp/dummy:68
+msgid "Disconnect when finished"
+msgstr "Verbreek verbinding wanneer gereed"
+
+#: /tmp/dummy:70
+#: /tmp/dummy:106
+msgid "Options"
+msgstr "Opties"
+
+#: /tmp/dummy:71
+msgid "&Help"
+msgstr "&Hulp"
+
+#: /tmp/dummy:72
+msgid "wxDownload Fast Site"
+msgstr "Website wxDownload Fast"
+
+#: /tmp/dummy:73
+msgid "Report Bugs..."
+msgstr "Rapporteer fouten..."
+
+#: /tmp/dummy:74
+msgid "Donate..."
+msgstr "Doneer..."
+
+#: /tmp/dummy:75
+msgid "About"
+msgstr "Over..."
+
+#: /tmp/dummy:77
+msgid "Save to:"
+msgstr "Opslaan in:"
+
+#: /tmp/dummy:78
+msgid "Directory"
+msgstr "Map"
+
+#: /tmp/dummy:79
+msgid "Address:"
+msgstr "Adres:"
+
+#: /tmp/dummy:80
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"URL naar download\n"
+"Voorbeeld: http://www.foo.com/foo.exe\n"
+"Voorbeeld: http://www.foo.com:80/foo.exe\n"
+"Voorbeeld: ftp://ftp.foo.com:21/foo.exe"
+
+#: /tmp/dummy:81
+#: /tmp/dummy:172
+msgid "Add"
+msgstr "Toevoegen"
+
+#: /tmp/dummy:82
+msgid "Address List:"
+msgstr "Adreslijst:"
+
+#: /tmp/dummy:83
+msgid "Only the selected addresses will be downloaded"
+msgstr "Alleen geselecteerde adressen worden gebruikt"
+
+#: /tmp/dummy:84
+msgid "Add on top of download queue"
+msgstr "Toevoegen bovenaan downloadlijst"
+
+#: /tmp/dummy:86
+msgid "Server Permission"
+msgstr "Toegang Server"
+
+#: /tmp/dummy:87
+msgid "User:"
+msgstr "Gebruikersnaam:"
+
+#: /tmp/dummy:88
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+#: /tmp/dummy:89
+msgid "Segmented download"
+msgstr "Segmentatie download"
+
+#: /tmp/dummy:90
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr ""
+"Splits download in hoeveel\n"
+"delen?"
+
+#: /tmp/dummy:91
+msgid "Download bandwidth (in kB/s)"
+msgstr "Download-bandbreedte (kB/s)"
+
+#: /tmp/dummy:92
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Stel bandbreedte voor deze download in.\n"
+"Gebruik \"0\" voor ongelimiteerd."
+
+#: /tmp/dummy:94
+msgid "Manual"
+msgstr "Handmatig"
+
+#: /tmp/dummy:95
+msgid "Now"
+msgstr "Nu"
+
+#: /tmp/dummy:100
+#: /tmp/dummy:101
+msgid "Execute the following command after download completes"
+msgstr "Voer volgend commando uit wanneer download gereed"
+
+#: /tmp/dummy:102
+msgid "&OK"
+msgstr "&OK"
+
+#: /tmp/dummy:103
+#: /tmp/dummy:187
+msgid "&Cancel"
+msgstr "&Annuleren"
+
+#: /tmp/dummy:107
+msgid "General"
+msgstr "Algemeen"
+
+#: /tmp/dummy:108
+msgid "Attempts:"
+msgstr "Pogingen:"
+
+#: /tmp/dummy:109
+msgid "Number of attempts"
+msgstr "Aantal pogingen"
+
+#: /tmp/dummy:110
+msgid "Time between the attempts in seconds:"
+msgstr "Tijd tussen pogingen (seconden):"
+
+#: /tmp/dummy:111
+msgid "Number of simultaneous downloads:"
+msgstr "Aantal gelijktijdige downloads:"
+
+#: /tmp/dummy:112
+msgid "Remember the last settings on the New Download box"
+msgstr "Onthoud instellingen voor nieuwe download"
+
+#: /tmp/dummy:113
+msgid "Shutdown when all downloads finish"
+msgstr "Systeem afsluiten wanneer alle downloads gereed"
+
+#: /tmp/dummy:114
+msgid "Disconnect when all downloads finish"
+msgstr "Verbreek verbinding wanneer alle downloads gereed"
+
+#: /tmp/dummy:115
+msgid "Show dialog box when program closes"
+msgstr "Toon dialoogvenster wanneer programma sluit"
+
+#: /tmp/dummy:116
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "Verversingsfrequentie downloadlijst (ms):"
+
+#: /tmp/dummy:117
+msgid "Download Read Buffer size(in Bytes):"
+msgstr "Grootte download-leesbuffer (bytes):"
+
+#: /tmp/dummy:118
+msgid "Restore the main window when all downloads finish"
+msgstr "Toon hoofdvenster wanneer alle downloads gereed"
+
+#: /tmp/dummy:119
+msgid "Hide the main window when you start a download"
+msgstr "Verberg hoofdvenster wanneer download start"
+
+#: /tmp/dummy:120
+msgid "Check for updates automatically"
+msgstr "Automatische controle nieuwe versies"
+
+#: /tmp/dummy:121
+msgid "Paths"
+msgstr "Paden"
+
+#: /tmp/dummy:122
+msgid "Default destination:"
+msgstr "Standaard bestemming:"
+
+#: /tmp/dummy:123
+#: /tmp/dummy:125
+#: /tmp/dummy:127
+#: /tmp/dummy:132
+#: /tmp/dummy:148
+#: /tmp/dummy:150
+#: /tmp/dummy:152
+#: /tmp/dummy:154
+#: /tmp/dummy:159
+#: /tmp/dummy:164
+msgid "..."
+msgstr "..."
+
+#: /tmp/dummy:124
+msgid "Browser path:"
+msgstr "Pad browser:"
+
+#: /tmp/dummy:126
+msgid "File manager path:"
+msgstr "Pad bestandsbeheerder:"
+
+#: /tmp/dummy:128
+msgid "Shutdown command:"
+msgstr "Commando om systeem af te sluiten:"
+
+#: /tmp/dummy:129
+msgid "Disconnect command:"
+msgstr "Commando om verbinding te verbreken:"
+
+#: /tmp/dummy:130
+msgid "Partial Temporary Files Path"
+msgstr "Pad tijdelijke deelbestanden"
+
+#: /tmp/dummy:131
+msgid "Use the destination directory"
+msgstr "Gebruik bestemmingsmap"
+
+#: /tmp/dummy:133
+msgid "Proxy"
+msgstr "Proxy"
+
+#: /tmp/dummy:134
+msgid "Use a Proxy Server"
+msgstr "Gebruik een proxy-server"
+
+#: /tmp/dummy:135
+msgid "Proxy Server"
+msgstr "Proxy-server"
+
+#: /tmp/dummy:136
+msgid "Server:"
+msgstr "Server:"
+
+#: /tmp/dummy:137
+msgid "Port:"
+msgstr "Poort:"
+
+#: /tmp/dummy:138
+msgid "Graph"
+msgstr "Grafiek"
+
+#: /tmp/dummy:139
+msgid "Show Graph"
+msgstr "Toon grafiek"
+
+#: /tmp/dummy:140
+msgid "Save how many points to graph?"
+msgstr "Hoeveel punten bewaren in grafiek?"
+
+#: /tmp/dummy:141
+msgid "Graph refresh rate (millisecs):"
+msgstr "Verversingsfrequentie grafiek (ms):"
+
+#: /tmp/dummy:142
+msgid "Graph maximum value (kB/s):"
+msgstr "Maximale waarde grafiek (kB/s):"
+
+#: /tmp/dummy:143
+msgid "The text area Width (pixels):"
+msgstr "Breedte tekstgebied (pixels):"
+
+#: /tmp/dummy:144
+msgid "Graph height:"
+msgstr "Hoogte grafiek (pixels):"
+
+#: /tmp/dummy:145
+msgid "Text font size (points):"
+msgstr "Grootte lettertype (punts):"
+
+#: /tmp/dummy:146
+msgid "Main line width:"
+msgstr "Breedte hoofdlijn:"
+
+#: /tmp/dummy:147
+msgid "Background colour:"
+msgstr "Kleur achtergrond:"
+
+#: /tmp/dummy:149
+msgid "Graph grid colour:"
+msgstr "Kleur grafiekraster:"
+
+#: /tmp/dummy:151
+msgid "Main line colour:"
+msgstr "Kleur hoofdlijn:"
+
+#: /tmp/dummy:153
+msgid "Speed font colour:"
+msgstr "Kleur lettertype:"
+
+#: /tmp/dummy:155
+msgid "Scheduling"
+msgstr "Tijdschema"
+
+#: /tmp/dummy:156
+msgid "Activate scheduling"
+msgstr "Pas tijdschema toe"
+
+#: /tmp/dummy:157
+msgid "Start Date:"
+msgstr "Startdatum:"
+
+#: /tmp/dummy:158
+msgid "Start Time:"
+msgstr "Starttijd:"
+
+#: /tmp/dummy:160
+#: /tmp/dummy:165
+msgid "hours"
+msgstr "uur"
+
+#: /tmp/dummy:161
+#: /tmp/dummy:166
+msgid "minutes"
+msgstr "minuten"
+
+#: /tmp/dummy:162
+msgid "Finish Date:"
+msgstr "Einddatum:"
+
+#: /tmp/dummy:163
+msgid "Finish Time:"
+msgstr "Eindtijd:"
+
+#: /tmp/dummy:167
+msgid "Deactivate downloads on:"
+msgstr "Niet downloaden op:"
+
+#: /tmp/dummy:168
+msgid "Between"
+msgstr "Tussen"
+
+#: /tmp/dummy:169
+#: /tmp/dummy:171
+msgid ":"
+msgstr ":"
+
+#: /tmp/dummy:170
+msgid "and"
+msgstr "en"
+
+#: /tmp/dummy:173
+msgid "Exceptions List:"
+msgstr "Lijst van uitzonderingen:"
+
+#: /tmp/dummy:175
+msgid "Bandwidth"
+msgstr "Bandbreedte"
+
+#: /tmp/dummy:176
+msgid "Bandwidth Control"
+msgstr "Bandbreedtebeheer"
+
+#: /tmp/dummy:177
+msgid "Unlimited bandwidth"
+msgstr "Ongelimiteerde bandbreedte"
+
+#: /tmp/dummy:178
+msgid "Limit band width independently for each download"
+msgstr "Regel bandbreedte voor elke download apart"
+
+#: /tmp/dummy:179
+msgid "Limit band width for the program (in kB/s):"
+msgstr ""
+"Maximeer bandbreedte\n"
+"hele programma (kB/s):"
+
+#: /tmp/dummy:180
+msgid "Band width limit in kB/s to be used by the program"
+msgstr "Maximaal beschikbare bandbreedte voor het programma (kB/s)"
+
+#: /tmp/dummy:181
+msgid "Browser Integration"
+msgstr "Browser-integratie"
+
+#: /tmp/dummy:182
+msgid "Firefox Integration"
+msgstr "Firefox-integratie"
+
+#: /tmp/dummy:183
+msgid ""
+"To integrate with Firefox, do the following:\n"
+"\n"
+"1) Install the FlashGot extension for Firefox (www.flashgot.org/getit)\n"
+"2) Then restart Firefox and go to:\n"
+"     Tools -> FlashGot -> More Options\n"
+"3)Now select the wxDownload Fast on the Download Manager's List"
+msgstr ""
+"T.b.v. de integratie met Firefox, doe het volgende:\n"
+"\n"
+"1) Installeer de FlashGot-add-on (www.flashgot.org)\n"
+"2) Start Firefox opnieuw op en ga naar:\n"
+"    Extra -> FlashGot -> Meer Opties\n"
+"3) Selecteer wxDownload Fast uit lijst Download Managers"
+
+#: /tmp/dummy:184
+msgid "Internet Explorer Integration"
+msgstr "Internet Explorer-integratie"
+
+#: /tmp/dummy:186
+msgid "&Save"
+msgstr "&Bewaren"
+

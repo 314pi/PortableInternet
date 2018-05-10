@@ -1,0 +1,632 @@
+/* Resets */
+html, body, div, span, applet, object, iframe, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* general styles */
+
+html, body {
+font: 0.9em/1.2 Helvetica, Arial, sans;
+color:#fff;
+background: #cad3d9;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+a { color: #666; }
+
+var {
+	font-style: normal; background: #eee; padding: 0 0.25em; 
+}
+
+abbr {
+letter-spacing: 0.1em;
+text-transform: lowercase;
+font-variant: small-caps;
+}
+
+/* overall structure */
+
+header {
+	display: block;
+	max-width: 1000px;
+	min-width: 750px;
+	margin: 0 auto;
+	padding: 0 2em;
+	position: relative; /* provide positioning origin */
+}
+
+header h1 { font-weight: bold; margin: 0; }
+
+header form { position: absolute; top: 0; right: 1em; }
+header form label { display: none; }
+header form input { font-family: Helvetica, Arial, sans; padding: 0.35em 20px 0.35em 0.35em; border: 1px #ccc solid; border-top-width: 2px; font-size: 1em; background: #fff url(/images/icons/small-search.png) no-repeat right center; }
+
+div.main {
+max-width: 1000px;
+min-width: 750px;
+margin: 0 auto;
+color: #222;
+background: #fff;
+border-radius: 5px;
+padding: 1em 2em;
+box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* navigation */
+
+div.main nav {
+	display: block;
+	float: left;
+	width: 220px;
+	margin: 0;
+	padding: 1em;
+}
+
+div.main nav div {
+	border-bottom: 1px #ddd solid;
+}
+
+div.main nav h2, div.main nav div.single {
+	font-size: 1.2em;
+	padding: 1.2em 0 1.2em 40px;
+	margin: 0;
+	color: #555;
+}
+
+div.main nav h2 {
+	cursor: pointer;
+}
+
+div.main nav div.single a {
+	display: block;
+}
+
+div.main nav .hidden { display: none; }
+
+div.main nav h2.get-started {
+	background: url(file://localhost/Users/samueli/Sites/images/icons/get-started.png) no-repeat left center;
+}
+
+div.main nav h2.messages {
+        background: url(file://localhost/Users/samueli/Sites/images/icons/ico-operamail.png) no-repeat left center;
+}
+
+div.main nav h2.organize {
+        background: url(file://localhost/Users/samueli/Sites/images/icons/ico-labels.png) no-repeat left center;
+}
+
+div.main nav h2.settings {
+        background: url(file://localhost/Users/samueli/Sites/images/icons/solutions.png) no-repeat left center;
+}
+
+div.main nav h2.accounts {
+        background: url(file://localhost/Users/samueli/Sites/images/icons/share-connect.png) no-repeat left center;
+}
+
+div.main nav h2.feeds {
+        background: url(file://localhost/Users/samueli/Sites/images/icons/rss.png) no-repeat left center;
+}
+
+div.main nav h2.keyboard {
+        background: url(file://localhost/Users/samueli/Sites/images/icons/keyboard.png) no-repeat left center;
+}
+
+div.main nav ul {  list-style:none; margin: 0 0 2em 0; }
+div.main nav ul li { padding: 0; margin: 0.85em 0; }
+div.main nav ul.current { display: block; }
+div.main nav a { text-decoration: none; }
+div.main nav a:focus,
+div.main nav a:hover,
+div.main nav a:active {
+	text-decoration: underline;
+}
+
+div.main nav a.current {
+	margin-left: -15px;
+	padding-left: 15px;
+	background: url(/images/icons/grey-arrow.png) no-repeat left center;
+	color: #ac1614;
+}
+
+/* main content */
+
+div.main h1 {
+	font-size: 2em;
+	line-height: 1.2;
+	border-bottom: 1px #ddd solid;
+	padding: 0.8em 0px 0.2em;
+	margin: 0;
+	color: #AC1614;
+}
+
+div.main hgroup p {
+	font-size: 1.2em;
+}
+
+div.main div.content h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 1.5em 0 0 0;
+	color: #555;
+}
+
+div.main div.content h2 a.headerlink,
+div.main div.content h3 a.headerlink,
+div.main div.content h4 a.headerlink {
+	visibility: hidden;
+}
+
+div.main div.content h2:hover a.headerlink,
+div.main div.content h3:hover a.headerlink,
+div.main div.content h4:hover a.headerlink,
+div.main div.content h2:target a.headerlink,
+div.main div.content h3:target a.headerlink,
+div.main div.content h4:target a.headerlink {
+	visibility: visible;
+	text-decoration: none;
+}
+
+div.main div.content h3,
+div.main div.content h4,
+div.main div.content h5,
+div.main div.content h6 {
+	font-weight: bold;
+	font-style: normal;
+}
+
+div.main p {
+	margin: 0.75em 0 0 0;
+}
+
+div.main div.content { 
+	margin: 0 0 0 220px;
+	line-height: 1.6;
+	padding: 1em 1em 1em 3em;
+}
+
+div.main div > img { margin-top: 1em; }
+
+div.main div.content ul,
+div.main div.content ol {
+	margin: 1em 0;
+	padding: 0 2em;
+}
+
+div.main div.content dl {
+	margin: 1em 0;
+	padding: 0;
+}
+
+div.main div.content dt,
+div.main div.content dd {
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+div.main div.content a {
+	color: #5D9DF5;
+}
+
+div.main div.content a:focus,
+div.main div.content a:hover,
+div.main div.content a:active {
+	color: #ac1614;
+}
+
+div.main form.bigsearch {
+	margin: 2em 0;
+}
+
+div.main form.bigsearch label {
+	display: none;
+}
+
+div.main form.bigsearch input {
+	font-family: Helvetica, Arial, sans;
+	font-size: 2em;
+	width: 100%;
+	max-width: 15em;
+	padding: 0.3em 40px 0.3em 0.5em;
+	background: #f8f8f8 url(/images/icons/big-search.png) no-repeat right center;
+	border: 1px #aaa solid;
+	border-top-width: 3px;
+}
+
+div.main form.bigsearch p {
+	font-size: 0.85em;
+	color: #666;
+}
+
+div.main form.bigsearch p strong {
+	color: #222;
+}
+
+div.main footer {
+	display: block;
+	text-align: center;
+	font-size: 0.85em;
+	color: #666;
+	padding: 1em 2em 1em 1em;
+	clear: both;
+}
+
+/* special styling for alphaindex */
+
+body.alphaindex div.main div.content div.atoz {
+  margin:0;
+  padding:0 1em;
+  column-count: 3; 
+  column-gap: 10px;
+  column-fill: balance;
+  -moz-column-count: 3; 
+  -moz-column-gap: 10px;
+  -moz-column-fill: balance; 
+  -webkit-column-count: 3; 
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: balance;   
+}
+
+
+body.alphaindex div.main div.content dl {
+	margin: 0;
+	padding: 0;
+	break-inside: avoid;
+}
+
+body.alphaindex div.main div.content dt {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin:0;
+	padding:0.5em 0;
+	break-after: avoid;
+}
+
+body.alphaindex div.main div.content dd {
+	margin: 0 0 0.5em 1em;
+	padding: 0;
+}
+
+body.alphaindex div.main div.content dd {
+	color: #aaa;
+}
+
+body.alphaindex div.main div.content dd a {
+	text-decoration: none; color: #444;
+}
+
+body.alphaindex div.main div.content a:focus,
+body.alphaindex div.main div.content a:hover,
+body.alphaindex div.main div.content a:active {
+	color: #ac1614; text-decoration: underline;
+}
+
+/* inherited styles from previous help pages - slightly tweaked */
+
+pre, code, samp, tt, kbd, var { 
+  font-family: 'lucida console', 'dejavu sans mono', 'bitstream vera sans mono', consolas, 'andale mono', monaco, fixed, monospace;
+}
+pre code, * code { font-size:100%; }
+kbd, span.button {
+  color: #000;
+  background-color:#ddd;
+  outline: 1px solid #bbb;
+  border: 1px solid #bbb;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  min-width:1em;
+}
+
+span.url, span.mailaddress, span.html, span.mime, span.file,
+code.url, code.mailaddress, code.html, code.mime, code.file {
+	font-family: 'lucida console', 'dejavu sans mono', 'bitstream vera sans mono', consolas, 'andale mono', monaco, fixed, monospace;
+	color: green;
+	white-space: nowrap;
+	}
+	
+span.html a {color: green;}
+	
+kbd {
+	white-space: nowrap;
+	}
+	
+table kbd {
+	font-size: 90%;
+	}
+	
+.bold {
+	font-weight: bold;
+	}
+
+.red {
+	color: red;
+	}
+	
+.underline {
+	text-decoration: underline !important;
+	}
+	
+.nowrap {
+	white-space: nowrap;
+	}
+	
+span.note {
+	color:#ac1614;
+	font-weight: bold;
+	}
+	
+span.path-menu {
+	background:#eee;
+	padding:0 2px;
+}
+	
+p.copyright {
+        clear:right;
+	margin-top: 3em;
+	padding-top: 1em;
+	border-top: 1px solid gray;
+	color: gray;
+	font-size: 0.75em;
+	text-align: center;
+	}
+	
+p.tocnote {
+	margin-top: 2em;
+	text-align: center;
+	}
+
+dt {font-weight: bold;}
+	
+/* styles for tables */
+
+table {
+	margin: 1em 0;
+	width: 100%;
+	}
+	
+td, th {
+	text-align: left;
+	vertical-align: top;
+	}
+	
+/* nice tables */
+table.nice {
+	border-collapse: collapse;
+	border-style: hidden;
+	border-spacing: 0;
+	margin-left: 2.5%;
+	}
+	
+table.nice td, table.nice th {
+	border: 1px solid #ddd;
+	padding: 0.25em;
+	font-size: 1em;
+	color: black;
+	background-color: white;
+	}
+	
+table.nice th {
+	white-space: nowrap;
+	}
+	
+/* special style for skin icons in nice table */
+
+.nice div {
+        width: -o-skin; height: -o-skin;
+        display: inline-block;
+        } 
+	
+/* keyboard tables */
+table.keytable {
+	border-collapse: collapse;
+	border-style: hidden;
+	border-spacing: 0;
+	}
+	
+table.keytable th, table.keytable td {
+	border: 1px solid #ddd;
+	padding: 0.25em;
+	}
+	
+table.keytable th {
+	font-weight: normal;
+	padding-left: 0em;
+	}
+	
+table.keytable td {
+	width: 25%;
+	white-space: nowrap;
+	padding-left: 0.5em;
+	}
+	
+table.keytable h3 {
+	margin-bottom: 0;
+	margin-top: 0.75em;
+	}
+	
+table.keytable ul, table.keytable li, table.nice ul, ul.lean, ul.lean li {
+	list-style: none;
+	margin: 1px 0px 1px 0px;
+	padding: 0px;
+	}
+	
+ul.lean li + li {
+	padding-top: 1em;
+	}
+	
+/* styles for menus */
+
+table.menu {
+	margin-top: 0;
+}
+
+table.mainmenu, table.menu {
+	border-spacing: 0;
+	empty-cells: show;
+	margin-left: 2em;
+	width: auto;
+	}
+	
+table.menu th, table.menu td, table.mainmenu th {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top;
+	}
+	
+table.menu th {
+	font: menu;
+	color: MenuText;
+	background-color: ThreeDFace;
+	border-left: 2px outset ThreeDLightShadow;
+	border-right: 2px ridge ThreeDDarkShadow;
+	padding: 0.15em 1em 0.15em 1em;
+	white-space: nowrap;
+	}
+	
+table.menu td {
+	color: black;
+	background-color: white;
+	font-size: 0.8em;
+	padding: 0em 0.5em 0em 0.5em;
+	vertical-align: middle;
+	}
+	
+table.mainmenu th {
+	padding: 4px;
+	}
+	
+.mainmenu {
+	font: menu;
+	color: MenuText;
+	background-color: ThreeDFace;
+	padding: 0em 0.5em 0em 0.5em;
+	}
+	
+table.menu th.sub { padding-left: 3em; }
+table.menu th.sub2 { padding-left: 4.5em; }
+
+table.menu tr.maketop th {
+	border-top: 2px outset ThreeDLightShadow;
+	padding: 0;
+	line-height: 0;
+	}
+	
+table.menu tr.makebottom th {
+	border-bottom: 2px ridge ThreeDDarkShadow;
+	padding: 0;
+	line-height: 0;
+	}
+	
+table.menu tr.makesep th {
+	border-top: 2px groove ThreeDLightShadow;
+	padding: 0;
+	line-height: 0;
+	}
+	
+table.menu tr.makesep td {
+	border: 1px solid #ddd;
+	padding: 0;
+	line-height: 0;
+	}
+
+td.ui, table.nice td.ui {
+	background-color: ThreeDFace;
+	color: MenuText;
+	padding: 0px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font: menu;
+	text-align: left;
+	white-space: nowrap;
+	}
+	
+td.ui a:link, td.ui a:visited, .mainmenu a:link, .mainmenu a:visited {
+	color: MenuText;
+	text-decoration: none;
+	}
+	
+td.ui a:hover, .mainmenu a:hover {
+	color: HighlightText;
+	background-color: ActiveCaption;
+	text-decoration: none;
+	}
+	
+/* input styles */
+input.button {
+	min-width: 75px;
+	min-height: 24px;
+	}
+	
+/* style for start page */
+.startpage h1 {
+	text-align:center;
+	}
+
+.startpage h2 {
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	border-bottom: none;
+	page-break-before: avoid;
+	font-weight: normal;
+	}
+	
+.startpage h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	}
+	
+.startpage p { clear: both; }
+
+div.section {
+	float: left;
+	padding: 1%;
+	max-width:48%;
+	font-weight: normal;
+	}
+	
+div.section p, div.section ul { max-width: 25em; }
+
+div.section td {
+	padding-right: 2em;
+	}
+	
+.startpage ul {
+	list-style: none;
+	margin: 0.5em 0em 0.5em 0em;
+	padding: 0em;
+	}
+
+.startpage li {
+	margin: 0;
+	padding: 0;
+	}
+	
+.startpage form.search {
+	padding-right: 1em;
+	float:left;
+	}
+
+/* desktop */
+.version ul,.version li{margin:0;padding:0;list-style:none;}
+.version li{padding:2px 0;}
+.version li a{padding-left:26px;}
+.version li.windows {background:url('/desktop/windows.gif') no-repeat 0 0;}
+.version li.mac {background:url('/desktop/mac.gif') no-repeat 0 0;}
+.version li.linux {background:url('/desktop/linux.gif') no-repeat 0 0;}
+.version li.solaris {background:url('/desktop/solaris.gif') no-repeat 0 0;}
+.version li.freebsd {background:url('/desktop/freebsd.gif') no-repeat 0 0;}

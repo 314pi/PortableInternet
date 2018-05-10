@@ -1,0 +1,1329 @@
+Miranda Language Pack Version 1
+Language: Hrvatski
+Locale: hr
+Last-Modified-Using: Miranda IM 0.8.0 alpha build #18 Unicode (Translator plugin 0.1.2.1)
+Authors: Zvonimir
+Author-email: doom3@globalnet.hr
+Plugins-included: 4x4x4, clist_modern, translator, smileyaddw, jabber, srmm, historypp, irc, language pack - modified, icq, chat, avs
+; FLID: Croatian Language Pack 0.3
+
+;
+
+[NA]
+Nije dostupan
+[Go]
+Kreni
+[Up]
+Gore
+[DND]
+Ne smetaj
+[Off]
+Iskljuèi
+[Add]
+Dodaj
+[Run]
+Pokreni
+[Yes]
+Da
+[Top]
+Vrh
+[Row]
+Red
+[Node]
+Èlan
+[none]
+ništa
+[None]
+Ništa
+[same]
+isto
+[Name]
+Ime
+[Home]
+Kuæna adresa
+[Male]
+Muški
+[type]
+vrsta
+[Save]
+Spremi
+[Rate]
+Ocijeni
+[Size]
+Velièina
+[Load]
+Uèitaj
+[Find]
+Traži
+[Bold]
+Debelo
+[Sick]
+Bolestan
+[both]
+oboje
+[Down]
+Dolje
+[from]
+od njega
+[Rows]
+Redovi
+[Left]
+Lijevo
+[Edit]
+Editiraj
+[Exit]
+Izaði
+[exit]
+izaði
+[List]
+Listaj
+[Text]
+Tekst
+[Away]
+Odsutan
+[Copy]
+Kopiraj
+[General options]
+Glavne opcije
+[General Options]
+Glavne opcije
+[Disable SASL authentication (for old servers)]
+Iskljuèi SASL autorizaciju (za stare servere)
+[Show typing notification when no message dialog is open]
+Prikaži poruku o pisanju poruke kada nije otvoren prozor za poruke
+[Italics]
+Koso
+[signed off (was %s)]
+se odspojio (bio je %s)
+[&File Actions]
+&Opcije datoteke
+[Press here to download OpenSSL, required for SSL & TLS support]
+Klikni ovdje i skini OpenSSL, koji je potreban za SSL & TLS
+[Reset view mode]
+Resetiraj prikaz
+[Disable icon blinking]
+Iskljuèi blinkanje ikona
+[d'Oh!]
+Ups!
+[Show Smiley Selection Window]
+Prikaži prozor sa smajliæima
+[Node:]
+Èlan:
+[Name:]
+Ime:
+[Time:]
+Vrijeme:
+[Slap:]
+Pljusni:
+[Quit:]
+Izaði:
+[Hint:]
+Savjet:
+[Host:]
+Server:
+[Text:]
+Tekst:
+[&Moderator list]
+&Lista moderatora
+[&Message]
+&Pošalji poruku
+[&Open file folder]
+&Otvori direktorij datoteke
+[Homepage:]
+Poèetna stranica:
+[Show status changes]
+Prikaži promjene statusa
+[Minimize to tray]
+Smanji u tray
+[ABOUT]
+O programu
+[Text colour]
+Boja
+[Alpha]
+Alfa
+[Keep connection alive]
+Održavaj vezu
+[&None]
+&Ništa
+[Style]
+Stil
+[Close]
+Zatvori
+[Join (10x10)]
+Uði (10x10)
+[Kick (10x10)]
+Izbaci (10x10)
+[Quit (10x10)]
+Izaði (10x10)
+[&Kick]
+&Izbaci
+[Automatically add contact when accept authorization]
+Automatski dodaj kontakt kada prihvatim autorizaciju
+[Maori]
+Maorski
+[Czech]
+Èeški
+[Irish]
+Irski
+[Welsh]
+Velški
+[Align]
+Izravnaj
+[&Open]
+&Otvori
+[Latin]
+Latinski
+[Logon]
+Logiraj se
+[Files]
+Datoteke
+[Links]
+Linkovi
+[Tatar]
+Tatarski
+[Other]
+Ostalo
+[Owner]
+Vlasnik
+[Reset]
+Resetiraj
+[E&xit]
+I&zaði
+[Right]
+Desno
+[Input Area]
+Prostor za poruke
+[About]
+O programu
+[About me]
+O meni
+[About %s]
+O %s
+[Member Information]
+Informacije o èlanu
+[Apply]
+Prihvati
+[Co&py All]
+Ko&piraj sve
+[&Copy]
+&Kopiraj
+[Extra icons]
+Dodatne ikone
+[Supports private XML Storage (for bookmakrs and other)]
+Podržava privatnu XML pohranu (za bookmarke i ostalo)
+[Left border]
+Lijevi rub
+[Supports data forms]
+Podržava podatkovne forme
+[Save the window size and location individually for each contact]
+Spremi velièinu prozora i poziciju za svakog korisnika
+[IEView style window]
+IEView izgled prozora
+[Contact history]
+Povijest kontakta
+[Notices]
+Obavjesti
+[I'm happy Miranda IM user. Get it at http://miranda-im.org/.]
+Ja koristim Mirande. Skini je ovdje: http://miranda-im.org/.
+[Preview]
+Probaj
+[Japanese]
+Japanski
+[Indonesian]
+Indonezijski
+[minutes old]
+minuta staro
+[Resource priority [%d]]
+Prioritet izvora [%d]
+[seconds.]
+sekundi.
+[Show icons]
+Prikaži ikone
+[Copy room topic]
+Kopiraj naslov sobe
+[Place offline users out of groups]
+Makni iskljuèene korisnike iz grupe
+[Copy real &JID]
+Kopiraj pravi &JID
+[View User's History]
+Prikaži razgovor sa korisnikom
+[Surround inserted smiley with spaces]
+Ubaci razmak prije i poslije smajliæa
+[Unregister]
+Izbriši me
+[Room configuration changes]
+Promjena opcija chata
+[Supports file transfers via SOCKS5 Bytestreams]
+Podržava transfer datoteka preko SOCKS5 Bytestreama
+[<No photo>]
+<Nema slike>
+[Change &nickname]
+Promjeni &nadimak
+[%s is typing a message...]
+%s piše poruku...
+[Show character count]
+Prikaži broj slova u poruci
+[Insert a smiley]
+Ubaci smajliæa
+[Chat log]
+Arhiva razgovora
+[Working]
+Radim
+[Loading...]
+Uèitavanje...
+[Options...]
+Opcije...
+[Options]
+Opcije
+[Contact Menu...]
+Kontaktni meni...
+[Send message on 'Enter']
+Pošalji poruku kada stisneš 'Enter'
+[Flash in the system tray and in the contact list]
+Blinkaj u sistemskoj traci i na listi
+[Supports stream initiation for file transfers]
+Podržava streamanje za prijenos datoteka
+[Login server:]
+Server:
+[Hide group counts when there are none online]
+Sakrij broj korisnika kada nema nikoga
+[Message Session]
+Razgovor u tijeku
+[Join chatroom]
+Uði u chat
+[Smiley Button]
+Gumb za smajliæe
+[Background]
+Pozadina
+[%s: Chat Room (%u user)]
+%s: Chat soba (%u korisnik)
+[Use groups]
+Ukljuèi grupe
+[Node hierarchy]
+Hijerarhija èlana
+[Enable Aero Glass (Vista)]
+Ukljuèi Aero Glass (Vista)
+[%s: Chat Room (%u users)]
+%s: Chat soba (%u korisnika)
+[Resource]
+Izvor
+[Resource:]
+Izvor:
+[Bookmark Name:]
+Naziv bookmarka:
+[Bookmark Name]
+Ime bookmarka
+[Role of %s was changed to '%s'.]
+Rola od %s je promijenjena u '%s'.
+[Closed group member counts]
+Prikaži broj korisnika u zatvorenoj grupi
+[Enable MathModule support]
+Omoguæi MathModule podršku
+[Conversations]
+Razgovori
+[Autosave translation]
+Automatski spremi prijevod
+[% of screen]
+% ekrana
+[Set &role]
+Postavi &rolu
+[&Copy Filename]
+&Kopiraj datoteku
+[Sort contacts by protocol]
+Sortiraj kontakte po protokolu
+[Load unread events only]
+prikaži samo neproèitane poruke
+[Show automaticaly]
+Prikaži automatski
+[Bookmark Type]
+Vrsta bookmarka
+[Belarusian]
+Bjeloruski
+[Cascade new windows]
+Slaži po redu nove prozore
+[View vCard]
+Pogledaj profil
+[&Visitor]
+&Posjetitelj
+[&Participant list]
+&Lista sudionika
+[&Participant]
+&Sudionik
+[Copy &nickname]
+Kopiraj &nadimak
+[Can report own version information]
+Može objaviti vlastitu verziju programa
+[Set &affiliation]
+&Interesi
+[Set as hidden]
+Sakrij
+[View as tree]
+Postavi pregled u stablo
+[Incoming file]
+Dolazna datoteka
+[Outgoing file]
+Odlazna datoteka
+[Last active resource]
+Zadnji aktivni resurs
+[Outgoing name]
+Odlazni nadimak
+[Incoming time]
+Dolazno vrijeme
+[Outgoing time]
+Odlazno vrijeme
+[Incoming name]
+Dolazni nadimak
+[Server options]
+Opcije servera
+[Smileys]
+Smajliæi
+[Receives information about user moods]
+Prima raspoloženja drugih korisnika
+[Show transport agents on contact list]
+Prikaži transportne agente na listi
+[Bookmark chatroom]
+Spremi chat sobu u bookmark
+[Smiley Categories]
+Kategorija smajliæa
+[Download IcoLib plugin]
+Skini IcoLib dodatak
+[%s is typing a message]
+%s piše poruku
+[Show Avatars]
+Prikaži slike
+[Only when statuses differ]
+Samo kad je razlièiti status
+[icon when statuses differ]
+ikona kada je razlièiti status
+[Enable remote controlling (from another resource of same JID only)]
+Omoguæi daljinsko upravljanje (sa druge lokacije istog JID-a)
+[File Transfer]
+Transfer datoteka
+[View as list]
+Prikaži kao listu
+[Specify external address:]
+Upiši eksternu adresu:
+[Add to &bookmarks]
+Dodaj u &bookmark
+[Room JID/ URL:]
+JID/ URL sobe:
+[Hide conference windows at startup]
+Sakrij prozor od konferencijskog razgovora pri spajanju
+[These changes will take effect the next time you connect to the Jabber network.]
+Ove promjene æe biti vidljive tek kada se odspojite i ponovno spojite na Jabber mrežu.
+[Translations manager]
+Prevoðenje
+[No view mode]
+Bez pogleda
+[Service discovery]
+Pretraživanje servisa
+[Service Discovery]
+Pretraživanje servisa
+[&User details]
+&Korisnièki detalji
+[Can block communications from particular other users using Privacy lists]
+Može blokirati korisnika koristeæi privatnu listu
+[&Add to roster]
+&Dodaj u popis
+[Contacts which are 'not on list']
+Kontakti koji 'nisu na listi'
+[Supports Service Discovery items list]
+Podržava listanje pri pretraživanju servisa
+[If window is partially covered, bring to front instead of hiding]
+Ako je prozor djelomièno sakriven, prikaži ga potpuno
+[Standard]
+Standardno
+[Serbian]
+Srpski
+[Bosnian]
+Bosanski
+[Italian]
+Talijanski
+[Russian]
+Ruski
+[Persian]
+Perzijski
+[Latvian]
+Latvijski
+[Load previous events less than]
+Prikazati sako je neproèitanih poruka manje od
+[Software]
+Softver
+[Tibetan]
+Tibetski
+[Supports attention requests ('nudge')]
+Podržava zahtjev za pažnjom ('gurkanje')
+[Third line]
+Treæa linija
+[Third Line]
+Treæa linija
+[Allow file sending through bytestream proxy server:]
+Omoguæi slanje datoteka preko proxy servera:
+[The pictures you can set here are used as default avatars for contacts which don't have their own. These pictures are NOT your own avatars.\nUse the checkboxes to enable/disable showing avatars for the protocols.]
+Slike koje ovdje postaviš æe se koristiti kao standardne slike za sve kontakte koji nemaju svoju sliku. To nisu tvoje slike veæ slike za druge korisnike.\nPomoæu kvaèica ukljuèi/iskljuèi prikaz slika za protokole.
+[&Copy Link]
+&kopiraj link
+[Closing in %d]
+Zatvara se za %d
+[Show information messages]
+Prikaži poruke o dogaðanjima
+[Display changed avatars]
+Prikaži promijenjene slike
+[User &details]
+Korisnièki &detalji
+[Group log messages]
+Grupiraj spremljene poruke
+[Show timestamp]
+Prikaži vrijeme
+[Last logoff time]
+Zadnje spajanje
+[Protect the picture]
+Zaštiti sliku
+[&Member]
+&Èlan
+[Chechen]
+Èeèenski
+[Turkmen]
+Turkmenijski
+[Middle:]
+Srednje ime:
+[No Events]
+Nema dogaðaja
+[Open groups]
+Otvorene grupe
+[Add new rooms to group:]
+Dodaj nove sobe u grupu:
+[Text direction]
+Smjer teksta
+[Sort contacts by status]
+Sortiraj kontakte po statusu
+[Log presence errors]
+Prikazuj greške o prisutnosti
+[Supports multi-user chat]
+Podržava višekorisnièki chat
+[Fix incorrect timestamps in incoming messages]
+Ispravi pogrešno vrijeme u dolaznim porukama
+[** Unknown contacts **]
+** Nepoznati kontakti **
+[-Nothing-]
+-Ništa-
+[Minimize]
+Smanji
+[Invisible]
+Nevidljiv
+[Ignore Empty Extra icons places (arrange to right).]
+Ignoriraj prazni prostor od dodatnih ikona (pomakni u desno).
+[Bookmark enabled]
+Bookmarksi ukljuèeni
+[Can inform about its Jabber capabilities]
+Može obavijestiti o Jabber moguænostima
+[Selection colour]
+Boja selekcije
+[View Modes]
+Pogledi
+[category]
+kategorija
+[&Open in existing window]
+&Otvori u postojeæem prozoru
+[Macedonian]
+Makedonski
+[Version]
+Verzija
+[Version:]
+Verzija:
+[ Options ]
+ Opcije
+[&Leave chat session]
+&Napusti chat
+[ Background ]
+Pozadina
+[Password:]
+Šifra:
+[Visitor]
+Posjetitelj
+[Visitors]
+Posjetitelji
+[Add Contact Permanently to List]
+Dodaj korisnik na listu
+[Right align group names]
+Pomakni grupe u desno
+[Manually specify connection host]
+Ruèno podesi vezu sa serverom
+[Incoming messages]
+Dolazne poruke
+[Outgoing messages]
+Odlazne poruke
+[Use TLS]
+Koristi TLS
+[Send message by pressing the Enter key]
+Pošalji poruku kada stisneš 'Enter'
+[<no information available>]
+<nema dostupnih informacija>
+[Show resize grip indicator]
+Indikator za razvlaèenje
+[Tile vertically]
+Složi vertikalno
+[DND contacts]
+Ne smetaj kontakti
+[Try to draw own avatar background transparent (for images without transparency)]
+Pokušaj sakriti pozadinu na vlastitoj slici (za slike bez transparentnosti)
+[Gender:]
+Spol:
+[Filter:]
+Filtriraj:
+[Copy node information]
+Kopiraj informaciju èlana
+[Author:]
+Autor:
+[Colour:]
+Boja:
+[Try to draw avatar background transparent (for images without transparency)]
+Pokušaj sakriti pozadinu (za slike bez transparentnosti)
+[Try to uncheck all checkmarks above if you're experiencing troubles with sending files. But it can cause problems with transfer of large files.]
+Ako imaš problema sa slanjem datoteka makni kvaèice na ovimg gornjim opcijama. Svejedno, može doæi do problema sa slanjem velikih datoteka.
+[Real JID not available]
+Pravi JID nije dostupan
+[Tile horizontally]
+Složi horizontalno
+[Event filter enabled]
+Filter eventa ukljuèen
+[Need more options?]
+Više opcija?
+[Find User]
+Traži korisnika
+[Use hostname as resource]
+Koristi ovo ime servera
+[Receives information about the music to which a user is listening]
+Primaj informacije o muzici koju sluša korisnik
+[Disable custom smileys]
+Onemoguæi vlastite smajliæe
+[unknown]
+nepoznato
+[Delete default picture]
+Izbriši sliku
+[Stretch to width]
+Stisni po širini
+[Bookmark disabled]
+Bookmark iskljuèen
+[Contact has no avatar]
+Korisnik nema sliku
+[Send message by pressing the Enter key twice]
+Pošalji poruku kada stisneš 'Enter' dva puta
+[General settings]
+Generalne opcije
+[&Customize...]
+&Prilagodi...
+[Bookmark Details]
+Bookmark detalji
+[Store conference rooms and web links on server.]
+Spremi konferencijske sobe i web linkove na server.
+[Enable Smileys]
+Ukljuèi smajliæe
+[Add to favorites]
+Dodaj u favorite
+[Make the text bold (CTRL+B)]
+Neka je tekst podebljan (CTRL+B)
+[Outcast list (&ban)]
+Llista izbaèenih (&bananih)
+[When setting avatars, always make them square]
+Pri prikazu slika, neka uvijek budu kockaste
+[Language for human-readable resources:]
+Jezik:
+[The topic is '%s%s']
+Naslov chata je '%s%s'
+[Use defaults]
+Koristi standardno
+[Select/type search service URL above and press <Go>]
+Izaberi ili upiši URL za pretraživanje i klikni <Kreni>
+[Make sections equal width]
+Neka selekcije budu iste širine
+[Affiliation changes]
+Promjena interesa
+[Free for chat contacts]
+Kontakti koji žele razgovarati
+[Can report information about the last activity of the user]
+Može obavijestiti o zadnjim aktivnostima korisnika
+[Accept only in band incoming filetransfers (don't disclose own IP)]
+Prihvati samo povezane transfere datoteka (ne prikazuj vlastitu IP adresu)
+[Tool style main window]
+Prikaz prozora bez okvira
+[&Member list]
+&Lista èlanova
+[Use/Disable groups]
+Ukljuèi/Iskljuèi grupe
+[Button Smiley]
+Smajliæ za gumb
+[Draw avatars grayscale]
+Prikaži slike u crno/bijelom
+[<none>]
+<prazno>
+[English text:]
+Engleski:
+[Enable user tunes receiving]
+Omoguæi primanje tuðih zvukova
+[Plugins included:]
+Instalirani dodaci:
+[&Copy to clipboard]
+&kopiraj u memoriju
+[Supports file transfers via Out-of-Band Bytestreams]
+Podržava prijenos datoteka preko Out-of-Band bytestreama
+[Don't replace at cursor]
+Ne mijenjaj smajliæe kod strelice
+[Free for chat]
+Slobodan za razgovor
+[Advanced #4]
+Napredne opcije #4
+[Advanced #1]
+Napredne opcije #1
+[Advanced #3]
+Napredne opcije #3
+[Advanced #2]
+Napredne opcije #2
+[Avatar changes]
+Izmjenjena slika
+[Save All]
+Spremi sve
+[&Room options]
+&Opcije sobe
+[Corsican]
+Korzijski
+[Services]
+Servisi
+[Limit log text to (events):]
+Limitiraj spremanje teksta (dogaðaji):
+[<not specified>]
+<nije specificirano>
+[Stretch proportionally]
+Stisni proporcionalno
+[Participant]
+Sudionik
+[Status changes]
+Izmjene statusa
+[Translation:]
+Prijevod:
+[Supports Message Receipts]
+Podržava potvrdu o primitku poruke
+[Replace isolated smileys (spaces on both sides)]
+Zamijeni samo one smajliæe koji imaju razmak prije i poslije
+[Smiley Selector]
+Izbor smajliæa
+[Afrikaans]
+Afrièki
+[Left margin:]
+Lijeva margina:
+[Nickname]
+Nadimak
+[Vietnamese]
+Vijetnamski
+[Username:]
+Nadimak:
+[Display]
+Prikaži
+[Animate Avatars]
+Animiraj slike
+[Azerbaijani]
+Azerbejdžanski
+[Messaging]
+Dopisivanje
+[Message]
+Poruka
+[Messages]
+Poruke
+[Affiliation:]
+Interesi:
+[Message in (10x10)]
+Poruka (10x10)
+[Message Log]
+Arhiva poruka
+[Show dates]
+Prikaži datume
+[Logoff message]
+Odlazna poruka
+[Auto-join (Automatically join Bookmarks must be enabled in Miranda options)]
+Automatsko spajanje (Automatski uði u chat nakon logiranja mora biti ukljuèeno u opcijama)
+[Row height:]
+Visina reda:
+[Kannada]
+Kanada
+[Text file]
+Tekst datoteka
+[Show warning messages]
+Prikaži poruke upozorenja
+[Client capabilities]
+Moguænosti klijenta
+[Enable XMPP server ping (XEP-0199)]
+Omoguæi XMPP pinganje servera (XEP-0199)
+[Scroll with text]
+Pomièi sa tekstom
+[Load number of previous events]
+Uèitaj prethodne poruke
+[Church Slavic; Old Slavonic]
+Staroslavenski
+[%s has joined]
+U sobu je ušao %s
+[Incoming colon]
+Dolazni red
+[Outgoing colon]
+Odlazni red
+[Copy room &JID]
+Kopiraj &JID od sobe
+[Public XMPP Network]
+Javna XMPP mreža
+[Chat windows]
+Prozor razgovora
+[Draw a line alongside group names]
+Povuci crtu uz grupe
+[Subscription]
+Autorizacija
+[Albanian]
+Alabanski
+[Romanian]
+Rumunjski
+[Armenian]
+Armenijski
+[Estonian]
+Estonijski
+[Spanish; Castilian]
+Španjolski; Castilian
+[Register new user]
+Registriraj me
+[Croatian]
+Hrvatski
+[Nickchange (10x10)]
+Promjena nadimka (10x10)
+[Server side bookmarks]
+Serverski bookmarksi
+[Refresh Children]
+Osvježi prikaz
+[Enable the 'event filter' for new rooms]
+Ukljuèi event filter za novi chat
+[&Affiliations]
+&Interesi
+[Main menu]
+Glavni meni
+[Quicksearch in open groups only]
+Pretraživanje samo u otvorenim grupama
+[Autoaccept multiuser chat invitations]
+Automatski prihvati pozivnice za chat
+[Slovenian]
+Slovenski
+[Sort groups alphabetically]
+Sortiraj grupe po abecedi
+[Offline]
+Iskljuèen
+[Hide empty groups]
+Sakrij prazne grupe
+[Automatically join conferences on login]
+Automatski uði u chat nakon spajanja
+[Show seconds]
+Prikaži sekunde
+[User directory:]
+Korisnièki direktorij:
+[Customize]
+Prilagodi
+[Custom messages]
+Poruka korisnika
+[Disable]
+Iskljuèi
+[Full name:]
+Ime i prezime:
+[Nick name:]
+Nadimak:
+[Show names]
+Prikaži nadimke
+[Nick name]
+Nadimak
+[Your name]
+Ime
+[Last name:]
+Prezime:
+[ms delay]
+ms kašnjenje
+[Secure XMPP Network]
+Sigurana XMPP mreža
+[Translator]
+Prijevod
+[Underline]
+Podcrtano
+[Underlined]
+Podcrtano
+[Delete temporary contacts when closing message window]
+Obriši privremene kontakte kada zatvoriš prozor sa porukom
+[Copy only this value]
+Kopiraj samo ovo
+[Status message:]
+Trenutni status:
+[Hide all 'Extra icons' for subcontacts]
+Sakrij sve 'dodatne ikone' za podkontakte
+[Chinese]
+Kineski
+[Hungarian]
+Maðarski
+[Log timestamp]
+Spremi vrijeme
+[Conference]
+Konferencija
+[History]
+Povijest
+[Use SSL]
+Koristi SSL
+[Favourites]
+Favoriti
+[Conferences]
+Chat
+[Idle since]
+Nema ga od
+[&Empty System History]
+&Isprazni povijest programa
+[Disable Groups]
+Iskljuèi grupe
+[Disable groups]
+Onemoguæi grupe
+[Stretch to height]
+Stisni po visini
+[Transparent]
+Transparentno
+[Message log options]
+Opcije spremanja poruka
+[Supports stream initiation (for filetransfers for ex.)]
+Omoguæi streamanje (za prijenos datoteka)
+[Log the following strings:]
+Spremaj slijedeæe rijeèi:
+[No selection]
+Nema selekcije
+[Ban notifications]
+Obavjesti o bananju
+[History search]
+Pretraživanje povijesti
+[Log events]
+Obavjesti o dogaðajima
+[Last message time]
+Vrijeme kad je stigla zadnja poruka
+[Download FontService plugin]
+Skini FontService dodatak
+[Listening to]
+Sluša
+[Log presence subscription state changes]
+Prikazuj status registracije
+[Please wait...\nConnecting search server...]
+Prièekajte...\nSpajanje sa serverom...
+[maximum]
+maksimalno
+[List of public servers]
+Lista servera
+[Animate]
+Animiraj
+[&Delete]
+&Obriši
+[&Browse Received Files]
+&Pregledaj primljene datoteke
+[Timestamp]
+Vrijeme pisanja
+[Register]
+Registriraj
+[Show toolbar buttons on top row]
+Prikaži gumbe na gornjem redu
+[declined subscription]
+je odbio registraciju
+[Can report chat state in a chat session]
+Može prijaviti stanje chata u chatu
+[Show 'Send' button]
+Prikaži gumb 'Pošalji'
+[Current view mode text]
+Trenutni pogled tekstualni mod
+[Affiliation of %s was changed to '%s'.]
+Èlanstvo %s je promijenjeno u '%s'.
+[Use Windows colours]
+Koristi Windows boje
+[Can report local time of the user]
+Može prikazati lokalno vrijeme korisnika
+[Specify Smiley Pack for each category]
+Specificiraj vrstu smajliæa za svaku kategoriju
+[Supports execution of Ad-Hoc commands]
+Podržava izvršavanje Ad-Hoc komandi
+[For other stuff MetaContacts plugin should be loaded.\n\nhttp://miranda-im.org/download]
+Za ostale stvari MetaContacts dodatak bi trebao biti uèitan.\n\nhttp://miranda-im.org/download
+[Show information about operating system in version replies]
+Prikaži informaciju o operativnom sistemu u prikazu verzije programa
+[Participants]
+Korisnici
+[Hide contact list after it has been idle for]
+Sakrij kontaktnu listu kada te nema duže od
+[Message area]
+Prostor za poruku
+[Address (JID or URL)]
+Adresa (JID ili URL)
+[View/change &topic]
+Pogledaj/promijeni  &naslov
+[Jabber Protocol Option]
+Opcije Jabber dodatka
+[/me slaps %s around a bit with a large trout]
+/me je pljusnuo %s sa smrdljivom ribom po faci
+[%s speaks in %s]
+%s piše u %s
+[Scale smiley to textheight]
+Prilagodi velièinu smajliæa tekstu
+[Pojatno smilies]
+Pojatno smajliæi
+[To change icons you need to install IcoLib plugin.]
+Da bi mogao promjeniti ikone trebaš instalirati IcoLib dodatak.
+[Ask before deleting contacts]
+Pitaj prije brisanja kontakata
+[Show balloon popup]
+Prikaži balonèiæ
+[Message from %s]
+Poruka od %s
+[Contact List Background]
+Pozadina kontaktne liste
+[Contacts]
+Kontakti
+[connection]
+veza
+[Arabic]
+Arapski
+[Italic]
+Koso
+[Imitate IEView API]
+Imitiraj IEView API
+[Supports Jabber Browsing]
+Podržava Jabber pretraživanje
+[Action (10x10)]
+Akcija (10x10)
+[Event filter disabled]
+Event filter iskljuèen
+[Accept HTTP Authentication requests (XEP-0070)]
+Prihvati HTTP autorizacijski zahtjev (XEP-0070)
+[General]
+Generalno
+[Moderators]
+Moderatori
+[Jabber Bookmarks]
+Jabber bokmarksi
+[&Destroy room]
+&Obriši sobu
+[Occupation:]
+Hobi:
+[is now %s (was %s)]
+je sada %s (bio je %s)
+[&Invite a user]
+&Pozovi korisnika
+[First name:]
+Ime:
+[Closed groups]
+Closed imena groupa
+[Set default picture]
+Postavi standardnu sliku
+[Description:]
+Kratki opis:
+[Add to roster]
+Dodaj u listu
+[Western Frisian]
+Zapadno Frizijski
+[Logoff]
+Odlogiraj se
+[End of page]
+Kraj stranice
+[&Cancel]
+&Odustani
+[Change]
+Promjeni
+[Smiley Packs]
+Paketi smajliæa
+[Greek, Modern (1453-)]
+Grèki, Modern (1453-)
+[Female]
+Žena
+[Sample]
+Primjer
+[Browse]
+Pregledaj
+[Remove]
+Obriši
+[Basque]
+Baskijski
+[Create]
+Kreiraj
+[Created]
+Kreirano
+[Updated]
+Obnovljeno
+[Update]
+Obnovi
+[Deleted]
+Obrisano
+[Can send and receive ping requests]
+Može slati i primati ping zahtjeve
+[Leave (10x10)]
+Izaði (10x10)
+[Set topic for]
+Postavi naslov za 
+[Use background image]
+Koristi pozadinu
+[Change %s Message]
+Promjeni %s poruku
+[Advanced Search Options]
+Napredne opcije pretraživanje
+[Supported features]
+Podržane moguænosti
+[Slovak]
+Slovaèki
+[Automatically join bookmarks on login]
+Automatski uði u bookmarke nakon spajanja
+[Make the text underlined (CTRL+U)]
+Neka je tekst podcrtan (CTRL+U)
+[ (set by %s)]
+ (Napisao %s)
+[Send typing notifications to the following users when you are typing a message to them:]
+Koje korisnike želiš obavjestiti kada im poèneš pisati poruku:
+[Show typing notifications when a user is typing a message]
+Prikaži kada ti netko piše poruku
+[&Message Zvonimir]
+&Pošalji poruku Zvonimir
+[Log chat state changes]
+Prikazuj stanje chata
+[Automatically accept authorization requests]
+Automatski prihvati zahtjeve za autorizaciju
+[RTF file]
+RTF datoteka
+[Member &info]
+Informacije o &èlanu
+[Priority:]
+Prioritet:
+[Security]
+Sigurnost
+[Miscellaneous]
+Razno
+[Identities]
+Identiteti
+[Use first smiley for selection size]
+Koristi prvi smajliæ za gumb
+[Center group names]
+Centriraj grupe
+[Do not show multiuser chat invitations]
+Ne prikazuj višekorisnièke pozivnice
+[French]
+Francuski
+[Search]
+Traži
+[Built-In Message Dialog Support]
+Prikaz integriranog dijaloga
+[Copy JID]
+Kopiraj JID
+[All Files]
+Sve datoteke
+[Refresh Info]
+Osvježi info
+[Danish]
+Danski
+[Polish]
+Poljski
+[Secure XMPP Network (old style)]
+Sigurna XMPP mreža (stari naèin)
+[Always on top]
+Uvijek na vrhu
+[Main Menu]
+Glavni meni
+[Set role]
+Postavi rolu
+[Round corners of avatars]
+Zaobljeni rubovi na slikama
+[Korean]
+Korejski
+[German]
+Njemaèki
+[Save password]
+Spremi šifru
+[Commands...]
+Komande...
+[Jabber Error]
+Jabber greška
+[Left align group names]
+Pomakni grupe u lijevo
+[NA contacts]
+Nedostupni kontakti
+[Account]
+Raèun
+[&Admin list]
+&Admin lista
+[Filter translations:]
+Filtriraj prijevod:
+[Grey out entire list when:]
+Posvijetli cijelu list kada:
+[System]
+Sistem
+[Supports Service Discovery info]
+Podržava otkrivanje servisnih informacija
+[Bottom]
+Dolje
+[Right click opens Miranda IM menu]
+Desni klik otvara Mirandin meni
+[Supports file transfers via In-Band Bytestreams]
+Podržava slanje datoteka preko In-Band bytestreams
+[Change appearance]
+Promjeni izgled
+[Make selection highlight translucent]
+Neka selekcije budu naglašene
+[Enable avatars]
+Prikazuj slike
+[Global]
+Globalno
+[Allow file sending through direct peer-to-peer connection]
+Omoguæi direktno slanje datoteka drugom korisniku
+[Cancel]
+Odustani
+[Make the text italicized (CTRL+I)]
+Neka je tekst ukoso (CTRL+I)
+[Normal mode]
+Normalni mod
+[Show drop shadow (restart required)]
+Prikazuj sjenu (potreban restart)
+[Send messages slower, but with full acknowledgement]
+Šalji poruke sporije i sa potvrdom
+[&Roles]
+&Role
+[Refresh]
+Osvježi
+[Lin&ks]
+Lin&kovi
+[Swedish]
+Švedski
+[Kurdish]
+Kurdski
+[Turkish]
+Turski
+[Finnish]
+Finski
+[English]
+Engleski
+[Available skins]
+Dostupni skinovi
+[Enable avatar support in the message window]
+Prikaži sliku korisnika u prozoru poruke
+[Owners]
+Vlasnici
+[Hide vertical scroll bar]
+Sakrij vertikalnu traku
+[Groups]
+Grupe
+[Events]
+Eventi
+[Set affiliation]
+Interesi
+[Avatar]
+Slika
+[C&lear Log]
+O&briši log
+[Member]
+Èlan
+[&Owner]
+&Vlasnik
+[Center]
+Centriraj
+[Filter]
+Filtriraj
+[Author(s):]
+Autor(i):
+[&Export]
+&Eksportiraj
+[Show counts of number of contacts in a group]
+Prikaži broj korisnika u grupi
+[&Empty History]
+&Isprazni povijest
+[Background colour]
+Boja pozadine
+[Colour]
+Boja
+[&Owner list]
+&Vlasnièka lista
+[&Configure...]
+&Konfiguriraj...
+[Chat options]
+Chat opcije
+[Log Options]
+Opcije spremanja
+[Close the message window on send]
+Zatvori prozor za razgovor kad pošalješ poruku
+[Text Formatting]
+Formatiranje teksta
+[Create language pack]
+Kreiraj jezièni dodatak
+[Resource priority]
+Prioritet izvora
+[View &History]
+Povijest &razgovora
+[More info on these plugins]
+Više informacija o dodacima
+[Indent groups by:]
+Pomakni grupe za:
+[SmileyAdd HTTP connections]
+SmileyAdd HTTP veza
+[Date of birth:]
+Datum roðenja:
+[Window]
+Prozor
+[Automatically popup window when:]
+Automatski prikaži prozor kada:
+[Chat Activity]
+Aktivnost razgovora
+[Enable user moods receiving]
+Omoguæi primanje raspoloženja korisnika
+[** New contacts **]
+** Novi kontakti **
+[signed on (%s)]
+se logirano (%s)
+[Effect]
+Efekt
+[Enable stream compression (if possible)]
+Omoguæi kompresiju (ako je moguæe)
+[Expert]
+Dodatne opcije
+[Supports vCard]
+Podržava profil
+[Contact List Extra Icons]
+Dodatne ikone korisnika
+[Save language pack as]
+Spremi jezièni dodatak kao
+[Manage translations]
+Upravljanje prijevodom
+[System tray icon when using multiple protocols]
+Sistemska ikona u traci za više protokola
+[<h6>Generated by <b>History++</b> Plugin</h6>]
+<h6>Kreirao <b>History++</b> dodatak</h6>
+[Contact icon]
+Ikona kontakta
+[Send message on double 'Enter']
+Pošalji poruku kada stisneš 'Enter' dva puta
+[Set options per account]
+Definiraj opcije po raèunima
+[View User's Details]
+Pogledaj detalje o korisniku
+[Limit user names in the message log to 20 characters]
+Limitiraj nadimke u spremljenim porukama na 20 slova
+[Automatically delete contacts not in my roster]
+Automatski obriši kontakte koji nisu u mom popisu
+[Clear view mode and return to default display]
+Obriši pogled i vrati standardne postavke
+[Contact List]
+Kontakt lista
+[Role changes]
+Promjene vrste
+[### (generated by history++ plugin)]
+### (kreirao history++ dodatak)
+[Log directory]
+Direktorij za spremanje
+[Group member counts]
+Grupiraj broj èlanova
+[To change fonts you need to install FontService plugin.]
+Da bi mogao promjeniti fontove trebaš instalirati FontService dodatak.
+[Show username on top row]
+Prikaži nadimak na vrhu reda
+[Show bevels on panels]
+Prikaži rub na panelima
+[Member Info:]
+Informacije o èlanu:
+[Copy node name]
+Kopiraj naziv èlana
+[Apply filter]
+Ukljuèi filter
+[Reset filter]
+Resetiraj filter

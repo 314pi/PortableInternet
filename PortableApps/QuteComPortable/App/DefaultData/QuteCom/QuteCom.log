@@ -1,0 +1,25 @@
+Log file=D:\Development\Portable Apps\QuteCom\QuoteComPortable\Data\QuteCom\QuteCom.log
+Date=2011-02-03
+Time=23:28:40
+
+(info) 23:28:40 [Common] QtLanguage::loadLanguageFromConfig: no Qt translation available for locale 'en_US'
+(error) 23:28:40 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:40 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:40 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:40 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:40 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:40 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:42 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:42 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:42 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:28:42 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:02 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:02 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:02 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:02 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(info) 23:29:03 [Common] QtLanguage::loadLanguageFromConfig: no Qt translation available for locale ''
+(info) 23:29:03 [Common] QtLanguage::loadLanguageFromConfig: no application translation available for locale ''
+(error) 23:29:03 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:03 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:03 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7
+(error) 23:29:03 [Common] Win32VolumeControl::createMixerLine: mixerGetLineInfoA() failed using dwComponentType=7

@@ -1,0 +1,514 @@
+[File Info]
+
+Language=Chinese
+Author=Leehoo
+Email=ahu@52q.net
+Date=06/06/2011
+Comment=PopMan 1.3 Chinese Translation
+LangID=04
+
+
+[Translations]
+
+Not connected<=>未连接
+Connection failure<=>连接失败
+Canceled<=>已取消
+Invalid server response<=>无效的服务器响应
+Timeout<=>超时
+Login failed<=>登录失败
+Message not found<=>找不到邮件
+Server failure: Message not found!<=>服务器失败：找不到邮件！
+Busy<=>忙
+Ready<=>就绪
+Connecting...<=>正在连接
+Connected!<=>已连接！
+Login...<=>登录
+Successfully logged in!<=>成功登录！
+Loading message ...<=>正在加载邮件...
+Loading message {1} of {2} ...<=>正在加载第 {1} / {2} 个邮件...
+Deleting message {1} of {2} ...<=>正在删除第 {1} / {2} 个邮件...
+
+# Update Wizard
+
+Update Wizard<=>更新向导
+There are no updates available.<=>目前没有任何可用的更新。
+There is a new version {1} available!<=>有一个新的版本 {1} 可用！
+There is a new {1} Beta version available!<=>有一个新的 {1} Beta版本可用！
+Click "Next" to update your copy of PopMan...<=>点击“下一步”，更新您的PopMan...
+Unable to retrieve version infomation!<=>无法检索版本信息！
+Error number: {1}<=>错误号：{1}
+Welcome to the PopMan Update Wizard<=>欢迎来到PopMan更新向导
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>向导现在已连接到PopMan的网络服务器检查更新。如果有新版本，所有必要的文件将会被下载并自动安装。
+Failed to load Decompress.dll!<=>无法载入Decompress.dll！
+Initializing...<=>正在初始化...
+Do you really want to cancel the update process?<=>你真的要取消更新过程吗？
+Update process failed!<=>更新过程失败！
+Error while downloading initialization file!<=>下载初始化文件时发生错误！
+No updates available.<=>没有可用的更新。
+Failed to retrieve temporary directory!<=>临时目录检索失败！
+Saving {1} ...<=>正在保存 {1} ...
+Failed to create directory:<=>无法建立目录：
+Failed to decompress file:<=>无法解压缩文件：
+Failed to download file:<=>无法下载文件：
+(checksum error)<=>（校验错误）
+Please try again later.<=>请稍后再试。
+Error while saving downloaded file!<=>保存下载的文件时出错！
+All files downloaded successfully.<=>所有文件下载成功。
+Press the "Finish" button to complete the update process...<=>点击“完成”按钮完成更新过程...
+Failed to initialize the final copy process!<=>无法初始化最终复制过程！
+Downloading {1} ...<=>正在下载 {1} ...
+Progress all:<=>所有的进程：
+Progress current file:<=>当前文件的进程：
+Download of updated files<=>下载更新文件
+
+# Import Accounts Dialog
+
+Account<=>帐号
+Type<=>类型
+User<=>用户
+Server<=>服务器
+Port<=>端口
+Please select the accounts that you want to import from Outlook Express.<=>请选择你要从Outlook Express导入的帐号。
+&Properties...<=>属性(&P)
+OK<=>确认
+Cancel<=>取消
+Import email accounts<=>导入电子邮件帐号
+Description<=>说明
+
+# Account Dialog
+
+General<=>常规
+Colors<=>颜色
+Advanced<=>高级
+Can not change account settings while there are busy accounts.<=>当有活动的帐户时无法更改帐户设置。
+Please enter the address of the Server!<=>请输入服务器的地址！
+Please enter the account name!<=>请输入帐号名称！
+Please enter user name!<=>请输入用户名！
+Account name:<=>帐号名称：
+Protocol:<=>协议：
+Server:<=>服务器：
+Port:<=>端口：
+User name:<=>用户名：
+Password:<=>密码：
+Include this account when receiving mail<=>接收邮件时包含此帐户
+1 minute<=>1 分钟
+{1} minutes<=>{1} 分钟
+1 second<=>1 秒
+{1} seconds<=>{1} 秒
+Use UIDL when deleting messages<=>当删除邮件时使用 UIDL
+Use custom AutoCheck timer interval<=>使用自定义时间间隔自动检查
+Timer interval:<=>时间间隔：
+minutes<=>分钟
+Server Timeouts<=>服务器超时
+Short<=>短
+Long<=>长
+Load all emails completely<=>完整加载所有电子邮件
+Retrieve header and {1} lines of message body<=>检索邮件的标头及内容的前 {1} 行
+Number of lines:<=>行数：
+Load small emails completely<=>完整加载小邮件
+Small emails are < <=>小邮件是小于
+Parameters<=>参数
+Use individual font color:<=>使用单独的字体颜色：
+Circle color in system tray:<=>系统栏新邮件提示圈背景色：
+Invalid parameter string!<=>无效的参数字符串！
+Default<=>缺省
+
+# Accounts Dialog
+
+Mail Accounts<=>邮件帐号
+&Add...<=>添加(&A)...
+&Remove<=>删除(&R)
+Move &up<=>上移(&u)
+Move &down<=>下移(&d)
+&Close<=>关闭(&C)
+
+# Download Dialog
+
+Loading the following mail:<=>正在加载以下邮件：
+Loading Mail...<=>正在加载邮件...
+
+# BlackList/WhiteList Dialog
+
+Black List<=>黑名单
+Messages from senders in the list below will be deleted automatically from the server.<=>从以下列表内的发件人发来的邮件将被自动从服务器删除。
+White List<=>白名单
+Messages from senders in the list below will never be deleted automatically.<=>从以下列表内的发件人发来的邮件将永远不会被自动删除。
+Address:<=>地址：
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>请输入电子邮件地址（例如somebody@somewhere.com）或域名（例如somewhere.com）：
+Enter address<=>输入地址
+
+# Password Dialog
+
+Password - {1}<=>密码 - {1}
+Enter the password of the following account.<=>输入以下帐号的密码。
+Account:<=>帐号：
+Remember password<=>记住密码
+Password incorrect! Please note that the password is case-sensitive.<=>密码不正确！请注意，密码是区分大小写的。
+Please enter the password.<=>请输入密码。
+
+# Add item to Rules list Dialog
+
+Add item to Rules list<=>新增项目到规则列表
+Destination List<=>目标列表
+New Item<=>新项目
+Item Type<=>项目类型
+Word<=>词语
+String<=>字符
+Regular Expression<=>正则表达式
+
+# Save Dialog
+
+Please specify where to save the emails.<=>请指定保存电子邮件的位置。
+The specified folder does not exist!<=>指定的文件夹不存在！
+Please specify a template for the file names.<=>请指定文件名模板。
+A file name must not contain any of the following characters:<=>一个文件名不能包含任何以下字符：
+Invalid template! Use a combination of the following placeholders:<=>无效的模板！请使用以下占位符的组合：
+Subject<=>主题
+From<=>发件人
+To<=>收件人
+Date<=>日期
+Time<=>时间
+Save As...<=>保存为...
+Destination<=>目的地
+Folder:<=>文件夹：
+Browse...<=>浏览...
+Save Format<=>保存格式
+Template For File Names<=>文件名模板
+Email File (*.eml)<=>电邮文件 (*.eml)
+Text File (*.txt)<=>文本文件 (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>文件“{1}”不存在！
+Sound (*.wav)<=>声音文件 (*.wav)
+Notify when new mail arrives<=>当新邮件到达时通知
+Always<=>总是
+When AutoChecked or minimized<=>当自动检查或最小化后
+Only when minimized<=>只在最小化后
+On new mail<=>有新邮件时
+Acoustic notification<=>有声提示
+Sound:<=>声音：
+&Test<=>测试(&T)
+Show PopMan window<=>显示PopMan窗口
+Show new mail tip<=>显示新邮件提示
+Limit tips to [PROTECTED] messages<=>仅显示[保护]邮件的提示
+Include sender and subject of new mails<=>包括新邮件发送者和主题
+Use balloon tip<=>使用气泡提示
+Flash keyboard light:<=>闪动键盘指示灯：
+Unread Messages<=>未读邮件
+Display unread messages in bold font<=>用粗体显示未读邮件
+Preview Pane<=>预览窗格
+Use the preview pane to quickly view a message without opening a separate window.<=>使用预览窗格快速查看，而无需打开单独的窗口消息。
+Show preview pane<=>显示预览窗格
+Be&low messages<=>在邮件列表下方(&l)
+Be&side messages<=>在邮件列表旁边(&s)
+Use logging to record all data communication between PopMan and the email server.<=>使用日志记录所有PopMan和邮件服务器之间的数据通信。
+Enable logging<=>启用日志
+Only log compact mail info instead of entire data traffic<=>只记录简洁邮件信息，而不是完整数据流
+Log file size:<=>日志文件大小：
+KB<=>KB
+Enable logging of applied rules<=>启用已应用规则的日志记录
+Location of the log file "PopManLogFile.log":<=>日志文件“PopManLogFile.log”的位置：
+Use dial-up networking<=>使用拨号网络
+Launch PopMan on Windows startup<=>在系统启动时启动PopMan
+Check for new mail on startup<=>启动时检查新邮件
+First wait<=>先等待
+seconds<=>秒
+X button hides to tray<=>点击关闭按钮时隐藏到系统栏
+Min button hides to tray<=>点击最小化按钮时隐藏到系统栏
+Delete confirmation in main window<=>在主窗口中删除时确认
+Delete confirmation in preview pane and message window<=>在预览窗格和邮件窗口中删除时确认
+Delete command marks message for deletion<=>删除 = 标记邮件为删除
+Enable password protection:<=>启用密码保护：
+AutoCheck only while minimized<=>只在最小化时自动检查
+Don't check between:<=>不在以下时间段内检查：
+and<=>至
+Enable custom AutoCheck interval per account:<=>启用为每个帐户自定义自动检查时间间隔功能：
+Interval<=>时间间隔
+Custom<=>自定义
+Executable (*.exe)<=>可执行文件 (*.exe)
+Hide PopMan to tray<=>隐藏PopMan到系统栏
+Quit PopMan<=>退出PopMan
+Email client:<=>邮件客户端：
+When launching email client:<=>启动邮件客户端的时机：
+When replying<=>回复时
+Use temporary eml file (Outlook Express)<=>使用临时eml文件 (Outlook Express)
+Use mailto (without quotted original message)<=>使用mailto (不包含原始邮件)
+Use MAPI<=>使用MAPI
+Use HTML linebreaks in reply body<=>在回复正文区使用HTML换行符
+Enforce email address (Yahoo! Mail)<=>强制电子邮件地址 (Yahoo! Mail)
+Launch email client with command line parameter:<=>带上命令行参数启动邮件客户端：
+Number of messages<=>邮件数量
+Show number of messages in tray icon<=>在系统栏图标上显示邮件数
+Show number of all messages<=>显示所有邮件数
+Show number of unread messages<=>显示未读邮件数
+Show number of new messages<=>显示新邮件数
+Rotate icon for each account<=>轮流显示每个帐号的图标
+Rotation interval:<=>轮流时间间隔：
+tenths of a second<=>个0.1秒
+Show advanced account info<=>显示高级帐号信息
+Enable HighColor icons in system tray<=>在系统栏启用高亮图标
+Nothing<=>无
+Show Window<=>显示窗口
+Check Mail<=>检查邮件
+PopUp Menu<=>弹出菜单
+Run Email Client<=>启动邮件客户端
+Check And Show<=>检查并显示
+Toggle Window<=>切换窗口
+Toggle AutoCheck<=>切换自动检查
+Show Mail Info<=>显示邮件信息
+Tray Mouse Actions<=>托盘鼠标操作
+Left Click:<=>单击左键：
+Right Click:<=>单击右键：
+Middle Click:<=>单击中键：
+Double Click:<=>双击左键：
+Double click delay on click<=>双击动作延迟触发
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>你可以选择以下已存在的语言翻译。{BR}如果没有你想要的语言，请访问PopMan的网站：
+Language:<=>语言：
+Author:<=>作者：
+Email:<=>电邮：
+Updated:<=>更新时间：
+Comment:<=>备注：
+
+# Source Dialog
+
+RichEdit control init failed.<=>富媒体编辑控件初始化失败。
+Source - "{1}"<=>源代码 - “{1}”
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>日志文件“{1}”无法被打开。{BR}日志功能已禁用！
+Error while writing to the log file:<=>写入日志文件时出错：
+Logging disabled!<=>日志功能已禁用！
+[PROTECTED]<=>[保护]
+
+# List View
+
+Size<=>大小
+Received<=>接收时间
+Attachment<=>附件
+Sent<=>发件时间
+Priority<=>优先级
+UserAgent<=>用户代理
+Rules<=>规则
+High<=>高
+Low<=>低
+Normal<=>普通
+Are you sure you want to delete the selected email?<=>你确定要删除选定的电子邮件吗？
+Are you sure you want to delete the {1} selected emails?<=>你确定要删除选定的 {1} 个电子邮件吗？
+&Open...{TAB}Ctrl+O<=>打开(&O)...{TAB}Ctrl+O
+Sou&rce...<=>源文件(&r)...
+&Save As...{TAB}Ctrl+S<=>另存为(&S)...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>回复发件人(&y){TAB}Ctrl+R
+&Trust Sender<=>信任发件人(&T)
+&Block Sender<=>屏蔽发件人(&B)
+&Delete{TAB}Del<=>删除(&D){TAB}Del
+&Unmark{TAB}Ins<=>取消标记(&U){TAB}Ins
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>切换[保护]状态(&g){TAB}Ctrl+T
+This will add the following email addresses to the Black List:<=>这将添加以下电子邮件地址到黑名单：
+Note: All future emails from senders on the Black List will be deleted automatically!<=>注意：以后从黑名单上的发件人发来的所有电子邮件将被自动删除！
+This will add the following email addresses to the White List:<=>这将添加以下电子邮件地址到白名单：
+
+# Main Window
+
+Empty Trash<=>清空垃圾箱
+Options<=>选项
+AutoCheck<=>自动检查
+Notification<=>提示
+Email Client<=>邮件客户端
+View<=>查看
+Tray Icon<=>系统栏图标
+Language<=>语言
+Mouse Actions<=>鼠标动作
+Logging<=>日志
+&File<=>文件(&F)
+&Accounts...<=>帐号(&A)
+&Update{TAB}F5<=>检查更新(&U){TAB}F5
+&Cancel{TAB}Esc<=>取消(&C){TAB}Esc
+Delete &Marked Emails{TAB}F12<=>删除被标记的邮件(&M){TAB}F12
+&Exit<=>退出(&E)
+&View<=>查看(&V)
+&Toolbar<=>工具栏(&T)
+&Statusbar<=>状态栏(&S)
+&Hide Marked Messages<=>隐藏被标记的邮件(&H)
+Move Marked Messages to Tr&ash Tab<=>移动被标记的邮件到垃圾箱标签页(&a)
+Tab &View{TAB}Ctrl+M<=>标签视图(&V){TAB}Ctrl+M
+&Tools<=>工具(&T)
+&Font...<=>字体(&F)
+Font &Color...<=>文字颜色(&C)
+&Themes<=>主题(&T)
+Launch &Email Client{TAB}Ctrl+E<=>启动邮件客户端(&E){TAB}Ctrl+E
+&Import Accounts...<=>导入帐号(&I)...
+&White List...<=>白名单(&W)...
+&Black List...<=>黑名单(&B)...
+&Rules...<=>规则(&R)...
+Add Item To Rules &List...{TAB}F9<=>添加项目到规则列表(&L)...{TAB}F9
+&Options<=>选项(&O)
+&Help<=>帮助(&H)
+&Help Topics...{TAB}F1<=>帮助主题(&H)...{TAB}F1
+Check For &Updates<=>检查更新(&U)
+&About PopMan...<=>关于PopMan(&A)...
+Edit email accounts.{BR}Accounts<=>编辑邮件帐号。{BR}帐号
+Update email listing.{BR}Update<=>更新邮件列表。{BR}更新
+Cancel current operation.{BR}Cancel<=>取消当前操作。{BR}取消
+Show email content.{BR}Show<=>显示邮件内容。{BR}显示
+Show source code of this email.{BR}Source code<=>显示该邮件的源文件。{BR}源文件
+Save selected email to file.{BR}Save<=>保存选中邮件到文件。{BR}保存
+Create a reply message to the sender.{BR}Reply<=>创建一个回复邮件给发件人。{BR}回复
+Delete selected emails.{BR}Delete<=>删除选中邮件。{BR}删除
+Delete marked emails.{BR}Delete marked emails<=>删除被标记为删除的邮件。{BR}彻底删除邮件
+Unmark (undelete) selected emails.{BR}Unmark<=>取消标记（撤销删除）选中的邮件。{BR}取消标记
+Add sender to Black List.{BR}Block Sender<=>添加发件人到黑名单。{BR}屏蔽发件人
+Add sender to White List.{BR}Trust Sender<=>添加发件人到白名单。{BR}信任发件人
+Quit the application.{BR}Exit<=>退出程序。{BR}退出
+Show or hide the toolbar.{BR}Toggle ToolBar<=>显示或隐藏工具栏。{BR}切换工具栏
+Show or hide the status bar.{BR}Toggle StatusBar<=>显示或隐藏状态栏。{BR}切换状态栏
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>启用/禁用标签试视图。{BR}切换标签视图
+Hide messages that are marked for delete.{BR}Hide marked messages<=>隐藏已被标记为删除的邮件。{BR}隐藏标记邮件
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>移动标记的邮件到一个单独的“垃圾箱”标签。{BR}启用垃圾箱标签
+Change font.{BR}Font<=>更改字体。{BR}字体
+Change font color.{BR}Font Color<=>更高文字颜色。{BR}文字颜色
+Launch email client.{BR}Email Client<=>启动邮件客户端。{BR}邮件客户端
+Import email accounts from Outlook Express.{BR}Import Accounts<=>从Outlook Express导入邮件帐号。{BR}导入帐号
+Edit the rules.{BR}Rules<=>编辑规则。{BR}规则
+Add item to Rules list.{BR}Add To List<=>添加项目到规则列表。{BR}添加到列表
+Edit list of trusted senders.{BR}WhiteList<=>编辑信任发件人的名单。{BR}白名单
+Edit list of blocked senders.{BR}BlackList<=>编辑屏蔽发件人的名单。{BR}黑名单
+Change program settings.{BR}Settings<=>更改程序设置。{BR}设置
+Show Help Topics.{BR}Help<=>显示帮助主题。{BR}帮助
+Check if a new version is available.{BR}Check for updates<=>检查是否有新版本出现。{BR}检查更新
+Display program information, version number and copyright.{BR}About<=>显示程序信息，版本号和版权信息。{BR}关于
+Show the main window.{BR}Show<=>显示主窗口。{BR}显示
+Enable AutoChecking.{BR}Enable<=>启用自动检查。{BR}启用
+Suspend New Mail Notification Sound.{BR}Mute<=>暂停新邮件通知声音。{BR}静音
+Open the selected attachment.{BR}Open<=>打开选中的附件。{BR}打开
+Save the selected attachments.{BR}Save<=>保存选中的附件。{BR}保存
+Save all attachments.{BR}Save All<=>保存全部附件。{BR}全部保存
+Change the window size.<=>更改窗口大小。
+Change the window position.<=>更改窗口位置。
+Reduce the window to an icon.<=>将窗口缩小为一个图标。
+Enlarge the window to full size.<=>全屏展示窗口。
+Close the active window.<=>关闭活动窗口。
+Restore the window to normal size.<=>恢复窗口到正常大小。
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>切换选定邮件的[保护]状态。{BR}切换 [保护]
+Don't display this &message again.<=>不再显示本提示(&m)。
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>打印(&P){TAB}Ctrl+P
+&Close{TAB}Esc<=>关闭(&C){TAB}Esc
+&Edit<=>编辑(&E)
+&Cut{TAB}Ctrl+X<=>剪切(&C){TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>复制(&o){TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>粘贴(&P){TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>查找(&F)...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>查找下一个(&N){TAB}F3
+Select &All{TAB}Ctrl+A<=>全选(&A){TAB}Ctrl+A
+Print this email.{BR}Print<=>打印邮件。{BR}打印
+Delete this email.{BR}Delete<=>删除邮件。{BR}删除
+Close window.{BR}Close<=>关闭窗口。{BR}关闭
+Cut the selection and put it on the Clipboard.{BR}Cut<=>剪下选取的内容，放在剪贴板上。{BR}剪切
+Copy the selection and put it on the Clipboard.{BR}Copy<=>复制选取的内容，放在剪贴板上。{BR}复制
+Insert Clipboard contents.{BR}Paste<=>插入剪贴板内容。{BR}粘贴
+Find the specified text.{BR}Find<=>查找指定的文本。{BR}查找
+Find next occurence of specified text.{BR}Find next<=>查找下一个指定的文本。{BR}查找下一个
+Select the entire message.{BR}Select All<=>选择整个邮件内容。{BR}全选
+"{1}" not found.<=>“{1}”未找到。
+&Open<=>打开(&O)
+&Save As...<=>另存为(&S)...
+Save &All...<=>全部保存(&A)...
+This attachment can not be accessed anymore.<=>此附件不能访问了。
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>“{1}”很可能含有病毒，蠕虫或任何其他种类的危险代码！
+Opening this file is therefore denied.<=>无权限打开该文件。
+Do you really want to save this file to your hard disk?<=>你真的想保存这个文件到您的硬盘？
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>这些附件很可能含有病毒，蠕虫或任何其他种类的危险代码！
+Do you really want to save these files to your hard disk?<=>你真的想保存这些文件到您的硬盘？
+Please specify where to save the attachments.<=>请指定保存附件的位置。
+The file "{1}" does already exist!{BR}Overwrite it?<=>文件“{1}”已经存在！{BR}覆盖掉它？
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>下载电子邮件失败。{BR}请按Ctrl+ F5更新一下电子邮件列表，然后再试一次。
+Are you sure you want to delete this email?<=>你确定要删除此电子邮件吗？
+Deleting email failed!<=>删除邮件失败！
+From:<=>发件人：
+Date:<=>日期：
+To:<=>收件人：
+Subject:<=>主题：
+Attach:<=>附件：
+Protocol plugin not initialized correctly!<=>协议插件未正确初始化！
+
+# PopMan Start
+
+Please start one instance only.<=>请只启动一个实例。
+Windows socket init failed.<=>Windows套接字初始化失败。
+{1} Beta version has been updated successfully!<=>{1} Beta版本已经更新成功！
+You have successfully updated to version {1} !<=>您已成功更新到版本 {1} ！
+About PopMan<=>关于 PopMan
+PopMan, Version {1}<=>PopMan 版本 {1}
+Website:<=>网站：
+Forum:<=>论坛：
+
+# Document
+
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>无法初始化帐户{1}：无插件可以提供协议{2}！
+The error log file "{1}" could not be created.<=>错误日志文件“{1}”无法被创建。
+Checking {1}...<=>正在检查 {1}... 
+Email (*.eml)<=>电子邮件(*.eml)
+Text (*.txt)<=>文本文件(*.txt)
+Unable to load mail system support.<=>无法加载邮件系统支持。
+Mail system DLL is invalid.<=>邮件系统DLL是无效的。
+Unable to detect if a new version is available.<=>无法检测是否有新版本可用。
+There is no update available.<=>没有更新。
+Do you want to start the update wizard and download the latest version?<=>你要开始更新向导下载最新的版本吗？
+Deleting mail...<=>正在删除邮件...
+Downloading mail...<=>正在下载邮件...
+AutoCheck disabled<=>禁用自动检查
+No messages<=>无新邮件
+1 new message<=>1 个新邮件
+{1} new messages<=>{1} 个新邮件
+PopMan - New Mail<=>PopMan - 新邮件
+&Open PopMan<=>打开PopMan(&O)
+Check &Mail<=>检查邮件(&M)
+&Cancel<=>取消(&C)
+&Email Client<=>邮件客户端(&E)
+A&utoCheck Enabled<=>启用自动检查(&u)
+Mu&te Mode<=>静音模式(&t)
+O&ptions...<=>选项(&p)...
+&About...<=>关于(&A)...
+E&xit<=>退出(&x)
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>
+PopMan - Mail Info<=>PopMan - 邮件信息
+1 message<=>1 个邮件
+{1} messages<=>{1} 个邮件
+1 unread message<=>1 个未读邮件
+{1} unread messages<=>{1} 个未读邮件
+in {1}<=>位于 {1}
+in {1} accounts<=>位于 {1} 帐户里
+Show<=>显示
+Delete<=>删除
+Close<=>关闭
+(last check: {1})<=>(上一次检查： {1})
+You are about to irrevocably delete all marked messages.<=>你即将永久删除所有标记的邮件。
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>你刚才标记了一个邮件为删除。要取消标记，请按键盘上的Ins按钮。要删除所有标记的邮件，按F12或者点击相应的工具栏按钮。
+You can also delete selected messages immediately by pressing Shift+Del.<=>你也可以按Shift+Del立即删除选中的消息。
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>如果你想恢复此操作为惯例行为（点击删除时立即删除所有选中的邮件），在选项对话框中取消选中“{1}”。
+Failed to add item to Rules list!<=>无法新增项目到规则列表！
+
+# Main View
+
+Separate account | All<=>分开帐号 | 所有
+Check accounts{TAB}F7<=>检查帐户{TAB}F7
+Join with tab<=>并入标签
+Rename tab{TAB}F2<=>重命名标签{TAB}F2
+Mark All Mails Read<=>标记所有邮件为已读
+Mark All Mails Unread<=>标记所有邮件为未读
+You have to add at least one account before you can switch to tab view.<=>你必须至少添加一个帐户才可以切换到标签页视图。
+Caption:<=>标题：
+Please enter the caption of the tab:<=>请输入标签说明：
+Rename tab<=>重命名标签
+Trash<=>垃圾箱
+Tab accounts:<=>标签帐户：
+
+# Rules
+
+Error while parsing rules file at line {1}!<=>解析规则文件的第 {1} 行时出错行！
+The item is already contained in the list!<=>该项目已包含在列表中！
+
+# Text View
+
+Copy Link Address<=>复制链接地址

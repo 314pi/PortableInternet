@@ -1,0 +1,5507 @@
+Miranda Language Pack Version 1
+Language: Dutch
+Locale: 0413
+Last-Modified-Using: Miranda IM 0.5
+Authors: Erik Dokter
+Plugins-included:msn,clist_modern,newstatusnotifyw,userinfoexw,srmm,popup,updater,chat,irc,historypp,loadavatars,fontservice,smileyaddw
+
+; FLID: Dutch Language Pack 0.0.0.6
+
+; clistsettings.c
+[(Unknown Contact)]
+(Onbekend Persoon)
+
+; clui.c
+[De&lete]
+Verwijderen
+[&Rename]
+He&rnoemem
+[&Add permanently to list]
+Perm&anent aan lijst toevoegen
+
+; contacts.c
+['(Unknown Contact)']
+'(Onbekend Persoon)'
+
+; database.c
+[The profile already exists]
+Het profiel bestaat al
+[Couldn't move '%s' to the Recycle Bin, Please select another profile name.]
+Kan '%s' niet verplaatsen naar de prullenbak. Selecteer aub een ander profiel.
+[Problem moving profile]
+Probleem verplaaten profiel
+[Unable to create the profile '%s', the error was %x]
+Niet in staat om het profiel '%s' aan te maken, de fout was %x
+[Problem creating profile]
+Probleem aanmaken profiel
+[Miranda is unable to open '%s' because you do not have any profile plugins installed.\nYou need to install dbx_3x.dll or equivalent.]
+Miranda kan '%s' niet openen omdat u geen profiel plugins heeft geinstalleerd.\nU moet dbx_3x.dll of een equivalent installeren.
+[No profile support installed!]
+Geen profiel ondersteuning geinstalleerd!
+[Miranda was unable to open '%s', its in an unknown format.\nThis profile might also be damaged, please run DB-tool which should be installed.]
+Miranda kon '%s' niet openen, het is in een onbekend formaat.\nDit profiel kan ook beschadigd zijn, draai aub DB-tool welke geinstalleerd zou moeten zijn.
+[Miranda can't understand that profile]
+Miranda kan dat profiel niet begrijpen
+
+; profilemanager.c
+[My Profiles]
+Mijn profielen
+[New Profile]
+Nieuw profiel
+
+; findadd.c
+[&Find/Add Contacts...]
+Personen zoeken/toevoegen...
+
+; help.c
+;[&Help]
+[&About...]
+Over...
+[&Support\tF1]
+Onder&steuning\tF1
+;[&Miranda IM Homepage]
+[&Report Bug]
+Fout melden
+
+; history.c
+[View &History]
+Gesc&hiedenis bekijken
+
+; options.c
+[&Options...]
+&Opties...
+
+; newplugins.c
+['%s' is disabled, re-enable?]
+'%s' is uitgeschakeld, opnieuw inschakelen?
+[Re-enable Miranda plugin?]
+Miranda plugin opnieuw inschakelen?
+
+; skinicons.c
+[Icon Sets]
+Icoon sets
+[All Files]
+Alle bestanden
+
+; auth.c
+[%u requests authorization]
+%u vraagt toestemming
+[%u added you to their contact list]
+%u heeft u toegevoegd aan zijn/haar lijst
+
+; authdialogs.c
+[Add Contact Permanently to List]
+Persoon permanent aan lijst toevoegen
+[View User's Details]
+Details van de gebruiker bekijken
+[(Unknown)]
+(Onbekend)
+
+; awaymsg.c
+[Re&ad %s Message]
+%s bericht lezen
+[Re&ad Away Message]
+&Afwezig bericht lezen
+
+; sendmsg.c
+[I've been away since %time%.]
+Ik ben weg sinds %time%.
+[Give it up, I'm not in!]
+Geef het op, ik ben er niet!
+[Not right now.]
+Nu even niet.
+[Give a guy some peace, would ya?]
+Gun een man zijn rust, wil je?
+[I'm a chatbot!]
+Ik ben een gesprekbot!
+[Yep, I'm here.]
+Ja, hier ben ik.
+[Nope, not here.]
+Nee, hier niet.
+[I'm hiding from the mafia.]
+Ik verstop me voor de mafia.
+[That'll be the phone.]
+Dat zal de telefoon zijn.
+[Mmm...food.]
+Mmm...eten.
+[idleeeeeeee]
+ruuuuustig
+
+; email.c
+;[&E-mail]
+
+; file.c
+[File from %s]
+Bestand van %s
+[&File]
+Bestand
+[File]
+Bestand
+[Incoming]
+Binnenkomend
+[Complete]
+Voltooid
+[Error]
+Fout
+[Denied]
+Geweigerd
+
+; fileexistsdlg.c
+[%s File]
+%s Bestand
+
+; fileopts.c
+[Executable Files]
+Uitvoerbare bestanden
+
+; filerecvdlg.c
+[Select Folder]
+Selecteer folder
+[Received Files]
+Ontvangen bestanden
+[User Menu]
+Gebruikers menu
+[View User's History]
+Geschiedenis van de gebruiker bekijken
+[Cancelled]
+Geannuleerd
+
+; url.c
+[URL from %s]
+URL van %s
+[Web Page Address (&URL)]
+Webpagina adres (&URL)
+;[URL]
+
+; urldialogs.c
+[URL from ]
+URL van
+[Send URL to]
+Verstuur URL naar
+
+; stdinfo.c
+[Unknown]
+Onbekend
+
+; userinfo.c
+[User &Details]
+Gebruikers &details
+[View/Change My &Details...]
+Mijn &details bekijken/wijzigen...
+
+; useronline.c
+;[%s is Online]
+;%s is Online
+[Alerts]
+Waarschuwingen
+;[Online]
+
+; bmpfilter.c
+[All Bitmaps]
+Alle bitmaps
+;[Windows Bitmaps]
+;[JPEG Bitmaps]
+;[GIF Bitmaps]
+;[PNG Bitmaps]
+
+; resource.rc
+;[&U]
+;[&I]
+[Send ]
+Verstuur 
+[Send authorization request]
+Autorisatie verzoek versturen
+[Hide from list only, in order to keep their history and ignore/visibility settings]
+Verberg alleen van lijst, zodat de geschiedenis en negeer/zichtbaarheid instellingen bewaard blijven
+[Are you sure you want to delete %s?]
+Weet u zeker dat u %s wilt verwijderen?
+;[Tab1]
+[E-mail address]
+E-mail adres
+[Name]
+Naam
+[Advanced]
+Geavanceerd
+[Advanced >>]
+Geavanceerd >>
+[More options]
+Meer opties
+[Show expert options]
+Expert opties weergeven
+[Phone can receive SMS text messages]
+Telefoon kan SMS tekstberichten ontvangen
+[&Allow all further changes to this section]
+&alle verdere wijzigingen aan deze sectie toestaan
+[Sent bytes]
+Bytes verstuurd
+[Received bytes]
+Bytes ontvangen 
+[Additional data due to proxy communication]
+Extra data als gevolg van proxy communicatie
+[Text dumps where available]
+Tekst dumps waar beschikbaar
+[Auto-detect text]
+Automatische tekst-detectie
+[Calling modules' names]
+Namen van de aanroepende modules
+;[OutputDebugString()]
+[Show this dialog box when Miranda IM starts]
+Deze dialoog weergeven wanneer Miranda IM start
+[Show/Hide:]
+Weergeven/Verbergen:
+[HotKey1]
+SnelToets1
+[Read Msg:]
+Bericht lezen:
+;[Net Search:]
+[Open in new browser window]
+In nieuw browser scherm openen
+[Show Options]
+Opties weergeven
+;[6]
+;[&D]
+;[&H]
+;[&A]
+[Transferred:]
+Overgedragen:
+[Speed:]
+Snelheid:
+[Progress1]
+Voortgang1
+[Open file]
+Bestand openen
+;[&Open URL]
+[Hide offline users]
+Offline gebruikers verbergen
+[Hide empty groups]
+Lege groepen verbergen
+[Disable groups]
+Groepen uitschakelen
+[Ask before deleting contacts]
+Vraag voor het verwijderen van personen
+[Always on top]
+Altijd bovenop
+[Hide contact list after it has been idle for]
+Lijst verbergen nadat het rustig is voor
+;[Spin1]
+[Sort contacts by name]
+Personen op naam sorteren
+[Sort contacts by status]
+Personen op status sorteren
+[Sort contacts by protocol]
+Personen op protocol sorteren
+[Single click interface]
+Enkele-klik interface
+[Always show status in tooltip]
+Status altijd in tooltip weergeven
+[Disable icon blinking]
+Knipperend icoon uitschakelen
+[Show]
+Weergeven
+[Cycle icons every]
+Verander iconen iedere
+[Show multiple icons]
+Meerdere iconen weergeven
+[Only when statuses differ]
+Alleen wanneer statussen verschillen
+;[Spin5]
+[Download more sounds]
+Meer geluiden downloaden
+[Download more icons]
+Meer iconen downloaden
+[Do not reply to requests for this message]
+Niet op verzoeken voor dit bericht reargeren
+[Do not pop up dialog asking for new message]
+Geen dialoog tonen dat vraagt voor een nieuw bericht
+[By default, use the same message as last time]
+Altijd hetzelfde bericht als de vorige keer gebruiken
+[By default, use this message:]
+Altijd dit bericht gebruiken:
+;[Tool style main window]
+[Minimize to tray]
+Naar systeemvak minimaliseren
+[Automatically resize window to height of list]
+Hoogte van de lijst autmatisch aanpassen
+[Size upwards]
+Omhoog vergrootten
+;[Fade contact list in/out]
+[Transparent contact list]
+Doorzichtig persoon lijst
+;[Slider2]
+[Show menu bar]
+Menu balk weergeven
+[Easy move]
+Makkelijk verplaatsen
+[Show title bar]
+Titelbalk weergeven
+[If window is partially covered, bring to front instead of hiding]
+Als scherm gedeeltelijk bedekt is, breng naar voren in plaats van verbergen
+[Enable drop shadow (restart required)]
+Schakel schaduw vallen in (herstart benodigd)
+;[To main icons]
+;[To]
+;[To default status icons]
+[Show divider between online and offline contacts]
+Verdeler tussen online en offline personen weergeven
+[Hot track items as mouse passes over]
+Hot track items wanneer de muis erover gaat
+[Disable drag and drop of items]
+Drag and drop voor items uitschakelen
+[Disable rename of items by clicking twice]
+Items hernoemen door dubbelklik uitschakelen
+[Show selection even when list is not focused]
+Selectie weergeven zelfs wanneer lijst geen focus heeft
+[Make selection highlight translucent]
+Selectie oplichting doorzichtig maken
+[Draw a line alongside group names]
+Een lijn bij groepnamen tekenen
+[Show counts of number of contacts in a group]
+Aantallen van aantal personen in een groep weergeven
+[Hide group counts when there are none online]
+Groep aantallen wanneer er niemand online is verbergen
+[Sort groups alphabetically]
+Groepen alfabetisch sorteren
+[Quicksearch in open groups only]
+Snelzoeken alleen in open groepen
+[Scroll list smoothly]
+Lijst vloeiend scrollen
+[Grey out entire list when:]
+Gehele lijst grijs maken wanneer:
+[Dim idle contacts]
+Rustige personen donker maken
+[Hide vertical scrollbar]
+Vertikale scrollbalk verbergen
+;[Typeface]
+[Size]
+Grootte
+[Style]
+Stijl
+[Colour]
+Kleur
+[Bold]
+Vet
+[Italic]
+Cursief
+[Underline]
+Onderstrepen
+[Gamma correction]
+Gamma correctie
+[Use background bitmap]
+Achtergrond bitmap gebruiken
+[Stretch to width]
+Tot breedte uitrekken
+[Stretch to height]
+Tot hoogte uitrekken
+[Tile horizontally]
+Naast elkaar
+[Tile vertically]
+Onder elkaar
+[Scroll with text]
+Met tekst scrollen
+[Stretch proportionally]
+Proportioneel uitrekken
+[Show status bar]
+Status balk weergeven
+[Show icons]
+Iconen weergeven
+[Show protocol names]
+Protocol namen weergeven
+[Show status text]
+Status tekst weergeven
+[Right click opens status menu]
+Rechts klikken opent status menu
+[Right click opens Miranda IM menu]
+Rechts klikken opent Miranda IM menu
+[Make sections equal width]
+Selecties even groot maken
+;[Show bevel effect on panels]
+[Use proxy server]
+Proxy server gebruiken
+[Proxy requires authorization]
+Proxy vereist autorisatie
+[Resolve hostnames through proxy]
+Hostnamen oplossen door proxy
+[Specify ports to be used for incoming connections]
+Geeft poorten op voor gebruik voor binnenkomende verbindingen
+[Use NTLM authentication]
+NTLM authenticatie gebruiken
+[Specify ports to be used for outgoing connections]
+Geef poorten op voor gebruik voor uitgaande verbindingen
+[Auto-accept incoming files from people on my contact list]
+Binnenkomende bestanden van personen op mijn lijst automatisch accepteren
+[Minimize the file transfer window]
+Bestandsoverdracht scherm minimaliseren
+[Close window when transfer completes]
+Scherm sluiten wanneer overdracht voltooid is
+[Never, do not use virus scanning]
+Nooit, gebruik geen virusscanner
+[When all files have been downloaded]
+Wanneer alle bestanden zijn gedownload
+[As each file finishes downloading]
+Wanneer elk bestand klaar is met downloaden
+[Warn me before opening a file that has not been scanned]
+Waarschuw mij voordat een bestand wordt geopend dat niet is gescanned
+[Ask me]
+Vraag mij
+[Resume]
+Hervatten
+[Overwrite]
+Overschrijven
+[Rename (append ]
+Hernoemen (voeg toe)
+[Become idle if the following is left unattended:]
+Wordt rustig wanneer het volgende onbeheerd is gelaten:
+;[Windows]
+;[Miranda]
+;[Spin2]
+[Become idle if the screen saver is active]
+Wordt rustig wanneer de schermbeveiliger actief is
+[Become idle if the computer is locked (2000/XP+ only)]
+Wordt rustig wanneer de computer is vergrendeld (alleen 2000/XP+)
+[Do not let protocols report any idle information]
+Laat protocollen geen rustigheidsinformatie kenbaar maken
+[Change my status mode to:]
+Mijn status mode wijzigen naar:
+[Do not set status back to online when returning from idle]
+Status niet terugzetten naar online bij terugkomst van rustig
+[&Authorize]
+&Autoriserem
+[&Send]
+Ver&sturen
+[&Add]
+Toevoegen
+;[OK]
+[No]
+Nee
+[&Search]
+Zoeken
+[&Cancel]
+Annuleren
+[Closing in %d]
+Sluiten in %d
+[Yes]
+Ja
+[&Yes]
+Ja
+[Close]
+Sluit
+[&Find Next]
+Volgende zoeken
+[A&ccept]
+A&ccepteren
+[Cancel]
+Annuleren
+[&Deny]
+Weigeren
+[&Close]
+Sluiten
+;[Credits >]
+[&Run]
+Uitvoe&ren
+[&Exit]
+Afsluiten
+[Add to list]
+Aan lijst toevoegen
+[Apply]
+Toepassen
+[Update Now]
+Nu bijwerken
+[No to all]
+Nee voor alles
+[&View contents]
+Inhoud bekijken
+[&No]
+&Nee
+[Cancel Import]
+Import annuleren
+;[&Recycle]
+[&Delete]
+Verwij&deren
+[&Move/Rename]
+Verplaatsen/Hernoe&men
+[&Leave]
+&Laten staan
+;[...]
+[Run now]
+Nu uitvoeren
+[Save as default]
+Als standaard opslaan
+[&Choose Again...]
+Nogmaals kiezen...
+[&Decline]
+Weigeren
+;[Open folder]
+[Resume all]
+Alle vervolgen
+[Overwrite all]
+Alle overschrijven
+[Save as...]
+Opslaan als...
+[Skip]
+Overslaan
+[Cancel transfer]
+Overdracht annuleren
+[File properties]
+Bestandseigenschappen
+[&Reply]
+Antwoo&rden
+[&Find...]
+Zoeken...
+[Delete]
+Verwijderen
+[&Change...]
+Wijzigen...
+;[&Preview]
+[&Load icon set...]
+Icoon set &laden...
+[&Import icons >>]
+Iconen &importeren >>
+[<< &Import]
+<< &Importeren
+[Log Options...]
+Log opties...
+[Nick:]
+Bijnaam:
+;[E-mail:]
+[Reason:]
+Reden:
+[Custom name:]
+Eigen naam:
+[Group:]
+Groep:
+;[Miranda IM]
+[Copyright © 2000-2006 Richard Hughes, Roland Rabien, Tristan Van de Vreede, Martin Öberg, Robert Rainwater, Sam Kothari, George Hazan and Lyon Lim.  This software is released under the terms of the GNU General Public Licence.]
+Copyright © 2000-2006 Richard Hughes, Roland Rabien, Tristan Van de Vreede, Martin Öberg, Robert Rainwater, Sam Kothari, George Hazan and Lyon Lim.  Deze software is vrijgegeven onder de voorwaarden van de GNU General Public License.
+[Version]
+Versie
+[Use Options->Ignore (expert mode) to unhide contacts.]
+Gebruik Opties->Negeren (expert modus) om verborgen personen te tonen
+[This will erase all history and settings for this contact!]
+Dit zal alle geschiedenis en instellingen verwijderen voor deze persoon!
+[Instead of displaying contacts by their nickname, drag to choose another order:]
+In plaats van weegave van personen bij hun bijnaam, versleep om een andere volgorde te kiezen:
+[Select and/or create your Miranda IM user profile]
+Uw Miranda IM gebruikers profiel selecteren en/of maken
+[Search:]
+Zoeken:
+[First:]
+Eerste:
+[Last:]
+Laatste:
+[View personal user details and more.]
+Persoonlijke gebruikersdetails bekijken en meer.
+[Nickname:]
+Bijnaam:
+[First name:]
+Voornaam:
+[Gender:]
+Geslacht:
+[Last name:]
+Achternaam:
+[Age:]
+Leeftijd:
+[Date of birth:]
+Geboortedatum:
+[Phone:]
+Telefoon:
+[Web page:]
+Website:
+[Past background:]
+Achtergrond:
+[Interests:]
+Interesses:
+[About:]
+Over:
+[My notes:]
+Mijn aantekeningen:
+[Street:]
+Straat:
+[City:]
+Plaats:
+[State:]
+Provincie:
+[Postal code:]
+Postcode:
+[Country:]
+Land:
+[Spoken languages:]
+Spreekt talen:
+[Timezone:]
+Tijdzone:
+[Local time:]
+Huidige tijd:
+[Company:]
+Bedrijf:
+[Department:]
+Afdeling:
+[Position:]
+Functie:
+;[Website:]
+[Enter country, area code and phone number:]
+Land, regio code en telefoonnummer invoeren:
+[Or enter a full international number:]
+Of een volledig internationaal nummer invoeren:
+[A file containing new database settings has been placed in the Miranda IM directory.]
+Een bestand met nieuwe database instellingen is geplaatst in de Mirande IM directory.
+[Do you want to import the settings now?]
+Wilt u nu de instellingen importeren?
+[Security systems to prevent malicious changes are in place and you will be warned before changes that are not known to be safe.]
+Ter voorkoming van kwaadaardige wijzigen zijn beveilingssystemen aangebracht en u zal worden gewaarschuwd voordat wijzigingen worden gedaan die niet veilig worden geacht.
+[Database settings are being imported from]
+Database instellingen worden geimporteerd van
+[This file wishes to change the setting]
+Dit bestand wenst een wijziging op de instelling
+[to the value]
+naar de waarde
+[Do you want to allow this change?]
+Wilt u deze wijziging door laten gaan?
+[The import has completed from]
+De import is voltooid van
+[What do you want to do with the file now?]
+Wat wilt u nu met het bestand doen?
+[Run programme when Miranda IM starts (eg tail -f, dbgview, etc):]
+Programma starten wanneer Mirande IM start (bijv tail -f, dbgview, etc):
+;[URL:]
+[Find What:]
+Zoeken naar:
+[To:]
+Aan:
+[File(s):]
+Bestand(en):
+[Description:]
+Omschr.:
+[From:]
+Van:
+[Date:]
+Datum:
+[Files:]
+Bestanden:
+[Save to:]
+Opslaan naar:
+;[Status:]
+[You are about to receive the file]
+U staat op het punt een bestand te ontvangen
+[Size:]
+Grootte:
+;[Type:]
+[Enter URL:]
+URL invoeren:
+[Enter description:]
+Omschrijving invoeren:
+[seconds]
+seconden
+[ms, delay between icon blinking]
+ms, vertraging tussen knipperen
+[icon when statuses differ]
+icoon wanneer statussen verschillen
+[seconds, when statuses differ]
+seconden, wanneer statussen verschillen
+[Location:]
+Lokatie:
+[Name:]
+Naam:
+[Show category:]
+Toon categorie:
+[The following events are being ignored:]
+De volgende gebeurtenissen worden genegeerd:
+[Ignore messages]
+Berichten negeren
+[Ignore URLs]
+URLs negeren
+[Ignore files]
+Bestanden negeren
+[Suppress auth requests]
+Auth verzoek onderdrukken
+[Suppress online notification]
+Online melding onderdrukken
+[Ignore all]
+Alle negeren
+[Ignore none]
+Geen negeren
+[Suppress added notification]
+Toegevoegde melding onderdrukken
+[You are visible to this person even when in invisible mode]
+U bent zichtbaar voor deze persoon zelfs wanneer in onzichtbare modus
+[You are never visible to this person]
+U bent nooit zichtbaar voor deze persoon
+[Use %time% for the current time, %date% for the current date]
+Gebruik %time% voor de huidige tijd, %date% voor de huidige datum
+[maximum]
+maximum
+[% of screen]
+% van het scherm
+[Title bar text:]
+Titelbalk tekst:
+[Inactive opacity:]
+Inactief ondoorlatendheid:
+[Active opacity:]
+Actief ondoorlatendheid
+;[000%]
+[Drag icons to main list to assign them:]
+Versleep iconen naar de hooft lijst voor toewijzing:
+['Hide Offline' means to hide:]
+'Verberg Offline' betekent verberg:
+[Indent groups by:]
+Spring groepen in bij:
+;[pixels]
+[Time:]
+Tijd:
+[milliseconds]
+milliseconden
+[Left margin:]
+Linker marge:
+[same]
+zelfde
+[as:]
+als:
+[Row height:]
+Rij hoogte:
+[Selected text:]
+Geselecteerde tekst:
+[Hottrack text:]
+Hottrack tekst:
+[Quicksearch text:]
+Snelzoek tekst:
+[Colour:]
+Kleur:
+[Background colour:]
+Achtergrond kleur:
+[Selection colour:]
+Selectie kleur:
+;[Proxy type:]
+;[Proxy server:]
+[Port:]
+Poort:
+[(often %d)]
+(vaak %d)
+[Username:]
+Gebruikersnaam:
+[Password:]
+Wachtwoord:
+[Range:]
+Bereik:
+[Example: 1050-1070, 2000-2010, 2500]
+Voorbeeld: 1050-1070, 2000-2010, 2500
+[Received files folder:]
+Folder voor ontvangen bestanden:
+[Scan files:]
+Bestanden scannen:
+;[Command line:]
+[%f will be replaced by the file or folder name to be scanned]
+%f zal worden vervangen door de naam van het bestand of de folder welke gescand gaat worden
+[You will always be asked about files from people not on your contact list]
+Bestanden van personen niet op uw lijst zal altijd worden gevraagd
+[Variables Allowed: %userid%, %nick%, %proto%]
+Variabelen: %userid%, %nick%, %proto%
+[minute(s)]
+minu(u)t(en)
+[Please complete the following form to create a new user profile]
+Vul aub het volgende scherm in om een nieuw gebruikersprofiel te maken
+[Profile]
+Profiel
+[e.g. Workplace]
+bijv. Werkplek
+[You can select a different profile driver from the default, it may offer more features or abilities, if in doubt use the default.]
+U kan een andere profiel driver selecteren dan de standaard, het kan meer features en mogelijkheden bieden, bij twijfel gebruik de standaard.
+[e.g. Miranda Database]
+bijv. Miranda Database
+;[Driver]
+[Problem: Unable to find any database drivers, this means you can not create a new profile, you need to get dbx_3x.dll]
+Probleem: Kan geen enkele database driver vinden, dit beteken dat u geen nieuw profiel kan maken, u moet dbx_3x.dll zien te krijgen
+[Total size:]
+Totale grootte:
+[Last modified:]
+Laast aangepast:
+[Icon library:]
+Icoon bibliotheek
+[for]
+voor
+[Author(s):]
+Maker(s):
+;[Copyright:]
+;[Homepage:]
+[Options]
+Opties
+[Authorization Request]
+Autorisatie verzoek
+[Contact Display Options]
+Persoon weegave opties
+[Log to]
+Log naar
+[Hotkeys]
+Sneltoetsen
+[Current file]
+Huidig bestand
+[All files]
+Alle bestanden
+[Existing file]
+Bestaand bestand
+[File being received]
+Bestand dat wordt ontvangen
+[Contact List]
+Persoon lijst
+[System tray icon]
+Systeemvak icoon
+[System tray icon when using multiple protocols]
+Systeemvak icoon bij gebruik meedere protocollen
+[Contact List Sorting]
+Persoon lijst sortering
+[Sounds]
+Geluiden
+
+[Sound Information]
+Geluid informatie
+[Icons]
+Iconen
+[Ignore]
+Negeren
+[Visibility]
+Zichtbaarheid
+[Status Messages]
+Status berichten
+[Window]
+Scherm
+[Translucency options (Windows 2000/XP only)]
+Doorzichtigheidsopties (Windows 2000/XP)
+[Import multiple]
+Meerdere importeren
+;[Items]
+[Groups]
+Groepen
+;[Visual]
+[Fonts]
+Lettertypes
+[Rows]
+Rijen
+[Additional Colours]
+Extra kleuren
+[Contact List Background]
+Persoon lijst achtergrond
+[Status Bar]
+Status balk
+[Incoming connections]
+Binnenkomende verbindingen
+[Outgoing connections]
+Uitgaande verbindingen
+[Receiving files]
+Ontvangen bestanden
+;[Virus scanner]
+[If incoming files already exist]
+Wanneer binnenkomende bestanden al bestaan
+[Idle Options]
+Rustig opties
+[Enter a reason for denial]
+Voer een reden in voor ontkenning
+[Add %s]
+Voor %s toe
+[You Were Added]
+U bent toegevoegd
+[Send "You Were Added"]
+"U bent toegevoegd" versturen
+[About Miranda IM]
+Over Miranda IM
+[Delete Contact]
+Contact verwijderen
+[Miranda IM Profile Manager]
+Miranda IM Profiel Beheerder
+[Find/Add Contacts]
+Personen zoeken/toevoegen
+[%s Message for %s]
+%s Bericht voor %s
+[Change %s Message]
+%s bericht wijzigen
+[%s: User Details]
+%s: Gebruikers details
+[Add E-Mail Address]
+E-Mail adres toevoegen
+[Add Phone Number]
+Telefoonnummer toevoegen
+[Install Database Settings]
+Database instellingen installeren
+[Database Setting Change]
+Database instellingen wijzigen
+[Database Import Complete]
+Database import voltooid
+[Netlib Log Options]
+Netlib log opties
+[Find]
+Zoeken
+[Send File(s)]
+Bestand(en) versturen
+[Incoming File Transfer]
+Binnenkomend bestand overdracht
+[File Already Exists]
+Bestand bestaad al
+[URL Recieved]
+URL ontvangen
+[Message History]
+Bericht geschiedenis
+[Icon Index]
+Icoon indez
+[E&xit]
+Afsluiten
+;[&Offline\tCtrl+0]
+;[On&line\tCtrl+1]
+[&Away\tCtrl+2]
+Afwezig\tCtrl+2
+[&NA\tCtrl+3]
+&Niet beschikbaar\tCtrl+3
+[Occ&upied\tCtrl+4]
+Bezet\tCtrl+4
+[&DND\tCtrl+5]
+Niet storen\tCtrl+5
+[&Free for chat\tCtrl+6]
+Beschikbaar voor gesprek\tCtrl+6
+[&Invisible\tCtrl+7]
+Onz&ichtbaar\tCtrl+7
+[On the &Phone\tCtrl+8]
+Aan de telefoon\tCtrl+8
+[Out to &Lunch\tCtrl+9]
+Aan het lunchen\tCtrl+9
+
+[Away]
+Afwezig
+[NA]
+Niet beschikbaar
+[Occupied]
+Bezet
+[DND]
+Niet storen
+[Free for chat]
+Beschikbaar voor gesprek
+[Invisible]
+Onzichtbaar
+[On the phone]
+Aan de telefoon
+[Out to lunch]
+Aan het lunchen
+
+[&Hide/Show]
+Verbergen/Weergeven
+[&New Group]
+&Nieuwe Groep
+[&Hide Offline Users]
+Offline gebruikers verbergen
+[Hide &Offline Users out here]
+&Offline gebruikers hierbuiten verbergen
+[Hide &Empty Groups]
+L&ege groepen verbergen
+[Disable &Groups]
+&Groepen uitschakelen
+[Hide Miranda]
+Miranda verbergen
+[&New Subgroup]
+&Nieuw Subgroep
+[&Hide Offline Users in here]
+&Offline gebruikers hierbinnen verbergen
+[&Rename Group]
+G&roep hernoemen
+[&Delete Group]
+Groep verwij&deren
+[&Reset to default]
+Naar standaard te&rugzetten
+[&Add to List]
+&Aan lijst toevoegen
+[Send &Message]
+Bericht versturen
+[&Copy]
+Kopiëren
+[Co&py All]
+Alles kopiëren
+[Select &All]
+&Alles selecteren
+[C&lear Log]
+Log opschonen
+[Open in &new window]
+In &nieuw scherm openen
+[&Open in existing window]
+In bestaand scherm &openen
+[&Copy link]
+Link &kopiëren
+
+[Contact Display]
+Personen weergave
+[My custom name (not moveable)]
+Mijn eigen naam (niet verplaatsbaar)
+[Nick]
+Bijnaam
+;[E-mail]
+[LastName]
+Achternaam
+[FirstName]
+Voornaam
+[FirstName LastName]
+Voornaam achternaam
+[Username]
+Gebruikersnaam
+['(Unknown Contact)' (not moveable)]
+'(Onbekend Persoon)' (niet verplaatsbaar)
+[List]
+Lijst
+[List Background]
+Lijst achtergrond
+[Use Windows colours]
+Windows kleuren gebruiken
+[Background colour]
+Achtergrond kleur
+[Selection colour]
+Selectie kleur
+[Use background image]
+Achtergrondplaatje gebruiken
+[List Text]
+Lijst tekst
+[File Transfers]
+Bestandsoverdrachten
+[Pin to desktop]
+Op desktop vastzetten
+[Show drop shadow (restart required]
+Schaduw tonen (opnieuw starten vereist)
+[Running]
+Draait
+[Please select a subentry from the list]
+Selecteer aub een subitem uit de lijst
+[Idle]
+Rustig
+[** All contacts **]
+** Alle personen **
+[** Unknown contacts **]
+** Onbekende personen **
+[Only the ticked contacts will be shown on the main contact list]
+Alleen de gemarkeerde personen zullen worden getoond op de hoofd lijst
+[Rename (append " (1)", etc.)]
+Hernoemen (voeg " (1)" toe, etc.)
+
+
+[Main Icons]
+Hoofd iconen
+[Global Status Icons]
+Globale status iconen
+
+[History for %s]
+Geschiedenis voor %s
+
+[Summary]
+Samenvatting
+;[Contact]
+[Primary]
+Hoofd
+[Location]
+Locatie
+[Work]
+Werk
+[Background]
+Achtergrond
+[Notes]
+Notities
+[You will need to reconnect for the changes you have made on this page to take effect.]
+U moet opnieuw verbinden om de wijzigingen die u gemaakt heeft op deze pagina in te laten gaan.
+[Please restart Miranda IM for your changes to take effect.]
+Herstart Miranda IM op de wijzigingen actief te maken.
+[Event area text]
+Gebeurtenisgebied tekst
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;          MSN          ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; MSN 0.1.7.9 translation strings
+
+;[MSN Protocol]
+[MSN plugin connections]
+MSN plugin verbindingen
+;[Hotmail]
+[Hotmail Notify]
+Hotmail melding
+[Hotmail from %s]
+Hotmail van %s
+[Hotmail from %s (%s)]
+Hotmail van %s (%s)
+[A new mail has come from %s (title: %s).]
+Een nieuwe mail van %s (titel: %s) is gekomen.
+[A new mail has come from %s (%s) (title: %s).]
+Een nieuwe mail van %s (%s) (titel: %s) is gekomen.
+[Subject: %s]
+Onderwerp: %s
+[Unread mail is available: %d messages (%d junk e-mails).]
+Ongelezen mail is beschikbaar: %d berichten (%d ongewenste e-mails).
+[Test: Arrival Hotmail]
+Test: Aankomst Hotmail
+[A New Hotmail has come!]
+Een nieuwe Hotmail is gekomen!
+[Contact left channel]
+Persoon heeft kanaal verlaten
+
+; Messages
+
+[%s (%s) has joined the chat with %s]
+%s (%s) is bij het gesprek gekomen met %s
+[First message delivered]
+Eerste bericht afgeleverd
+[typing...]
+typen...
+
+; Menus
+
+[&Block]
+&Blokkeren
+[&Unblock]
+Deblokkeren
+[Display Hotmail &Inbox]
+Laat Hotmail Postvak &In zien
+[&Invite to chat]
+Voor gesprek u&itnodigen
+[Set &Nickname]
+Bij&naam instellen
+[Edit MSN &Profile]
+MSN &profiel bewerken
+;[&Start Netmeeting]
+[Set &Avatar]
+&Avatar instellen
+[View MSN Services &Status]
+MSN Services &status bekijken
+[&View Profile]
+Profiel bekijken
+
+
+; Errors
+[Attempt to make the SSL connection resulted to error %d: %s.]
+Poging om een SSL verbinding te maken heeft fout %d opgeleverd: %s.
+[Cannot start the file transfer: no free sockets. Error %d: %s.]
+Kan bestandsoverdracht niet beginnen: geen vrije sockets. Fout %d: %s.
+[Cannot start the file transfer due to the lack of free sockets.]
+Kan bestandsoverdracht niet beginnen door het gebrek aan vrije sockets.
+[Cannot start the file transfer: cannot listen on a socket. Error %d: %s.]
+Kan bestandsoverdracht niet beginnen: kan niet luisteren op een socket. Fout %d: %s.
+[Contact tried to send its webcam data (currently not supported)]
+Persoon heeft geprobeerd zijn webcam gegevens te versturen (nog niet ondersteund)
+[Contact tried to view our webcam data (currently not supported)]
+Persoon heeft geprobeerd onze webcam gegevens te bekijken (nog niet ondersteund)
+[Contact tried to open an audio conference (currently not supported)]
+Persoon heeft geprobeerd een geluidsconferentie te openen (nog niet ondersteund)
+[file transfer is canceled by remote host]
+bestandsoverdracht is geannuleerd door de andere host
+[file transfer: time out occurred]
+bestandsoverdracht: time-out heeft zich voorgedaan
+[Internet Explorer is in the 'Offline' mode. Switch IE to the 'Online' mode and then try to relogin]
+Internet Explorer is in de 'Offline' modus. Schakel IE naar de 'Online' modes en probeer dan opnieuw in te loggen
+[MSN plugin cannot add a new contact because the contact list is full]
+MSN Plugin kan geen nieuw persoon toevoegen omdat de lijst vol is
+[MSN protocol allows only one file to be sent at a time]
+MSN protocol staat alleen het versturen van één bestand tegelijk toe
+[MSN protocol does not allow you to communicate with others when you are invisible]
+MSN protocol staat niet toe te communiceren met anderen wanneer je onzichtbaar bent
+[MSN protocol does not support offline messages]
+MSN protocal ondersteund geen offline berichten
+[MSN Services are temporarily unavailable, please try to connect later]
+MSN Services zijn tijdelijk onbereikbaar, probeer het later nog eens
+[Message is too long: MSN messages are limited by 1202 UTF8 chars]
+Bericht is te lang: MSN berichten zijn gelimiteerd tot 1202 UTF8 karakters
+[Server has requested an unknown protocol set (%s)]
+Server heeft een onbekend protocolset (%s) gevraagd
+[Unknown or invalid host name was specified (%s). Error %d: %s]
+Onbekend of ongeldige host naam was opgegeven (%s). Fout %d: %s
+[Unprocessed error: %s]
+Niet verwerkte fout: %s
+[Unrecognised error %d. The server has closed our connection]
+Onherkenbare fout %d. De server heeft onze verbinding verbroken
+[User is already in your contact list]
+Gebruiker is al in uw lijst
+[You must be talking to start Netmeeting]
+U moet aan het praten zijn om Netmeeting te starten
+[You must specify your e-mail in Options/Network/MSN]
+U moet uw e-mail opgeven in Opties/Netwerk/MSN
+[Your username or password is incorrect]
+Uw gebruikersnaam of wachtwoord is ongeldig
+[Your MSN account e-mail is unverified. Goto http://www.passport.com and verify the primary e-mail first]
+Uw MSN account e-mail is niet geverifieerd. Ga naar http:.//www.passport.com en verifieer de hooft e-mail eerst
+
+; Options dialog
+
+[Network]
+Netwerk
+[PopUps]
+Popups
+[E-mail address]
+E-mail adres
+
+[Full e-mail:]
+Volledige e-mail:
+[Password:]
+Wachtwoord:
+[Nickname:]
+Bijnaam:
+[Create a new MSN messenger account using the MSN website]
+Maak een nieuw MSN messenger account aan via de MSN website
+;[Expert]
+[Use MSN protocol v.8]
+MSN protocol v.8 gebruiken
+[Use MSN Messenger 7 protocol]
+MSN Messenger 7 protocol gebruiken
+[Use OpenSSL encryption (requires LIBSSL32.DLL)]
+OpenSSL encryptie gebruiken (vereist LIBSSL32.DLL)
+[Disable main menu]
+Hoofdmenu uitschakelen
+[Send message font color/size info inside messages]
+Lettertype grootte/kleur informatie binnenin berichten versturen
+[Disable all contacts not included into my contact list]
+Alle personen niet in mijn lijst uitschakelen
+[Enable avatars]
+Avatars inschakelen
+[Enable avatars support]
+Avatar ondersteuning inschakelen
+[Manage server groups]
+Server groepen beheren
+[Treat Away status as 'Be Right Back']
+'Afwezig' status als 'Ben zo terug' behandelen
+[Never update your nickname from server]
+Uw bijnaam nooit van de server bijwerken
+[Run the following application when new Hotmail is arrived]
+De volgende applicatie starten wanneer er nieuwe Hotmail is aangekomen
+[Server groups import may change your contact list layout after next login. Do you want to upload your groups to the server?]
+Het importeren van server groepen kan uw lijst layout wijzigen na de volgende login. Wilt u uw groepen uploaden naar de server?
+
+; Network options dialog
+
+[Connection settings]
+Verbinding instellingen
+;[Login server:]
+[Port:]
+Poort:
+[Use HTTP gateway mode (incompatible with MSN Gateway plugin)]
+HTTP gateway modus gebruiken (incompatibel met MSN Gateway plugin)
+[Use IE proxy settings]
+IE proxy instellingen gebruiken
+[Keep connection alive (send a ping packet every minute)]
+Verbinding levend houden (stuur een ping pakket elke minuut)
+[Incoming file transfers]
+Binnenkomende bestandsoverdrachten
+[Automatically obtain host/port for incoming file transfers]
+Automatisch host/poort voor binnenkomende bestandsoverdrachten verkrijgen
+[Notify me when a message delivery has failed]
+Een melding geven wanneer de aflevering van een bericht is mislukt
+[Your host (or router):]
+Uw host (of router):
+[Reset]
+Terugzetten
+[The changes you have made require you to reconnect to the MSN Messenger network before they take effect]
+De wijzigingen die u heeft gemaakt vereisen dat u opnieuw verbinding maakt met het MSN Messenger netwerk voordat ze effect hebben
+[The changes you have made require you to restart Miranda IM before they take effect]
+De wijzigingen die u heeft gemaakt vereisen dat u Miranda IM opnieuw start voordat ze effect hebben
+
+; Popup options dialog
+
+[Colours]
+Kleuren
+[Background colour]
+Achtergrond kleur
+[Text colour]
+Tekst kleur
+[&Use Windows colours]
+Windows kleuren gebr&uik
+[Disable receiving Hotmail notifications]
+Ontvangst Hotmail meldingen uitschakelen
+[Ignore new messages in 'Junk Mail' folder only (at startup)]
+Alleen nieuwe berichten in 'Ongewenste Post' folder negeren (bij opstarten)
+;[Timeout (*)]
+;[Previe&w]
+[Other]
+Ander
+[Display popups when user is typing]
+Popups weergeven wanneer gebruiker aan het typen is
+[Enable 'First message delivered' popup]
+'Eerste bericht afgeleverd' popup inschakelen
+[(*) Timeouts require Popup v. 1.0.1.9 or later]
+(*) Timeouts vereisen Popup v. 1.0.1.9 of later
+[Display errors using popups]
+Fouten in popups weergeven
+
+; pnd2dib download dialog
+
+;png2lib download
+[To enable the avatar support, you must obtain the valid copy of the png2dib.dll. Choose one of the following:]
+Om avatar ondersteuning in te schakelen heeft u een geldige kopie van de png2dib.dll nodig. Kies een van de volgende:
+[[Install] - install a png2lib plugin using Miranda Installer]
+[Installeren] - installeer een png2lib plugin met behulp van Miranda Installer
+[[Download] - manually download a zipped DLL and then unzip it to the plugins folder]
+[Download] - download handmatig een gezipte DLL en pak deze uit in de plugins folder
+[[Cancel] - disable the avatar support]
+[Annuleer] - Aatar ondersteuning uitschakelen
+
+
+; Server list manager
+
+[Server Lists]
+Server lijsten
+[Server List Manager]
+Server lijst beheerder
+[Contact is included into your server list]
+Persoon is toegevoegd aan uw server lijst
+[Somebody included you in his/her server list]
+Iemand heeft u toegevoegd aan zijn/haar server lijst
+[Allowed (active) contact]
+Toegestane (actieve) persoon
+[Blocked contact]
+Geblokkeerd persoon
+
+; chat window
+[Me]
+Ik
+[Others]
+Anderen
+
+; chat log message
+;[This conversation has been inactive, participants will be removed.]
+[To resume the conversation, please quit this session and start a new chat session.]
+Om het gesprek verder te gaan, sluit deze sessie en start aub een nieuwe sessie.
+
+; contact list and chat title
+[MSN Chat #]
+MSN Gesprek #
+
+; message box
+[There is only 1 person left in the chat, do you want to switch back to standard message window?]
+Er is nog maar 1 persoon over in het gesprek, wilt u terug gaan naar het standaard berichten scherm?
+[User is already in the chat session.]
+Gebruiker is al in het gesprek.
+[No active chat session is found.]
+Geen actief gesprek gevonden.
+
+; menus
+[User &details]
+Gebruiker &details
+[User &history]
+Gebruiker gesc&hiedenis
+[&Leave chat session]
+Gesprek ver&laten 
+[&Invite user...]
+Gebruiker uitnod&igen...
+
+; options dialog
+;[Avatar]
+[Running on a mobile device]
+Draait op een draagbaar apparaaat
+[Running on a MSN mobile device]
+Draait op een MSN draagbaar appartaat
+[Using MSN Webmessenger]
+Gebruikt MSN Webmessenger
+
+[Connection]
+Verbinding
+[Server list]
+Server lijst
+[Connecting]
+Verbinden
+[Set Nickname]
+Bijnaam instellen
+[Events]
+Gebeurtenissen
+
+[<All connections>]
+<Alle verbindingen>
+[MSN Icons]
+MSN iconen
+
+[%s - Message Session]
+%s - Bericht sessie
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;     clist_modern      ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[&About]
+Over
+[Customize]
+Aanpassen
+[Standard contacts]
+Standaard personen
+[Online contacts to whom you have a different visibility]
+Online personen met een andere zichtbaarheid
+[Offline contacts]
+Offline personen
+[Offline contacts to whom you have a different visibility]
+Offline personen met een andere zichtbaarheid
+[Contacts which are 'not on list']
+Personen die 'niet op de lijst' staan
+[Open groups]
+Open groepen
+[Open group member counts]
+Open groep lid telling
+[Closed groups]
+Gesloten groepen
+[Closed group member counts]
+Gesloten groep lid telling
+[Dividers]
+Verdelers
+[Second line]
+Tweede lijn
+[Third line]
+Derde lijn
+[Away contacts]
+Personen afwezig
+[DND contacts]
+Personen Niet storen
+[NA contacts]
+Personen Niet beschikbaar
+[Occupied contacts]
+Personen Bezet
+[Free for chat contacts]
+Personen Beschikbaar voor gesprek
+[Invisible contacts]
+Personen Onzichtbaar
+[On the phone contacts]
+Personen Aan de telefoon
+[Out to lunch contacts]
+Personen Aan het lunchen
+[Status bar text]
+Statusbalk tekst
+[Typeface]
+Lettertype
+[<none>]
+<geen>
+[Shadow at left]
+Schaduw links
+[Shadow at right]
+Schaduw rechts
+[Outline smooth]
+Outline vloeiend
+[Selection Mode]
+Selectie modus
+[Default]
+Standaard
+[Full selection]
+Volledige selectie
+[Less selection]
+Mindere selectie
+[No selection]
+Geen selectie
+[Sample]
+Voorbeeld
+[Menu Order]
+Menu volgorde
+[MenuObjects]
+Menuobjecten
+[MainMenu]
+Hoofdmenu
+[ContactMenu]
+Persoonmenu
+[TrayMenu]
+Systeeemvakmenu
+[SubGroupMenu]
+SubGroepmenu
+[GroupMenu]
+Groepmenu
+;[FrameMenu]
+;[StatusMenu]
+[InsertSeparator]
+Voegverdelertoe
+[Default]
+Standaard
+[Set]
+Instellen
+[Load/Save]
+Laden/Opslaan
+[Available skins]
+Beschikbare skins
+[Default Skin]
+Standaard Skin
+[This is default Modern Contact list skin based on 'Luna' theme]
+Dit is standaard Modern Contact list skin gebaseerd op 'Luna' thema
+[AUTHORS:]
+MAKERS:
+[Browse]
+Bladeren
+[WARNING:]
+WAARSCHUWING:
+[Skins can modify your current profile. Rollback is not possible.\nPlease BACKUP your database before applying skin.]
+Skins kunnen uw huidige profiel aanpassen. Ongedaan maken is niet mogelijk.\nBACKUP aub uw huidige database alvoerens de skint toe te passen.
+[* Restart can be required to all changes take effect]
+* Herstart kan vereist zijn voordat alle wijzigingen effect hebben
+[Frame Titels Color]
+Frame titel kleur
+[Object Editor]
+Object bewerker
+[Available objects]
+Beschikbare objecten
+[Copy]
+Kopiëren
+[Paste]
+Plakken
+[Object properties]
+Object eigenschappen
+[Type]
+Type
+[- Empty - (do not draw this object)]
+- Leeg - (dit object niet tekenen)
+[Solid fill object]
+Object vullen 
+[Image (draw image)]
+Afbeelding (afbeelding tekenen)
+[Fragment (draw portion of image)]
+Gedeelte (gedeelte van afbeelding tekenen)
+[Image file and fitting mode]
+Afbeeldingbestand en pas modus
+[Borders]
+Randen
+[W x H:]
+B x H:
+[Fit mode]
+Pas  modus
+[Stretch Both directions]
+Strek beide richtingen
+[Stretch Vertical, Tile Horizontal]
+Strek vertikaal, stapel horizontaal
+[Tile Vertical, Stretch Horizontal]
+Stapel vertikaal, strek horizontaal
+[Tile Both directions]
+Stapel beide richtingen
+[Fragment location]
+Framgent locatie
+[Top]
+Boven
+[Width]
+Breedte
+[Height]
+Hoogte
+[Hotkeys2]
+Sneltoetsen2
+[HotKeys]
+Sneltoetsen
+[Main]
+Hoofd
+[Close Miranda]
+Miranda sluiten
+[Open Find User Dialog]
+Zoek gebruiker scherm openen
+[Open Options Page]
+Opties scherm openen
+[Read Message]
+Bericht lezen
+[Search in site]
+In site zoeken
+[Show Hide Contact List]
+Lijst weergeven verbergen
+[Restore last status]
+Laatste status herstellen
+[Set All Offline]
+Alles Offline instellen
+[Hotkey]
+Sneltoets
+[Protocol order]
+Protocol volgorde
+[Protocol Order & Visibility]
+Protocol volgorde & zichtbaarheid
+[Show protocols in the following order, drag to choose another order:]
+Protocollen in de volgende volgorde weegeven, sleep om de volgorde te veranderen:
+[1st:]
+1e:
+[2nd:]
+2e:
+[3rd:]
+3e:
+[Last message time]
+Tijd laatste bericht
+[-Nothing-]
+-Niks-
+[Place offline users out of groups]
+Offline gebruikers buiten groepen plaatsen
+[Dont move offline user to bottom]
+Offline gebruikers niet naar beneden verplaatsen
+[Use xStatus icon]
+xStatus icoon gebruiken
+[Show normal status as overlay]
+Normale status als overlay weergeven
+[Status overlay opacity is 75%%]
+Status overlay ondoorlatendheid is 75%%
+[only when statuses differ]
+bij verschillende statussen
+[Fade out entire list when:]
+Volledige lijst grijs maken wanneer:
+[Visual]
+Visueel
+[Not focused]
+Geen focus
+[Appearance]
+Uiterlijk
+[Disable Layer Engine\n(restart required)]
+Layer Engine uitschakelen\n(herstart benodigd)
+[Behaviour]
+Gedrag
+[Bring to front if covered]
+Naar voren halen wanneer bedekt
+[Hide contact list after ]
+Lijst verbergen na
+[Hide method]
+Verberg methode
+[Hide to tray]
+Naar systeemvak verbergen
+[Behind left edge]
+Achter linker rand
+[Behind right edge]
+Achter rechter rand
+[show delay]
+vertraging weergeven
+[hide delay]
+vertraging verbergen
+[keep on screen]
+op scherm houden
+[Lock manual resize]
+Handmatige resize vergrendelen
+[Easy Scroll]
+Eenvoudig scrollen
+[Snap to edges]
+Aan randen plakken
+[Show xStatus Name]
+xStatus naam tonen
+[Use connecting Icon]
+Verbinden icoon gebruiken
+[Left border]
+Linker rand
+[Right border]
+Rechter rand
+[Space between ]
+Ruimte ertussen
+[Align]
+Uitlijning
+[Left]
+Links
+[Center]
+Midden
+[Right]
+Rechts
+[Right click opens Miranda menu]
+Rechts klikken opent Miranda menu
+[Show xStatus icon]
+xStatus icoon weergeven
+[Show both icons]
+Beide iconen weergeven
+[Show normal status as overlay]
+Normale status als overlay weergeven
+[Additional stuffs]
+Aanvullende spullen
+[Additional stuff]
+Aanvullend spul
+[Ignore Empty Extra icons places (arrange to right).]
+Lege extra icoon plekken negeren (rangschik naar rechts).
+[Allow internal requesting of away message text]
+Interne vraag om tekst afwezig bericht toestaan
+[Remove away message if contact became offline]
+Afwezig bericht verwijderen als persoon offline is
+[For other stuffs MetaContacts plugin should be loaded.]
+Voor andere spullen moet MetaContacts plugin geladen zijn.
+[Row items]
+Rij items
+[Row]
+Rij
+[Order of items:]
+Volgorde van items:
+[Icon]
+Icoon
+[Text]
+Tekst
+[Extra icons]
+Extra iconen
+[Contact time]
+Persoon tijd
+[Up]
+Omhoog
+[Down]
+Omlaag
+[Min row height:]
+Min rij hoogte:
+[Row border:]
+Rij rand:
+[Right margin:]
+Rechter marge:
+[Variable row height]
+Variabele rij hoogte
+[Align left items to left]
+Lijn linker items links uit
+[Align right items to right]
+Lijn rechter items rechts uit
+[Show Avatars]
+Avatars weergeven
+[Draw border on avatar]
+Rand om avatar tekenen
+[Trim long text with ellipsis]
+Lange tekst inkorten met cirkels
+[Border Color:]
+Rand kleur:
+[Round corners of avatars]
+Hoeken van avatars afronden
+[Custom corner size:]
+Aangepaste hoek grootte:
+[Ignore size for row height calcs]
+Grootte voor rij hoogte berekeningen negeren
+[Max widht]
+Max breedte
+[height]
+hoogte
+[Replace smileys in clist]
+Smilyes in clist vervangen
+[Use protocol smileys]
+Gebruik protocol smileys
+[Resize smileys]
+Smileys schalen
+[Draw smileys on first line]
+Teken smileys op de eerste lijn
+[Draw smileys on second line]
+Teken smileys op de tweede lijn
+[Draw smileys on thirds line]
+Teken smileys op de derde lijn
+[Draw overlay icons]
+Overlay iconen tekenen
+[Normal overlay icon]
+Normaal overlay icoon
+[Protocol status icon]
+Protocol status icoon
+[Contact icon]
+Persoon icoon
+[Icon]
+Icoon
+[Hide icon when showing avatar]
+Icoon verbergen wanneer avatar getoond wordt
+[Draw icon in avatar space]
+Icoon in ruimte van avatar tekenen
+[Hide groups icon]
+Groepen icoon verbergen
+[Show contact time as row item]
+Persoon tijd als rij item weergeven
+[Show time only if it is different from current time]
+Tijd alleen weergeven wanneer deze verschillend is van de huidige tijd
+[Left align group names]
+Groepnamen links uitlijnen
+[Center group names]
+Groepnamen centreren
+[Right align group names]
+Groepnamen rechts uitlijnen
+[Right-To-Left reading mode (mirror template)]
+Rechts-Naar-Links leesmodus (spiegel template)
+[Align to right]
+Naar rechts uitlijnen
+[Append nick if different from custom name]
+Bijnaam toevoegen als verschilt van eigen naam
+[Second Line]
+Tweede lijn
+[Show second line]
+Tweede lijn weergeven
+[Top space:]
+Boven ruimte:
+[Text:]
+Tekst:
+[Nickname]
+Bijnaam
+[Away Message]
+Afwezig bericht
+[Show status if there isn't away message]
+Status tonen als er geen afwezig bericht is
+[XStatus has priority]
+XStatus heeft prioriteit
+[Use 'XStatus: XMessage']
+'XStatus: XMessage' gebruiken
+[Third Line]
+Derde lijn
+[Show third line]
+Derde lijn weergeven
+[Extra Icons]
+Extra iconen
+[Contact List Extra Icons]
+Lijst extra iconen
+[Visibility/Chat activity]
+Zichtbaarheid/Gesprek activiteit
+[Phone/SMS]
+Telefoon/SMS
+[Web page]
+Web pagina
+[Client (fingerprint.dll is required)]
+Client (fingerprint.dll is benodigd)
+[Advanced #1]
+Geavanceerd #1
+[Advanced #2]
+Geavanceerd #2
+[Advanced #3]
+Geavanceerd #3
+[Advanced #4]
+Geavanceerd #4
+
+[&Move to Group]
+Naar groep verplaatsen
+[Root Group]
+Hoofd Groep
+[&New SubGroup]
+&Nieuwe SubGroep
+[&Show Offline Users in here]
+Offline gebruiker&s hierbinnen weergeven
+
+[Message]
+Bericht
+[&Message]
+Bericht
+[Group (Open)]
+Groep (Open)
+[Group (Closed)
+Groep (Gesloten)
+[User Online]
+Gebruiker Online
+[Borderless main window]
+Hoofdscherm zonder rand
+[Thin border main window]
+Hoofdscherm met dunne rand
+[Round corners]
+Ronde hoeken
+[%s is typing a message...]
+%s is een bericht aan het typen...
+
+[Listening to]
+Luistert naar
+[Show listening to if there isn't away message]
+Luistert naar weergeven bij geen afwezig bericht
+
+[Drag to]
+Verplaats naar
+[Event notify area]
+Gebeurtenis meldingen gebied
+[Show automatically]
+Automatisch weergeven
+[Show automaticaly]
+Automatisch weergeven
+[Always Visible]
+Altijd zichtbaar
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;      UserInfoEx       ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+; /tra.txt
+[Aries]
+Ram
+[Taurus]
+Stier
+[Gemini]
+Tweelingen
+[Cancer]
+Kreeft
+[Leo]
+Leeuw
+[Virgo]
+Maagd
+[Libra]
+Weegschaal
+[Scorpio]
+Schorpioen
+[Sagittarius]
+Boogschutter
+[Capricorn]
+Steenbok
+[Aquarius]
+Waterman
+[Pisces]
+Vissen
+[Birthday]
+Verjaardag
+[%s provides a new birthday via protocol.\nIt is %s. The old one was %s.\n\nDo you want to use this as the new birthday for this contact?]
+%s levert een nieuwe verjaardag via protocol.\nHet is %s. De oude was %s.\n\nWilt u deze gebruiken als de nieuwe verjaardag voor deze persoon?
+[Update custom birthday]
+aangepaste verjaardag bijwerken
+[Keeps your custom birthday up to date.]
+Houdt uw aangepaste verjaardag up to date.
+[Due to a parameter error, one of the treeitems can't be added!]
+Als gevolg van een parameter fout kan één van de treeitems niet worden toegevoegd!
+[An fatal error occured on adding a property sheet page!\nDialog creation aborted!]
+Een fatale fout heeft zich voorgedaan bij het toevoegen van een eigenschappen blad!\nScherm wordt niet gemaakt!
+[Rename Item]
+Item hernoemen
+[Hide Item]
+Item verbergen
+[Show Items:]
+Items weergeven:
+[Set for all contacts with the same protocol]
+Voor alle personen met hetzelfde protocol instellen
+[Set for all contacts]
+Voor alle personen instellen
+[Reset to defaults]
+Naar standaarden terugzetten
+[Button]
+Knop
+[Creating unique name for a page failed with %d and error code %d]
+Aanmaken van een unieke pagina is fout gegaan met %d en fout code %d
+[Creating the label for a page failed with %d and error code %d]
+Aanmaken van het label voor een pagina is fout gegaan met %d en fout code %d
+[The dialog template type is no longer supported]
+Het scherm template type wordt niet langer ondersteund
+[Protocol]
+Protocol
+[CList]
+CList
+[Group]
+Groep
+[(UNKNOWN)]
+(ONBEKEND)
+[Question]
+Vraag
+[The contact %s(%s) has no unique id in the vCard,\nbut there is a contact in your clist with the same nick and protocol.\nDo you wish to use this contact?]
+De persoon %s(%s) heeft geen uniek id in de vCard,\nmaar er is een persoon in uw clist met dezelfde bijnaam en protocol.\nWilt u deze persoon gebruiken?
+[Edit E-Mail]
+E-Mail bewerken
+[Edit Phone Number]
+Telefoonnummer bewerken
+[The phone number should start with a + and consist of\nnumbers, spaces, brackets and hyphens only.]
+Het telefoonnummer moet beginnen met een + en alleen bestaan uit\nnummer, spaties, haakjes en koppeltekens.
+[none]
+geen
+[Edit]
+Bewerken
+[Choose the item to display.]
+Kies een item om weer te geven.
+[Edit the currently displayed item.]
+Het huidige weergegeven item bewerken.
+[Add a new custom item.]
+Een nieuw aangepast item toevoegen.
+[Delete the selected item.]
+Het geselecteerde item verwijderen.
+[CRITICAL: Unable to edit current entry!\nThis should not happen!]
+KRITIEK: Kan huidige record niet bewerken!\nDit moet niet gebeuren!
+[Do you really want to delete the current selected item?\n\t%s\n\t%s]
+Wilt u echt het huidig geselecteerde item verwijderen?\n\t%s\n\t%s
+[Delete]
+Verwijderen
+[Removes an item from the list]
+Een item van de lijst verwijderen
+[Other]
+Ander
+[Contact]
+Persoon
+[Anniversary]
+Feest
+[Date]
+Datum
+[Age/Nr.]
+Leeftijd/Nr.
+[ETA]
+ETA
+[Anniversary list]
+Feestlijst
+[Yes]
+Ja
+[No]
+Ne
+[This is a messge from "Extended UserInfo"]
+Dit is een bericht van "Extended UserInfo"
+[Error]
+Fout
+[Error message from "Extended UserInfo"]
+Foutmelding van "Extended UserInfo"
+[Protocol '%s' is offline]
+Protocol '%s' is offline
+[Upload Details]
+Upload Details
+[You are not currently connected to the ICQ network.\nYou must be online in order to update your information on the server.\n\nYour changes will be saved to database only.]
+U bent op dit moment niet verbonden met het ICQ netwerk.\nU moet online zijn om uw informatie te kunnen bijwerken op de server.\n\nUw wijzigingen worden alleen bewaard in de database.
+[Uploading]
+Uploaden
+[Creating the imagelist failed!]
+Maken van afbeeldingenlijst gefaald!
+[No pages have been added. Canceling dialog creation!]
+Geen pagina's toegevoegd. Scherm aanmaken geannuleerd!
+[Details dialog failed to be created. Returning error is %d.]
+Details scherm gefaald aan te maken. Fout is %d.
+[The Page to add has invalid parameters!]
+De pagina om toe te voegen heeft ongeldige parameters!
+[Fatal memory allocation error on creating treeitem object]
+Fatale geheugen allocatie fout bij het maken van het treeitem object
+[General]
+Algemeen
+[Work]
+Werk
+[About]
+Over
+[Export to file]
+Naar bestand exporteren
+[Import from file]
+Van bestand importeren
+[Owner]
+Eigenaar
+[Edit Contact Information]
+Persoon informatie bewerken
+[Upload ICQ Details]
+ICQ details uploaden
+[Upload failed]
+Upload gefaald
+[Your details were not uploaded successfully.\nThey were written to database only.]
+Uw details zijn niet succesvol geupload.\nZe zijn alleen naar de database geschreven.
+[Updating]
+Bijwerken
+[The selected contact is no SubContact of this MetaContact anymore]
+De geselecteerde persoon is geen SubPersoon meer van dit MetaContact
+[Warning, some of the changes to the TreeView were not saved correctly!]
+Waarschuwing, sommige wijzigingen aan de TreeVieuw zijn niet goed opgeslagen!
+[All Contacts]
+Alle personen
+[Required modules]
+Veplichte modules
+[Optional modules]
+Optionele modules
+[The ini-file "%s"\nfor saving contact information could not be opened.]
+Het ini-bestand "%s"\nvoor het opslaan van persoon informatie kon niet worden geopend.
+[None of the %d contacts, stored in the ini-file, match the selected contact!\nNothing will be imported]
+Geen van de %d personen, opgeslagen in het ini-bestand, komt overeen met de geselecteerde persoon!\nEr zal niks worden geimporteerd
+[Import results]
+Resultaten import
+[Added %d of %d contacts stored in the ini-file.]
+%d van de %d personen toegevoegd aan het ini-bestand.
+[The ini-file "%s"\nfor reading contact information could not be opened.]
+Het ini-bestand "%s"\nvoor lezen van persoon informatie kon niet worden geopend.
+;[URL]
+[Can't create xml file!]
+Kan xml bestand niet maken!
+[No description given]
+Geen omschrijving opgegeven
+[The selected file is no valid XMLCard]
+Het geselecteerde bestand is geen geldig XMLCard
+[The version of the XMLCard is not supported by UserInfoEx]
+De versie van XMLCard is niet ondersteund door UserInfoEx
+[Import]
+Importeren
+[Owner contact successfully imported.]
+Eigenaar persoon succesvol geimporteerd.
+[Selected XMLCard does not contain an owner contact!]
+Geselecteerde XMLCard heeft geen eigenaaar persoon!
+[%d of %d contacts in xmlCard with\n%d of %d settings and\n\n%d new events of %d events in file with %d duplicates\nsuccessfully imported!]
+%d van de %d personen in xmlCard met\n%d van %d instellingen en\n\n%d nieuwe eventmenten van de %d evenementen in bestand met %d dubbele\nsuccesvol geimporteerd!
+[FATAL: An exception was thrown while importing contacts from xmlCard!]
+FATAAL: Een uitzondering is gegooid tijden het importeren van personen van xmlCard!
+[IM Naming]
+IM naamgeving
+[Password]
+Wachtwoord
+[Female]
+Vrouw
+[Male]
+Man
+[Timezone]
+Tijdzone
+[Marital status:]
+Trouwstatus:
+[Address]
+Adres
+[Export: Modules]
+Exporteren: Modules
+[Export: Folder]
+Exporteren: Folder
+[Details Infobar]
+Details infobalk
+[Phone Infobar]
+Telefoon infobalk
+[E-Mail Infobar]
+E-Mail infobalk
+[Export VCard]
+VCard exporteren
+[Anniversary Infobar]
+Feest infobalk
+[Update]
+Bijwerken
+[Export]
+Exporteren
+;[Ok]
+[Cancel]
+Annuleren
+[Apply]
+Toepassen
+[Goto]
+Ga naar
+[Phone]
+Telefoon
+[Fax]
+Fax
+[Cellular]
+Mobiel
+[Custom Phone]
+Aangepast nummer
+[e-mail]
+e-mail
+[Down arrow]
+Pijl omlaag
+[Add]
+Toevoegen
+[Search]
+Zoeken
+[Birthday today]
+Verjaardag vandaag
+[Birthday tomorrow]
+Verjaardag morgen
+[Birthday in 2 days]
+Verjaardag over 2 dagen
+[Birthday in 3 days]
+Verjaardag over 3 dagen
+[Birthday in 4 days]
+Verjaardag over 4 dagen
+[Birthday in 5 days]
+Verjaardag over 5 dagen
+[Birthday in 6 days]
+Verjaardag over 6 dagen
+[Birthday in 7 days]
+Verjaardag over 7 dagen
+[Birthday in 8 days]
+Verjaardag over 8 dagen
+[Birthday in 9 days]
+Verjaardag over 9 dagen
+[Birthday later]
+Verjaardag later
+[Anniversary today]
+Feest vandaag
+[Anniversary tomorrow]
+Feest morgen
+[Anniversary in 2 days]
+Feest in 2 dagen
+[Anniversary in 3 days]
+Feest in 3 dagen
+[Anniversary in 4 days]
+Feest in 4 dagen
+[Anniversary in 5 days]
+Feest in 5 dagen
+[Anniversary in 6 days]
+Feest in 6 dagen
+[Anniversary in 7 days]
+Feest in 7 dagen
+[Anniversary in 8 days]
+Feest in 8 dagen
+[Anniversary in 9 days]
+Feest in 9 dagen
+[Anniversary later]
+Feest later
+[Warning: Your current IconPack's version differs from the one UserInfoEx is designed for.\nSome icons may not be displayed correctly]
+Waarschuwing: Uw huidige versie van IconPack is verschillen dan degene UserInfoEx is voor ontwikkeld.\nSommige iconen kunnen niet goed worden weergegeven
+[Warning! The IconPack was not found!]
+Waarschuwing! Het IconPack is niet gevonden!
+[Gives extended ability to edit information about your contacts locally. It does not matter what information your contact gives about himself. If you know more you can add more.]
+Geeft uitgebreide mogelijkheid om informatie over personen lokaal te bewerken. Het maakt niet uit wat voor informatie uw personen van zichzelf geven. Als u meer weet kunt u meer toevoegen.
+[Sorry, but UserInfoExW needs an Unicode supporting OS!]
+Sorry, maar UserInfoExW heeft een OS nodig dat Unicode ondersteund!
+[UserInfoExW does not work with Miranda IM (ANSI)\nTry UserInfoEx instead!]
+UserInfoExW werkt niet met Miranda IM (ANSI)\nProbeer UserInfo!
+[User &Details]
+Gebruikers &details
+[&Import]
+&Importeren
+[&Import User Details]
+Gebruiker details &importeren
+[&Export]
+&Eporteren
+[&Export User Details]
+Gebruiker details &exporteren
+[View/Change My &Details...]
+Mijn &details bekijken/wijzigen...
+[Export all contacts]
+Alle personen exporteren
+[Import all contacts]
+Alle personen importeren
+[Backup birthdays]
+Verjaardagen backuppen
+[Check anniversaries]
+Controleer feesten 
+[Password:]
+Wachtwoord:
+[Home]
+Thuis
+[Open in Browser]
+Open in browser
+[Primary e-mail]
+Hoofd e-mail
+[Secondary e-mail]
+Tweede e-mail
+[Tertiary e-mail]
+Derde e-mail
+[Company]
+Bedrijf
+[My Notes:]
+Mijn notities:
+[About:]
+Over:
+[Common]
+Algemeen
+[Integration]
+Integratie
+[Details Dialog]
+Details scherm
+[Reminder]
+Herinnering
+[Popups]
+Popups
+[Reset factory defaults]
+Fabrieksstandaarden terugzetten
+[This will delete all settings, you've made!\nAll TreeView settings, window positions and any other settings!\n\nAre you sure to procceed?]
+Dit zal alle instellingen verwijderen die u heeft gemaakt!\nAlle TreeView instellinge, scherm posities en anders instellingen!\n\nWeet u zeker dat u door wilt gaan?
+[Ready]
+Klaar
+[All settings are reset to default values now!]
+Alle instellingen zijn nu terug gezet naar de standaard waarden!
+[Select an IconPack]
+Selecteer een IconPak
+[Opening Selection dialog failed!]
+Openen van Selectie scherm gefaald!
+[The selected IconPack is not valid or could not be loaded!]
+Het geselecteerde IconPack is niet geldig of kon niet worden geladen!
+[Advanced #1]
+Geavanceerd #1
+[Advanced #2]
+Geavanceerd #2
+[Advanced #3]
+Geavanceerd #3
+[Advanced #4]
+Geavanceerd #4
+[Reminder disabled]
+Herinnereing uitgeschakeld
+[Anniversaries only]
+Alleen feesten
+[Bithdays only]
+Alleen verjaardagen
+[everything]
+alles
+[mBirthday (default)]
+mBirthday (standaard)
+[Extended UserInfo]
+Extended UserInfo
+[Plugins]
+Plugins
+[Add a new anniversary]
+Een nieuw feest toevoegen
+[Delete an existing anniversary]
+Een bestaand feest verwijderen
+[Unspecified]
+Niet opgegeven
+[unknown]
+onbekend
+[Edit Anniversary]
+Feest bewerken
+[Please enter a valid Description first!]
+Aub eerst een geldige omschrijving invullen!
+[No valid date selected for editing!]
+Geen geldige datum geselecteerd om te bewerken!
+[Do you really want to delete the %s?]
+Wilt u %s echt verwijderen?
+[Past]
+Verleden
+[Affiliation]
+Betrokkenheid
+[Interest]
+Interesses
+[Sorry, but there is a problem with adding a new item of type "%s"]
+Sorry, maar er is een probleem met het toevoegen van een nieuw item van het type "%s"
+[<empty>]
+<leeg>
+[Add Interest]
+Interesse toevoegen
+[Add Affliation]
+Betrokkenheid toevoegen
+[Add Past]
+Verleden toevoegen
+[Edit Category]
+Categorie bewerken
+[Edit Value]
+Waarde bewerken
+[Do you really want to delete this entry?]
+Wilt u dit record echt verwijderen?
+[No anniversaries to remind of]
+Geen feesten om aan herinnerd te worden
+[He]
+Hij
+[She]
+Zij
+[He/She]
+Hij/Zij
+[%s has the following anniversaries:]
+%s heeft de volgende feesten:
+[%d. %s today]
+%d. %s vandaag
+[%d. %s tomorrow]
+%d. %s morgen
+[%d. %s after %d days]
+%d. %s na %d dagen
+[%s has %s today]
+%s heeft %s morgen
+[has %s tomorrow]
+heeft %s morgen
+[has %s after %d days]
+heeft %s na %d dagen
+[\n%s becomes %d years old.]
+\n%s wordt %d jaar oud.
+[an anniversary]
+een feest
+[Check birthdays]
+Controleer verjaardagen
+[Backing up and syncing all birthdays complete!]
+Backuppen en synchroniseren van alle verjaardagen voltooid!
+[Can't create hotkey handler\nError %d]
+Kan sneltoets handeler niet maken\nFout %d
+[Birthday reminder]
+Verjaardag herinnering
+[Birthday reminder: it's coming]
+Verjaardag herinnering: het komt eraan
+[Anniversary Reminder]
+Feest Herinnering
+;[GMT-12:00 Eniwetok; Kwajalein]
+;[GMT-11:30]
+;[GMT-11:00 Midway Island; Samoa]
+;[GMT-10:30]
+;[GMT-10:00 Hawaii]
+;[GMT-9:30]
+;[GMT-9:00 Alaska]
+;[GMT-8:30]
+;[GMT-8:00 Pacific Time; Tijuana]
+;[GMT-7:30]
+;[GMT-7:00 Arizona; Mountain Time]
+;[GMT-6:30]
+;[GMT-6:00 Central Time; Central America; Saskatchewan]
+;[GMT-5:30]
+;[GMT-5:00 Eastern Time; Bogota; Lima; Quito]
+;[GMT-4:30]
+;[GMT-4:00 Atlantic Time; Santiago; Caracas; La Paz]
+;[GMT-3:30 Newfoundland]
+;[GMT-3:00 Greenland; Buenos Aires; Georgetown]
+;[GMT-2:30]
+;[GMT-2:00 Mid-Atlantic]
+;[GMT-1:30]
+;[GMT-1:00 Cape Verde Islands; Azores]
+;[GMT-0:30]
+;[GMT+0:00 London; Dublin; Edinburgh; Lisbon; Casablanca]
+;[GMT+0:30]
+;[GMT+1:00 Central European Time; West Central Africa; Warsaw]
+;[GMT+1:30]
+;[GMT+2:00 Jerusalem; Helsinki; Harare; Cairo; Bucharest; Athens]
+;[GMT+2:30]
+;[GMT+3:00 Moscow; St. Petersburg; Nairobi; Kuwait; Baghdad]
+;[GMT+3:30 Tehran]
+;[GMT+4:00 Baku; Tbilisi; Yerevan; Abu Dhabi; Muscat]
+;[GMT+4:30 Kabul]
+;[GMT+5:00 Calcutta; Chennai; Mumbai; New Delhi; Ekaterinburg]
+;[GMT+5:30]
+;[GMT+6:00 Astana; Dhaka; Almaty; Novosibirsk; Sri Jayawardenepura]
+;[GMT+6:30 Rangoon]
+;[GMT+7:00 Bankok; Hanoi; Jakarta; Krasnoyarsk]
+;[GMT+7:30]
+;[GMT+8:00 Perth; Taipei; Singapore; Hong Kong; Beijing]
+;[GMT+8:30]
+;[GMT+9:00 Tokyo; Osaka; Seoul; Sapporo; Yakutsk]
+;[GMT+9:30 Darwin; Adelaide]
+;[GMT+10:00 East Australia; Guam; Vladivostok]
+;[GMT+10:30]
+;[GMT+11:00 Magadan; Solomon Is.; New Caledonia]
+;[GMT+11:30]
+;[GMT+12:00 Auckland; Wellington; Fiji; Kamchatka; Marshall Is.]
+;[Unknown]
+;[Afghanistan]
+;[Albania]
+;[Algeria]
+;[American Samoa]
+;[Andorra]
+;[Angola]
+;[Anguilla]
+;[Antigua and Barbuda]
+;[Antilles]
+;[Argentina]
+;[Armenia]
+;[Aruba]
+;[Ascension Island]
+;[Australia]
+;[Austria]
+;[Azerbaijan]
+;[Bahamas]
+;[Bahrain]
+;[Bangladesh]
+;[Barbados]
+;[Barbuda]
+;[Belarus]
+;[Belgium]
+;[Belize]
+;[Benin]
+;[Bermuda]
+;[Bhutan]
+;[Bolivia]
+;[Bosnia and Herzegovina]
+;[Botswana]
+;[Brazil]
+;[British Virgin Islands]
+;[Brunei]
+;[Bulgaria]
+;[Burkina Faso]
+;[Burundi]
+;[Cambodia]
+;[Cameroon]
+;[Canada]
+;[Canary Islands]
+;[Cape Verde Islands]
+;[Cayman Islands]
+;[Central African Republic]
+;[Chad]
+;[Chile, Republic of]
+;[China]
+;[Christmas Island]
+;[Cocos-Keeling Islands]
+;[Cocos (Keeling) Islands]
+;[Colombia]
+;[Comoros]
+;[Congo, Democratic Republic of (Zaire)]
+;[Congo, Republic of the]
+;[Cook Islands]
+;[Costa Rica]
+;[Cote d'Ivoire (Ivory Coast)]
+;[Croatia]
+;[Cuba]
+;[Cyprus]
+;[Czech Republic]
+;[Denmark]
+;[Diego Garcia]
+;[Djibouti]
+;[Dominica]
+;[Dominican Republic]
+;[Ecuador]
+;[Egypt]
+;[El Salvador]
+;[Equatorial Guinea]
+;[Eritrea]
+;[Estonia]
+;[Ethiopia]
+;[Faeroe Islands]
+;[Falkland Islands]
+;[Fiji]
+;[Finland]
+;[France]
+;[French Antilles]
+;[French Guiana]
+;[French Polynesia]
+;[Gabon]
+;[Gambia]
+;[Georgia]
+;[Germany]
+;[Ghana]
+;[Gibraltar]
+;[Greece]
+;[Greenland]
+;[Grenada]
+;[Guadeloupe]
+;[Guam, US Territory of]
+;[Guatemala]
+;[Guinea]
+;[Guinea-Bissau]
+;[Guyana]
+;[Haiti]
+;[Honduras]
+;[Hong Kong]
+;[Hungary]
+;[Iceland]
+;[India]
+;[Indonesia]
+;[Iran (Islamic Republic of)]
+;[Iraq]
+;[Ireland]
+;[Israel]
+;[Italy]
+;[Jamaica]
+;[Japan]
+;[Jordan]
+;[Kazakhstan]
+;[Kenya]
+;[Kiribati]
+;[Korea, North]
+;[Korea, South]
+;[Kuwait]
+;[Kyrgyzstan]
+;[Laos]
+;[Latvia]
+;[Lebanon]
+;[Lesotho]
+;[Liberia]
+;[Libyan Arab Jamahiriya]
+;[Liechtenstein]
+;[Lithuania]
+;[Luxembourg]
+;[Macau]
+;[Macedonia (F.Y.R.O.M.)]
+;[Madagascar]
+;[Malawi]
+;[Malaysia]
+;[Maldives]
+;[Mali]
+;[Malta]
+;[Marshall Islands]
+;[Martinique]
+;[Mauritania]
+;[Mauritius]
+;[Mayotte Island]
+;[Mexico]
+;[Micronesia, Federated States of]
+;[Moldova, Republic of]
+;[Monaco]
+;[Mongolia]
+;[Montserrat]
+;[Morocco]
+;[Mozambique]
+;[Myanmar]
+;[Namibia]
+;[Nauru]
+;[Nepal]
+;[Netherlands]
+;[Netherlands Antilles]
+;[Nevis]
+;[New Caledonia]
+;[New Zealand]
+;[Nicaragua]
+;[Niger]
+;[Nigeria]
+;[Niue]
+;[Norfolk Island]
+;[Norway]
+;[Oman]
+;[Pakistan]
+;[Palau]
+;[Panama]
+;[Papua New Guinea]
+;[Paraguay]
+;[Peru]
+;[Philippines]
+;[Poland]
+;[Portugal]
+;[Puerto Rico]
+;[Qatar]
+;[Reunion Island]
+;[Romania]
+;[Rota Island]
+;[Russia]
+;[Rwanda]
+;[Saint Helena]
+;[Saint Kitts]
+;[Saint Kitts and Nevis]
+;[Saint Lucia]
+;[Saint Pierre and Miquelon]
+;[Saint Vincent and the Grenadines]
+;[Saipan Island]
+;[San Marino]
+;[Sao Tome and Principe]
+;[Saudi Arabia]
+;[Scotland]
+;[Senegal]
+;[Seychelles]
+;[Sierra Leone]
+;[Singapore]
+;[Slovakia]
+;[Slovenia]
+;[Solomon Islands]
+;[Somalia]
+;[South Africa]
+;[Spain]
+;[Sri Lanka]
+;[Sudan]
+;[Suriname]
+;[Swaziland]
+;[Sweden]
+;[Switzerland]
+;[Syrian Arab Republic]
+;[Taiwan]
+;[Tajikistan]
+;[Tanzania]
+;[Thailand]
+;[Tinian Island]
+;[Togo]
+;[Tokelau]
+;[Tonga]
+;[Trinidad and Tobago]
+;[Tunisia]
+;[Turkey]
+;[Turkmenistan]
+;[Turks and Caicos Islands]
+;[Tuvalu]
+;[Uganda]
+;[Ukraine]
+;[United Arab Emirates]
+;[United Kingdom]
+;[Uruguay]
+;[USA]
+;[Uzbekistan]
+;[Vanuatu]
+;[Vatican City]
+;[Venezuela]
+;[Vietnam]
+;[Virgin Islands (USA)]
+;[Wales]
+;[Wallis and Futuna Islands]
+;[Western Samoa]
+;[Yemen]
+;[Yugoslavia]
+;[Yugoslavia - Serbia]
+;[Yugoslavia - Montenegro]
+;[Zambia]
+;[Zimbabwe]
+;[Afrikaans]
+;[Albanian]
+;[Arabic]
+;[Armenian]
+;[Azerbaijani]
+;[Belorussian]
+;[Bhojpuri]
+;[Bosnian]
+;[Bulgarian]
+;[Burmese]
+;[Cantonese]
+;[Catalan]
+;[Chamorro]
+;[Chinese]
+;[Croatian]
+;[Czech]
+;[Danish]
+;[Dutch]
+;[English]
+;[Esperanto]
+;[Estonian]
+;[Farci]
+;[Finnish]
+;[French]
+;[Gaelic]
+;[German]
+;[Greek]
+;[Gujarati]
+;[Hebrew]
+;[Hindi]
+;[Hungarian]
+;[Icelandic]
+;[Indonesian]
+;[Italian]
+;[Japanese]
+;[Khmer]
+;[Korean]
+;[Kurdish]
+;[Lao]
+;[Latvian]
+;[Lithuanian]
+;[Macedonian]
+;[Malay]
+;[Mandarin]
+;[Mongolian]
+;[Norwegian]
+;[Persian]
+;[Polish]
+;[Portuguese]
+;[Punjabi]
+;[Romanian]
+;[Russian]
+;[Serbo-Croatian]
+;[Sindhi]
+;[Slovak]
+;[Slovenian]
+;[Somali]
+;[Spanish]
+;[Swahili]
+;[Swedish]
+;[Tagalog]
+;[Taiwaness]
+;[Tamil]
+;[Tatar]
+;[Thai]
+;[Turkish]
+;[Ukrainian]
+;[Urdu]
+;[Vietnamese]
+;[Welsh]
+;[Yiddish]
+;[Yoruba]
+;[Academic]
+;[Administrative]
+;[Art/Entertainment]
+;[College Student]
+;[Computers]
+;[Community & Social]
+;[Education]
+;[Engineering]
+;[Financial Services]
+;[Government]
+;[High School Student]
+;[ICQ - Providing Help]
+;[Law]
+;[Managerial]
+;[Manufacturing]
+;[Medical/Health]
+;[Military]
+;[Non-Government Organization]
+;[Professional]
+;[Retail]
+;[Retired]
+;[Science & Research]
+;[Sports]
+;[Technical]
+;[University Student]
+;[Web Building]
+;[Other Services]
+;[Art]
+;[Cars]
+;[Celebrity Fans]
+;[Collections]
+;[Culture & Literature]
+;[Fitness]
+;[Games]
+;[Hobbies]
+;[Internet]
+;[Lifestyle]
+;[Movies/TV]
+;[Music]
+;[Outdoor Activities]
+;[Parenting]
+;[Pets/Animals]
+;[Religion]
+;[Science/Technology]
+;[Skills]
+;[Web Design]
+;[Nature and Environment]
+;[News & Media]
+;[Business & Economy]
+;[Mystics]
+;[Travel]
+;[Astronomy]
+;[Space]
+;[Clothing]
+;[Parties]
+;[Women]
+;[Social science]
+;[Finance and corporate]
+;[Entertainment]
+;[Consumer electronics]
+;[Retail stores]
+;[Health and beauty]
+;[Media]
+;[Household products]
+;[Mail order catalog]
+;[Business services]
+;[Audio and visual]
+;[Sporting and athletic]
+;[Publishing]
+;[Home automation]
+;[Elementary School]
+;[High School]
+;[College]
+;[University]
+;[Past Work Place]
+;[Past Organization]
+;[Alumni Org.]
+;[Charity Org.]
+;[Club/Social Org.]
+;[Community Org.]
+;[Cultural Org.]
+;[Fan Clubs]
+;[Fraternity/Sorority]
+;[Hobbyists Org.]
+;[International Org.]
+;[Nature and Environment Org.]
+;[Professional Org.]
+;[Scientific/Technical Org.]
+;[Self Improvement Group]
+;[Spiritual/Religious Org.]
+;[Sports Org.]
+;[Support Org.]
+;[Trade and Business Org.]
+;[Union]
+;[Volunteer Org.]
+[Single]
+Alleenstaand
+[Close relationships]
+Intieme relatie
+[Engaged]
+Verloofd
+[Married]
+Getrouwd
+[Divorced]
+Gescheiden
+[Separated]
+Uit elkaar
+[Widowed]
+Weduwe
+[jun.]
+jun.
+[sen.]
+sen.
+[GMT]
+GMT
+['(Unknown Contact)']
+'(Onbekend Persoon)'
+[User has not registered an e-mail address]
+Gebruiker heeft geen geregistreerd e-mail adres
+[Send e-mail]
+E-mail versturen
+[Memory allocation error!]
+Geheugen allocatie fout!
+[&E-mail]
+&E-mail
+[User has no valid homepage]
+Gebruiker heeft geen geldige homepage
+[View Homepage]
+Homepage bekijken
+[&Homepage]
+&Homepage
+[all Contacts]
+alle personen
+[Select a destination file...]
+Selecteer een bestand voor bestemming
+[The Save Dialog returned an error: %d!]
+Het Opslaan Scherm gaf een fout: %d!
+[Import User Details from VCard]
+Gebruiker details van VCard importeren
+[&Update]
+&Bijwerken
+[Naming]
+Naamgeving
+[Title:]
+Titel:
+[First name:]
+Voornaam:
+[Second name:]
+Tweede naam:
+[Last name:]
+Achternaam:
+[Prefix:]
+Voorvoegsel:
+[Nick:]
+Bijnaam:
+[Your contact's local time is:]
+De plaatselijke tijd van uw peroon is:
+[Timezone:]
+Tijdzone:
+[Age:]
+Leeftijd:
+[Partner:]
+Partner:
+[Marital status:]
+Trouw status:
+[Person]
+Persoon
+[Anniversaries]
+Feesten
+[Remind me]
+Herinner me
+[Origin]
+Oorsprong
+[Street:]
+Straat:
+[Postal code:]
+Postcode:
+[City:]
+Plaats:
+[County/State:]
+Provincie:
+[Country:]
+Land:
+[Reminder settings:]
+Herinnering instellingen:
+[from Module:]
+van Module:
+[Company:]
+Bedrijf:
+[Department:]
+Afdeling
+[Office:]
+Kantoor:
+[Position:]
+Positie:
+[Occupation:]
+Beroep:
+[Superior:]
+Leidinggevende:
+[Assistant:]
+Assistent:
+[1. language:]
+1e taal:
+[2. language:]
+2e taal:
+[3. language:]
+3e taal:
+[Language skills]
+Taalvaardigheden
+[Add Phone Number]
+Telefoonnummer toevoegen:
+[Enter a category for this number:]
+Vul een category in voor dit nummer:
+[Enter country, area code and phone number:]
+Vul een land, regio en telefoonnummer in:
+[Or enter a full international number:]
+Of vul een volledig internationaal nummer in:
+[Phone can receive SMS text messages]
+Telefoon kan SMS tekst berichten ontvangen
+[Add E-Mail]
+E-mail toevoegen
+[(e.g.: john.doe@provider.com)]
+(bijv.: john.doe@provider.com)
+[Enter a representitive name for the e-mail address here.]
+Vul hier een aanspreekbare naam in voor het e-mail adres.
+[Enter the e-mail address here.]
+Vul hier het e-mail aders in.
+[Show menu items]
+Menu items weergeven
+[Icon flashing on event]
+Icoon knippert op gebeurtenis
+[Perform check on each startup]
+Een controle uitvoeren bij elke start
+[Automatically backup and keep protocol based birthdays up to date]
+Automatisch backups maken en protocol gebaseerde verjaardagen up to date houden
+[Dialog]
+Scherm
+;[OK]
+[Abort]
+Afbreken
+[All]
+Alle
+[Birthday popup colours]
+Verjaardag popup kleuren
+[Use Windows colours]
+Windows kleuren gebruiken
+[Use default colours]
+Standaard kleuren gebruiken
+[Delay]
+Vertraging
+[From PopUp plugin]
+Van PopUp plugin
+[Custom]
+Aangepast
+[Permanent]
+Permanent
+[Show reminder messages as popups (if reminder is enabled)]
+Herinneringsberichten als popups weergeven (als herinnering is ingeschakeld)
+[Anniversary popup colours]
+Feest popup kleuren
+;[Homepage:]
+[Add Affiliation]
+Betrokkenheid toevoegen
+[Select Modules]
+Modules selecteren
+[Check all]
+Alle selecteren
+[Uncheck all]
+Alle deselecteren
+[Add Anniversary]
+Feest toevoegen
+[Enter a name for the anniversary here please:]
+Vul hier een naam voor het feest in aub:
+[Select a date here:]
+Selecteer hier een datum:
+[Remind me of this anniversary.]
+Herinner mij voor dit feest.
+[with birthday:]
+met verjaardag:
+[female:]
+vrouw:
+[male:]
+man:
+[number of contacts:]
+aantal personen:
+[Statistics:]
+Statistieken:
+[average age:]
+gemiddelde leeftijd:
+[Enable contact menu items to export/import vCards]
+Persoon menu items voor exporteren/importeren van vCards inschakelen
+[Cascade main menu items]
+Gestapelde hoofdmenu items
+[Check file version of default IconPack to prevent wrong icon display]
+Voorkom verkeerde weergave van iconen (controleer bestandsversie van standaard IconPack)
+[Cascade contact menu:]
+Stapel persoon menu:
+[Disabled]
+Uitgeschakeld
+
+[Copy UserInfo and mBirthday module from SubContact to set missing information]
+UserInfo en mBirthday module van SubContact kopiëeren om ontbrekende informatie in te vullen
+[MetaContacts]
+MetaContacts
+[Scan SubContacts for missing information]
+SubContacts voor ontbrekende informatie scannen
+[Display icons on each dialog button]
+Iconen weer op elke schermknop weergeven
+[Icons]
+Iconen
+[Enable colours to give information about information's status.]
+Kleuren voor informatie over statusinformatie inschakelen
+[Make protocol based contact information readonly.]
+Protocol gebaseerde persoonsinformatie alleen lezen maken.
+[Enable groups in details dialog's treeview.]
+Groepen in treeview van het details scherm inschakelen.
+[Sort all tree items alphabetically.]
+Alle boom items alfabetisch sorteren.
+[Colours]
+Kleuren
+[Change my ICQ details with UInfoEx. (disabled if ICQ does't support it)]
+<ijn ICQ details met UInfoEx. wijzigen (uitgeschakeld als ICQ het niet ondersteund)
+[Enable extended 'Send/Receive e-mail' module (*)]
+Uitgebreide 'Verstuur/Ontvang e-mail' module inschakelen (*)
+[Enable extended 'View homepage' module (*)]
+Uitgebreide 'Bekijke homepage' module inschakelen (*)
+[Enable extended 'Phone' module (*)]
+Uitgebreide 'Telefoon' module inschakelen (*)
+[Enable extended 'GetContactInfo' module (*)]
+Uitgebreide 'GetContactInfo' module inschakelen (*)
+[Info]
+Informatie
+[(*) Requires Miranda to be restarted.]
+(*) Vereist een herstart van Miranda.
+
+; ** Contents below this line are manual-translated plugins **
+
+[Contact (private)]
+Contact (prive)
+[Origin]
+Oorsprong
+[Contact (Work)]
+Contact (Werk)
+[Notes]
+Notities
+[Profile]
+Profiel
+[UserInfoEx/Common]
+[UserInfoEx/Dialogs]
+[UserInfoEx/Buttons]
+UserInfoEx/Knoppen
+[UserInfoEx/TreeView]
+[UserInfoEx/Reminder]
+UserInfoEx/Herinnering
+
+[Enabled]
+Ingeschakeld
+[Time of last check:]
+Tijdstip laatste controle:
+[days before.]
+dagen van tevoren.
+[Check every]
+Controleer elke
+[hours]
+uur
+[CList extra icon]
+CList extra icoon
+[Birthday compatibility mode:]
+Birthday compatibiliteits modus:
+[Protocol's information]
+Informatie van het protocol
+[Overwritten information]
+Overschreven informatie
+[Info of a MetaContact's SubContact]
+Informatie van een SubContact van een MetaContact
+[Custom information]
+Aangepaste informatie
+[Changed information]
+Gewijzigde informatie
+[Last message received on %s at %s.]
+Laatste bericht ontvangen op %s om %s.
+
+[My Contacts]
+Mijn personen
+[Show All Frames]
+Alle frames weergeven
+[Show All Titlebars]
+Alle titelbalken weergeven
+[Hide All Titlebars]
+Alle titelbalken verbergen
+[&Visible]
+Zichtbaar
+[&Show TitleBar]
+Titelbalk weergeven
+[&Locked]
+Vergrende&ld
+;[&Collapsed]
+[&Floating Mode]
+Zweef modus
+[&Border]
+Rand
+[&Align]
+Uitlijnen
+[&Top]
+Boven
+[&Client]
+&Client
+[&Bottom]
+Onder
+[&Position]
+&Positie
+[&Up]
+Boven
+[Play sound]
+Speel geluid
+[Display Name:]
+Weergave naam:
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;    NewStatusNotifyw   ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;ONLINE
+[(M) is back online!]
+hij is terug online!
+[(F) is back online!]
+zij is terug online!
+[(U) is back online!]
+is terug online!
+
+;OFFLINE
+[(M) went offline! :(]
+hij ging offline! :(
+[(F) went offline! :(]
+zij ging offline! :(
+[(U) went offline! :(]
+ging offline! :(
+
+;INVISIBLE
+[(M) hide in shadows...]
+hij verbergt zich in de schaduwen...
+[(F) hide in shadows...]
+zij verbergt zich in de schaduwen...
+[(U) hide in shadows...]
+verbergt zich in de schaduwen...
+
+;FREEFORCHAT
+[(M) feels talkative!]
+hij is spraakzaam!
+[(F) feels talkative!]
+zij is spraakzaam!
+[(U) feels talkative!]
+is spraakzaam!
+
+;AWAY
+[(M) went Away]
+hij ging weg
+[(F) went Away]
+zij ging weg
+[(U) went Away]
+ging weg
+
+;NA, NotAvailable
+[(M) isn't there anymore!]
+hij is er niet meer!
+[(F) isn't there anymore!]
+zij is er niet meer!
+[(U) isn't there anymore!]
+is er niet meer
+
+;OCCUPIED, BUSY
+[(M) has something else to do.]
+hij heeft iets anders te doen
+[(F) has something else to do.]
+zij heeft iets anders te doen
+[(U) has something else to do.]
+heeft iets anders te doen
+
+;DND, Do Not Disturb
+[(M) doesn't want to be disturbed!]
+hij wil niet gestoord worden!
+[(F) doesn't want to be disturbed!]
+zij  wil niet gestoord worden!
+[(U) doesn't want to be disturbed!]
+ wil niet gestoord worden!
+
+;OUTTOLUNCH
+[(M) is eating something]
+hij is iets aan het eten
+[(F) is eating something]
+zij  is iets aan het eten
+[(U) is eating something]
+ is iets aan het eten
+
+;ONTHEPHONE
+[(M) had to answer the phone]
+hij moest de telefoon beantwoorden
+[(F) had to answer the phone]
+zij moest de telefoon beantwoorden
+[(U) had to answer the phone]
+moest de telefoon beantwoorden
+
+; General options
+[Notify]
+Melding
+[Notify when a contact changes to one of these statuses]
+Een melding geven wanneer een persoon veranderd naar een van deze statussen
+[&When people go offline too]
+Ook &wanneer personen offline gaan
+[Plugin activation]
+Plugin activatie
+[Temporarily disable NewStatusNotify (disables popups and sounds)]
+NewStatusNotify tijdelijk uitschakelen (schakelt popups en geluiden uit)
+[Put an item in the main menu to easily enable/disable the plugin (note: requires a restart of Miranda)]
+Een item in het hoofdmenu plaatsen voor het gemakkelijk aan en uitzetten van de plugin (notitie: vereist een herstart van Miranda)
+[Show PopUps when I connect]
+PopUps weergeven bij verbinding
+[Sound options]
+Geluid opties
+[Use Internal &Speaker]
+Interne luid&spreker gebruiken
+[&Avoid clipping]
+Clipping voorkomen
+[On left click]
+Op links-klikken
+[Dismiss]
+Verwerpen
+[Open message]
+Bericht openen
+[On right click]
+Op rechts-klikken
+[Open user menu]
+Gebruikers menu openen
+
+[Use "Individual sounds"]
+"Individuele geluiden" gebruiken
+
+
+; Individual sounds
+[Individual sounds]
+Individuele Geluiden
+[Nickname]
+Bijnaam
+[Instructions]
+Instructies
+[Double click on a nickname to configure his/hers sounds for each status. Note that you can use the same sound for more than one status or more than one contact if you wish.]
+Dubbel-klik op een bijnaam om zijn/haar geluiden in te stellen voor elke status. Merk op dat u hetzelfde geluid voor meerdere statussen of meerdere personen kan gebruiken als u dat wenst.
+[When the Individual Sounds page gets opened, you can:]
+Wanneer de Individuele geluiden pagina geopend wordt, kan u:
+[- configure a sound either by selecting a status and then clicking on "Change", or by double clicking on the status itself.]
+- een geluid instellen door het selecteren van een status en dan op "Wijzigen" klikken, of door het dubbel-klikken op de status zelf.
+[- delete a sound either by selecting a status and then clicking on "Delete" or by pressing the DEL key. When you delete a sound, the default one will be used.]
+- een geluid verwijderen door het selecteren van een status en dan op "Verwijderen" klikken of de DEL-toets indrukken. Wanneer u een geluid verwijderd, zal de standaard gebruikt worden.
+[Status]
+Status
+[Sound for the status]
+Geluid voor de status
+[(default sound)]
+(standaard geluid)
+[&Change]
+Wijzigen
+;[&Preview]
+[&Delete]
+Verwij&deren
+
+; PopUp Options
+[Status Notify]
+Status melding
+[&Use Windows colours]
+Windows kleuren gebr&uiken
+[Use standard status &descriptions]
+Standaard status omschrijvingen gebruiken
+[Hey, it's you!]
+Hee, jij bent het!
+[Hey, it *was* you!]
+Hee, jij *was* het!
+;[Previe&w]
+
+; Status sounds
+[User: Online]
+Gebruiker: Online
+[User: Offline]
+Gebruiker: Offline
+[User: Away]
+Gebruiker: Afwezig
+[User: Not Available]
+Gebruiker: Niet beschikbaar
+[User: Occupied]
+Gebruiker: Bezet
+[User: Do Not Disturb]
+Gebruiker: Niet storeN
+[User: Free For Chat]
+Gebruiker: Beschikbaar voor gesprek 
+[User: Invisible]
+Gebruiker: Onzichtbaar
+[User: Out To Lunch]
+Gebruiker: Aan het lunchen
+[User: On The Phone]
+Gebruiker: Aan de telefoon
+[User: from offline (has priority!)]
+Gebruiker: van offline (heeft prioriteit!)
+
+;Menu item
+
+[Automatically turn off PopUps and Sounds on status change]
+PopUps en geluiden automatisch uitschakelen bij status wijziging
+[Configure]
+Instellen
+[Automatically disable sounds or popups when I change to:]
+Automatisch geluiden of popups uitschakelen wanneer ik verander naar:
+[Do not warn me for people not in my Contact List]
+Geen waarschuwing geven voor personen niet in mijn lijst
+[Read status &message]
+Status bericht lezen
+
+; Options->PopUps->Status Notify
+[Back]
+Terug
+[Text]
+Tekst
+[Colours]
+Kleuren
+
+; Options->Events
+[Contact status change notifications]
+Persoon status wijziging meldingen
+[Enable sound notifications for this contact]
+Geluid meldingen voor deze persoon inschakelen
+[Enable popup notifications for this contact]
+Popup meldingen voor deze persoon inschakelen
+
+[Sounds (Individual Statuses)]
+Geluiden (Individuele statussen)
+[(was %s)]
+(was %s)
+[Show &previous status too]
+Vorige status ook weergeven
+[Log]
+Loggen
+[&Log status changes to file]
+Status wijzigingen naar bestand &loggen
+[Timeout]
+timeout
+[&From PopUp plugin]
+Van PopUp plugin
+[&Custom]
+Aangepast
+[P&ermanent]
+P&ermanent
+[U&se Popup colours]
+Popup kleuren gebruiken
+[Blink icon in the system tray]
+Icoon knipperen in het systeemvak
+[Use status icon]
+Status icoon gebruiken
+[Always when changing from offline]
+Altijd bij wijzigen van offline
+[To select the sounds to play, click on "Sounds" in the menu on the left.]
+Om de geluiden te selecteren om af te spelen, klik op "Geluiden" in het linker menu.
+
+[Messages]
+Berichten
+[Incoming (Focused Window)]
+Binnenkomend (Actief scherm)
+[Incoming (New Session)]
+Binnenkomend (Nieuwe sessie)
+[Incoming (Unfocused Window)]
+Binnenkomend (Niet actief scherm)
+[Outgoing]
+Uitgaand
+[Messaging]
+Berichtgeving
+[Message Window Options]
+Berichtenscherm opties
+[Automatically popup window when:]
+Scherm automatisch laten zien wanneer:
+[Close the message window on send]
+Het berichtenscherm bij versturen sluiten
+[Minimize the message window on send]
+Het berichtenscherm bij versturen minimaliseren
+[Use the contact's status icon as the window icon]
+Het status icoon van de persoon gebruiken als het scherm icoon
+[Save the window size and location individually for each contact]
+De scherm grootte en lokatie per persoon opslaan
+[Cascade new windows]
+Nieuwe schermen stapelen
+[Support control up/down in message area to show previously sent messages]
+Control omhoog/omlaag ondersteunen om eerder verstuurde berichten te zien
+[Delete temporary contacts when closing message window]
+Tijdelijke personen verwijderen wanneer het berichtenscherm geloten wordt
+[Enable avatar support in the message window]
+Avatar ondersteuning in het berichtenschem inschakelen
+[Limit avatar height to]
+Max hoogte avatar
+[Show 'Send' button]
+'Versturen' knop weergeven
+[Show username on top row]
+Gebruikersnaam op bovenste rij weergeven
+[Show toolbar buttons on top row]
+Werkbalk knoppen op bovenste rij weergeven
+[Send message on double 'Enter']
+Bericht op dubble 'Enter' versturen
+[Send message on 'Enter']
+Bericht op 'Enter' versturen
+[Show character count]
+Aantal tekens weergeven
+[Show warning when message has not been received after]
+Waarschuwing weergeven wanneer bericht niet is ontvangen na
+[seconds.]
+seconden.
+[Messaging Log]
+Berichten log
+[Message Window Event Log]
+Berichten scherm gebreurtenis log
+[Show names]
+Namen weergeven
+[Show timestamp]
+Tijd weergeven
+[Show seconds]
+Seconden weergeven
+[Show dates]
+Datums weergeven
+[Show status changes]
+Status wijzigingen weergeven
+[Outgoing messages]
+Uitgaande berichten
+[Incoming messages]
+Binnenkomende berichten
+[Outgoing name]
+Uitgaande naam
+[Outgoing time]
+Uitgaande tijd
+[Outgoing colon]
+Uitgaande colon
+[Incoming name]
+Binnenkomende naam
+[Incoming time]
+Binnenkomende tijd
+[Incoming colon]
+Binnenkomende colon
+[Message area]
+Berichtruimte
+[Notices]
+Meldingen
+[Choose font...]
+Lettertype kiezen...
+[Select multiple fonts by dragging or by using the control key]
+Meerdere lettertypes selecteren door slepen of gebruik de control toets
+[Load History Events]
+Geschiedenis gebeurtenissen laden
+[Load unread events only]
+Alleen ongelezen gebeurtenissen laden
+[Load number of previous events]
+Aantal van vorige gebeurtenissen laden
+[Load previous events less than]
+Vorige gebeurtenissen laden minder dan
+[minutes old]
+minuten oud
+
+[Typing Notify]
+Typen meldingen
+[Typing Notification Options]
+Typen meldingen opties
+[Send typing notifications to the following users when you are typing a message to them:]
+Typen meldingen naar de volgende gebruikers versturen wanneer u een bericht naar hen aan het typen bent:
+[** New contacts **]
+** Nieuwe Personen **
+[Show typing notifications when a user is typing a message]
+Typen meldingen weergeven wanneer een persoon een bericht aan het typen is
+[Update inactive message window icons when a user is typing]
+Schermiconen van inactieve schermen bijwerken wanneer een persoon aan het typen is
+[Show typing notification when no message dialog is open]
+Typen melding weergeven waneer er geen berichtenscherm open is
+[Flash in the system tray and in the contact list]
+In het systeemvak en in de lijst knipperen
+[Show balloon popup]
+Baloon popup weergeven
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;      Popup Plus       ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Contents]
+Inhoud
+[Use &bold font for nick]
+Bijnaam vet lettertype
+[Display &Time]
+&Tijd weergeven
+[Show s&econd line]
+Tw&eede lijn weergeven
+[Multiline &popups]
+Meedere regels &popups
+[En&large PopUps by]
+PopUps vergroten met
+[&Dynamically resize the popups]
+&Dynamische vergroten van popups
+[&Minimum width]
+&Minimale breedte
+[Ma&ximum width]
+Ma&ximale breedte
+[Effects]
+Effecten
+[A&nimate PopUps]
+PopUps a&nimeren
+;[Fade &in/out (2000/XP)
+[Slide popups while reordering]
+Popups schuiven tijdens herordenen
+[Use Tr&ansparency (2000/XP)]
+Doorzichtigheid gebruiken (2000/XP)
+[opacity:]
+ondoorlatendheid:
+[Start windows in the...]
+Start schermen...
+[... lower left corner]
+... linksonder
+[... upper left corner]
+... linksboven
+[... lower right corner]
+... rechtsonder
+[... upper right corner]
+... rechtsboven
+[... center]
+... in het midden
+[Spread...]
+Spreidt...
+[... horizontally]
+... horizontaal
+[... vertically]
+... verticaal
+[Miscelaneaous]
+Verscheidene
+[Infinite popup delay]
+Oneindige popup vertraging
+[PopUp Delay (seconds)]
+PopUp vertraging (seconden)
+[Default colour]
+Standaard kleur
+[Default text colour]
+Standaard tekst kleur
+[Reorder PopUps]
+PopUps herverdelen
+[Disable PopUps when fullscreen]
+PopUps in volledig scherm uitschakelen
+[Do not close hovered popups]
+Geen popups sluiten waar de muis boven staat
+[Single window mode]
+Enkele scherm modus
+[Show newer messages first]
+Nieuwere berichten eerst weergeven
+[Ignore Subcontact Notifications]
+Subcontact meldingen negeren
+[Sample text]
+Voorbeeld tekst
+[Set &Font]
+Lettertype instellen
+
+[Advanced Options]
+Geavanceerde opties
+[Concurrent PopUps]
+Opeenvolgende PopUps
+[Use multiple threads]
+Meerdere threads gebruiken
+[Note: this option may (and may not) cause some unexpected crashes, be sure to disable it before reporting a bug.]
+Opmerking: deze optie kan (en kan niet) onverwachte crashes veroorzaken, schakel deze optie uit alvorens een bug te rapporteren.
+[Disable when:]
+Uitschakelen wanneer:
+
+[Miranda's window]
+Miranda's scherm
+[the active window]
+het actieve scherm
+[Enable 'User left channel' popup]
+'Gebruiker heeft kanaal verlaten' popup inschakelen
+
+[Advanced Look]
+Geavanceerd uiterlijk
+[PopUps drop shadow (WinXP+)]
+PopUps laten schaduw vallen (WinXP+)
+[Truncate very long lines]
+Erg lange regels inkorten
+[Draw avatar borders]
+Randen van avatar tekenen
+[Draw borders for semitransparent avatars too]
+Ook randen voor halfdoorzichtige avatars tekenen
+[Round avatar corners by]
+Avatar hoeken afronden met
+[Skin preferences]
+Skin voorkeuren
+[Choose preferred skin:]
+Voorkeurs skin kiezen:
+[Reload]
+Herladen
+[Display sidebar]
+Sidebar laten zien
+[Beveled windows (3d-look)]
+Opstaande schermen (3d uiterlijk)
+[Use standard &descriptions]
+Standaar&d omschrijvingen gebruiken
+[Disable status &notification]
+Status meldi&ngen uitschakelen
+[Disable &popup module]
+&Popup module uitschakelen
+
+[Text Display]
+Tekst weergave
+[Text Controls]
+Tekst besturingen
+[Title]
+Titel
+[Display technique]
+Weergave techniek
+[Simple text renderer (faster, RTL, no fancy stuff)]
+Eenvoudige tekst renderer (sneller, RTL, geen blitsende dingen)
+[Advanced text renderer (smilies, bbcodes, no RTL)]
+Geavanceerde tekst renderer (smilies, bbcodes, geen RTL)
+[Text direction]
+Tekst richting
+[Autodetect]
+Automatisch detecteren
+[Left-To-Right]
+Links-Naar-Rechts (LTR)
+[Right-To-Left]
+Rechts-Naar-Links (RTL)
+[In-text objects]
+Objecten binnen tekst
+;[SmileyAdd Smilies]
+;[BBCodes]
+[MathModule Formulas]
+Formules van MathModule
+[[u]Quick brown[/u] [b]fox[/b] jumped over the [u]lazy[/u] [b]dog[/b] :)]
+[b]Pa[/b]'s [u]wijze lynx[/u] bezag vroom het [u]fikse[/u] [i]aquaduct[/i]:)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;       Updater         ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[WARNING: Updater will move or delete everything in the 'Updates' folder when installing - so do not point it at anything important (e.g. your plugins folder) or put anything other than updates in there!]
+WAARSCHUWING: Updater zal alles in de 'Updates' folder verplaatsen of verwijderen wanneer er geinstalleerd wordt - wijs het dus niet naar iets belangrijks (bijv. uw plugins folder) of zet er niks anders dan updates in!
+[Saved archives:]
+Bewaarde archieven:
+[Browse...]
+Bladeren...
+[Settings]
+Instellingen
+[Component Name]
+Naam component
+[Use Beta?]
+Gebruik beta?
+[General Settings]
+Algemene instellingen
+[Update on build number change.]
+Bij bouwnummer wijziging bijwerken.
+[Update on release number change.]
+Bij vrijgavenummer wijziging bijwerken.
+[Update on minor version change.]
+Bij kleine versie wijziging bijwerken.
+[Update on major version change.]
+Bij grote versie wijziging bijwerken.
+[Check for updates on startup]
+Op updates controleren bij opstarten
+[(But only once per day)]
+(Maar alleen één keer per dag)
+[Check daily]
+Dagelijks controleren
+[Install without confirmation if idle]
+Zonder bevestiging installeren wanneer rustig
+[Only install DLLs automatically]
+Alléén DLL's automatisch installeren
+[Backup updated files]
+Bijgewerkte bestanden backuppen
+[Use popups for progress info]
+Popups voor voortgangsinfomatie gebruiken
+[Show 'Restart' menu item]
+'Herstarten' menu item weergeven
+[Show 'Update and Exit' menu item]
+'Bijwerken en Aflsuiten' menu item weergeven
+[Keep downloaded archives]
+Gedownloade archiven bewaren
+[Global Status Control]
+Globale status controle
+[Start offline, restore after update check]
+Start offline, na update controle herstellen
+[Update and Exit]
+Bijwerken en Aflsuiten
+[Check for updates]
+Op updates controleren
+[Restart]
+Herstarten
+[Checking for Updates]
+Op updates controleren
+[Confirm Updates]
+Bijwerkingen bevestigen
+[Updates are available for the following components:]
+Er zijn updates beschikbaar voor de volgende componenten:
+[New Version]
+Nieuwe versie
+[Current Version]
+Huidige versie
+[Confirm install for individual files]
+Installatie voor afzonderlijke bestanden bevestigen
+[Download but do not install]
+Downloaden maar niet installeren
+[Updates Available]
+Bijwerkingen beschikbaar
+[Click here to install]
+Klik hier om te installeren
+[Progress]
+Voortgang
+[Progress - %d%%]
+Voortgang - %d%%
+[Downloading plugin: %s]
+Plugin downloaden: %s
+[Scanning plugins folder]
+Plugin folder scannen
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;         Chat          ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; colorchooser.c
+[Text colour]
+Tekst kleur
+[Background colour]
+Achtergrond kleur
+
+; log.c
+[%s has joined]
+%s komt binnen
+[%s has left]
+%s is weg gegaan
+[%s has disconnected]
+%s heeft de verbinding verbroken
+[%s is now known as %s]
+%s is nu bekend als %s
+[%s kicked %s]
+%s trapt %s weg
+[Notice from %s: %s]
+Melding van %s: %s
+[The topic is \'%s%s\']
+Het onderwerp is \'%s%s\'
+[ (set by %s)]
+ (ingesteld door %s)
+[%s enables \'%s\' status for %s]
+%s heeft status \'%s\' ingeschakeld voor %s
+[%s disables \'%s\' status for %s]
+%s heeft status \'%s\' uitgeschakeld voor %s
+
+; main.c
+[Miranda could not load the Chat plugin because Microsoft Rich Edit v 3 is missing.\nIf you are using Windows 95/98/NT or WINE please upgrade your Rich Edit control.\n\nDo you want to download an update now?.]
+Miranda kon de Chat plugin niet laden omdat Microsoft Richt Edit v 3 ontbreekt.\nUpgrade uw Rich Edit control als u Windows 95/98/NT of WINE gebruikt.\n\nWilt u de update nu downloaden?.
+[Information]
+Informatie
+
+; options.c
+[Appearance and functionality of chat room windows]
+Uiterlijk en functionaliteit van schermen van Gespreksruimte
+[Appearance of the message log]
+Uiterlijk van het bericht log
+[Default events to show in new chat rooms if the \'event filter\' is enabled]
+Standaard gebeurtenissen om te tonen in nieuwe Gespreksruimtes als de \'gebeurtenis filter\' is ingeschakeld
+[Icons to display in the message log]
+Iconen om weer te geven in het bericht log
+[Icons to display in the tray]
+Iconen om weer te geven in het systeemvak
+[Pop-ups to display]
+Pop-ups om weer te geven
+[Select Folder]
+Folder selecteren
+[Chat]
+Gesprek
+[Events]
+Gebeurtenissen
+[Chat Log]
+Gesprek log
+[Popups]
+Popups
+[Incoming message]
+Binnenkomend bericht
+[Message is highlighted]
+Bericht is opgelicht
+[User has performed an action]
+Gebruiker heeft een actie gedaan
+[User has joined]
+Gebruiker komt binnen
+[User has left]
+Gebruiker is weg gegaan
+[User has kicked some other user]
+Gebruiker heeft een andere gebruiker weggetrapt
+[User´s status was changed]
+Gebruikersstatus is gewijzigd
+[User has changed name]
+Gebruiker heeft naam gewijzigd
+[User has sent a notice]
+Gebruiker heeft een melding gestuurd
+[User has disconnected]
+Gebruiker heeft de verbinding verbroken
+[The topic has been changed]
+Het onderwerp is veranderd
+
+; window.c
+[Insert a smiley]
+Een smiley toevoegen
+[Make the text bold (CTRL+B)]
+De tekst vet maken(CTRL+B)
+[Make the text italicized (CTRL+I)]
+De tekst cursief maken(CTRL+I)
+[Make the text underlined (CTRL+U)]
+De tekst onderstrepen (CTRL+U)
+[Select a background color for the text (CTRL+L)]
+Een achtergrond kleur voor de tekst selecteren (CTRL+L)
+[Select a foreground color for the text (CTRL+K)]
+Een voorgrond kleur voor de tekst selecteren (CTRL+K)
+[Show the history (CTRL+H)]
+De geschiedenis weergeven (CTRL+H)
+[Show/hide the nicklist (CTRL+N)]
+De bijnaamlijst weergeven/verbergen
+[Control this room (CTRL+O)]
+Deze ruimte controleren (CTRL+O)
+[Enable/disable the event filter (CTRL+F)]
+De gebeurtenis filter in-/uitschakelen (CTRL+O)
+[%s: Chat Room (%u user)]
+%s: Gespreksruimte (%u gebruiker)
+[%s: Chat Room (%u users)]
+%s: Gespreksruimte (%u gebruikers)
+[%s: Message Session]
+%s: Bericht sessie
+[%s: Message Session (%u users)]
+%s: Bericht sessie (%u gebruikers)
+[%s wants your attention in room %s]
+%s heeft uw aandacht nodig in ruimte %s
+
+; chat.rc
+[Spin1]
+Spin1
+[Spin2]
+Spin2
+[Custom1]
+Aangepast1
+[Enable highlighting]
+Oplichting inschakelen
+[Enable logging to disk]
+Log naar schijf inschakelen
+[Use same style as in the message log]
+Dezelfde stijl als in het bericht log gebruiken
+[Use default colours]
+Standaard kleuren gebruiken
+[Use custom colours]
+Aangepaste kleuren gebruiken
+[Custom2]
+Aangepast2
+[OK]
+OK
+[&Send]
+Ver&sturen
+[Userlist user indent (pixels):]
+Gebruikerslijt gebruiker inspringen (pixels):
+[Userlist row distance (pixels):]
+Gebruikerslijst rij afstand (pixels):
+[Add new rooms to group:]
+Nieuwe ruimtes toevoegen aan groep:
+[Log background]
+Log achtergrond
+[Message background]
+Bericht achtergrond
+[Userlist background]
+Gebruikerslijst achtergrond
+[Userlist lines]
+Gebruikerslijst lijnen
+[Timestamp]
+Tijdstempel
+[Other name]
+Andere naam
+[Your name]
+Uw naam
+[Limit log text to (events):]
+Log tekst beperken tot (gebeurtenissen):
+[Trim to (kB)]
+Verkleinen tot (kB)
+[Log timestamp]
+Log tijdstempel
+[Words to highlight (wildcards allowed)]
+Woorden om op te lichten (jokertekens toegestaan)
+[Log directory]
+Log directory
+[Timeout (s)]
+Timeout (s)
+[Text]
+Tekst
+[Background]
+Achtergrond
+[(The timeout require at least PopUp plugin v 1.0.1.9. Setting it to 0 means default setting and -1 means indefinite time)]
+(De timeout heeft tenminste PopUp pluging v 1.0.1.9 nodig. Een timeout van 0 betekent standaard instelling en -1 betekent oneindige tijd)
+[Options]
+Opties
+[Other]
+Ander
+[Fonts 'n Colors]
+Lettertyp's en kleur'n
+[Log Options]
+Log opties
+[Popups for the Chat plugin]
+Popups voor de Chat plugin
+[&Message]
+Bericht
+[Clear lo&g]
+Lo&g opschonen
+[Co&py all]
+Alles ko&piëren
+[Open a &new browser window]
+Een &nieuw browser scherm openen
+[&Open in current browser window]
+On huidige browser scherm &openen
+[&Copy link]
+Link Kopiëren
+[Undo  ]
+Ongedaan maken
+[Redo]
+Opnieuw
+[Copy]
+Kopiëren
+[Cut]
+Knippen
+[Paste]
+Plakken
+[Select All]
+Alles selecteren
+[Clear]
+Opschonen
+
+;tools.c
+[%s wants your attention in %s]
+%s heeft uw aandacht nodig in %s
+[%s speaks in %s]
+%s spreekt in %s
+[%s has joined %s]
+%s komt binnen in %s
+[%s has left %s]
+%s is weggegaan uit %s
+[%s kicked %s from %s]
+%s heeft %s weggetrapt van %s
+[Notice from %s]
+Melding van %s
+[Topic change in %s]
+Onderwerp wijziging in %s
+[Information in %s]
+Informatie in %s
+[%s enables \'%s\' status for %s in %s]
+%s heeft status \'%s\' ingeschakeld voor %s in %s
+[%s disables \'%s\' status for %s in %s]
+%s heeft status \'%s\' uitgeschakeld voor %s in %s
+[%s says: %s]
+%s zegt: %s
+[%s has disconnected (%s)]
+%s heeft de verbinding verbroken (%s)
+[%s kicked %s (%s)]
+%s heeft %s weggetrapt (%s)
+[The topic is \'%s\']
+Het onderwerp is \'%s\'
+[The topic is \'%s\' (set by %s)]
+Het onderwerp is \'%s\' (ingesteld door %s)
+
+; options
+[Timestamp]
+Tijdstempel
+[Others nicknames]
+Bijnamen van anderen
+[Your nickname]
+Uw bijnaam
+[User has joined]
+Gebruiker komt binnen
+[User has left]
+Gebruiker is weg gegaan
+[User has disconnected]
+Gebruiker heeft de verbinding verbroken
+[User kicked ...]
+Gebruiker weggetrapt ...
+[User is now known as ...]
+Gebruiker is nu bekend als ...
+[Notice from user]
+Melding van gebruiker
+[Incoming message]
+Binnenkomend bericht
+[Outgoing message]
+Uitgaand bericht
+[The topic is ...]
+Het onderwerp is ...
+[Information messages]
+Informatie berichten
+[User enables status for ...]
+Gebruiker schakeld status in voor ...
+[User disables status for ...]
+Gebruiker schakeld status uit voor ...
+[Action message]
+Actie bericht
+[Highlighted message]
+Opgelichte berichten
+[Message typing area]
+Bericht typen gebied
+[User list members]
+Gebruikslijst leden
+[User list statuses]  
+Gebruikerslijst statussen
+[Send message by pressing the Enter key]
+Bericht versturen door Enter in te drukken
+[Send message by pressing the Enter key twice]
+Bericht vesturen door Enter twee keer in te drukken
+[Flash window when someone speaks]
+Scherm knipperen wanneer iemand praat
+[Flash window when a word is highlighted]
+Scherm knipperen wanneer een woord is opgelicht
+[Show list of users in the chat room]
+Lijst van gebruikers weergeven in de geprekruimte
+[Show button for sending messages]
+Knop om berichten te versturen weergeven
+[Show name of the chat room in the top left of the window]
+Naam van de gespreksruimte linksboven in het scherm weergeven
+[Show buttons for controlling the chat room]
+Knoppen om de gespreksruimte te controleren weergeven
+[Show buttons for formatting the text you are typing]
+Knoppen om de tekst op te maken weergeven wanneer u aan typpen bent
+[Show button menus when right clicking the buttons]
+Knop menus weergeven bij rechtermuis-klik op de knoppen
+[Show lines in the userlist]
+Lijen in gebruikerslijst weergeven
+[Show new windows cascaded]
+Nieuwe schermen gestapeld weergeven
+[Save the size and position of chat rooms individually]
+De grootte en positie van elke gespreksruimte afzonderlijk opslaan
+[Save the size and position of chat rooms]
+De grootte en positie van gespreksruimtes opslaan
+[Do not play sounds when the chat room is focused]
+Geen geluiden afspelen wanneer de gespreksruimte de focus heeft
+[Do not pop up the window when joining a chat room]
+Geen scherm openen bij binnenkomst van een gespreksruimte
+[Show the topic of the room on your contact list (if supported)]
+Het onderwerp van de ruimte weergeven op uw persoon lijst (als ondersteund)
+[Toggle the visible state when double clicking in the contact list]
+Toggle de zichtbaarheidsstatus bij een dubbelklik in de persoon lijst
+[Prefix all events with a timestamp]
+Voor alle gebeurtenissen een tijdstempel zetten
+[Only prefix with timestamp if it has changed]
+Alleen een tijdstempel toevoegen als het veranderd is
+[Indent the second line of a message]
+De tweede lijn van een bericht inspringen
+[Add \':\' to auto-completed user names]
+\':\' toevoegen aan auto-completed gebruikersnamen
+[Strip colors from messages in the log]
+De kleuren uit berichten in de log halen
+[Enable the \'event filter\' for new rooms]
+De \'gebeurtenis filter\' inschakelen voor nieuwe ruimtes
+[Show topic changes]
+Onderwerp wijzigingen weergeven
+[Show users joining]
+Binnenkomende gebruikers weergeven
+[Show users disconnecting]
+Gebruikers met verbroken verbindingen weergeven
+[Show messages]
+Berichten weergeven
+[Show actions]
+Acties weergeven
+[Show users leaving]
+Vertrekkende gebruikers weergeven
+[Show users being kicked]
+Gebruikers die worden weggetrapt weergeven
+[Show notices]
+Meldingen weergeven
+[Show users changing name]
+Gebruikers die hun naam wijzigen weergeven
+[Show information messages]
+Informatie berichten weergeven
+[Show status changes of users]
+Status wijziging van gebruikers weergeven
+[Show icon for topic changes]
+Icoon voor onderwerp wijzigingen weergeven
+[Show icon for users joining]
+Icoon voor binnenkomende gebruikers weergeven
+[Show icon for users disconnecting]
+Icoon voor gebruikers met verbroken verbindingen weergeven
+[Show icon for messages]
+Icoon voor berichten weergeven
+[Show icon for actions]
+Icoon voor acties weergeven
+[Show icon for highlights]
+Icoon voor oplichtingen weergeven
+[Show icon for users leaving]
+Icoon voor vertrekkende gebruikers weergeven
+[Show icon for users kicking other user]
+Icoon voor gebruikers die andere gebruikers wegtrappen weergeven
+[Show icon for notices ]
+Icoon voor meldingen weergeven
+[Show icon for name changes]
+Icoon voor naamswijzigingen weergeven
+[Show icon for information messages]
+Icoon voor informatie berichten weergeven
+[Show icon for status changes]
+Icoon voor status wijzigingen weergeven
+[Show icons in tray only when the chat room is not active]
+Iconen alleen in systeemvak wanneer de gespreksruimte niet actief is weergeven
+[Show icon in tray for topic changes]
+Icoon in systeemvak voor onderwerp wijzigingen weergeven
+[Show icon in tray for users joining]
+Icoon in systeemvak voor binnenkomende gebruikers weergeven
+[Show icon in tray for users disconnecting]
+Icoon in systeemvak voor gebruikers met verbroken verbindingen weergeven
+[Show icon in tray for messages]
+Icoon in systeemvak voor berichten weergeven
+[Show icon in tray for actions]
+Icoon in systeemvak voor acties weergeven
+[Show icon in tray for highlights]
+Icoon in systeemvak voor oplichtingen weergeven
+[Show icon in tray for users leaving]
+Icoon in systeemvak voor vertrekkende gebruikers weergeven
+[Show icon in tray for users kicking other user]
+Icoon in systeemvak voor gebruikers die andere gebruikers wegtrappen weergeven
+[Show icon in tray for notices ]
+Icoon in systeemvak meldingen weergeven
+[Show icon in tray for name changes]
+Icoon in systeemvak naamwijzigingen weergeven
+[Show icon in tray for information messages]
+Icoon in systeemvak informatie berichten weergeven
+[Show icon in tray for status changes]
+Icoon in systeemvak status wijzigingen weergeven
+[Show pop-ups only when the chat room is not active]
+Popups alleen wanneer de gespreksruimte niet actief is  weergeven
+[Show pop-up for topic changes]
+Ppopups voor onderwerp wijzigingen weergeven
+[Show pop-up for users joining]
+Popups voor binnenkomende gebruikers weergeven
+[Show pop-up for users disconnecting]
+Popups voor gebruikers met verbroken verbindingen weergeven
+[Show pop-up for messages]
+Popups voor berichten weergeven
+[Show pop-up for actions]
+Popups voor acties weergeven
+[Show pop-up for highlights]
+Popups voor oplichtingen weergeven
+[Show pop-up for users leaving]
+Popups voor vertrekkende gebruikers weergeven
+[Show pop-up for users kicking other user]
+Popups voor gebruikers die andere gebruikers wegtrappen weergeven
+[Show pop-up for notices ]
+Popups voor meldingen weergeven
+[Show pop-up for name changes]
+Popups voor naamwijzigingen weergeven
+[Show pop-up for information messages]
+Popups voor informatie berichten weergeven
+[Show pop-up for status changes]
+Popups voor status wijzigingen weergeven
+
+[Options for using a tabbed interface]
+Opties voor het gebruik van een tabbed interface
+[Use a tabbed interface]
+Een tabbed interface gebruiken
+[Close tab on doubleclick]
+Tab sluiten bij dubbelklik
+[Restore previously open tabs when showing the window]
+Vorige open tabs herstellen wanneer het scherm wordt getoond
+[Show tabs at the bottom]
+Tabs onderaan tonen
+[Timestamp has same colour as the event]
+Tijdstempel heeft dezelfde kleur als de gebeurtenis
+[Limit user names in the message log to 20 characters]
+Gebruikersnamen in de berichten log beperken tot 20 karakters
+[User list members (Online)]
+Gebruikerlijst leden (Online)
+[User list members (away)]
+Gebruikerlijst leden (afwezig)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;         IRC           ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; clist.cpp
+[CTCP chat request from %s]
+CTCP gesprek verzoek van %s
+
+; commandmonitor.cpp
+[CTCP FINGER requested by %s]
+CTCP FINGER verzocht door %s
+[CTCP VERSION requested by %s]
+CTCP VERSION verzocht door %s
+[CTCP SOURCE requested by %s]
+CTCP SOURCE verzocht door %s
+[CTCP USERINFO requested by %s]
+CTCP USERINFO verzocht door %s
+[CTCP PING requested by %s]
+CTCP PING verzocht door %s
+[CTCP TIME requested by %s]
+CTCT TIME verzocht door %s
+[DCC: Chat request from %s denied]
+DCC: Gesprekverzoek van %s geweigerd
+[DCC: File transfer request from %s denied]
+DCC: Bestandsoverdacht verzoek van %s geweigerd
+[DCC: Reverse file transfer request from %s denied [No local IP]]
+DCC: Omgekeerd bestandsoverdracht verzoek van %s geweigerd [Geen lokaal IP]
+[DCC ERROR: Malformed CTCP request from %s [%s]]
+DCC ERROR: Slecht gevormde CTCP verzoek van %s [%s]
+[DCC: File transfer resume request from %s denied]
+DCC: Verzoek om bestandsoverdracht te hervatten van %s geweigerd
+[CTCP %s requested by %s]
+CTCP %s verzocht door %s
+[CTCP PING reply from %s: %u sec(s)]
+CTCP PING antwoord van %s: %u sec(s)
+[CTCP %s reply from %s: %s]
+CTCP %s antwoord van %s: %s
+[Downloading list (%u%%) - %u channels]
+Lijst downloaden (%u%%) - %u kanalen
+[Downloading list - %u channels]
+Lijst downloaden - %u kanalen
+[Done: %u channels]
+Klaar: %u kanalen
+[(probably truncated by server)]
+(waarschijnlijk ingekort door server)
+[User information]
+Gebruikers informatie
+[Change nickname]
+Bijnaam wijzigen
+[IRC error]
+IRC fout
+[Unknown]
+Onbekend
+[Please enter the hostmask (nick!user@host) \nNOTE! Contacts on your contact list are never ignored]
+Vul hostmasker in (bijnaam!gebruiker#@host) \nNOTITIE! Personen op uw peroon lijst worden nooit genegeerd
+[Ignore]
+Negeer
+[Please enter the reason]
+Vul aub een reden in
+[Ban'n Kick]
+Bann'n en Wegtrapp'n
+[Jerk]
+Eikel
+[Offline]
+Offline
+[*Disconnected*]
+*Verbinding verbroken*
+
+; input.cpp
+[Ignore system is enabled]
+Negeer systeem ingeschakeld
+[Ignore system is disabled]
+Negeer systeem uitgeschakeld
+[%s is now ignored]
+%s is nu genegeerd
+[%s is already being ignored]
+%s wordt al genegeerd
+[%s is not ignored now]
+%s is nu niet genegeerd
+[%s is already not ignored]
+%s is al niet genegeerd
+[Outgoing commands are shown in the server window]
+Uitgaande opdrachten worden getoond in het server scherm
+[Outgoing commands are not shown in the server window]
+Uitgaande opdrachten worden niet getoond in het server scherm
+[The buddy check function is enabled]
+De vrienden controle functie is ingeschakeld
+[The buddy check function is disabled]
+De vrienden controle functie is uitgeschakeld
+[The time interval for the buddy check function is now at default setting]
+De tijd interval voor de vrienden controle functie is nu op de standaard instelling
+[The time interval for the buddy check function is now %u seconds]
+De tijd interval voor de vrienden controle functie is nu %u seconden
+[Channel Manager]
+Kanaal Beheerder
+[This command is not recommended on a network of this size!\r\nIt will probably cause high CPU usage and/or high bandwidth\r\nusage for around %u to %u minute(s).\r\n\r\nDo you want to continue?]
+Deze opdracht is niet aan te raden op een netwerk van deze grote!\r\nHet zal waarschijnlijk een grote CPU belasting en/of hoge\r\nbandbreedte verbuik veroorzaken van ongeveer %u tot %u minu(u)t(en).\r\n\r\nWilt u doorgaan?
+[IRC warning]
+IRC waarschuwing
+[Aborted]
+Afgebroken
+[CTCP %s request sent to %s]
+CTCP %s verzoek verstuurd naar %s
+[DCC ERROR: Unable to automatically resolve external IP]
+DCC ERROR: Kan extern IP niet automatisch opzoeken
+[DCC CHAT request sent to %s]
+DCC CHAT verzoek verstuurd naar %s
+[DCC ERROR: Unable to bind port]
+DCC ERROR: Kan niet aan poort binden
+[Input command]
+Opdracht invoeren
+[Please enter the reply]
+Vul aub het antwoord in
+
+; main.cpp
+[The IRC protocol could not be loaded as it is dependant on features in newer versions of Miranda IM.\n\nDo you want to download an update of Miranda IM now?.]
+Het IRC protocol kon niet geladen worden omdat het afhankelijk van features in nieuwere versies van Miranda IM.\n\nWilt u nu een update van Miranda IM downloaden?.
+[Information]
+Informatie
+
+; options.cpp
+[Please complete all fields]
+Vul aub alle velden in
+[<Resolved IP: ]
+<Gevonden IP:
+[<Automatic>]
+<Automatisch>
+[<Local IP: ]
+<Lokaal IP:
+[Click to set commands that will be performed for this event]
+Klik om opdrachten in te stellen die worden uitgevoerd voor deze gebeurtenis
+[Click to delete the commands for this event]
+Klik om de opdrachten te verwijderen voor deze gebeurtenis
+[Add a new network]
+Een nieuw netwerk toevoegen
+[Edit this network]
+Dit netwerk bewerken
+[Delete this network]
+Dit netwerk verwijderen
+[Off]
+Uit
+[Auto]
+Auto
+[On]
+Aan
+[N/A]
+NVT
+[Do you want to delete\r\n%s]
+Wilt u\r\n%s verwijderen
+[Delete server]
+Server verwijderen
+[Edit server]
+Server bewerken
+[Network]
+Netwerk
+[%s DCC 'n CTCP]
+%s DCC en CTCP
+[%s Advanced]
+%s Geavanceerd
+
+; output.cpp
+[WallOps from %s: ]
+WallOps van %s:
+[%s is away]
+%s is weg
+[%s invites you to %s]
+%s nodigt uw uit voor %s
+[These are online: ]
+Deze zijn online
+[CTCP %s reply sent to %s]
+CTCP %s antwoord verzonden naar %s
+[CTCP %s reply sent to %s: %s]
+CTCP %s antwoord verzonden naar %s: %s
+[Notice to %s: ]
+Melding naar %s:
+
+; services.cpp
+[&Quick connect]
+Snel verbinden
+[&Join a channel]
+Kanaal binnengaan
+[&Change your nickname]
+Wijzig uw bijnaam
+[Show the &list of available channels]
+De lijst van beschikbare kanalen tonen
+[&Show the server window]
+Het server scherm tonen
+[&Leave the channel]
+Kanaal verlaten
+[&User details]
+Gebr&uiker details
+[&Ignore]
+Negeren
+[DCC ERROR: No valid files specified]
+DCC ERROR: Geen geldige bestanden opgegeven
+[DCC reversed file transfer request sent to %s [%s]]
+DCC omgekeerde bestandsoverdracht verzoek verzonden naar %s [%s]
+[DCC file transfer request sent to %s [%s]]
+DCC bestandsoverdracht verzoek verzonden naar %s [%s]
+[DCC ERROR: Unable to bind local port]
+DCC ERROR: Kon niet aan lokale poort binden
+[%s (%s) is requesting a client-to-client chat connection.]
+%s (%s) verzoekt om een client-to-client gespreksverbinding.
+[Join channel]
+Kanaal binnengaan
+[Please enter a channel to join]
+Vul aub een kanaal in om binnen te gaan
+[Quick connect]
+Snel verbinden
+[Please select IRC network and enter the password if needed]
+Selecteer aub het IRC netwerk en vul indien nodig het wachtwoord in
+[Change nick name]
+Wijzig bijnaam
+[Please enter a unique nickname]
+Vul aub een unieke bijnaam in
+[Kick]
+Wegtrappen
+[Channel &settings]
+Kanaal in&stellingen
+[Show the server &window]
+Het server scherm tonen
+[User &details]
+Gebruiker &details
+[&Control]
+&Controleer
+[&Op]
+&Op
+[&Deop]
+&Deop
+[&Voice]
+Stem
+[D&evoice]
+Geen stem
+[&Kick]
+Wegtrappen
+[Ki&ck (reason)]
+Wegtrappen (reden)
+[&Ban]
+&Bannen
+[Ban'&n kick]
+Bann'n en Wegtrapp'n
+[Bann'n kick (&reason)]
+Ban en wegtrapp'n (&reden)
+[&On]
+Aan
+[O&ff]
+Uit
+[&Direct Connection]
+Rechtstreekse verbin&ding
+[Request &Chat]
+Gesprek verzoek
+[Send &File]
+Bestand versturen
+[&Add User]
+Gebruiker toevoegen
+[&Leave channel]
+Kanaal ver&laten
+[&Show channel]
+Kanaal tonen
+[&Show server]
+&Server tonen
+[&Message]
+Bericht
+[Di&sconnect]
+Verbinding verbreken
+[&Unignore user]
+Gebruiker niet meer negeren
+[Ignore user]
+Gebruiker negeren
+[Nickname]
+Bijnaam
+[Connecting to]
+Verbinding maken met
+[This protocol is dependent on another plugin named \'Chat\'\nPlease download it from the Miranda IM website!]
+Dit protocol is afhankelijk van een andre plugin, \'Chat\'.\nDownload deze aub van de Mirande IM website!
+[The IRC protocol can not connect as this version requires features in newer versions of Miranda IM.\nPlease download an upgradeded version from the Miranda IM website!]
+Het IRC protocal kan geen verbinding maken omdat het features vereist van de nieuwere versies van Mirande IM.\nDownload aub een geupgrade versie van de Mirande IM website!
+[Please choose an IRC-network to go online. This network will be the default.]
+Kies aub een IRC netwerk om mee online te gaan. Dit netwerk zal de standaard worden.
+[Default network]
+Standaard netwerk
+[Connection can not be established! You have not completed all necessary fields (Nickname, User ID and Name).]
+Kan geen verbinding maken! U heeft niet alle verplichte velden ingevuld (Bijnaam, Gebruiker ID en Naam).
+[The protocol is not online]
+Het protocol is niet online
+[The dcc chat connection is not active]
+De dcc gesprek verbinding is niet actief
+[%s server connection]
+%s server verbinding
+[%s client-to-client connections]
+%s client-to-client verbindingen
+[The IRC protocol requires features found in newer versions of Miranda IM.\n\nDo you want to download it from the Miranda IM web site now?]
+Het IRC protocol heeft features benodigd die in nieuwere versies van Miranda IM zitten.\n\nWilt u het nu van de Miranda IM wesite downloaden?
+[IRC Error]
+IRC fout
+[The IRC protocol depends on another plugin called \'Chat\'\n\nDo you want to download it from the Miranda IM web site now?]
+Het IRC protocol is afhankelijk van een andere plugin, \'Cjat\'.\n\nWilt u het nu van de Miranda IM wesite downloaden?
+[Reconnecting to]
+Opnieuw verbinden met
+
+; windows.cpp
+[Please wait...]
+Even geduld aub...
+[Channel]
+Kanaal
+[Mode]
+Modus
+[Topic]
+Onderwerp
+[The \"Nick\" field must contain at least four characters, and also match the default nickname (incl. wildcards) for this contact.\n\nThe \"Nick\" field is not case-sensitive but \"User\" and \"Address\" are.\r\n\r\nThe default nickname for this contact is]
+Het \"Bijnaam\"-veld moet tenminste vier karkaters bevatten en moet ook lijken op de standaard bijnaam (inclusief jokertekens) voor deze persoon.\n\nHet \"Bijnaam\"-veld is niet hoofdletter gevoelig, maar \"Gebruiker\" en \"Adres\" zijn dit wel.\r\n\r\nDe standaard bijnaam voor deze persoon is
+[Settings could not be saved!\n\nThe \"Nick\" field must contain at least four characters including wildcards,\n and it must also match the default nickname for this contact.]
+Instellingen konden niet worden bewaard!\n\nHet \"Bijnaam\"-veld moet tenminste vier karakters bevatten inclusief jokertekens\n en het moet ook op de standaard bijnaam voor deze persoon lijken.
+[Add ban/invite/exception]
+Ban/uitnodiging/uitzondering toevoegen
+[Edit selected ban/invite/exception]
+Geselecteerde ban/Uitnodiging/uitzondering bewerken
+[Delete selected ban/invite/exception]
+Geselecteerde ban/Uitnodiging/uitzondering verwijderen
+[Set this topic for the channel]
+Het onderwerp voor dit kanaal instellen
+[Set these modes for the channel]
+De modi voor dit kanaal instellen
+[Remove ban?]
+Ban verwijderen?
+[Remove invite?]
+Uitnodiging verwijderen?
+[Remove exception?]
+Uitzondering verwijderen?
+[Edit ban]
+Ban bewerken
+[Edit invite?]
+Uitnodiging bewerken?
+[Edit exception?]
+Uitzondering bewerken?
+[Please enter the hostmask (nick!user@host)]
+Vul aub een hostmasker in (bijnaam!gebruiker@host)
+[Add ban]
+Ban toevoegen
+[Add invite]
+Uitnodiging toevoegen
+[Add exception]
+Uitzondering toevoegen
+[You have not applied all changes!\n\nApply before exiting?]
+U heeft niet alle wijzigingen toegepast!\n\nWTopassen alvorens af te sluiten?
+
+; IRC.rc
+[&Add]
+Toevoegen
+[&Edit]
+B&ewerken
+[&Del]
+Verwij&deren
+[Enable]
+Inschakelen
+[only while connecting]
+alleen tijdens verbinden
+[Online notification of contacts]
+Online meldingen van personen
+[Check temporary also]
+Tijdelijk ook controleren
+[Keep connection alive]
+Verbinding levend houden
+[Force visible (-i)]
+Forceer onzichtbaar (-i)
+[Rejoin channel if kicked]
+Kanaal opnieuw binnengaan als weggetrapt
+[Disable tray balloon on error]
+Systeemvak ballon bij fout uitschakelen
+[Rejoin channels on reconnect]
+Kanalen opnieuw binnengaan bij opnieuw verbinden
+[Internet address]
+Internet adres
+[Use server window]
+Server scherm gebruiken
+[Show server window on startup]
+Server scherm tonen bij opstarten
+[Automatically join on invite]
+Automatisch binnengaan bij uitnodiging
+[Show addresses]
+Adressen tonen
+[&Set]
+In&stellen
+[SSL]
+SSL
+[Bans]
+Bans
+[Invites]
+Uitnodigingen
+[Excepts]
+Uitzonderingen
+[Only Ops set topic]
+Alleen operators stellen onderwerp in
+[No external messages]
+Geen externe berichten
+[Invite only]
+Alleen uitnodigen
+[Moderated]
+Bijgehouden
+[Key:]
+Sleutel:
+[User limit:]
+Gebruikers limiet:
+[Private]
+Prive
+[Secret]
+Geheim
+[Hidden]
+Verborgen
+[Enable incoming requests]
+Binnenkomende verzoeken inschakelen
+[Normal]
+Normaal
+[Send-ahead]
+Vooruit versturen
+[Attempt reverse DCC (good if firewalled)]
+Probeer omgekeerde DCC (goed wanneer achter firewall)
+[none]
+geen
+[everyone on the contact list]
+iedereen op de persoon lijst
+[everyone]
+iedereen
+[everyone not on the contact list]
+iedereen niet  op de persoon lijst
+[Disconnect DCC chats when disconnecting from server]
+Verbreek DCC gesprekken wanneer verbinding verbreken van server
+[Manually set external IP:]
+Extern IP handmatig instellen:
+[Get IP address from server]
+Verkrijg IP adres van server
+[&Refresh]
+Ve&rversen
+[&Close]
+Sluiten
+[&OK]
+&OK
+[&Join]
+Binnengaan
+[C&onnect]
+Verbinden
+[&Deny]
+Weigeren
+[Ping]
+Pingen
+[Version]
+Versie
+[Time]
+Tijd
+[Userinfo]
+Gebruikersinfo
+[&Query]
+&Query
+[&Cancel]
+Annuleren
+[&Save]
+Op&slaan
+[&Clear all]
+Alles ops&chonen
+[&Accept]
+&Accepteren
+[Port range]
+Poort bereik
+[Nick]
+Bijnaam
+[User ID (Ident)]
+Gebruikers ID
+[Full name (e-mail)]
+Volledige naam (e-mail)
+[Password]
+Wachtwoord
+[Server name]
+Server naam
+[Alternative nick]
+Alternatieve bijnaam
+[System]
+Systeem
+[Port]
+Poort
+[Wait (s)]
+Wacht (s)
+[Retry count]
+Opnieuw proberen
+[Fear the monkeys!!!]
+Vrees de apen!!!
+[timer (s): ]
+timer (s): 
+[Name]
+Naam
+[Address]
+Adres
+[Channels]
+Kanalen
+[Auth]
+Aut
+[Server]
+Server
+[User]
+Gebruiker
+[Away Info]
+Afweigheidsinformatie
+[Other]
+Ander
+[The server returned the following information. Please note that this information might be misleading and/or falsified]
+De server heeft de volgende informatie teruggeven. Let er op dat deze informatie misleidend en/of vals kan zijn
+[Quit message]
+Verlaat-bericht
+[Use the options to set modes for this channel. You are usually required to be op. or higher to modify.]
+Gebruik de opties om de modes in te stellen voor dit kanaal. U bent normaag gesproken vereist om operator of hoger te zijn.
+[for choosing the IRC protocol for Miranda IM. Please enter your nickname and real name]
+voor het kiezen van het IRC protocol van Miranda IM. Voer aub uw bijnaam en echte naam in
+[Thank You...]
+Bedankt...
+[Full name]
+Volledige naam
+[Send mode:]
+Verstuur modus:
+[Packet size (b):]
+Pakket grootte (b):
+[Ident]
+Identificatie
+[User info - Required]
+Gebruikers info - Verplicht
+[Reconnect]
+Opnieuw verbinden
+[CTCP information]
+CTCP informatie
+[Perform]
+Optreden
+[Alias]
+Alias
+[Hostmask]
+Hostmasker
+[User modes]
+Gebruiker modi
+[Channel modes]
+Kannaal modi
+[Client-to-Client File Transfers]
+Client-to-Client bestandsoverdrachten
+[Automatically accept chat requests from... ]
+Accepteer gepsreksverzoeken automatisch van...
+[Ignore chat requests from...]
+Negeer gepsreksverzoeken van...
+[Client-to-Client Protocol]
+Client-to-Client Protocol
+[Client-to-Client Chats]
+Client-to-Client gesprekken
+[Question]
+Vraag
+[Add server]
+Server toevoegen
+[Channels on server]
+Kanalen op server
+[Miranda IRC]
+Miranda IRC
+[CTCP Chat Request]
+CTCP gesprekverzoek
+[&Whois]
+&Whois
+[Ki&ck (Reason)]
+Wegtrappen (reden)
+[Ban'&n Kick]
+Bann'n en Wegtrapp'n
+[Ban'n Kick (&reason)]
+Bann'n en Wegtrapp'n (&reden)
+[&Add contact]
+Persoon toevoegen
+[&Copy]
+Kopiëren
+[Co&py All]
+Alles ko&piëren
+[Select &All]
+&Alles selecteren
+[Leave channel]
+Kanaal verlaten
+[Clear log]
+Log schonen
+[Show/Hide server]
+Server weergeven/verbergen
+[Channel manager]
+Kanaal beheerder
+[Open in &new window]
+In &nieuw scherm openen
+[&Open in existing window]
+In bestaand scherm &openen
+[&Copy link]
+Link kopiëreren
+
+[\'Old style\' mode changes]
+\'Oude stijl\' modus wijzigingen
+
+[Chat rooms]
+Gesprek ruimtes
+[&Close tab]
+Tab sluiten
+[C&lose other tabs]
+Andere tabs sluiten
+[Close current tab (CTRL+F4)]
+Huidige tab sluiten (CTRL+F4)
+[&Open at this position]
+&Op deze positie toevoegen
+[No word to look up]
+Geen woord om op te zoeken
+[Look up \'%s\':]
+Zoek \'%s\':
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;      History++        ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; CustomizeFiltersForm.trans.txt file
+
+;; Text found in ..\plugin\CustomizeFiltersForm.dfm:
+[Customize Filters]
+Filters aanpassen
+[OK]
+OK
+[&Cancel]
+Annuleren
+[Filter Properties]
+Filter eigenschappen
+[&Name:]
+&Naam:
+[Show all except selected events]
+Alles weergeven behalve geselecteerde gebeurtenissen
+[Show only selected events]
+Alleen geselecteerde gebeurtenissen weergeven
+[R&eset to Default]
+Standaard terugzetten
+[Filters]
+Filters
+[&Down]
+Omlaag
+[&Up]
+Omhoog
+[&Delete]
+Verwij&deren
+[&Add]
+Toevoegen
+;; Text found in ..\plugin\CustomizeFiltersForm.pas:
+[New Filter #%d]
+Nieuw filter #%d
+[Incoming & Outgoing]
+Binnenkomend & Uitgaand
+[Events]
+Gebeurtenissen
+
+;; CustomizeToolbar.trans.txt file
+
+;; Text found in ..\plugin\CustomizeToolbar.dfm:
+[Customize Toolbar]
+Werkbalk aanpassen
+[A&vailable buttons:]
+Beschikbare knoppen:
+[Buttons on &toolbar:]
+Knoppen op werkbalk:
+[&Add >>]
+Toevoegen >>
+[<< &Remove]
+<< Ve&rwijderen
+;; Text found in ..\plugin\CustomizeToolbar.pas:
+[Event Filters]
+Gebeurtenissenfilters
+
+;; EventDetailForm.trans.txt file
+
+;; Text found in ..\plugin\EventDetailForm.dfm:
+[Event Details]
+Gebeurtenis details
+[Reply &Quoted]
+Antwoord met quote
+[&Close]
+Sluiten
+[From]
+Van
+[Nick:]
+Bijnaam:
+[ID:]
+ID:
+[More...]
+Meer...
+[To]
+Aan
+[Event Info]
+Gebeurtenis informatie
+[Type:]
+Type:
+[Date/Time:]
+Datum/Tijd:
+[&Copy]
+Kopiëren
+[Copy All]
+Alles kopiëren
+[&Select All]
+Alles &selecteren
+[Send &Message]
+Bericht versturen
+[&Reply Quoted]
+Antwoo&rd met quote
+
+;; GlobalSearch.trans.txt file
+
+;; Text found in ..\plugin\GlobalSearch.dfm:
+[Global History Search]
+Gehele geschiedenis doorzoeken
+[Search for]
+Zoeken naar
+[Search]
+Zoeken
+[Advanced >>]
+Gevanceerd >>
+[Advanced Search Options]
+Opties voor geavanceerd zoeken
+[Search any word]
+Elk woord zoeken
+[Search all words]
+Alle woorden zoeken
+[Search exact phrase]
+Exacte zin zoeken
+[Password:]
+Wachtwoord:
+[Include password-protected contacts]
+Personen beschermd met wachtwoord meenemen
+[Starting up...]
+Opstarten...
+[No items found]
+Geen items gevonden
+[No items for your current filter]
+Geen items voor uw huidige filter
+[Full History Log]
+Volledige geschiedenis log
+[Partial History Log]
+Gedeeltelijke geschiedenis log
+[History++ export]
+Geschiedenis++ exporteren
+[### (generated by history++ plugin)]
+### (gegenereerd door geschiedenis++ plugin)
+[<h6>Generated by <b>History++</b> Plugin</h6>]
+<h6>Gegenereerd door <b>Geschiedenis++</b> Plugin</h6>
+[Clear Search]
+Zoeken schonen
+[Sh&ow in context]
+In c&ontext tonen
+[Set &Bookmark]
+&Bladwijzer zetten
+[Copy &Text]
+&Tekst kopiëren
+[&Save Selected...]
+Ge&selecteerde opslaan...
+[Save History]
+Geschiedenis opslaan
+;; Text found in ..\plugin\GlobalSearch.pas:
+[%.0n items in %d contacts found. Searched for %.1f sec in %.0n items.]
+%.0n items in %d personen gevonden. Zocht voor %.1f sec in %.0n items.
+[All Results]
+Alle resultaten
+[System History]
+Systeemgeschiedenis
+[&System History]
+&Systeemgeschiedenis
+[Searching "%s"...]
+Zoeken naar "%s"...
+[Stop]
+Stoppen
+[Searching... Please wait.]
+Bezig met zoeken... Even geduld aub.
+[Preparing search...]
+Zoeken voorbereiden...
+[Searching... %.0n items in %d contacts found]
+Bezig met zoeken... %.0n items in %d personen gevonden
+[Enter the history password to search.]
+Om te zoeken het geschiedeniswachtwoord invoeren.
+[History++ Password Protection]
+Geschiedenis++ wachtwoord bescherming
+[You have entered the wrong password.]
+U heeft een verkeerd wachtwoord ingevoerd.
+[Please wait while closing the window...]
+Even geduld aub terwijl het scherm gesloten wordt...
+[Partial History [%s] - [%s]]
+Gedeeltelijke geschiedenis [%s] - [%s]
+[Remove &Bookmark]
+&Bladwijzer verwijderen
+[Ready to search]
+Klaar om te zoeken
+[Click Search button to start]
+Druk op de Zoeken knop om te beginnen
+[From %s]
+Van %s
+[To %s]
+Naar %s
+[Advanced <<]
+Geavanceerd <<
+[HotSearch: %s (F3 to find next)]
+Snelzoeken: %s (F3 om de volgende te vinden)
+[You have reached the end of the history.]
+U heeft het eind van de geschiedenis bereikt
+[Do you want to continue searching at the beginning?]
+Wilt u verder gaan met zoeken vanaf het begin?
+[History++ Search]
+Geschiedenis++ zoeken
+[Loading...]
+Bezig met laden...
+[Saving...]
+Bezig met opslaan...
+[Searching...]
+Bezig met zoeken...
+[Deleting...]
+Bezig met verwijderen...
+[Do you really want to delete selected items (%.0f)?]
+Wilt u de geselecteerde items (%.0f) echt verwijderen?
+[Delete Selected]
+Geselecteerde verwijderen
+[Do you really want to delete selected item?]
+Wilt u het geselecteerde item echt verwijderen?
+[Delete]
+Verwijderen
+
+;; HistoryForm.trans.txt file
+
+;; Text found in ..\plugin\HistoryForm.dfm:
+[%s - History++]
+%s - Geschiedenis++
+[History is empty]
+Geschiedenis is leeg
+[No such items]
+Geen items
+[Conversations]
+Gesprekken
+[User Details]
+Gebruikersdetails
+[User Menu]
+Gebruikersmenu
+[Conversations (F4)]
+Gesprekken (F4)
+[Bookmarks]
+Bladwijzers
+[Find]
+Vinden
+[Filter]
+Filter
+[Copy]
+Kopiëren
+[Save]
+Opslaan
+[History]
+Geschiedenis
+[History Search]
+Geschiedenis doorzoeken
+[His&tory Search]
+Geschiedenis doorzoeken
+[You need password to access this history]
+U heeft een wachtwoord nodig om deze geschiedenis te benaderen
+[Enter]
+Enter
+[&Open]
+&Openen
+[Open &Link]
+&Link openen
+[Open Link in New &Window]
+Link in nieu&w scherm open
+[Open &File]
+Bestand openen
+[Open File Fo&lder]
+Bestandsfo&lder openen
+[Select &All]
+&Alles selecteren
+[Disable &Processing]
+Verwerking uitschakelen
+[Cancel]
+Annuleren
+[Export as &HTML...]
+Exporteren als &HTML...
+[Export as &XML...]
+Exporteren als &XML...
+[Export as &RTF...]
+Exporteren als &RTF...
+[Export as &Text...]
+Exporteren als &Text...
+[Empty history...]
+Geschiedenis leegmaken...
+[Text direction]
+Tekstrichting
+[Default]
+Standaard
+[Always RTL]
+Altijd RTL
+[Always LTR]
+Altijd LTR
+[ANSI Encoding]
+ANSI Encoding
+[System default codepage]
+Standaard systeem codepage
+[Password protection...]
+Wachtwoord bescherming...
+[&Customize...]
+Aanpassen...
+[Select]
+Selecteren
+[Save...]
+Opslaan...
+[Rename &Bookmark]
+&Bladwijzer hernoemen
+;; Text found in ..\plugin\HistoryForm.pas:
+[Error]
+Fout
+[&Edit]
+B&ewerken
+[%.0n items in history]
+%.0n items in geschiedenis
+[Full History [%s] - [%s]]
+Volledige geschiedenis [%s] - [%s]
+[Phrase not found]
+Zin niet gevonden
+[Continued from the top]
+Van boven verdergegaan
+[Continued from the bottom]
+Van onderen verdergegaan
+[Search: %s (F3 to find next)]
+Zoeken: %s (F3 om de volgende te vinden)
+["%s" not found]
+"%s" niet gevonden
+[You have entered the wrong password]
+U heeft het verkeerde wachtwoord ingevoerd
+[%d event]
+%d gebeurtenis
+[%0.n events (%s)]
+%0.n gebeurtenissen (%s)
+[Enable &Processing]
+Verwerking inschakelen
+[Do you really want to delete ALL items (%.0f) for this contact?]
+Wilt u echt ALLE items (%.0f) voor deze persoon verwijderen?
+[Note: It can take several minutes for large history.]
+Opmerking: Het kan een aantal minuten duren voor een grote geschiedenis.
+[Empty History]
+Geschiedenis legen
+;; Text from variables in ..\plugin\HistoryForm.pas:
+[Search Up (Ctrl+Up)]
+Omhoog zoeken (Ctrl+Up)
+[Search Down (Ctrl+Down)]
+Omlaag zoeken (Ctrl+Down)
+[HTML file (*.html; *.htm)|*.html;*.htm]
+HTML bestand (*.html; *.htm)|*.html;*.htm
+[XML file (*.xml)|*.xml]
+XML bestand (*.xml)|*.xml
+[RTF file (*.rtf)|*.rtf]
+RTF bestand (*.rtf)|*.rtf
+[Unicode text file (*.txt)|*.txt]
+Unicode tekst bestand (*.txt)|*.txt
+[Text file (*.txt)|*.txt]
+Tekst bestand (*.txt)|*.txt
+[All files (*.*)|*.*]
+Alle bestanden (*.*)|*.*
+
+;; HistoryGrid.trans.txt file
+
+;; Text found in ..\plugin\HistoryGrid.pas:
+[Conversation started at %s]
+Gesprek begonnen op %s
+[Remove Bookmark]
+Bladwijzer verwijderen
+[Set Bookmark]
+Bladwijzer installen
+[Hide headers]
+Koppen verbergen
+[Show headers]
+Koppen weergeven
+
+;; PassCheckForm.trans.txt file
+
+;; Text found in ..\plugin\PassCheckForm.dfm:
+[Password Check]
+Wachtwoord controle
+[Enter password]
+Voer wachtwoord in
+[To access Password Protection options you need to enter password]
+Om de wachtwoord beschermings opties te benaderen moet die het wachtwoord invoeren
+;; Text found in ..\plugin\PassCheckForm.pas:
+
+;; PassForm.trans.txt file
+
+;; Text found in ..\plugin\PassForm.dfm:
+[Password Options]
+Wachtwoord opties
+[Protect all contacts]
+Alle personen beschermen
+[Protect only selected contacts]
+Alleen geselecteerde personen beschermen
+[Password...]
+Wachtwoord...
+[&Refresh List]
+Lijst bijwe&rken
+;; Text found in ..\plugin\PassForm.pas:
+[Password not set]
+Wachtwoord niet ingesteld
+[Password set]
+Wachtwoord ingesteld
+
+;; PassNewForm.trans.txt file
+
+;; Text found in ..\plugin\PassNewForm.dfm:
+[New Password]
+Nieuw wachtwoord
+[Enter new password]
+Voer nieuw wachtwoord in
+[Confirm:]
+Bevestig:
+[Leave this fields blank to disable password]
+Laat dit veld leeg om wachtwoorden uit te schakelen
+[Pay attention to CAPS LOCK button state]
+Denk aan de Caps Lock
+;; Text found in ..\plugin\PassNewForm.pas:
+[Password and Confirm fields should be similar]
+Wachtwoord en Bevestig velden moeten gelijk zijn
+
+;; hpp_contacts.trans.txt file
+
+;; Text found in ..\plugin\hpp_contacts.pas:
+[Server]
+Server
+[Unknown id]
+Onbekend id
+
+;; hpp_events.trans.txt file
+
+;; Text found in ..\plugin\hpp_events.pas:
+[URL: %s]
+URL: %s
+[Outgoing file transfer: %s]
+Uitgaande bestandsoverdracht: %s
+[Incoming file transfer: %s]
+Binnenkomende bestandsoverdracht: %s
+[Authorisation request by %s (%s%d): %s]
+Autorisatie verzoek van %s (%s%d): %s
+[You were added by %s (%s%d)]
+U bent toegevoegd door %s (%s%d)
+[Outgoing contacts: %s]
+Uitgaande personene: %s
+[Incoming contacts: %s]
+Binnenkomende personen: %s
+[Webpager message from %s (%s): %s]
+Webpager bericht van %s (%s): %s
+[Email express from %s (%s): %s]
+Email express van %s (%s): %s
+[Status change: %s]
+Status wijziging: %s
+[Authorization request granted by %s (%d): %s]
+Autorisatie verzoek ingewilligd door %s (%d): %s
+[Authorization request denied by %s (%d): %s]
+Autorisatie verzoek geweigerd door %s (%d): %s
+[User %s (%d) removed himself from your contact list: %s]
+Gebruiker %s (%d) verwijderde zichzelf van uw persoonlijst: %s
+[Authorization future request by %s (%d): %s]
+Autorisatie toekomst verzoek door %s (%d): %s
+[Broadcast message from %s (%s): %s]
+Broadcast bericht van %s (%s): %s
+
+[Show all events]
+Alle gebeurtenissen weergeven
+;[&Link URLs]
+[Files]
+Bestanden
+[Contacts]
+Personen
+[Status changes]
+Status wijzigingen
+[Nick changes]
+Bijnaam wijzigingen
+[Avatar changes]
+Avatar wijzigingen
+[WATrack notify]
+WATrack notificatie
+[All except changes]
+Alles behalve wijzigingen
+[All except system]
+Alles behalve systeem
+[Incoming events]
+Binnenkomende gebeurtenissen
+[Outgoing events]
+Uitgaande gebeurtenissen
+[File Transfer]
+Bestandsoverdracht
+[System message]
+Systeembericht
+[SMS message]
+SMS bericht
+[Webpager message]
+Webpage bericht
+[EMail Express message]
+Email Express bericht
+[Other events (unknown)]
+Andere gebeurtenissen (onbekend)
+
+[Grid options]
+Raster opties
+[Show event icons]
+Gebeurtenis iconen weergeven
+[Recent events on top]
+Recente gebeurtenissen boven
+[Use RTL by default]
+Gebruik standaard RTL
+[Open event details by Enter]
+Gebeurtenisdetails bij Enter openen
+[Additional processing support]
+Aanvullende ondersteuning voor verwerking
+[Text formatting options]
+Opties voor het formateren van tekst
+[Enable BBCodes]
+BBCodes inschakelen
+[Enable SmileyAdd support]
+SmileyAdd ondersteuning inschakelen
+[Enable MathModule support]
+MathModule ondersteuning inschakelen
+[Enable raw RTF support]
+Ruwe RTF ondersteuning inschakelen
+[Display changed avatars]
+Gewijzigde avatars tonen
+[Need more options?]
+Meer opties nodig?
+[Change appearance]
+Uiterlijk wijzigen
+[To change fonts you need to install FontService plugin.]
+Om lettertypes te wijzigen moet u de FontService plugin installeren.
+[FontService is installed. Go to Customize -> Fonts to change settings.]
+FontService is geinstalleerd. Ga naar Aanpassen -> Lettertypes voor wijzigingen.
+[Download FontService plugin]
+FontService plugin downloaden
+[To change icons you need to install IcoLib plugin.]
+Om iconen te wijzigen moet u de IcoLib plugin installeren.
+[Download IcoLib plugin]
+IcoLib plugin downloaden
+[More info on these plugins]
+Meer informatie over deze plugins
+
+[Imitate IEView API]
+IEView API imiteren
+[Group log messages]
+Log berichten groeperen
+[Prev]
+Vorige
+[Next]
+Volgende
+[Show sender information]
+Informatie van zender tonen
+[Show receiver information]
+Informatie van ontvanger tonen
+[Psuedo-edit mode...]
+Half-wijzig modus...
+[Advanced search options]
+Geavanceerde zoek opties
+[Limit search range]
+Zoekbereik beperken
+[Search protected contacts]
+Doorzoek beschermde personen
+[Limit Search Range]
+Zoekbereik beperken
+[Search messages from]
+Berichten zoeken van
+[to]
+tot
+[Search Protected Contacts]
+Doorzoek beschermde personen
+[Incoming nick]
+Binnenkomende bijnaam
+[Outgoing nick]
+Uitgaande bijnaam
+[Incoming file]
+Binnenkomend bestand
+[Outgoing file]
+Uitgaand bestand
+[Incoming url]
+Binnenkomende URL
+[Outgoing url]
+Uitgaande URL
+[Incoming SMS Message]
+Binnenkomend SMS bericht
+[Outgoing SMS Message]
+Uitgaand SMS bericht
+[Incoming contacts]
+Binnenkomende personen
+[Outgoing contacts]
+Uitgaande personen
+[SMTP Simple Email]
+SMTP eenvoudige e-mail
+[Conversation header]
+Gespreks header
+[Incoming timestamp]
+Binnenkomende tijdstempel
+[Outgoing timestamp]
+Uitgaande tijdstempel
+[Grid messages]
+Grid berichten
+[Incoming WATrack notify]
+Binnenkomende WATtrack melding
+[Outgoing WATrack notify]
+Uitgaande WATtrack melding
+[Divider]
+Verdeler
+[Selected text]
+Geselecteerde tekst
+[Selected background]
+Geselecteerde achtergrond
+[Grid background]
+Grid achtergrond
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;       Avatars         ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Contact picture...]
+Afbeelding persoon...
+[Set avatar options for %s]
+Avatar opties voor %s instellen
+[Contact picture]
+Afbeelding persoon
+[Contact has no avatar]
+Persoon heeft geen avatar
+[Change]
+Wijzigen
+[Picture options]
+Afbeelding opties
+[Protect the picture]
+Bescherm de afbeelding
+[Set as hidden]
+Als verborgen instellen
+[Try to make picture background transparent]
+Achtergrond van afbeelding doorzichtig maken
+[Num of points to define bkg:]
+Aantal punten voor agk:
+[Color difference allowed:]
+Kleurverschil toegestaan:
+[Use defaults]
+Gebruik standaard
+[Protect the picture and prevent automatic avatars from overwriting it]
+Bescherm de afbeelding om te voorkomen dat automatische avatars het overschrijven
+[Reset contact picture]
+Afbeelding persoon terugzetten
+[Delete picture file from disk (may be necessary to force a reload, but will delete local pictures)?]
+Afbeeldingbestand van de harde schrijf verwijderen (kan nodig zijn om een herlaad te forceren, maar zal lokale afbeeldingen verwijderen)?
+[Contact pictures]
+Persoonsafbeeldingen
+[Active Protocols]
+Actieve protocollen
+[Set proto picture]
+Protocol afbeelding instellen
+[Delete proto picture]
+Protocol afbeelding verwijderen
+[Show warning messages (popup plugin required)]
+Waarschuwingsberichten weergeven (popup plugin benodigd)
+[Make transparency proportional to color diff]
+Doorzichtigheid is proportioneel aan kleurverschil
+[Make my avatars transparent too]
+Ook mijn avatars doorzichtig maken
+[Make avatars grayscale]
+Avatars in grijswaarden weergeven
+[When setting avatars, always make it square]
+Avatars altijd vierkant maken als ze gezet worden
+[Max allowed file size for avatars: (KBytes)]
+Maximale toegestane grootte van avatars (KBytes):
+
+[Miranda IM Options]
+Miranda IM opties
+[Event Area]
+Gebeurtenis gebied
+[Results]
+Resultaten
+[There are no results to display.]
+Er zijn geen resultaten om weer te geven.
+[Contact Picture]
+Afbeelding persoon
+[Options]
+Opties
+[Background]
+Achtergrond
+[Transparent]
+Doorzichtig
+[Points:]
+Punten:
+[Color diff:]
+Kleur verschil:
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;     FontService       ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[Font Group]
+Lettertype groep
+[* you may need to restart for the changes to take effect]
+* een herstart kan nodig zijn om de wijzigingen actief te maken
+[Export...]
+Exporteren...
+[Reset to Default]
+Naar standaard terugzetten
+[Undo]
+Ongedaan maken
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;      SmileyAdd        ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[Smiley Categories]
+Smiley categorieën
+[Standard smileys]
+Standaard smileys
+[Specify Smiley Pack for each category]
+Smiley Pack opgeven voor elke categorie
+[Author:]
+Maker:
+[Version:]
+Versie:
+[Preview]
+Voorbeeld
+[Display]
+Weergave
+[(Only replace isolated smileys (spaces on both sides]
+Alleen geïsoleerde smileys vervangen (spaties aan beide kanten)
+[Scale smiley to textheight]
+Smiley naar teksthoogte schalen
+[Smiley Selector]
+Smiley kiezer
+[Surround inserted smiley with spaces]
+Zet een spatie aan beide kanten van de ingevoegde smiley
+[Use first smiley for selection size]
+Gebruik de eerste smiley voor de grootte van de selectie
+[IEView style window]
+Scherm in IEView-stijl
+[Animate]
+Animatie
+[SmileyAdd Built-In Message Dialog Support]
+SmileyAdd ingebouwde berichtenvenster ondersteuning
+[Disable]
+Uitschakelen
+[Smiley Button]
+Smiley knop
+[Bottom]
+Onder
+[Show Smiley Selection Window]
+Smiley selectiescherm tonen

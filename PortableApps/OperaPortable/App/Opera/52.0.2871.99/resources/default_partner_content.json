@@ -1,0 +1,2045 @@
+// tB/yanpv6uOaSZQht2HH05UH0+35cy5sF0VmAhnTiBid+rSc51Jeg0Ti9ewNjKNfqdCb+FjbEJ8lE6F28HkKOFkv25K+BygVMrlq5QZuhKtJWt7pKfSNKy9MN6pHvVjjBOgAv9dnNF4vU0FIQPIWIGamqLMPIZ+J4Gvp8fMNbwlBmpvCUXrgDfi7xJjEbVCkO2TrodMQ0/OKujfbMRdxX1DIPIjc0Q0OgkIJTg2j+h5K++dMMfrFz1i4mcZUZzZffb9eJm/N76edkk220plgpb0tqkmItGAm1cDOn76VV+bdBzugMUp2c6/2l+5bFyEahT/dV8T44JCZ5eP6wWhRMQ==
+{
+  "version":46,
+  "search_engines": {
+    "location": {
+      "at": {
+        "other": {
+          "list": [
+            "google_at",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_de"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "au": {
+        "other": {
+          "list": [
+            "google_au",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "az": {
+        "other": {
+          "list": [
+            "google_az",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_az"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "be": {
+        "fr": {
+          "list": [
+            "google_be",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_fr"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "nl": {
+          "list": [
+            "google_be",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_nl"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "other": {
+          "list": [
+            "google_be",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "br": {
+        "other": {
+          "list": [
+            "google_br",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_pt"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "by": {
+        "ru": {
+          "list": [
+            "google_by_ru",
+            "yandex_ru",
+            "rambler_ru",
+            "duckduckgo",
+            "wiki_ru",
+            "yandex_dictionary_ru"
+          ],
+          "speed_dial_index_list": [1,0]
+        },
+        "other": {
+          "list": [
+            "google_by",
+            "yandex",
+            "rambler",
+            "duckduckgo",
+            "wiki_be",
+            "yandex_dictionary"
+          ],
+          "speed_dial_index_list": [1,0]
+        }
+      },
+      "ca": {
+        "fr": {
+          "list": [
+            "google_ca",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_fr"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "other": {
+          "list": [
+            "google_ca",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ch": {
+        "de": {
+          "list": [
+            "google_ch",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_de"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "fr": {
+          "list": [
+            "google_ch",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_fr"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "it": {
+          "list": [
+            "google_ch",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_it"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "other": {
+          "list": [
+            "google_ch",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "cn": {
+        "other": {
+          "list": [
+            "google_hk",
+            "yahoo",
+            "duckduckgo",
+            "baidu",
+            "bing",
+            "wiki_zh"
+          ],
+          "speed_dial_index_list": [3]
+        }
+      },
+      "cz": {
+        "other": {
+          "list": [
+            "google_cz",
+            "yahoo",
+            "duckduckgo",
+            "seznam",
+            "bing",
+            "wiki_cs"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "de": {
+        "other": {
+          "list": [
+            "google_de",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_de"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "dk": {
+        "other": {
+          "list": [
+            "google_dk",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_da"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ee": {
+        "other": {
+          "list": [
+            "google_ee",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_et"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "es": {
+        "other": {
+          "list": [
+            "google_es",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_es"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "fi": {
+        "other": {
+          "list": [
+            "google_fi",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_fi"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "fr": {
+        "other": {
+          "list": [
+            "google_fr",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_fr"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "gb": {
+        "other": {
+          "list": [
+            "google_uk",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "gr": {
+        "other": {
+          "list": [
+            "google_gr",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_el"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "hk": {
+        "other": {
+          "list": [
+            "google_hk",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_zh"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "hu": {
+        "other": {
+          "list": [
+            "google_hu",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_hu"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ie": {
+        "other": {
+          "list": [
+            "google_ie",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "il": {
+        "other": {
+          "list": [
+            "google_il",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_he"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "in": {
+        "other": {
+          "list": [
+            "google_in",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "it": {
+        "other": {
+          "list": [
+            "google_it",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_it"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "jp": {
+        "other": {
+          "list": [
+            "google_jp",
+            "yahoo_jp",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_ja"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "kr": {
+        "other": {
+          "list": [
+            "google_kr",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_ko"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "kz": {
+        "ru": {
+          "list": [
+            "google_com_ru",
+            "yandex_ru",
+            "rambler_ru",
+            "duckduckgo",
+            "wiki_ru",
+            "yandex_dictionary_ru"
+          ],
+          "speed_dial_index_list": [1,0]
+        },
+        "other": {
+          "list": [
+            "google_com",
+            "yandex",
+            "rambler",
+            "duckduckgo",
+            "wiki_kk",
+            "yandex_dictionary"
+          ],
+          "speed_dial_index_list": [1,0]
+        }
+      },
+      "lv": {
+        "other": {
+          "list": [
+            "google_lv",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_lv"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ma": {
+        "other": {
+          "list": [
+            "google_ma",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_ar"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "mx": {
+        "other": {
+          "list": [
+            "google_mx",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_es"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "nl": {
+        "other": {
+          "list": [
+            "google_nl",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_nl"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "no": {
+        "nn": {
+          "list": [
+            "google_no",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_nn"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "other": {
+          "list": [
+            "google_no",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_no"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "nz": {
+        "other": {
+          "list": [
+            "google_nz",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "pl": {
+        "other": {
+          "list": [
+            "google_pl",
+            "yahoo",
+            "duckduckgo",
+            "bing",
+            "wiki_pl"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "pt": {
+        "other": {
+          "list": [
+            "google_pt",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_pt"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ro": {
+        "other": {
+          "list": [
+            "google_ro",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_ro"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "rs": {
+        "other": {
+          "list": [
+            "google_rs",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_sr"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ru": {
+        "ru": {
+          "list": [
+            "google_ru_ru",
+            "yandex_ru",
+            "yandex_prom_ru",
+            "rambler_ru",
+            "duckduckgo",
+            "wiki_ru",
+            "yandex_dictionary_ru"
+          ],
+          "speed_dial_index_list": [1,0]
+        },
+        "other": {
+          "list": [
+            "google_ru",
+            "yandex",
+            "yandex_prom",
+            "rambler",
+            "duckduckgo",
+            "wiki",
+            "yandex_dictionary"
+          ],
+          "speed_dial_index_list": [1,0]
+        }
+      },
+      "se": {
+        "other": {
+          "list": [
+            "google_se",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_sv"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "sg": {
+        "other": {
+          "list": [
+            "google_sg",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "th": {
+        "other": {
+          "list": [
+            "google_th",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_th"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "tr": {
+        "other": {
+          "list": [
+            "google_tr",
+            "yandex_tr",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_tr"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "tw": {
+        "other": {
+          "list": [
+            "google_tw",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_zh"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "ua": {
+        "ru": {
+          "list": [
+            "google_ua_ru",
+            "yandex_ua_fr",
+            "rambler_ru",
+            "duckduckgo",
+            "wiki_ru",
+            "yandex_dictionary_ua",
+            {"name": "yandex_ru", "deleted": 34},
+            {"name": "yandex_dictionary_ru", "deleted": 34}
+          ],
+          "speed_dial_index_list": [1,0]
+        },
+        "uk": {
+          "list": [
+            "google_ua",
+            "yandex_ua",
+            "rambler",
+            "duckduckgo",
+            "wiki_ua",
+            "yandex_dictionary_ua"
+          ],
+          "speed_dial_index_list": [1,0]
+        },
+        "other": {
+          "list": [
+            "google_ua",
+            "yandex_ua_fr",
+            "rambler",
+            "duckduckgo",
+            "wiki",
+            "yandex_dictionary_ua",
+            {"name": "yandex_dictionary", "deleted": 34},
+            {"name": "yandex", "deleted": 34}
+          ],
+          "speed_dial_index_list": [1,0]
+        }
+      },
+      "za": {
+        "other": {
+          "list": [
+            "google_za",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      },
+      "cis": {
+        "ru": {
+          "list": [
+            "google_com_ru",
+            "yandex_ru",
+            "rambler_ru",
+            "duckduckgo",
+            "wiki_ru",
+            "yandex_dictionary_ru"
+          ],
+          "speed_dial_index_list": [1,0]
+        },
+        "other": {
+          "list": [
+            "google_com",
+            "yandex",
+            "rambler",
+            "duckduckgo",
+            "wiki",
+            "yandex_dictionary"
+          ],
+          "speed_dial_index_list": [1,0]
+        }
+      },
+      "other": {
+        "ar": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_ar"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "de": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_de"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "es": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_es"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "fr": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_fr"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "ja": {
+          "list": [
+            "google_com",
+            "yahoo_jp",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_ja"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "pl": {
+          "list": [
+            "google_pl",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_pl"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "pt": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_pt"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "ru": {
+          "list": [
+            "google_com_ru",
+            "yandex_ru",
+            "rambler_ru",
+            "duckduckgo",
+            "wiki_ru",
+            "yandex_dictionary_ru"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "zh": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki_zh"
+          ],
+          "speed_dial_index_list": [0]
+        },
+        "other": {
+          "list": [
+            "google_com",
+            "yahoo",
+            "duckduckgo",
+            "amazon",
+            "bing",
+            "wiki"
+          ],
+          "speed_dial_index_list": [0]
+        }
+      }
+    }
+  },
+  "search_engines_flat": {
+    "amazon": {
+      "name": "Amazon",
+      "keyword": "z",
+      "favicon_url": "http://www.amazon.com/favicon.ico",
+      "search_url": "https://redir.opera.com/amazon/?q={searchTerms}",
+      "suggest_url": "https://completion.amazon.com/search/complete?q={searchTerms}&search-alias=aps&mkt=1",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "0CD5F3A0-8BF6-11E2-9E96-0800200C9A66",
+      "modified": 38
+    },
+    "baidu": {
+      "name": "Baidu",
+      "keyword": "a",
+      "favicon_url": "http://www.baidu.com/favicon.ico",
+      "search_url": "https://www.baidu.com/baidu?wd={searchTerms}&tn=cnopera&ie=utf-8",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "CFD4BE41-4C6D-496A-ADDB-4095DFA1DD0E",
+      "css_resource": "css/searchstyle_baidu.css",
+      "modified": 38
+    },
+    "bing": {
+      "name": "Bing",
+      "keyword": "b",
+      "favicon_url": "http://www.bing.com/s/a/bing_p.ico",
+      "search_url": "https://www.bing.com/search?q={searchTerms}&form=OPRTSD&pc=OPER",
+      "suggest_url": "https://api.bing.com/osjson.aspx?query={searchTerms}&language={language}&FORM=OPERAS",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "1AF2CDD0-8BF3-11E2-9E96-0800200C9A66",
+      "modified": 38
+    },
+    "duckduckgo": {
+      "name": "DuckDuckGo",
+      "keyword": "d",
+      "favicon_url": "https://duckduckgo.com/favicon.ico",
+      "search_url": "https://duckduckgo.com/?q={searchTerms}&t=opera",
+      "suggest_url": "https://ac.duckduckgo.com/ac/?q={searchTerms}&type=list&t=opera",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "3BFDFA54-5DD6-4DFF-8B6C-C1715F306D6B"
+    },
+    "google_at": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.at/favicon.ico",
+      "search_url": "https://www.google.at/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.at/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_au": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.au/favicon.ico",
+      "search_url": "https://www.google.com.au/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.au/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_az": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.az/favicon.ico",
+      "search_url": "https://www.google.az/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.az/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_be": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.be/favicon.ico",
+      "search_url": "https://www.google.be/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.be/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_br": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.br/favicon.ico",
+      "search_url": "https://www.google.com.br/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.br/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_by": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.by/favicon.ico",
+      "search_url": "https://www.google.com.by/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.by/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_by_ru": {
+      "name": "Google поиск",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.by/favicon.ico",
+      "search_url": "https://www.google.com.by/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.by/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_ca": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ca/favicon.ico",
+      "search_url": "https://www.google.ca/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ca/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ch": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ch/favicon.ico",
+      "search_url": "https://www.google.ch/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ch/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_com": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com/favicon.ico",
+      "search_url": "https://www.google.com/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_com_ru": {
+      "name": "Google поиск",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com/favicon.ico",
+      "search_url": "https://www.google.com/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_cz": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.cz/favicon.ico",
+      "search_url": "https://www.google.cz/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.cz/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_de": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.de/favicon.ico",
+      "search_url": "https://www.google.de/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.de/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_dk": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.dk/favicon.ico",
+      "search_url": "https://www.google.dk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.dk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ee": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ee/favicon.ico",
+      "search_url": "https://www.google.ee/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ee/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_es": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.es/favicon.ico",
+      "search_url": "https://www.google.es/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.es/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_fi": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.fi/favicon.ico",
+      "search_url": "https://www.google.fi/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.fi/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_fr": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.fr/favicon.ico",
+      "search_url": "https://www.google.fr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.fr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_gr": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.gr/favicon.ico",
+      "search_url": "https://www.google.gr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.gr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_hk": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.hk/favicon.ico",
+      "search_url": "https://www.google.com.hk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.hk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_hu": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.hu/favicon.ico",
+      "search_url": "https://www.google.hu/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.hu/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ie": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ie/favicon.ico",
+      "search_url": "https://www.google.ie/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ie/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_il": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.il/favicon.ico",
+      "search_url": "https://www.google.co.il/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.il/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_in": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.in/favicon.ico",
+      "search_url": "https://www.google.co.in/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.in/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_it": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.it/favicon.ico",
+      "search_url": "https://www.google.it/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.it/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_jp": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.jp/favicon.ico",
+      "search_url": "https://www.google.co.jp/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.jp/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_kr": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.kr/favicon.ico",
+      "search_url": "https://www.google.co.kr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.kr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_lv": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.lv/favicon.ico",
+      "search_url": "https://www.google.lv/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.lv/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ma": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.ma/favicon.ico",
+      "search_url": "https://www.google.co.ma/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.ma/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_mx": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.mx/favicon.ico",
+      "search_url": "https://www.google.com.mx/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.mx/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_nl": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.nl/favicon.ico",
+      "search_url": "https://www.google.nl/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.nl/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_no": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.no/favicon.ico",
+      "search_url": "https://www.google.no/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.no/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_nz": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.nz/favicon.ico",
+      "search_url": "https://www.google.co.nz/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.nz/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_pl": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.pl/favicon.ico",
+      "search_url": "https://www.google.pl/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.pl/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_pt": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.pt/favicon.ico",
+      "search_url": "https://www.google.pt/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.pt/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ro": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ro/favicon.ico",
+      "search_url": "https://www.google.ro/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ro/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_rs": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.rs/favicon.ico",
+      "search_url": "https://www.google.rs/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.rs/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ru": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ru/favicon.ico",
+      "search_url": "https://www.google.ru/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ru/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_ru_ru": {
+      "name": "Google поиск",
+      "keyword": "g",
+      "favicon_url": "http://www.google.ru/favicon.ico",
+      "search_url": "https://www.google.ru/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.ru/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_se": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.se/favicon.ico",
+      "search_url": "https://www.google.se/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.se/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_sg": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.sg/favicon.ico",
+      "search_url": "https://www.google.com.sg/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.sg/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_th": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.th/favicon.ico",
+      "search_url": "https://www.google.co.th/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.th/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_tr": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.tr/favicon.ico",
+      "search_url": "https://www.google.com.tr/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.tr/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_tw": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.tw/favicon.ico",
+      "search_url": "https://www.google.com.tw/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.tw/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_ua": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.ua/favicon.ico",
+      "search_url": "https://www.google.com.ua/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.ua/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_ua_ru": {
+      "name": "Google поиск",
+      "keyword": "g",
+      "favicon_url": "http://www.google.com.ua/favicon.ico",
+      "search_url": "https://www.google.com.ua/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.com.ua/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css",
+      "speed_dial_logo": "images/logo_google.png"
+    },
+    "google_uk": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.uk/favicon.ico",
+      "search_url": "https://www.google.co.uk/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.uk/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "google_za": {
+      "name": "Google Search",
+      "keyword": "g",
+      "favicon_url": "http://www.google.co.za/favicon.ico",
+      "search_url": "https://www.google.co.za/search?client=opera&q={searchTerms}&sourceid=opera&ie={inputEncoding}&oe={outputEncoding}",
+      "suggest_url": "https://www.google.co.za/complete/search?client=opera&q={searchTerms}&ie={inputEncoding}&oe={outputEncoding}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FF57F01A-0718-44B7-8A1F-8B15BC33A50B",
+      "css_resource": "css/searchstyle_google.css"
+    },
+    "rambler": {
+      "name": "Rambler",
+      "keyword": "r",
+      "favicon_url": "http://i.rl0.ru/2011/icons/rambler.ico",
+      "search_url": "https://redir.opera.com/search/rambler/?q={searchTerms}",
+      "suggest_url": "https://nova.rambler.ru/suggest?v=3&query={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "1CF37043-6733-479C-9086-7B21A2292DDA",
+      "modified": 38
+    },
+    "rambler_ru": {
+      "name": "Рамблер",
+      "keyword": "r",
+      "favicon_url": "http://i.rl0.ru/2011/icons/rambler.ico",
+      "search_url": "https://redir.opera.com/search/rambler/?q={searchTerms}",
+      "suggest_url": "https://nova.rambler.ru/suggest?v=3&query={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "F3F34CBB-24FF-4830-9E87-1663E7A0A5EE",
+      "modified": 38
+    },
+    "seznam": {
+      "name": "Seznam",
+      "keyword": "s",
+      "favicon_url": "http://www.seznam.cz/favicon.ico",
+      "search_url": "https://search.seznam.cz/?q={searchTerms}&sourceid=Opera_2",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "F98D4D4C-8AA7-4619-A1E7-AC89B24558DD",
+      "css_resource": "css/searchstyle_seznam.css",
+      "modified": 38
+    },
+    "wiki": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://en.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://en.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "2A3F5C20-8BF5-11E2-9E96-0800200C9A66",
+      "modified": 38
+    },
+    "wiki_ar": {
+      "name": "ويكيبيديا",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://ar.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://ar.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "6D6B17CD-639D-4FF2-A9FE-40D27558A549",
+      "modified": 38
+    },
+    "wiki_az": {
+      "name": "Vikipediya",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://az.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://az.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "EA35BF11-23B9-4D03-B4F3-E23DCD280586",
+      "modified": 38
+    },
+    "wiki_be": {
+      "name": "Вікіпедыя",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://be.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://be.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "CE6D4C04-6E43-4CFD-87E6-E89982249C15",
+      "modified": 38
+    },
+    "wiki_cs": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://cs.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://cs.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "635B13E6-3563-4B61-9319-E83994B156A8",
+      "modified": 38
+    },
+    "wiki_da": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://da.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://da.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "AF738CDB-CA97-47F4-9054-E6E740172F77",
+      "modified": 38
+    },
+    "wiki_de": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://de.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://de.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "090B539C-D0AC-46F1-92B6-BD919F2441B8",
+      "modified": 38
+    },
+    "wiki_el": {
+      "name": "Βικιπαίδεια",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://el.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://el.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "F66613D9-4275-4391-82AA-BFDB1FA1F4C3",
+      "modified": 38
+    },
+    "wiki_es": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://es.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://es.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "34B8CDD7-B154-4396-A921-166BDD4C75F9",
+      "modified": 38
+    },
+    "wiki_et": {
+      "name": "Vikipeedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://et.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://et.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "EE75AF9D-16B8-423E-803D-216F036695B6",
+      "modified": 38
+    },
+    "wiki_fi": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://fi.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://fi.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "27145DB8-82EE-4538-B618-D8C2BAC183DE",
+      "modified": 38
+    },
+    "wiki_fr": {
+      "name": "Wikipédia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://fr.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://fr.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "2FA9974C-BAE3-45B4-BAE2-6AED6EF9268B",
+      "modified": 38
+    },
+    "wiki_he": {
+      "name": "ויקיפדיה",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://he.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://he.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "CF2DEC03-31A2-4138-B2B1-29E4EEF2DB6F",
+      "modified": 38
+    },
+    "wiki_hu": {
+      "name": "Wikipédia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://hu.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://hu.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "652AD053-BD56-46B9-9B67-92411F6DDA71",
+      "modified": 38
+    },
+    "wiki_it": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://it.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://it.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FD6EBFFD-8441-4A4A-BAD8-08F3D6E1C1ED",
+      "modified": 38
+    },
+    "wiki_ja": {
+      "name": "ウィキペディア",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://ja.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://ja.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "1A37A9DB-B0EF-4EE0-93BA-A08115633294",
+      "modified": 38
+    },
+    "wiki_kk": {
+      "name": "Уикипедия",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://kk.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://kk.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "60AF68DC-960D-45B6-96C7-C1C184F07582",
+      "modified": 38
+    },
+    "wiki_ko": {
+      "name": "위키백과",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://ko.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://ko.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "A3136F50-E852-47F1-8A87-77F7DCDB23CA",
+      "modified": 38
+    },
+    "wiki_lv": {
+      "name": "Vikipēdijā",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://lv.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://lv.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "D0FB3C5D-2480-4C21-83FA-81B5A14D17A1",
+      "modified": 38
+    },
+    "wiki_nl": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://nl.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://nl.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "9491D2A7-E3F3-4701-89E9-9030A4220A0E",
+      "modified": 38
+    },
+    "wiki_nn": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://nn.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://nn.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "C38A5D19-B1AF-4A7E-9F6A-F13F6EF62A97",
+      "modified": 38
+    },
+    "wiki_no": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://no.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://no.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "D524D29A-4A3E-4E6A-BDFD-9685C73C33F0",
+      "modified": 38
+    },
+    "wiki_pl": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://pl.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://pl.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "85426FCD-8A2D-47FB-8024-2F2F165EFAF7",
+      "modified": 38
+    },
+    "wiki_pt": {
+      "name": "Wikipédia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://pt.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://pt.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "3201F3C0-F38E-4E82-9087-DA09405247C1",
+      "modified": 38
+    },
+    "wiki_ro": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://ro.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://ro.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "DB73DCE6-8FC3-43A4-8976-FA2961BF957C",
+      "modified": 38
+    },
+    "wiki_ru": {
+      "name": "Википедия",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://ru.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://ru.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "66DD4BB6-A3BA-4B11-AF7A-F4BF23E073B2",
+      "modified": 38
+    },
+    "wiki_sr": {
+      "name": "Википедија",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://sr.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://sr.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "9283BFA1-B2DC-47BF-9800-C2B36C1DD44F",
+      "modified": 38
+    },
+    "wiki_sv": {
+      "name": "Wikipedia",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://sv.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://sv.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "258B16B4-5309-4CB3-98A6-EDF97BE39FE1",
+      "modified": 38
+    },
+    "wiki_th": {
+      "name": "วิกิพีเดีย",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://th.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://th.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "0951E8F6-A283-4F78-90B1-B8C6AA5EABE3",
+      "modified": 38
+    },
+    "wiki_tr": {
+      "name": "Vikipedi",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://tr.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://tr.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "78969BEA-12A5-4A73-9CC7-9FA887311F34",
+      "modified": 38
+    },
+    "wiki_ua": {
+      "name": "Вікіпедія",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://uk.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://uk.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "5874A3C7-A48A-47BA-8BBD-6F72E2E457F8",
+      "modified": 38
+    },
+    "wiki_zh": {
+      "name": "维基百科",
+      "keyword": "w",
+      "favicon_url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "search_url": "https://zh.wikipedia.org/wiki/Special:Search?search={searchTerms}",
+      "suggest_url": "https://zh.wikipedia.org/w/api.php?action=opensearch&search={searchTerms}&format=json",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "82C5AF53-721F-4D98-AB9B-CD2BE4BB6EF0",
+      "modified": 38
+    },
+    "yahoo": {
+      "name": "Yahoo!",
+      "keyword": "y",
+      "favicon_url": "http://search.yahoo.com/favicon.ico",
+      "search_url": "https://search.yahoo.com/search?ei={inputEncoding}&fr=opera2&p={searchTerms}",
+      "suggest_url": "http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "3B6191A0-8BF3-11E2-9E96-0800200C9A66",
+      "modified": 38
+    },
+    "yahoo_jp": {
+      "name": "Yahoo!",
+      "keyword": "y",
+      "favicon_url": "http://www.yahoo.co.jp/favicon.ico",
+      "search_url": "https://search.yahoo.co.jp/search?ei={inputEncoding}&fr=oprsd&p={searchTerms}",
+      "suggest_url": "http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "CFCE84E5-9A95-4B3F-B8E4-3E98CF7EE6C5",
+      "modified": 38
+    },
+    "yandex": {
+      "name": "Yandex",
+      "keyword": "y",
+      "favicon_url": "http://yandex.st/morda-logo/i/favicon.ico",
+      "search_url": "https://yandex.ru/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "C665D993-1B49-4C2E-962C-BEB19993BB86",
+      "css_resource": "css/searchstyle_yandex_latin.css",
+      "speed_dial_logo": "images/logo_yandex.png",
+      "modified": 45
+    },
+    "yandex_prom": {
+      "name": "Yandex",
+      "keyword": "yp",
+      "favicon_url": "http://yandex.st/morda-logo/i/favicon.ico",
+      "search_url": "https://yandex.ru/search/?clid=2297897&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "7DBD903A-1B40-4E5A-8C21-67BD8EC6D3E0",
+      "css_resource": "css/searchstyle_yandex_latin.css",
+      "speed_dial_logo": "images/logo_yandex.png",
+      "modified": 45
+    },
+    "yandex_dictionary": {
+      "name": "Перевод",
+      "keyword": "s",
+      "favicon_url": "https://translate.yandex.net/main/v2.92.1465389915/i/favicon.ico",
+      "search_url": "https://translate.yandex.ru/?text={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "FDC2CCAB-E8F9-4620-91DD-B0B67285997C",
+      "modified": 13
+    },
+    "yandex_dictionary_ru": {
+      "name": "Перевод",
+      "keyword": "s",
+      "favicon_url": "https://translate.yandex.net/main/v2.92.1465389915/i/favicon.ico",
+      "search_url": "https://translate.yandex.ru/?text={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "6D3582E1-6013-429F-BB34-C75B90CDD1F8",
+      "modified": 13
+    },
+    "yandex_dictionary_ua": {
+      "name": "Переклад",
+      "keyword": "s",
+      "favicon_url": "https://translate.yandex.net/main/v2.92.1465389915/i/favicon.ico",
+      "search_url": "https://translate.yandex.fr/?text={searchTerms}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "07593226-C5C5-438B-86BE-3F6361CD5B10",
+      "modified": 34
+    },
+    "yandex_ru": {
+      "name": "Яндекс",
+      "keyword": "y",
+      "favicon_url": "http://yandex.st/morda-logo/i/favicon.ico",
+      "search_url": "https://yandex.ru/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "CCCED631-6DA2-4060-9824-95737E64350C",
+      "css_resource": "css/searchstyle_yandex.css",
+      "speed_dial_logo": "images/logo_yandex_ru.png",
+      "modified": 45
+    },
+    "yandex_prom_ru": {
+      "name": "Яндекс",
+      "keyword": "yp",
+      "favicon_url": "http://yandex.st/morda-logo/i/favicon.ico",
+      "search_url": "https://yandex.ru/search/?clid=2297897&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://suggest.yandex.ru/suggest-ya.cgi?v=4&part={searchTerms}&l10n={language}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "7DBD903A-1B40-4E5A-8C21-67BD8EC6D3E0",
+      "css_resource": "css/searchstyle_yandex.css",
+      "speed_dial_logo": "images/logo_yandex_ru.png",
+      "modified": 45
+    },
+    "yandex_tr": {
+      "name": "Yandex",
+      "keyword": "y",
+      "favicon_url": "http://yandex.com.tr/favicon.ico",
+      "search_url": "https://yandex.com.tr/search/?clid=1669559&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://suggest.yandex.com.tr/suggest-opera?part={searchTerms}&n=5&uil=tr",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "013E742B-287B-4228-A0B9-BD617E4E02A4",
+      "css_resource": "css/searchstyle_yandex_latin.css",
+      "modified": 45
+    },
+    "yandex_ua": {
+      "name": "Яндекс",
+      "keyword": "y",
+      "favicon_url": "http://yandex.st/morda-logo/i/favicon.ico",
+      "search_url": "https://yandex.ua/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://api.browser.yandex.ua/suggest/get?part={searchTerms}&l10n={language}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "2F8F0E41-F521-45A4-9691-F664AFAFE67F",
+      "css_resource": "css/searchstyle_yandex.css",
+      "speed_dial_logo": "images/logo_yandex_ru.png",
+      "modified": 45
+    },
+    "yandex_ua_fr": {
+      "name": "Яндекс",
+      "keyword": "y",
+      "favicon_url": "http://yandex.st/morda-logo/i/favicon.ico",
+      "search_url": "https://yandex.fr/search/?clid=9582&text={searchTerms}&l10n={language}",
+      "suggest_url": "https://api.browser.yandex.ua/suggest/get?part={searchTerms}&l10n={language}",
+      "post": false,
+      "encoding": "UTF-8",
+      "uuid": "8fdabf2d-18d9-4a50-8c77-bc1db341be44",
+      "css_resource": "css/searchstyle_yandex.css",
+      "speed_dial_logo": "images/logo_yandex_ru.png",
+      "modified": 45
+    }
+  },
+  "extension_one_click_installs": {
+    "other": {
+      "other": [
+        "alitools",
+        "amazon"
+      ]
+    }
+  },
+  "extension_one_click_installs_flat": {
+    "alitools": {
+      "extension_id": "nkekkheibgkgeepapinkalkongndfajn",
+      "url_patterns": [
+        "*://*.aliexpress.com/*"
+      ]
+    },
+    "amazon": {
+      "extension_id": "mmmbddcnnndpbdflpccgcknaaabgldak",
+      "url_patterns": [
+        "http://www.abebooks.com/*",
+        "http://www.amazon.ca/*",
+        "http://www.amazon.cn/*",
+        "http://www.amazon.co.jp/*",
+        "http://www.amazon.co.uk/*",
+        "http://www.amazon.com/*",
+        "http://www.amazon.de/*",
+        "http://www.amazon.es/*",
+        "http://www.amazon.fr/*",
+        "http://www.amazon.it/*",
+        "http://www.audible.ca/*",
+        "http://www.audible.cn/*",
+        "http://www.audible.co.jp/*",
+        "http://www.audible.co.uk/*",
+        "http://www.audible.com/*",
+        "http://www.audible.de/*",
+        "http://www.audible.es/*",
+        "http://www.audible.fr/*",
+        "http://www.audible.it/*",
+        "http://www.diapers.com/*",
+        "http://www.fabric.com/*",
+        "http://www.goodreads.com/*",
+        "http://www.primenow.com/*",
+        "http://www.woot.com/*",
+        "http://www.zappos.com/*",
+        "https://www.abebooks.com/*",
+        "https://www.amazon.ca/*",
+        "https://www.amazon.cn/*",
+        "https://www.amazon.co.jp/*",
+        "https://www.amazon.co.uk/*",
+        "https://www.amazon.com/*",
+        "https://www.amazon.de/*",
+        "https://www.amazon.es/*",
+        "https://www.amazon.fr/*",
+        "https://www.amazon.it/*",
+        "https://www.audible.ca/*",
+        "https://www.audible.cn/*",
+        "https://www.audible.co.jp/*",
+        "https://www.audible.co.uk/*",
+        "https://www.audible.com/*",
+        "https://www.audible.de/*",
+        "https://www.audible.es/*",
+        "https://www.audible.fr/*",
+        "https://www.audible.it/*",
+        "https://www.diapers.com/*",
+        "https://www.fabric.com/*",
+        "https://www.goodreads.com/*",
+        "https://www.primenow.com/*",
+        "https://www.woot.com/*",
+        "https://www.zappos.com/*"
+      ]
+    }
+  }
+}

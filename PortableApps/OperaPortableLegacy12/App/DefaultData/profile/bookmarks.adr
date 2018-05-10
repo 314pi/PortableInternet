@@ -1,0 +1,277 @@
+Opera Hotlist version 2.0
+Options: encoding = utf8, version=3
+
+#URL
+	ID=42
+	NAME=PortableApps.com
+	URL=http://portableapps.com/
+	CREATED=1280295456
+	VISITED=1280296192
+	ACTIVE=YES
+	UNIQUEID=CEF265164A2F924586CA4FA163AA7136
+
+#FOLDER
+	ID=14
+	NAME=Trash
+	CREATED=1455578227
+	TRASH FOLDER=YES
+	DELETABLE=NO
+	UNIQUEID=14C645A5B8A3470FB3B52CC32C97E2B8
+
+-
+
+#FOLDER
+	ID=15
+	NAME=Opera
+	CREATED=1455578228
+	PARTNERID=opera-operafolder
+	UNIQUEID=CFF0FB2AB8F0403BB524F77EF43A30E3
+
+#URL
+	ID=16
+	NAME=My Opera Community
+	URL=http://my.opera.com/?utm_source=DesktopBrowser&utm_medium=Bookmark&utm_campaign=BrowserLinks
+	CREATED=1455578228
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=3
+	UNIQUEID=1C5D1DBE78A544968A9D1AED2CD404D5
+	PARTNERID=opera-operasocial
+
+#URL
+	ID=17
+	NAME=Support Desk
+	URL=http://www.opera.com/support/?utm_source=DesktopBrowser&utm_medium=Bookmark&utm_campaign=BrowserLinks
+	CREATED=1455578228
+	UNIQUEID=3D20CEFF1F8343F0B942FFB93A96DEEA
+	PARTNERID=opera-operasupport
+
+#URL
+	ID=18
+	NAME=Welcome to Opera
+	URL=http://www.opera.com/portal/startup/?utm_source=DesktopBrowser&utm_medium=Bookmark&utm_campaign=BrowserLinks
+	CREATED=1455578228
+	UNIQUEID=18CD2A92CCF9453A98D3C2B85ADE90F2
+	PARTNERID=opera-operastart
+
+#URL
+	ID=19
+	NAME=Opera Portal
+	URL=http://portal.opera.com/?utm_source=DesktopBrowser&utm_medium=Bookmark&utm_campaign=BrowserLinks
+	CREATED=1455578228
+	UNIQUEID=93D5337B1657409084924E007F49387C
+	PARTNERID=opera-operaportal
+
+#URL
+	ID=20
+	NAME=Opera Extensions
+	URL=https://addons.opera.com/
+	CREATED=1455578228
+	DESCRIPTION=addons, extensions
+	UNIQUEID=29DF2B28174D42D08D98B71A16139D64
+	PARTNERID=opera-operaextensions
+
+#URL
+	ID=21
+	NAME=Download.com
+	URL=http://redir.opera.com/bookmarks/download
+	DISPLAY URL=http://www.download.com
+	CREATED=1455578228
+	UNIQUEID=F2B8998A68914F19AF77ABD3818A9DC6
+	PARTNERID=opera-downloadsite
+
+#URL
+	ID=22
+	NAME=Bing
+	URL=http://www.bing.com/?pc=OPER
+	CREATED=1455578228
+	UNIQUEID=C6DF94B10A2C49F18BCDFF051AE9A443
+	PARTNERID=opera-searchengine2
+
+#URL
+	ID=23
+	NAME=Wikipedia
+	URL=http://en.wikipedia.org/wiki/Main_Page
+	CREATED=1455578228
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=5
+	UNIQUEID=76FF0BDF38414EA68C42983AE05B0B8E
+	PARTNERID=opera-encyclopedia
+
+#URL
+	ID=24
+	NAME=Bigpoint
+	URL=http://redir.opera.com/bookmarks/bigpoint/
+	DISPLAY URL=http://www.bigpoint.com/?aid=2922
+	CREATED=1455578228
+	UNIQUEID=2633F9CAFCD54C7B97E49102BD772021
+	PARTNERID=opera-gamesportal
+
+#URL
+	ID=25
+	NAME=Reddit
+	URL=http://redir.opera.com/bookmarks/reddit
+	DISPLAY URL=http://www.reddit.com/
+	CREATED=1455578228
+	UNIQUEID=E6ACEC4ED7524B4DACFFF992F2DD29B4
+	PARTNERID=opera-socialnews
+
+#URL
+	ID=26
+	NAME=AVG
+	URL=http://www.avg.com/ww-en/opera
+	CREATED=1455578228
+	DESCRIPTION=Security, pc tune up, anti-virus
+	UNIQUEID=0CFC07B2DE96404082C4214FD923DAE6
+	PARTNERID=opera-security
+
+#URL
+	ID=27
+	NAME=FastMail
+	URL=http://redir.opera.com/bookmarks/fastmail
+	DISPLAY URL=http://www.fastmail.fm/
+	CREATED=1455578228
+	UNIQUEID=BAF6AE40FA1543AC97010132CD806EEE
+	PARTNERID=opera-mail
+
+#URL
+	ID=28
+	NAME=My Opera Mail
+	URL=http://mail.opera.com/?utm_source=DesktopBrowser&utm_medium=Bookmark&utm_campaign=BrowserLinks
+	CREATED=1455578228
+	DESCRIPTION=Free mail
+	UNIQUEID=BE6CA6E1CA86413A92F5FC2C28E71CAD
+	PARTNERID=opera-mail2
+
+#URL
+	ID=29
+	NAME=Opera Sports
+	URL=http://redir.opera.com/bookmarks/sports.opera.com
+	DISPLAY URL=http://sports-portal.opera.globalsportsmedia.com/?locale=en
+	CREATED=1455578228
+	UNIQUEID=A3457DBDD69C4061B5B393A85D66F9D1
+	PARTNERID=opera-sportsnews
+
+#URL
+	ID=30
+	NAME=DuckDuckGo
+	URL=http://duckduckgo.com/?t=ous
+	CREATED=1455578228
+	UNIQUEID=CBB1126CDBBA491D9A3CB2120445841F
+	PARTNERID=opera-searchengine3
+
+#URL
+	ID=31
+	NAME=YouSendIt
+	URL=http://redir.opera.com/bookmarks/yousendit
+	DISPLAY URL=http://www.yousendit.com
+	CREATED=1455578228
+	DESCRIPTION=share, files, storage
+	UNIQUEID=664794225C55478C99290B033B77E2F4
+	PARTNERID=opera-filedelivery
+
+#URL
+	ID=32
+	NAME=Accuweather
+	URL=http://redir.opera.com/bookmarks/accuweather
+	DISPLAY URL=http://www.accuweather.com
+	CREATED=1455578228
+	DESCRIPTION=maps, forecast, weather
+	UNIQUEID=C14463D67D124F7FA7564217A37455C3
+	PARTNERID=opera-weather
+
+#URL
+	ID=33
+	NAME=blekko.com
+	URL=http://redir.opera.com/bookmarks/blekko
+	DISPLAY URL=http://blekko.com/
+	CREATED=1455578228
+	UNIQUEID=AF9C2704715C4253AEDCE2181E9D91D5
+	PARTNERID=opera-searchengine4
+
+#URL
+	ID=34
+	NAME=eBay
+	URL=http://redir.opera.com/bookmarks/ebay/
+	DISPLAY URL=http://www.ebay.com/
+	CREATED=1455578228
+	DESCRIPTION=art, books, cars, electronics, cars, cameras, antiques
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=1
+	UNIQUEID=787E272F7BDD481093BA36A2E73EB143
+	PARTNERID=opera-auction
+
+#URL
+	ID=35
+	NAME=Amazon
+	URL=http://redir.opera.com/bookmarks/amazon/
+	DISPLAY URL=http://www.amazon.com
+	CREATED=1455578228
+	DESCRIPTION=kindle, laptop, books, movies, music
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=2
+	UNIQUEID=5BA19040AEBE4CBEA52883D77DBB7B69
+	PARTNERID=opera-webshop
+
+#URL
+	ID=36
+	NAME=Shopping
+	URL=http://redir.opera.com/bookmarks/shopping
+	DISPLAY URL=http://www.shopping.com/?linkin_id=8057197
+	CREATED=1455578228
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=4
+	UNIQUEID=7345D3125AD6428F8B84AC5BB4EB8F6B
+	PARTNERID=opera-pricecomparison
+
+#URL
+	ID=37
+	NAME=Booking.com
+	URL=http://redir.opera.com/bookmarks/booking.com
+	DISPLAY URL=http://www.booking.com/
+	CREATED=1455578228
+	DESCRIPTION=hotels, hostel,holidays
+	UNIQUEID=0739A8A088FA4094ADDF36856DB4340F
+	PARTNERID=opera-booking
+
+#URL
+	ID=38
+	NAME=Lonely Planet
+	URL=http://redir.opera.com/bookmarks/travel1/us
+	DISPLAY URL=http://www.lonelyplanet.com/
+	CREATED=1455578228
+	DESCRIPTION=guides, travel, destinations
+	UNIQUEID=799E1F1CA3264F57BF228F70CD370FBA
+	PARTNERID=opera-travel2
+
+#URL
+	ID=39
+	NAME=CafePress
+	URL=http://redir.opera.com/bookmarks/shopping1/us
+	DISPLAY URL=http://www.cafepress.com/
+	CREATED=1455578228
+	DESCRIPTION=gifts, tshirts, clothes
+	UNIQUEID=9905FE1FA06D441C98C8E9DF9D0901B4
+	PARTNERID=opera-webshop2
+
+#URL
+	ID=40
+	NAME=Wego
+	URL=http://redir.opera.com/bookmarks/travel2/us
+	DISPLAY URL=http://www.wego.com
+	CREATED=1455578228
+	DESCRIPTION=flights, hotels, travel
+	UNIQUEID=9BA9AD832CC24356BAC817F8AFF058DA
+	PARTNERID=opera-travel3
+
+#URL
+	ID=41
+	NAME=Skype
+	URL=http://redir.opera.com/bookmarks/voip/us
+	DISPLAY URL=http://www.skype.com
+	CREATED=1455578228
+	DESCRIPTION=chat, calls, video
+	UNIQUEID=427C80538BA04D97B20F3A0B5028480D
+	PARTNERID=opera-skype
+
+-
+

@@ -1,0 +1,9 @@
+﻿If you want FDM to download files one by one, set the maximum number of running downloads to 1 in Settings | Downloads | Network, or click <a href='10'>here</a>.
+If you are experiencing slow downloads, try <a href='http://www.freedownloadmanager.org/fromfdm.php?link=2'>updating your network card driver</a>.
+When you delete a download in FDM, it goes to FDM's Recycle Bin. Use Shift+Del key combination to bypass the Bin and remove the download completely.
+In case you download software you also need to <a href='http://www.freedownloadmanager.org/fromfdm.php?link=1'>check your registry for errors</a> to prevent computer slowdown. We recommend this <a href='http://www.freedownloadmanager.org/fromfdm.php?link=1'>free scanner</a>.
+You can use macros to define destination folders for your downloads to organize them better. See group properties.
+The use of a proxy can decrease the download speed. Try disabling the proxy in FDM in such cases.
+We recommend to use Internet Explorer or Firefox browsers to get the best experience downloading flash videos from various sites.
+If you want FDM to catch downloads in your browser without any additional dialogs, enable "Silent monitoring" option or click <a href='11'>here</a>.
+You can modify default downloads folder location by right clicking on "All downloads" and choosing "Set groups' root folder".

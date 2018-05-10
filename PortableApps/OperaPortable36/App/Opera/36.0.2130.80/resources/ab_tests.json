@@ -1,0 +1,28 @@
+// wNBaMHWTLDigLRvqnhwdHr1FsWoDq4akUv46v+XCGu9OatVYC1ot94/0ev73+2YaKgw3nRowx6MqwjNSYx+DV/xQOJbGyyBV11kBocK/NPZrziCTlNe93U4ya7xRoFKeO7UGnQvLf0piM67aEO/eMS4ODebRN59qwVu+PqUC/Pa8x8OnrljyLwJz+y+Y9N0aT9CtaczTv3OTdFLX8oBbYPLVfgyuaTR1CMrpZjiucwk0C/OvVg3+7u0YKl7NkVqgD5+Op45k5Fr6XB4d+uZzVYgaR/deZXPUwd7I1jy6SG9vliHjCgYwzrk9XCGs39CU+WttTPkiVt+X+fKhAJKZLg==
+{
+  "version": 16021601,
+  "DNA-48959-global": {
+    "total_test_percentage": 20,
+    "test_state": 1,
+    "test_groups" : [
+      {
+        "name": "DNA-48959-global-mesh",
+        "preferences": {
+          "themes.default_theme_id" : "bundled/mesh"
+        }
+      },
+      {
+        "name": "DNA-48959-global-feathers",
+        "preferences": {
+          "themes.default_theme_id" : "bundled/feathers"
+        }
+      },
+      {
+        "name": "DNA-48959-global-ref",
+        "preferences": {
+          "themes.default_theme_id" : ""
+        }
+      }
+    ]
+  }
+}

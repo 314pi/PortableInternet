@@ -1,0 +1,217 @@
+0.6.0
+===================================================
+- Added Turkish language(by E.B)
+- Added Indonesian language(by Arif Rahman)
+- Added French language(by lord_nogard)
+- Added Dutch language(by Rob van den Boorn)
+- Now the download list is updated just when a
+  download is changed, making the program faster,
+  and preventing the program to be blocked when
+  working with several downloads
+- Added a option to add new files on top of the list
+- Added support to more segments(until 32)
+- Added portable mode(Windows only), which allow the
+  program to run directly from pendrives
+- Fixed some memory leaks related to the metalink
+  class
+- Added proxy support
+- Added wxSHA1 class
+
+0.5.4
+===================================================
+- The new RipStop theme now is complete
+- Added Russian language(by Ruslan Fedyarov)
+- Added Hungarian language(by Erno Szabados)
+- Added Polish language(by Marcin Trybus)
+- Added download status auto save every 10 seconds
+- Added option to enable/disable checking for new
+  releases
+- Fixed problem when the current speed is bigger
+  than graph scale
+- Fixed several bugs
+
+0.5.3
+===================================================
+- Added Czech language(by David Vachulka)
+- Fixed problem when retriving some metalink files
+
+0.5.2
+===================================================
+- Added a partial new theme called RipStop
+- Now if you try to set as destination a directory
+  that don't exists, the program ask to create it
+- Fixed some flickering problems on the graph and
+  the progress bar
+- Added option to execute a custom command when
+  some download is finished
+- Updated to build with wxWidgets 2.7.1
+
+
+0.5.1
+===================================================
+- Added support for multiples files inside metalinks
+- Fixed bug when saving graph colors
+- Fixed bug when getting file size on FTP servers
+
+0.5.0
+===================================================
+- Fixed bug when the program access a server and 
+  receive a 404 response
+- Added functions to get the "Program Files" and
+  "My Documents" directory
+- Added disk space checking before to join the file
+  parts after finish a download
+- Added new configuration method based on autoconf
+- Added a band width control, which permits the user
+  to set a upper download rate
+- Added metalink support. For more informations
+  about what is metalink visit www.metalinker.org
+- Added a tray icon menu to easily change the band
+  configuration
+
+0.4.5
+===================================================
+- Fixed bug on "Copy URL" and "Copy Download data"
+- Fixed problem on draw the progress bar for down-
+  loads splited in a odd number of parts
+- Segmented progress bar with different colors
+- Fixed bug on "New Download" box, when the user
+  let the address box empty
+- Added "--reference" option, see the Readme file
+  for more informations
+- Added option to choose where to save the temp
+  files (.part)
+- Added a new "About" box
+- Added a "Donate" menu
+- Added a routine to check if exists new releases
+  of wxDownload Fast
+
+0.4.4
+===================================================
+- Added multiple selections on Finished and In Pro-
+  gress list
+- Fixed problem on New Download box
+- Now is possible to change the language on the fly
+- Added multi-segmented progress bar
+
+0.4.3
+===================================================
+- Fixed bug that change the first item of the
+  finished list, when the user click in "Open
+  destination directory"
+- Fixed problem when getting the size of finished
+  files bigger than 2Gb
+- Fixed some memory access bug
+- Made a total change on mDownloadFile class,
+  making the class more encapsulated. This class
+  keeps the download data.
+- Double-click on In Progress list Start/Stop the
+  downloads
+- Now is possible to add several urls for download,
+  this way you can download a file from several
+  different servers.
+
+0.4.2
+===================================================
+- Fixed problem with the Calendar Control on the
+  schedule option
+- Fixed problems with forbidden filename characters
+- Fixed problems with the calendar box
+- Added dialog box that ask about to open HTML
+  files on the browser
+- Added "Open Destination Directory" command that
+  opens the destination directory of selected
+  download
+- Added tab "Paths" in the Options Box. In this are
+  defined the external programs used, like the 
+  browser, file manager, and so on
+- Now the file size are compared with the already
+  saved values. In this way, we have (almost) sure
+  that the file size not changed since the last
+  time, and that the file will be not corrupted
+- The program internal structure was improved
+- Added some minor features
+
+0.4.1
+===================================================
+- Added German language
+- Now the speed values that are bigger them the
+  graph scale aren't showed
+- Added status bar and "Stop All downloads" and
+  "Start All downloads" buttons
+
+0.4.0
+===================================================
+- Added support for FTP and HTTP downloads bigger
+  than 2GB
+- Fixed speed calculation bug with FTP downloads
+- Improved the access for dynamic links
+- Added option to hide the speed graph, and to
+  change the graph height
+- Now the last selected options in the New Down-
+  load box are remembered for the next download
+- Fixed some bugs
+
+0.3.2
+===================================================
+- Removed some missed debug messages
+- Fixed some bugs
+
+0.3.1
+===================================================
+- Now it is possible to parse urls of the type 
+  file://path to download local files
+- Now it is possible to parse several urls for the
+  command line
+- Added parameters --list, --destination and
+  --comments. For more informations see the Readme
+  file
+
+0.3.0
+===================================================
+- Added a schedule option
+- Now the status of download is recorded before
+  closing the program. In this way if exist some
+  active download and the program is closed, then
+  when the user reopen the program the download
+  will be initiated automaticaly.  
+- Fixed several bugs.
+
+
+0.2.2
+===================================================
+- Added Spanish language
+
+0.2.1
+===================================================
+- Added graph of the transferency rate
+
+0.2.0
+===================================================
+- The download rotine was remade, and the option of
+  split the download in several pieces was added.
+- Added the "Options"box
+- Added options that allow the computer be
+  turned off, or the connection be closed when all
+  downloads was finished.
+- Made several improvements.
+- Fixed several bugs
+
+0.1.1
+===================================================
+- Fixed problems of segmentation fault on Linux
+- Fixed problems when change the language
+- Added makefile.vc file for the people who use the
+  MSVC to build the program
+- Added italian language
+- Changed the interface of old downloads
+- Several bugs were fixed
+- Added a menu that allow the user to move old files
+- Added a menu that allow the user to reverify the MD5
+  of old files
+- Added option of export/import the configurations of
+  the program
+
+0.1.0
+===================================================
+1 Version

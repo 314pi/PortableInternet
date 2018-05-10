@@ -1,0 +1,551 @@
+[File Info]
+
+Language=German
+Author=Christian Hübner
+Email=chuebner@ch-software.de
+Date=04/10/2010
+Comment=PopMan 1.3 German Translation
+LangID=07
+
+
+[Translations]
+
+# Import Accounts Dialog
+
+Account<=>Konto
+User<=>Benutzer
+Server<=>Server
+Port<=>Port
+Please select the accounts that you want to import from Outlook Express.<=>Bitte wählen Sie die Konten aus, die Sie von Outlook Express importieren möchten.
+&Properties...<=>&Eigenschaften...
+OK<=>OK
+Cancel<=>Abbrechen
+Import email accounts<=>Email-Konten importieren
+
+# Account Dialog
+
+General<=>Allgemein
+Advanced<=>Erweitert
+Please enter the account name!<=>Bitte geben Sie den Konto-Namen an!
+Please enter the address of the POP3 server!<=>Bitte geben Sie die Adresse des POP3-Servers an!
+Please enter user name!<=>Bitte geben Sie den Benutzernamen an!
+Account name:<=>Bezeichnung:
+POP3 server:<=>POP3-Server:
+Port:<=>Port:
+User name:<=>Benutzername:
+Password:<=>Kennwort:
+Include this account when receiving mail<=>Dieses Konto beim Empfangen von Emails einbeziehen
+1 minute<=>1 Minute
+{1} minutes<=>{1} Minuten
+1 second<=>1 Sekunde
+{1} seconds<=>{1} Sekunden
+Colors<=>Farben
+Use individual font color:<=>Angepasste Schriftfarbe verwenden:
+Circle color in system tray:<=>Kreisfarbe im System-Tray:
+Server Timeouts<=>Zeitlimit des Servers
+Short<=>Niedrig
+Long<=>Hoch
+Load big emails incompletely<=>Große Emails unvollständig laden
+Limit size:<=>Grenzgröße:
+
+# Accounts Dialog
+
+Mail Accounts<=>Email-Konten
+&Add...<=>Hin&zufügen...
+&Remove<=>&Entfernen
+Move &up<=>Nach &oben
+Move &down<=>Nach &unten
+&Close<=>&Schließen
+
+# Download Dialog
+
+Loading the following mail:<=>Die folgende Email wird vom Server geladen:
+Loading Mail...<=>Email laden...
+
+# Password Dialog
+
+Password - {1}<=>Kennwort - {1}
+Enter the password of the following server.<=>Geben Sie das Kennwort für folgenden Server an.
+Server:<=>Server:
+Remember password<=>Kennwort speichern
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Bitte geben Sie an, wo die Emails gespeichert werden sollen.
+The specified folder does not exist!<=>Der angegebene Ordner existiert nicht!
+Please specify a template for the file names.<=>Bitte geben Sie eine Vorlage für die Dateinamen an.
+A file name must not contain any of the following characters:<=>Ein Dateiname darf keines der folgenden Zeichen enthalten:
+Invalid template! Use a combination of the following placeholders:<=>Ungültige Vorlage! Verwenden Sie eine Kombination der folgenden Platzhalter:
+Subject<=>Betreff
+From<=>Von
+To<=>An
+Date<=>Datum
+Time<=>Zeit
+Save As...<=>Speichern unter...
+Destination<=>Speicherort
+Folder:<=>Ordner:
+Browse...<=>Durchsuchen...
+Save Format<=>Speicherformat
+Template For File Names<=>Vorlage für die Dateinamen
+Email File (*.eml)<=>Email-Datei (*.eml)
+Text File (*.txt)<=>Text-Datei (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Die Datei "{1}" existiert nicht!
+Sound (*.wav)<=>Sound (*.wav)
+Notify when new mail arrives<=>Bei neuen Emails benachrichtigen
+Always<=>Immer
+When AutoChecked or minimized<=>Wenn AutoChecked oder minimiert
+Only when minimized<=>Nur wenn minimiert
+On new mail<=>Bei neuen Emails
+Acoustic notification<=>Akustische Benachrichtigung
+Sound:<=>Klang:
+&Test<=>&Test
+Show PopMan window<=>PopMan-Fenster anzeigen
+Show balloon tip<=>Balloon-Tipp anzeigen
+Unread Messages<=>Ungelesenen Nachrichten
+Display unread messages in bold font<=>Ungelesene Nachrichten in fetter Schrift darstellen
+Preview Pane<=>Vorschaufenster
+Use the preview pane to quickly view a message without opening a separate window.<=>Die Vorschau ermöglicht die schnelle Ansicht einer Nachricht, ohne dass ein eigenes Fenster geöffnet werden muss.
+Show preview pane<=>&Vorschaufenster anzeigen
+Be&low messages<=>&Unterhalb der Nachrichten
+Be&side messages<=>&Neben den Nachrichten
+Use logging to record all data communication between PopMan and the email server.<=>Protokollierung ermöglicht die Aufzeichnung der Kommunikation zwischen PopMan und dem Email-Server.
+Enable logging<=>Protokollierung aktivieren
+Reset log on program startup<=>Protokoll beim Programmstart zurücksetzen
+Enable error logging<=>Fehlerprotokollierung aktivieren
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(wenn bei der Kommunikation mit dem Email-Server ein Problem auftritt, wird das Protokoll in einer separaten Fehler-Datei gespeichert)
+Use dial-up networking<=>DFÜ verwenden
+Launch PopMan on Windows startup<=>PopMan mit Windows starten
+Check for new mail on startup<=>Beim Starten auf neue Emails prüfen
+First wait<=>Warte
+seconds<=>Sekunden
+X button hides to tray<=>X-Button minimiert in den System-Tray
+Min button hides to tray<=>Minimieren-Button minimiert in den System-Tray
+Delete confirmation in main window<=>Bestätigung zum Löschen im Hauptfenster
+Delete confirmation in preview pane and message window<=>Bestätigung zum Löschen im Vorschau- und Nachrichtenfenster
+Timer interval:<=>Zeitintervall:
+minutes<=>Minuten
+AutoCheck only while minimized<=>AutoCheck nur wenn minimiert
+Don't check between:<=>Kein automatisches Prüfen zwischen:
+and<=>und
+Executable (*.exe)<=>Ausführbare Datei (*.exe)
+Email client:<=>Email-Programm:
+Quit PopMan when launching email client<=>PopMan nach dem Starten des Email-Programms beenden
+When replying<=>Beim Antworten
+Use temporary eml file (Outlook Express)<=>Temporäre Eml-Datei verwenden (Outlook Express)
+Use mailto (without quotted original message)<=>Mailto verwenden (ohne zitierte Originalnachricht)
+Use MAPI<=>MAPI verwenden
+Use HTML linebreaks in reply body<=>HTML-Zeilenumbrüche in Antwortnachricht verwenden
+Enforce email address (Yahoo! Mail)<=>Email-Adresse erzwingen (Yahoo! Mail)
+Number of messages<=>Anzahl der Nachrichten
+Show number of messages in tray icon<=>Anzahl der Nachrichten im Tray-Icon anzeigen
+Show number of all messages<=>Anzahl aller Nachrichten anzeigen
+Show number of unread messages<=>Anzahl der ungelesenen Nachrichten anzeigen
+Show number of new messages<=>Anzahl der neuen Nachrichten anzeigen
+Rotate icon for each account<=>Icon für jedes Konto im Wechsel anzeigen
+Rotation interval:<=>Wechselintervall:
+tenths of a second<=>Zehntelsekunden
+Show advanced account info<=>Erweiterte Kontoinformationen anzeigen
+Enable HighColor icons in system tray<=>HighColor Icons im System Tray verwenden
+Nothing<=>Nichts
+Show Window<=>Fenster anzeigen
+Check Mail<=>Auf Emails prüfen
+PopUp Menu<=>Kontextmenü anzeigen
+Run Email Client<=>Email-Programm starten
+Check And Show<=>Prüfen und anzeigen
+Toggle Window<=>Fenster anzeigen/verstecken
+Toggle AutoCheck<=>AutoCheck aktivieren/deaktivieren
+Show Mail Info<=>Nachrichten-Info anzeigen
+Tray Mouse Actions<=>Tray Mausaktionen
+Left Click:<=>Linksklick:
+Right Click:<=>Rechtsklick:
+Middle Click:<=>Mittelklick:
+Double Click:<=>Doppelklick:
+Double click delay on click<=>Doppelklick-Verzögerung beim Klicken
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Hier können Sie zwischen den auf Ihrem System verfügbaren Übersetzungen auswählen. Wenn Sie Ihre Sprache nicht finden, besuchen Sie die PopMan Website:
+Language:<=>Sprache:
+Author:<=>Autor:
+Email:<=>Email:
+Updated:<=>Datum:
+Comment:<=>Kommentar:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Fehler beim Initialisieren des RichText-Controls.
+Source - "{1}"<=>Quelltext - "{1}"
+
+# Main Window
+
+Options<=>Optionen
+AutoCheck<=>AutoCheck
+Notification<=>Benachrichtigung
+Email Client<=>Email-Programm
+View<=>Ansicht
+Tray Icon<=>Tray-Icon
+Language<=>Sprache
+Mouse Actions<=>Mausaktionen
+Logging<=>Protokollierung
+&File<=>&Datei
+&Accounts...<=>&Konten...
+&Update{TAB}F5<=>Akt&ualisieren{TAB}F5
+&Cancel{TAB}Esc<=>&Abbrechen{TAB}Esc
+&Open...{TAB}Ctrl+O<=>Ö&ffnen{TAB}Strg+O
+Sou&rce...<=>&Quelltext...
+&Save As...{TAB}Ctrl+S<=>Speichern &unter...{TAB}Strg+S
+Repl&y To Sender{TAB}Ctrl+R<=>Abs&ender antworten{TAB}Strg+R
+&Delete{TAB}Del<=>&Löschen{TAB}Entf
+&Exit<=>&Beenden
+&View<=>&Ansicht
+&Toolbar<=>&Symbolleiste
+&Statusbar<=>S&tatusleiste
+&Tools<=>E&xtras
+&Font...<=>&Schriftart...
+Font &Color...<=>Schrift&farbe...
+Launch &Email Client{TAB}Ctrl+E<=>&Email-Programm starten{TAB}Strg+E
+&Import Accounts...<=>Konten &importieren...
+&Options<=>&Optionen
+&Help<=>&?
+&Help Topics...{TAB}F1<=>&Hilfe...{TAB}F1
+Check For &Updates<=>Auf &Updates prüfen...
+&About PopMan...<=>Inf&o über PopMan...
+Ready<=>Bereit
+Edit email accounts.{BR}Accounts<=>Bearbeitet die Liste der Email-Konten.{BR}Konten
+Update email listing.{BR}Update<=>Aktualisiert die Liste der Emails.{BR}Aktualisieren
+Cancel current operation.{BR}Cancel<=>Bricht den aktuellen Vorgang ab.{BR}Abbrechen
+Show email content.{BR}Show<=>Zeigt den Inhalt der Email an.{BR}Einsehen
+Show source code of this email.{BR}Source code<=>Zeigt den Quelltext der Email an.{BR}Quelltext anzeigen
+Save selected email to file.{BR}Save<=>Speichert die ausgewählte Email in eine Datei.{BR}Speichern
+Create a reply message to the sender.{BR}Reply<=>Erstellt eine Antwortnachricht an den Absender.{BR}Antworten
+Delete selected emails.{BR}Delete<=>Löscht die ausgewählten Emails.{BR}Löschen
+Quit the application.{BR}Exit<=>Verläßt die Anwendung.{BR}Beenden
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Blendet die Symbolleiste ein oder aus.{BR}Symbolleiste ein-/ausschalten
+Show or hide the status bar.{BR}Toggle StatusBar<=>Blendet die Statusleiste ein oder aus.{BR}Statusleiste ein-/ausschalten
+Change font.{BR}Font<=>Ändert die Schriftart und -größe.{BR}Schrift
+Change font color.{BR}Font Color<=>Ändert die Schriftfarbe.{BR}Schriftfarbe
+Launch email client.{BR}Email Client<=>Startet das Email-Programm.{BR}Email-Programm
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importiert Email-Konten von Outlook Express{BR}Konten importieren
+Change program settings.{BR}Settings<=>Ändert Programmeinstellungen.{BR}Einstellungen
+Show Help Topics.{BR}Help<=>Zeigt die Hilfe an.{BR}Hilfe
+Check if a new version is available.{BR}Check for updates<=>Prüft, ob eine neue Version verfügbar ist.{BR}Auf Updates prüfen
+Display program information, version number and copyright.{BR}About<=>Zeigt Programm-Informationen, Versionsnummer und Copyright an.{BR}Info
+Show the main window.{BR}Show<=>Zeigt das Hauptfenster an.{BR}Anzeigen
+Enable AutoChecking.{BR}Enable<=>Aktiviert das regelmäßige Prüfen auf neue Emails.{BR}AutoChecking aktivieren
+Open the selected attachment.{BR}Open<=>Öffnet den ausgewählten Anhang.{BR}Öffnen
+Save the selected attachments.{BR}Save<=>Speichert die ausgewählten Anhänge.{BR}Speichern
+Save all attachments.{BR}Save All<=>Speichert alle Anhänge.{BR}Alles speichern
+Change the window size.<=>Ändert die Fenstergröße.
+Change the window position.<=>Ändert die Position des Fensters.
+Reduce the window to an icon.<=>Verkleinert das Fenster zu einem Symbol.
+Enlarge the window to full size.<=>Vergrößert das Fenster zu voller Größe.
+Close the active window.<=>Schließt das aktive Fenster.
+Restore the window to normal size.<=>Stellt das Fenster in seiner normalen Größe wieder her.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>&Drucken...{TAB}Strg+P
+&Close{TAB}Esc<=>&Schließen{TAB}Esc
+&Edit<=>&Bearbeiten
+&Cut{TAB}Ctrl+X<=>&Ausschneiden{TAB}Strg+X
+C&opy{TAB}Ctrl+C<=>&Kopieren{TAB}Strg+C
+&Paste{TAB}Ctrl+V<=>E&infügen{TAB}Strg+V
+&Find...{TAB}Ctrl+F<=>&Suchen...{TAB}Strg+F
+Find &Next{TAB}F3<=>&Weitersuchen{TAB}F3
+Select &All{TAB}Ctrl+A<=>&Alles markieren{TAB}Strg+A
+Print this email.{BR}Print<=>Druckt diese Email.{BR}Drucken
+Delete this email.{BR}Delete<=>Löscht diese Email.{BR}Löschen
+Close window.{BR}Close<=>Schließt das Fenster.{BR}Schließen
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Entfernt die Markierung und überträgt sie in die Zwischenablage.{BR}Ausschneiden
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Kopiert die Markierung und überträgt sie in die Zwischenablage.{BR}Kopieren
+Insert Clipboard contents.{BR}Paste<=>Fügt den Inhalt der Zwischenablage ein.{BR}Einfügen
+Find the specified text.{BR}Find<=>Sucht den angegebenen Text.{BR}Suchen
+Find next occurence of specified text.{BR}Find next<=>Sucht das nächste Vorkommen des angegebenen Textes.{BR}Weitersuchen
+Select the entire message.{BR}Select All<=>Markiert die gesamte Nachricht.{BR}Alles markieren
+"{1}" not found.<=>"{1}" nicht gefunden.
+&Open<=>Ö&ffnen
+&Save As...<=>Speichern &unter...
+Save &All...<=>&Alles speichern...
+This attachment can not be accessed anymore.<=>Auf diesen Anhang kann nicht mehr zugegriffen werden.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}" könnte gefährlichen Code (Viren, Würmer, Trojaner etc.) enthalten!
+Opening this file is therefore denied.<=>Das Öffnen dieser Datei wird daher verweigert.
+Do you really want to save this file to your hard disk?<=>Wollen Sie diese Datei wirklich auf Ihrer Festplatte speichern?
+Attachment<=>Anhang
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Diese Anhänge könnten gefährlichen Code (Viren, Würmer, Trojaner etc.) enthalten!
+Do you really want to save these files to your hard disk?<=>Wollen Sie diese Dateien wirklich auf Ihrer Festplatte speichern?
+Please specify where to save the attachments.<=>Bitte geben Sie an, wo die Anhänge gespeichert werden sollen.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Die Datei "{1}" existiert bereits!{BR}Überschreiben?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Die Email konnte nicht heruntergeladen werden.{BR}Drücken Sie Strg+F5 um die Liste der Emails zu aktualisieren und versuchen Sie es dann erneut.
+Are you sure you want to delete this email?<=>Soll diese Email wirklich gelöscht werden?
+Deleting email failed!<=>Löschen der Email fehlgeschlagen!
+From:<=>Von:
+Date:<=>Datum:
+To:<=>An:
+Subject:<=>Betreff:
+Attach:<=>Anhang:
+
+# PopMan Start
+
+Please start one instance only.<=>Bitte starten Sie immer nur eine Instanz.
+Windows socket init failed.<=>Fehler beim Initialisieren der Windows-Sockets.
+About PopMan<=>Info über PopMan
+PopMan, Version {1}<=>PopMan, Version {1}
+Website:<=>Website:
+
+# Document
+
+The error log file "{1}" could not be created.<=>Die Fehler-Protokolldatei "{1}" konnte nicht angelegt werden.
+Checking {1}...<=>Prüfe {1}...
+Email (*.eml)<=>Email (*.eml)
+Text (*.txt)<=>Text (*.txt)
+Connecting...<=>Verbinde...
+Connected!<=>Verbunden!
+Login...<=>Anmelden...
+Successfully logged in!<=>Erfolgreich angemeldet!
+Loading message ...<=>Lade Nachricht ...
+Loading message {1} of {2} ...<=>Lade Nachricht {1} von {2} ...
+Deleting message {1} of {2} ...<=>Lösche Nachricht {1} von {2} ...
+Not connected<=>Nicht verbunden
+Connection failure<=>Verbindungsfehler
+Canceled<=>Abgebrochen
+Invalid server response<=>Ungültige Serverantwort
+Timeout<=>Zeitüberschreitung
+Login failed<=>Anmeldung fehlgeschlagen
+Message not found<=>Nachricht konnte nicht gefunden werden
+Server failure: Message not found!<=>Server-Fehler: Nachricht nicht gefunden!
+Busy<=>Beschäftigt
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Die Protokolldatei "{1}" konnte nicht geöffnet werden.{BR}Protokollierung wird deaktiviert!
+Unable to load mail system support.<=>Systemunterstützung für elektronische Post kann nicht geladen werden.
+Mail system DLL is invalid.<=>Die System-DLL für elektronische Post ist ungültig.
+Unable to detect if a new version is available.<=>Es konnte nicht ermittelt werde, ob eine neue Version verfügbar ist.
+There is no update available.<=>Es ist keine neue Version verfügbar.
+New version {1} available!{BR}Do you want to go to the PopMan website and download the latest version?<=>Neue Version {1} verfügbar!{BR}Möchten Sie zur PopMan-Website gehen und die aktuelle Version herunterladen?
+Deleting mail...<=>Nachrichten werden gelöscht...
+Downloading mail...<=>Nachrichten werden heruntergeladen...
+AutoCheck disabled<=>AutoCheck ist deaktiviert
+No messages<=>Keine Nachrichten
+1 new message<=>1 neue Nachricht
+{1} new messages<=>{1} neue Nachrichten
+PopMan - New Mail<=>PopMan - Neue Nachrichten
+&Open PopMan<=>PopMan ö&ffnen
+Check &Mail<=>&Prüfen
+&Cancel<=>&Abbrechen
+&Email Client<=>&Email-Programm
+A&utoCheck Enabled<=>A&utoCheck aktiviert
+O&ptions...<=>&Optionen...
+&About...<=>Inf&o...
+E&xit<=>&Beenden
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} Nachrichten ({2} ungelesen, {3} neu){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - Nachrichten-Info
+1 message<=>1 Nachricht
+{1} messages<=>{1} Nachrichten
+1 unread message<=>1 ungelesene Nachricht
+{1} unread messages<=>{1} ungelesene Nachrichten
+in {1}<=>in {1}
+in {1} accounts<=>in {1} Konten
+
+# Main View
+
+Size<=>Größe
+Received<=>Datum
+Are you sure you want to delete the selected email?<=>Soll die markierte Email wirklich gelöscht werden?
+Are you sure you want to delete the {1} selected emails?<=>Sollen die {1} markierten Emails wirklich gelöscht werden?
+
+# 08/28/2003
+
+Show new mail tip<=>Hinweisfenster "Neue Nachrichten" anzeigen
+Include sender and subject of new mails<=>Absender und Betreff der neuen Nachrichten anzeigen
+Use balloon tip<=>Balloon-Tipp verwenden
+Show<=>Anzeigen
+Close<=>Schließen
+Delete<=>Löschen
+
+# 09/14/2003
+
+Log file size:<=>Größe der Protokoll-Datei:
+KB<=>KB
+
+# 12/28/2003
+
+Update Wizard<=>Update-Assistent
+There are no updates available.<=>Es sind keine Updates verfügbar.
+There is a new version {1} available!<=>Es ist eine neue Version {1} verfügbar!
+There is a new {1} Beta version available!<=>Es ist eine neue {1} Beta Version verfügbar!
+Click "Next" to update your copy of PopMan...<=>Klicken Sie auf "Weiter" um PopMan zu aktualisieren.
+Unable to retrieve version infomation!<=>Die Versionsinformationen konnten nicht geladen werden!
+Error number: {1}<=>Fehlernummer: {1}
+Welcome to the PopMan Update Wizard<=>Willkommen beim PopMan Update-Assistenten
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Der Assistent verbindet sich nun mit dem PopMan Webserver und prüft, ob Updates verfügbar sind. Wenn eine neue Version gefunden wird, können alle erforderlichen Dateien automatisch geladen und installiert werden.
+Failed to load Decompress.dll!<=>Decompress.dll konnte nicht geladen werden!
+Initializing...<=>Initialisiere...
+Do you really want to cancel the update process?<=>Wollen Sie die Aktualisierung wirklich abbrechen?
+Update process failed!<=>Aktualisierung fehlgeschlagen!
+Error while downloading initialization file!<=>Fehler beim Laden der Initialisierungsdatei!
+No updates available.<=>Es sind keine Updates verfügbar.
+Failed to retrieve temporary directory!<=>Das temporäre Verzeichnis konnte nicht ermittelt werden!
+Saving {1} ...<=>Speichere {1} ...
+Failed to create directory:<=>Fehler beim Anlegen des Verzeichnisses:
+Failed to decompress file:<=>Fehler beim Entpacken der Datei:
+Failed to download file:<=>Fehler beim Laden der Datei:
+(checksum error)<=>(checksum error)
+Please try again later.<=>Bitte versuchen Sie es später noch einmal.
+Error while saving downloaded file!<=>Fehler beim Abspeichern der geladenen Datei!
+All files downloaded successfully.<=>Alle Dateien wurden erfolgreich heruntergeladen.
+Press the "Finish" button to complete the update process...<=>Klicken Sie auf "Fertig stellen" um den Vorgang abzuschließen.
+Failed to initialize the final copy process!<=>Fehler beim Initialisieren des Kopiervorgangs!
+Downloading {1} ...<=>Lade {1} ...
+Progress all:<=>Fortschritt gesamt:
+Progress current file:<=>Fortschritt aktuelle Datei:
+Download of updated files<=>Download der geänderten Dateien
+{1} Beta version has been updated successfully!<=>{1} Beta Version wurde erfolgreich aktualisiert!
+You have successfully updated to version {1} !<=>Sie haben erfolgreich auf Version {1} aktualisiert!
+Error while writing to the log file:<=>Fehler beim Schreiben in der Protokolldatei:
+Logging disabled!<=>Protokollierung deaktiviert!
+Do you want to start the update wizard and download the latest version?<=>Wollen Sie den Update-Assistenten starten und die neuste Version herunterladen?
+
+# 01/26/2004
+
+Description<=>Beschreibung
+Password incorrect! Please note that the password is case-sensitive.<=>Ungültiges Passwort! Bitte achten Sie auf Groß- und Kleinschreibung.
+Please enter the password.<=>Bitte geben Sie das Passwort ein.
+Location of the log file "PopManLogFile.log":<=>Speicherort der Protokolldatei "PopManLogFile.log":
+Enable password protection:<=>Passwortschutz aktivieren:
+Hide PopMan to tray<=>PopMan minimieren
+Quit PopMan<=>PopMan beenden
+When launching email client:<=>Beim Start des Email-Programms:
+(last check: {1})<=>(zuletzt aktualisiert: {1})
+
+# 11/01/2004
+
+Can not change account settings while there are busy accounts.<=>Die Kontoeinstellungen können nicht geändert werden, während ein Konto aktiv ist.
+Please enter the address of the Server!<=>Bitte geben Sie die Adresse des Servers an!
+Protocol:<=>Protokoll:
+Black List<=>Blockierte Absender
+Messages from senders in the list below will be deleted automatically from the server.<=>Nachrichten von Absendern, die in der folgenden Liste aufgeführt sind, werden automatisch vom Server gelöscht.
+Address:<=>Adresse:
+Enter address<=>Adresse eingeben
+Enter the password of the following account.<=>Geben Sie das Kennwort für das folgende Konto ein.
+Account:<=>Konto:
+&Block Sender<=>Absender &blockieren
+&Black List...<=>&Blockierte Absender...
+Add sender to Black List.{BR}Block Sender<=>Fügt den Absender zur Liste der blockierten Absender hinzu.{BR}Absender blockieren
+Edit list of blocked senders.{BR}BlackList<=>Bearbeitet die Liste der blockierten Absender.
+This will add the following email addresses to the Black List:<=>Die folgenden Email-Adressen werden zur Liste der blockierten Absender hinzugefügt:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Achtung: Alle zukünftigen Emails von Absendern auf dieser Liste werden automatisch gelöscht werden!
+
+# 12/22/2004
+
+Load all emails completely<=>Alle Nachrichten vollständig laden
+Retrieve header and {1} lines of message body<=>Nur den Kopf und {1} Zeilen der Nachricht laden
+Number of lines:<=>Zeilenanzahl:
+Copy Link Address<=>Link-Adresse kopieren
+
+# 03/12/2005
+
+Launch email client with command line parameter:<=>Email-Programm mit Kommandozeilenparameter starten:
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Aktivieren\Deaktivieren der Tab-Ansicht.{BR}Tab-Ansicht
+Rename tab{TAB}F2<=>Tab umbenennen{TAB}F2
+Join with tab<=>Vereinigen mit Tab
+You have to add at least one account before you can switch to tab view.<=>Sie müssen mindestens ein Konto hinzufügen bevor Sie in die Tab-Ansicht wechseln können.
+Caption:<=>Beschriftung:
+Please enter the caption of the tab:<=>Bitte geben Sie die Beschriftung der Registerkarte ein:
+Rename tab<=>Tab umbenennen
+
+# 03/25/2005
+
+Separate account | All<=>Konto abspalten | Alle
+Check accounts{TAB}F7<=>Konten prüfen{TAB}F7
+Tab accounts:<=>Tab-Konten:
+
+# 04/10/2005
+
+Use custom AutoCheck timer interval<=>Anderes AutoCheck-Zeitintervall verwenden:
+Sent<=>Gesendet
+Priority<=>Priorität
+UserAgent<=>UserAgent
+High<=>Hoch
+Low<=>Niedrig
+Normal<=>Normal
+
+# 05/07/2005
+
+Flash keyboard light:<=>Tastaturlicht blinken lassen:
+Enable custom AutoCheck interval per account:<=>Angepasstes AutoCheck-Intervall pro Konto erlauben:
+Interval<=>Intervall
+Custom<=>Angepasst
+&Themes<=>&Themen
+Default<=>Standard
+
+# 10/22/2005
+
+Parameters<=>Parameter
+Invalid parameter string!<=>Ungültiger Parameter-Wert!
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>UIDL zum Löschen verwenden
+Delete command marks message for deletion<=>Der Löschen-Befehl markiert die Nachrichten zum Löschen
+&Unmark{TAB}Ins<=>&Markierung entfernen{TAB}Einfg
+Empty Trash<=>Mülleimer leeren
+Delete &Marked Emails{TAB}F12<=>Lösche &markierte Emails{TAB}F12
+&Hide Marked Messages<=>&Verstecke markierte Emails
+Tab &View{TAB}Ctrl+M<=>T&ab-Ansicht{TAB}Strg+M
+Delete marked emails.{BR}Delete marked emails<=>Lösche alle markierten Emails.{BR}Lösche markierte Emails
+Unmark (undelete) selected emails.{BR}Unmark<=>Lösch-Markierung aufheben.{BR}Markierung aufheben
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Versteckt Nachrichten, die zum Löschen markiert wurden.{BR}Markierte Nachrichten verstecken
+Don't display this &message again.<=>Diesen Hinweis &nicht mehr anzeigen.
+You are about to irrevocably delete all marked messages.<=>Sie sind gerade dabei alle markierten Nachrichten unwiderruflich zu löschen.
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Sie haben soeben eine Email zum Löschen markiert. Um die Markierung aufzuheben, drücken Sie die Einfg-Taste. Um alle markierten Emails zu löschen, drücken Sie F12  oder klicken Sie den entsprechenden Toolbar-Button.
+You can also delete selected messages immediately by pressing Shift+Del.<=>Sie haben daneben auch die Möglichkeit selektierte Emails sofort zu löschen, indem Sie Umschalt+Entf drücken.
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Wenn Sie das herkömliche Verhalten bevorzugen (alle selektierten Emails sofort löschen), entfernen Sie die Einstellung "{1}" im Optionen-Dialog.
+&Rules...<=>&Regeln...
+Edit the rules.{BR}Rules<=>Regeln bearbeiten.{BR}Regeln
+Error while parsing rules file at line {1}!<=>Fehler beim Parsen der Regel-Datei in Zeile {1}!
+
+# 09/30/2007
+
+Load small emails completely<=>Kleine Nachrichten vollständig laden
+Small emails are < <=>Kleine Nachrichten sind < 
+Add item to Rules list<=>Neuer Eintrag für Regel-Liste
+Destination List<=>Ziel-Liste
+New Item<=>Neuer Eintrag
+Item Type<=>Typ
+Word<=>Wort
+String<=>Zeichenfolge
+Regular Expression<=>Regulärer Ausdruck
+Only log compact mail info instead of entire data traffic<=>Nur kompakte Nachrichten-Informationen protokollieren anstatt des gesamten Datenverkehrs
+Enable logging of applied rules<=>Protokollierung der angewendeten Regeln aktivieren
+Rules<=>Regeln
+Move Marked Messages to Tr&ash Tab<=>Markierte Emails in &Müll-Tab verschieben
+Add Item To Rules &List...{TAB}F9<=>Neuen Eintrag zu einer &Regel-Liste hinzufügen...{TAB}F9
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Markierte Emails in Müll-Tab verschieben.{BR}Müll-Tab aktivieren
+Add item to Rules list.{BR}Add To List<=>Neuen Eintrag zu einer Regel-Liste hinzufügen.{BR}Zu einer Liste hinzufügen
+Forum:<=>Forum:
+Failed to add item to Rules list!<=>Hinzufügen zur Regel-Liste fehlgeschlagen!
+Trash<=>Müll
+The item is already contained in the list!<=>Dieser Eintrag ist bereits in der Liste vorhanden!
+
+# 10/14/2007
+
+White List<=>Vertrauenswürdige Absender
+Messages from senders in the list below will never be deleted automatically.<=>Nachrichten von Absendern, die in der folgenden Liste aufgeführt sind, werden niemals automatisch vom Server gelöscht.
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>Bitte geben Sie die Email-Adresse (z.B. Jemand@Irgendwo.de) oder die Domäne (z.B. Irgendwo.de) ein:
+&Trust Sender<=>Absender &vertrauen
+This will add the following email addresses to the White List:<=>Die folgenden Email-Adressen werden zur Liste der vertrauenswürdigen Absender hinzugefügt:
+&White List...<=>&Vertrauenswürdige Absender...
+Add sender to White List.{BR}Trust Sender<=>Fügt den Absender zur Liste der vertrauenswürdigen Absender hinzu.{BR}Absender vertrauen
+Edit list of trusted senders.{BR}WhiteList<=>Bearbeitet die Liste der vertrauenswürdigen Absender.{BR}Vertrauenswürdige Absender
+Suspend New Mail Notification Sound.{BR}Mute<=>Unterdrückt die akustische Benachrichtigung bei neuen Nachrichten.{BR}Stummschaltung
+Mu&te Mode<=>St&ummschaltung
+Mark All Mails Read<=>Alle Nachrichten: Gelesen
+Mark All Mails Unread<=>Alle Nachrichten: Ungelesen
+
+# 04/10/2010
+
+Type<=>Typ
+Limit tips to [PROTECTED] messages<=>Nur für [GESCHÜTZT]e Nachrichten
+[PROTECTED]<=>[GESCHÜTZT]
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>Schutz aufheben/setzen{TAB}Strg+T
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>Lösch-Schutz für die ausgewählten Emails setzen oder aufheben.{BR}Schutz umschalten
+Protocol plugin not initialized correctly!<=>Fehler bei Initialisierung des Protokoll-Plugins!
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>Initialisierung des Kontos {1} fehlgeschlagen: Kein Plugin verfügbar für das Protokoll {2}

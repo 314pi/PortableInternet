@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+ <META NAME="GENERATOR" CONTENT="LinuxDoc-Tools 0.9.69">
+ <TITLE>Sylpheed ユーザーズマニュアル: 迷惑メール対策</TITLE>
+ <LINK HREF="sylpheed-16.html" REL=next>
+ <LINK HREF="sylpheed-14.html" REL=previous>
+ <LINK HREF="sylpheed.html#toc15" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="sylpheed-16.html">次のページ</A>
+<A HREF="sylpheed-14.html">前のページ</A>
+<A HREF="sylpheed.html#toc15">目次へ</A>
+<HR>
+<H2><A NAME="junk-control"></A> <A NAME="s15">15.</A> <A HREF="sylpheed.html#toc15">迷惑メール対策</A></H2>
+
+<P>Sylpheedは外部コマンドと連携することで、自動的に迷惑メールをフィルタリングすることができます。</P>
+<H2><A NAME="ss15.1">15.1</A> <A HREF="sylpheed.html#toc15.1">迷惑メール対策機能の仕組み</A>
+</H2>
+
+<P>自動的に迷惑メールをフィルタリングするためには、まず学習型の迷惑メール判定プログラムが必要です。
+Sylpheedは現在、Sylpheed向けに新たに開発された
+<A HREF="http://sylpheed.sraoss.jp/sylfilter/">SylFilter</A>と、
+<A HREF="http://bogofilter.sourceforge.net/">bogofilter</A>、
+<A HREF="http://sourceforge.jp/projects/bsfilter/">bsfilter</A>に対応しています。</P>
+<P>Sylpheedは最初に迷惑メールと非迷惑メールをこれらのプログラムに渡して学習させます。学習を繰り返すことでこれらのプログラムはどんどん判定精度が向上していきます。</P>
+<P>迷惑メールと非迷惑メールの両方について十分に学習が済んだら(それぞれ50〜100通程度学習させれば問題ないでしょう)、受信したメールをこれらのプログラムに渡して、それが迷惑メールであるかどうか確認します。
+迷惑メールと判定された場合は、フォルダへの移動やサーバからの削除など、指定したアクションを実行します。</P>
+<P>もし誤判定があった場合は、そのメールを学習させることで判定精度をさらに向上させることができます。</P>
+<P>なお、迷惑メールと非迷惑メールのうち片方しか学習させていない状態では判定が行われませんので注意してください。</P>
+<H2><A NAME="ss15.2">15.2</A> <A HREF="sylpheed.html#toc15.2">迷惑メール対策機能を有効にする</A>
+</H2>
+
+<P>全般の設定の「迷惑メール」タブの「迷惑メール対策を有効にする」をチェックします。</P>
+<H2><A NAME="ss15.3">15.3</A> <A HREF="sylpheed.html#toc15.3">学習コマンドの設定</A>
+</H2>
+
+<P>迷惑メールを学習するためのコマンドを指定します。あらかじめbogofilterが使用できるように設定されています。Windows版の場合はsylfilterが設定されています(WindowsではSylFilterの使用を推奨しています)。</P>
+<P>「(プリセットを選択)」と書かれたオプションメニューで、sylfilter、bogofilter、bsfilterの既定の設定を選択することができます。</P>
+
+<H3>Windows版でbsfilterを使用する場合の注意</H3>
+
+<P>Windows版で管理者権限のないユーザでSylpheedを実行する場合、bsfilterはインストールされたディレクトリにファイルを書き込もうとするため、ファイルを書き込めずにエラーになります。その場合以下のいずれかの方法を行ってください。
+<UL>
+<LI>管理者権限をもつユーザでSylpheedを実行する</LI>
+<LI>環境変数 BSFILTERHOME に書き込み可能なディレクトリを指定する
+<P>
+<UL>
+<LI>「コントロールパネル - システムとメンテナンス - システム - システムの詳細設定 - 環境変数 - (ユーザ名) のユーザー環境変数」で「新規」を押す</LI>
+<LI>「変数名」に「BSFILTERHOME」、「変数値」に「C:\Users\(ユーザ名)\AppData\Roaming\Sylpheed」を入力して「OK」を押す</LI>
+</UL>
+</P>
+</LI>
+<LI>「全般の設定 - 迷惑メール - 学習コマンド」の各コマンドに
+--homedir "ディレクトリ" を追加する
+<P>例) bsfilterw.exe --homedir "C:\Users\(ユーザ名)\AppData\Roaming\Sylpheed" -C -s -u</P>
+</LI>
+</UL>
+</P>
+<P>なお、標準のProgram Filesフォルダにインストールした場合は、自動的に「C:\Users\(ユーザ名)\AppData\Local\VirtualStore\Program Files\Sylpheed」以下にリダイレクトされるため、上記の対策は特に必要ありません。</P>
+<H2><A NAME="ss15.4">15.4</A> <A HREF="sylpheed.html#toc15.4">アクションの設定</A>
+</H2>
+
+<P>迷惑メールと判定された場合にどのような動作を実行するかを指定します。</P>
+
+<H3>迷惑メールフォルダ</H3>
+
+<P>迷惑メールと判定されたメッセージはここで指定したフォルダに振り分けられます。</P>
+
+<H3>受信時に迷惑メールと判定されたメッセージを振り分ける</H3>
+
+<P>受信時に自動的に迷惑メールを振り分けたい場合は、これをチェックします。この振り分けは、通常のフィルタリングの後に実行されます。</P>
+<H3>通常の振り分けの前に迷惑メールを振り分ける</H3>
+
+<P>これにチェックを入れると、通常の振り分けの前に迷惑メールの振り分けが行われるようになります。</P>
+<H3>受信時に迷惑メールをサーバから削除する</H3>
+
+<P>メールをサーバに残す設定にしていた場合でも、強制的に迷惑メールをサーバから削除します。</P>
+<H3>差出人がアドレス帳に含まれる場合は迷惑メールと判定しない</H3>
+
+<P>差出人がアドレス帳に含まれる場合は既知の差出人として扱い、迷惑メールと判定しません。</P>
+<H3>振り分けた迷惑メールを既読にする</H3>
+
+<P>振り分けた迷惑メールの未読フラグを解除します。</P>
+<H2><A NAME="ss15.5">15.5</A> <A HREF="sylpheed.html#toc15.5">学習結果を初期化する</A>
+</H2>
+
+<P>学習を繰り返しても正しく判定されなくなったり、迷惑メールの判定に問題が生じた場合は、一度学習結果を初期化して学習をやり直すことで解決できる場合があります。</P>
+
+<H3>SylFilter</H3>
+
+<P>Windowsでは %APPDATA%\SylFilter 以下のファイルをすべて削除します。</P>
+<P>Unix/Linux環境では、~/.sylfilter 以下のファイルをすべて削除します。</P>
+<H3>bogofilter</H3>
+
+<P>Unix/Linux環境では、~/.bogofilter 以下のファイルをすべて削除します。</P>
+<H3>bsfilter</H3>
+
+<P>Unix/Linux環境では、~/.bsfilter 以下のファイルをすべて削除します。
+Windowsでは、Sylpheedをインストールしたフォルダ、または上記で設定したフォルダ内の以下のファイルをすべて削除します。
+<UL>
+<LI>C.clean.sdbm.*</LI>
+<LI>C.prob.sdbm.*</LI>
+<LI>C.spam.sdbm.*</LI>
+<LI>ja.clean.sdbm.*</LI>
+<LI>ja.prob.sdbm.*</LI>
+<LI>ja.spam.sdbm.*</LI>
+</UL>
+</P>
+<HR>
+<A HREF="sylpheed-16.html">次のページ</A>
+<A HREF="sylpheed-14.html">前のページ</A>
+<A HREF="sylpheed.html#toc15">目次へ</A>
+</BODY>
+</HTML>

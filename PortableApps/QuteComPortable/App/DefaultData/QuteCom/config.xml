@@ -1,0 +1,28 @@
+<settings>
+<audio.input.deviceid><stringlist>
+<elt>(default) Microsoft Sound Mapper - Input</elt>
+<elt>0</elt>
+<elt>DeviceTypeWaveIn</elt>
+</stringlist>
+</audio.input.deviceid>
+<audio.output.deviceid><stringlist>
+<elt>(default) Microsoft Sound Mapper - Output</elt>
+<elt>3</elt>
+<elt>DeviceTypeMasterVolume</elt>
+</stringlist>
+</audio.output.deviceid>
+<audio.ringer.deviceid><stringlist>
+<elt>(default) Microsoft Sound Mapper - Output</elt>
+<elt>3</elt>
+<elt>DeviceTypeMasterVolume</elt>
+</stringlist>
+</audio.ringer.deviceid>
+<chat.theme.variant><string>Blue on Green Alternating</string></chat.theme.variant>
+<config.version><int>15</int></config.version>
+<general.autostart><bool>0</bool></general.autostart>
+<language><string></string></language>
+<network.proxy.detected><bool>1</bool></network.proxy.detected>
+<profile.height><int>510</int></profile.height>
+<profile.width><int>333</int></profile.width>
+<video.enable><bool>0</bool></video.enable>
+</settings>

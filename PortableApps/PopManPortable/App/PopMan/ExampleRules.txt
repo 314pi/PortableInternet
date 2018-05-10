@@ -1,0 +1,69 @@
+# PopMan rules example file
+#
+# - Line comments start with # character
+# - Make sure that all parts (rules, list definitions, string definitions)
+#   are separated by blank lines
+# - You have to remove the first # character from the lines below or define your own rules
+
+
+# # The first rule with name "Spam":
+# [Name="Spam"]
+# Subject+Message+From+To contains any of BADWORDS OR Mail contains any of BAD_MAILSOURCE_CONTENTS AND
+# Subject+Message+From+To contains none of GOODWORDS
+# -> MarkForDelete, NotNew, Read
+
+
+# # Definition of a list of strings called "GOODWORDS":
+# define list GOODWORDS = {
+# 'Christian',
+# 'Hübner',
+# 'Huebner',
+# 'PopMan' }
+
+
+
+# define list BAD_MAILSOURCE_CONTENTS = {
+# VirusAttachment_RegEx   # Regular Expression to find attachments with certain endings (defined below)
+# }
+
+
+# define list BADWORDS = {
+# 'Viagra',  # Use single quotes for word search
+# "Casino",  # Use double quotes for unrestricted search
+# 'Penis',
+# 'Cialis',
+# 'Levitra',
+# 'Pharmacy',
+# 'pills',
+# 'erection',
+# 'Sex',
+# 'impotence',
+# "Ejaculation",
+# "Replica Watches",
+# "Online-Poker",
+# "Security Financing Services",
+# 'Exotic Slots',
+# 'sperms',
+# "today4free",
+# "F R E E",
+# "M O N E Y",
+# 'PORNO',
+# 'anal',
+# "SingleRussianGirls",
+# "Credit score",
+# "free games",
+# "Fickvideo",
+# 'Retail Price',
+# 'Ru~'mor',
+# Pills_RegEx,
+# Viagra_RegEx,
+# Cialis_RegEx  }
+
+# # A regular expression string is defined by prepending "regex:" before a "normal" string:
+# define string Viagra_RegEx = regex:"[Vv]+.?[Ii1]+.?[aA@]+.?[gG]+.?[rR]+.?[aA@]"
+
+# define string Cialis_RegEx = regex:"[Cc]+.?[Ii1]+.?[aA@]+.?[lL1]+.?[Ii1]+.?[sS\$]"
+
+# define string Pills_RegEx = regex:"[Pp]+.?[Ii1]+.?[Ll1]+.?[lL1]+.?[sS\$]"
+
+# define string VirusAttachment_RegEx = regex:"\<filename=[=\-\?\~"\.\w]+\.(pif|PIF|scr|SCR|com|COM|vbs|VBS|bat|BAT|exe|EXE|cmd|CMD|lnk|LNK|js|JS|vxd|VXD)\W"

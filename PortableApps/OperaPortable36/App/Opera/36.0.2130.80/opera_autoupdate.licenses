@@ -1,0 +1,277 @@
+This software includes the following third party libraries/code portions:
+
+ - libcurl, which is covered by the following license:
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright (c) 1996 - 2012, Daniel Stenberg, <daniel@haxx.se>.
+
+All rights reserved.
+
+Permission to use, copy, modify, and distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright
+notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not
+be used in advertising or otherwise to promote the sale, use or other dealings
+in this Software without prior written authorization of the copyright holder.
+
+- libxml, which is covered by the following license:
+
+Except where otherwise noted in the source code (e.g. the files hash.c,
+list.c and the trio files, which are covered by a similar licence but
+with different Copyright notices) all the files are:
+
+ Copyright (C) 1998-2003 Daniel Veillard.  All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is fur-
+nished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-
+NESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+DANIEL VEILLARD BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CON-
+NECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of Daniel Veillard shall not
+be used in advertising or otherwise to promote the sale, use or other deal-
+ings in this Software without prior written authorization from him.
+
+- chromium, which is covered by the following license:
+
+Copyright (c) 2013 The Chromium Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+- bspatch, which is covered by the following license:
+
+BSD Protection License
+February 2002
+
+Preamble
+--------
+
+The Berkeley Software Distribution ("BSD") license has proven very effective
+over the years at allowing for a wide spread of work throughout both
+commercial and non-commercial products.  For programmers whose primary
+intention is to improve the general quality of available software, it is
+arguable that there is no better license than the BSD license, as it
+permits improvements to be used wherever they will help, without idealogical
+or metallic constraint.
+
+This is of particular value to those who produce reference implementations
+of proposed standards: The case of TCP/IP clearly illustrates that freely
+and universally available implementations leads the rapid acceptance of
+standards -- often even being used instead of a de jure standard (eg, OSI
+network models).
+
+With the rapid proliferation of software licensed under the GNU General
+Public License, however, the continued success of this role is called into
+question.  Given that the inclusion of a few lines of "GPL-tainted" work
+into a larger body of work will result in restricted distribution -- and
+given that further work will likely build upon the "tainted" portions,
+making them difficult to remove at a future date -- there are inevitable
+circumstances where authors would, in order to protect their goal of
+providing for the widespread usage of their work, wish to guard against
+such "GPL-taint".
+
+In addition, one can imagine that companies which operate by producing and
+selling (possibly closed-source) code would wish to protect themselves
+against the rise of a GPL-licensed competitor.  While under existing
+licenses this would mean not releasing their code under any form of open
+license, if a license existed under which they could incorporate any
+improvements back into their own (commercial) products then they might be
+far more willing to provide for non-closed distribution.
+
+For the above reasons, we put forth this "BSD Protection License": A
+license designed to retain the freedom granted by the BSD license to use
+licensed works in a wide variety of settings, both non-commercial and
+commercial, while protecting the work from having future contributors
+restrict that freedom.
+
+The precise terms and conditions for copying, distribution, and
+modification follow.
+
+BSD PROTECTION LICENSE
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION, AND MODIFICATION
+----------------------------------------------------------------
+
+0. Definitions.
+   a) "Program", below, refers to any program or work distributed under
+      the terms of this license.
+   b) A "work based on the Program", below, refers to either the Program
+      or any derivative work under copyright law.
+   c) "Modification", below, refers to the act of creating derivative works.
+   d) "You", below, refers to each licensee.
+
+1. Scope.
+   This license governs the copying, distribution, and modification of the
+   Program.  Other activities are outside the scope of this license; The
+   act of running the Program is not restricted, and the output from the
+   Program is covered only if its contents constitute a work based on the
+   Program.
+
+2. Verbatim copies.
+   You may copy and distribute verbatim copies of the Program as you
+   receive it, in any medium, provided that you conspicuously and
+   appropriately publish on each copy an appropriate copyright notice; keep
+   intact all the notices that refer to this License and to the absence of
+   any warranty; and give any other recipients of the Program a copy of this
+   License along with the Program.
+
+3. Modification and redistribution under closed license.
+   You may modify your copy or copies of the Program, and distribute
+   the resulting derivative works, provided that you meet the
+   following conditions:
+   a) The copyright notice and disclaimer on the Program must be reproduced
+      and included in the source code, documentation, and/or other materials
+      provided in a manner in which such notices are normally distributed.
+   b) The derivative work must be clearly identified as such, in order that
+      it may not be confused with the original work.
+   c) The license under which the derivative work is distributed must
+      expressly prohibit the distribution of further derivative works.
+
+4. Modification and redistribution under open license.
+   You may modify your copy or copies of the Program, and distribute
+   the resulting derivative works, provided that you meet the
+   following conditions:
+   a) The copyright notice and disclaimer on the Program must be reproduced
+      and included in the source code, documentation, and/or other materials
+      provided in a manner in which such notices are normally distributed.
+   b) You must clearly indicate the nature and date of any changes made
+      to the Program.  The full details need not necessarily be included in
+      the individual modified files, provided that each modified file is
+      clearly marked as such and instructions are included on where the
+      full details of the modifications may be found.
+   c) You must cause any work that you distribute or publish, that in whole
+      or in part contains or is derived from the Program or any part
+      thereof, to be licensed as a whole at no charge to all third
+      parties under the terms of this License.
+
+5. Implied acceptance.
+   You may not copy or distribute the Program or any derivative works except
+   as expressly provided under this license.  Consequently, any such action
+   will be taken as implied acceptance of the terms of this license.
+
+6. NO WARRANTY.
+   THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+   INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+   AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+   THE COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+   REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE FOR ANY DIRECT,
+   INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+   ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING, BUT
+   NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+   USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+   ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+   TORT, EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGES.
+
+- googleurl, which is covered by the following license:   
+   
+Copyright 2007, Google Inc.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+    * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+
+The file url_parse.cc is based on nsURLParsers.cc from Mozilla. This file is
+licensed separately as follows:
+
+The contents of this file are subject to the Mozilla Public License Version
+1.1 (the "License"); you may not use this file except in compliance with
+the License. You may obtain a copy of the License at
+http://www.mozilla.org/MPL/
+
+Software distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specific language governing rights and limitations under the
+License.
+
+The Original Code is mozilla.org code.
+
+The Initial Developer of the Original Code is
+Netscape Communications Corporation.
+Portions created by the Initial Developer are Copyright (C) 1998
+the Initial Developer. All Rights Reserved.
+
+Contributor(s):
+  Darin Fisher (original author)
+
+Alternatively, the contents of this file may be used under the terms of
+either the GNU General Public License Version 2 or later (the "GPL"), or
+the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+in which case the provisions of the GPL or the LGPL are applicable instead
+of those above. If you wish to allow use of your version of this file only
+under the terms of either the GPL or the LGPL, and not to allow others to
+use your version of this file under the terms of the MPL, indicate your
+decision by deleting the provisions above and replace them with the notice
+and other provisions required by the GPL or the LGPL. If you do not delete
+the provisions above, a recipient may use your version of this file under
+the terms of any one of the MPL, the GPL or the LGPL.
+

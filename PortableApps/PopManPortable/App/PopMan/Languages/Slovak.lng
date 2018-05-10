@@ -1,0 +1,522 @@
+[File Info]
+
+Language=Slovak
+Author=SlovakSoft http://www.slovaksoft.com
+Email=info@slovaksoft.com
+Date=05/10/2005
+Comment=PopMan 1.3 Slovak Translation
+LangID=27
+
+
+[Translations]
+
+Not connected<=>Nepripojené
+Connection failure<=>Pripojenie zlyhalo
+Canceled<=>Zrušené
+Invalid server response<=>Neplatná odozva servera
+Timeout<=>Èasovı limit vypršal
+Login failed<=>Prihlásenie zlyhalo
+Message not found<=>Nenašla sa správa
+Server failure: Message not found!<=>Chyba servera: Nenašla sa správa!
+Busy<=>Zaneprázdnené
+Ready<=>Pripravené
+Connecting...<=>Pripájanie...
+Connected!<=>Pripojené!
+Login...<=>Prihlasovanie...
+Successfully logged in!<=>Úspešne prihlásené!
+Loading message ...<=>Naèítanie správy...
+Loading message {1} of {2} ...<=>Naèítanie správy è.{1} z {2}
+Deleting message {1} of {2} ...<=>Odstraòovanie správy è.{1} z {2}
+
+# Update Wizard
+
+Update Wizard<=>Sprievodca aktualizáciou
+There are no updates available.<=>Nie sú dostupné iadne aktualizácie.
+There is a new version {1} available!<=>Je dostupná nová verzie {1}!
+There is a new {1} Beta version available!<=>Je dostupná nová beta verzia {1}!
+Click "Next" to update your copy of PopMan...<=>Kliknutím na "Ïalej" vykonáte aktualizáciu vašej kópie programu PopMan...
+Unable to retrieve version infomation!<=>Nemono získa informácie o verzii!
+Error number: {1}<=>Èíslo chyby: {1}
+Welcome to the PopMan Update Wizard<=>Vitajte v Sprievodcovi aktualizáciou programu PopMan  
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Sprievodca sa teraz pripojí na webovı server PopMan, aby skontroloval aktualizácie. Ak  je dostupná nová verzia, automaticky budú stiahnuté a nainštalované všetky potrebné súbory.
+Failed to load Decompress.dll!<=>Naèítanie Decompress.dll zlyhalo!
+Initializing...<=>Spúšanie...
+Do you really want to cancel the update process?<=>Naozaj chcete proces aktualizácie zruši?
+Update process failed!<=>Proces aktualizácie zlyhal!
+Error while downloading initialization file!<=>Chyba pri sahovaní spúšacieho súboru!
+No updates available.<=>iadne aktualizácie nie sú dostupné.
+Failed to retrieve temporary directory!<=>Získanie doèasného prieèinka zlyhalo!
+Saving {1} ...<=>Ukladanie {1}...
+Failed to create directory:<=>Zlyhalo vytvorenie prieèinka:
+Failed to decompress file:<=>Zlyhala dekompresia súboru:
+Failed to download file:<=>Zlyhalo stiahnutie súboru:
+(checksum error)<=>(chyba kontrolného súètu)
+Please try again later.<=>Skúste prosím neskôr.
+Error while saving downloaded file!<=>Chyba pri ukladaní stiahnutého súboru!
+All files downloaded successfully.<=>Všetky súbory úspešne stiahnuté.
+Press the "Finish" button to complete the update process...<=>Proces aktualizácie dokonèíte kliknutím na tlaèidlo "Dokonèi"...
+Failed to initialize the final copy process!<=>Spustenie vıslednej kópie zlyhalo!
+Downloading {1} ...<=>Sahovanie {1}...
+Progress all:<=>Celkovı priebeh:
+Progress current file:<=>Priebeh aktuálneho súboru:
+Download of updated files<=>Stiahnu aktualizované súbory
+
+# Import Accounts Dialog
+
+Account<=>Úèet
+User<=>Uívate¾
+Server<=>Server
+Port<=>Port
+Please select the accounts that you want to import from Outlook Express.<=>Zvo¾te prosím úèty, ktoré chcete importova z Outlook Express.
+&Properties...<=>&Vlastnosti
+OK<=>OK
+Cancel<=>Zruši
+Import email accounts<=>Import e-mailovıch úètov
+Description<=>Popis
+
+# Account Dialog
+
+General<=>Všeobecné
+Advanced<=>Rozšírené
+Please enter the account name!<=>Zadajte prosím názov úètu!
+Please enter the address of the POP3 server!<=>Zadajte prosím adresu POP3 servera!
+Please enter user name!<=>Zadajte prosím uívate¾ské meno!
+Account name:<=>Názov úètu:
+POP3 server:<=>POP3 server
+Port:<=>Port:
+User name:<=>Uív.meno:
+Password:<=>Heslo:
+Include this account when receiving mail<=>Zahrnú tento úèet pri prijímaní pošty
+1 minute<=>1 minúta
+{1} minutes<=>{1} minút
+1 second<=>1 sekunda
+{1} seconds<=>{1} sekúnd
+Colors<=>Farby
+Use individual font color:<=>Poui vlastnú farbu písma:
+Circle color in system tray:<=>Farba v systém.lište:
+Server Timeouts<=>Èasovı limit servera
+Short<=>Krátky
+Long<=>Dlhı
+Load big emails incompletely<=>Ve¾ké e-maily nenaèíta celé
+Limit size:<=>Limit ve¾kosti:
+
+# Accounts Dialog
+
+Mail Accounts<=>Poštové úèty
+&Add...<=>Prid&a...
+&Remove<=>Odst&ráni
+Move &up<=>Na&hor
+Move &down<=>Na&dol
+&Close<=>&Zavrie
+
+# Download Dialog
+
+Loading the following mail:<=>Naèítanie tejto pošty:
+Loading Mail...<=>Naèítanie pošty...
+
+# Password Dialog
+
+Password - {1}<=>Heslo - {1}
+Enter the password of the following server.<=>Zadajte heslo pre tento server:
+Server:<=>Server:
+Remember password<=>Pamäta si heslo
+Password incorrect! Please note that the password is case-sensitive.<=>Heslo je nesprávne!  V hesle sa rozlišujú malé/ve¾ké písmená.
+Please enter the password.<=>Zadajte prosím heslo.
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Stanovte prosím, kam chcete uloi e-maily.
+The specified folder does not exist!<=>Urèenı prieèinok neexistuje!
+Please specify a template for the file names.<=>Zadajte prosím šablónu názvov súborov.
+A file name must not contain any of the following characters:<=>Názov súboru nesmie obsahova iadny z nasledovnıch znakov: 
+Invalid template! Use a combination of the following placeholders:<=>Neplatná šablóna! Pouite prosím kombináciu:
+Subject<=>Predmet
+From<=>Od
+To<=>Komu
+Date<=>Dátum
+Time<=>Èas
+Save As...<=>Uloi ako...
+Destination<=>Cie¾.umiestnenie
+Folder:<=>Prieèinok:
+Browse...<=>Preh¾adáva
+Save Format<=>Uloi formát
+Template For File Names<=>Šablóna názvov súborov
+Email File (*.eml)<=>Súbor e-mailu (*.eml)
+Text File (*.txt)<=>Text.súbor (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Súbor "{1}" neexistuje!
+Sound (*.wav)<=>Zvuk (*.wav)
+Notify when new mail arrives<=>Oznámi prijatie novej pošty
+Always<=>Vdy
+When AutoChecked or minimized<=>Pri autom.kontrole alebo minimalizácii
+Only when minimized<=>Len pri minimalizácii
+On new mail<=>Pri novej pošte
+Acoustic notification<=>Zvukové oznámenie
+Sound:<=>Zvuk:
+&Test<=>&Test
+Show PopMan window<=>Zobrazi okno PopMan
+Show new mail tip<=>Zobrazi oznam o novej pošte
+Include sender and subject of new mails<=>Vrátane odosielate¾a a predmetu novej pošty
+Use balloon tip<=>Poui bublinovı oznam
+Unread Messages<=>Nepreèítané správy
+Display unread messages in bold font<=>Nepreèítané správy zobrazi tuène
+Preview Pane<=>Okno s náh¾adom
+Use the preview pane to quickly view a message without opening a separate window.<=>Poui okno náh¾adu na rıchle zobrazenie správy bez otvorenia samostatného okna.
+Show preview pane<=>Zobrazi okno s náh¾adom
+Be&low messages<=>&Pod správami
+Be&side messages<=>&Ved¾a správ
+Use logging to record all data communication between PopMan and the email server.<=>Vytvára záznam všetkıch dát v komunikácii medzi PopMan a e-mailovım serverom
+Enable logging<=>Zapnú záznam
+Enable error logging<=>Zapnú záznam chıb
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(ak sa vyskytne problém v komunikácii s e-mailovım serverom, záznam je uloenı v samostatnom súbore) 
+Log file size:<=>Ve¾kos záznamu:
+KB<=>KB
+Location of the log file "PopManLogFile.log":<=>Umiestnenie súboru záznamu "PopManLogFile.log":
+Use dial-up networking<=>Poui vytáèanú sie
+Launch PopMan on Windows startup<=>Spusti PopMan pri štarte Windows
+Check for new mail on startup<=>Skontrolova pri spustení novú poštu
+First wait<=>Najprv poèka
+seconds<=>sekúnd
+X button hides to tray<=>Minimalizova do lišty tlaèidlom X
+Min button hides to tray<=>Minimalizova do lišty tlaèidlom _ 
+Delete confirmation in main window<=>Odstráni potvrdenie v hlavnom okne
+Delete confirmation in preview pane and message window<=>Odstráni potvrdenie v okne s náh¾adom a v okne správy 
+Enable password protection:<=>Zapnú ochranu heslom:
+Timer interval:<=>Èasovı interval:
+minutes<=>minút
+AutoCheck only while minimized<=>Autom.kontrola len v minimalizovanom stave
+Don't check between:<=>Nekontrolova od:
+and<=>do:
+Executable (*.exe)<=>Spustite¾né (*.exe)
+Hide PopMan to tray<=>Skry PopMan do lišty
+Quit PopMan<=>Ukonèi PopMan
+Email client:<=>E-mailovı klient:
+When launching email client:<=>Pri spustení e-mail.klienta:
+When replying<=>Pri odpovedaní
+Use temporary eml file (Outlook Express)<=>Poui doèasnı .eml súbor (Outlook Express)
+Use mailto (without quotted original message)<=>Poui -mailto- (bez uvedenia pôvodnej správy)
+Use MAPI<=>Poui MAPI
+Use HTML linebreaks in reply body<=>Poui v tele odpovede HTML odde¾ovaèe riadkov
+Enforce email address (Yahoo! Mail)<=>Vnúti e-mailovú adresu
+Number of messages<=>Poèet  správ
+Show number of messages in tray icon<=>Zobrazi na ikone v lište poèet správ
+Show number of all messages<=>Zobrazi poèet všetkıch správ
+Show number of unread messages<=>Zobrazi poèet nepreèítanıch správ
+Show number of new messages<=>Zobrazi poèet novıch správ
+Rotate icon for each account<=>Meni ikonu pod¾a úètu
+Rotation interval:<=>Interval zmeny:
+tenths of a second<=>tenths sekundy
+Show advanced account info<=>Zobrazi rozšírené info o úète
+Enable HighColor icons in system tray<=>Zapnú HighColor ikony v systém.lište
+Nothing<=>Niè
+Show Window<=>Zobrazi okno
+Check Mail<=>Skontrolova poštu
+PopUp Menu<=>Vyskakovacie menu
+Run Email Client<=>Spusti e-mail.klienta
+Check And Show<=>Skontrolova a zobrazi
+Toggle Window<=>Prepínaè okna
+Toggle AutoCheck<=>Prepínaè autom.kontroly
+Show Mail Info<=>Zobrazi info o pošte
+Tray Mouse Actions<=>Akcie myšou v lište 
+Left Click:<=>Kliknutie ¾avım:
+Right Click:<=>Kliknutie pravım:
+Middle Click:<=>Kliknutie strednım:
+Double Click:<=>Dvojité kliknutie:
+Double click delay on click<=>Pauza medzi kliknutím
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Tu si môete vybra spomedzi prekladov, ktoré sú nainštalované v systéme.{BR}Ak nenájdete váš jazyk, navštívte prosím webstránku PopMan:
+Language:<=>Jazyk:
+Author:<=>Autor:
+Email:<=>E-mail:
+Updated:<=>Aktualizované:
+Comment:<=>Komentár:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Inicializácia ovládaèa RichEdit zlyhala.
+Source - "{1}"<=>Zdroj - "{1}"
+
+# Main Window
+
+Options<=>Monosti
+AutoCheck<=>Autom.kontrola
+Notification<=>Oznamovanie
+Email Client<=>E-mail.klient
+View<=>Zobrazi
+Tray Icon<=>Ikona v lište 
+Language<=>Jazyk
+Mouse Actions<=>Akcie myšou
+Logging<=>Zaznamenávanie
+&File<=>&Súbor
+&Accounts...<=>Úè&ty...
+&Update{TAB}F5<=>A&ktualizova{TAB}F5
+&Cancel{TAB}Esc<=>&Zruši{TAB}Esc
+&Open...{TAB}Ctrl+O<=>&Otvori...{TAB}Ctrl+O
+Sou&rce...<=>Z&droj...
+&Save As...{TAB}Ctrl+S<=>Uloi &ako...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Odpo&veda odosielate¾ovi{TAB}Ctrl+R
+&Delete{TAB}Del<=>Vy&maza{TAB}Del
+&Exit<=>&Ukonèi
+&View<=>&Zobrazi
+&Toolbar<=>&Panel nástrojov
+&Statusbar<=>&Stavovı riadok
+&Tools<=>&Nástroje
+&Font...<=>Pís&mo...
+Font &Color...<=>&Farba písma...
+Launch &Email Client{TAB}Ctrl+E<=>Spusti &e-mal.klienta{TAB}Ctrl+E
+&Import Accounts...<=>&Importova úèty...
+&Options<=>&Monosti
+&Help<=>Pomo&cník
+&Help Topics...{TAB}F1<=>O&bsah Pomocníka...{TAB}F1
+Check For &Updates<=>Kontrola &aktualizácií
+&About PopMan...<=>O progra&me PopMan...
+Edit email accounts.{BR}Accounts<=>Upravi e-mailové úèty.{BR}Úèty
+Update email listing.{BR}Update<=>Aktualizova zoznam e-mailov.{BR}Aktualizova 
+Cancel current operation.{BR}Cancel<=>Zruši aktuálnu operáciu.{BR}Zruši
+Show email content.{BR}Show<=>Zobrazi obsah e-mailu.{BR}Zobrazi
+Show source code of this email.{BR}Source code<=>Zobrazi zdrojovı kód tohto e-mailu.{BR}Zdrojovı kód
+Save selected email to file.{BR}Save<=>Uloi vybranı e-mail do súboru.{BR}Uloi
+Create a reply message to the sender.{BR}Reply<=>Odpoveda odosielate¾ovi.{BR}Odpoveda
+Delete selected emails.{BR}Delete<=>Vymaza vybrané e-maily.{BR}Vymaza
+Quit the application.{BR}Exit<=>Ukonèi aplikáciu.{BR}Ukonèi
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Zobrazi alebo skry panel nástrojov.{BR}Prepínaè panela nástrojov
+Show or hide the status bar.{BR}Toggle StatusBar<=>Zobrazi alebo skry stavovı riadok.{BR}Prepínaè panela nástrojov
+Change font.{BR}Font<=>Zmeni písmo.{BR}Písmo
+Change font color.{BR}Font Color<=>Zmeni farbu písma.{BR}Farba písma
+Launch email client.{BR}Email Client<=>Spusti e-mail.klienta.{BR}Email.klient
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importova e-mailové úèty z Outlook Express.{BR}Importova úèty 
+Change program settings.{BR}Settings<=>Zmeni nastavenia programu.{BR}Nastavenie
+Show Help Topics.{BR}Help<=>Zobrazi obsah Pomocníka.{BR}Pomocník
+Check if a new version is available.{BR}Check for updates<=>Skontrolova dostupnos aktualizácií.{BR}Kontrola aktualizácií
+Display program information, version number and copyright.{BR}About<=>Zobrazi informácie o programe, verzii a autorskıch právach.{BR}O programe
+Show the main window.{BR}Show<=>Zobrazi hlavné okno.{BR}Zobrazi
+Enable AutoChecking.{BR}Enable<=>Zapnú autom.kontrolu.{BR}Zapnú
+Open the selected attachment.{BR}Open<=>Otvori vybranú prílohu.{BR}Otvori
+Save the selected attachments.{BR}Save<=>Uloi vybranú prílohu.{BR}Uloi
+Save all attachments.{BR}Save All<=>Uloi všetky prílohy.{BR}Uloi všetko
+Change the window size.<=>Zmeni ve¾kos okna.
+Change the window position.<=>Zmeni pozíciu okna.
+Reduce the window to an icon.<=>Minimalizova okno do ikony.
+Enlarge the window to full size.<=>Maximalizova okno.
+Close the active window.<=>Zavrie aktívne okno.
+Restore the window to normal size.<=>Obnovi okno do normálnej ve¾kosti.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>&Tlaèi...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Zavrie{TAB}Esc
+&Edit<=>&Upravi
+&Cut{TAB}Ctrl+X<=>&Vystrihnú{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>K&opírova{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Prilepi{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&H¾ada...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>H¾ada ï&alej{TAB}F3
+Select &All{TAB}Ctrl+A<=>Vybra vš&etko{TAB}Ctrl+A
+Print this email.{BR}Print<=>Vytlaèi tento e-mail.{BR}Tlaèi
+Delete this email.{BR}Delete<=>Vymaza tento e-mail.{BR}Vymaza
+Close window.{BR}Close<=>Zavrie okno.{BR}Zavrie
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Vystrihnú vıber a vloi ho do schránky.{BR}Vystrihnú 
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Kopírova vıber a vloi ho do schránky.{BR}Kopírova
+Insert Clipboard contents.{BR}Paste<=>Vloi obsah schránky.{BR}Prilepi
+Find the specified text.{BR}Find<=>H¾ada urèitı text.{BR}H¾ada
+Find next occurence of specified text.{BR}Find next<=>H¾ada ïalší vıskyt urèeného textu.{BR}H¾ada ïalej
+Select the entire message.{BR}Select All<=>Vybra celú správu.{BR}Vybra všetko
+"{1}" not found.<=>"{1}" sa nenašlo.
+&Open<=>&Otvori
+&Save As...<=>Uloi &ako...
+Save &All...<=>Uloi &všetko...
+This attachment can not be accessed anymore.<=>Túto prílohu nemono kedyko¾vek otvori.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>Zdá sa, e "{1}" obsahuje vírus, èerva alebo inı druh nebezpeèného kódu!
+Opening this file is therefore denied.<=>Preto bolo otvorenie tohto odoprené.
+Do you really want to save this file to your hard disk?<=>Naozaj chcete uloi tento súbor na pevnı disk?
+Attachment<=>Príloha
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Zdá sa, e tieto prílohy obsahujú vírus, èerva alebo inı druh nebezpeèného kódu!
+Do you really want to save these files to your hard disk?<=>Naozaj chcete uloi tieto prílohy na pevná disk?
+Please specify where to save the attachments.<=>Zvo¾te prosím umiestnenie uloenia príloh. 
+The file "{1}" does already exist!{BR}Overwrite it?<=>Súbor "{1}" u existuje! Prepísa ho?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Stiahnutie e-mailu zlyhalo.{BR}Stlaèením Ctrl+F5 aktualizujte zoznam e-mailov a skúste znova.
+Are you sure you want to delete this email?<=>Naozaj chcete tento e-mail vymaza?
+Deleting email failed!<=>Vymazanie e-mailu zlyhalo!
+From:<=>Od:
+Date:<=>Dátum:
+To:<=>Komu:
+Subject:<=>Predmet:
+Attach:<=>Príloha:
+
+# PopMan Start
+
+Please start one instance only.<=>Spuste prosím program len raz.
+Windows socket init failed.<=>Inicializácia Windows socket zlyhala.
+{1} Beta version has been updated successfully!<=>{1} Beta verzia úspešne aktualizovaná!
+You have successfully updated to version {1} !<=>Úspešne ste aktualizovali na verziu {1} !
+About PopMan<=>O programe PopMan
+PopMan, Version {1}<=>PopMan verzia {1}
+Website:<=>Webstránka:
+
+# Document
+
+The error log file "{1}" could not be created.<=>Súbor záznamu chıb "{1}" nemono vytvori.
+Checking {1}...<=>Kontrola {1}...
+Error while writing to the log file:<=>Chyba pri zápise do súboru záznamu: 
+Logging disabled!<=>Zaznamenávanie vypnuté!
+Email (*.eml)<=>Email (*.eml)
+Text (*.txt)<=>Text (*.txt)
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Súbor záznamu "{1}" nemohol by otvorenı.{BR}Zaznamenávanie vypnuté!
+Unable to load mail system support.<=>Nemono naèíta systém podpory pošty.
+Mail system DLL is invalid.<=>Systémová DLL pošty je neplatná.
+Unable to detect if a new version is available.<=>Nemono zisti, èi je dostupná nová verzia.
+There is no update available.<=>iadne aktualizácie nie sú dostupné.
+Do you want to start the update wizard and download the latest version?<=>Chcete spusti Sprievodcu aktualizáciou a stiahnu najnovšiu verziu?
+Deleting mail...<=>Vymazávanie pošty...
+Downloading mail...<=>Sahovanie pošty...
+AutoCheck disabled<=>Autom.kontrola vypnutá
+No messages<=>iadne správy
+1 new message<=>1 nová správa
+{1} new messages<=>Nové správy: {1}
+PopMan - New Mail<=>PopMan - Nová pošta
+&Open PopMan<=>&Otvori PopMan
+Check &Mail<=>&Skontrolova poštu
+&Cancel<=>&Zruši
+&Email Client<=>&E-mailovı klient
+A&utoCheck Enabled<=>A&utom.kontrola zapnutá
+O&ptions...<=>Monost&i...
+&About...<=>O progra&me...
+E&xit<=>&Ukonèi
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>Správy: {1}. (nepreèítané: {2}, nové: {3}){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - Info o pošte
+1 message<=>1 správa
+{1} messages<=>Správy: {1}
+1 unread message<=>1 nepreèítaná správa
+{1} unread messages<=>Nepreèítané správy: {1}
+in {1}<=>na {1}
+in {1} accounts<=>na {1} úètoch
+Show<=>Zobrazi
+Delete<=>Vymaza
+Close<=>Zavrie
+(last check: {1})<=>(posledná kontrola: {1})
+
+# Main View
+
+Size<=>Ve¾kos
+Received<=>Prijaté
+Are you sure you want to delete the selected email?<=>Naozaj chcete vymaza vybranı e-mail?
+Are you sure you want to delete the {1} selected emails?<=>Naozaj chcete vymaza vybrané e-maily: {1} ?
+
+# 10/22/2005
+
+Can not change account settings while there are busy accounts.<=>
+Please enter the address of the Server!<=>
+Protocol:<=>
+Use custom AutoCheck timer interval<=>
+Load all emails completely<=>
+Retrieve header and {1} lines of message body<=>
+Number of lines:<=>
+Parameters<=>
+Invalid parameter string!<=>
+Default<=>
+Black List<=>
+Messages from senders in the list below will be deleted automatically from the server.<=>
+Address:<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>
+Enter address<=>
+Enter the password of the following account.<=>
+Account:<=>
+Flash keyboard light:<=>
+Enable custom AutoCheck interval per account:<=>
+Interval<=>
+Custom<=>
+Launch email client with command line parameter:<=>
+Sent<=>
+Priority<=>
+UserAgent<=>
+High<=>
+Low<=>
+Normal<=>
+&Block Sender<=>
+This will add the following email addresses to the Black List:<=>
+Note: All future emails from senders on the Black List will be deleted automatically!<=>
+&Themes<=>
+&Black List...<=>
+Add sender to Black List.{BR}Block Sender<=>
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>
+Edit list of blocked senders.{BR}BlackList<=>
+Separate account | All<=>
+Check accounts{TAB}F7<=>
+Join with tab<=>
+Rename tab{TAB}F2<=>
+You have to add at least one account before you can switch to tab view.<=>
+Caption:<=>
+Please enter the caption of the tab:<=>
+Rename tab<=>
+Tab accounts:<=>
+Copy Link Address<=>
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>
+Delete command marks message for deletion<=>
+&Unmark{TAB}Ins<=>
+Empty Trash<=>
+Delete &Marked Emails{TAB}F12<=>
+&Hide Marked Messages<=>
+Tab &View{TAB}Ctrl+M<=>
+&Rules...<=>
+Delete marked emails.{BR}Delete marked emails<=>
+Unmark (undelete) selected emails.{BR}Unmark<=>
+Hide messages that are marked for delete.{BR}Hide marked messages<=>
+Edit the rules.{BR}Rules<=>
+Don't display this &message again.<=>
+You are about to irrevocably delete all marked messages.<=>
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>
+You can also delete selected messages immediately by pressing Shift+Del.<=>
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>
+Error while parsing rules file at line {1}!<=>
+
+# 09/30/2007
+
+Load small emails completely<=>
+Small emails are < <=>
+Add item to Rules list<=>
+Destination List<=>
+New Item<=>
+Item Type<=>
+Word<=>
+String<=>
+Regular Expression<=>
+Only log compact mail info instead of entire data traffic<=>
+Enable logging of applied rules<=>
+Rules<=>
+Move Marked Messages to Tr&ash Tab<=>
+Add Item To Rules &List...{TAB}F9<=>
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>
+Add item to Rules list.{BR}Add To List<=>
+Forum:<=>
+Failed to add item to Rules list!<=>
+Trash<=>
+The item is already contained in the list!<=>
+
+# 10/14/2007
+
+White List<=>
+Messages from senders in the list below will never be deleted automatically.<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>
+&Trust Sender<=>
+This will add the following email addresses to the White List:<=>
+&White List...<=>
+Add sender to White List.{BR}Trust Sender<=>
+Edit list of trusted senders.{BR}WhiteList<=>
+Suspend New Mail Notification Sound.{BR}Mute<=>
+Mu&te Mode<=>
+Mark All Mails Read<=>
+Mark All Mails Unread<=>
+
+# 04/10/2010
+
+Type<=>
+Limit tips to [PROTECTED] messages<=>
+[PROTECTED]<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Protocol plugin not initialized correctly!<=>
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>

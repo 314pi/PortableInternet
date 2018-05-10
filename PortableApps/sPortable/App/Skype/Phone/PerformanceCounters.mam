@@ -1,0 +1,200 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+
+<instrumentationManifest
+  xmlns="http://schemas.microsoft.com/win/2004/08/events"
+  xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <instrumentation>
+    <counters
+      xmlns="http://schemas.microsoft.com/win/2005/12/counters"
+      schemaVersion="2.0">
+
+      <provider
+        applicationIdentity = "C:\Program Files (x86)\Skype\Phone\Skype.exe"
+        providerGuid = "{006FABB8-86C0-453D-B6E8-33BF5EF47E80}"
+        providerName = "Skype"
+        providerType = "userMode"
+        symbol = "Skype">
+
+        <counterSet guid = "{62BDCE87-0B44-46AF-B4C9-FB5383368029}"
+          uri = "Skype.PerfCounters.UI"
+          symbol = "Skype"
+          name = "Skype"
+          nameID ="1002"
+          description = "Skype metrics"
+          descriptionID = "1004"
+          instances = "multipleAggregate">
+
+          <counter
+            id = "1"
+            type = "perf_average_bulk"
+            baseID = "2"
+            uri = "Skype.PerfCounters.UI.AsyncQueueProcessedItemsInOneIteration"
+            name = "Async queue items/iteration"
+            nameID = "2002"
+            description = "Number of requestst processed by single iteration"
+            descriptionID = "2004"
+            aggregate = "avg"
+            detailLevel = "advanced"
+            defaultScale = "0">
+          </counter>
+
+          <counter
+            id = "2"
+            type = "perf_average_base"
+            uri = "Skype.PerfCounters.UI.AsyncQueueProcessingIterations"
+            name = "Async queue iterations"
+            nameID = "2006"
+            description = "Number of times queue was processed"
+            descriptionID = "2008"
+            detailLevel = "advanced">
+            <counterAttributes>
+              <counterAttribute name = "noDisplay" />
+            </counterAttributes>
+          </counter>
+
+          <counter
+            id = "3"
+            type = "perf_counter_bulk_count"
+            uri = "Skype.PerfCounters.UI.AsyncQueueProcessedItems"
+            name = "Async queue items/sec"
+            nameID = "2010"
+            description = "Number of async requests processed"
+            descriptionID = "2012"
+            aggregate = "sum"
+            detailLevel = "advanced"
+            defaultScale = "0">
+          </counter>
+
+          <counter
+            id = "4"
+            type = "perf_average_timer"
+            baseID = "5"
+            uri = "Skype.PerfCounters.UI.AsyncQueueWaitTime"
+            name = "Async queue wait time"
+            nameID = "2014"
+            description = "Time an async request spends in queue before processing"
+            descriptionID = "2016"
+            aggregate = "avg"
+            detailLevel = "advanced"
+            defaultScale = "3">
+          </counter>
+
+          <counter
+            id = "5"
+            type = "perf_average_base"
+            uri = "Skype.PerfCounters.UI.AsyncQueueWaitBase"
+            name = "Async request dequeued"
+            nameID = "2022"
+            description = "Number of items dequeued"
+            descriptionID = "2024"
+            detailLevel = "advanced">
+            <counterAttributes>
+              <counterAttribute name = "noDisplay" />
+            </counterAttributes>
+          </counter>
+
+          <counter
+            id = "6"
+            type = "perf_average_timer"
+            baseID = "7"
+            uri = "Skype.PerfCounters.UI.InvokeAsyncTime"
+            name = "Async method invocation time"
+            nameID = "2026"
+            description = "Average time of async method invocation"
+            descriptionID = "2028"
+            aggregate = "avg"
+            detailLevel = "advanced"
+            defaultScale = "4">
+          </counter>
+
+          <counter
+            id = "7"
+            type = "perf_average_base"
+            uri = "Skype.PerfCounters.UI.InvokeAsyncCount"
+            name = "Async method invocation count"
+            nameID = "2030"
+            description = "Number of async method invocations"
+            descriptionID = "2032"
+            detailLevel = "advanced">
+            <counterAttributes>
+              <counterAttribute name = "noDisplay" />
+            </counterAttributes>
+          </counter>
+
+          <counter
+            id = "8"
+            type = "perf_average_timer"
+            baseID = "9"
+            uri = "Skype.PerfCounters.UI.EventQueueWaitTime"
+            name = "Event queue wait time"
+            nameID = "2034"
+            description = "Time an event request spends in queue before processing"
+            descriptionID = "2036"
+            aggregate = "avg"
+            detailLevel = "advanced"
+            defaultScale = "3">
+          </counter>
+
+          <counter
+            id = "9"
+            type = "perf_average_base"
+            uri = "Skype.PerfCounters.UI.EventQueueWaitBase"
+            name = "Event request dequeued"
+            nameID = "2038"
+            description = "Number of event items dequeued"
+            descriptionID = "2040"
+            detailLevel = "advanced">
+            <counterAttributes>
+              <counterAttribute name = "noDisplay" />
+            </counterAttributes>
+          </counter>
+
+          <counter
+            id = "10"
+            type = "perf_average_bulk"
+            baseID = "11"
+            uri = "Skype.PerfCounters.UI.EventQueueProcessedItemsInOneIteration"
+            name = "Event queue items/iteration"
+            nameID = "2042"
+            description = "Number of events processed by single iteration"
+            descriptionID = "2044"
+            aggregate = "avg"
+            detailLevel = "advanced"
+            defaultScale = "0">
+          </counter>
+
+          <counter
+            id = "11"
+            type = "perf_average_base"
+            uri = "Skype.PerfCounters.UI.EventQueueProcessingIterations"
+            name = "Event queue iterations"
+            nameID = "2046"
+            description = "Number of times queue was processed"
+            descriptionID = "2048"
+            detailLevel = "advanced">
+            <counterAttributes>
+              <counterAttribute name = "noDisplay" />
+            </counterAttributes>
+          </counter>
+
+          <counter
+            id = "12"
+            type = "perf_counter_bulk_count"
+            uri = "Skype.PerfCounters.UI.EventQueueProcessedItems"
+            name = "Event queue items/sec"
+            nameID = "2050"
+            description = "Number of events processed"
+            descriptionID = "2052"
+            aggregate = "sum"
+            detailLevel = "advanced"
+            defaultScale = "0">
+          </counter>
+
+        </counterSet>
+      </provider>
+    </counters>
+  </instrumentation>
+</instrumentationManifest>

@@ -1,0 +1,64 @@
+Features							| Priority
+================================================================|==========
+Log program messages						| Normal
+Save independently the user/password for each file		| Low
+Add mirror automatic search					| Low
+Add HTTPS support						| Low
+Add progress bar for each download on the List			| Low
+Add Proxy support						| Done
+Look for the config file on the program directory		| Done
+Add support to more segments					| Done
+Add a checkbox on the New Downloads to add a file on list's top | Done
+Update on the list only the actived downloads			| Done
+Option to Enable/disable check for new releases			| Done
+Add download status auto save every 10 sec			| Done 
+Add Polish language						| Done
+Add generic bandwidth control					| Done
+Add bandwidth control for each download				| Done
+Add Zip Preview window						| Done
+Add metalink support						| Done
+Add routine to check new releases				| Done
+Allows to edit the URL on "New Download" box			| Done
+Add option to show/hide the progress bar			| Done
+Add multi segmented progress bar				| Done
+Add option to change the default temporary dir			| Done
+Redesign of the "About..." box					| Done
+Add new parameter "--reference"				| Done
+Update the program icons					| Done
+Add option to show/hide the graph				| Done
+Allow to add multiples URL to download				| Done
+Add routine to check if the file size has changed		| Done
+Add support to downloads by file:// (local files)		| Done
+Allows to pass a download list (parameter "--list")		| Done
+Allows to pass multiples urls by the command line		| Done
+Add Schedule option						| Done
+Add transference rate graph					| Done
+Add tray icon popup menu					| Done
+Fix bug when stopping download takes too long			| Done
+Add control of simultaneous tasks				| Done
+Routine to start scheduled file according to the queue		| Done
+Routine to shutdown the PC when finish all downloads		| Done
+Routine to disconnect when finish all downloads			| Done
+Create the "Options" box					| Done
+Fix problem when removing in progress downloads		| Done
+Add option to export/import the configuration file		| Done
+Routine to allow start just one session of the program		| Done
+Routine to check the MD5 and compare with the old one		| Done
+Show dialog when removing finished downloads			| Done
+Allows to move a file for another folder			| Done
+Save default destination path					| Done
+Add "Language" menu						| Done
+Add "Details" menu						| Done
+Check if the file name is valid				| Done
+Check if support restarts, if not remove the file		| Done
+Check if the download already was finished			| Done
+Save Splitters and tree positions				| Done
+Add a "Download Properties" box					| Done
+Add a "Find" box						| Done
+Add MD5 check sum verification					| Done
+Add HTTP redirection support					| Done
+Add option to download a file again				| Done
+Add support to FTP with USER and PASSWORD			| Done
+Routine to perform a defined number of tries if fails		| Done
+Add HTTP support						| Done
+Add FTP support							| Done

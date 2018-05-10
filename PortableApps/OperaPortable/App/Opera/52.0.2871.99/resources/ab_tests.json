@@ -1,0 +1,22 @@
+// Dtgs1Alo4MnC//bndr3POG+pkOZaMbnLv+K8W9DJ4pFksa74HSqc2l1hEqr1zrS1okDxjHI7J9nSS3zsH21Wq/8DDOF9J0eg2syKZvvQL6G3esZithK5WBXOVFhjyskadEg2eJ5IwzPoAg2vP7gNtF30AqUBznWtDiFXmfGojRex+Vc7EOMvAt/3FTlIuKpP1T8BYUBNjYSeSc9EcajNCDnSrPNE17xGOKpjGnYJaUenoGq+Y+Kz0bz0w0LztaYRWsZsLI6FVdYTvMi+shiHdDPqgWolkw/uHqmg2WPQhfM24IOSMEtcmP2XS6V+iLyPuiTyL/QjbHvX2qHKte15fA==
+{
+  "version": 20180309,
+  "News on start page": {
+    "total_test_percentage": 20,
+    "test_state": 1,
+    "test_groups" : [
+      {
+        "name": "Reference group",
+        "preferences": {
+          "startpage.news_ab_test_enabled" : false
+        }
+      },
+      {
+        "name": "News enabled",
+        "preferences": {
+          "startpage.news_ab_test_enabled" : true
+        }
+      }
+    ]
+  }
+}

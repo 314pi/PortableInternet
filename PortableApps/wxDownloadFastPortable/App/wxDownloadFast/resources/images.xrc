@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created by Max Velasques-->
+<resource version="2.3.0.1">
+    <object class="wxBitmap" name="stop_png">RipStop/menubar/stop.png</object>
+    <object class="wxBitmap" name="start_png">RipStop/menubar/start.png</object>
+    <object class="wxBitmap" name="completed_png">RipStop/menubar/completed.png</object>
+    <object class="wxBitmap" name="error_png">RipStop/menubar/error.png</object>
+    <object class="wxBitmap" name="scheduled_png">RipStop/menubar/scheduled.png</object>
+    <object class="wxBitmap" name="schedule_png">RipStop/menubar/schedule.png</object>
+    <object class="wxBitmap" name="wxdfast_png">RipStop/icon/wxdfast.png</object>
+    
+    <object class="wxBitmap" name="remove_png">RipStop/menubar/remove.png</object>
+    <object class="wxBitmap" name="properties_png">RipStop/menubar/properties.png</object>
+    <object class="wxBitmap" name="copyurl_png">RipStop/menubar/copyurl.png</object>
+    <object class="wxBitmap" name="copydata_png">RipStop/menubar/copydata.png</object>
+
+    <object class="wxBitmap" name="new_png">RipStop/menubar/new.png</object>    
+    <object class="wxBitmap" name="quit_png">RipStop/menubar/quit.png</object>
+</resource>

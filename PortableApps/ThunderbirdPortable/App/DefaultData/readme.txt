@@ -1,0 +1,1 @@
+DefaultData is used by Thunderbird Portable to construct a set of default data.  It is not where you put your own files.

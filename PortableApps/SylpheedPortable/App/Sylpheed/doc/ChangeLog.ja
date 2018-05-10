@@ -1,0 +1,7238 @@
+2009-06-10
+
+	* ChangeLog は今後英語でのみ記述するようにしました。
+
+2009-06-10
+
+	* plugin-test ブランチを trunk にマージ。
+
+2009-03-23
+
+	* src/mainwindow.c: 現在のアカウントが POP3 の場合だけ「リモート
+	  メールボックス」を有効にするようにした。
+
+2009-03-19
+
+	* src/folderview.c: 送信待ちフォルダのコンテキストメニューでは
+	  「すべて読んだことにする」の代わりに「送信待機中のメッセージを
+	  送信」を表示するようにした。
+
+2009-03-17
+
+	* libsylph/prefs.c: prefs_file_close(): win32: Unix の fsync() と
+	  同様に _commit() を使用するようにした。
+
+2009-03-17
+
+	* libsylph/prefs.c: prefs_file_close(): fsync() が失敗したら処理を
+	  中断するようにした。
+
+2009-03-17
+
+	* libsylph/prefs.c
+	  configure.in: prefs_file_close(): fclose() の前に fflush() と
+	  fsync() を行うようにした(データロスの可能性を減らすため)。
+
+2009-03-16
+
+	* libsylph/utils.[ch]
+	  libsylph/mh.c: g_link(): Unix で無限ループに陥るバグを修正。
+	  g_link を syl_link に名称変更。
+
+2009-03-13
+
+	* libsylph/utils.[ch]
+	  libsylph/mh.c: win32: 利用できる場合は CreateHardLink() を使用
+	  するようにした。これにより受信時のファイル I/O を向上。
+
+2009-02-27
+
+	* libsylph/prefs_common.c
+	  src/prefs_common_dialog.c: spam フィルタのデフォルトのコマンド
+	  ラインオプションを変更(逆判定取消オプションを追加)。
+
+2009-02-25
+
+	* src/addr_compl.c: add_address(): name == NULL の場合(csv の
+	  インポートで発生する可能性がある)クラッシュするのを修正
+	  (Simon Effenberg さん thanks)。
+
+2008-12-26
+
+	* libsylph/procmime.c: procmime_decode_content(): 8192 バイトを
+	  超える行を正しく処理するようにした。
+
+2008-12-19
+
+	* version 2.6.0
+
+2008-12-15
+
+	* libsylph/procmime.c: procmime_parse_mime_parameter(): 変数名を
+	  修正。
+
+2008-12-11
+
+	* libsylph/mbox.c
+	  libsylph/smtp.[ch]
+	  src/inc.c: MSGBUFSIZE を改名または削除(OpenBSD のヘッダファイルと
+	  衝突するため)。
+
+2008-12-11
+
+	* libsylph/procmime.c: procmime_parse_mime_parameter(): 生 JIS
+	  ファイル名への対策を行った(Eudora 等)。
+
+2008-12-03
+
+	* libsylph/socket.[ch]
+	  libsylph/session.c: 最近の glibc のヘッダファイル
+	  (/usr/include/bits/socket.h) との競合を避けるため、
+	  SockFlags enum に SYL_ プレフィクスを付加(Michael Schwendt
+	  さん thanks)。
+
+2008-12-01
+
+	* version 2.6.0rc
+
+2008-11-28
+
+	* libsylph/news.c
+	  libsylph/imap.c: news/imap アカウントを削除するとき、サーバ名
+	  のキャッシュディレクトリが空になったら削除するようにした。
+
+2008-11-27
+
+	* src/foldersel.c: フォルダビューで展開されているフォルダのみ展開
+	  するようにした。
+
+2008-11-27
+
+	* libsylph/prefs.[ch]: バックアップ世代数を設定可能にした。
+	* libsylph/pop.c: pop3_write_uidl_list(): 古いバックアップを保存
+	  しないようにした。
+
+2008-11-27
+
+	* src/addressbook.c: addressbook_refresh(): 差出人をアドレス帳に
+	  追加した際にアドレス帳ウィンドウが更新されなかったバグを修正。
+
+2008-11-25
+
+	* libsylph/mbox.c: proc_mbox_full(): 非迷惑メール・非削除・未読の
+	  メッセージのみカウントするようにした(Otinov Sergey さん thanks)。
+
+2008-11-25
+
+	* src/foldersel.[ch]
+	  src/summaryview.c
+	  src/mainwindow.c: フォルダ選択ダイアログにメッセージラベルを追加。
+
+2008-11-25
+
+	* src/main.c: #include <conio.h> を _getch() のために追加(Gisle Vanem
+	  さん thanks)。
+
+2008-11-20
+
+	* src/addressbook.c
+	  src/editgroup.c
+	  src/gtkutils.c
+	  src/select-keys.c
+	  src/addr_compl.c
+	  src/prefs_summary_column.c
+	  src/prefs_display_items.c: GTK+ >= 2.13.3 への対処として、
+	  gtk/gtk.h を include するようにした。
+
+2008-11-19
+
+	* libsylph/session.c: session_connect(): session->server がセット
+	  されないバグを修正。
+
+2008-11-19
+
+	* src/foldersel.c: FOLDER_SEL_ALL モードでない時は仮想フォルダを
+	  選択不可にした。
+
+2008-11-19
+
+	* libsylph/prefs.c: prefs_file_close(): 4世代にわたってバックアップ
+	  を保持するようにした。
+
+2008-11-14
+
+	* version 2.6.0beta2
+
+2008-11-14
+
+	* src/rpop3.c: GtkUIManager を使用してメニューを追加。
+
+2008-11-14
+
+	* src/prefs_toolbar.c: POP3 リモートメールボックスのアイコンに
+	  GTK_STOCK_NETWORK を使用するようにした。
+
+2008-11-13
+
+	* po/Makefile.in.in: datarootdir のために更新。
+	* missing: 更新。
+
+2008-11-13
+
+	* src/jpilot.c: 文字コード変換を独立した関数にした。
+	  コードの整理。
+
+2008-10-07
+
+	* src/prefs_toolbar.[ch]
+	  src/mainwindow.[ch]: ツールバーに POP3 リモートメールボックス
+	  ボタンを追加。
+
+2008-10-07
+
+	* src/mainwindow.c: メールの受信の動作中は「/メッセージ/受信/
+	  リモートメールボックス...」を無効にするようにした。
+
+2008-10-03
+
+	* manual/ja/sylpheed.sgml: 日本語マニュアルを更新。
+
+2008-10-01
+
+	* src/rpop3.c: サブジェクト、日付、サイズによるソートを修正。
+
+2008-09-29
+
+	* version 2.6.0beta1
+
+2008-09-29
+
+	* src/main.c
+	  libsylph/codeconv.c: HAVE_LOCALE_H と ENABLE_NLS をチェックする
+	  ようにした(Enrico Troger さん thanks)。
+
+2008-09-26
+
+	* src/inc.c
+	  src/progressdialog.[ch]
+	  src/send_message.c: 進行状況ダイアログに進行状況カラムを追加。
+
+2008-09-26
+
+	* src/messageview.c
+	  src/summaryview.c
+	  src/mainwindow.c
+	  src/prefs_filter_edit.[ch]
+	  src/prefs_filter.[ch]: フィルタルールの自動作成時、対象のヘッダ
+	  フィールドをデフォルトのフィルタ名として使用するようにした。
+
+2008-09-25
+
+	* src/rpop3.c: セッションのタイムアウトを回避するために30秒ごとに
+	  NOOP コマンドを送信するようにした。
+
+2008-09-24
+
+	* src/inputdialog.c: 非表示モードで戻り文字列をデバッグ出力しない
+	  ようにした。
+	* libsylph/imap.c: imap_parse_envelope(): ""RFC822.HEADER{...}"
+	  のような応答を許容するようにした(一部の正しくないサーバへの対処)。
+
+2008-09-24
+
+	* src/rpop3.c: ログアウト時に「切断中...」を表示。
+
+2008-09-19
+
+	* src/rpop3.c: スタイルを修正。
+	* configure.in: バージョンを更新。
+
+2008-09-19
+
+	* libsylph/socket.c: G_IO_NVAL も処理するようにした。
+	* src/rpop3.c: ヘッダの取得を停止する「停止」ボタンを追加。
+
+2008-09-18
+
+	* src/rpop3.c: 接続時のキャンセルを可能にした。
+
+2008-09-18
+
+	* src/rpop3.c: メッセージの受信を実装。
+
+2008-09-18
+
+	* src/rpop3.c: タイムアウトを追加。エラー時にダイアログを表示。
+
+2008-09-17
+
+	* libsylph/pop.c
+	  src/rpop3.c: カラム幅を調整。メッセージの表示を実装。
+
+2008-09-17
+
+	* libsylph/pop.[ch]: 一部の関数を static でなくした。
+	  pop3_session_new(): サーバ、ポート、ユーザ ID 、パスワードをセット
+	  するようにした。
+	* src/inc.c: libsylph/pop.[ch] の変更に追従。
+	* src/rpop3.[ch]
+	  src/mainwindow.c: 最初のリモート POP3 メールボックス機能の実装。
+	  現在はメッセージの削除のみ可能。
+
+2008-07-16
+
+	* src/compose.[ch]: Enchant サポートを修正。
+	  ユーザ指定の言語がマッチしない場合 'en' 辞書を強制指定するように
+	  した。
+
+2008-07-10
+
+	* libsylph/imap.c: imap_add_inter_folders(): エラーチェックの追加。
+
+2008-07-09
+
+	* libsylph/imap.c: imap_get_folder_list(): 中間フォルダを追加する
+	  ようにした(IMAP サーバによっては 'LIST "" "*"' で \NoSelect な
+	  親フォルダを返さないため)。
+
+2008-07-04
+
+	* src/main.c: win32: console が初期化されていてもウィンドウ
+	  メッセージを処理するようにした。
+
+2008-07-04
+
+	* src/main.c: win32: console ctrl イベントを処理するようにした。
+	  すべての設定ファイルを読み込んだ後に register_system_events()
+	  を呼ぶようにした。
+
+2008-06-27
+
+	* configure.in
+	  src/compose.c: GtkSpell 2.0.13 (with Enchant) に対応
+	  (Michael Schwendt さん thanks)。
+	* Makefile.am: 不要な ACLOCAL_AMFLAGS を削除。
+	* config.guess
+	  ltmain.sh
+	  config.sub: 更新。
+
+2008-06-20
+
+	* src/main.c: Unix で SIGHUP/SIGINT/SIGTERM/SIGQUIT シグナルを処理
+	  するようにした。関数を Win32 と共通化。
+
+2008-06-19
+
+	* libsylph/codeconv.[ch]:
+	  conv_set_autodetect_type()
+	  conv_get_autodetect_type(): 文字エンコーディングの自動判別の動作を
+	  変更する関数を追加。
+
+2008-06-18
+
+	* libsylph/procmime.c: procmime_scan_mime_header(): ファイルタイプ
+	  を決定するのに MimeInfo::filename も使用するようにした。
+
+2008-06-17
+
+	* version 2.5.0
+
+2008-06-17
+
+	* sylpheed.desktop: ポーランド語の翻訳を追加(Jan Stepien さん
+	  thanks)。
+
+2008-06-06
+
+	* version 2.5.0rc2
+
+2008-06-06
+
+	* src/template.c: template_load(): 8KB を超えるテンプレート本文を
+	  読めない制限をなくした。
+
+2008-06-06
+
+	* INSTALL
+	  INSTALL.ja: GnuPG/GPGME の URL を修正。
+	* configure.in: GPGME >= 1.0.0 を要求するようにした。
+	* src/about.c: コピーライトの年を更新。
+
+2008-06-05
+
+	* libsylph/codeconv.c: conv_get_locale_charset(): ロケール文字列中の
+	  "utf8" を UTF-8 として認識するようにした(一部の文字化けを修正)。
+
+2008-06-05
+
+	* libsylph/procmime.c: procmime_scan_encoding(): コメント付きの
+	  Content-Transfer-Encoding を修正。
+
+2008-05-22
+
+	* src/summaryview.c: summary_display_msg_idle_func(): クラッシュを
+	  修正(Michael Schwendt さん thanks)。
+
+2008-05-19
+
+	* version 2.5.0rc
+
+2008-05-16
+
+	* src/compose.c: 署名/暗号化に失敗した場合はエラーダイアログを表示。
+	* src/select-keys.c: ウィンドウの位置とフォーカスを修正。
+
+2008-05-14
+
+	* src/summaryview.c: summary_display_msg_full(): テキストビューから
+	  サマリビューへフォーカスを移さないようにした。
+
+2008-05-08
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.[ch]: 最大化の状態を記憶するようにした。
+
+2008-04-30
+
+	* sylpheed.desktop: 警告の修正とドイツ語の翻訳を追加(Enrico Troger
+	  さん thanks)。
+	* Makefile.am: sylpheed.desktop と sylpheed-64x64.png をインストール
+	  するようにした。
+
+2008-04-24
+
+	* version 2.5.0beta3
+
+2008-04-24
+
+	* libsylph/prefs_common[ch]
+	  src/compose.c
+	  src/prefs_common_dialog.c: 宛先確認で除外するアドレス/ドメインの
+	  オプションを追加。
+
+2008-04-24
+
+	* src/compose.c: compose_check_attachments(): 引用行を除外する
+	  ようにした。
+	* src/prefs_common_dialog.c: 英語を修正。
+
+2008-04-11
+
+	* version 2.5.0beta2
+
+2008-04-11
+
+	* src/summaryview.c: 検索バーが表示されていない場合はクイック検索
+	  条件をリセットするようにした。
+
+2008-04-11
+
+	* src/gtkutils.h: include が抜けていたのを追加。
+
+2008-04-10
+
+	* src/quick_search.c
+	  src/mainwindow.c: 「編集/クイック検索」メニューを追加。
+	  送信控/草稿/送信待ちフォルダで To: ヘッダも検索するようにした。
+
+2008-04-10
+
+	* src/gtkutils.[ch]
+	  src/prefs_account_dialog.c: 設定適用時にアドレス、サーバのエントリ
+	  の前後の空白を除去するようにした。
+
+2008-04-09
+
+	* libsylph/session.c
+	  src/send_message.c: SMTP サーバへの接続が失敗した場合常にエラー
+	  ダイアログを表示。
+
+2008-04-08
+
+	* src/compose.c: compose_check_recipients(): GSList のリークを修正。
+
+2008-04-08
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.c
+	  src/prefs_common_dialog.c: 送信前に宛先を確認するオプションを追加。
+
+2008-03-28
+
+	* src/compose.c: 添付プロパティダイアログを閉じたら削除するように
+	  した。
+
+2008-03-28
+
+	* libsylph/prefs_common.[ch]
+	  src/prefs_common_dialog.c
+	  src/compose.c: 添付ファイル忘れを確認する機能を追加。
+
+2008-03-27
+
+	* src/query_search.c: 検索が完了したときに検索ヒット数を表示する
+	  ようにした。
+
+2008-03-19
+
+	* src/main.c: parse_cmd_opt(): win32: 絶対パスが正しく扱われて
+	  いなかったバグを修正。
+
+2008-03-13
+
+	* src/addr_compl.c: get_completion_address(): 引用すべき文字を追加。
+	  get_address_from_edit(): ',' と空白以外の文字を有効として扱う
+	  ようにした。
+
+2008-02-29
+
+	* src/quick_search.c: #include <gtk/gtkentry.h> が足りなかったので
+	  追加。
+
+2008-02-29
+
+	* src/summaryview.c: フィルタモードでの新着・未読ステータス表示を修正。
+
+2008-02-29
+
+	* version 2.5.0beta1
+
+2008-02-28
+
+	* src/prefs_common_dialog.c: 引用の記号の説明ダイアログを閉じる
+	  ボタンで閉じた後二度と現れなくなるバグを修正。
+
+2008-02-15
+
+	* libsylph/socket.c:
+	  sock_connect_async_cb()
+	  sock_connect_address_list_async(): G_IO_ERR と G_IO_HUP も見る
+	  ようにした(接続が即座に拒否された場合ビジーループになるのを修正)。
+
+2008-02-15
+
+	* libsylph/ssl.c
+	  src/sslmanager.c: SSL 証明書を保存し、常に受け入れる機能を追加。
+
+2008-01-08
+
+	* src/quick_search.c: quick_search_create(): メニュー変更時の
+	  クラッシュを修正。
+
+2007-12-28
+
+	* libsylph/enums.h
+	  libsylph/prefs_common.[ch]
+	  src/quick_search.[ch]
+	  src/summaryview.[ch]
+	  src/mainwindow.[ch]
+	  src/Makefile.am: 垂直ビューを実装。クイック検索を別モジュールに分離。
+
+2007-12-27
+
+	* libsylph/prefs_common.[ch]
+	  src/messageview.c
+	  src/prefs_common_dialog.c: 「HTML のみのメッセージを添付として
+	  扱う」オプションを追加。
+
+2007-12-27
+
+	* configure.in
+	  src/Makefile.am: win32 以外のプラットフォームで windres を有効に
+	  しないようにした。
+
+2007-12-21
+
+	* version 2.4.8
+
+2007-12-21
+
+	* src/main.c: wndproc(): win32: WM_ENDSESSION を受信したら
+	  app_will_exit() を呼び出すようにした(フォルダツリーの状態が保存
+	  されない等の修正)。
+
+2007-12-20
+
+	* src/summaryview.c: summary_show(): GTK+ 2.12 使用時に1メッセージ
+	  のみのフォルダでビープ音が鳴るのを修正。
+
+2007-12-18
+
+	* src/syldap.c: syldap_display_search_results(): 警告をさらに修正。
+
+2007-12-17
+
+	* src/syldap.c: メモリリークを修正(Michael Schwendt さん thanks)。
+	  syldap_display_search_results(): 警告を修正 (Michael Schwendt さん
+	  thanks)。
+
+2007-12-07
+
+	* libsylph/codeconv.c: conv_encode_header(): B または Q
+	  エンコーディングを決定するのに MB_CUR_MAX ではなく送信
+	  エンコーディングを使用するようにした。
+
+2007-11-08
+
+	* libsylph/utils.c: my_memmem(): バッファオーバーランバグを修正
+	  (ただし未使用)。
+
+2007-10-11
+
+	* src/messageview.c: messageview_set_menu_state(): 送信フォルダ以外で
+	  「メッセージ/再編集」メニューを無効にした。
+
+2007-10-03
+
+	* version 2.4.7
+
+2007-09-28
+
+	* src/compose.c
+	  src/select-keys.c: ASCII 包装 PGP 暗号化使用時にクラッシュするバグを
+	  修正。
+
+2007-09-27
+
+	* libsylph/folder.c: folder_item_compare(): 仮想フォルダが正しく
+	  ソートされないバグを修正。
+
+2007-09-27
+
+	* src/summaryview.[ch]: 十分な幅がない場合に自動的にリサイズするように
+	  ステータスラベルを修正。
+
+2007-09-26
+
+	* src/mainwindow.c: main_window_separation_change(): 分離状態が変更
+	  された場合、以前のフォーカスを保持するようにした。
+
+2007-09-20
+
+	libsylph/utils.c
+	libsylph/procmsg.c
+	libsylph/procmsg.h
+	libsylph/procmime.c
+	libsylph/imap.c
+	src/addrcache.c
+	src/compose.c
+	src/inc.c
+	src/trayicon.c
+	src/printing.c
+	src/addressbook.c
+	src/prefs_toolbar.c
+	src/editbook.c
+	src/ldif.c
+	src/mimeview.c
+	src/importcsv.c
+	src/main.c
+	src/gtkshruler.c
+	src/send_message.c
+	src/rfc2015.c
+	src/summaryview.c
+	src/mainwindow.c
+	src/manage_window.c
+	src/prefs_display_items.c: -Wall で出力されるすべての警告を除去。
+
+2007-09-20
+
+	* src/prefs_common_dialog.c: 「サマリの表示項目を設定...」ボタンが
+	  常に送信フォルダの設定を表示していたバグを修正。
+
+2007-09-19
+
+	* version 2.4.6
+
+2007-09-19
+
+	* libsylph/filter.c: filter_apply_msginfo(): パスフレーズダイアログ
+	  を避けるため自動復号化を無効にした。
+
+2007-09-18
+
+	* src/compose.c: 添付ファイルの読み込みに失敗したらエラーを表示して
+	  送信を中断するようにした。
+
+2007-09-14
+
+	* libsylph/imap.c: imap_create_folder(): \NoInferior と \Noselect
+	  フラグをチェックするようにした。
+
+2007-09-14
+
+	* libsylph/folder.[ch]: folder_item_copy(): 新規。 FolderItem 構造体
+	  を複製する。
+	* libsylph/imap.c: imap_scan_tree(): フォルダリストを取得するとき
+	  'LIST "" "%"' コマンドの代わりに 'LIST "" "*"' コマンドを使用する
+	  ようにした。
+
+2007-09-14
+
+	* src/inc.[ch]
+	  src/summaryview.c: 受信時に新着メッセージが読まれたら新着通知を
+	  ブロックするようにした。
+
+2007-09-13
+
+	* src/summaryview.c: summary_cmp_by_to(): 簡略化した To ヘッダを
+	  使用して比較。
+
+2007-09-13
+
+	* libsylph/procheader.[ch]: procheader_get_toname(): 追加。
+	* src/summaryview.c: summary_set_row(): To ヘッダを簡略化するように
+	  した。
+
+2007-09-13
+
+	* libsylph/procmsg.[ch]: procmsg_set_auto_decrypt_message(): 追加。
+	* src/query_search.c: query_search_folder(): クエリ検索時はパス
+	  フレーズダイアログを出さないようにした。
+
+2007-09-12
+
+	* libsylph/enums.h
+	  libsylph/folder.h
+	  libsylph/prefs_common.[ch]
+	  src/summaryview.c
+	  src/prefs_summary_column.[ch]
+	  src/mainwindow.c: サマリビューに「宛先」カラムを追加。宛先カラム
+	  は送信フォルダ(送信控、草稿、送信待ち)でデフォルトで表示される。
+	  送信フォルダと通常フォルダの表示カラム設定を独立させた。
+
+2007-09-10
+
+	* src/compose.c
+	  src/rfc2015.[ch]: PGP/MIME での暗号化と署名に combined method
+	  を使用するようにした。
+	  rfc2015_encrypt_sign(): 追加。
+	  rfc2015_encrypt_sign_armored(): メモリリークを修正。
+
+2007-09-07
+
+	* src/compose.c
+	  src/rfc2015.[ch]: 正しい ASCII 包装 PGP 暗号化を実装。
+	  rfc2015_encrypt_armored()
+	  rfc2015_encrypt_sign_armored(): 追加。
+
+2007-08-31
+
+	* version 2.4.5
+
+2007-08-31
+
+	* src/addr_compl.c: get_complete_address(): アドレス補完に別の
+	  フォーマット文字列バグがあったのを修正(Megaman 9703 さん thanks)。
+
+2007-08-23
+
+	* src/compose.c: compose_is_itemized(): '--' も結合しないようにした。
+
+2007-08-23
+
+	* libsylph/codeconv.c: conv_get_current_locale(): cur_locale = ""
+	  の場合を修正(Elohin Igor' さん thanks)。
+
+2007-08-23
+
+	* src/inc.c: inc_put_error(): フォーマット文字列脆弱性を修正
+	  (Ulf Harnhammar (Secunia Research) さん thanks)。
+
+2007-07-20
+
+	* version 2.4.4
+
+2007-07-20
+
+	* src/compose.c: compose_reply(): メモリリークを修正。
+
+2007-07-20
+
+	* libsylph/socket.c: ssl_read(); win32: 不規則なエラーメッセージを
+	  避けるために errno を EIO に設定するようにした。
+	* src/send_message.c: send_message_smtp(): QUIT 直後のエラーを無視する
+	  ようにした(Gmail の SMTP サーバへの対策)。
+
+2007-07-18
+
+	* src/compose.c: compose_parse_source_msg(): 誤ったnullチェックを修正。
+
+2007-07-17
+
+	* src/mimeview.c: mimeview_reply(): 返信後にファイルを削除。
+
+2007-07-17
+
+	* src/compose.c
+	  src/send_message.[ch]: send_message_set_reply_flag(): 返信フラグ
+	  を追加する場合は返信対象の Message-Id をチェックするようにした。
+
+2007-07-13
+
+	* libsylph/prefs_common.[ch]: prefs_common_junk_folder_rename_path():
+	  追加。
+	* src/folderview.c: フォルダが名称変更された場合は迷惑メールフォルダ
+	  のパスも更新するようにした。
+
+2007-07-13
+
+	* libsylph/filter.c: filter_rule_rename_dest_path()
+	  filter_rule_delete_action_by_dest_path(): パスセパレータを修正
+	  (win32: フォルダの名称変更でフィルタアクションが修正されないバグを
+	  修正)。
+
+2007-07-12
+
+	* src/compose.[ch]
+	  src/send_message.[ch]: 送信後返信・転送マーク付加を
+	  リファクタリング。
+	* libsylph/procmsg.c: デバッグ print を削除。
+
+2007-07-11
+
+	* libsylph/folder.[ch]: folder_find_item_and_num_from_id(): 追加。
+	* src/compose.c
+	  src/send_message.c: コードの整理。
+
+2007-07-11
+
+	* src/editbook.c: win32: 名前エントリがキー入力を受け付けないバグを
+	  修正。
+
+2007-07-10
+
+	* src/compose.c
+	  src/mimeview.[ch]
+	  src/send_message.c: 添付された message/rfc822 メッセージに返信
+	  する機能を追加。
+	* src/quote_fmt_parse.y: MsgInfo::folder のチェックを削除。
+
+2007-07-10
+
+	* src/compose.c: 再編集時に返信/転送対象を再取得するようにした。
+	* src/send_message.c: send_get_queue_info(): メモリリークを修正。
+
+2007-07-09
+
+	* src/compose.c
+	  src/send_message.[ch]: 送信待ちからの送信後返信・転送マーク付加
+	  を実装。
+
+2007-07-09
+
+	* src/compose.c: 送信後転送マーク付加を実装。
+
+2007-07-09
+
+	* libsylph/procmsg.[ch]: procmsg_get_msginfo(): 追加。
+	* src/compose.c
+	  src/summaryview.[ch]: 送信後返信マーク付加を実装。
+
+2007-06-26
+
+	* version 2.4.3
+
+2007-06-25
+
+	* src/addressbook.c: addressbook_format_address(): クラッシュ防止の
+	  ために person の null チェックを行うようにした(Michael Schwendt
+	  さん thanks)。
+
+2007-06-22
+
+	* src/about.c: カーソルを開始位置に置くようにした(win32 での意図し
+	  ないスクロールを修正)。
+
+2007-06-15
+
+	* src/manage_window.c: manage_window_set_transient(): 親ウィンドウを
+	  強制的にポップアップするようにした(メインウィンドウが隠れている
+	  場合にダイアログが見えなくなる問題を修正)。
+2007-06-11
+
+	* libsylph/socket.[ch]: sock_add_watch_poll() を追加。
+	* libsylph/session.c: win32: データの送信中はブロッキングソケットを
+	  使用するようにした(ダイアルアップ接続で送信中にSMTPが停止する問題
+	  を修正)。
+
+2007-06-08
+
+	* src/compose.c: compose_get_signature_str(): BOM 付き UTF-8 に対応。
+
+2007-06-07
+
+	* libsylph/session.c: session_ping_cb(): 接続されていない場合は中断
+	  するようにした。
+
+2007-06-04
+
+	* src/summaryview.c: Escape キーが押されたら検索エントリをクリアする
+	  ようにした。
+
+2007-05-28
+
+	* src/compose.c: compose_exec_ext_editor(): win32: pid を取得でき
+	  なかった場合に無限ループに陥るのを修正。
+
+2007-05-28
+
+	* src/filesel.c: filesel_select_file_full(): ダイアログが開いている
+	  間は自動受信を実行しないようにした。
+
+2007-05-18
+
+	* version 2.4.2
+
+2007-05-18
+
+	* src/main.c: open_message(): メモリリークを修正。
+
+2007-05-18
+
+	* libsylph/utils.[ch]: uriencode_for_mailto(): 新規。
+	* src/textview.c: '+' を保護するために mailto: を URI エンコード
+	  するようにした。
+
+2007-05-17
+
+	* src/main.c
+	  src/mainwindow.c: ヘルプメッセージに --open を追加。
+
+2007-05-16
+
+	* src/summaryview.[ch]: summary_mark_all_read(): フラグの立った
+	  メッセージのみを変更することで IMAP4 での性能を向上。
+
+2007-05-16
+
+	* libsylph/utils.[ch]:
+	  extract_parenthesis_with_escape()
+	  extract_quote_with_escape(): 追加。
+	* libsylph/procheader.c: procheader_get_fromname(): quoted-pair
+	  を適切に扱うようにした。
+
+2007-05-15
+
+	* libsylph/procmime.[ch]: procmime_get_encoding_for_str(): 追加。
+	* src/compose.c: compose_write_to_file(): 本文の文字コードが
+	  ISO-2022-JP の場合のみ行末の空白を削除するようにした。その他の
+	  場合は quoted-printable または base64 を使用。
+
+2007-05-14
+
+	* src/summaryview.c: クイック検索のキーがリフレッシュ時に保持される
+	  ようにした。クイック検索の更新時に選択状態が保持されるようにした。
+
+2007-05-10
+
+	* libsylph/folder.c: qsearch_cond_type がセッション間で保持される
+	  ようにした。
+
+2007-05-10
+
+	* src/mainwindow.c: main_window_set_toolbar_sensitive(): GTK+ のバグ
+	  (Bug 56070 - Can't click button after setting it sensitive.)
+	  への対策を行った。
+
+2007-05-10
+
+	* src/summaryview.c: 持続するクイック検索フィルタでステータスが誤って
+	  いたのを修正。
+
+2007-05-10
+
+	* libsylph/folder.[ch]: FolderItem に qsearch_cond_type を追加。
+	* libsylph/prefs_common.[ch]: persist_qsearch_filter オプションを追加。
+	* src/summaryview.c: クイック検索の条件がセッションの間保持される
+	  ようにした。
+
+2007-05-09
+
+	* src/main.c: 初回起動でも '--open' に対応。
+
+2007-05-09
+
+	* src/main.c: コマンドラインで指定されたメッセージを新規ウィンドウで
+	  開く '--open' コマンドラインオプションを実装。
+	* libsylph/mh.c: mh_fetch_msg(): num が範囲外でも警告を表示しない
+	  ようにした。
+
+2007-05-08
+
+	* src/prefs_account_dialog.c: prefs_account_ssl_create(): ラジオボタン
+	  が切り替わったときに高度な設定タブの SSL ポートを自動的にセットする
+	  ようにした。
+
+2007-05-07
+
+	* src/folderview.c: リモートフォルダの再帰的なダウンロードができる
+	  ようにした。
+
+2007-05-02
+
+	* version 2.4.1
+
+2007-05-02
+
+	* src/sylpheed.rc.in: コピーライトの年を更新。
+
+2007-04-27
+
+	* src/query_search.c: query_search_create_vfolder(): win32: パス
+	  区切りの問題を修正(抽象パスには / を使用)。
+
+2007-04-27
+
+	* src/main.c: win32: 起動時に sylpheed.ini を読み込むようにした。
+	  --ipcport オプションを追加。
+
+2007-04-26
+
+	* src/addr_compl.c: 決定時に shift または control キーが押されて
+	  いればアドレスのみを挿入するようにした。
+
+2007-04-26
+
+	* src/addressbook.c: addressbook_load_completion(): 補完専用にニック
+	  ネームをコールバックの引数に追加。ニックネームより表示名を優先する
+	  ようにした。
+	* src/addr_compl.c: 非 glib シンボルから g_ プレフィックスを削除。
+	  重複する候補を削除。
+
+2007-04-26
+
+	* src/main.c: win32: レジューム時のネットワークエラーを防ぐため、
+	  サスペンド中は自動受信タイマーを停止するようにした。
+
+2007-04-23
+
+	* libsylph/ssl.c
+	  src/sslmanager.c: OpenSSL によって確保された文字列に対して g_free()
+	  でなく OPENSSL_free() を使用するようにした(MSVCR71.DLL にリンクした
+	  OpenSSL DLL を使用した場合にクラッシュする問題を修正。岡村さん
+	  thanks)。
+
+2007-04-20
+
+	* version 2.4.0
+
+2007-04-20
+
+	* manual/ja/sylpheed.sgml
+	  manual/ja/sylpheed*.html: 更新。
+
+2007-04-19
+
+	* libsylph/pop.c:
+	  pop3_getauth_apop_send()
+	  pop3_session_recv_msg(): 不正な APOP タイムスタンプをチェックする
+	  ようにし(CVE-2007-1558)、関数の戻り値をチェックするようにした。
+
+2007-04-19
+
+	* src/mainwindow.c: toolbar_customize()
+	  src/compose.c: toolbar_customize(): ツールバーのカスタマイズの後
+	  設定ファイルを書き出すようにした。
+
+2007-04-18
+
+	* version 2.4.0rc
+
+2007-04-18
+
+	* libsylph/recv.c: recv_bytes(): バッファサイズの上限を BUFFSIZE
+	  に制限するようにした(Win32 で FreeCap 経由で IMAP4 上の 64KB 以上の
+	  メッセージを取得しようとするとクラッシュするのを修正)。
+	* libsylph/utils.c: log_print(): UTF-8 を正しく表示するために、
+	  stdout に出力するときは fputs() でなく g_print() を使用するように
+	  した。
+
+2007-04-18
+
+	* src/printing.c: message_count_page(): Fedora Core で発生すると
+	  思われるクラッシュへの対策。
+
+2007-04-17
+
+	* manual/ja/sylpheed.sgml
+	  manual/ja/sylpheed*.html: 更新。
+
+2007-04-17
+
+	* src/addrcache.c
+	  src/addressbook.c: 人物を削除したとき、そのメールアドレスが他
+	  フォルダのグループによって参照されている場合クラッシュするバグを
+	  修正。
+
+2007-04-17
+
+	* libsylph/session.[ch]: クローズ時に idle コールバックを削除する
+	  ようにし、コールバック中で GSource をチェックするようにした
+	  (キャンセル時のクラッシュを恐らく修正)。
+
+2007-04-16
+
+	* manual/ja/sylpheed.sgml
+	  manual/ja/sylpheed*.html: 2.4.0 にあわせて更新。
+
+2007-04-16
+
+	* libsylph/prefs_common.c
+	  src/gtkutils.[ch]
+	  src/main.c: win32: フォント "MS Gothic 12" が実際に読み込めるか
+	  どうかをチェックするようにした。また、新しい JIS2004 MS Gothic
+	  フォントのためにマルチバイトフォント名もチェックするようにした。
+
+2007-04-13
+
+	* libsylph/utils.c: copy_file(): read() / write() を使用して最適化。
+
+2007-04-13
+
+	* libsylph/utils.c: file_exist(): allow_fifo が FALSE の場合は
+	  g_file_test() を使用(win32 の最適化)。
+	  rename_force(): win32: 最近のバージョンの GLib では g_rename() は
+	  アトミックに移動先ファイルを上書きするため、 workaround を行わない
+	  ようにした。
+	  move_file(): 非上書きモードでは is_file_exist() ではなく
+	  is_file_entry_exist() を使用するようにした。
+
+2007-04-12
+
+	* version 2.4.0beta8
+
+2007-04-12
+
+	* src/menu.h
+	  src/mainwindow.c: ツールバーのコンテキストメニューにツールバー
+	  スタイルの切り替えを追加。
+
+2007-04-12
+
+	* src/addressbook.c
+	  src/editbook.c: 'Addressbook' ではなく 'Address Book' を使用する
+	  ようにした。
+
+2007-04-12
+
+	* libsylph/codeconv.[ch]: ISO-8859-16 に対応。
+
+2007-04-11
+
+	* src/query_search.c: query_search_folder(): メッセージリストの
+	  取得前にサマリのマーク/キャッシュをフラッシュするようにした
+	  (メッセージ数が不正になるのを修正。なかださん thanks)。
+
+2007-04-11
+
+	* src/filesel.c: 上書き確認ダイアログにはい/いいえボタンを使用。
+
+2007-04-11
+
+	* src/filesel.c: 独自の上書き確認ダイアログを使用するようにした。
+
+2007-04-11
+
+	* src/filesel.c: GTK の上書き確認ダイアログを使用するようにした。
+
+2007-04-11
+
+	* src/importldif.c
+	  src/importcsv.c: 一時ウィンドウの位置を修正。
+
+2007-04-11
+
+	* src/importcsv.c: 並べ替え時に CList をスクロールするようにした。
+
+2007-04-11
+
+	* src/importcsv.c: タブ区切りファイルに対応。
+
+2007-04-11
+
+	* libsylph/utils.[ch]: strsplit_csv(): 追加。
+	* src/importcsv.c: ダブルクォート付きの CSV を適切に処理するように
+	  した。
+
+2007-04-11
+
+	* src/addressbook.c: インポートの後フォーカス行をセットするようにした。
+
+2007-04-11
+
+	* src/importcsv.c: スペースを調整し、ファイル名をラップするように
+	  した。
+
+2007-04-11
+
+	* src/importcsv.c: フィールドのページに説明を追加。
+
+2007-04-11
+
+	* src/importcsv.c: imp_csv_load_fields(): 初期状態のスクロールバーの
+	  サイズが正しくないのを修正。
+
+2007-04-11
+
+	* src/inc.c: inc_cancel()
+	  src/send_message.c: send_cancel_button_cb(): キャンセルした場合
+	  すぐに切断するようにした(キャンセル後のクラッシュを恐らく修正)。
+
+2007-04-10
+
+	* src/importcsv.c: 備考フィールドを追加。最後の行の順序変更を修正。
+
+2007-04-10
+
+	* src/importcsv.c: フィールドの有効/無効を実装。
+
+2007-04-10
+
+	* src/importldif.c: ナビゲートボタンを修正。
+	* src/importcsv.c: 項目の順序変更を実装。
+
+2007-04-10
+
+	* src/addressbook.c: データソース削除時に物理ファイルも削除する
+	  ようにした。インポートダイアログを閉じたときにアドレス帳ウィンドウ
+	  を前面に持ってくるようにした。
+	* src/importcsv.c: imp_csv_load_fields(): CSV カラム数 < アドレス帳
+	  フィールド数の場合を実装。
+
+2007-04-10
+
+	* src/importldif.c
+	  src/importcsv.c: ファイル名を UTF-8 から/に変換。
+
+2007-04-10
+
+	* src/importldif.c
+	  src/importcsv.c: GtkFileChooser を使用するようにした。
+	* src/passphrase.c
+	  src/editjpilot.c
+	  src/export.c
+	  src/import.c
+	  src/editvcard.c: 無駄な include を削除。
+
+2007-04-10
+
+	* src/mainwindow.c
+	  src/prefs_filter.c: 文字列 "Filter setting" を "Filter settings"
+	  に変更。
+
+2007-04-06
+
+	* src/importcsv.c: ロケールエンコーディングのインポートを修正。
+
+2007-04-06
+
+	* src/importcsv.[ch]
+	  src/addressbook.c: CSV のインポートを実装(途中)。
+
+2007-04-06
+
+	* src/compose.c: メニュー文字列「表示/返信先を指定」と
+	  「表示/フォロー先を指定」を修正。
+
+2007-04-06
+
+	* src/compose.c: ルーラの目盛り位置を正確にした。
+
+2007-04-06
+
+	* libsylph/filter.[ch]: エラーコードを返すようにした。
+	* src/inc.c
+	  src/summaryview.c: 迷惑メールフィルタコマンドの実行に失敗した
+	  場合はエラーダイアログを表示するようにした。
+
+2007-04-06
+
+	* src/summaryview.c: 新しいクイックサーチルール: 「1日以内」と
+	  「最近5日間」を追加。メモリリークを修正。
+
+2007-04-05
+
+	* src/compose.c: テキストビューにマージンを追加。
+	* src/gtkshruler.[ch]: 目盛りの開始位置のための新しい API を追加。
+
+2007-04-04
+
+	* libsylph/procmime.c: procmime_scan_multipart_message(): 読み込み
+	  バッファにスタックでなくヒープメモリを使用するようにし、再帰
+	  レベルの上限を64に上げた。
+
+2007-04-04
+
+	* src/inc.c: inc_is_active(): セッションキューもチェックする
+	  ようにした。
+	  inc_cancel_all(): 本当にすべてのセッションをキャンセルする
+	  ようにした。
+
+2007-04-03
+
+	* version 2.4.0beta7
+
+2007-04-03
+
+	* libsylph/mh.c
+	  libsylph/folder.c
+	  libsylph/imap.c: win32: FolderItem::path のパス区切りが正しく処理
+	  されていなかったバグを修正(フォルダのリネーム時にパス情報が
+	  不正になるのを修正)。
+
+2007-04-02
+
+	* sylpheed.desktop: Comment[hu] を追加し、 Categories を修正
+	  (nTOMasz さん thanks)。
+
+2007-04-02
+
+	* src/prefs_toolbar.[ch]
+	  src/mainwindow.[ch]: ツールバーに中止ボタンを追加。
+
+2007-03-30
+
+	* libsylph/utils.[ch]: scan_mailto_url(): in-reply-to ヘッダの
+	  引数を追加。
+	* src/compose.c: mailto URL 中の In-Reply-To ヘッダに対応(Laurent
+	  Bigonville さん thanks)。
+
+2007-03-29
+
+	* src/main.c: app_will_exit(): 強制的にプロセスを終了するように
+	  した(特定のケースで sylpheed が終了できなくなるのを修正)。
+
+2007-03-29
+
+	* src/inc.c
+	  src/main.c: モーダルダイアログが存在する場合は --compose,
+	  --receive, --send リモートコマンドを無効にした。
+
+2007-03-28
+
+	* src/textview.c: textview_show_message(): 復号に失敗した場合、
+	  エラーメッセージを出力するようにした。
+
+2007-03-28
+
+	* src/folderview.c: folderview_select_next_unread():
+	  remember_last_selected オプションを一時的に無効にするようにした
+	  (次の未読選択の修正)。
+
+2007-03-28
+
+	* version 2.4.0beta6
+
+2007-03-27
+
+	* src/prefs_display_header.c
+	  src/prefs_actions.c
+	  src/addressbook.c
+	  src/editgroup.c
+	  src/importldif.c
+	  src/prefs_template.c
+	  src/select-keys.c
+	  src/editaddress.c
+	  src/addressadd.c
+	  src/editldap_basedn.c
+	  src/prefs_summary_column.c
+	  src/prefs_filter_edit.c
+	  src/prefs_display_items.c
+	  src/prefs_customheader.c
+	  src/gtkutils.[ch]: win32: GTK+ 2.10.11 の再描画問題に対処。
+
+2007-03-25
+
+	* libsylph/imap.c
+	  libsylph/mh.c: get_msg_list() で uncached_only フラグが付いた場合を
+	  修正。
+	* src/inc.c: inc_remote_account_mail(): フィルタされなかったメッセージ
+	  が新着メッセージとカウントされなかったバグを修正。
+
+2007-03-25
+
+	* src/main.c: app_init(): win32: LANGUAGE を無効にした(言語選択を
+	  誤るのを修正)。
+
+2007-03-23
+
+	* src/folderview.c: label_window_create(): gtk_widget_show_now()
+	  を使用しないようにした(フォルダツリー再構築時に処理が停止する
+	  のを修正)。
+
+2007-03-20
+
+	* src/prefs_display_item.c: win32: GTK+ 2.10.11 の CList の再描画
+	  問題に対処。
+
+2007-03-16
+
+	* version 2.4.0beta5
+
+2007-03-15
+
+	* libsylph/filter.c: filter_action_exec(): ローカルフィルタリング
+	  でのコピーアクション時のフラグの変更が適用されなかったバグを修正。
+	* src/inc.c: inc_remote_account_mail(): IMAP 自動振り分けでフラグの
+	  変更を適用するようにした。
+
+2007-03-14
+
+	* libsylph/mh.c
+	  libsylph/folder.c: win32: フォルダパスに '\' でなく '/' を使う
+	  ようにした(Unix と Win32 間のデータ非互換性を修正)。
+
+2007-03-14
+
+	* src/inc.c: inc_remote_account_mail(): IMAP で迷惑メールの自動
+	  振り分けを有効にした。
+
+2007-03-14
+
+	* libsylph/codeconv.c: conv_encode_header(): 継続するマルチバイト
+	  文字列における引用符の処理に誤りがあったのを修正。
+
+2007-03-13
+
+	* src/summaryview.c: サマリのカラムの順序を DnD で変更した場合
+	  終了時にクラッシュするのを修正。
+
+2007-03-02
+
+	* src/printing.c: printing_print_messages_gtk(): 印刷ダイアログ
+	  のデフォルトディレクトリをドキュメントディレクトリにした。
+
+2007-03-02
+
+	* src/addr_compl.c: completion_window_key_press(): ESC, BS などが
+	  押された場合に警告を防ぐようにした。
+	* src/addressbook.c: 名前: ラベルを削除。
+
+2007-03-01
+
+	* src/rfc2015.c
+	  src/sigstatus.c: 検証結果が null の場合に対して保護するようにした。
+
+2007-02-23
+
+	* src/inc.c: inc_remote_account_mail(): 新着通知のために振り分け
+	  られたメッセージをカウントするようにした。
+
+2007-02-23
+
+	* libsylph/session.c: win32: タイムアウトが機能しないバグを修正。
+
+2007-02-21
+
+	* src/addressbook.c
+	  src/addressitem.h: アドレス帳に閉じるボタンを追加。
+	  ウィンドウの最小サイズを設定。
+
+2007-02-16
+
+	* src/editaddress.c: 未使用のコードを削除し、ウィンドウの位置を
+	  親の中央にした。
+
+2007-02-16
+
+	* src/editgroup.c: グループ編集ダイアログのレイアウトを改良。
+
+2007-02-15
+
+	* version 2.4.0beta4
+
+2007-02-15
+
+	* src/addressbook.c: コードの整理。 LDAP が無効の場合は「検索」
+	  ボタンを無効にするようにした。
+
+2007-02-15
+
+	* src/addressbook.c: addressbook_load_completion(): クラッシュの
+	  可能性があったのを修正。
+
+2007-02-15
+
+	* src/folderview.c: folderview_create(): 新着/未読/総数 カラムの
+	  色を有効にした。
+
+2007-02-13
+
+	* src/addressbook.c: 人物の複数コピー&ペーストができるようにした。
+
+2007-02-13
+
+	* src/addressbook.c
+	  src/addrbook.[ch]: グループからメールアドレスを削除するとき、
+	  グループのリストからのみ削除し、人物からは削除しないようにした。
+	  「/アドレス/削除」に「Delete」ショートカットキーを追加。
+
+2007-02-13
+
+	* wrc/mainwindow.c: main_window_get_size(): 最大化状態でフォルダビュー
+	  の幅が保存されない問題を修正。
+
+2007-02-13
+
+	* src/folderview.c: folderview_check_new(): リモートメールボックスの
+	  ネットワーク接続失敗以外で中断しないようにした。
+
+2007-02-09
+
+	* src/addressbook.c: 冗長なシグナルハンドラを削除。
+
+2007-02-09
+
+	* src/addressbook.c: addressbook_menuitem_set_sensitive(): 「新規
+	  アドレス」の選択可能状態を修正。
+	* src/editgroup.c: グループ編集ダイアログの挙動を改善。
+
+2007-02-09
+
+	* src/addressbook.c: 人物のコピー&ペーストを実装し、メニューの選択
+	  可能状態の管理をリファクタリングした。
+
+2007-02-08
+
+	* libsylph/mbox.[ch]
+	  src/inc.c: proc_mbox_full() に引数 filter_junk を追加。
+	  proc_mbox(): folder_table が NULL の場合迷惑メールを振り分けない
+	  ようにした。
+
+2007-02-07
+
+	* version 2.4.0beta3
+
+2007-02-07
+
+	* src/prefs_filter_edit.c: prefs_filter_edit_set_header_list():
+	  メモリリークを修正。
+
+2007-02-07
+
+	* libsylph/procheader.[ch]
+	  src/query_search.c
+	  src/prefs_filter_edit.c
+	  src/prefs_filter.[ch]: 検索フォルダの編集後に保存した検索条件が
+	  壊れる可能性のあったバグを修正。
+	  ユーザ定義のヘッダが保存されないバグを修正。
+
+2007-02-06
+
+	* libsylph/mbox.[ch]
+	  src/inc.c: prefs_common.filter_on_inc が FALSE であってもローカル
+	  スプールから迷惑メールをフィルタするようにした。
+	  proc_mbox_full(): 追加。
+
+2007-02-06
+
+	* src/prefs_toolbar.[ch]
+	  src/icons/stock_notspam.png
+	  src/icons/Makefile.am
+	  src/stock_pixmap.[ch]
+	  src/mainwindow.[ch]: 「非迷惑メール」と「検索」ボタンをメイン
+	  ツールバーに追加。
+
+2007-02-05
+
+	* src/compose.c: 「/表示/ツールバーをカスタマイズ...」メニューを修正。
+
+2007-02-02
+
+	* src/compose.c
+	  src/main.c
+	  src/mainwindow.c: 送信待ちメッセージが存在しない場合は「送信」ボタン
+	  を無効にするようにした。
+
+2007-02-02
+
+	* src/prefs_toolbar.c
+	  src/prefs_summary_column.c
+	  src/prefs_display_items.c: GtkCList のバグのために DnD による順番
+	  入れ換えを無効にした。表示リストにダミー行を追加。セパレータの
+	  ラベルをより見やすくした。
+
+2007-02-01
+
+	* src/prefs_toolbar.c: 「受信」アイコンを修正。
+
+2007-02-01
+
+	* version 2.4.0beta2
+
+2007-02-01
+
+	* libsylph/prefs_common.c
+	  src/compose.[ch]
+	  src/prefs_toolbar.[ch]
+	  src/mainwindow.c
+	  src/prefs_display_items.h: ツールバーの構造体をリファクタリング。
+	  メッセージ作成ウィンドウに全般とアカウントの設定を追加。
+
+2007-02-01
+
+	* src/mainwindow.c: main_window_set_menu_sensitive(): 設定メニュー内
+	  の項目の一部をロックしないようにした。
+
+2007-02-01
+
+	* src/mainwindow.c: main_window_window_state_cb(): ウィンドウシェード
+	  やワークスペースの切り替えなどでウィンドウが表示された後でも
+	  ウィンドウリストからスキップされていたバグを修正。
+
+2007-01-31
+
+	* libsylph/enums.h
+	  src/compose.c
+	  src/prefs_toolbar.h
+	  src/mainwindow.c: ツールバーに「アイコンの右にテキスト」オプション
+	  を追加。
+
+2007-01-31
+
+	* src/mainwindow.c
+	  src/prefs_account_dialog.c: ラベルをより分かりやすくした。
+
+2007-01-31
+
+	* src/compose.c
+	  src/menu.c
+	  src/gtkutils.[ch]
+	  src/mainwindow.c: ツールバーを新しい API で実装し直した。
+	  オーバーフローメニューを追加。ボタンのサイズを全て同一にはしない
+	  ようにした。
+
+2007-01-30
+
+	* libsylph/mh.c: mh_scan_tree_recursive(): シンボリックリンクも
+	  スキャンするようにした。
+	* libsylph/utils.c: remove_dir_recursive_real(): rmdir() が失敗した
+	  場合は unlink() を試すようにした(シンボリックリンクの対策)。
+
+2007-01-30
+
+	* src/mainwindow.[ch]
+	  src/prefs_toolbar.[ch]: ツールバーの項目を新規に追加。
+
+2007-01-30
+
+	* src/mainwindow.c: main_window_set_toolbar_button_visibility():
+	  迷惑メールと実行ボタンを自動的に隠さないようにした。
+	* src/prefs_toolbar.h: PrefsToolbarItem: stock_id を追加。
+
+2007-01-29
+
+	* version 2.4.0beta1
+
+2007-01-26
+
+	* src/mainwindow.c
+	  src/compose.c: ツールバーのカスタマイズの後ツールバーの状態が
+	  GTK_TOOLBAR_BOTH にリセットされるバグを修正。
+
+2007-01-26
+
+	* src/prefs_toolbar.c
+	  src/mainwindow.c
+	  src/prefs_display_items.[ch]: ダイアログのタイトルとラベルをセット。
+	* src/prefs_summary_column.c: ウィンドウを親の中央に配置。
+
+2007-01-26
+
+	* src/compose.c
+	  src/prefs_toolbar.[ch]
+	  src/mainwindow.c
+	  src/prefs_display_items.[ch]: メッセージ作成ウィンドウのツールバー
+	  のカスタマイズを実装。
+	* src/prefs_summary_column.c: prefs_summary_column_add(): フォーカス
+	  行の前に項目を追加するようにした。
+
+2007-01-25
+
+	* src/prefs_display_items.[ch]
+	  src/prefs_toolbar.[ch]
+	  src/mainwindow.c: ツールバーのカスタマイズダイアログを実装。
+
+2007-01-24
+
+	* libsylph/socket.c: fd_open_inet(): win32: setsockopt() の警告を抑制。
+
+2007-01-22
+
+	* libsylph/session.c: session_ping_cb(): ここではブロッキングを回避。
+	  libsylph/socket.[ch]: SockInfo のメンバに SockFlags を追加。
+	  fd_check_io(): 非ブロッキングモードでも SOCK_CHECK_IO フラグが立って
+	  いたらソケットを select() するようにした(Win32 で WSAEWOULDBLOCK
+	  を回避)。
+
+2007-01-19
+
+	* libsylph/session.c
+	  libsylph/socket.c: win32: SO_SNDBUF と SO_RCVBUF を増加(データ送信
+	  時の性能を向上)。
+
+2007-01-19
+
+	* src/send_message.c: send_message_smtp(): イベントループの実行中は
+	  受信を行わないようにした。
+
+2007-01-18
+
+	* libsylph/prefs_common.[ch]
+	  src/mainwindow.c: ツールバーのカスタマイズのフレームワークを実装。
+
+2007-01-18
+
+	* src/prefs_account_dialog.c: prefs_account_receive_create():
+	  オプション「受信時に INBOX の新着メッセージを振り分ける」を追加。
+
+2007-01-18
+
+	* src/mainwindow.c: main_window_toolbar_create(): junk と next (または
+	  execute) の間にセパレータを追加。
+
+2007-01-18
+
+	* src/textview.c: textview_clear(): gtk_text_view_validate_onscreen()
+	  内での assertion 失敗を回避。
+
+2007-01-17
+
+	* libsylph/filter.c: filter_apply_msginfo(): procmsg_get_message_file()
+	  が失敗したらすぐに戻るようにした。
+	* libsylph/imap.c: imap_get_msg_list_full(): uncached_only の場合は
+	  NULL を返すようにした。
+
+2007-01-17
+
+	* libsylph/virtual.c: virtual class 構造体を修正。
+
+2007-01-17
+
+	* libsylph/mh.c
+	  libsylph/folder.[ch]
+	  libsylph/news.c
+	  libsylph/prefs_account.[ch]
+	  libsylph/imap.c
+	  src/inc.c: IMAP4 INBOX フォルダの自動振り分けを実装。
+	  folder_item_get_uncached_msg_list(): 新規 API。
+
+2007-01-17
+
+	* src/about.[ch]
+	  README
+	  README.ja
+	  COPYING: 著作権の年を更新。
+
+2007-01-17
+
+	* libsylph/codeconv.c: conv_encode_header(): コード変換に失敗した
+	  場合は強制的に UTF-8 を出力するようにした。
+
+2007-01-16
+
+	* libsylph/procmsg.c: procmsg_open_data_file(): データファイルが
+	  EACCES で開けずに再度開いた場合、ファイルのバージョンがチェック
+	  されないバグを修正。
+
+2007-01-15
+
+	* libsylph/utils.c: get_rc_dir(): win32: 環境変数 APPDATA でなく
+	  SHGetFolderPath() を使用するようにした。
+
+2007-01-15
+
+	* libsylph/utils.c: get_domain_name(): win32: 正しいドメイン名を
+	  (可能であれば)返すようにした。
+
+2007-01-12
+
+	* src/account_dialog.c: account_edit_create(): アカウント編集
+	  ウィンドウを親ウィンドウの中央に配置するようにした。
+
+2007-01-12
+
+	* libsylph/utils.c
+	  libsylph/codeconv.c: conv_encode_header(): 引用符を正しく処理する
+	  ようにした(メールヘッダのエンコード後に単独の引用符が現れるのを
+	  修正)。
+
+2007-01-11
+
+	* libsylph/procmime.c: procmime_parse_mime_parameter(): MIME
+	  パラメータの名前と値の間の等号の周囲の空白を許容するようにした。
+
+2007-01-11
+
+	* libsylph/prefs_common.[ch]
+	  src/trayicon.c
+	  src/prefs_common_dialog.c: トレイアイコンのクリックでウィンドウを
+	  トグルするオプションを追加。
+
+2007-01-11
+
+	* libsylph/ssl.c: find_certs_file(): "ca-root.crt" も探すようにした。
+
+2006-12-28
+
+	* libsylph/mbox.c: proc_mbox(): filter_junk_on_recv が有効になっている
+	  場合迷惑メールをフィルタするようにした。
+
+2006-12-28
+
+	* configure.in: 追加のライブラリをチェック(resolv, socket, nsl)
+	  (OS によってはコンパイルに失敗するのを修正)。
+
+2006-12-28
+
+	* libsylph/imap.c: imap_cmd_fetch(): エラー時は最後の応答まで読み込む
+	  ようにした(応答の同期がずれるのを修正)。
+
+2006-12-28
+
+	* src/compose.c: compose_create(): win32: geometry hint をセットしない
+	  ようにした(メッセージ作成ウィンドウが最大化できないのを修正)。
+
+2006-12-28
+
+	* src/compose.c: compose_exec_ext_editor(): 詳細なエラーメッセージを
+	  表示するようにした。メモリリークを修正。
+
+2006-12-25
+
+	* libsylph/utils.c: change_file_mode_rw(): win32: ワイドキャラクタ
+	  API を使用。
+
+2006-12-25
+
+	* libsylph/utils.c: change_file_mode_rw(): win32: ファイルの属性を
+	  変更するのに SetFileAttributes() を使用するようにした。
+	* libsylph/procmsg.c:
+	  procmsg_write_mark_file(): procmsg_open_mark_file() が本当に成功
+	  したかどうかをチェックするようにした(.sylpheed_mark が書き込み不可
+	  の場合クラッシュするのを修正)。
+	  procmsg_open_data_file(): データファイルが EACCES で開けない場合は
+	  読み取り専用/隠しファイル属性を除去するようにした。
+
+2006-12-25
+
+	* libsylph/socket.c: #include "utils.h" を追加(GLib 2.4 でコンパイルに
+	  失敗するのを修正)。
+
+2006-12-22
+
+	* version 2.3.0
+
+2006-12-22
+
+	* manual/ja/sylpheed.sgml
+	  manual/ja/sylpheed*.html
+	  manual/ja/Makefile.am: セキュリティ機能の項目を追加。
+
+2006-12-20
+
+	* manual/ja/sylpheed.sgml
+	  manual/ja/sylpheed*.html
+	  manual/ja/Makefile.am: 2.3.0 にあわせて更新。
+
+2006-12-19
+
+	* version 2.3.0rc
+
+2006-12-19
+
+	* src/mainwindow.c: main_window_popup(): 分離ウィンドウモードで
+	  現在の表示状態に従うようにした(分離状態でウィンドウのポップアップ
+	  時に常に空白のメッセージビューが表示されるのを修正)。
+
+2006-12-18
+
+	* libsylph/ssl.c: ssl_init(): certs_file のみ存在するばあいでも
+	  SSL_CTX_load_verify_locations() を呼ぶようにした。
+
+2006-12-18
+
+	* libsylph/ssl.c: ssl_init(): CA 証明書のバンドルファイルを複数の
+	  場所から探すようにした。
+	  ssl_init_socket_with_method(): 拒否リストを(今のところ)無効にした。
+
+2006-12-14
+
+	* src/version.h.in: PROG_VERSION 文字列を変更。
+
+2006-12-14
+
+	* version 2.3.0beta7
+
+2006-12-14
+
+	* libsylph/ssl.c: x509_cmp_func(): X509_cmp() を使用。
+
+2006-12-14
+
+	* src/compose.c
+	  src/prefs_template.c
+	  src/template.[ch]: テンプレートに Bcc: と Reply-To: を追加。
+
+2006-12-13
+
+	* src/printing.c: ページ番号のマージンを調整。
+
+2006-12-13
+
+	* src/printing.[ch]
+	  src/messageview.c
+	  src/mainwindow.c: ページ設定を実装。
+
+2006-12-13
+
+	* src/sslmanager.c: ssl_manager_verify_cert(): comply_gnome_hig
+	  の設定に従うようにした。
+
+2006-12-13
+
+	* libsylph/socket.c: /etc/resolv.conf が変更されていれば再読み込み
+	  するようにした。
+
+2006-12-13
+
+	* libsylph/ssl.c: ssl_init(): /etc/ssl/certs が存在すれば読み込む
+	  ようにした。
+	* src/main.c: parse_cmd_opt() の後に sock_init() と ssl_init() を
+	  呼ぶようにした(デバッグオプションのため)。
+
+2006-12-13
+
+	* src/compose.c: compose_reedit(): カーソルをテキストの先頭に配置
+	  するようにした。 To または Subject が空の場合はそれらのエントリに
+	  デフォルトでフォーカスするようにした。
+
+2006-12-12
+
+	* libsylph/ssl.[ch]
+	  src/sslmanager.[ch]
+	  src/main.c: SSL 証明書ダイアログを実装。
+
+2006-12-12
+
+	* src/printing.c: draw_page(): 範囲外のページの要求時のクラッシュを
+	  修正。
+
+2006-12-12
+
+	* src/printing.c: 複数ページの印刷を実装し直した。
+	  GtkPrintOperation を使用して MIME パートの印刷を実装。
+
+2006-12-11
+
+	* src/prefs_common_dialog.c
+	  src/prefs_account_dialog.c: GtkTextView が自動拡張しないようにした。
+
+2006-12-11
+
+	* src/prefs_account_dialog.c: 署名の自動入力を実装。
+
+2006-12-08
+
+	* libsylph/prefs_account.[ch]
+	  src/prefs_account_dialog.c:
+	  src/compose.c: 署名を直接入力するオプションを追加。
+
+2006-12-08
+
+	* src/printing.c: 表示フォントサイズを使用。
+
+2006-12-07
+
+	* src/prefs_account_dialog.c: prefs_account_receive_create(): 説明文
+	  を修正。
+
+2006-12-07
+
+	* version 2.3.0beta6
+
+2006-12-07
+
+	* src/messageview.c
+	  src/textview.c: 別ウィンドウのメッセージビューのエンコーディング
+	  の設定を表示と返信のときに優先させるようにした。
+
+2006-12-06
+
+	* src/printing.c: layout_set_headers(): メモリリークを修正。
+	  message_count_page(): 最初のページの行数を調整。
+
+2006-12-06
+
+	* src/printing.c: ページ番号を付加。
+
+2006-12-06
+
+	* src/printing.c: より正確な実装。
+
+2006-12-05
+
+	* src/summaryview.c:
+	  summary_filter_func()
+	  summary_filter_junk_func(): 100 メッセージ毎に UI をフラッシュ。
+
+2006-12-05
+
+	* src/send_message.c: send_send_data_progressive(): win32: 強制的に
+	  UI を更新するようにした(大きなメッセージの送信時にダイアログが更新
+	  されなかったのを修正)。
+
+2006-12-04
+
+	* src/printing.c: 複数ページの印刷を実装。
+
+2006-12-04
+
+	* src/printing.c: ページのカウントを実装。
+
+2006-12-04
+
+	* src/printing.c: printing_print_message_part(): 確認ダイアログを
+	  表示。
+
+2006-12-04
+
+	* libsylph/imap.c: imap_get_uncached_messages(): 警告を修正(Sebastian
+	  Kargel さん thanks)。
+
+2006-11-30
+
+	* libsylph/procmsg.c
+	  src/printing.[ch]
+	  src/messageview.c
+	  src/mimeview.[ch]
+	  src/summaryview.c: MIME パートの印刷を実装。コードの整理。
+
+2006-11-29
+
+	* libsylph/prefs_common.[ch]
+	  src/summaryview.c
+	  src/prefs_common_dialog.c: 「印刷に外部プログラムを使用する」
+	  オプションを追加。ただし GTK+ < 2.10 では無視。
+
+2006-11-29
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.c
+	  src/prefs_common_dialog.c: 「自分が出したメッセージに返信した場合
+	  は宛先を引き継ぐ」オプションを追加。
+
+2006-11-24
+
+	* src/mainwindow.c: account_selector_menu_cb(): 現在のアカウントの
+	  表示のみを変更するようにした(アカウント変更時にメッセージビューが
+	  先頭にスクロールされてしまうのを修正)。
+
+2006-11-22
+
+	* src/gtkutils.c: gtkut_window_popup(): win32: ウィンドウが確実に
+	  前面に表示されるようにした(DnD の後トレイアイコンのクリックで
+	  ウィンドウが前面に出ないことがあったのを修正)。
+
+2006-11-22
+
+	* src/printing.[ch]
+	  src/summaryview.c: GtkPrintOperation を利用した新しい印刷機能を
+	  実装開始。
+
+2006-11-21
+
+	* src/summaryview.c
+	  src/folderview.c
+	  src/mainwindow.c: 任意のメッセージを表示、既読としてマーク、または
+	  ごみ箱を空にした場合に新着通知を解除するようにした。
+
+2006-11-21
+
+	* LibSylph ブランチからマージ。
+	* libsylph/utils.c: my_tmpfile(): progname が未指定の場合に対応。
+	* libsylph/session.c: 通知コールバックがセットされているかどうかを
+	  チェック。
+	* libsylph/smtp.h
+	  libsylph/session.h
+	  libsylph/socket.h: 設定に関わらず構造体メンバのオフセットを固定
+	  するようにした。
+
+2006-11-20
+
+	* libsylph/folder.[ch]: folder_scan_tree() と folder_create_tree()
+	  を追加。
+
+2006-11-20
+
+	* LibSylph ブランチからマージ。
+        * libsylph/prefs_common.[ch]: prefs_common_get() を追加。
+        * libsylph/filter.h: filter_cond_new() のプロトタイプを修正。
+        * libsylph/account.[ch]: account_get_current_account() を追加。
+        * libsylph/mbox.c: account_get_current_account() を使用。
+        * libsylph/procmime.[ch]: 未使用の procmime_mimeinfo_replace() を削除。
+
+2006-11-16
+
+	* src/mainwindow.c: main_window_create(): ステータスバーの高さを調整。
+
+2006-11-16
+
+	* src/summaryview.c: 手動振り分け時に定期的に UI を更新するようにした。
+
+2006-11-15
+
+	* src/jpilot.c: libpisock12 対応パッチを適用(AddressDB.pdb インポートに
+	  失敗するのを修正)。 Colin さんと Corey さん thanks。
+
+2006-11-14
+
+	* libsylph/utils.[ch]: ドキュメントディレクトリを返す get_document_dir()
+	  を追加(Win32 では 'マイ ドキュメント'、 Unix ではホームディレクトリ)。
+	* src/filesel.c: filesel_select_file_full(): デフォルトのディレクトリを
+	  ドキュメントフォルダにした。
+
+2006-11-14
+
+	* src/addressadd.c: ステータスバーを削除。
+
+2006-11-13
+
+	* src/headerview.[ch]: Cc: ヘッダを追加。
+
+2006-11-13
+
+	* src/addressadd.c: ウィンドウの位置を親ウィンドウの中央にした。
+	  レイアウトも修正。
+
+2006-11-10
+
+	* version 2.3.0beta5
+
+2006-11-10
+
+	* src/trayicon.c: eggtrayicon 版で trayicon_set_notify() を実装。
+	  GTK+ >= 2.10.0 で eggtrayicon をコンパイルしないようにした。
+	  コードの整理。
+
+2006-11-09
+
+	* src/inc.c
+	  src/summaryview.c: 新着メールが実際に読まれた場合のみ新着通知を
+	  解除するようにした。
+	* src/trayicon.c: 冗長な include を削除。	  
+
+2006-11-08
+
+	* src/trayicon.c
+	  src/icons/stock_sylpheed_newmail.png
+	  src/icons/stock_sylpheed_newmail_16.png
+	  src/icons/Makefile.am
+	  src/stock_pixmap.[ch]: 新着メールの到着を知らせるアイコンを追加。
+
+2006-11-06
+
+	* src/undo.c: 大きなテキストのアンドゥでテキストが再描画されない
+	  バグを修正しました。
+
+2006-11-06
+
+	* libsylph/procmsg.c: procmsg_print_message(): 空の Subject, From, To
+	  があるメッセージを印刷するとクラッシュするバグを修正 (Jonathan
+	  Woithe さん thanks)。
+	* libsylph/codeconv.c:
+	  conv_convert()
+	  conv_codeset_strdup_full()
+	  conv_iconv_strdup_with_cd(): 入力文字列が NULL の場合 NULL を返す
+	  ようにした(NULL 文字列によるクラッシュを修正).
+
+2006-11-02
+
+	* libsylph/folder.[ch]
+	  libsylph/prefs_common.[ch]
+	  src/summaryview.c
+	  src/prefs_common_dialog.c: 「最後に選択したメッセージを記憶する」
+	  オプションを追加。
+
+2006-11-01
+
+	* libsylph/prefs_common.[ch]
+	  src/main.c
+	  src/prefs_common_dialog.c: 「起動時に受信箱を開く」オプションを追加。
+
+2006-10-31
+
+	* src/prefs_account_dialog.c: prefs_account_protocol_activated():
+	  POP3 以外のアカウントでは POP before SMTP オプションを無効にする
+	  ようにした。
+
+2006-10-30
+
+	* version 2.3.0beta4
+
+2006-10-30
+
+	* libsylph/pop.[ch]
+	  src/inc.[ch]
+	  src/send_message.c
+	  src/prefs_account_dialog.c: POP before SMTP を実装(中本さん thanks)。
+
+2006-10-20
+
+	* src/trayicon.c: trayicon_set_notify(): 正しく点滅を解除するようにした。
+
+2006-10-19
+
+	* libsylph/codeconv.c: conv_get_code_conv_func(): JIS-SJIS と UTF-8 から
+	  SJIS への変換を追加(環境依存文字が使われていると win32 で印刷時に
+	  文字化けを起こす問題を修正)。
+
+2006-10-19
+
+	* src/summaryview.c: summary_unset_sort_column_id(): GTK+ 2.4.x 使用時
+	  にクラッシュするバグを修正。
+
+2006-10-19
+
+	* sylpheed-mailto-protocol.reg: スタートメニュー用の値を追加
+	  (深澤さん thanks)。
+
+2006-10-16
+
+	* version 2.3.0beta3
+
+2006-10-16
+
+	* src/icons/group.xpm: 余分な空白を除去。
+
+2006-10-13
+
+	* libsylph/socket.c: win32: WSAEWOULDBLOCK を正しく処理するようにした。
+	  is_nonblocking_mode(): SockInfo のリストを保持することで実装。
+	* libsylph/session.c: win32: session_ping_cb(): 1秒以上イベントが発生
+	  しなかった場合のみ発行するようにした。
+	  sock_has_read_data() を使わないようにした。
+
+2006-10-12
+
+	* src/messageview.c: 境界を除去。
+	* src/mainwindow.c: ステータスバーのサイズを縮小。
+
+2006-10-12
+
+	* src/main.c
+	  src/stock_pixmap.[ch]
+	  src/icons/stock_sylpheed_32.png
+	  src/icons/Makefile.am: win32 アプリケーションアイコン用に 32x32 の
+	  アイコンを追加。
+
+2006-10-10
+
+	* src/gtkutils.c: gtkut_tree_view_fast_clear(): GTK+ >= 2.10.0 の場合
+	  高速クリアを有効にするようにした。
+
+2006-10-10
+
+	* src/headerview.c: headerview_init()
+	  src/alertpanel.c: alertpanel_create(): win32: フォーカスを持たない
+	  ように指定されたラベルのスタイルを選択部が見えるように修正。
+
+2006-10-10
+
+	* src/foldersel.c: foldersel_create(): 垂直パディングを除去。
+
+2006-10-10
+
+	* src/icons/dir-*.xpm: 余分なスペースを除去。
+
+2006-10-10
+
+	* src/main.c: win32: アプリケーションアイコンに小さなアイコンを使用
+	  (アイコンが汚くなるのを修正)。
+
+2006-10-06
+
+	* src/action.c: execute_actions(): 挿入モードではカーソルを移動しない
+	  ようにした(挿入するテキストが常に先頭に配置されるバグを修正)。
+
+2006-10-05
+
+	* src/gtkutils.c: gtkut_window_popup(): skip_taskbar_hint を解除する
+	  ようにした(別プロセスによるポップアップでメインウィンドウが隠された
+	  ままになるのを修正)。
+	* src/trayicon.c: main_window_popup() を使用。
+
+2006-10-04
+
+	* version 2.3.0beta2
+
+2006-10-04
+
+	* libsylph/session.c
+	  libsylph/socket.[ch]: win32: sock_set_nonblocking_mode() を実装。
+
+2006-10-04
+
+	* src/inc.c: inc_drop_message(): 新着メッセージ数から迷惑メールを除外。
+
+2006-10-03
+
+	* libsylph/socket.c: win32: fd_read(), fd_write(): recv() あるいは
+	  send() が WSAEWOULDBLOCK で失敗する場合は errno を EAGAIN に設定
+	  するようにした。
+
+2006-10-03
+
+	* src/inc.[ch]: 新着メッセージをカウントするときは既読になった
+	  メッセージを除外するようにした。
+	* libsylph/pop.[ch]: サイズ制限によりスキップされたメッセージ数を
+	  カウントするようにした。
+
+2006-10-02
+
+	* src/mainwindow.c: main_window_get_position(): ウィンドウが隠されて
+	  いる場合は位置を更新しないようにした。
+
+2006-09-28
+
+	* version 2.3.0beta1
+
+2006-09-28
+
+	* libsylph/ssl.c: ssl_init_socket_with_method(): SSL_connect() が
+	  SSL_ERROR_WANT_READ または SSL_ERROR_WANT_WRITE で失敗したら
+	  再試行するようにした。
+
+2006-09-28
+
+	* src/trayicon.[ch]: trayicon_hide(): 追加。
+	  src/mainwindow.c: trayicon_destroy() の代わりに trayicon_hide() を
+	  呼ぶようにした。
+	* src/main.c: app_will_exit(): trayicon_destroy() を呼ぶようにした。
+
+2006-09-28
+
+	* src/trayicon.c: Windows のシステムトレイに16x16のアイコンを使用。
+	* src/icons/stock_sylpheed_16.png
+	  src/icons/Makefile.am
+	  src/stock_pixmap.[ch]: 16x16の Sylpheed のアイコンを追加。
+
+2006-09-28
+
+	* src/trayicon.c: コードの整理。
+
+2006-09-27
+
+	* src/summaryview.c: win32 でアイコンカラムの幅を調整。
+
+2006-09-27
+
+	* src/trayicon.[ch]: trayicon_set_notify(): 追加。トレイアイコンを
+	  5秒間点滅させる。
+	* src/inc.c: 新着メールが到着したらトレイアイコンを点滅。
+
+2006-09-26
+
+	* libsylph/prefs_common.[ch]
+	  src/trayicon.[ch]
+	  src/prefs_common_dialog.c
+	  src/mainwindow.c: GtkStatusIcon を使用して Win32 でトレイアイコンを
+	  実装。
+	  トレイアイコンの左クリックでウィンドウを表示するだけにした。
+	  「このプログラムについて」メニューを削除。
+	  「Sylpheedを表示」メニューを追加。
+	  「最小化時にトレイアイコンに格納する」オプションを追加。
+
+2006-09-26
+
+	* libsylph/session.[ch]: win32: GLib >= 2.8.x でステートマシンが
+	  フリーズする問題に対処。
+	  session_read_data_as_file_cb(): 予期せず idle 関数が呼ばれるのを
+	  防ぐために Session::read_buf_len をリセットするようにした。
+
+2006-09-22
+
+	* version 2.2.9
+
+2006-09-22
+
+	* libsylph/defs.h: HOMEPAGE_URI を更新。
+	  src/gtkshruler.c: URI を更新。
+
+2006-09-22
+
+	* src/summaryview.c: サマリが論理カラムでソートされていた場合に
+	  クラッシュするのを修正。
+
+2006-09-21
+
+	* version 2.2.8
+
+2006-09-21
+
+	* src/summaryview.c: summary_set_tree_model_from_list(): ソート指示子
+	  を更新するため、 mlist が空であってもツリービューをセットするように
+	  した。
+
+2006-09-20
+
+	* src/compose.c: compose_destroy()
+	  src/textview/c: textview_destroy(): 解放する前に selection クリップ
+	  ボードを取り除くようにした(選択状態でウィンドウを閉じると GTK+ 2.10
+	  でクラッシュするのを修正)。
+
+2006-09-19
+
+	* libsylph/utils.[ch]
+	  src/compose.c: compose_write_to_file(): 他 MUA との互換性のため、
+	  PGP/MIME で署名する場合は quoted-printable の代わりに行末の空白を
+	  除去するようにした。
+
+2006-09-19
+
+	* src/compose.c: compose_write_to_file(): 暗号化の前に Bcc の宛先を
+	  チェックするようにした。
+
+2006-09-14
+
+	* libsylph/pop.c: pop3_write_uidl_list(): ディスクが一杯のときに
+	  uidl ファイルを保護するために PrefFile を使用。
+
+2006-09-14
+
+	* src/textview.c: textview_write_error(): 新規。
+	  エラーメッセージを赤色で表示するようにした。本文の書き込みに失敗
+	  たらエラーを表示するようにした。
+
+2006-09-14
+
+	* src/inc.c: inc_pop3_session_do(): セッションの開始時にダイアログを
+	  更新するようにした(Win32 で状態表示が不正確なのを修正)。
+
+2006-09-14
+
+	* src/summaryview.c: GTK+ 2.10.x の正常に動作しない
+	  gtk_tree_view_column_set_sort_column_id() への対処を行った。
+	  アイコンのカラムではソート指示子を表示しないようにした。
+	  メッセージ作成モードを単純化。
+
+2006-09-13
+
+	* libsylph/utils.c
+	  libsylph/procmime.c: エラーチェックを確実にするために rewind() の
+	  前にストリームを fflush() するようにした。
+	  procmime_get_part_fp(): procmime_decode_content() の戻り値をチェック
+	  するようにした。
+	* libsylph/procmsg.c: procmsg_open_data_file(): 未初期化の値を避ける
+	  ようにした。
+
+2006-09-13
+
+	* libsylph/procmsg.c: procmsg_read_cache(): 壊れたキャッシュデータを
+	  読んだときにクラッシュするのを修正。
+        * libsylph/session.c: session_read_data_as_file_cb(): rewind() の前に
+	  バッファを fflush し、エラーをチェックするようにした。
+
+2006-09-13
+
+	* libsylph/procmime.c: procmime_decode_content(): 一時ファイルを
+	  fflush し、エラーをチェックするようにした。
+
+2006-09-12
+
+	* src/importldif.c: インポートが完了したらキャンセルボタンを閉じる
+	  に変更するようにした。
+	* src/ldif.c: ldif_get_line(): リファクタリングを行った。
+	  ldif_read_line(): メモリリークを修正。
+
+2006-09-12
+
+	* libsylph/codeconv.c
+	  src/compose.c: BOM 付き UTF-8 への対処を行った。
+
+2006-09-12
+
+	* src/ldif.[ch]: base64 エンコードされたエントリに対応。
+	  "mozillaNickname" エントリに対応。
+	  cn エントリが存在する場合は表示名に使用するようにした。
+	  日本語ロケールの場合はファーストネームとラストネームを入れ替える
+	  ようにした。
+
+2006-09-06
+
+	* src/messageview.c
+	  src/summaryview.c
+	  src/mainwindow.c: メニュー文字列「表示/メッセージのソース」と
+	  「表示/すべてのヘッダ」を統一。
+
+2006-09-06
+
+	* libsylph/procmsg.h: MsgInfo
+          src/compose.h: AttachInfo: コンパイル時にサイズが変わる可能性が
+	  あるため off_t を使用しないようにした。
+
+2006-09-06
+
+	* libsylph/socket.c: waitpid() が割り込まれた場合は再試行するように
+	  した(Stefaan さん thanks)。
+
+2006-09-06
+
+	* src/action.c: free_children(): プロセスが残っている場合は wait
+	  するようにした。
+	  pgid でなく pid を kill/wait するようにした(Stefaan A Eeckels さん
+	  thanks)。
+
+2006-09-06
+
+	* src/eggtrayicon.[ch]: eggtrayicon のソースを更新し、アイコンの
+	  透過を追加(Fryderyk Dziarmagowski さん thanks)。
+
+2006-09-04
+
+	* src/action.c: execute_actions(): TextView で挿入ポイントを誤る
+	  のを修正。
+
+2006-08-23
+
+	* libsylph/imap.[ch]
+	  src/prefs_account_dialog.c: IMAP4 で PLAIN 認証に対応(池田さん
+	  thanks)。
+
+2006-08-23
+
+	* libsylph/procmsg.[ch]
+	  libsylph/procmime.[ch]
+	  src/textview.c
+	  src/mimeview.c
+	  src/rfc2015.c: 署名情報を MsgInfo に追加。未使用のメンバを MimeInfo
+	  から削除。
+
+2006-08-17
+
+	* src/textview.c
+	  src/rfc2015.c: combined method により暗号化と署名のなされたメッセージ
+	  に対応。
+	  テキストビュー上に完全な署名情報を表示。
+
+2006-08-16
+
+	* src/sourcewindow.c: 初回のクリックでのスクロールの問題を修正。
+
+2006-08-15
+
+	* libsylph/prefs_common.[ch]
+	  src/summaryview.c: 「受信時に迷惑メールをサーバから削除する」が指定
+	  されている場合、手動でのフィルタリングでゴミ箱に移動しないように
+	  した。
+
+2006-08-10
+
+	* src/prefs_ui.[ch]
+	  src/prefs_common_dialog.c: 「フォルダに入ったときに最初の未読
+	  メッセージを開く」の状態を「サマリでメッセージを選択したとき常に
+	  開く」とリンクさせるようにした。
+
+2006-08-09
+
+	* src/compose.c: compose_set_ext_editor_sensitive():
+	  「/ファイル/署名を追加」のセンシティビティも設定するようにした。
+
+2006-08-09
+
+	* libsylph/codeconv.[ch]: conv_check_file_encoding(): テキストファイル
+	  のエンコーディングをチェックしてロケールエンコーディングまたは UTF-8
+	  かを判別。
+	* src/compose.c: compose_insert_file(): ファイル全体をチェックして
+	  UTF-8 かどうかを調べるようにした。
+
+2006-08-07
+
+	* configure.in: onig-config を使用。
+
+2006-08-07
+
+	* src/folderview.c: 「すべて読んだことにする」の前にセパレータを追加。
+
+2006-08-04
+
+	* src/sylpheed.rc.in
+	  configure.in: バージョン情報を追加。
+
+2006-08-04
+
+	* src/sylpheed.rc.in
+	  src/Makefile.am
+	  configure.in: sylpheed.rc.in から sylpheed.rc を生成。
+
+2006-08-03
+
+	* configure.in: OpenSSL のテストが失敗したときに $LIBS を正しく復元
+	  していなかったバグを修正(岩本さん thanks)。
+
+2006-08-03
+
+	* libsylph/filter.c
+	  src/about.c
+	  src/prefs_filter_edit.c
+	  configure.in: システムの正規表現 API 以外に Oniguruma を使用できる
+	  ようにした(岩本さん thanks)。
+
+2006-08-02
+
+	* src/sumaryview.c:
+	  summary_filter_func()
+	  summary_filter_junk_func(): 手動での振り分けでフラグの変更が保存
+	  されなかったバグを修正。
+
+2006-07-31
+
+	* version 2.2.7
+
+2006-07-31
+
+	* src/folderview.c: folderview_menu_popup(): 受信時に一部のメニュー
+	  項目を有効にした。
+	* libsylph/procmsg_empty_trash(): フォルダが実際にごみ箱かどうかを
+	  チェックするようにした。
+
+2006-07-28
+
+        * src/rfc2015.c: sig_status_for_key(): gpgme_get_key() のエラーを
+	  チェックするようにした(署名検証時のクラッシュを修正)。
+
+2006-07-28
+
+	* src/compose.c
+	  src/messageview.c
+	  src/prefs_common_dialog.c
+	  src/mainwindow.c: バルト言語向けに Windows-1257 エンコーディングを
+	  追加。
+
+2006-07-27
+
+	* libsylph/md5_hmac.c: md5_hex_hmac(): メモリリークを修正。
+
+2006-07-26
+
+	* src/compose.c: compose_reply_set_entry(): 抽出したアドレス文字列
+	  ではなく元のものを使うようにした。全員に返信時に To: のアドレスが
+	  Cc: で重複するバグを修正。
+
+2006-07-25
+
+	* libsylph/prefs_common.[ch]
+	  src/inc.c
+	  src/prefs_common_dialog.c: 通常のフィルタリングの前に迷惑メールを
+	  振り分けるオプションを追加。
+
+2006-07-24
+
+	* src/summaryview.c: コンテキストメニューに「迷惑メールに指定／
+	  ではない」を追加。
+
+2006-07-21
+
+	* src/summaryview.c: summary_filter_real(): フィルタルールが存在しない
+	  場合手動での迷惑メールフィルタリングが動作しないバグを修正しました。
+
+2006-06-27
+
+	* po/tr.po: クラッシュを起こしていた typo を修正。
+
+2006-06-26
+
+	* src/gtkutils.[ch]: gtkut_tree_view_fast_clear(): 新規。
+	* src/summaryview.c: GTK+ 2.8.x におけるクラッシュを回避。
+
+2006-06-25
+
+	* libsylph/mh.c: mh_scan_tree_recursive(): win32: 性能を向上。
+	  仮想フォルダをスキャンしないようにした。
+
+2006-06-25
+
+	* src/summaryview.c: summary_execute_move(), summary_execute_copy():
+	  冗長なフォルダスキャンを削除。
+	* libsylph/mh.c: mh_scan_folder_full(): win32: 非 Unicode プラット
+	  フォームに対応(未テスト)。
+
+2006-06-23
+
+	* libsylph/mh.c: mh_scan_folder_full(): win32: ディレクトリのスキャン
+	  を FindFirstFile() / FindNextFile() を用いて最適化。
+
+2006-06-16
+
+	* src/folderview.c: folderview_menu_popup(): IMAP4 の場合選択された
+	  フォルダが開いている場合のみ「すべて読んだことにする」を有効にする
+	  ようにした。
+
+2006-06-16
+
+	* libsylph/procmsg.[ch]
+	  src/folderview.c: フォルダのコンテキストメニューに「すべて読んだ
+	  ことにする」を追加。
+
+2006-06-09
+
+	* version 2.2.6
+
+2006-06-08
+
+	* src/textview.c: textview_write_link(): href からスペースを除去
+	  (Win32 で ShellExecute() での実行に失敗する問題と URI チェックを
+	  修正)。
+
+2006-06-04
+
+	* src/send_message.c: send_message_smtp(): タイムアウト処理が抜けて
+	  いたのを追加(Colin さん thanks)。
+
+2006-06-01
+
+	* libsylph/imap.c: RFC 3516 で定義されている 8-bit リテラル (literal8)
+	  に対応。
+
+2006-05-29
+
+	* version 2.2.5
+
+2006-05-26
+
+	* libsylph/pop.c: pop3_lookup_next(): 期限切れのメッセージを削除する
+	  場合も Pop3Session::cur_total_bytes を増加させるようにした。
+
+2006-05-26
+
+	* src/foldersel.c: GLib 2.10 と Pango 1.12 でボールド表示が無効に
+	  なっていたバグを修正。
+
+2006-05-17
+
+	* src/main.c: アクセシビリティモジュール使用時に実行に失敗するバグを
+	  修正。
+	* libsylph/codeconv.c: conv_sjistojis(): 半角カナ使用時に文字化けと
+	  バッファオーバーフローを起こすバグを修正。
+
+2006-05-09
+
+	* src/summaryview.c: new/unread の数が0の場合はそれ以上減らさない
+	  ようにした。
+
+2006-03-29
+
+	* version 2.2.4
+
+2006-03-27
+
+	* src/prefs_common_dialog.c: "RFC 2231" を翻訳不可にした。
+
+2006-03-27
+
+	* libsylph/utils.[ch]: subst_control(): 新規。
+	* libsylph/procheader.c: procheader_parse_stream(): ヘッダからコント
+	  ロール文字を除去。
+	* src/folderview.c
+	  src/summaryview.c: GLib 2.10 と Pango 1.12 でボールド表示が無効に
+	  なっていたバグを修正。
+
+2006-03-24
+
+	* src/summaryview.[ch]: クイックサーチエントリのクリアボタンを追加。
+
+2006-03-24
+
+	* src/prefs_common_dialog.c: prefs_keybind_apply_clicked(): メニュー
+	  文字列 "/View/Show all headers" を修正(Takayama さん thanks)。
+
+2006-03-17
+
+	* src/prefs_ui.[ch]
+	  src/prefs_common_dialog.[ch]: MIME ファイル名エンコーディング方式
+	  のオプションを追加。
+
+2006-03-17
+
+	* libsylph/utils.[ch]
+	  libsylph/prefs_common.[ch]
+	  libsylph/procmime.c
+	  libsylph/codeconv.[ch]
+	  src/compose.c: 送信時の RFC 2231 ファイル名エンコーディングを実装。
+
+2006-03-16
+
+	* libsylph/procmime.c: RFC 2231 パラメータ値拡張を実装。
+
+2006-03-14
+
+	* libsylph/mh.c: mh_scan_tree_recursive(): Win32 でパスを比較するとき
+	  に Unix パス区切りも許容するようにした(Win32 と Unix で設定ファイル
+	  が共有されている場合に Win32 でフォルダツリーの再構築を行った場合
+	  サブフォルダが重複するのを修正)。
+
+2006-03-14
+
+	* version 2.2.3
+
+2006-03-10
+
+	* src/icons/sylpheed.ico: 背景を透過にした。
+
+2006-03-10
+
+	* src/query_search.c: 結果のソートができるようにした。
+
+2006-03-10
+
+	* src/editbook.c
+	  src/editgroup.c
+	  src/importldif.c
+	  src/editjpilot.c
+	  src/editaddress.c
+	  src/addressadd.c
+	  src/editldap_basedn.c
+	  src/editvcard.c
+	  src/editldap.c: ステータスバーの間隔を調整。
+
+2006-03-10
+
+	* src/addressbook.c: アクセラレータとレイアウトを修正。
+
+2006-03-10
+
+	* libsylph/procmsg.[ch]
+	  src/messageview.c
+	  src/summaryview.c: メッセージの印刷を「すべてのヘッダを表示」の状態
+	  に従うようにした。
+
+2006-03-09
+
+	* libsylph/procmime.c: procmime_execute_open_file():
+	  ~/.sylpheed-2.0/mailcap が見つからなければ ~/.mailcap をパースする
+	  ようにした。
+
+2006-03-09
+
+	* libsylph/utils.[ch]
+	  libsylph/prefs_common.[ch]
+	  src/mimeview.c: 後方互換性のために隠しオプション "mime_command"
+	  を追加。
+	* libsylph/procmime.c
+	  libsylph/procmsg.c
+	  src/compose.c
+	  src/inc.c
+	  src/messageview.c
+	  src/summaryview.c: str_find_format_times() を使用。
+
+2006-03-08
+
+	* libsylph/procmime.c: 標準の場所以外の mailcap ファイルも読むように
+	  した。
+
+2006-03-08
+
+	* libsylph/procmime.[ch]
+	  src/mimeview.c: metamail のサポートを削除し、別の実装で置き換えた。
+	* libsylph/prefs_common.c: "mime_image_viewer" と "mime_audio_player"
+	  のオプションを互換性のために残すが、デフォルトで空にした。
+
+2006-03-07
+
+	* src/compose.c: compose_get_signature_str(): 相対署名パスを許可。
+
+2006-03-06
+
+	* src/textview.c: textview_uri_security_check(): URI を比較する際
+	  末尾のパス区切りを無視するようにした。
+
+2006-03-06
+
+	* src/compose.[ch]
+	  src/addressbook.c: To, Cc, Bcc ボタンを常に有効にするようにした。
+	  メッセージ作成ウィンドウが存在しなければ新たに作成するようにした。
+
+2006-03-06
+
+	* libsylph/prefs_common.[ch]
+	  src/addressbook.c: アドレス帳のウィンドウの位置を保存。ヘルプ
+	  メニューの位置を移動。
+
+2006-03-06
+
+	* src/compose.c: compose_select_account(): メールアカウントで View/Cc
+	  メニューを有効にした。
+
+2006-03-03
+
+	* version 2.2.2
+
+2006-03-02
+
+	* src/message_search.c: 検索ダイアログを開いたままメッセージウィンドウ
+	  を閉じた後クラッシュするのを修正。
+
+2006-03-02
+
+	* libsylph/imap.c: imap_rename_folder_real(): フォルダをルートフォルダ
+	  直下に移動しようとするとクラッシュするのを修正。
+
+2006-03-01
+
+	* src/alertpanel.c: ダイアログが範囲外の位置にあれば中央に配置する
+	  ようにした(win32 においてメインウィンドウが最小化されているときに
+	  警告ダイアログが表示された場合操作不能になるのを修正)。
+
+2006-03-01
+
+	* src/main.c: win32: コンソールの初期化を一度だけしか行わないように
+	  した。
+
+2006-02-28
+
+	* src/main.c: win32: デバッグ、ヘルプメッセージを新規に作成した
+	  コンソールに出力するようにした。
+
+2006-02-27
+
+	* libsylph/utils.c: execute_async(), execute_sync(): win32:
+	  エンコーディングの問題を修正(GLib < 2.8.2 の GSpawn はコードページ
+	  の引数をとる)。
+
+2006-02-27
+
+	* version 2.2.1
+
+2006-02-24
+
+	* configure.in: GtkSpell をデフォルトで有効にした。
+
+2006-02-24
+
+	* libsylph/folder.h: コメントを修正。
+
+2006-02-24
+
+	* src/summaryview.c: スレッドの日付で降順でソートしている状態で
+	  クイックサーチをリセットした場合の性能低下を修正。
+	* Makefile.am
+	  sylpheed.spec.in: README.es を追加。
+
+2006-02-24
+
+	* README.es: 追加(Ricardo Mones さん thanks)。
+	* README, README.ja: FSF の住所を変更。
+
+2006-02-23
+
+	* src/subscribedialog.c: 非 ascii のニュースグループ名を無視するように
+	  した(Win32 でのクラッシュを修正)。
+
+2006-02-22
+
+	* libsylph/folder.c: folder_get_path(): IMAP キャッシュディレクトリに
+	  ファイル名セーフな文字列を使用するようにした。
+	* src/prefs_common_dialog.c: コンパイル時の警告を修正。
+
+2006-02-21
+
+	* libsylph/utils.[ch]: uriencode_for_filename(): ファイル名セーフな
+	  文字列を URI エンコードで生成(空白を除く)。
+	* libsylph/pop.c: UIDL ファイルにファイル名セーフな文字列を使用する
+	  ようにした(Unix 上で後方互換性を失う可能性あり)。
+
+2006-02-14
+
+	* libsylph/session.c
+	  libsylph/socket.[ch]: win32: ソケットから読み込むときにブロックする
+	  のを回避。
+
+2006-02-13
+
+	* version 2.2.0
+
+2006-02-10
+
+	* sylpheed.spec.in: Requires: を修正。
+
+2006-02-09
+
+	* src/summaryview.c
+	  src/folderview.c: 送信待ちフォルダから/への移動/コピーと、仮想
+	  フォルダへの移動/コピーを抑制するようにした。
+
+2006-02-09
+
+	* version 2.2.0rc
+
+2006-02-08
+
+	* libsylph/codeconv.c: conv_get_fallback_for_private_encoding():
+	  "x-sjis" に対応。
+
+2006-02-08
+
+	* libsylph/codeconv.c:
+	  conv_get_locale_charset()
+	  conv_get_locale_charset_str(): Win32 では GLib API を使用するように
+	  した(誤ったエンコーディングが返るのを修正)。
+	  src/rfc2015.c: sig_status_full(): ロケールから UTF-8 への変換に
+	  g_locale_to_utf8() を使用。
+
+2006-02-07
+
+	* src/mainwindow.c: コマンドラインオプションのヘルプウィンドウを
+	  singleton にした。
+
+2006-02-07
+
+	* src/tryaicon.c: trayicon_button_pressed(): 常に前面にあるウィンドウ
+	  によって隠れている場合の対処として強制的に obscured フラグを降ろす
+	  ようにした。
+
+2006-02-07
+
+	* src/compose.c: compose_exec_ext_editor(): 外部エディタの実行に失敗
+	  した後 UI が無効になっていた問題を修正(M.Suzuki さん thanks)。
+
+2006-02-07
+
+	* src/tryaicon.c: trayicon_button_pressed(): gtk_widget_hide() の
+	  代わりに gtk_widget_iconify() を使用(いくつかの問題を修正)。
+
+2006-02-06
+
+	* version 2.2.0beta8
+
+2006-02-06
+
+	* src/prefs_filter_edit.c: win32で正規表現マッチタイプを無効にした。
+
+2006-02-06
+
+	* libsylph/mh.c
+	  libsylph/imap.c: メッセージをごみ箱に移動/コピーするとき未読フラグ
+	  をリセットしないようにした。
+
+2006-02-06
+
+	* libsylph/mh.c: win32: フォルダ名の最後に「表」など(2バイト目に 0x5c
+	  ('\')を含む)特定の日本語の文字をもつフォルダの内容が表示できない
+	  バグを修正。
+
+2006-02-06
+
+	* src/messageview.[ch]: show_all_headers 状態が変更された場合メニュー
+	  を更新するようにした。
+
+2006-02-05
+
+	* libsylph/pop.c: pop3_getrange_stat_recv(): 移植性のないフォーマット
+	  文字列を修正("%Ld" は Mac OS X を含む *BSD では未定義)。これによって
+	  *BSD システムで受信時のステータス表示がおかしくなるのを修正。
+	* libsylph/utils.c: to_human_readable(): 翻訳を無効にした。
+
+2006-02-03
+
+	* src/summaryview.c: summary_row_expanded(): workaround を GTK+ 2.8
+	  で再び有効にした。
+
+2006-02-03
+
+	* src/mimeview.c: mimeview_show_mime_part(): ファイル名を通常のフォント
+	  で表示。
+
+2006-02-02
+
+	* manual/ja/sylpheed.sgml: 2.2 向けに一部を更新。
+
+2006-02-02
+
+	* src/mainwindow.c: main_window_key_pressed(): タブキーを特別なケース
+	  として処理。
+
+2006-02-02
+
+	* src/inc.c
+	  src/trayicon.c
+	  src/gtkutils.[ch]
+	  src/mainwindow.[ch]: モーダルウィンドウが存在したらトレイアイコンの
+	  アクションを無効にするようにした。メインウィンドウが隠れていたら
+	  ウィンドウを前面に出すようにした。
+
+2006-02-02
+
+	* src/mainwindow.c: コマンドラインオプションのヘルプを追加。
+
+2006-02-02
+
+	* src/mainwindow.c: main_window_key_pressed(): クイックサーチエントリ
+	  のキーイベント処理を修正。
+
+2006-02-01
+
+	* src/inc.c
+	  src/folderview.[ch]: ローカルまたはリモートメールボックス上の新着
+	  メッセージ数を正しく数えるようにした。
+
+2006-02-01
+
+	* libsylph/imap.c: imap_cmd_gen_recv(): 長すぎる行を切り詰めるように
+	  した(ex. SEARCH コマンド)。
+
+2006-02-01
+
+	* src/mainwindow.[ch]: アカウントが存在しない場合は送信ボタンを無効に
+	  するようにした。
+
+2006-02-01
+
+	* libsylph/prefs_common.c: summaryview_height の既定値を変更。
+
+2006-02-01
+
+	* src/compose.c
+	  src/messageview.c
+	  src/mainwindow.c: win32でアクションメニューを無効にした。
+
+2006-01-31
+
+	* version 2.2.0beta7
+
+2006-01-31
+
+	* src/compose.c
+	  src/messageview.c
+	  src/prefs_common_dialog.c
+	  src/mainwindow.c: アラビア語のエンコーディングを追加(Mohammed Sameer
+	  さん thanks)。
+
+2006-01-31
+
+	* src/statusbar.c
+	  src/textview.c: ステータスバー文字列の切り詰めを行わないようにした。
+
+2006-01-31
+
+	* libsylph/prefs_common.[ch]
+	  src/addressbook.c: アドレス帳のサイズを記憶するようにした。
+
+2006-01-31
+
+	* src/mainwindow.c: 「スレッドを読んだことにする」メニューを追加。
+	* src/summaryview.c: summary_mark_thread_as_read(): GtkTreePath の
+	  リストのリークを修正。
+
+2006-01-30
+
+	* src/summaryview.[ch]: 「スレッドを読んだことにする」を実装。
+
+2006-01-30
+
+	* src/summaryview.c: 閉じたスレッド全体のメッセージを移動/コピーできる
+	  ようにした。
+
+2006-01-30
+
+	* libsylph/account.[ch]
+	  src/compose.c: compose_reply(): 自動アカウント選択が IMAP4 フォルダ
+	  で無効になっていたバグを修正。
+
+2006-01-30
+
+	* libsylph/socket.[ch]: コードの整理。
+
+2006-01-28
+
+	* src/main.c: win32: リモートコマンドモードのときに
+	  SetForegroundWindow() を使用して正しくメインウィンドウをポップアップ
+	  するようにした。
+
+2006-01-27
+
+	* src/summaryview.c: summary_selection_changed(): ボタン押下中のみ
+	  idle 関数を実行するようにした。
+
+2006-01-27
+
+	* src/summaryview.c: summary_selection_changed(): idle 関数内で
+	  メッセージを表示するようにした(パスフレーズダイアログを表示した後
+	  誤ってドラッグ開始状態になるのを修正)。
+
+2006-01-27
+
+	* src/passphrase.c: パスフレーズをロケールエンコーディングに変換する
+	  ようにした。
+
+2006-01-27
+
+	* src/gtkutils.[ch]
+	  src/summaryview.c: 閉じたスレッドを削除するとそのスレッドのすべての
+	  メッセージを削除するようにした。
+
+2006-01-27
+
+	* src/query_search.[ch]
+	  src/Makefile.am
+	  src/folderview.c
+	  src/mainwindow.c: summary_search.[ch] を query_search.[ch] に改名。
+
+2006-01-26
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.c
+	  src/prefs_common_dialog.c: 問題のあった「送信時に自動整形する」
+	  オプションを廃止。
+
+2006-01-26
+
+	* libsylph/socket.c
+	  configure.in: Win32 で IPv6 に対応。
+
+2006-01-26
+
+	* src/textview.c
+	  src/mimeview.c
+	  src/summaryview.c
+	  src/folderview.c: GDK_KP_* キーコードも認識するようにした。
+
+2006-01-25
+
+	* version 2.2.0beta6
+
+2006-01-25
+
+	* libsylph/virtual.c
+	  src/summary_search.c: 再帰検索のときはごみ箱を除外するようにした。
+	* src/prefs_search_folder.[ch]
+	  src/folderview.c: 仮想フォルダが変更された場合はサマリを更新する
+	  ようにした。
+
+2006-01-25
+
+	* libsylph/procmsg.[ch]: procmsg_trash_messages_exist(): 追加。
+	* src/folderview.c: folderview_menu_popup(): ごみ箱のメッセージが存在
+	  しなければ「ごみ箱を空にする」を有効にしないようにした。
+	* src/mainwindow.c: main_window_empty_trash(): ごみ箱のメッセージが存在
+	  しなければすぐに返るようにした。
+
+2006-01-25
+
+	* src/compose.c: 「ファイル/署名を挿入」で署名を現在のカーソル位置に
+	  挿入するようにした。「ファイル/署名を追加」を以前の動作として追加。
+
+2006-01-24
+
+	* src/summaryview.c: summary_qsearch_reset(), summary_qsearch():
+	  UI の有効状態を更新。
+
+2006-01-24
+
+	* src/compose.c: compose_attach_parts(): ファイル名が指定されていない
+	  場合でも特定のタイプの添付を強制するようにした。
+	  src/procmime.[ch]: MIME_VIDEO を ContentType に追加。
+
+2006-01-24
+
+	* src/foldersel.c: ダイアログを親ウィンドウの中央に配置。
+
+2006-01-24
+
+	* src/alertpanel.c
+	  src/inputdialog.c: gtk_widget_show() の前に transient window を
+	  セット(誤ったウィンドウ位置を修正)。
+
+2006-01-24
+
+	* libsylph/account.c
+	  libsylph/prefs_account.c
+	  src/prefs_account_dialog.c: メモリリークを修正。
+	* libsylph/imap.c: imap_session_connect(): 一時パスワードを保存。
+	  imap_close(): クローズ時にサーバへの接続を試みないようにした。
+
+2006-01-24
+
+	* libsylph/procsg.c: procmsg_remove_all_cached_messages(): 仮想
+	  フォルダをスキップするようにした。
+
+2006-01-23
+
+	* libsylph/procmsg.[ch]
+	  libsylph/prefs_account.[ch]
+	  src/main.c
+	  src/prefs_account_dialog.[ch]: 終了時の IMAP4 のメッセージキャッシュ
+	  のクリアを実装。
+
+2006-01-23
+
+	* libsylph/imap.c: imap_do_copy_msgs(): ソースフォルダのキャッシュ
+	  ファイルが削除されなかったバグを修正。
+
+2006-01-20
+
+	* src/compose.c: compose_new(): ファイル名エンコーディングを修正。
+	* src/main.c: open_compose_new(): 非 ascii mailto 文字列とファイル名
+	  が使えるようにした。
+
+2006-01-20
+
+	* src/alertpanel.c
+	  src/inputdialog.c
+	  src/filesel.c: ダイアログを親ウィンドウの中央に配置。
+
+2006-01-20
+
+	* version 2.2.0beta5
+
+2006-01-20
+
+	* src/summaryview.c: 検索エントリにツールチップを追加。
+
+2006-01-20
+
+	* src/prefs_search_folder.c
+	  src/prefs_folder_item.c: style をコピーする代わりに
+	  gtk_widget_modify_base() を使用。 style を取得する前にウィンドウを
+	  realize するようにした。
+
+2006-01-19
+
+	* src/summaryview.c: summary_qsearch_reset(), summary_qsearch(): 無効
+	  になったセレクションをクリア(クイックサーチ時のクラッシュを修正)。
+
+2006-01-19
+
+	* src/trayicon.c
+	  src/menu.h: メッセージ作成ウィンドウのアカウント選択メニューが意図
+	  せずにニーモニックを持ってしまうのを修正。
+
+2006-01-19
+
+	* libsylph/imap.c: imap_scan_tree_recursive(): 仮想フォルダを適切に
+	  処理するようにした。
+	* src/folderview.c: folderview_menu_popup(): 仮想フォルダの下に新規
+	  フォルダを作るのを抑制。
+
+2006-01-19
+
+	* src/summaryview.c: summary_thread_build(), summary_unthread():
+	  最適化のためにシグナルハンドラをブロック。
+
+2006-01-19
+
+	* src/summaryview.[ch]: クイックフィルタを実装。
+
+2006-01-18
+
+	* libsylph/filter.[ch]
+	  src/prefs_filter_edit.[ch]: 「未読」、「マーク」、「カラーラベル」、
+	  「添付ファイル」等の状態のフィルタ条件を追加。
+
+2006-01-18
+
+	* src/summaryview.c: 順序を保持するため、ソート時に all_mlist を更新
+	  するようにした。
+
+2006-01-17
+
+	* src/export.c
+	  src/import.c: エクスポート/インポートダイアログのウィンドウ管理を
+	  修正。
+
+2006-01-17
+
+	* libsylph/prefs_common.[ch]
+	  src/summaryview.[ch]
+	  src/mainwindow.c: 検索バーの切り替えができるようにした。
+
+2006-01-17
+
+	* src/summaryview.[ch]
+	  src/mainwindow.c: サマリビューのクイックサーチを実装。
+
+2006-01-17
+
+	* libsylph/news.c: news_get_group_list(): より詳細な警告を表示。
+
+2006-01-13
+
+	* version 2.2.0beta4
+
+2006-01-13
+
+	* libsylph/prefs_common.[ch]
+	  src/trayicon.c
+	  src/menu.h
+	  src/main.h
+	  src/prefs_common_dialog.c
+	  src/mainwindow.[ch]: トレイアイコンのクリックで表示・非表示を行う
+	  ようにした。トレイアイコンのポップアップメニューを実装。
+
+2006-01-13
+
+	* libsylph/pop.[ch]
+	  src/inc.[ch]: メッセージの合計サイズが 2GB を超える場合に 32bit
+	  整数オーバーフローを起こすのを修正。
+
+2006-01-12
+
+	* src/summaryview.c: summary_set_tree_model_from_list(): スレッド表示
+	  が off の場合のメモリリークを修正。
+
+2006-01-12
+
+	* libsylph/virtual.c: virtual_rename_folder(): 追加。
+	* src/folderview.c: folderview_rename_folder_cb(): 仮想フォルダの
+	  名前変更を修正。
+	  folderview_move_folder_cb(): 仮想フォルダを親として許可しないように
+	  した。
+	  folderview_menu_popup(): ニュースグループ上で仮想フォルダの名称変更/
+	  削除を可能にした。
+
+2006-01-12
+
+	* src/folderview.c: 検索フォルダでは「メッセージを検索...」を
+	  「検索条件の編集...」メニューで置き換えるようにした。
+
+2006-01-12
+
+	* src/about.[ch]
+	  README
+	  README.ja: 著作権年を更新。
+
+2006-01-11
+
+	* src/folderview.c: folderview_check_new(): 仮想フォルダを除外する
+	  ようにした。
+
+2006-01-11
+
+	* version 2.2.0beta3
+
+2006-01-11
+
+	* src/mainwindow.c: search_cb(): 仮想フォルダの場合は検索フォルダの
+	  プロパティを開くようにした。
+
+2006-01-10
+
+	* src/prefs_search_folder.c: 名前のエントリを追加。さらに名前を
+	  ウィンドウタイトルに表示。
+
+2006-01-10
+
+	* src/textview.c: get_uri_part(): isgraph() と ispunct() の glib 版
+	  関数を使用。いくつかの末尾の記号を URI に含めた。
+
+2006-01-10
+
+	* src/summaryview.c
+	  src/mainwindow.c: 誤って選択するのを防ぐため、「削除」メニューを
+	  再配置し、セパレータを追加。
+
+2006-01-10
+
+	* libsylph/virtual.c
+	  libsylph/defs.h
+	  src/prefs_search_folder.c: 検索フォルダの条件の編集を実装。
+
+2006-01-06
+
+	* src/prefs_search_folder.[ch]
+	  src/summary_search.[ch]
+	  src/folderview.c
+	  src/prefs_filter_edit.[ch]: 検索フォルダのプロパティを一部実装。
+
+2006-01-06
+
+	* src/folderview.c: 検索フォルダ削除のメッセージを修正。
+
+2006-01-06
+
+	* src/summary_search.c: 保存ダイアログで名前エントリがアクティベート
+	  されたら受け付けるようにした。
+	* src/summaryview.c: summary_status_show(): sizeof(off_t) が 4 の環境
+	  でのオーバーフローを防ぐため sel_size に gint64 を使用。
+
+2006-01-06
+
+	* libsylph/virtual.c: 一時フラグを比較しないようにした(検索キャッシュ
+	  がたまに働かなかったバグを修正)。
+
+2006-01-06
+
+	* src/summary_search.c
+	  src/prefs_filter_edit.[ch]: prefs_filter_edit_cond_edit_to_list():
+	  コードの整理のために追加。
+
+2006-01-05
+
+	* src/textview.c: textview_make_clickable_parts(): 'www.' で始まる
+	  暗黙の URI の前に http:// スキームを追加するようにした。
+
+2006-01-05
+
+	* libsylph/virtual.c
+	  src/folderview.c: IMAP4 または NNTP フォルダ以下の検索フォルダを
+	  削除できないバグを修正。
+
+2005-12-27
+
+	* libsylph/procmsg.[ch]
+	  libsylph/virtual.c: 2回目以降の検索を高速化するために検索結果を
+	  キャッシュするようにした。
+	* src/summary_search.c: 警告を修正。
+
+2005-12-26
+
+	* version 2.2.0beta2
+
+2005-12-26
+
+	* libsylph/pop.[ch]: セッションが完了しなかった後重複して受信するのを
+	  回避するようにした。
+
+2005-12-26
+
+	* src/compose.c
+	  src/messageview.c
+	  src/prefs_common_dialog.c
+	  src/mainwindow.c: 表示エンコーディングに Windows-1252 を追加。
+	  メッセージ作成ウィンドウの送信エンコーディングから EUC-TW を削除。
+
+2005-12-26
+
+	* src/compose.c: compose_attach_parts(): 重複して添付するのを防ぐ
+	  ため、 message/rfc822 内を辿らないようにした。
+
+2005-12-26
+
+	* src/compose.c: ファイルが手動で添付された場合のみ修正済みフラグを
+	  追加するようにした。
+
+2005-12-26
+
+	* libsylph/utils.c: subst_for_filename(): 置換する文字を追加(Win32
+	  のため)。
+	  generate_mime_boundary(): subst_char() を subst_chars()
+	  で置き換えた。
+
+2005-12-25
+
+	* src/compose.c: compose_attach_parts(): message/rfc822 パートも
+	  含めるようにした。
+
+2005-12-25
+
+	* src/folderview.c: コンテキストメニューからフォルダを削除/リネーム
+	  したときに現在選択されている行でなく以前選択されていた行がビュー
+	  から削除されていたバグを修正。
+
+2005-12-25
+
+	* src/compose.c: compose_attach_parts(): ファイル名をもつすべての
+	  パートを添付し、ファイル名がないパートは添付しないようにした
+	  (一部のケースで添付ファイルの転送に失敗するのを修正)。
+
+2005-12-22
+
+	* version 2.2.0beta1
+
+2005-12-22
+
+	* src/compose.c: compose_is_itemized(): 列挙行の検出を修正。
+
+2005-12-22
+
+	* src/summary_search.c
+	  src/mainwindow.c: ウィンドウ操作を修正。
+
+2005-12-22
+
+	* src/summaryview.[ch]
+	  src/summary_search.c: 可能であれば指定したメッセージをサマリビュー
+	  で選択するようにした。
+
+2005-12-22
+
+	* src/summaryview.c: summary_row_expanded(): GTK+ 2.8 で workaround
+	  を無効にした。
+
+2005-12-21
+
+	* libsylph/procmsg.[ch]
+	  src/compose.c
+	  src/summaryview.[ch]: 仮想フォルダでのフラグ変更が実際のフォルダに
+	  反映されるようにした。
+
+2005-12-21
+
+	* libsylph/virtual.c
+	  libsylph/filter.c
+	  src/summary_search.c
+	  src/prefs_folder_item.c
+	  src/folderview.c: 検索フォルダを開く時に進捗を表示するようにした。
+	  検索フォルダの検索ができないようにした。大小文字の区別を保存する
+	  ようにした。
+	* libsylph/procmsg.h
+	  src/compose.c
+	  src/summaryview.c: MSG_FLAG_CHANGED フラグを追加。
+
+2005-12-20
+
+	* src/compose.c: compose_is_itemized(): (1), (2), 3. ... のように列挙
+	  された行もチェックするようにした。
+
+2005-12-20
+
+	* libsylph/account.[ch]: account_address_exist(): 新規。
+	  src/account_dialog.c
+	  src/summaryview.c: 「差出人が自分の場合は `差出人' カラムに宛先を
+	  表示する」オプションが有効の場合は全アカウントを調べるようにした。
+
+2005-12-20
+
+	* src/summaryview.c: summary_set_row(): メモリリークを修正。
+
+2005-12-20
+
+	* src/folderview.[ch]: display_folder_unread の設定をすぐに反映させる
+	  ようにした。
+
+2005-12-20
+
+	* src/filesel.c: filesel_select_file_full(): GTK+ 2.8 で事前に選択
+	  されるディレクトリを修正。
+
+2005-12-19
+
+	* src/subscribedialog.c: ダイアログを閉じたらメインウィンドウを前面に
+	  出すようにした。
+
+2005-12-19
+
+	* src/mainwindow.c: main_window_get_size(): ウィンドウが最大化されて
+	  いてもサマリビューの高さを保存するようにした。
+
+2005-12-19
+
+	* libsylph/prefs_common.[ch]
+	  src/mainwindow.c: 最大化状態を記憶するようにした。
+
+2005-12-19
+
+	* src/summary_search.[ch]
+	  src/folderview.c
+	  src/mainwindow.c: summary_search() の引数から SummaryView* を削除。
+	  検索フォルダとして保存するときにフォルダをあらかじめ指定。
+	
+2005-12-19
+
+	* libsylph/virtual.[ch]
+	  libsylph/folder.[ch]
+	  libsylph/filter.[ch]
+	  libsylph/Makefile.am
+	  src/summary_search.[ch]
+	  src/prefs_folder_item.c
+	  src/summaryview.c
+	  src/folderview.c
+	  src/mainwindow.c
+	  src/prefs_filter_edit.[ch]: クエリ検索と仮想フォルダを実装。
+
+2005-12-19
+
+	* libsylph/codeconv.[ch]: 非標準なエンコーディング "ks_c_5601-1987"
+	  に対応(Yoo Chung さん thanks)。
+
+2005-12-14
+
+	* version 2.1.9
+
+2005-12-14
+
+	* libsylph/prefs_account.[ch]
+	  src/inc.c
+	  src/folderview.[ch]
+	  src/prefs_account_dialog.c: IMAP4 アカウントの新着メッセージの
+	  チェックで INBOX のみを更新するオプションを追加。
+
+2005-12-13
+
+	* libsylph/account.c
+	  libsylph/prefs_account.[ch]
+	  src/prefs_account_dialog.c: カスタム送信待ちフォルダを有効にした。
+
+2005-12-13
+
+	* src/subscribedialog.c: 更新した後非表示の購読グループが削除されて
+	  いたバグを修正。ワイルドカードのないキーワードでワイルドカードを
+	  仮定するようにした。ニュースグループリストの取得を開始した時に
+	  状態を表示。
+
+2005-12-09
+
+	* src/foldersel.c: FOLDER_SEL_ALL でトップフォルダも選択するように
+	  した。
+	* libsylph/folder.c: folder_find_item_from_identifier(): トップフォルダ
+	  も返すようにした。
+
+2005-12-09
+
+	* src/filter.[ch]: filter_rule_requires_full_headers(): 追加。
+	* libsylph/procheader.[ch]: procheader_get_header_list_from_msginfo():
+	  追加。
+
+2005-12-09
+
+	* src/prefs_filter_edit.[ch]: prefs_filter_edit_cond_hbox_to_cond():
+	  大小文字の区別のための引数を追加。
+
+2005-12-08
+
+	* src/prefs_filter_edit.[ch]
+	  src/prefs_filter.[ch]: 関数をさらに公開。
+
+2005-12-08
+
+	* src/prefs_filter_edit.[ch]: 条件の編集を一般化した。
+
+2005-12-08
+
+	* libsylph/imap.c: imap_get_msg_list(): フォルダが開いていない場合
+	  のみ mtime を更新するようにした。
+
+2005-12-07
+
+	* libsylph/mh.c
+	  libsylph/news.c
+	  libsylph/imap.c
+	  libsylph/procmsg.[ch]: フォルダからメッセージリストを読み込んだ
+	  ときにキャッシュとフラグを更新するようにした。
+
+2005-12-06
+
+	* src/prefs_filter_edit.[ch]: CondHBox / ActionHBox 関係の API を
+	  public にした。
+
+2005-12-05
+
+	* src/compose.c: compose_reply_set_entry(): COMPOSE_REPLY_TO_ALL を
+	  NNTP でも有効にした。メモリリークを修正。
+
+2005-12-05
+
+	* libsylph/utils.[ch]
+	  libsylph/imap.c: imap_cmd_append(): メッセージの内容を一度に送信
+	  するようにした。
+
+2005-12-02
+
+	* src/textview.c: textview_add_part(): 署名パートのフォントを修正。
+
+2005-12-02
+
+	* src/addrbook.c: addrbook_update_address_list(): グループに含まれる
+	  アドレスを変更した際にクラッシュするバグを修正。
+	* src/addrbook.c: addrbook_update_group_list()
+	  src/editgroup.c: addressbook_edit_group(): メモリリークを修正。
+
+2005-12-02
+
+	* src/passphrase.c: gpgmegtk_passphrase_cb(): win32 でブロックする
+	  のを修正。
+
+2005-12-01
+
+	* src/folderview.c: コンテキストメニューに「サマリを更新」を追加。
+
+2005-12-01
+
+	* libsylph/session.h
+	  libsylph/smtp.h: 一部環境でコンパイルが失敗するのを修正。
+
+2005-11-30
+
+	* src/summaryview.[ch]: 振り分け時に進捗を表示。
+
+2005-11-30
+
+	* version 2.1.8
+
+2005-11-29
+
+	* libsylph/session.c: デバッグ用 print を削除。
+
+2005-11-29
+
+	* src/send_message.c: send_message_queue_all():
+	  compose.c::compose_send() の変更に追従するようにした。
+
+2005-11-28
+
+	* libsylph/prefs_common.[ch]
+	  src/prefs_common_dialog.c: 送信エンコーディングオプションを表示 -
+	  エンコーディングタブに移動。
+
+2005-11-28
+
+	* libsylph/procmime.c: procmime_decode_content(): win32 でもテキスト
+	  ファイルを正規化するようにした。 quoted-printable のパートでも
+	  正規化を行うようにした。
+
+2005-11-28
+
+	* libsylph/pop.c
+	  libsylph/recv.c
+	  src/compose.c: 改行の変換を元に戻した。
+
+2005-11-25
+
+	* src/compose.c: リダイレクト/キュー時も正規化するようにした。
+
+2005-11-25
+
+	* src/compose.c: compose_write_to_file(): 作成したメッセージを常に
+	  正規化するようにした。
+
+2005-11-25
+
+	* libsylph/procmime.c: procmime_decode_content(): エンコードされて
+	  いないテキストを正規化解除するようにした。
+
+2005-11-25
+
+	* libsylph/pop.c
+	  libsylph/recv.c: CR+LF を LF に変換しないようにした。
+	* libsylph/procmime.c: procmime_decode_content(): message/rfc822 を
+	  正規化解除しないようにした。
+
+2005-11-25
+
+	* src/imageview.c: size_allocate_cb(): image_data が存在しなければ
+	  イメージビューを更新しないようにした。
+	* src/mimeview.c: mimeview_change_view_type(): 隠したビューをクリア
+	  するようにした。
+
+2005-11-25
+
+	* libsylph/session.[ch]: session_read_data_as_file_cb(): バッファが
+	  半分以上満たされるまでファイルに書き出さないようにした。バッファ
+	  サイズを拡大。
+
+2005-11-25
+
+	* libsylph/session.c: session_recv_data_as_file_idle_cb(): メッセージ
+	  データの先頭部分を失うバグを修正。
+
+2005-11-24
+
+	* libsylph/procmime.c: procmime_decode_content(): win32: テキスト
+	  ファイルを非正規化しないようにした。
+
+2005-11-24
+
+	* libsylph/pop.c
+	  libsylph/session.[ch]: POP3 セッションでのメモリ消費量を削減する
+	  ために、データをファイルストリームとして受信する
+	  session_recv_data_as_file() を実装。
+
+2005-11-22
+
+	* src/compose.c
+	  src/prefs_common_dialog.c: 振り分けられた送信メッセージは送信控に
+	  保存しないようにした。送信メッセージの保存が有効な場合のみ送信
+	  メッセージの振り分けを有効にするようにした。
+	* src/inc.c: inc_drop_message(): 冗長なコードを削除。
+
+2005-11-22
+
+	* libsylph/utils.[ch]
+	  libsylph/session.[ch]
+	  libsylph/smtp.[ch]
+	  src/send_message.c: SMTP セッションでのメモリ消費量を削減。
+
+
+2005-11-22
+
+	* libsylph/imap.c: QUOTE_IF_REQUIRED(): "[]&" をクオートする文字に
+	  追加(courier-imap 対策)。
+
+
+2005-11-22
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.c: 最後のウィンドウ位置を記憶するようにした。
+	* src/sourcewindow.c: win32: ウィンドウが常に左上に出現していたのを
+	  修正。 TextView にマージンを追加。
+
+2005-11-21
+
+	* src/compose.c: compose_create(): win32: ウィンドウが常に左上に
+	  出現していたのを修正。
+
+2005-11-21
+
+	* src/compose.c:
+	  compose_get_signature_str()
+	  compose_insert_file(): ロケール→UTF-8 変換を優先するようにした
+	  (日本語の変換を一部誤るのを修正)。
+
+2005-11-21
+
+	* libsylph/prefs_common.[ch]: オプションの順序を変更。
+
+2005-11-21
+
+	* src/prefs_ui.[ch]
+	  src/prefs_common_dialog.c: 全般の設定を再構成。
+
+2005-11-18
+
+	* version 2.1.7
+
+2005-11-18
+
+	* libsylph/prefs_common.[ch]
+	  src/prefs_common_dialog.c: スペルタブの位置を移動。
+
+2005-11-17
+
+	* src/compose.c: compose_set_title(): 編集マークが目立ちすぎない
+	  ようにした。
+
+2005-11-17
+
+	* libsylph/utils.c: set_startup_dir(): win32: スタートアップディレ
+	  クトリを常に実行ファイルの場所と同じディレクトリにセットするように
+	  した(他アプリから起動した場合にメッセージが翻訳されないのを修正)。
+
+2005-11-17
+
+	* src/prefs_common_dialog.c: 引用色ダイアログをウィンドウのクローズ
+	  ボタンで閉じたときにクラッシュするバグを修正。クローズした後の
+	  ウィンドウフォーカスを修正。
+
+2005-11-17
+
+	* src/about.c: compiled-in features に GtkSpell を表示。
+
+2005-11-17
+
+	* configure.in: GtkSpell のステータスレポートが誤っていたのを修正。
+
+2005-11-17
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.[ch]
+	  src/prefs_common_dialog.c
+	  configure.in: GtkSpell を使用してスペルチェックを実装(Victor
+	  Ananajevsky さん thanks)。
+
+2005-11-16
+
+	* src/compose.c: compose_reply_set_entry(): 購読確認リクエスト等に
+	  対してメーリングリストに返信しないようにした。
+
+2005-11-16
+
+	* src/folderview.c: folderview_search_unread_recursive(): 未読メッセー
+	  ジがごみ箱にあっても '+' (未読)マークを表示しないようにした。
+
+2005-11-16
+
+	* src/summaryview.c: サマリがマーク、未読、カラーラベルフラグでソート
+	  された状態でそれらが変更された場合、セレクションが壊れる(クラッシュ
+	  する場合もある)バグを修正。
+
+2005-11-16
+
+	* src/compose.c: GPGME が有効になっていない場合のコンパイルエラーを
+	  修正。
+
+2005-11-15
+
+	* src/account_dialog.c: account_open(): アカウント編集ダイアログが
+	  表示されていない場合はメインウィンドウをポップアップするようにした。
+
+2005-11-15
+
+	* src/mimeview.c: mimeview_view_file(): win32: 一般的な実行ファイルの
+	  拡張子は g_file_test() で検出するようにした。
+
+2005-11-14
+
+	* libsylph/mh.c
+	  libsylph/mbox.c
+	  src/compose.c: フォルダの内容が変更された場合常に FolderItem::mtime
+	  を 0 にセットするようにした(win32 やいくつかのファイルシステムで
+	  サマリの更新に失敗することがあったのを修正)。
+
+2005-11-14
+
+	* libsylph/utils.[ch]
+	  src/summaryview.[ch]: sizeof(off_t) が 4 の環境でのオーバーフローを
+	  防ぐため total_size に gint64 を使用。
+
+2005-11-14
+
+	* src/textview.c: shadow type を GTK_SHADOW_ETCHED_IN に変更。
+	* src/summaryview.[ch]
+	  src/mainwindow.c: サマリステータスとヘッダペインの間にセパレータを
+	  追加。
+
+2005-11-11
+
+	* src/compose.c: ニュースグループのセパレータを修正(志村さん thanks)。
+	  compose_reedit_set_entry(): Newsgroups と Followup-To エントリも
+	  セットするようにした。
+
+2005-11-11
+
+	* src/main.c: app_init(): win32: "LANG=1041" のよな数値のロケール
+	  変数を無効にした。
+
+2005-11-11
+
+	* src/mainwindow.c: 外側の境界を除去。
+
+2005-11-10
+
+	* libsylph/prefs_common.c
+	  src/prefs_common_dialog.c: win32 ではデフォルトで gpg の警告を
+	  表示しないようにした。 "gpg_warning" を "show_gpg_warning" に変更。
+
+2005-11-10
+
+	* src/rfc2015.[ch]
+	  src/main.c: rfc2015_disable_all() と rfc2015_is_available() を実装。
+	* src/compose.c: PGP が利用不可の場合は PGP チェックボックスを隠す
+	  ようにした。
+	* src/logwindow.c: 不正な UTF-8 文字列が挿入されたときの abort を回避。
+
+2005-11-09
+
+	* src/passphrase.c
+	  configure.in: mlock() が利用可能かどうかをチェック。
+	  src/main.c: check_gpg(): OpenPGP プロトコルが利用可能かどうかを
+	  チェック。
+
+2005-11-09
+
+	* src/account_dialog.c
+	  src/prefs_filter.c: win32: ウィンドウフォーカスの問題を修正。
+
+2005-11-09
+
+	* src/compose.c: ウィンドウ全体でファイルのドロップを有効にした。
+	  DnD によるテキストの挿入を無効にした。
+
+2005-11-08
+
+	* version 2.1.6
+
+2005-11-08
+
+	* src/ldif.c: ldif_get_line(): バッファオーバーフローを修正。
+
+2005-11-07
+
+	* src/main.[ch]
+	  src/mainwindow.c: '--exit' コマンドラインオプションを追加。
+
+2005-11-07
+
+	* libsylph/prefs_common.[ch]
+	  src/compose.[ch]
+	  src/prefs_common_dialog.c: 自動保存を実装。
+
+2005-11-07
+
+	* src/prefs_common_dialog.c: win32 では意味のないオプションを隠した。
+
+2005-11-07
+
+	* src/prefs_common_dialog.c: fallback_encoding を高度な設定タブから
+	  メッセージタブに移動。
+	* libsylph/prefs_common.[ch]: 'fallback_encoding' を
+	  'default_encoding' に変更。
+
+2005-11-04
+
+	* src/compose.c: compose_ext_editor_kill(): 確認ダイアログを開いて
+	  いるときに外部エディタが終了した場合クラッシュするのを修正。
+
+2005-11-04
+
+	* src/prefs_common_dialog.c: prefs_junk_create(): 学習コマンドの
+	  プリセットメニューを追加。
+	* libsylph/prefs_common.c: win32 でのデフォルトの迷惑メールコマンドを
+	  bsfilter にした。
+
+2005-11-04
+
+	* src/summaryview.c: summary_junk_func(): 'mark_junk_as_read' の設定
+	  に従うようにした。
+
+2005-11-02
+
+	* src/account_dialog.c
+	  src/prefs_account_dialog.c: アカウント編集ダイアログを閉じたときに
+	  メインウィンドウを前面に出すようにした。
+
+2005-11-02
+
+	* libsylph/prefs_common.[ch]
+	  src/summaryview.c
+	  src/prefs_common_dialog.c: 振り分けた迷惑メールを既読にする
+	  オプションを追加(三好さん thanks)。さらに説明を追加。
+
+2005-11-02
+
+	* src/compose.c: compose->exteditor_file が存在すれば unlink する
+	  ようにした。
+
+2005-11-02
+
+	* src/compose.c: compose_ext_editor_kill(): 変なことが起こった場合、
+	  子プロセスの監視を止めるようにした。
+
+2005-11-02
+
+	* src/compose.c: win32 用の修正。
+
+2005-11-02
+
+	* src/compose.[ch]: 外部エディタを GSpawn と GChildWatch で再実装。
+	* libsylph/utils.c: execute_async(): 引数の型が誤っていたのを修正。
+
+2005-11-02
+
+	* src/prefs_common_dialog.c: 代替エンコーディング設定を高度な設定タブ
+	  に移動。
+
+2005-11-01
+
+	* src/prefs_actions.c
+	  src/prefs_template.c
+	  src/prefs_folder_item.c
+	  src/prefs_common_dialog.c
+	  src/prefs_summary_column.c
+	  src/prefs_account_dialog.c
+	  src/prefs_filter.c: ダイアログを閉じた後メインウィンドウを前面に
+	  持ってくるようにした(win32 でのフォーカス問題の回避)。
+
+2005-11-01
+
+	* libsylph/prefs_common.[ch]
+	  libsylph/procmime.c
+	  src/textview.c
+	  src/prefs_common_dialog.c: 代替エンコーディング設定を追加。
+	  マルチバイト英数字の ASCII 変換のオプションを削除。
+
+2005-11-01
+
+	* src/icons/sylpheed.ico
+	  src/icons/Makefile.am
+	  src/Makefile.am
+	  configure.in: win32: プログラムアイコンを追加。
+
+2005-10-31
+
+	* libsylph/utils.c: execute_sync(): win32: ヘルパープログラムを使用
+	  しないようにして子プロセスの終了ステータスを得るようにした。
+
+2005-10-31
+
+	* src/textview.c: textview_show_part(): フォーカス時にスクロールが
+	  ジャンプしてしまう問題を修正。
+
+2005-10-29
+
+	* version 2.1.5
+
+2005-10-27
+
+	* libsylph/socket.c: fd_accept(): win32 で有効にした。
+
+2005-10-27
+
+	* libsylph/socket.[ch]: fd_connect_inet(), fd_open_inet(): 新規。
+	  fd_open_unix(): bind() のエラーを避けるために SO_REUSEADDR を指定。
+	* src/main.c: win32: TCP socket を使用してリモートコマンドを実装。
+
+2005-10-27
+
+	* src/compose.c: オプションメニューを作成する前に hbox をウィンドウに
+	  追加するようにした(初期のウィジェットサイズが正しくないのを修正)。
+
+2005-10-27
+
+	* libsylph/procmime.c: procmime_get_mime_type_table(): win32: 起動時
+	  のディレクトリにある mime.types を読むようにした。
+	* mime.types: ソースツリーに含めた。
+
+2005-10-26
+
+	* libsylph/prefs_common.[ch]
+	  src/summaryview.c
+	  src/prefs_common_dialog.c: 振り分けられた迷惑メールをサーバから
+	  削除する設定を追加。
+
+2005-10-26
+
+	* libsylph/utils.[ch]: address_equal(): 新規。
+	* src/compose.c: compose_reply_set_entry(): ML の投稿に返信するときに
+	  Reply-To が指定されていた場合、 ML のアドレスを To: にセットし、
+	  Reply-To のアドレスを Cc: にセットするようにした(Colin Leroy さん
+	  thanks)。
+
+2005-10-26
+
+	* libsylph/utils.c: uri_list_extract_filenames(): 利用可能であれば
+	  URI を展開するのに GLib の関数を使用するようにした。
+
+2005-10-26
+
+	* src/main.c: win32: rc dir を設定するときはロケール文字列を UTF-8
+	  に変換するようにした。
+
+2005-10-25
+
+	* src/messageview.c
+	  src/summaryview.c: 印刷時は入力ダイアログの代わりに確認ダイアログ
+	  を出すようにした。
+
+2005-10-25
+
+	* libsylph/procmsg.c: typo を修正。
+
+2005-10-25
+
+	* configure.in: zh_TW.Big5 を zh_TW に変更。
+
+2005-10-25
+
+	* libsylph/utils.[ch]: execute_print_file(): 追加。
+	* libsylph/procmsg.c: procmsg_print_message(): win32: 出力ファイルを
+	  正規化し、コマンドが指定されていない場合は ShellExecute() を使用。
+
+2005-10-25
+
+	* libsylph/procmsg.c: procmsg_print_message(): 出力するヘッダを
+	  メッセージビューに合わせた。
+	* libsylph/procheader.[ch]: procheader_get_header_array_for_display():
+	  追加。
+	* libsylph/displayheader.[ch]: src/ から移動。
+	* src/textview.c: textview_show_header(): コードの整理。
+
+2005-10-24
+
+	* src/inputdialog.c: win32: focus out のときダイアログを前面にもって
+	  くるようにした。
+
+2005-10-24
+
+	* src/inputdialog.c: 表示するたびにダイアログを生成 / 削除するように
+	  した。
+
+2005-10-24
+
+	* src/messageview.c: 独立したメッセージウィンドウのタイトルを
+	  "(件名) - Sylpheed" にセットするようにした。
+
+2005-10-24
+
+	* src/summaryview.c
+	  src/mimeview.c: DnD が GTK+ 2.8 で効かなかった問題を修正(Victor
+	  Ananajevsky さん thanks)。
+
+2005-10-21
+
+	* src/main.c: gdk_input_add() を GIOChannel で置き換えた。
+
+2005-10-20
+
+	* src/textview.c: textview_adj_value_changed(): 少し最適化。
+
+2005-10-20
+
+	* src/textview.c: textview_adj_value_changed(): 選択部が存在するときは
+	  カーソルを移動しないようにした。
+
+2005-10-20
+
+	* libsylph/filter.c: ファイルパスが空白を含むときに実行に失敗して
+	  いたバグを修正。
+
+2005-10-20
+
+	* src/textview.c: ビューがフォーカスを得たときに先頭にスクロールして
+	  しまう問題を修正。
+
+2005-10-20
+
+	* libsylph/utils.[ch]: set_startup_dir(), set_rc_dir(),
+	  get_startup_dir(): 新規。
+	* src/main.[ch]: グローバル変数 startup_dir を削除。代わりに
+	  get_startup_dir() を使用。
+	  設定ファイルを格納するディレクトリを指定するオプション '--configdir'
+	  を追加。
+	* src/manual.c: win32: ドキュメントのパスを修正。
+
+2005-10-18
+
+	* version 2.1.4
+
+2005-10-18
+
+	* libsylph/prefs_common.c: win32: デフォルトのコマンドを変更。
+
+2005-10-18
+
+	* src/prefs_filter.c: prefs_filter_open(): msginfo が指定されたときの
+	  フォーカスを修正。
+
+2005-10-17
+
+	* src/prefs_common_dialog.c: win32: デフォルトのエディタコマンドを
+	  'notepad' にした。
+
+2005-10-17
+
+	* src/inputdialog.c: 最小ダイアログサイズを調整。
+
+2005-10-17
+
+	* libsylph/prefs_common.c: win32: コンパイルに失敗するのを修正。
+
+2005-10-17
+
+	* src/prefs_common_dialog.c: URI コマンドの選択肢に既定のブラウザを
+	  追加。
+
+2005-10-17
+
+	* src/trayicon.c: destroy イベントを正しく処理するようにした(Victor
+	  Ananajevsky さん thanks)。
+
+2005-10-16
+
+	* libsylph/utils.c: open_uri(): win32: URI を ShellExecute() を使って
+	  開くようにした。
+	  libsylph/prefs_common.c
+	  src/prefs_common_dialog.c: win32: デフォルトの URI コマンドを空に
+	  した(既定のブラウザを使用することになる)。
+
+2005-10-16
+
+	* src/mimeview.c: win32: 実行ファイルの起動を抑止。
+
+2005-10-14
+
+	* src/main.c: win32: CreateMutex() を使用して二重起動を防止。
+
+2005-10-14
+
+	* libsylph/procmime.c
+	  src/compose.c: いくつかの警告を単なるデバッグメッセージにした。
+
+2005-10-14
+
+	* libsylph/codeconv.c: 日本語 Windows のロケール文字コードを Shift_JIS
+	  から CP932 に変更。
+
+2005-10-13
+
+	* libsylph/codeconv.[ch]: 日本語の環境依存文字の対応を強化
+	  (森山さん thanks)。
+
+2005-10-13
+
+	* src/inputdialog.c
+	  src/setup.c
+	  src/mainwindow.c: メールボックスのセットアップダイアログの文章を
+	  修正。
+
+2005-10-13
+
+	* libsylph/utils.[ch]
+	  src/mimeview.c: win32: 添付ファイルを開くのに ShellExecute() を
+	  使うようにし、実行ファイルを開くときは警告するようにした。
+
+2005-10-13
+
+	* libsylph/folder.[ch]
+	  src/prefs_folder_item.c
+	  src/folderview.c: トップフォルダのプロパティを有効にした。
+	* src/prefs_common_dialog.c: キーバインドダイアログのテキストを修正。
+
+2005-10-13
+
+	* libsylph/imap.c: imap_cmd_ok(): リテラルデータのパースを修正(引用
+	  部分をスキップ)。
+
+2005-10-12
+
+	* libsylph/recv.c: recv_bytes(): 受信したデータを null 終端するように
+	  した(文字列の場合のため)。
+	  libsylph/imap.c: imap_cmd_ok(): リテラル文字列もログに記録する
+	  ようにした。
+
+2005-10-12
+
+	* src/alertpanel.c: win32: focus out のときダイアログを前面にもって
+	  くるようにした。
+
+2005-10-12
+
+	* src/main.c: default_log_func(): G_LOG_LEVEL_WARNING の時の prefix
+	  を修正。
+
+2005-10-12
+
+	* libsylph/imap.c: imap_cmd_ok(): リテラルデータのパースを修正。
+
+2005-10-12
+
+	* src/summaryview.c: コンテキストメニューに「振り分けルールを作成」
+	  を復活。
+
+2005-10-11
+
+	* src/prefs_folder_item.c: ラベル「タイプ」が右寄せになっていなかった
+	  のを修正。
+
+2005-10-11
+
+	* libsylph/utils.[ch]
+	  src/main.c: g_log() メッセージをログウィンドウとログファイルに
+	  出力するようにした。
+	* configure.in: win32 でコンソールウィンドウを無効にした。
+
+2005-10-11
+
+	* src/folderview.c: folderview_drag_motion_cb(): win32: 修飾キーが
+	  押されていなかったら context->actions をリセットするようにした
+	  (DnD のアクションがデフォルトでコピーになるのを修正)。
+
+2005-10-10
+
+	* libsylph/utils.c
+	  libsylph/procheader.c: Date: ヘッダが異常な時間の場合受信時に
+	  クラッシュを起こすバグを修正。
+
+2005-10-07
+
+	* libsylph/recv.[ch]
+	  libsylph/imap.c: imap_cmd_ok(): 応答中のリテラルに対応
+	  (リテラルが現われた際に同期がとれなくなるのを修正)。
+
+2005-10-06
+
+	* libsylph/codeconv.c:
+	  conv_filename_from_utf8(), conv_filename_to_utf8(): assertion を
+	  追加。
+
+2005-10-06
+
+	* libsylph/utils.c: Unix では _s_tempnam() を定義しないようにした。
+	* src/prefs_folder_item.c: ファイルシステムのパス情報を追加。
+
+2005-10-06
+
+	* libsylph/utils.c: get_rc_dir(): win32: 環境変数 APPDATA を使用する
+	  ようにした。
+	* libsylph/prefs.c: prefs_set_default()
+	  src/prefs_ui.c: prefs_set_dialog_to_default(): win32: 環境変数の
+	  エンコーディングを変換しないようにした。 '~' を rc dir に展開。
+
+2005-10-06
+
+	* src/main.c: win32: GSpawn のために起動時のディレクトリを %PATH% に
+	  含めるようにした。
+
+2005-10-05
+
+	* configure.in: win32 で SSL に対応。
+	* makewin32.sh: win32 用に便利なビルドスクリプトを追加。
+
+2005-10-04
+
+	* libsylph/utils.c: my_tmpfile(): mkstemp() を直接使う代わりに
+	  g_mkstemp() を使用するようにした。
+	  win32: tmpfile() の代わりに _wtempnam(), open(), fdopen() を
+	  使用するようにした(tmpfile() は一時ファイルをルートディレクトリに
+	  作成するため)。
+
+2005-10-03
+
+	* src/main.c: app_init(): win32: ロケールエンコーディングの
+	  ディレクトリ名を bindtextdomain() に渡すようにした(非 ascii
+	  ディレクトリで翻訳が機能しないのを修正)。
+
+2005-10-03
+
+	* libsylph/mh.c:
+	  mh_create_tree(): ルートパスのディレクトリ階層を作成するようにした。
+	  mh_move_folder_real(): Win32 で rename に失敗するのを避けるため
+	  カレントディレクトリを変更。
+	  libsylph/folder.c: folder_get_path(): 常に絶対パスを返すようにした。
+
+2005-09-30
+
+	* libsylph/prefs_common.c: prefs_common_read_config(): Win32:
+	  日本語環境ではデフォルトのフォントを "MS Gothic 12" にする
+	  ようにした。
+
+2005-09-29
+
+	* version 2.1.3
+
+2005-09-28
+
+	* src/main.c: app_init(): LOCALEDIR が相対パスの場合メッセージ
+	  カタログの位置を絶対パスにするようにした。
+
+2005-09-28
+
+	* src/compose.c: compose_set_title(): 件名のみを表示するようにした。
+
+2005-09-27
+
+	* src/rfc2015.c: check_signature(): gpgme_data_set_encoding() を
+	  無効にした(なぜかエラーになってしまう)。
+
+2005-09-27
+
+	* src/rfc2015.c: check_signature(): S/MIME のために転送
+	  エンコーディングを指定。
+
+2005-09-27
+
+	* src/compose.c: ウィンドウのタイトルバーに件名を表示するようにした
+	  (Thomas White さん thanks)。
+
+2005-09-27
+
+	* src/mimeview.c
+	  src/rfc2015.c: PKCS#7 (S/MIME) 署名を検証するようにした(Thomas White
+	  さん thanks)。
+	* src/main.c: GPGME のデバッグ情報を表示するとき engineInfo->version
+	  の null チェックを行うようにした。
+
+2005-09-26
+
+	* libsylph/html.c: 文字実体参照を US-ASCII でなく UTF-8 に変換する
+	  ようにした(Lyonel Vincent さん thanks)。数値による参照で UCS-4
+	  から UTF-8 への変換を使用するようにした。
+
+2005-09-22
+
+	* libsylph/utils.[ch]
+	  libsylph/procmime.[ch]
+	  src/mimeview.[ch]
+	  src/filesel.[ch]: メッセージ中のすべての添付ファイルを保存する
+	  「すべて保存」を実装。
+
+2005-09-22
+
+	* src/gtkutils.[ch]
+	  src/summaryview.[ch]: キー操作で端に達したときに選択行を中央に
+	  配置するようにした。
+
+2005-09-22
+
+	* src/summaryview.c: スレッド表示を変更した後も行を選択し続ける
+	  ようにした。
+
+2005-09-21
+
+	* configure.in: mbs/wcs 関数チェックを削除。
+
+2005-09-21
+
+	* libsylph/utils.[ch]
+	  src/compose.c
+	  src/gtkutils.[ch]
+	  src/undo.c
+	  src/addr_compl.c: 既に不要になった mbs/wcs 関数を削除。
+
+2005-09-21
+
+	* src/account_dialog.c: 「全受信」が指定不可の場合はチェックボックス
+	  を表示しないようにした。
+
+2005-09-21
+
+	* src/subscribedialog.c: 選択不可の行ではチェックボックスを表示しない
+	  ようにした。
+
+2005-09-20
+
+	* libsylph/news.[ch]
+	  src/subscribedialog.[ch]
+	  src/Makefile.am
+	  src/folderview.c: grouplistdialog を subscribedialog に改名し、
+	  GtkTreeView で再実装した。
+
+2005-09-16
+
+	* src/compose.c: compose_write_to_file(): 草稿モードではコード変換
+	  エラーと行長制限の警告を表示しないようにした。
+
+2005-09-16
+
+	* libsylph/prefs_common.[ch]
+	  src/prefs_common_dialog.c
+	  src/folderview.[ch]
+	  src/mainwindow.c: フォルダビューの垂直スクロールバーのポリシーを
+	  設定するオプションを廃止し、 GTK_POLICY_AUTOMATIC にした。
+	  フォルダビューのメッセージ数カラムの表示を切り替えるオプションを
+	  追加(デフォルトは off)。
+	  「ヘッダ名を翻訳する」オプションを隠しオプションにした。
+
+2005-09-15
+
+	* version 2.1.2
+
+2005-09-15
+
+	* configure.in: ${DATADIRNAME} が定義されている場合それを $localedir
+	  に使用するようにした。
+
+2005-09-15
+
+	* libsylph/codeconv.c: conv_euctojis():
+	  prefs_common.allow_jisx0201_kana を再び有効にした。
+
+2005-09-14
+
+	* libsylph/pop.c
+	  libsylph/procmime.c
+	  src/gtkutils.c
+	  src/mimeview.c
+	  src/undo.c
+	  src/headerview.c
+	  src/send_message.c
+	  src/summaryview.c: 符号の違いに関する警告を修正。
+
+2005-09-14
+
+	* libsylph/utils.[ch]
+	  src/compose.c: アドレスフィールドをエンコードする前に正規化する
+	  ようにした。
+
+2005-09-13
+
+	* Makefile.am
+	  sylpheed.spec.in: tarball に含まれるファイルを更新。
+
+2005-09-13
+
+	* libsylph/*.[ch]: ライセンスを GPL から LGPL に変更。
+	* LICENSE: 追加。
+
+2005-09-13
+
+	* src/summaryview.c: summary_set_row(): S_COL_TDATE をリセットしない
+	  ようにした(フラグ変更時のソートのバグを修正)。
+
+2005-09-13
+
+	* COPYING: GPL を更新(FSF の住所を変更)。
+	* COPYING.LIB: LGPL を追加。
+
+2005-09-13
+
+	* libsylph/procmsg.[ch]
+	  libsylph/enums.h
+	  libsylph/folder.[ch]
+	  src/summaryview.c
+	  src/mainwindow.c: 「表示/ソート/スレッドの日付順」を追加。
+
+2005-09-12
+
+	* libsylph/imap.c: COPY のメッセージ数制限を変更。
+	  imap_do_copy_msgs(): コピー時にプログレスバーを更新。
+
+2005-09-09
+
+	* libsylph/imap.c: 抜けていた翻訳文字列を追加。
+
+2005-09-09
+
+	* libsylph/utils.[ch]
+	  libsylph/imap.c
+	  src/main.c
+	  src/mainwindow.[ch]: 長い処理の実行中にプログレスバーを更新する
+	  ようにした。
+
+2005-09-08
+
+	* src/addressbook.c: addressbook_tree_button_pressed(): フォルダ
+	  ツリーのエキスパンダが動作していなかったバグを修正。
+
+2005-09-08
+
+	* libsylph/md5_hmac.c: md5_hmac_get(): 若干コードを整理。
+
+2005-09-08
+
+	* libsylph/md5.[ch]: GNet の public domain なコードで置き換えた。
+	* libsylph/md5_hmac.[ch]: md5.[ch] から分離して書き直した。
+	* libsylph/pop.c
+	  libsylph/smtp.c
+	  libsylph/imap.c: 新しい MD5 インタフェースにあわせて修正。
+
+2005-09-08
+
+	* configure.in: ${prefix}/${DATADIRNAME} の代わりに ${datadir} を
+	  使用するようにした。
+
+2005-09-08
+
+	* libsylph/mbox.[ch]: libsylph に移動。
+
+2005-09-07
+
+	* libsylph/imap.c: ネットワークのタイムアウトを避けるため、
+	  COPY コマンドで一度にコピーするメッセージ数を制限するようにした。
+
+2005-09-07
+
+	* libsylph/utils.[ch]: print_status() を status_print() に変更。
+	* libsylph/imap.c: UI 更新の頻度を調整。
+	* src/folderview.c: サマリがロックされている場合は選択不可にした。
+
+2005-09-07
+
+	* libsylph/codeconv.c: conv_guess_ja_encoding(): UTF-8 エンコー
+	  ディングにも対応。
+
+2005-09-06
+
+	* libsylph/imap.c: 正負の相違の警告を修正。 UI のヒントを追加。
+	* libsylph/utils.[ch]
+	  src/gtkutils.[ch]
+	  src/main.c: UI ヒントの関数として ui_update() を追加。
+
+2005-09-06
+
+	* libsylph/prefs_common.[ch]
+	  libsylph/prefs_account.[ch]
+	  libsylph/pop.h: GPGME が無効にされていても GPG の設定を保存する
+	  ようにした。
+
+2005-09-05
+
+	* libsylph/imap.c: 長時間かかる操作を実行しているときに進捗を表示する
+	  ようにした。
+
+2005-09-05
+
+	* libsylph/account.[ch]
+	  libsylph/customheader.[ch]
+	  libsylph/enums.h
+	  libsylph/filter.[ch]
+	  libsylph/folder[ch]
+	  libsylph/imap.[ch]
+	  libsylph/md5.[ch]
+	  libsylph/mh.[ch]
+	  libsylph/news.[ch]
+	  libsylph/nntp.[ch]
+	  libsylph/pop.[ch]
+	  libsylph/prefs_account.[ch]
+	  libsylph/prefs_common.[ch]
+	  libsylph/procheader.[ch]
+	  libsylph/procmime.[ch]
+	  libsylph/procmsg.[ch]
+	  libsylph/smtp.[ch]
+	  libsylph/Makefile.am: さらにモジュールを libsylph に移動。
+
+2005-09-05
+
+	* src/messageview.c
+	  src/procmsg.[ch]
+	  src/filter.[ch]
+	  src/summaryview.[ch]
+	  src/mainwindow.c
+	  src/prefs_filter.h: procmsg.c::procmsg_get_filter_keyword() を
+	  filter.c::filter_get_keyword_from_msg() に移動。
+
+2005-09-05
+
+	* libsylph/utils.[ch]
+	  src/inc.c
+	  src/main.c
+	  src/imap.c
+	  src/send_message.c
+	  src/news.c: パスワード入力関数を UI 非依存にした。
+	  UI 非依存のステータス表示関数を追加。
+
+2005-09-05
+
+	* src/main.c
+	  src/procmsg.[ch]
+	  src/send_message.[ch]
+	  src/mainwindow.c: procmsg.c::procmsg_send_queue() を
+	  send_message.c::send_message_queue_all() に移動。
+
+2005-09-02
+
+	* src/html.c
+	  src/session.c
+	  src/unmime.c: 'warning: pointer targets in assignment differ in
+	  signedness' を修正。
+
+2005-09-02
+
+	* src/sourcewindow.c: 抜けていた include を追加。
+	* src/filter.[ch]
+	  src/prefs_filter.[ch]
+	  src/folderview.c: prefs_filter_rename_path() と
+	  prefs_filter_delete_path() を filter.c に移動。
+
+2005-09-02
+
+	* src/main.c
+	  src/filter.[ch]
+	  src/prefs_filter.[ch]: prefs_filter_read_config() を filter.c
+	  に移動。
+
+2005-09-02
+
+	* libsylph/recv.[ch]: libsylph に移動。
+
+2005-09-02
+
+	* libsylph/html.[ch]: libsylph に移動。
+
+2005-09-01
+
+	* src/prefs_common.c
+	  src/procmsg.c: 未使用のヘッダを削除。
+
+2005-09-01
+
+	* src/account.[ch]
+	  src/account_dialog.[ch]
+	  src/folderview.c
+	  src/mainwindow.c
+	  src/main.c: UI のコードを account.c から分離。
+
+2005-09-01
+
+	* src/prefs_account.c
+	  src/prefs_common.c: 未使用のヘッダを削除。
+	* src/enums.h
+	  src/prefs_common.h
+	  src/summaryview.h
+	  src/mainwindow.h: 依存関係を減らすためいくつかの enum を分離。
+
+2005-09-01
+
+	* src/customheader.[ch]
+	  src/prefs_customheader.[ch]
+	  src/prefs_account.c: カスタムヘッダ設定の読み書き関数を
+	  customheader.c に移動。
+	* src/main.c
+	  src/prefs_common.c: gtkutils.h を prefs_common.c から使わないように
+	  した。
+
+2005-08-31
+
+	* libsylph/prefs.h
+	  src/prefs_ui.[ch]
+	  src/account.c
+	  src/prefs_template.c
+	  src/prefs_account.[ch]
+	  src/prefs_common.[ch]
+	  src/prefs_account_dialog.[ch]
+	  src/prefs_common_dialog.[ch]
+	  src/mainwindow.c
+	  src/Makefile.am: prefs_common.c と prefs_account.c から UI コード
+	  を分離。
+
+2005-08-31
+
+	* src/trayicon.c: MinGW でコンパイルできるようにした。
+
+2005-08-31
+
+	* libsylph/prefs.[ch]: prefs_param_table_get() と
+	  prefs_param_table_destroy() を追加。
+	  prefs_config_parse_one_line(): prefs_param_table_get() を使用して
+	  最適化。
+
+2005-08-31
+
+	* libsylph/Makefile.am
+	  libsylph/base64.[ch]
+	  libsylph/codeconv.[ch]
+	  libsylph/defs.h
+	  libsylph/prefs.[ch]
+	  libsylph/quoted-printable.[ch]
+	  libsylph/session.[ch]
+	  libsylph/socket.[ch]
+	  libsylph/ssl.[ch]
+	  libsylph/stringtable.[ch]
+	  libsylph/unmime.[ch]
+	  libsylph/utils.[ch]
+	  libsylph/uuencode.[ch]
+	  libsylph/xml.[ch]: いくつかのコアモジュールをライブラリ化した
+	  (libsylph)。
+	* src/Makefile.am: libsylph.la を使うように修正。
+
+2005-08-30
+
+	* src/prefs.[ch]
+	  src/prefs_ui.[ch]: prefs.[ch] から UI コードを分離。
+	* src/prefs_common.c
+	  src/prefs_account.c: (GtkWidget **) にキャストを追加。
+
+2005-08-30
+
+	* src/main.c: コードの整理。
+
+2005-08-29
+
+	* src/statusbar.c
+	  src/utils.[ch]: statusbar を utils.c から分離。
+
+2005-08-29
+
+	* src/logwindow.c
+	  src/utils.[ch]: LogWindow を utils.c から分離。
+
+2005-08-29
+
+	* src/main.[ch]
+	  src/xml.c
+	  src/utils.[ch]: debug_mode を utils.c 内の static な変数にした。
+
+2005-08-29
+
+	* src/compose.c: compose_write_attach(): message/* のパートを
+	  quoted-printable または base64 でエンコードしないようにした
+	  (pgp 署名時に添付ファイルが壊れるバグを修正)。
+
+2005-08-26
+
+	* src/compose.c: 行間の設定がメッセージ作成ウィンドウに適用される
+	  ようにした。
+
+2005-08-26
+
+	* src/socket.c: deprecated な g_io_channel_close() でなく
+	  g_io_channel_shutdown() を使用するようにした。
+	  sock_close(): 直接 close() を呼ばずに g_io_channel_shutdown()
+	  を使用するようにした(Win32 でリソースがリークするのを修正)。
+
+2005-08-25
+
+	* src/folderview.c: folderview_button_pressed(): ダブルクリックで
+	  ツリー行を展開/閉じるようにした。
+
+2005-08-25
+
+	* src/addressbook.c: フォルダの内容の更新を修正。
+
+2005-08-24
+
+	* src/trayicon.[ch]
+	  src/mainwindow.[ch]
+	  src/inc.c: トレイアイコンを別モジュールに分割。
+	  受信時に新着メッセージをトレイアイコンで通知するようにした。
+
+2005-08-24
+
+	* src/prefs.[ch]
+	  src/prefs_common.c: フォントの設定に GtkFontButton を使用(Alfons
+	  さん thanks)。
+
+2005-08-24
+
+	* src/stock_pixmap.[ch]
+	  src/summaryview.c
+	  src/prefs_filter_edit.c: stock_pixmap_widget() を削除(代わりに
+	  stock_pixbuf_widget() を使用)。
+
+2005-08-23
+
+	* src/folderview.c
+	  src/mainwindow.c: 「ごみ箱を空にする」メッセージを修正。
+
+2005-08-23
+
+	* src/eggtrayicon.[ch]: 追加(Loqui svn trunk から拝借)。
+	* src/mainwindow.[ch]: トレイアイコンの最初の実装。
+	* src/stock_pixmap.[ch]: stock_pixbuf_widget_scale() を追加。
+
+2005-08-23
+
+	* src/textview.c: mime パートのフォントを調整。
+
+2005-08-22
+
+	* version 2.1.1
+
+2005-08-22
+
+	* src/addressbook.c:
+	  addressbook_tree_selected()
+	  addressbook_tree_button_pressed(): Ctrl キーによる複数選択が
+	  GTK+ 2.6.9 で動作しなかったバグを修正。
+
+2005-08-22
+
+	* src/procmsg.c
+	  src/summaryview.c: ソートで日付による比較にフォールバックするように
+	  した(件名等でソートしたときに日付順がランダムになるのを修正)。
+
+2005-08-19
+
+	* src/utils.c: path_cmp(): '/' と G_DIR_SEPARATOR の両方をセパレータ
+	  として許可するようにした。
+
+2005-08-19
+
+	* src/folder.c:
+	  folder_item_get_identifier(): セパレータを "/" に強制。
+	  folder_item_get_path(): セパレータをファイルシステムのものに強制。
+
+2005-08-19
+
+	* src/recv.c
+	  src/imap.c: エラーチェックをより正確にした。
+
+2005-08-19
+
+	* src/socket.c: fd_write_all(): write() を直接使わずに fd_write() を
+	  使用するようにした(win32 上の IMAP4 を修正)。
+
+2005-08-19
+
+	* src/pixmaps/: src/icons/ に名称変更。
+
+2005-08-18
+
+	* configure.in: $localedir, $manualdir, $faqdir をユーザ指定可能に
+	  した。
+
+2005-08-18
+
+	* src/compose.[ch]
+	  src/mainwindow.[ch]: GtkHandleBox を廃止(正常に動作していなかった
+	  ため)。
+	* src/stock_pixmap.c: stock_pixbuf_gdk(): NULL window を許可。
+
+2005-08-09
+
+	* version 2.1.0
+
+2005-08-09
+
+	* src/mh.c
+	  src/main.c
+	  src/procmime.c: 設定ディレクトリの修正。
+
+2005-08-09
+
+	* src/folder.c
+	  src/main.c
+	  src/utils.[ch]
+	  src/defs.h: Windows の慣習に従ってディレクトリを修正。
+
+2005-08-08
+
+	* src/mh.c
+	  src/template.c
+	  src/codeconv.c
+	  src/main.c
+	  src/utils.c
+	  src/addrbook.c: 直接 opendir() を使わずに GDir を使用するようにした。
+
+2005-08-08
+
+	* src/utils.[ch]: 引数にパス名をとる C ライブラリ関数のラッパーを
+	  追加。
+	* src/*.c: ラッパー関数を使用。
+
+2005-08-07
+
+	* src/defs.h: Win32 向けの修正。
+	* src/main.c: Unix 上でのみファイル名エンコーディングをチェックする
+	  ようにした。
+	* src/prefs_common.c: Win32 向けの修正。
+
+2005-08-07
+
+	* src/codeconv.c: Win32 向けのいくつかの修正。
+
+2005-08-07
+
+	* src/procmsg.c: procmsg_send_queue(): キューファイルを消去する前に
+	  閉じるようにした(Win32 fix)。
+
+2005-08-05
+
+	* src/mh.c
+	  src/session.c
+	  src/mbox.c: Unix 特有のコードを #ifdef G_OS_UNIX で括った。
+	* configure.in: MinGW 環境で -lws2_32 を付加。
+
+2005-08-05
+
+	* src/filter.c
+	  configure.in: regex.h と regcomp() をチェック。
+
+2005-08-05
+
+	* src/utils.[ch]: rename_force(): 移動先ファイルが既に存在していた
+	  場合でも強制的に rename するようにした(Unix 以外の場合)。
+	* src/prefs.c
+	  src/main.c: rename_force() を使用。
+
+2005-08-05
+
+	* src/addrcache.c
+	  src/compose.c
+	  src/inc.c
+	  src/action.c
+	  src/session.c
+	  src/main.c
+	  src/utils.c
+	  src/send_message.c
+	  src/mbox.c
+	  src/about.c
+	  src/socket.c
+	  src/socket.h
+	  configure.in: MinGW でのコンパイルができるようにした。
+
+2005-08-04
+
+	* src/compose.c
+	  src/main.c
+	  src/socket.[ch]: Unix 特有のコードを #ifdef G_OS_UNIX で括った。
+
+2005-08-04
+
+	* configure.in: ターゲットが MinGW の場合は -mms-bitfields を CFLAGS
+	  に追加。
+
+2005-08-04
+
+	* src/utils.c: tolower() を g_ascii_tolower() で置き換えた。
+
+2005-08-04
+
+	* src/compose.c
+	  src/main.c
+	  src/utils.c
+	  src/procmsg.c: random() を portable な g_random_*() で置き換えた。
+
+2005-08-04
+
+	* src/about.c: バージョン表示を修正。
+	* src/socket.c: sock_init() と sock_cleanup() を追加。
+
+2005-08-04
+
+	* src/mh.c: 時間測定に GTimer を使用。
+	* src/inc.[ch]
+	  src/recv.c
+	  src/session.[ch]: gettimeofday() を portable な g_get_current_time()
+	  で置き換えた。
+	* src/socket.c: 符号の訂正。 usleep() を portable な g_usleep() で
+	  置き換えた。
+
+2005-08-04
+
+	* src/prefs_common.c: 外部エディタの候補から mgedit を外した。
+
+2005-08-03
+
+	* src/utils.c:
+	  execute_async()
+	  execute_sync(): fork() + exec() を GSpawn で置き換えた。
+
+2005-08-02
+
+	* src/compose.c
+	  src/textview.c
+	  src/quote_fmt_parse.y
+	  src/pop.c
+	  src/prefs_account.c
+	  src/codeconv.c
+	  src/imap.c
+	  src/xml.c
+	  src/utils.[ch]
+	  src/addr_compl.c
+	  src/procmsg.c
+	  src/procmime.c
+	  src/quoted-printable.c: 正しくないロケール依存の ctype 関数を GLib
+	  のもので置き換えた。符号の不一致を訂正。
+	* src/about.c: フォーカスを OK ボタンに合わせるようにした。
+
+2005-07-29
+
+	* version 2.0.0
+
+2005-07-22
+
+	* version 2.0.0rc
+
+2005-07-21
+
+	* src/headerview.c: headerview_create(): vbox に行間スペースを追加。
+
+2005-07-21
+
+	* src/mh.c: mh_get_msg_list(): 送信待ちまたは草稿フォルダで厳密な
+	  キャッシュのチェックを強制するようにした(キャッシュの不整合を修正)。
+
+2005-07-21
+
+	* src/imap.c: imap_modified_utf7_to_utf8(): 文字列が '+' を含むときの
+	  modified-UTF7 から UTF-8 への変換を修正。
+	  imap_utf8_to_modified_utf7(): locale 依存の isprint() の代わりに
+	  g_ascii_isprint() を使用。
+	  変換エラー時の警告を修正。
+
+2005-07-21
+
+	* src/prefs_folder_item.c: パスを GtkLabel で表示。
+
+2005-07-20
+
+	* src/rfc2015.c: インデントを統一。 getenv() の代わりに g_getenv()
+	  を使用。 toupper() の代わりに locale 非依存の g_ascii_toupper()
+	  を使用。
+
+2005-07-20
+
+	* src/main.c: 起動時に一時ファイルを削除。コードの整理。
+
+2005-07-19
+
+	* src/compose.c: compose_insert_drag_received_cb(): 重複して挿入して
+	  しまうのを防ぐための hack を追加。
+
+2005-07-19
+
+	* src/compose.c: compose_get_line_break_pos(): '/' の後で改行しない
+	  ようにした(ファイルパス等を保護するため)。
+
+2005-07-19
+
+	* src/compose.c: GDK_ACTION_MOVE の際に drag source を削除しないよう
+	  にした。明示的に gtk_drag_finish() を呼ぶようにした。
+	* src/summaryview.c
+	  src/folderview.c: GtkTargetEntry を static にした。
+
+2005-07-15
+
+	* src/summaryview.c: summary_modify_threads(): ソートが有効になって
+	  いる場合に正しい行を選択するようにした。
+
+2005-07-14
+
+	* version 2.0.0beta6
+
+2005-07-14
+
+	* src/menu.c
+	  src/prefs.c: '#warning FIXME_GTK2' を削除。
+
+2005-07-14
+
+	* src/prefs_common.c: textview_cursor_visible を隠しオプションにした。
+
+2005-07-14
+
+	* src/procmime.c: procmime_decode_content(): 名前が *.txt だが
+	  Content-Type が application/octet-stream であるようなファイルを
+	  正規化解除しないようにした。
+
+2005-07-14
+
+	* src/filter.c
+	  src/folderview.c: フォルダの移動後にフィルタルールを修正するように
+	  した。
+
+2005-07-13
+
+	* src/textview.c
+	  src/mimeview.c
+	  src/procmime.[ch]: 添付ファイルのサイズをより正確にし、
+	  human-readable にした。
+
+2005-07-13
+
+	* src/foldersel.c: フォルダ名を新着/未読の表現付きで表示するように
+	  した。
+
+2005-07-12
+
+	* src/compose.c: compose_get_line_break_pos(): '-' の後で改行しない
+	  ようにした(e-mail アドレス等を保護するため)。
+
+2005-07-12
+
+	* src/main.c
+	  src/stock_pixmap.[ch]
+	  src/Makefile.am
+	  src/pixmaps/stock_sylpheed.png
+	  sylpheed.png
+	  sylpheed-64x64.png
+	  sylpheed-128x128.png: 新しいアプリケーションアイコンを追加し、
+	  デフォルトのウィンドウアイコンとして指定。
+
+2005-07-12
+
+	* src/procmsg.[ch]: procmsg_send_queue(): キャッシュの不整合を防ぐ
+	  ためにサマリキャッシュをクリアするようにした。
+
+2005-07-12
+
+	* src/filesel.c: prefs_common.comply_gnome_hig オプションに従うように
+	  した。
+
+2005-07-12
+
+	* src/compose.c
+	  src/addressbook.c
+	  src/textview.c
+	  src/account.c
+	  src/summaryview.c: いくつかの警告を修正し、ボタンにアクセラレータ
+	  を追加。
+
+2005-07-11
+
+	* gtkut_tree_view_scroll_to_cell(): 視認性のためにマージンを追加。
+
+2005-07-11
+
+	* src/compose.c: compose_parse_header(): 不正なヘッダ文字列の
+	  フォールバックエンコーディングとして Content-Type の charset
+	  を使用。
+
+2005-07-11
+
+	* src/compose.c: 挿入するファイルが UTF-8 の場合はエンコーディングを
+	  変換しないようにした。
+
+2005-07-11
+
+	* src/compose.c: 再編集または外部エディタで編集後に署名が重複する
+	  問題を修正。
+
+2005-07-11
+
+	* src/textview.c: get_uri_part(): 文字 '{', '}', '[', ']' を URI
+	  文字に含まないようにした。
+
+2005-07-11
+
+	* src/compose.[ch]: gdk_input_*() を GIOChannel で置き換えた。
+
+2005-07-08
+
+	* version 2.0.0beta5
+
+2005-07-08
+
+	* src/editjpilot.c
+	  src/editvcard.c: ファイル選択ダイアログを Escape キーでキャンセル
+	  したときのクラッシュを修正。非 ascii ファイル名を選択可能にした。
+	  新しい file chooser ダイアログを使用。
+
+2005-07-08
+
+	* src/compose.c
+	  src/procmsg.[ch]: 既に開いている草稿/送信待ちメッセージを再編集
+	  しようとした場合、存在するウィンドウを前面に出すようにした。
+
+2005-07-08
+
+	* src/alertpanel.[ch]: alertpanel_full(): より汎用的な関数を追加。
+	* src/compose.c
+	  src/account.c
+	  src/folderview.c: いくつかの警告ダイアログを修正。
+
+2005-07-08
+
+	* src/addressbook.c
+	  src/alertpanel.[ch]
+	  src/summaryview.c: G_ALERTCANCEL を AlertValue に追加し、キャンセル
+	  された場合はそれを返すようにした。
+
+2005-07-07
+
+	* src/summary_search.c
+	  src/message_search.c: ボタンの配置を修正。
+
+2005-07-07
+
+	* src/prefs_display_header.c
+	  src/prefs_actions.c
+	  src/prefs.[ch]
+	  src/prefs_account.c
+	  src/prefs_common.[ch]
+	  src/prefs_summary_column.c
+	  src/prefs_template.c
+	  src/gtkutils.[ch]
+	  src/foldersel.c
+	  src/summary_search.c
+	  src/inputdialog.c
+	  src/editbook.c
+	  src/editgroup.c
+	  src/editjpilot.c
+	  src/editaddress.c
+	  src/editldap_basedn.c
+	  src/editvcard.c
+	  src/editldap.c: ボタンの配置を GNOME HIG に準拠させた。
+
+2005-07-06
+
+	* src/stock_pixmap.[ch]
+	  src/sylpheed-logo.png: Sylpheed のロゴを新しいものに置き換えた。
+
+2005-07-06
+
+	* src/stock_pixmap.[ch]
+	  src/pixmaps/*.xpm: 未使用の画像を削除。
+
+2005-07-06
+
+	* src/pixmaps/stock_hand-signed.png: 追加。
+	* src/compose.c: 署名ツールボタンに新しいアイコンを使用。
+
+2005-07-05
+
+	* src/pixmaps/Makefile.am: 'make distcheck' のために BUILT_SOURCES
+	  を EXTRA_DIST に追加。
+
+2005-07-05
+
+	* src/stock_pixmap.[ch]
+	  src/pixmaps/*.png
+	  src/pixmaps/Makefile.am: pixmaps アイコンを png 画像で置き換えた
+	  (大部分は gnome-icon-theme からコピー。 stock_mail_receive_all
+	  と stock_mail_send_queue は Jean-Yves Lefort さんから提供された)。
+	* src/compose.c
+	  src/mainwindow.c: 新しい png アイコンを使用。
+	* src/folderview.c: 草稿フォルダに特別なアイコンを使用。
+
+2005-07-04
+
+	* src/procmsg.c: procmsg_read_cache(): オープンに失敗したらキャッシュ
+	  を dirty としてマークするようにした。
+
+2005-07-04
+
+	* version 2.0.0beta4
+
+2005-07-04
+
+	* src/folderview.[ch]: フォルダを開こうとしている間はボタン/キー入力
+	  をロックするようにした(別のフォルダを素早くクリックしたときに
+	  選択状態が不正になるのを修正)。
+
+2005-07-04
+
+	* move_folder と rename_folder を統合。
+
+2005-07-04
+
+	* src/imap.c
+	  src/folderview.c: IMAP4 のフォルダの移動を実装。
+
+2005-07-01
+
+	* src/mh.c
+	  src/folder.h
+	  src/foldersel.[ch]
+	  src/imap.c
+	  src/news.c
+	  src/folderview.[ch]
+	  src/mainwindow.c: フォルダの移動を実装(現在同一の MH メールボックス
+	  内に制限)。
+
+2005-07-01
+
+	* src/filter.c: フォルダのパスの同期のバグを修正。
+	* src/folderview.c: コードの整理。
+
+2005-06-30
+
+	* src/summaryview.c: summary_filter_func(): フラグの変更を IMAP
+	  サーバに反映させるようにした。
+
+2005-06-30
+
+	* src/compose.c: compose_write_to_file(): 行長制限をチェックし、
+	  超えた場合は警告を表示。
+	* src/utils.[ch]: check_line_length(): 新規。
+
+2005-06-29
+
+	* src/main.c: main(): 初回起動時にファイル名エンコーディングを
+	  チェック。
+
+2005-06-29
+
+	* src/utils.c: get_outgoing_rfc2822_str(): 前回の変更を元に戻した
+	  (RFC 2822: 3.6.1. The origination date field)。
+
+2005-06-28
+
+	* src/utils.c: get_outgoing_rfc2822_str(): Date: ヘッダを現在時刻で
+	  上書きするようにした(送信待ちメッセージの日付を補正)。
+
+2005-06-28
+
+	* src/mh.c: mh_scan_tree_recursive(): G_FILENAME_ENCODING が指定され
+	  ていないにも関わらず無効な UTF-8 ディレクトリ名が出現したら警告を
+	  表示してスキップするようにした。
+
+2005-06-27
+
+	* src/imageview.c: イメージビューからテキストビューに切り替えるとき
+	  にクラッシュする可能性があったのを修正(二之宮さん thanks)。
+
+2005-06-24
+
+	* src/ssl.c: 検証結果を文字列として表示。
+
+2005-06-24
+
+	* src/utils.c:
+	  is_dir_exist()
+	  is_file_entry_exist()
+	  dirent_is_regular_file()
+	  dirent_is_directory(): stat() でなく g_file_test() を使用。
+
+2005-06-24
+
+	* src/ssl.c: SSL 証明書を検証(西山さん thanks)。
+
+2005-06-24
+
+	* src/utils.[ch]
+	  src/rfc2015.c: gcc の %c についての警告を抑制するために strftime()
+	  のラッパーを使用。
+	* src/procheader.c: 不正な日付に対する警告を削除。
+	* src/jpilot.c
+	  src/vcard.c: g_get_home_dir() の代わりに get_home_dir() を使用。
+
+2005-06-24
+
+	* src/prefs_common.[ch]: 未使用のオプション 'enable_hscrollbar' を
+	  削除。
+
+2005-06-24
+
+	* src/summaryview.c: 不要な関数 summary_set_column_titles() を削除。
+
+2005-06-23
+
+	* version 2.0.0beta3
+
+2005-06-23
+
+	* src/foldersel.c
+	  src/folderview.[ch]: 新規フォルダが作成されたとき親フォルダを展開
+	  するようにした。
+
+2005-06-23
+
+	* src/textview.c: コンテキストメニューに「新規メッセージを作成」と
+	  「Webブラウザで開く」を追加。
+
+2005-06-23
+
+	* src/folderview.[ch]: メニューのポップアップの後選択状態を元に戻す
+	  方法を変更。
+
+2005-06-23
+
+	* src/editldap.c: バインドパスワードのエントリを非表示にした。
+
+2005-06-22
+
+	* src/prefs_common.c: quote_colors_set_dialog_key_pressed(): Escape
+	  キーが押された場合のみダイアログを破棄するようにした。
+	* src/textview.[ch]: 設定が更新されたらテキストタグの色も更新する
+	  ようにした。
+
+2005-06-22
+
+	* src/summaryview.[ch]: DnD でサマリカラムを並べ替えられるようにした。
+
+2005-06-22
+
+	* src/mh.c
+	  src/procmsg.h
+	  src/prefs_common.[ch]: stat() によるキャッシュの厳密なチェックを
+	  無効にして性能を向上。
+	  MsgTmpFlags に MSG_CACHED フラグを追加。
+	  全般の設定に「高度な設定」タブを追加。
+
+2005-06-21
+
+	* src/folderview.c: folderview_delete_folder_cb(): フォルダ削除時の
+	  警告メッセージを変更。
+
+2005-06-21
+
+	* src/prefs_account.[ch]
+	  src/prefs_common.[ch]
+	  src/news.c: ニュースの記事数の上限のオプションをアカウントの設定に
+	  移動。
+
+2005-06-21
+
+	* src/compose.c: compose_reply()
+	  src/prefs_account.[ch]: 暗号化されたメッセージに返信した場合暗号化
+	  するオプションを追加(Vladi Belperchinov-Shabanski さん thanks)。
+
+2005-06-21
+
+	* src/summaryview.c: summary_reply(): 選択部返信で現在表示されている
+	  テキストビューを使用するようにした。
+
+2005-06-20
+
+	* configure.in: デフォルトで GPGME と OpenSSL 対応を有効にした。
+	  OpenSSL の検出を pkg-config で行うようにした(Michael Schwendt さん
+	  thanks)。
+
+2005-06-20
+
+	* src/imap.c: ブロックデータをパースするときに埋め込まれた null 文字
+	  を ' ' で置換するようにした(ヘッダに埋め込まれた null 文字が出現
+	  した場合にパースエラーが起こるのを修正)。
+	* src/socket.[ch]: *_getline() を、埋め込まれた null 文字を含んだ
+	  文字列長を返すように修正。
+	* src/utils.[ch]: subst_null(): null 文字を指定した文字で置換。
+
+2005-06-20
+
+	* src/textview.c: コンテキストメニューに「アドレス帳に追加」を追加し
+	  (増渕さん thanks)、アドレスをクリックした場合は「リンクをコピー」を
+	  「アドレスをコピー」に変更。
+	* src/addressadd.c: addressadd_selection(): アドレスを追加した直後に
+	  人物の編集ダイアログを開くようにした。
+
+2005-06-17
+
+	* src/prefs.h: マクロ PACK_SMALL_LABEL() を追加。
+	* src/inc.c: inc_finished()
+	  src/prefs_common.[ch]: 新着メッセージが到着したらコマンドを実行する
+	  オプションを追加。
+
+2005-06-16
+
+	* version 2.0.0beta2
+
+2005-06-16
+
+	* src/send_message.c: send_message_local(): 終了ステータスをチェック
+	  してエラーを検出するようにした。
+
+2005-06-16
+
+	* src/procmsg.c: procmsg_empty_trash(): キャッシュ/マークファイルを
+	  クリアした後 dirty フラグを解除するようにした(ごみ箱フォルダの
+	  未読数がおかしくなるのを修正)。
+
+2005-06-15
+
+	* src/summaryview.[ch]
+	  src/mainwindow.c: 「ツール/フォルダ中の迷惑メールを振り分け」と
+	  「ツール/選択メッセージ中の迷惑メールを振り分け」を追加。
+
+2005-06-15
+
+	* src/compose.c: 「ファイル/署名を挿入」が、現在の署名を置換、または
+	  末尾に追加するようにした。
+
+2005-06-14
+
+	* src/textview.c: 表示されているメッセージが変更されたときにスクロール
+	  位置が微妙におかしかったのを修正。
+
+2005-06-14
+
+	* src/compose.c: ペーストの後ビューをカーソル位置までスクロール
+	  するようにした。
+
+2005-06-14
+
+	* src/compose.c: ビューが作成された時はスクロールしないようにした。
+	  compose_input_cb(): テキストが置換されたときカーソルを先頭にセット
+	  するようにした。
+
+2005-06-14
+
+	* src/compose.c: 署名またはファイルの挿入後ビューをカーソル位置まで
+	  スクロールするようにした。
+
+2005-06-14
+
+	* src/mh.c: mh_remove_msg(): 意図せず FolderItem::last_num を 0 に
+	  セットしていたバグを修正(間違った未読数表示を引き起こしていた)。
+
+2005-06-14
+
+	* src/summaryview.c: summary_set_colorlabel(): カラーラベルの変更が
+	  保存されていなかったバグを修正。
+
+2005-06-13
+
+	* src/prefs_common.[ch]
+	  src/inc.c: 迷惑メールフィルタの設定を全般の設定に統合。
+	* src/filter.[ch]: filter_rule_list_free() を追加。
+
+2005-06-13
+
+	* src/summaryview.c: メッセージビューが表示されているが選択行が
+	  表示されていない場合はフラグ検索でその行を含むようにした。
+
+2005-06-13
+
+	* src/imap.c: STARTTLS の後 CAPABILITY が変更される可能性があるため、
+	  STARTTLS の後再取得するようにした(Tomasz さん thanks)。
+
+2005-06-10
+
+	* すべての strcasecmp/g_strcasecmp を g_ascii_strcasecmp で、
+	  strncasecmp/g_strncasecmp を g_ascii_strncasecmp で置き換えた
+	  (トルコ語 locale の問題を修正) (Doruk Fisek さん thanks)。
+
+2005-06-10
+
+	* src/prefs.h
+	  src/prefs_common.c: いくつかのフレームとチェックボックスを統合。
+
+2005-06-10
+
+	* src/summaryview.c: summary_modify_node(): クラッシュバグを本当に
+	  修正(ソート時に開放したメモリを参照していた)。
+
+2005-06-10
+
+	* src/summaryview.c: 選択部へスクロールする前にイベントをフラッシュ
+	  するようにした。
+
+2005-06-10
+
+	* src/summaryview.c: クラッシュする可能性があったのを修正(take 2)。
+
+2005-06-10
+
+	* src/summaryview.c: From/To/Subject でソートしたときにクラッシュする
+	  可能性があったのを修正。
+
+2005-06-09
+
+	* version 2.0.0beta1
+
+2005-06-09
+
+	* src/gtkutils.[ch]: gtkut_tree_view_scroll_to_cell() を追加。
+	  未使用の CTree 関数を削除。
+	* src/summaryview.c: 特定の操作の後のスクロール位置の問題を修正。
+
+2005-06-08
+
+	* src/inc.c
+	  src/send_message.c
+	  src/progressdialog.[ch]: プログレスダイアログを GtkTreeView で
+	  再実装。いくつかの API を追加。
+
+2005-06-08
+
+	* sylpheed.spec.in: 最新の RPM にあわせて修正(Paul Dickson さん
+	  thanks)。
+
+2005-06-08
+
+	* src/account.c
+	  src/prefs_filter.c: いくつかのボタンをストックボタンにした。
+
+2005-06-08
+
+	* src/summaryview.c: summary_tree_view_create(): 先行入力検索を無効に
+	  した。
+
+2005-06-07
+
+	* src/compose.c
+	  src/main.c
+	  src/procmsg.[ch]
+	  src/send_message.[ch]
+	  src/prefs_common.[ch]
+	  src/mainwindow.c: 送信したメッセージにフィルタルールを適用する
+	  オプションを追加。
+
+2005-06-06
+
+	* src/mimeview.c
+	  src/sourcewindow.c: オブジェクトの破棄に "destroy" シグナルを使用
+	  しないようにした。
+
+2005-06-06
+
+	* src/compose.c: Compose オブジェクトの破棄に "destroy" シグナルを
+	  使用しないようにした(破棄時にまれにクラッシュするのを修正?)。
+
+2005-06-06
+
+	* src/summaryview.c:
+	  summary_attract_by_subject()
+	  summary_sort(): リストの順序が変更された場合選択リストをクリアする
+	  ようにした。
+
+2005-06-06
+
+	* src/summaryview.c: summary_remove_invalid_messages(): 全メッセージ
+	  を選択してそれを削除した場合に O(n^2) のオーダーで時間がかかって
+	  いたバグを修正。
+
+2005-06-06
+
+	* src/compose.c
+	  src/messageview.c
+	  src/prefs_common.c
+	  src/mainwindow.c: ヘブライ語のエンコーディングを追加。
+
+2005-06-06
+
+	* src/codeconv.[ch]: locale 文字列の先頭の文字が "ja" の場合は日本語
+	  の自動判別を常に有効にするようにした。
+
+2005-06-03
+
+	* src/compose.c
+	  src/summaryview.[ch]
+	  src/folderview.c: DnD を改良。サマリ->フォルダのドラッグでファイル
+	  をコピーしないようにし、サマリ->メッセージ作成のドラッグで MIME
+	  タイプを message/rfc822 に指定。
+
+2005-06-03
+
+	* src/prefs_common.c: prefs_junk_create(): 説明を修正。
+
+2005-06-03
+
+	* src/summaryview.c: summary_junk_func(), summary_junk(): 空の
+	  junk フォルダを許可するようにした。
+
+2005-06-02
+
+	* src/prefs_common.c: prefs_font_select(): ダイアログを開く時に
+	  現在のフォントを選択。
+
+2005-06-02
+
+	* src/prefs_common.[ch]
+	  src/mainwindow.[ch]
+	  src/summaryview.[ch]: 迷惑メール対策機能を追加。
+
+2005-06-01
+
+	* src/summaryview.c: summary_msgid_table_create_func(): 無効または
+	  削除されたメッセージを無視するようにした。
+
+2005-06-01
+
+	* src/textview.c:
+	  textview_search_string()
+	  textview_search_string_backward(): 連続した検索を改良。
+
+2005-06-01
+
+	* src/summaryview.c: 「表示/移動/(前の|次の)(未読|新着)メッセージ」
+	  で現在のメッセージを含まないようにした。
+
+2005-05-31
+
+	* src/imap.c: imap_scan_tree_recursive(): STATUS コマンドはコストが
+	  かかるため、フォルダのスキャンを行わないようにした。
+
+2005-05-31
+
+	* src/summaryview.c: summary_show(): FolderView::selected が NULL
+	  のときにクラッシュするバグを修正(Yann Grossel さん thanks)。
+
+2005-05-30
+
+	* src/manage_window.c: manage_window_focus_out(): focus-out イベント
+	  で focus_window をリセットしないようにした。
+	* src/inc.c
+	  src/send_message.c: ウィンドウの破壊の前に manage_window_destroy()
+	  を呼んで focus_window をリセットするようにした。
+
+2005-05-30
+
+	* src/alertpanel.c: メッセージラベルがフォーカスを得ないようにした。
+	* src/headerview.c: ヘッダラベルがフォーカスを得ないようにした。
+
+2005-05-30
+
+	* src/summaryview.[ch]: セレクションリストの取得を最適化。
+	  現在の順序を記憶するため、順序が変わった場合はキャッシュを dirty
+	  にするようにした。
+
+2005-05-29
+
+	* version 1.9.12
+
+2005-05-27
+
+	* src/compose.c: compose_entries_set(): Bcc ヘッダフィールドを解釈
+	  しないようにした(RFC 2368 に従うようにした)。
+
+2005-05-27
+
+	* src/mh.c
+	  src/compose.c
+	  src/folder.[ch]
+	  src/imap.c
+	  src/procmsg.c
+	  src/news.c
+	  src/summaryview.c: FolderItem::mark_dirty を追加し、マークファイル
+	  を本当に更新する必要があるかどうかを判断するようにした。
+	  cache_dirty または mark_dirty フラグが立っている場合のみマーク
+	  ファイルを書き出すようにした。
+
+2005-05-27
+
+	* src/imap.c: 再接続時に以前の Session オブジェクトを破壊しないように
+	  した(ツリーのスキャン時に再接続が発生したときにクラッシュするのを
+	  修正)。
+	  imap_cmd_search(): 最初の応答しか認識されていなかったバグを修正
+	  (Hanno Meyer-Thurow さん thanks)。
+	* src/procmsg.h: MSG_IS_SIGNED() マクロを追加。
+
+2005-05-26
+
+	* src/main.c: app_will_exit(): 終了時に tmp ディレクトリを消去。
+	* src/mimeview.c: 非 ASCII ファイル名の DnD を修正。
+	* src/utils.[ch]: encode_uri(): 新規。
+	* src/summaryview.[ch]: subject をドロップしたメッセージのファイル名
+	  として使用するようにした。 .eml を拡張子として追加。
+
+2005-05-25
+
+	* src/textview.c: textview_write_link(): リンク文字列の先頭の
+	  非 ASCII 空白もスキップするようにした(その場合フィッシングチェック
+	  が働かなかった)。
+
+2005-05-25
+
+	* src/utils.c: get_command_output(): popen() でなく
+	  g_spawn_command_line_sync() を使用するようにした。
+
+2005-05-25
+
+	* src/send_message.c: send_message_local(): GSpawn を使用し、エラー
+	  を検出するようにした。
+
+2005-05-25
+
+	* src/message_search.c: 「クリア」ボタンを削除。
+
+2005-05-24
+
+	* src/folder.[ch]: FolderItem::cache_dirty を追加し、キャッシュ
+	  ファイルを本当に更新する必要があるかどうかを判断するようにした。
+	* src/mh.c
+	  src/imap.c
+	  src/procmsg.c
+	  src/news.c: フォルダの内容とキャッシュファイルが異なる場合に
+	  cache_dirty フラグを立てるようにした。
+	* src/summaryview.c: フォルダの内容が変更されたら cache_dirty フラグ
+	  を立てるようにした。 cache_dirty フラグが立っている場合のみ
+	  キャッシュファイルを書き出すようにした。
+
+2005-05-24
+
+	* src/compose.c: 添付トグルボタンを現状無効にした。
+
+2005-05-24
+
+	* src/compose.[ch]: 添付ペインのトグルボタンを追加。
+
+2005-05-24
+
+	* src/compose.[ch]: 添付リストを GtkTreeView で再実装。 locale
+	  ファイル名の添付を修正。
+	* src/utils.c: uri_list_extract_filenames(): URI を正しくパースする
+	  ようにした。
+
+2005-05-24
+
+	* src/gtkutils.c: GTK 2.4 でコンパイルに失敗するのを修正。
+
+2005-05-23
+
+	* src/summaryview.[ch]: 外部アプリへの DnD ができるようにした。
+
+2005-05-23
+
+	* src/compose.[ch]: メッセージ作成ウィンドウに PGP 署名/暗号化
+	  チェックボタンを追加。
+
+2005-05-23
+
+	* src/summaryview.c: summary_step(): カーソルの移動に "move-cursor"
+	  シグナルを使わないようにした。
+
+2005-05-23
+
+	* src/gtksctree.[ch]: 削除。
+	* src/gtkutils.c: include が抜けていたのを追加し、 GtkSCTree の初期化
+	  を削除。
+
+2005-05-23
+
+	* src/textview.c
+	  src/mimeview.[ch]
+	  src/summaryview.c
+	  src/mainwindow.c: MimeView を GtkTreeView で再実装。
+
+2005-05-20
+
+	* src/summaryview.c: summary_show(): 更新時の選択状態を修正。
+
+2005-05-20
+
+	* src/summaryview.c: summaryview_clear_list(): "value-changed"
+	  シグナルが常に発行されるように vadjustment の値を 0.0 にセット
+	  (更新時のスクロール問題を修正)。
+
+2005-05-19
+
+	* src/message_search.c: インタフェースを改良し、コードを整理。
+
+2005-05-19
+
+	* src/summary_search.c: インタフェースを改良し、コードを整理。
+
+2005-05-19
+
+	* src/summaryview.c: summary_show(): 残ったマークを処理した後
+	  メッセージが選択されない問題を修正。
+
+2005-05-19
+
+	* src/textview.[ch]
+	  src/prefs_common.[ch]
+	  src/mainwindow.c: メッセージビュー内のカーソルを切り替える
+	  オプションを追加(Godwin Stewart さん thanks)。
+
+2005-05-19
+
+	* src/summaryview.c: summary_modify_threads(): スレッドの更新中に
+	  ツールバーが予期せずインセンシティブにならないように
+	  selection_changed コールバックをブロック。
+
+2005-05-18
+
+	* src/summaryview.c: 最小カラム幅を指定。
+	* src/folderview.c: 最小カラム幅を指定。すべてのカラム幅を記憶。
+
+2005-05-18
+
+	* src/summaryview.c: immediate_exec が有効な場合、削除の後次の
+	  メッセージを表示するようにした。
+
+2005-05-17
+
+	* version 1.9.11
+
+2005-05-17
+
+	* src/summaryview.c: summary_remove_invalid_messages(): 実行時の
+	  選択状態とメッセージ表示を調整。
+	  summary_get_modified_node(): 順序問題を修正。
+
+2005-05-17
+
+	* src/summaryview.c: summary_row_expanded(): 最後の行の展開時の問題
+	  に対処。
+
+2005-05-16
+
+	* src/summaryview.c: summary_selection_changed(): selection が空の
+	  ときに SummaryView::selected を未設定にするのを忘れていたのを修正。
+
+2005-05-16
+
+	* src/summaryview.c: 実行後の selection 問題を修正。
+	* src/gtkutils.c: gtkut_tree_model_find_by_column_data(): 開始ノード
+	  も比較するようにした。
+
+2005-05-15
+
+	* src/summaryview.c: summary_button_pressed(): カラムのリサイズが
+	  できなかったのを修正。
+
+2005-05-15
+
+	* src/summaryview.c: summary_key_pressed(): 複数のメッセージが選択
+	  されているときに Return, Space, Delete キーが無視されるバグを修正。
+	* src/headerview.c: gtk/gtkimage.h の include が抜けていたのを修正。
+
+2005-05-13
+
+	* version 1.9.10
+
+2005-05-13
+
+	* src/prefs_common.[ch]
+	  src/summaryview.c: rules hint を設定可能にした。デバッグコードを
+	  除去。
+	* src/gtkutils.c: gtkut_tree_row_reference_equal(): 参照のいずれかが
+	  無効の場合 FALSE を返すようにした。
+
+2005-05-13
+
+	* src/summaryview.c: メッセージビューを隠している場合は「表示/移動」
+	  で選択したメッセージを開かないようにした。
+
+2005-05-13
+
+	* src/summaryview.c: 中クリックとダブルクリックの処理を修正。
+
+2005-05-13
+
+	* src/summaryview.c: アイコンタイトルのカラム幅を調整。
+
+2005-05-12
+
+	* src/summaryview.c: summary_attract_by_subject()
+	  src/mainwindow.c: main_window_set_menu_sensitive(): ソートされて
+	  いる場合は「件名で寄せる」を無効にするようにした。
+
+2005-05-12
+
+	* src/summaryview.c: summary_attract_by_subject():
+	  gtk_tree_store_reorder() を使用して最適化
+	  (gtk_tree_store_move_after() は遅すぎ)。
+
+2005-05-12
+
+	* src/summaryview.c: 閉じた行が未読の子をもつ場合はボールドで表示する
+	  ようにした。
+
+2005-05-11
+
+	* src/summaryview.c: summary_have_unread_children(): 実装。
+	  summary_row_expanded(): 全ての子を展開。
+	  summary_thread_build(): g_hash_table_destroy() が抜けていたのを追加。
+
+2005-05-11
+
+	* src/summaryview.c
+	  src/mainwindow.c: summary_thread_build(): 実装。
+
+2005-05-11
+
+	* src/utils.c: remove_dir_recursive(): カレントディレクトリが削除
+	  されるディレクトリ内にある場合に処理に失敗するのを修正。
+	* src/summaryview.c: summary_unthread(): 実装。
+	* src/folderview.c: FolderView::selected が無効になったときに
+	  クラッシュするのを修正。セレクションが空になった場合は未設定にする
+	  ようにした。
+	* src/defs.h: DEFAULT_MESSAHE_FONT を "Sans 14" から "Monospace 12"
+	  に変更。
+
+2005-05-10
+
+	* src/summaryview.c: summary_select_thread(): 実装。
+
+2005-05-10
+
+	* src/summary_search.c: サマリ検索を再実装。
+
+2005-05-10
+
+	* src/summaryview.c:
+	  summary_show(): always_show_msg がセットされていれば選択された
+	  メッセージを表示。
+	  summary_button_pressed(): 修飾キーの処理を修正。
+	  summary_selection_changed(): 単独選択でない場合はメッセージビュー
+	  をクリアするようにした。
+
+2005-05-10
+
+	* src/summaryview.c
+	  src/gtkutils.[ch]: GTK+ 2.4 でコンパイルできないのを修正
+	  (GTK+ 2.4 はソートの設定を解除する方法を提供していない)。
+
+2005-05-09
+
+	* src/editjpilot.c
+	  src/editldap_basedn.c
+	  src/editldap.c: 不足していた include を追加。
+
+2005-05-09
+
+	* src/compose.c
+	  src/inc.c
+	  src/addressbook.c
+	  src/textview.c
+	  src/messageview.c
+	  src/editbook.c
+	  src/editgroup.c
+	  src/importldif.c
+	  src/foldersel.c
+	  src/mimeview.c
+	  src/message_search.c
+	  src/main.c
+	  src/inputdialog.c
+	  src/editaddress.c
+	  src/addressadd.c
+	  src/import.c
+	  src/about.c
+	  src/mainwindow.c
+	  src/editvcard.c: 不足している include を追加。
+	* src/gtkutils.[ch]: GtkTreeView 用のユーティリティ関数を追加。
+	* src/stock_pixmap.[ch]: stock_pixbuf_widget(): 新規。
+	* src/folderview.c: カラムサイズの修正。
+	* src/summaryview.[ch]
+	  src/prefs_summary_column.c: GtkTreeView で再実装
+	  (いくつかの機能はまだ完成していない)。
+
+2005-05-06
+
+	* src/socket.c: sock_connect_address_list_async(): 低確率で起こる
+	  接続の問題を避けるために G_IO_OUT のみを watch するようにした
+	  (Thorsten Maerz さん thanks)。
+
+2005-05-02
+
+	* src/prefs_filter_edit.c: prefs_filter_edit_set_cond_hbox_widgets():
+	  AGE 条件のとき単位を表示するようにした。
+
+2005-04-27
+
+	* src/imageview.c: imageview_get_resized_pixbuf(): 必要ない場合画像を
+	  スケールしないようにした(単に参照カウントを増加)。
+
+2005-04-27
+
+	* src/mainwindow.c: main_window_create(): GTK+ 2.6 では不要なリサイズ
+	  グリップのための対処を無効にした。
+
+2005-04-22
+
+	* src/imap.c: imap_auth(): 認証方式が自動の場合は CRAM-MD5 を優先して
+	  使用するようにした。 CAPABILITY に LOGINDISABLED がある場合は
+	  LOGIN を使用しないようにした。
+
+2005-04-22
+
+	* src/folderview.c: folderview_selection_changed(): サマリ表示の前に
+	  セレクション変更を反映させるためにウィジェットをフラッシュする
+	  ようにした。
+
+2005-04-22
+
+	* sylpheed.desktop: エンコーディングを UTF-8 に変更(川畑さん thanks)。
+
+2005-04-22
+
+	* src/folderview.c:
+	  folderview_rescan_tree()
+	  folderview_check_new(): 処理の前にウィジェットを更新するようにした。
+
+2005-04-20
+
+	* src/gtkutils.[ch]: gtkut_widget_draw_now(): ウィジェットの強制更新
+	  に gdk_window_process_updates() を使用。
+	  全てのイベントが処理されるのを待っていたために大きなオーバーヘッド
+	  を生じていた gtkut_widget_wait_for_draw() を削除。
+	* src/statusbar.c
+	  src/summaryview.c
+	  src/setup.c
+	  src/folderview.c
+	  src/mainwindow.c: gtkut_widget_draw_now() を使用。ステータスバー
+	  の更新の処理速度を向上。
+
+2005-04-20
+
+	* src/textview.c: textview_smooth_scroll_do(): スクロール完了後に
+	  再描画するようにした(ビューの一部が隠れている場合に正しく描画
+	  されないのを修正)。
+
+2005-04-19
+
+	* version 1.9.9
+
+2005-04-19
+
+	* sylpheed.desktop: フランス語の翻訳を追加(Nicolas Boos さん thanks)。
+
+2005-04-19
+
+	* src/session.[ch]: 大きい送信データ用に別のバッファを使用し、
+	  そのデータを複製しないようにした(メモリ使用量を削減) (Dirk さん
+	  thanks)。
+
+2005-04-19
+
+	* src/compose.c
+	  src/prefs_common.c: 古い GtkSText のために用意され、 gtk-key-theme
+	  の設定と干渉していた '/編集/高度な操作' メニューを削除。
+
+2005-04-15
+
+	* src/folderview.c: folderview_create(): "ellipsize" プロパティの
+	  ために GTK のバージョンをチェック。
+
+2005-04-13
+
+	* src/folderview.c: include を修正。
+	  folderview_col_resized(): 引数の型を修正。
+
+2005-04-13
+
+	* src/imap.c: imap_close(): item->path が NULL の場合は何もしない
+	  ようにした。
+	* src/folderview.c: 未使用の GtkStyle を削除。
+	  folderview_select_row(): その行自身は展開しないようにした。
+	  folderview_selection_changed(): メモリリークを修正。
+
+2005-04-13
+
+	* src/rfc2015.c: pgp_sign(): 括弧が抜けていたのを修正。
+	  result->signatures が NULL でないかどうかをチェック(~/.gnupg が
+	  存在しない場合にクラッシュするのを修正)。
+	* src/sigstatus.c: gpgmegtk_sig_status_to_string(): signature が
+	  NULL でないかどうかをチェック。
+
+2005-04-12
+
+	* version 1.9.8
+
+2005-04-12
+
+	* src/folderview.c
+	  src/gtkutils.[ch]: カラム幅を記憶し、検索メニューを復活。
+
+2005-04-12
+
+	* src/compose.c
+	  src/messageview.c
+	  src/codeconv.[ch]
+	  src/prefs_common.c
+	  src/mainwindow.c: GBK エンコーディングに対応。 "X-GBK" が渡された
+	  場合は GBK で代替するようにした(SuperMMX さん thanks)。
+
+2005-04-12
+
+	* src/compose.c: compose_write_to_file(): クリア署名されたテキストを
+	  エンコードしないようにした。
+
+2005-04-11
+
+	* src/action.c: catch_output(): 挿入されたテキストを正しく選択する
+	  ようにした(不正なイテレータの警告を修正)。
+
+2005-04-11
+
+	* src/gtkutils.[ch]
+	  src/folderview.[ch]: メッセージからフォルダへの DnD を実装。
+	  自動展開と自動スクロールも実装。
+
+2005-04-08
+
+	* src/folderview.c: folderview_check_new(): 無限ループバグを修正。
+	  folderview_new_news_group_cb(): 購読時のクラッシュバグを修正。
+	* src/summaryview.c: summary_show():
+	  folderview_update_opened_msg_num() が呼ばれる前に FolderView::opened
+	  を更新。
+
+2005-04-07
+
+	* src/folderview.c: folderview_selection_changed(): ボタン押下で
+	  フォルダを開いた後 GtkTreeView::gtk_tree_view_button_press() に
+	  フォーカスを取得させないようにした。
+
+2005-04-07
+
+	* src/folderview.[ch]: フォルダビューを GtkTreeView で再実装
+	  (DnD は未実装)。
+	* src/folder.[ch]: folder_item_compare(): FolderItem のソート用の
+	  比較関数。
+	* src/gtkutils.[ch]:
+	  gtkut_tree_model_next()
+	  gtkut_tree_model_find_by_column_data()
+	  gtkut_tree_view_find_collapsed_parent(): 新規。
+	* src/pixmaps/dir-noselect.xpm
+	  src/pixmaps/dir-open.xpm
+	  src/pixmaps/dir-close.xpm: 余分な空白を除去。
+
+2005-04-05
+
+	* src/send_messages.c: send_message_smtp(): QUIT 直後の EOF を成功と
+	  みなすようにした(Gmail の SMTP サーバへの対処)。
+	* src/socket.c: ssl_read(), ssl_peek(): SSL プロトコル違反の EOF を
+	  チェック。
+	* src/procheader.c: 未使用の変数を削除。
+
+2005-04-01
+
+	* configure.in: 新しい Mac OS X に対応するために -traditional-cpp を
+	  -no-cpp-precomp に変更。
+
+2005-03-31
+
+	* src/account.c: アカウント編集ダイアログを GtkTreeView を使用して
+	  再実装。
+
+2005-03-31
+
+	* src/colorlabel.c: カラーラベルメニューを表示するときの警告を除去
+	  (GtkAlignment を使わないようにした)。
+	* src/prefs_filter_edit.c: ウィジェットの描画を安定化した。
+	* src/gtkutils.[ch]: gtkut_scrolled_window_reset_position():
+	  adjustment を (0, 0) にリセット。
+
+2005-03-31
+
+	* src/foldersel.c
+	  src/prefs_filter.c: カラムを自動的にリサイズするようにした。
+
+2005-03-31
+
+	* src/smtp.c: smtp_auth_plain(): 余分な '\0' が認証文字列に含まれて
+	  おり、 PLAIN 認証に失敗するバグを修正(岩本さん thanks)。
+
+2005-03-31
+
+	* src/prefs_filter.c: フィルタ設定ダイアログを GtkTreeView を使用して
+	  再実装。
+
+2005-03-29
+
+	* src/compose.c: 行整形時に箇条書きの(と思われる)行を結合しない
+	  ようにした。
+
+2005-03-29
+
+	* version 1.9.7
+
+2005-03-29
+
+	* src/procmsg.c: procmsg_get_thread_tree(): 正確なスレッド生成のため
+	  2回目のループのときのみ間接的な親を探すようにした。
+	* src/procheader.c: procheader_parse_stream(): MsgInfo::inreplyto
+	  に対して In-Reply-To が References より優先されるようにした。
+
+2005-03-28
+
+	* src/utils.[ch]: references_list_prepend(): 新規。
+	* src/procmsg.[ch]
+	  src/procheader.c
+	  src/summaryview.c: スレッドの生成処理を、実際の親メッセージが
+	  見つからなかった場合は References ヘッダの全てのメッセージ ID
+	  を検索するように修正(Alfons さん thanks)。
+	* src/defs.h: キャッシュバージョンを増加。
+
+2005-03-28
+
+	* src/foldersel.c: フォルダ選択ダイアログを GtkTreeView を使用して
+	  再実装(Alfons さん thanks)。
+	* src/stock_pixmap.[ch]: stock_pixbuf_gdk(): 新規。 xpm から GdkPixbuf
+	  オブジェクトを生成する。
+
+2005-03-25
+
+	* src/compose.c: compose_parse_header(): 空の Reply-To: と
+	  Followup-To: ヘッダを無視するようにした(Alfons さん thanks)。
+
+2005-03-23
+
+	* src/compose.c:
+	  compose_write_to_file()
+	  compose_write_headers(): ヘッダ文字コードと本文文字コードを分割。
+	  本文が US-ASCII のみの場合にヘッダに ISO-8859-1 が強制されてしまう
+	  問題を修正。
+
+2005-03-23
+
+	* src/codeconv.c: conv_jistoeuc(): 補助漢字が出現したときの
+	  バッファオーバーフローを修正(2005-03-17 以降の svn 版のみに影響)。
+
+2005-03-22
+
+	* src/codeconv.[ch]: 全てのコード変換関数でエラー値を返すようにした。
+
+2005-03-18
+
+	* src/html.[ch]: html_parse(): 戻り値を const にした。
+	* src/textview.c: textview_show_html(): 強制的に改行を出力。
+	* src/procmime.c: procmime_get_text_content(): API の変更に追従。
+
+2005-03-18
+
+	* src/account.c: account_find_from_message_file(): HeaderEntry 配列
+	  の NULL 終端が抜けていたのを追加(再編集時にクラッシュを起こして
+	  いた) (Michael Schwendt さん thanks)。
+
+2005-03-17
+
+	* src/utils.c: strncpy2(): Alfons さんのコードに基づいて最適化。
+
+2005-03-17
+
+	* src/codeconv.[ch]
+	  src/textview.c
+	  src/unmime.c
+	  src/procheader.c
+	  src/sourcewindow.c
+	  src/rfc2015.c
+	  src/html.c: 全てのコード変換 API を新しいメモリを確保するように
+	  変更し、変換時の無駄な文字列コピーを無くした。
+
+2005-03-16
+
+	* src/prefs_common.[ch]
+	  src/textview.c: HTML を解釈してテキスト表示するかどうかを選択する
+	  オプションを追加。
+
+2005-03-16
+
+	* src/filesel.c: ファイル保存ダイアログの expander の状態を記憶する
+	  ようにした。
+
+2005-03-16
+
+	* src/compose.[ch]: 送信エンコーディングを一時的に変更するための
+	  メニューを追加。 UTF-8 を本文に強制的に使用する場合、ヘッダにも
+	  使用するようにした。
+	* src/codeconv.[ch]:
+	  conv_get_outgoing_charset_str(): prefs_common の設定を使用しない
+	  ようにした。
+	  conv_encode_header(): 送信エンコーディングの引数を追加。
+	* src/prefs_common.c: 送信エンコーディングのメニューにセパレータを
+	  追加。
+	* src/messageview.c
+	  src/mainwindow.c: メニューの「文字コードセット」(やや間違い)を
+	  「文字エンコーディング」に変更。
+
+2005-03-15
+
+	* version 1.9.6
+
+2005-03-15
+
+	* src/action.c: create_io_dialog(): ユーザ指定のテキストフォントを
+	  使用し(Alfons さん thanks)、外観を修正。
+
+2005-03-15
+
+	* src/compose.c: compose_write_to_file(): メモリリークを修正。
+
+2005-03-14
+
+	* src/compose.c: compose_write_to_file(): コード変換に対して厳密な
+	  チェックを行うようにした。
+	* src/codeconv.[ch]:
+	  conv_codeset_strdup_full()
+	  conv_iconv_strdup()
+	  conv_iconv_strdup_with_cd(): エラー値を返すための引数を追加。
+
+2005-03-14
+
+	* src/smtp.[ch]
+	  src/prefs_account.c: PLAIN 認証方式を実装(mori さん thanks)。
+
+2005-03-14
+
+	* src/filesel.c:
+	  filesel_select_file_full(): それぞれの操作に対してディレクトリを
+	  記憶。
+	  filesel_create(): デフォルトの応答を指定。
+	* src/textview.c: textview_key_pressed()
+	  src/mimeview.c: mimeview_key_pressed(): Esc キーが押されたら上位の
+	  ビューにフォーカスを移動。
+	* 上記に関して Sergey Pinaev さん thanks。
+
+2005-03-11
+
+	* src/compose.[ch]: 署名の置換に GtkTextTag を使用して安定化した。
+
+2005-03-10
+
+	* src/textview.c: インライン画像のコンテキストメニューに
+	  「画像を保存...」を実装。
+	* src/procmime.c: procmime_get_part_file_name(): 新規。
+
+2005-03-10
+
+	* src/mainwindow.c: main_window_set_widgets(): ウィンドウサイズが
+	  不正になるのを防ぐため、最初にサイズを要求するようにした。
+	* src/utils.c: debug_print(): locale エンコーディングで出力するために
+	  g_print() を使用。
+
+2005-03-10
+
+	* src/passphrase.c: パスフレーズダイアログの入力捕捉を部分的に修正。
+	  ポインタをウィンドウ内に制限するようにした。
+
+2005-03-09
+
+	* src/compose.c: 自動整形が有効になっていた場合の引用部の整形を
+	  修正。
+
+2005-03-09
+
+	* src/mainwindow.c: MessageView の表示状態を記憶していなかったのを
+	  修正。
+
+2005-03-09
+
+	* src/compose.c: compose_attach_cb(): 複数ファイルの選択ができる
+	  ようにした。
+	* src/main.c: migrate_old_config(): mime.types もコピーするようにした。
+	* src/filesel.[ch]: filesel_select_files(): 複数の選択したファイルを
+	  返す。
+
+2005-03-08
+
+	* src/imageview.[ch]: imageview_get_resized_pixbuf(): 新規。
+	  src/textview.c: textview_add_part(): prefs_common.resize_image
+	  の設定に従うようにした。
+	* src/configure.in
+	  src/about.c
+	  src/mimeview.c: gdk-pixbuf は現在内蔵されているため、
+	  enable-gdk-pixbuf のオプションを削除。
+
+2005-03-08
+
+	* src/messageview.[ch]
+	  src/mimeview.[ch]: テキスト/MIME ビュー切り替えの実装を変更
+	  (切り替えがスムーズになった)。
+
+2005-03-08
+
+	* src/textview.c: textview_make_clickable_parts(): URI 検索を最適化
+	  (多数の '@' を持つ極端に長い行におけるフリーズを修正)。
+	* src/gtkutils.[ch]: gtkut_text_buffer_insert_with_tag_by_name():
+	  新規。 GtkTextView の速度低下を防止するために、長い行(> 8190 文字)
+	  で強制的に改行。
+
+2005-03-07
+
+	* src/mainwindow.c
+	  src/mimeview.[ch]: 「ファイル/名前を付けて保存...」が選択された
+	  とき mimeview にフォーカスがあれば選択した添付ファイルを保存する
+	  ようにした。
+	  mimeview_save_as() を public にした。
+
+2005-03-07
+
+	* version 1.9.5
+
+2005-03-07
+
+	* src/codeconv.c: conv_unmime_header(): 固定サイズのバッファを使用。
+	* src/procheader.c: procheader_scan_date_string():
+	  "[Tue,] 01 Feb 2005 09:57[:00]" のようなヘッダに対応。
+
+2005-03-04
+
+	* src/unmime.[ch]: 効率を上げるために、ヘッダの MIME デコードの
+	  バッファとして GString を使用するようにした。
+	* src/codeconv.c: conv_unmime_header(): unmime_header() の戻り値を
+	  直接返すようにした。スタックに置くバッファサイズを制限。
+
+2005-03-04
+
+	* src/codeconv.[ch]: ヒープのバッファオーバーフローを起こしていた
+	  conv_unmime_header_overwrite() を削除。
+	  conv_unmime_header(): 新たに確保された文字列を返すように修正。
+	* src/compose.c: compose_parse_header(): バッファオーバーフローを
+	  起こす conv_unmime_header_overwrite() を使用しないようにした。
+	* src/procheader.c
+	  src/news.c
+	  src/procmime.c: API の変更に追従。
+
+2005-03-03
+
+	* 不正なヘッダ文字列のフォールバックエンコーディングとして
+	  Content-Type の charset を使用(Sergey Pinaev さん thanks)。
+	* src/textview.c: ヘッダを表示するときに Content-Type の charset
+	  情報と force-charset の設定を使用するようにした。
+	* src/codeconv.c: conv_iconv_strdup(): src と dest が同一でも、
+	  また dest が US-ASCII でも変換するようにした。
+	  conv_unmime_header(): 文字列が ascii でない場合はデフォルト
+	  エンコーディングで変換を試みるようにした。
+	* src/procheader.[ch]:
+	  procheader_get_header_array()
+	  procheader_get_header_array_asis(): デフォルトエンコーディングの
+	  引数を追加。
+	  procheader_parse_stream(): Content-Type の charset 情報を使用。
+	* src/procmime.[ch]: Content-Type ヘッダのパラメータを返す
+	  procmime_scan_content_type_str() を追加。
+	* src/unmime.[ch]: 未使用の関数プロトタイプを削除。
+
+2005-03-02
+
+	* version 1.9.4
+
+2005-03-02
+
+	* src/compose.c: compose_destroy(): paned がウィンドウに付属して
+	  いない場合のみ destroy するようにした。ポップアップメニューが
+	  メモリリークしていたのを修正。
+
+2005-03-02
+
+	* src/sigstatus.c: ポップアップダイアログを修正。エスケープキーを
+	  押した時の警告を修正。ソースのインデントを修正。
+
+2005-03-02
+
+	* src/main.c: 冗長なコードを削除。
+	* configure.in: 冗長な PKG_CHECK_MODULES を削除。
+	  すでに使用できない GLIB_CONFIG ではなく PKG_CONFIG を使用
+	  (LDAP のコンパイルを修正)。
+
+2005-03-01
+
+	* configure.in: GLib/GTK のバージョン(>= 2.4.0)をチェック。
+
+2005-03-01
+
+	* src/gtkutils.[ch]: 未使用のコードを削除。
+
+2005-03-01
+
+	* src/mimeview.[ch]: 添付ファイルを選択したときにアクションボタンを
+	  表示。
+	  キー押下とポップアップメニューの処理を修正。
+	  ウィジェットペインの再描画の問題を修正。
+	* src/summaryview.[ch]: 少しコードを整理。
+	* src/mainwindow.c: prev_cb(), next_cb(): MIME ビューがフォーカスを
+	  持っていればそれを処理するようにした。
+	* src/filesel.c: ダイアログを作成する前にカレントディレクトリを変更
+	  (メッセージ数の多いフォルダでの処理速度の問題を修正)。
+	* src/textview.[ch]: 未使用の関数を削除。
+
+2005-03-01
+
+	* ac/check-type.m4
+	  ac/gnupg-check-typedef.m4: 新しい automake による警告を除去
+	  (川畑さん thanks)。
+
+2005-02-28
+
+	* src/compose.c: compose_parse_header(): 親メッセージが Message-Id:
+	  を持っていない場合でも In-Reply-To: から References: を生成する
+	  ようにした(mori さん thanks)。
+
+2005-02-28
+
+	* src/procheader.[ch]: バッファ長の引数の型を修正(Alfons さん thanks)。
+
+2005-02-27
+
+	* src/socket.c: sock_add_watch(): SSL 接続の場合でも g_io_add_watch()
+	  が呼ばれていたバグを修正。ランダムなバグを引き起こしていた。
+
+2005-02-25
+
+	* src/messageview.c: messageview_select_all(), reply_cb(): selection
+	  のバグを修正。
+
+2005-02-25
+
+	* src/compose.c
+	  src/textview.c
+	  src/quote_fmt_parse.y: API の変更に追従。
+	* src/procmsg.c: procmsg_print_message(): テキストをロケール
+	  エンコーディングで出力するようにした。
+	* src/procmime.[ch]:
+	  procmime_get_text_content()
+	  procmime_get_first_text_content(): 出力エンコーディングの引数を
+	  追加。
+	* src/codeconv.[ch]: conv_code_converter_new(): 出力エンコーディ
+	  ングの引数を追加。
+	* src/html.c: 正常に動作しないロケール固有の実体参照変換を削除。
+
+2005-02-25
+
+	* src/compose.c
+	  src/messageview.c
+	  src/mimeview.c
+	  src/export.c
+	  src/summaryview.c
+	  src/import.c
+	  src/filesel.[ch]: GtkFileSelection を GtkFileChooserDialog で
+	  置き換えた。
+	  filesel_save_as() を追加。
+
+2005-02-24
+
+	* src/alertpanel.c: 他の GTK2 アプリに合うようにデザインを修正。
+
+2005-02-24
+
+	* src/progressdialog.c
+	  src/inc.c: inc_progress_dialog_create(): ProgressDialog を
+	  GtkDialog を使用するように修正。
+
+2005-02-24
+
+	* src/compose.c: compose_write_attach(): PGP 署名のために行末の空白を
+	  保護するために転送エンコーディングを強制するようにした。
+
+2005-02-23
+
+	* src/gtkutils.[ch]: 未使用の関数を削除。
+	  gtkut_text_buffer_match_string()
+	  gtkut_text_buffer_find(): API を iterator を使用するように変更。
+	  gtkut_text_buffer_find_backward(): 新規。
+	* src/textview.c:
+	  textview_search_string()
+	  textview_search_string_backward(): 新しい API を使用。
+
+2005-02-23
+
+	* src/logwindow.c
+	  src/prefs_common.[ch]: 行数制限を再度有効にし、値を設定可能にした。
+
+2005-02-22
+
+	* src/codeconv.c:
+	  conv_anytodisp(): 変換された文字列が有効な UTF-8 かどうかを
+	  チェック。
+	  conv_localetodisp(): conv_iconv_strdup() が失敗したら有効な UTF-8
+	  に変換するようにした。
+	  conv_unmime_header_overwrite()
+	  conv_unmime_header(): エンコードされていない文字列を locale
+	  エンコーディングを使用して変換を試みるようにした(Egor Yu. Shkerin
+	  さん、 Oliver Lehmann さん thanks)。
+
+2005-02-21
+
+	* version 1.9.3
+
+2005-02-21
+
+	* src/compose.c:
+	  compose_join_next_line(): タブ幅を考慮。カーソル位置をできるだけ
+	  保持するようにした。
+	  compose_wrap_paragraph(): 折り返し時に行末の空白を削除。
+	  compose_insert_sig(): カーソルを配置するときにテキストを選択しない
+	  ようにした。
+	  compose_undo_cb()
+	  compose_redo_cb(): undo/redo の実行時は自動整形を無効にするように
+	  した。
+
+2005-02-21
+
+	* src/summaryview.c: summary_ctree_create(): インデントサイズを 12
+	  に変更。
+
+2005-02-18
+
+	* src/textview.c: コンテキストメニューに「リンクをコピー」を追加
+	  (池添さん thanks)。
+	* po/Makefile.in.in: チェックと統計教示オプションを msgfmt コマンド
+	  に追加。
+
+2005-02-18
+
+	* src/compose.c: compose_join_next_line(): 次の行との間の余分な
+	  空白を除去。
+
+2005-02-18
+
+	* src/compose.c: compose_wrap_paragraph(): 「引用部を自動整形する」
+	  の設定に従うようにした。
+
+2005-02-18
+
+	* src/textview.c: textview のアンダーライン付き URI の不具合を修正
+	  (Alfons さん thanks)。
+
+2005-02-18
+
+	* src/compose.c: compose_join_next_line(): gtk-2.6 のみの API である
+	  compose_join_next_line() を使わないようにした。
+
+2005-02-17
+
+	* src/compose.c: 新しい行整形ルーチンを実装。完全な国際化と正しい
+	  禁則処理を実現。
+	* src/utils.[ch]: get_uri_len(): URI の長さを返す。
+
+2005-02-16
+
+	* src/procmime.c: procmime_get_tmp_file_name(): ファイル名をファイル
+	  システムエンコーディングに変換。
+
+2005-02-14
+
+	* src/intl.h: 削除。
+
+2005-02-10
+
+	* src/compose.c: compose_write_file(): PGP 署名のために行末の空白を
+	  保護するために転送エンコーディングを強制するようにした(gnupg 1.2
+	  と 1.4 間の非互換性を修正) (Thorsten Maerz さん thanks)。
+
+2005-02-10
+
+	* src/compose.c
+	  src/sourcewindow.c: 横スクロールバーを自動的に表示。
+
+2005-02-09
+
+	* version 1.9.2
+
+2005-02-09
+
+	* src/textview.c: ハイパーテキストの処理を改良(リンクのポイントで
+	  その URI を表示し、シングルクリックでリンクを辿る)。
+
+2005-02-08
+
+	* src/codeconv.[ch]
+	  conv_filename_from_utf8()
+	  conv_filename_to_utf8(): 新規。常に NULL でない文字列を返す。
+	* src/filesel.c
+	  src/summaryview.c: ファイル選択ダイアログの非 UTF-8 ファイル名の
+	  扱いを修正(Sergey Pinaev さん thanks)。
+	* src/compose.c: compose_attach_cb(): 非 UTF-8 ファイル名の
+	  ファイルの添付を修正(Sergey Pinaev さん thanks)。
+
+2005-02-08
+
+	* src/prefs_filter.c: ストックボタンを使用。
+
+2005-02-08
+
+	* src/procmime.[ch]
+	  src/textview.c
+	  src/prefs_common.c: インライン画像表示を実装。
+
+2005-02-07
+
+	* src/gtkutils.c: gtkut_window_popup()
+	  src/about.c: about_show(): ウィンドウのポップアップに
+	  gtk_window_present() を使用するようにした。
+
+2005-02-07
+
+	* src/*.c: intl.h を glib/gi18n.h で置き換えた(今井さん thanks)。
+	* configure.in
+	  Makefile.am
+	  po/Makefile.in.in: AM_GLIB_GNU_GETTEXT を使用し、 intl/ を削除。
+
+2005-02-04
+
+	* src/action.c: execute_actions(): メッセージテキストにヘッダ部分
+	  を含まないようにした。
+
+2005-02-04
+
+	* src/textview.c
+	  src/gtkutils.[ch]: メッセージテキスト検索を再実装。
+
+2005-02-04
+
+	* src/gtkutils.[ch]: gtkut_widget_set_small_font_size(): 新規。
+	* src/prefs_account.c
+	  src/prefs_common.c: 補足説明のフォントサイズを小さくし、
+	  行折り返しを有効にした。
+
+2005-02-03
+
+	* version 1.9.1
+
+2005-02-03
+
+	* src/compose.c: compose_create(): フォントの設定に通常の API を使用。
+
+2005-02-02
+
+	* src/main.c: parse_cmd_opt(): ヘルプメッセージを locale
+	  エンコーディングに変換。
+
+2005-02-02
+
+	* src/compose.c:
+	  GET_CHAR(): gtk_text_iter_get_char() を使用して高速化。
+	  get_indent_length(): ループに GtkTextIter を使用。
+
+2005-02-02
+
+	* src/compose.c:
+	  text_inserted(): 自動整形を有効にしているときに
+	  gtk_text_buffer_insert() の後 iterator を無効にしないように、
+	  iterator を再び有効にするようにした。
+	  compose_paste_as_quote_cb() 中で直接引用としてペーストを行う
+	  ようにした。
+
+2005-02-01
+
+	* version 1.9.0
+
+2005-01-31
+
+	* src/codeconv.c: conv_utf8todisp(): ソース文字列が有効な UTF-8
+	  でなければ全ての 8bit 文字を置換するようにした。
+
+2005-01-31
+
+	* src/defs.h: CACHE_FILE に元の ".sylpheed_cache" を使用。
+	  CACHE_VERSION を 0x20 に変更。
+
+2005-01-31
+
+	* src/rfc2015.c: sig_status_full(): strftime() が返す文字列(locale
+	  エンコーディング)を UTF-8 に変換。
+
+2005-01-31
+
+	* configure.in
+	  src/textview.c
+	  src/passphrase.[ch]
+	  src/mimeview.c
+	  src/main.c
+	  src/select-keys.[ch]
+	  src/rfc2015.[ch]
+	  src/sigstatus.[ch]: gpgme-1.0 に移植(Toshio Kuratomi さん thanks)。
+
+2005-01-28
+
+	* src/template.c: template_write_config(): メモリリークを修正。
+
+2005-01-28
+
+	* src/compose.c: Ctrl-Enter の処理のための無駄なコードを削除
+	  (GTK2 には不要)。
+
+2005-01-27
+
+	* src/prefs_actions.c
+	  src/prefs_template.c
+	  src/summary_search.c
+	  src/message_search.c
+	  src/folderview.c
+	  src/prefs_customheader.c
+	  src/prefs_filter.c: 警告パネルに GTK ストックボタンを使用。
+
+2005-01-27
+
+	* src/codeconv.c: conv_utf8toeuc(), conv_utf8tojis(): 変換時の
+	  文字化けを防ぐために追加。
+
+2005-01-26
+
+	* src/stock_pixmap.[ch]
+	  src/pixmaps/stock_add_16.xpm
+	  src/pixmaps/stock_remove_16.xpm: 二つの pixmap を削除。
+	* src/prefs_filter_edit.c: 追加・削除ボタンに GTK ストックアイコン
+	  を使用。
+
+2005-01-26
+
+	* src/alertpanel.c: タイトルフォントにより小さいサイズを使用。
+
+2005-01-26
+
+	* src/codeconv.[ch]: 特定のエンコーディング用の関数を static にし、
+	  余分なコードを削除。
+
+2005-01-26
+
+	* src/procmime.c:
+	  procmime_scan_content_type()
+	  procmime_scan_content_disposition(): 生の ISO-2022-JP から EUC-JP
+	  への変換を削除。
+	* src/jpilot.c: conv_sjistodisp() の代わりに conv_codeset_strdup()
+	  を使用。
+
+2005-01-26
+
+	* src/compose.c
+	  src/folder.c
+	  src/prefs.c
+	  src/codeconv.[ch]
+	  src/imap.c
+	  src/xml.c
+	  src/addrbook.c
+	  src/addrindex.c: conv_get_internal_charset_str() を置き換える定数
+	  C_INTERNAL と CS_INTERNAL を追加。
+
+2005-01-25
+
+	* src/inc.c: inc_finished(): フォルダが選択されていないときに
+	  フォルダアイテムを更新しようとしたときの警告を除去。
+
+2005-01-25
+
+	* src/gtkutils.[ch]: gtkut_get_default_font_desc(): デフォルトの
+	  font_desc を返す。
+	* src/prefs_common.[ch]
+	  src/defs.h: 未使用のフォント設定を削除。
+	* src/textview.c: ヘッダにデフォルトのフォントを使用。
+	* src/headerview.c
+	  src/folderview.c: 通常のフォントからボールドフォントを生成する
+	  ようにした。
+	* src/summaryview.c: 通常のフォントからボールドと小さいフォントを
+	  生成するようにした。
+
+2005-01-24
+
+	* src/alertpanel.c: alertpanel_create(): タイトルフォントを通常の
+	  フォントから生成するようにした。
+
+2005-01-24
+
+	* src/pop.c: pop3_get_uidl_table(): 移行用の古いコードを削除。
+	* src/main.c: migrate_old_config(): sylpheedrc も移行するようにし、
+	  元ファイルの存在をチェックするようにした。
+	* src/prefs_common.c: 移行のためにフォントの設定名を変更。
+	* src/defs.h: UIDL_DIR を追加し、デフォルトのフォントを変更。
+
+2005-01-24
+
+	* src/compose.c
+	  src/addressbook.c
+	  src/messageview.c
+	  src/mimeview.c
+	  src/select-keys.c
+	  src/sigstatus.c: ボタンセットに GTK のストックボタンを使用。
+	* src/passphrase.c: パスフレーズダイアログを改良。
+
+2005-01-24
+
+	* src/alertpanel.c: pixmap の代わりに GTK のストックアイコンを使用。
+	* src/pixmaps/stock_dialog_*_48.xpm: 削除。
+
+2005-01-24
+
+	* src/grouplistdialog.c: fnmatch() を g_pattern_match_*()
+	  で置き換えた。
+
+2005-01-24
+
+	* src/prefs_display_header.c
+	  src/action.c
+	  src/grouplistdialog.c
+	  src/textview.c
+	  src/editbook.c
+	  src/editgroup.c
+	  src/importldif.c
+	  src/summary_search.c
+	  src/message_search.c
+	  src/select-keys.c
+	  src/editjpilot.c
+	  src/export.c
+	  src/editaddress.c
+	  src/addressadd.c
+	  src/editldap_basedn.c
+	  src/prefs_summary_column.c
+	  src/import.c
+	  src/prefs_filter_edit.c
+	  src/editvcard.c
+	  src/prefs_customheader.c
+	  src/editldap.c
+	  src/sigstatus.c: ボタンセットに GTK のストックボタンを使用。
+
+2005-01-24
+
+	* src/compose.c
+	  src/inc.c
+	  src/prefs_actions.c
+	  src/prefs.c
+	  src/progressdialog.c
+	  src/account.c
+	  src/prefs_template.c
+	  src/foldersel.c
+	  src/main.c
+	  src/alertpanel.c
+	  src/inputdialog.c
+	  src/prefs_common.c
+	  src/summaryview.c
+	  src/about.c
+	  src/mainwindow.c
+	  src/prefs_filter.c: ボタンセットに GTK のストックボタンを使用。
+	* src/gtkutils.[ch]: gtkut_stock_button_set_create(): 追加。
+
+2005-01-21
+
+	* src/gtkshruler.c: GdkFont でなく PangoLayout を使用するようにした
+	  (Alfons さん thanks)。
+
+2005-01-21
+
+	* src/colorlabel.c: gdk/gdkx.h の include を削除。
+	* src/compose.c: compose_connect_changed_callbacks(): typo を修正。
+	* src/codeconv.[ch]: conv_utf8todisp() を追加。
+	* src/sourcewindow.c: source_window_append()
+	  src/textview.c: textview_write_line(), textview_write_link()
+	  src/unmime.c: unmime_header()
+	  src/html.c: html_read_line(): ソース文字列を locale
+	  エンコーディングではなく UTF-8 と仮定。
+
+2005-01-20
+
+	* src/codeconv.[ch]: conv_copy_dir(): コード変換してディレクトリの
+	  内容をコピー。
+	* src/main.c: migrate_old_config(): テンプレートを移行。
+
+2005-01-20
+
+	* src/action.c: 表示する前に locale 文字列を UTF-8 に変換するように
+	  した(Alfons さん thanks)。
+
+2005-01-20
+
+	* src/statusbar.c
+	  src/summaryview.c
+	  src/setup.c
+	  src/folderview.c
+	  src/mainwindow.[ch]: メインステータスバーのリサイズグリップを
+	  正しい位置にして復活(今井さん thanks)。
+
+2005-01-20
+
+	* src/jpilot.c: 日本語文字コードの変換を修正。
+
+2005-01-19
+
+	* src/compose.c: compose_insert_sig(): 署名の置換が壊れていたのを
+	  修正。
+
+2005-01-19
+
+	* src/mh.c
+	  src/utils.c
+	  src/procmsg.c: 0番のメッセージファイルを無視するようにした。
+	  stdio.h で使用されているシンボル 'fileno' を使用しないようにした。
+	* src/messageview.c: messageview_show():
+	  procmsg_msginfo_get_full_info() が成功したかどうか確認するように
+	  した(0番のメッセージを開こうとしたときにクラッシュするのを修正)
+	  (若居さん thanks)。
+
+2005-01-19
+
+	* src/summaryview.c: summary_reply(): 正しくテキストセレクションを
+	  取得していないバグを修正。
+
+2005-01-12
+
+	* GTK+-2.4 へ移行 (足永さんの sylpheed-gtk2 ベース)。

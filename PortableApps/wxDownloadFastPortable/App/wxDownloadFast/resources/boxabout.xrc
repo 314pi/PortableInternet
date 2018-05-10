@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resource version="2.3.0.1">
+  <object class="wxDialog" name="boxabout" subclass="mBoxAbout">
+    <centered>1</centered>
+    <style>wxDEFAULT_DIALOG_STYLE|wxSTAY_ON_TOP</style>
+    <title>About...</title>
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <rows>2</rows>
+          <cols>1</cols>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap" name="wxdfastlogo">
+              <bitmap>RipStop/logo/about.png</bitmap>
+            </object>
+            <flag>wxALL|wxALIGN_CENTRE_VERTICAL|wxALIGN_CENTRE_HORIZONTAL</flag>
+            <border>10</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="wxdfastabouttext">
+              <value></value>
+              <size>350,170</size>
+              <style>wxTE_AUTO_SCROLL|wxTE_MULTILINE|wxTE_READONLY|wxTE_AUTO_URL|wxTE_CENTRE|wxTE_WORDWRAP</style>
+              <font>
+                <size>10</size>
+                <family>default</family>
+                <style>normal</style>
+                <weight>normal</weight>
+                <underlined>0</underlined>
+              </font>
+              <focused>0</focused>
+            </object>
+            <flag>wxALL|wxALIGN_CENTRE|wxALIGN_CENTRE_HORIZONTAL</flag>
+            <border>10</border>
+          </object>
+        </object>
+        <flag>wxALL|wxALIGN_CENTRE_VERTICAL|wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>10</border>
+      </object>
+    </object>
+  </object>
+</resource>

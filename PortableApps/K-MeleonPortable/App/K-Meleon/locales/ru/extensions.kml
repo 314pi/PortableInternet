@@ -1,0 +1,75 @@
+# K-Meleon Localization 
+# for extensions (macros)
+
+#------------domainlinker.kmm---------------------------------------------------------------
+Open Domain=Открыть домашнюю страницу домена
+
+#------------openinsame.kmm---------------------------------------------------------------
+Open In Same Tab=Принудительно открыть в текущей вкладке
+
+#------------*Advanced*---search.kmm---(20 318 байт)------------------------------------------------------------
+Search &Options=&Опции поиска
+Configure Site Search=Настроить поиск по сайту
+Con&figure Search Engines...=Настроить поисковики
+&Previous Searches=&История поиска
+Clear Previous Searches...=Очистить историю поиска...
+Keep  '=Оставить '
+Search by =Искать в 
+'  As &Default Engine=' как поисковик по умолчанию
+Configure  '=Настроить команду вызова для '
+'  Keyword...=' ...
+Enter Keyword for =Ввод команды вызова для 
+Move  '=Переместить ' 
+'  Up/Down...=' вверх/вниз...
+Deleting Previous Searches...=Удаляем историю поиска...
+Delete All Previous Searches?=Удалить всю историю поиска?
+Previous Search Maximum=Максимум запросов в истории
+Enter maximum number of previous searches to save.=Введите максимальное число запросов, сохраняемых в истории поиска
+Last chosen engine=Последний выбранный поисковик
+Default search engine: %s=Поисковик по умолчанию: %s
+Clear Previous Searches=Очистить историю поиска
+Previous Searches Deleted=История поиска очищена
+&Highlight Search Query=&Подсветить поисковый запрос
+&Show Previous Search Query=Показать предыдущий поисковый &запрос
+&Use ALT+ENTER to Search=Использовать ALT+ENTER &для поиска
+Enable &Previous Searches=&Включить историю поиска
+Maximum Previous Searches...=Максимальное число запросов в истории поиска
+Enable Site Search=Включить поиск по сайту
+Site Search=Поиск по сайту
+
+#------------searchpreview.kmm---------------------------------------------------------------
+Preview=Предпросмотр
+   search-preview activated=   предварительный просмотр включен
+   search-preview disactivated=   предварительный просмотр выключен
+
+#------------CarrySession.kmm---------------------------------------------------------------
+Export the current named sessions to an ini file.=Экспорт сохраненных сессий в файл для переноса
+Select a folder to contain your exported file.=Выберите папку для сохранения файла с сессией
+Did you mean to cancel?=Отменить действие?
+Exporting named sessions=Экспортирую сохраненную сессию
+Export finished  =Экспорт завершен
+Import the named session from ini file as 'replace'.=Импорт именованной сессии из файла (с заменой одноименной сессии в браузере)
+Select the Sessions Packager ini file=Выберите ini-файл с сессией для импорта
+Cancel Action=Отменить действие
+Importing named sessions=Импортирую именованную сессию
+Importing finished=Импорт завершен
+Restart K-Meleon for the sessions to load.=Для работы с импортированными сессиями перезагрузите K-Meleon
+Restart required=Перезагрузка
+Sessions Packager=Трансфер сессий
+&Options...=Опции...
+Export Named Sessions=Экспортировать сессии
+Import Named Sessions=Импортировать сессии
+
+#------------browser.kmm--------------------------------------------------------------
+&Open in browser=Открыть в другом браузере
+&Add a new browser=Добавить браузер
+Set the name for the new browser!=Задайте имя для нового браузера!
+The name will appear as an item in the menu=Имя появится в списке браузеров
+Name of browser=Имя браузера
+The name should be unique!=Выберите уникальное имя!
+Try again with another name!=Попробуйте назвать иначе!
+Delete from the list=Удалить из списка
+Open in this browser=Открыть в данном браузере
+
+#------------NewsFox--------------------------------------------------------------
+NewsFo&x JS=NewsFo&x RSS-менеджер

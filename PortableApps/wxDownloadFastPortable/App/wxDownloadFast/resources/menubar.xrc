@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created by Max Velasques-->
+<resource version="2.3.0.1">
+    <object class="wxMenuBar" name="menubar">
+        <!-- <style>wxMB_DOCKABLE</style> -->
+        <object class="wxMenu" name="menufile">
+            <label>_File</label>
+            <accel>ALT-F</accel>
+            <object class="wxMenuItem" name="menunew">
+                <label>New Download</label>
+                <accel>CTRL-N</accel>
+                <bitmap>RipStop/menubar/new.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menuremove">
+                <label>Remove Download</label>
+                <accel>CTRL-R</accel>
+                <bitmap>RipStop/menubar/remove.png</bitmap>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menuschedule">
+                <label>Schedule Download</label>
+                <accel>CTRL-H</accel>
+                <bitmap>RipStop/menubar/schedule.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menustart">
+                <label>Start Download</label>
+                <accel>CTRL-S</accel>
+                <bitmap>RipStop/menubar/start.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menustop">
+                <label>Stop Download</label>
+                <accel>CTRL-T</accel>
+                <bitmap>RipStop/menubar/stop.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menustartall">
+                <label>Start all downloads</label>
+                <bitmap>RipStop/menubar/startall.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menustopall">
+                <label>Stop all downloads</label>
+                <bitmap>RipStop/menubar/stopall.png</bitmap>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menuexit">
+                <label>Exit</label>
+                <accel>Alt-F4</accel>
+                <bitmap>RipStop/menubar/quit.png</bitmap>
+            </object>
+        </object>
+        <object class="wxMenu" name="menuedit">
+            <label>_Edit</label>
+            <accel>ALT-E</accel>
+            <object class="wxMenuItem" name="menupaste">
+                <label>Paste URL</label>
+                <accel>CTRL-V</accel>
+                <bitmap>RipStop/menubar/pasteurl.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menucopyurl">
+                <label>Copy URL</label>
+                <bitmap>RipStop/menubar/copyurl.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menucopydownloaddata">
+                <label>Copy Download Data</label>
+                <bitmap>RipStop/menubar/copydata.png</bitmap>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menuselectall">
+                <label>Select All</label>
+                <accel>CTRL-A</accel>
+            </object>
+            <object class="wxMenuItem" name="menuinvertselection">
+                <label>Invert Selection</label>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menufind">
+                <label>Find Download</label>
+                <accel>CTRL-F</accel>
+                <bitmap>RipStop/menubar/find.png</bitmap>
+            </object>
+        </object>
+        <object class="wxMenu" name="menuview">
+            <label>_View</label>
+            <accel>ALT-V</accel>
+            <object class="wxMenuItem" name="menushowgraph">
+                <label>Show/Hide Graph</label>
+                <accel>CTRL-G</accel>
+                <bitmap>RipStop/menubar/graph.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menushowprogressbar">
+                <label>Show/Hide Progress Bar</label>
+                <bitmap>RipStop/menubar/progressbar.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menudetails">
+                <label>Show/Hide Details</label>
+                <accel>CTRL-D</accel>
+                <bitmap>RipStop/menubar/details.png</bitmap>
+            </object>
+            <object class="separator" />
+            <object class="wxMenu" name="menulanguage">
+                <label>Language</label>
+                <object class="wxMenuItem" name="menulang_default">
+                    <label>(Default)</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_ent">
+                    <label>English</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_fr">
+                    <label>French</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_pt">
+                    <label>Portuguese</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_ptbr">
+                    <label>Portuguese(Brazil)</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_de">
+                    <label>German</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_nl">
+                    <label>Nederlands</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_es">
+                    <label>Spanish</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_cs">
+                    <label>Czech</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_ru">
+                    <label>Russian</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_hu">
+                    <label>Hungarian</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_id">
+                    <label>Indonesian</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_hy">
+                    <label>Armenian</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_pl">
+                    <label>Polish</label>
+                    <checkable>1</checkable>
+                </object>
+                <object class="wxMenuItem" name="menulang_tr">
+                    <label>Turkish</label>
+                    <checkable>1</checkable>
+                </object>
+            </object>
+        </object>
+        <object class="wxMenu" name="menutools">
+            <label>_Tools</label>
+            <accel>ALT-T</accel>
+            <object class="wxMenuItem" name="menuproperties">
+                <label>Download Properties</label>
+                <accel>CTRL-P</accel>
+                <bitmap>RipStop/menubar/properties.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menumove">
+                <label>Move File</label>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menumd5">
+                <label>Check Integrity</label>
+            </object>
+            <object class="wxMenuItem" name="menuopendestination">
+                <label>Open Destination Directory</label>
+            </object>
+            <object class="wxMenuItem" name="menuagain">
+                <label>Download File Again</label>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menuexport">
+                <label>Export Configuration</label>
+            </object>
+            <object class="wxMenuItem" name="menuimport">
+                <label>Import Configuration</label>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menushutdown">
+                <label>Shutdown when finished</label>
+                <tooltip>This option is only valid in this session of the program</tooltip>
+                <checkable>1</checkable>
+            </object>
+            <object class="wxMenuItem" name="menudisconnect">
+                <label>Disconnect when finished</label>
+                <tooltip>This option is only valid in this session of the program</tooltip>
+                <checkable>1</checkable>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menuoptions">
+                <label>Options</label>
+                <accel>CTRL-O</accel>
+                <bitmap>RipStop/menubar/options.png</bitmap>
+            </object>
+        </object>
+        <object class="wxMenu" name="menuhelp">
+            <label>_Help</label>
+            <accel>ALT-H</accel>
+            <object class="wxMenuItem" name="menusite">
+                <label>wxDownload Fast Site</label>
+                <bitmap>RipStop/menubar/help.png</bitmap>
+            </object>
+            <object class="wxMenuItem" name="menubug">
+                <label>Report Bugs...</label>
+            </object>
+            <object class="wxMenuItem" name="menudonate">
+                <label>Donate...</label>
+            </object>
+            <object class="separator" />
+            <object class="wxMenuItem" name="menuabout">
+                <label>About</label>
+                <accel>F1</accel>
+                <bitmap>RipStop/menubar/about.png</bitmap>
+            </object>
+        </object>
+    </object>
+</resource>

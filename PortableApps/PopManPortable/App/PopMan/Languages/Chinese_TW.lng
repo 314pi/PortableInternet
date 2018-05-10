@@ -1,0 +1,514 @@
+[File Info]
+
+Language=Chinese Traditional
+Author=Sophina Liu
+Email=sophina-liu@hotmail.com
+Date=08/16/2011
+Comment=PopMan 1.3 Chinese Traditional Translation
+LangID=04
+
+
+[Translations]
+
+Not connected<=>未連線
+Connection failure<=>連線失敗
+Canceled<=>已取消
+Invalid server response<=>無效的伺服器回應
+Timeout<=>逾時
+Login failed<=>登入失敗
+Message not found<=>找不到訊息
+Server failure: Message not found!<=>伺服器失敗：找不到訊息！
+Busy<=>忙碌中
+Ready<=>就緒
+Connecting...<=>正在連線
+Connected!<=>已連線！
+Login...<=>登入
+Successfully logged in!<=>成功登入！
+Loading message ...<=>正在載入郵件...
+Loading message {1} of {2} ...<=>正在載入第 {1} / {2} 個訊息...
+Deleting message {1} of {2} ...<=>正在刪除第 {1} / {2} 個訊息...
+
+# Update Wizard
+
+Update Wizard<=>更新棈靈
+There are no updates available.<=>目前沒有任何可用的更新。
+There is a new version {1} available!<=>有一個新的版本 {1} 可用！
+There is a new {1} Beta version available!<=>有一個新的 {1} Beta 版本可用！
+Click "Next" to update your copy of PopMan...<=>按 “下一步”，更新您的 PopMan...
+Unable to retrieve version infomation!<=>無法檢索版本資訊！
+Error number: {1}<=>錯誤號：{1}
+Welcome to the PopMan Update Wizard<=>歡迎使用 PopMan 更新棈靈
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>棈靈現在已連線到 PopMan 的網路伺服器檢查更新。如果有新版本，所有必要的檔案將會自動下載並安裝。
+Failed to load Decompress.dll!<=>無法載入Decompress.dll！
+Initializing...<=>正在初始化...
+Do you really want to cancel the update process?<=>你真的要取消更新過程嗎？
+Update process failed!<=>更新過程失敗！
+Error while downloading initialization file!<=>下載初始化檔案時發生錯誤！
+No updates available.<=>沒有可用的更新。
+Failed to retrieve temporary directory!<=>臨時目錄檢索失敗！
+Saving {1} ...<=>正在儲存 {1} ...
+Failed to create directory:<=>無法建立目錄：
+Failed to decompress file:<=>無法解壓縮檔案：
+Failed to download file:<=>無法下載檔案：
+(checksum error)<=>（校驗錯誤）
+Please try again later.<=>請稍後再試。
+Error while saving downloaded file!<=>儲存下載的檔案時發生錯誤！
+All files downloaded successfully.<=>所有檔案下載成功。
+Press the "Finish" button to complete the update process...<=>按下 “完成” 按鈕完成更新處理程序...
+Failed to initialize the final copy process!<=>初始化最終複製處理程序失敗！
+Downloading {1} ...<=>正在下載 {1} ...
+Progress all:<=>所有的處理程序：
+Progress current file:<=>目前檔案的處理程序：
+Download of updated files<=>下載更新檔案
+
+# Import Accounts Dialog
+
+Account<=>帳號
+Type<=>類型
+User<=>使用者
+Server<=>伺服器
+Port<=>連接埠
+Please select the accounts that you want to import from Outlook Express.<=>請選擇你要從 Outlook Express 匯入的帳號。
+&Properties...<=>屬性(&P)
+OK<=>確認
+Cancel<=>取消
+Import email accounts<=>匯入電子郵件帳號
+Description<=>描述
+
+# Account Dialog
+
+General<=>一般
+Colors<=>顏色
+Advanced<=>進階
+Can not change account settings while there are busy accounts.<=>當帳戶忙碌時無法修改帳戶設定。
+Please enter the address of the Server!<=>請輸入伺服器的地址！
+Please enter the account name!<=>請輸入帳號名稱！
+Please enter user name!<=>請輸入使用者名稱！
+Account name:<=>帳號名稱：
+Protocol:<=>協議：
+Server:<=>伺服器：
+Port:<=>連接埠：
+User name:<=>使用者名稱：
+Password:<=>密碼：
+Include this account when receiving mail<=>接收郵件時包含此帳戶
+1 minute<=>1 分鐘
+{1} minutes<=>{1} 分鐘
+1 second<=>1 秒
+{1} seconds<=>{1} 秒
+Use UIDL when deleting messages<=>當刪除訊息時使用 UIDL
+Use custom AutoCheck timer interval<=>使用自訂自動檢查時間間隔
+Timer interval:<=>時間間隔：
+minutes<=>分鐘
+Server Timeouts<=>伺服器逾時
+Short<=>短
+Long<=>長
+Load all emails completely<=>完整載入所有電子郵件
+Retrieve header and {1} lines of message body<=>檢索訊息的標頭及內容的前 {1} 行
+Number of lines:<=>行數：
+Load small emails completely<=>完整載入小郵件
+Small emails are < <=>小郵件是小於
+Parameters<=>參數
+Use individual font color:<=>使用單獨的字型顏色：
+Circle color in system tray:<=>通知區新郵件提示背景色：
+Invalid parameter string!<=>無效的參數字串！
+Default<=>預設
+
+# Accounts Dialog
+
+Mail Accounts<=>郵件帳號
+&Add...<=>增加(&A)...
+&Remove<=>刪除(&R)
+Move &up<=>上移(&u)
+Move &down<=>下移(&d)
+&Close<=>關閉(&C)
+
+# Download Dialog
+
+Loading the following mail:<=>正在載入以下郵件：
+Loading Mail...<=>正在載入郵件...
+
+# BlackList/WhiteList Dialog
+
+Black List<=>黑名單
+Messages from senders in the list below will be deleted automatically from the server.<=>從以下清單內的寄件人傳送來的訊息將被自動從伺服器刪除。
+White List<=>白名單
+Messages from senders in the list below will never be deleted automatically.<=>從以下清單內的寄件人傳送來的訊息將永遠不會被自動刪除。
+Address:<=>地址：
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>請輸入電子郵件地址（例如somebody@somewhere.com）或域名（例如somewhere.com）：
+Enter address<=>輸入地址
+
+# Password Dialog
+
+Password - {1}<=>密碼 - {1}
+Enter the password of the following account.<=>輸入以下帳號的密碼。
+Account:<=>帳號：
+Remember password<=>記住密碼
+Password incorrect! Please note that the password is case-sensitive.<=>密碼不正確！請注意，密碼是區分大小寫的。
+Please enter the password.<=>請輸入密碼。
+
+# Add item to Rules list Dialog
+
+Add item to Rules list<=>新增項目到規則清單
+Destination List<=>目標清單
+New Item<=>新項目
+Item Type<=>項目類型
+Word<=>詞語
+String<=>字串
+Regular Expression<=>正則表達式
+
+# Save Dialog
+
+Please specify where to save the emails.<=>請指定儲存電子郵件的位置。
+The specified folder does not exist!<=>指定的資料夾不存在！
+Please specify a template for the file names.<=>請指定模板的檔案名稱。
+A file name must not contain any of the following characters:<=>一個檔案名稱不能包含任何以下字串：
+Invalid template! Use a combination of the following placeholders:<=>無效的模板！請使用以下位置標誌符的組合：
+Subject<=>主旨
+From<=>寄件人
+To<=>收件人
+Date<=>日期
+Time<=>時間
+Save As...<=>另存為...
+Destination<=>目標
+Folder:<=>資料夾：
+Browse...<=>瀏覽...
+Save Format<=>儲存格式
+Template For File Names<=>模板檔案名稱
+Email File (*.eml)<=>電子郵件檔案 (*.eml)
+Text File (*.txt)<=>文字檔案 (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>檔案“{1}”不存在！
+Sound (*.wav)<=>聲音檔案 (*.wav)
+Notify when new mail arrives<=>當新郵件到達時通知
+Always<=>總是
+When AutoChecked or minimized<=>當自動檢查或最小化後
+Only when minimized<=>只在最小化後
+On new mail<=>有新郵件時
+Acoustic notification<=>有聲提示
+Sound:<=>聲音：
+&Test<=>測試(&T)
+Show PopMan window<=>顯示 PopMan 視窗
+Show new mail tip<=>顯示新郵件提示
+Limit tips to [PROTECTED] messages<=>僅顯示[保護]訊息的提示
+Include sender and subject of new mails<=>包括新郵件寄件人和主題
+Use balloon tip<=>使用氣泡提示
+Flash keyboard light:<=>閃動鍵盤指示燈：
+Unread Messages<=>未讀訊息
+Display unread messages in bold font<=>用粗體顯示未讀訊息
+Preview Pane<=>預覽窗格
+Use the preview pane to quickly view a message without opening a separate window.<=>使用預覽窗格快速檢視訊息，而無需開啟單獨的視窗。
+Show preview pane<=>顯示預覽窗格
+Be&low messages<=>在訊息清單下方(&l)
+Be&side messages<=>在訊息清單旁邊(&s)
+Use logging to record all data communication between PopMan and the email server.<=>使用日誌記錄所有 PopMan 和郵件伺服器之間的資料通訊。
+Enable logging<=>啟用日誌
+Only log compact mail info instead of entire data traffic<=>只記錄簡潔郵件資訊，而不是完整資料傳輸封包
+Log file size:<=>日誌檔案大小：
+KB<=>KB
+Enable logging of applied rules<=>啟用已套用規則的日誌記錄
+Location of the log file "PopManLogFile.log":<=>日誌檔案 “PopManLogFile.log” 的位置：
+Use dial-up networking<=>使用撥號網路
+Launch PopMan on Windows startup<=>在系統啟動時啟動 PopMan
+Check for new mail on startup<=>啟動時檢查新郵件
+First wait<=>先等待
+seconds<=>秒
+X button hides to tray<=>按下 [X] 關閉按鈕時隱藏到通知區
+Min button hides to tray<=>按下最小化按鈕時隱藏到通知區
+Delete confirmation in main window<=>在主視窗中刪除時確認
+Delete confirmation in preview pane and message window<=>在預覽窗格和訊息視窗中刪除時確認
+Delete command marks message for deletion<=>刪除 = 標記訊息為刪除
+Enable password protection:<=>啟用密碼保護：
+AutoCheck only while minimized<=>只在最小化時自動檢查
+Don't check between:<=>不在以下時間段內檢查：
+and<=>至
+Enable custom AutoCheck interval per account:<=>啟用為每個帳戶自訂自動檢查時間間隔功能：
+Interval<=>時間間隔
+Custom<=>自訂
+Executable (*.exe)<=>可執行檔案 (*.exe)
+Hide PopMan to tray<=>隱藏 PopMan 到通知區
+Quit PopMan<=>退出 PopMan
+Email client:<=>郵件客戶端：
+When launching email client:<=>啟動郵件客戶端的時機：
+When replying<=>回覆時
+Use temporary eml file (Outlook Express)<=>使用臨時 eml 檔案 (Outlook Express)
+Use mailto (without quotted original message)<=>使用 mailto (不包含原始訊息)
+Use MAPI<=>使用 MAPI
+Use HTML linebreaks in reply body<=>在回覆內容區使用 HTML 換行符
+Enforce email address (Yahoo! Mail)<=>強制電子郵件地址 (Yahoo! Mail)
+Launch email client with command line parameter:<=>使用命令行參數啟動郵件客戶端：
+Number of messages<=>訊息數量
+Show number of messages in tray icon<=>在通知區圖示上顯示訊息數
+Show number of all messages<=>顯示所有訊息數
+Show number of unread messages<=>顯示未讀訊息數
+Show number of new messages<=>顯示新訊息數
+Rotate icon for each account<=>輪流顯示每個帳號的圖示
+Rotation interval:<=>輪流時間間隔：
+tenths of a second<=>個0.1秒
+Show advanced account info<=>顯示進階帳號資訊
+Enable HighColor icons in system tray<=>在通知區啟用高亮圖示
+Nothing<=>無
+Show Window<=>顯示視窗
+Check Mail<=>檢查郵件
+PopUp Menu<=>彈出選單
+Run Email Client<=>執行郵件客戶端
+Check And Show<=>檢查並顯示
+Toggle Window<=>切換視窗
+Toggle AutoCheck<=>切換自動檢查
+Show Mail Info<=>顯示郵件資訊
+Tray Mouse Actions<=>通知區滑鼠的動作
+Left Click:<=>單點左鍵：
+Right Click:<=>單點右鍵：
+Middle Click:<=>單點中鍵：
+Double Click:<=>雙點左鍵：
+Double click delay on click<=>雙點動作延遲事件處理
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>你可以選擇以下已存在的語言翻譯。{BR}如果沒有你想要的語言，請參訪 PopMan 的網站：
+Language:<=>語言：
+Author:<=>作者：
+Email:<=>電子郵件：
+Updated:<=>更新時間：
+Comment:<=>備註：
+
+# Source Dialog
+
+RichEdit control init failed.<=>RichEdit 控制項初始化失敗。
+Source - "{1}"<=>原始碼 - “{1}”
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>日誌檔案“{1}”無法被開啟。{BR}日誌功能已禁用！
+Error while writing to the log file:<=>寫入日誌檔案時錯誤：
+Logging disabled!<=>日誌功能已禁用！
+[PROTECTED]<=>[保護]
+
+# List View
+
+Size<=>大小
+Received<=>接收時間
+Attachment<=>附件
+Sent<=>寄件時間
+Priority<=>優先級
+UserAgent<=>使用者代理
+Rules<=>規則
+High<=>高
+Low<=>低
+Normal<=>普通
+Are you sure you want to delete the selected email?<=>你確定要刪除選定的電子郵件嗎？
+Are you sure you want to delete the {1} selected emails?<=>你確定要刪除選定的 {1} 個電子郵件嗎？
+&Open...{TAB}Ctrl+O<=>開啟(&O)...{TAB}Ctrl+O
+Sou&rce...<=>來源檔案(&r)...
+&Save As...{TAB}Ctrl+S<=>另存為(&S)...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>回覆寄件人(&y){TAB}Ctrl+R
+&Trust Sender<=>信任的寄件人(&T)
+&Block Sender<=>封鎖寄件人(&B)
+&Delete{TAB}Del<=>刪除(&D){TAB}Del
+&Unmark{TAB}Ins<=>取消標記(&U){TAB}Ins
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>切換[保護]狀態(&g){TAB}Ctrl+T
+This will add the following email addresses to the Black List:<=>這將增加以下電子郵件地址到黑名單：
+Note: All future emails from senders on the Black List will be deleted automatically!<=>注意：以後從黑名單上的寄件人傳送的所有電子郵件將被自動刪除！
+This will add the following email addresses to the White List:<=>這將增加以下電子郵件地址到白名單：
+
+# Main Window
+
+Empty Trash<=>清空回收桶
+Options<=>選項
+AutoCheck<=>自動檢查
+Notification<=>提示
+Email Client<=>郵件客戶端
+View<=>檢視
+Tray Icon<=>通知區圖示
+Language<=>語言
+Mouse Actions<=>滑鼠動作
+Logging<=>日誌
+&File<=>檔案(&F)
+&Accounts...<=>帳號(&A)
+&Update{TAB}F5<=>檢查更新(&U){TAB}F5
+&Cancel{TAB}Esc<=>取消(&C){TAB}Esc
+Delete &Marked Emails{TAB}F12<=>刪除被標記的郵件(&M){TAB}F12
+&Exit<=>退出(&E)
+&View<=>檢視(&V)
+&Toolbar<=>工具列(&T)
+&Statusbar<=>狀態列(&S)
+&Hide Marked Messages<=>隱藏被標記的訊息(&H)
+Move Marked Messages to Tr&ash Tab<=>移動被標記的訊息到回收桶標籤頁(&a)
+Tab &View{TAB}Ctrl+M<=>標籤檢視(&V){TAB}Ctrl+M
+&Tools<=>工具(&T)
+&Font...<=>字型(&F)
+Font &Color...<=>字型顏色(&C)
+&Themes<=>主題(&T)
+Launch &Email Client{TAB}Ctrl+E<=>啟動郵件客戶端(&E){TAB}Ctrl+E
+&Import Accounts...<=>匯入帳號(&I)...
+&White List...<=>白名單(&W)...
+&Black List...<=>黑名單(&B)...
+&Rules...<=>規則(&R)...
+Add Item To Rules &List...{TAB}F9<=>增加項目到規則清單(&L)...{TAB}F9
+&Options<=>選項(&O)
+&Help<=>說明(&H)
+&Help Topics...{TAB}F1<=>說明主題(&H)...{TAB}F1
+Check For &Updates<=>檢查更新(&U)
+&About PopMan...<=>關於 PopMan(&A)...
+Edit email accounts.{BR}Accounts<=>編輯郵件帳號。{BR}帳號
+Update email listing.{BR}Update<=>更新郵件清單。{BR}更新
+Cancel current operation.{BR}Cancel<=>取消目前操作。{BR}取消
+Show email content.{BR}Show<=>顯示郵件內容。{BR}顯示
+Show source code of this email.{BR}Source code<=>顯示該郵件的原始碼。{BR}原始碼
+Save selected email to file.{BR}Save<=>儲存選取郵件到檔案。{BR}儲存
+Create a reply message to the sender.{BR}Reply<=>建立一個回覆訊息給寄件人。{BR}回覆
+Delete selected emails.{BR}Delete<=>刪除選取的郵件。{BR}刪除
+Delete marked emails.{BR}Delete marked emails<=>刪除標記的郵件。{BR}刪除標記的郵件
+Unmark (undelete) selected emails.{BR}Unmark<=>取消標記（取消刪除）選取的郵件。{BR}取消標記
+Add sender to Black List.{BR}Block Sender<=>增加寄件人到黑名單。{BR}封鎖寄件人
+Add sender to White List.{BR}Trust Sender<=>增加寄件人到白名單。{BR}信任寄件人
+Quit the application.{BR}Exit<=>退出程式。{BR}退出
+Show or hide the toolbar.{BR}Toggle ToolBar<=>顯示或隱藏工具列。{BR}切換工具列
+Show or hide the status bar.{BR}Toggle StatusBar<=>顯示或隱藏狀態列。{BR}切換狀態列
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>啟用/禁用標籤檢視。{BR}切換標籤檢視
+Hide messages that are marked for delete.{BR}Hide marked messages<=>隱藏已被標記為刪除的訊息。{BR}隱藏標記訊息
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>移動標記的訊息到一個單獨的“回收桶”標籤。{BR}啟用回收桶標籤
+Change font.{BR}Font<=>更改字型。{BR}字型
+Change font color.{BR}Font Color<=>更改字型顏色。{BR}字型顏色
+Launch email client.{BR}Email Client<=>啟動郵件客戶端。{BR}郵件客戶端
+Import email accounts from Outlook Express.{BR}Import Accounts<=>從 Outlook Express 匯入郵件帳號。{BR}匯入帳號
+Edit the rules.{BR}Rules<=>編輯規則。{BR}規則
+Add item to Rules list.{BR}Add To List<=>增加項目到規則清單。{BR}增加到清單
+Edit list of trusted senders.{BR}WhiteList<=>編輯信任寄件人的名單。{BR}白名單
+Edit list of blocked senders.{BR}BlackList<=>編輯封鎖寄件人的名單。{BR}黑名單
+Change program settings.{BR}Settings<=>更改程式設定。{BR}設定
+Show Help Topics.{BR}Help<=>顯示說明主題。{BR}說明
+Check if a new version is available.{BR}Check for updates<=>檢查是否有新版本出現。{BR}檢查更新
+Display program information, version number and copyright.{BR}About<=>顯示程式資訊，版本號和版權資訊。{BR}關於
+Show the main window.{BR}Show<=>顯示主視窗。{BR}顯示
+Enable AutoChecking.{BR}Enable<=>啟用自動檢查。{BR}啟用
+Suspend New Mail Notification Sound.{BR}Mute<=>暫停新郵件通知音效。{BR}靜音
+Open the selected attachment.{BR}Open<=>開啟選取的附件。{BR}開啟
+Save the selected attachments.{BR}Save<=>儲存選取的附件。{BR}儲存
+Save all attachments.{BR}Save All<=>儲存全部附件。{BR}全部儲存
+Change the window size.<=>更改視窗大小。
+Change the window position.<=>更改視窗位置。
+Reduce the window to an icon.<=>將視窗縮小為一個圖示。
+Enlarge the window to full size.<=>全螢幕展示視窗。
+Close the active window.<=>關閉作用中的視窗。
+Restore the window to normal size.<=>恢復視窗到正常大小。
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>切換到目前為[保護]狀態的已選取的訊息。{BR}切換 [保護]
+Don't display this &message again.<=>不再顯示本提示(&m)。
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>列印(&P){TAB}Ctrl+P
+&Close{TAB}Esc<=>關閉(&C){TAB}Esc
+&Edit<=>編輯(&E)
+&Cut{TAB}Ctrl+X<=>剪下(&C){TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>複製(&o){TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>貼上(&P){TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>尋找(&F)...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>尋找下一個(&N){TAB}F3
+Select &All{TAB}Ctrl+A<=>全選(&A){TAB}Ctrl+A
+Print this email.{BR}Print<=>列印郵件。{BR}列印
+Delete this email.{BR}Delete<=>刪除郵件。{BR}刪除
+Close window.{BR}Close<=>關閉視窗。{BR}關閉
+Cut the selection and put it on the Clipboard.{BR}Cut<=>剪下選取的內容，放在剪貼簿上。{BR}剪下
+Copy the selection and put it on the Clipboard.{BR}Copy<=>複製選取的內容，放在剪貼簿上。{BR}複製
+Insert Clipboard contents.{BR}Paste<=>插入剪貼簿內容。{BR}貼上
+Find the specified text.{BR}Find<=>尋找指定的文字。{BR}尋找
+Find next occurence of specified text.{BR}Find next<=>尋找下一個指定的文字。{BR}尋找下一個
+Select the entire message.{BR}Select All<=>選取整個訊息內容。{BR}全選
+"{1}" not found.<=>“{1}”未找到。
+&Open<=>開啟(&O)
+&Save As...<=>另存為(&S)...
+Save &All...<=>全部儲存(&A)...
+This attachment can not be accessed anymore.<=>此附件不能存取了。
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>“{1}”很可能含有病毒，蠕蟲或任何其他種類的危險代碼！
+Opening this file is therefore denied.<=>無權限開啟該檔案。
+Do you really want to save this file to your hard disk?<=>你真的想儲存這個檔案到您的硬碟？
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>這些附件很可能含有病毒，蠕蟲或任何其他種類的危險代碼！
+Do you really want to save these files to your hard disk?<=>你真的想儲存這些檔案到您的硬碟？
+Please specify where to save the attachments.<=>請指定儲存附件的位置。
+The file "{1}" does already exist!{BR}Overwrite it?<=>檔案“{1}”已經存在！{BR}覆蓋它？
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>下載電子郵件失敗。{BR}請按 Ctrl+ F5 更新電子郵件清單，然後再試一次。
+Are you sure you want to delete this email?<=>你確定要刪除此電子郵件嗎？
+Deleting email failed!<=>刪除郵件失敗！
+From:<=>寄件人：
+Date:<=>日期：
+To:<=>收件人：
+Subject:<=>主旨：
+Attach:<=>附件：
+Protocol plugin not initialized correctly!<=>協議外掛未正確初始化！
+
+# PopMan Start
+
+Please start one instance only.<=>請只啟動一個實例。
+Windows socket init failed.<=>Windows socket 初始化失敗。
+{1} Beta version has been updated successfully!<=>{1} Beta 版本已經更新成功！
+You have successfully updated to version {1} !<=>您已成功更新到版本 {1} ！
+About PopMan<=>關於 PopMan
+PopMan, Version {1}<=>PopMan 版本 {1}
+Website:<=>網站：
+Forum:<=>論壇：
+
+# Document
+
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>無法初始化帳戶{1}：無外掛可以提供協議{2}！
+The error log file "{1}" could not be created.<=>錯誤日誌檔案“{1}”無法被建立。
+Checking {1}...<=>正在檢查 {1}... 
+Email (*.eml)<=>電子郵件(*.eml)
+Text (*.txt)<=>文字檔案(*.txt)
+Unable to load mail system support.<=>無法載入郵件系統支援。
+Mail system DLL is invalid.<=>郵件系統 DLL 是無效的。
+Unable to detect if a new version is available.<=>無法檢測是否有新版本可用。
+There is no update available.<=>沒有更新。
+Do you want to start the update wizard and download the latest version?<=>你要開始更新棈靈下載最新的版本嗎？
+Deleting mail...<=>正在刪除郵件...
+Downloading mail...<=>正在下載郵件...
+AutoCheck disabled<=>禁用自動檢查
+No messages<=>無新訊息
+1 new message<=>1 個新訊息
+{1} new messages<=>{1} 個新訊息
+PopMan - New Mail<=>PopMan - 新郵件
+&Open PopMan<=>開啟 PopMan(&O)
+Check &Mail<=>檢查郵件(&M)
+&Cancel<=>取消(&C)
+&Email Client<=>郵件客戶端(&E)
+A&utoCheck Enabled<=>啟用自動檢查(&u)
+Mu&te Mode<=>靜音模式(&t)
+O&ptions...<=>選項(&p)...
+&About...<=>關於(&A)...
+E&xit<=>退出(&x)
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} 個訊息. ({2} 未讀取, {3} 新訊息){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - 郵件資訊
+1 message<=>1 個訊息
+{1} messages<=>{1} 個訊息
+1 unread message<=>1 個未讀訊息
+{1} unread messages<=>{1} 個未讀訊息
+in {1}<=>位於 {1}
+in {1} accounts<=>位於 {1} 帳戶
+Show<=>顯示
+Delete<=>刪除
+Close<=>關閉
+(last check: {1})<=>(上一次檢查： {1})
+You are about to irrevocably delete all marked messages.<=>你即將永久刪除所有標記的訊息。
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>你剛才標記了一個訊息為刪除。要取消標記，請按鍵盤上的 Ins 按鈕。要刪除所有標記的訊息，按 F12 或者按下相對的工具列按鈕。
+You can also delete selected messages immediately by pressing Shift+Del.<=>你也可以按 Shift+Del 立即刪除選取的訊息。
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>如果你想恢復此操作為慣例行為（按下刪除時立即刪除所有選取的訊息），在選項對話框中取消選取“{1}”。
+Failed to add item to Rules list!<=>無法新增項目到規則清單！
+
+# Main View
+
+Separate account | All<=>分開帳號 | 所有
+Check accounts{TAB}F7<=>檢查帳戶{TAB}F7
+Join with tab<=>加入標籤
+Rename tab{TAB}F2<=>重新命名標籤{TAB}F2
+Mark All Mails Read<=>標記所有郵件為已讀
+Mark All Mails Unread<=>標記所有郵件為未讀
+You have to add at least one account before you can switch to tab view.<=>你必須至少增加一個帳戶才可以切換到標籤頁檢視。
+Caption:<=>標題：
+Please enter the caption of the tab:<=>請輸入標籤標題：
+Rename tab<=>重命名標籤
+Trash<=>回收桶
+Tab accounts:<=>標籤帳戶：
+
+# Rules
+
+Error while parsing rules file at line {1}!<=>解析規則檔案的第 {1} 行時錯誤！
+The item is already contained in the list!<=>該項目已包含在清單中！
+
+# Text View
+
+Copy Link Address<=>複製連結地址

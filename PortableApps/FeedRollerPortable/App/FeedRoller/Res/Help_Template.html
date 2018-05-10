@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="us" xml:lang="us">
+  <head>
+    <title>%NameString% %VersionString% - Quick Help</title>
+    <style type="text/css">
+      * { 
+        font-family:arial;
+      }
+      
+      body {
+        margin:0;
+        padding:0 20px;
+      }
+      
+      p {
+        margin:0;
+        padding:0 0 10px 0;
+      }
+      
+      table {
+        border-collapse:collapse;
+      }
+      
+      table td {
+        border: 1px solid #ccc;
+        border-width:1px 0;
+      }
+
+      table td, table th {
+        vertical-align:top;
+        padding:2px 10px;
+      }
+      
+      table th {
+        font-weight:normal;
+        text-align:left;
+        background-color:#ddd;
+      }
+      
+      .ticker {
+        background-color:#%TickerBG%;
+        margin:0 0 20px 0;
+        padding:4px 20px;
+        border:1px solid #ddd;
+      }
+      
+      .ticker h1 {
+        color:#%TickerFG%;
+        font-size:30px;
+        margin:0; 
+        padding:0;
+        font-weight:normal;
+      }
+      
+      .ticker p {
+        margin:0;
+        padding:0;
+        color:#%TickerSummaryFG%        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="ticker">
+        <h1>%NameString% %VersionString%</h1>
+        <p>Quick Help</p>
+      </div>
+      <p>This help page is generated automatically and takes your settings into account.</p>
+      <table summary="Table of hotkeys">
+        <tr><th colspan="2">You may access these options through the system tray menu or by using the specified hotkey.<br/>All hotkeys are active only when the <strong>ticker is visible</strong>.</th></tr>
+        <tr><td>Pin/UnPin the Ticker</td>
+          <td>
+            This is indicated by the circle icon.<br/>
+            When the ticker is pinned, it will always stay visible unless you move your mouse close to it.<br/>
+            When the ticker is unpinned, it will automatically hide whenever you use your computer.<br/>
+            When unpinned. it will show itself after <strong>%IdleTime% seconds</strong> of inactivity on your PC.<br/>
+            <strong>Hotkey:</strong> %HotkeyPin%
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Pause/Unpause the Ticker</td>
+          <td>
+            This is indicated by the Pause icon.<br/>
+            When the ticker is paused, news items will not scroll automatically.<br/>
+            When the ticker is unpaused, news items will scroll automatically, showing each item for <strong>%ItemTime% seconds</strong>.<br/>
+            <strong>Hotkey:</strong> %HotkeyPause%
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Visit Item</td>
+          <td>
+            Visit the page of the currently displayed item.<br/>
+            <strong>Hotkey:</strong> %HotkeyVisit%
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Manage Feeds</td>
+          <td>
+            Manage your feeds.<br/>
+            <strong>Hotkey:</strong> %HotkeyEdit%
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Do Not Disturb</td>
+          <td>
+            Temporarily disable the ticker for <strong>%DndTime% minutes</strong>.<br/>
+            <strong>Hotkey:</strong> %HotkeyDND% 
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Options</td>
+          <td>
+            Open the options dialog.<br/>
+            <strong>Hotkey:</strong> %HotkeyOptions%
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Exit</td>
+          <td>
+            Exit %NameString%.<br/>
+            <strong>Hotkey:</strong> %HotkeyExit%
+          </td>
+        </tr>
+  
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr><th colspan="2">These additional hotkeys are available only when the <strong>ticker is paused</strong>.</th></tr>
+
+        <tr>
+          <td>Scroll Up/Down</td>
+          <td>
+            Scroll to the previous/next item.<br/>
+            <strong>Hotkey:</strong> %NavKeyboardScroll%<br/>
+            <strong>Mouse:</strong> %NavMouseScroll%<br/>
+          </td>
+        </tr>
+        <tr>
+          <td>Visit Item</td>
+          <td>
+            Visit the currently displayed item.<br/>
+            <strong>Hotkey:</strong> %NavKeyboardVisit%<br/>
+            <strong>Mouse:</strong> %NavMouseVisit%<br/>
+          </td>
+        </tr>
+        
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr><th colspan="2">Subscribe with FeedRoller directly from Firefox</th></tr>
+        <tr>
+					<td colspan="2">
+						<img src="Res\Firefox_Subscribe.png"/>
+						<ol>
+							<li>Open firefox, with any RSS feed (<a href="http://sector-seven.net/rss">example</a>)</li>
+							<li>Select <strong>Choose Application...</strong> from the drop down list</li>
+							<li>Browse to the <strong>FeedRoller.exe</strong> file in your installation folder</li>
+							<li>Press the <strong>Subscribe Now</strong> button</li>
+						</ol>
+					</td>
+				</tr>
+
+        
+      </table>
+      <p style="margin-top:20px;text-align:center">For the latest version, visit <a href="http://sector-seven.net/software/feedroller">Sector-Seven</a></p>
+    </div>
+  </body>
+</html>

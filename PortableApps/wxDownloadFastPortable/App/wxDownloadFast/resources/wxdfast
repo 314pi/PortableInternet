@@ -1,0 +1,6 @@
+?package(wxdfast): \ 
+      needs="X11" \ 
+      section="Apps/Net" \ 
+      title="wxDownload Fast" \ 
+      command="/usr/bin/wxdfast" \ 
+      icon="/usr/share/pixmaps/wxdfast.png"

@@ -1,0 +1,524 @@
+[File Info]
+
+Language=Ukrainian
+Author=Navodych
+Email=Navodych@gmail.com
+Date=31/07/2012
+Comment=PopMan 1.3 Ukrainian Translation
+LangID=34
+
+
+[Translations]
+
+Not connected<=>З'єднання відсутнє
+Connection failure<=>Немає підключення
+Canceled<=>Відхилено
+Invalid server response<=>Немає відповіді сервера
+Timeout<=>Час вичерпано
+Login failed<=>Відмова входу до системи
+Message not found<=>Повідомлення не знайдено
+Server failure: Message not found!<=>Відмова сервера: Повідомлення не знайдено!
+Busy<=>Зайнято
+Ready<=>Готово
+Connecting...<=>З'єднання...
+Connected!<=>З'єднано!
+Login...<=>Вхід...
+Successfully logged in!<=>Вдалий вхід!
+Loading message ...<=>Завантаження повідомлення...
+Loading message {1} of {2} ...<=>Завантаження повідомлення  {1} {2}...
+Deleting message {1} of {2} ...<=>Видалення повідомлення {1} {2}...
+
+# Update Wizard - Майстер оновлень
+
+Update Wizard<=>Мастер оновлень
+There are no updates available.<=>Немає доступних оновлень.
+There is a new version {1} available!<=>Доступна нова версія {1}
+There is a new {1} Beta version available!<=>Доступна нова {1} бета версія 
+Click "Next" to update your copy of PopMan...<=>Клацніть "Далі", щоб оновити вашу копію PopMan ...
+Unable to retrieve version infomation!<=>Інформація про версію відсутня!
+Error number: {1}<=>Помилкове число: {1}
+Welcome to the PopMan Update Wizard<=>Ласкаво просимо в Майстер оновлення PopMan 
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Майстер з'єднується з сервером PopMan і з'ясовує наявність оновлення. Якщо він виявить нову версію, усі необхідні файли будуть завантажені і встановлені автоматично.
+Failed to load Decompress.dll!<=>Помилка завантаження Decompress.dll!
+Initializing...<=>Ініціалізація...
+Do you really want to cancel the update process?<=>Ви справді хочете скасувати процес оновлення?
+Update process failed!<=>Помилка процесу оновлення!
+Error while downloading initialization file!<=>Помилка завантаження файлу ініціалізації!
+No updates available.<=>Немає доступних оновлень.
+Failed to retrieve temporary directory!<=>Не вдалося знайти тимчасовий каталог!
+Saving {1} ...<=>Збереження {1}...
+Failed to create directory:<=>Невдалося створити каталог:
+Failed to decompress file:<=>Невдалося розархівувати файл:
+Failed to download file:<=>Невдалося завантажити файл: 
+(checksum error)<=>(помилка контрольної суми)
+Please try again later.<=>Будь ласка спробуйте знову пізніше.
+Error while saving downloaded file!<=>Помилка при збереженні завантаженого файлу!
+All files downloaded successfully.<=>Усе файли завантажено вдало.
+Press the "Finish" button to complete the update process...<=>Натисніть кнопку "Готово", щоб закінчити процес оновлення ...
+Failed to initialize the final copy process!<=>Невдача при ініціалізації кінцевого процесу копіювання!
+Downloading {1} ...<=>Завантаження {1} ...
+Progress all:<=>Завантаження усіх:
+Progress current file:<=>Завантаження поточного файлу:
+Download of updated files<=>Завантаження оновлених файлів.
+
+# Import Accounts Dialog - Діалог імпорту облікових даних
+
+Account<=>Поштова скринька
+User<=>Користувач
+Server<=>Сервер
+Port<=>Порт
+Please select the accounts that you want to import from Outlook Express.<=>Будь ласка виберіть облікові записи, які Ви хочете імпортувати з Outlook Express.
+&Properties...<=>&Властивості...
+OK<=>Гаразд
+Cancel<=>Скасувати
+Import email accounts<=>Імпорт облікових записів електронної пошти
+Description<=>Опис
+
+# Account Dialog - Властивість скриньки
+
+General<=>Загальні
+Colors<=>Кольори
+Advanced<=>Додатково
+Can not change account settings while there are busy accounts.<=>Не можна змінювати параметри налаштувань скриньки, коли вона активна.
+Please enter the address of the Server!<=>Будь ласка введіть адресу сервера!
+Please enter the account name!<=>Будь ласка введіть назву скриньки!
+Please enter user name!<=>Будь ласка введіть ім'я користувача!
+Account name:<=>Назва скриньки:
+Protocol:<=>Протокол:
+Server:<=>Сервер:
+Port:<=>Порт:
+User name:<=>Користувач:
+Password:<=>Пароль:
+Include this account when receiving mail<=>Додайте цей ящик, отримуючи пошту
+1 minute<=>1 хвилина
+{1} minutes<=>{1} хвилин
+1 second<=>1 секунда
+{1} seconds<=>{1} секунд
+Use UIDL when deleting messages<=>Використовувати UIDL, при видаленні повідомлення
+Use custom AutoCheck timer interval<=>Використовувати користувальницький інтервал автоперевірки
+Timer interval:<=>Інтервал таймера:
+minutes<=>хвилини
+Server Timeouts<=>Сервер не відповідає
+Short<=>Короткий
+Long<=>Довгий
+Load all emails completely<=>Завантажити всі листи повністю
+Retrieve header and {1} lines of message body<=>Знайти заголовок і {1} рядки повідомлення
+Number of lines:<=>Кількість рядків:
+Parameters<=>Параметри
+Use individual font color:<=>Використовуйте індивідуальний колір шрифта:
+Circle color in system tray:<=>Колір кола в системному лотку:
+Invalid parameter string!<=>Рядок недопустимого параметра!
+Default<=>Значення за промовчанням
+
+# Accounts Dialog - Властивості скриньок
+
+Mail Accounts<=>Поштові скриньки
+&Add...<=>&Додати...
+&Remove<=>&Видалити
+Move &up<=>&Доверху
+Move &down<=>&Униз
+&Close<=>&Закрити
+
+# Download Dialog - Діалог завантаження
+
+Loading the following mail:<=>Завантаження наступної пошти:
+Loading Mail...<=>Завантаження Пошти...
+
+# BlackList/WhiteList Dialog - Діалог Чорний/білий перелік
+
+Black List<=>Чорний перелік
+Messages from senders in the list below will be deleted automatically from the server.<=>Повідомлення відправників в наведеному переліку будуть видалені автоматично з сервера.
+White List<=>Білий перелік
+Messages from senders in the list below will never be deleted automatically.<=>Повідомлення відправників в наведеному переліку у жодному разі не будуть видалені автоматично з сервера.
+Address:<=>Адреса:
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>Будь ласка введіть адресу електронної пошти (наприклад: somebody@somewhere.com) або домен (наприклад: somewhere.com), який Ви хочете блокувати:
+Enter address<=>Введіть адресу
+
+# Password Dialog - Властивість пароля
+
+Password - {1}<=>Пароль - {1}
+Enter the password of the following account.<=>Введіть пароль наступної скриньки.
+Account:<=>Скринька:
+Remember password<=>Запам'ятайте пароль
+Password incorrect! Please note that the password is case-sensitive.<=>Невірний пароль! Будь ласка, зверніть увагу, що пароль чутливий до регістру
+Please enter the password.<=>Будь ласка введіть пароль.
+
+# Add item to Rules list Dialog - Діалог додавання елемента до переліку Правил
+
+Add item to Rules list<=>Додайте елемент до переліку Правил
+Destination List<=>Перелік призначення
+New Item<=>Новий елемент
+Item Type<=>Тип елемента
+Word<=>Слово
+String<=>Рядок
+Regular Expression<=>Регулярний вираз
+
+# Save Dialog - Діалог збереження
+
+Please specify where to save the emails.<=>Будь ласка визначте, куди зберегти пошту.
+The specified folder does not exist!<=>Зазначена тека не існує!
+Please specify a template for the file names.<=>Будь ласка вкажіть шаблон для імен файлу.
+A file name must not contain any of the following characters:<=>Назва файлу не має містити жодного з наступних символів:
+Invalid template! Use a combination of the following placeholders:<=>Неприпустимий шаблон! Використовуйте комбінацію наступних позначок- заповнювачів:
+Subject<=>Тема:
+From<=>Від:
+To<=>Кому:
+Date<=>Дата:
+Time<=>Час:
+Save As...<=>Зберегти як...
+Destination<=>Адресат
+Folder:<=>Тека:
+Browse...<=>Огляд...
+Save Format<=>Зберегти формат
+Template For File Names<=>Шаблон для імен файлу
+Email File (*.eml)<=>Файл пошти (*.eml)
+Text File (*.txt)<=>Файл тексту (*.txt)
+
+# Options Dialog - Діалог налаштувань
+
+The file "{1}" doesn't exist!<=>Файлу "{1}" не існує!
+Sound (*.wav)<=>Звук (*.wav)
+Notify when new mail arrives<=>Повідомити, коли надходить нова пошта
+Always<=>Завжди
+When AutoChecked or minimized<=>Коли автоперевірено або згорнуто
+Only when minimized<=>Тільки коли згорнуто
+On new mail<=>Сигнали при появі нової пошти
+Acoustic notification<=>Акустичне повідомлення
+Sound:<=>Звук:
+&Test<=>&Teст
+Show PopMan window<=>Показати виринаюче вікно
+Show new mail tip<=>Показати тип нової пошти
+Include sender and subject of new mails<=>Додати відправника і тему для нової пошти
+Use balloon tip<=>Використовувати виринаючі підказки
+Flash keyboard light:<=>Увімкнути індикатор на клавіатурі:
+Unread Messages<=>Непрочитані повідомлення
+Display unread messages in bold font<=>Відобрати непрочитані повідомлення напівжирним шрифтом
+Preview Pane<=>Область вікна попереднього перегляду
+Use the preview pane to quickly view a message without opening a separate window.<=>Користуйтесь вікном попереднього перегляду, щоб швидко переглянути повідомлення.
+Show preview pane<=>Показати область вікна попереднього перегляду
+Be&low messages<=>&Горизонтальний поділ вікон
+Be&side messages<=>&Вертикальний поділ вікон
+Use logging to record all data communication between PopMan and the email server.<=>Використовувати файл журналу, для запису інформації між PopMan і поштовим сервером.
+Enable logging<=>Активувати ведення файла журналу
+Only log compact mail info instead of entire data traffic<=>Компактне ведення файла журналу
+Enable error logging<=>Включення протоколювання помилок
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(Якщо проблема виникає при з'єднанні з поштовим сервером, журнал зберігається в окремому файлі помилок) 
+Log file size:<=>Розмір файла журналу:
+KB<=>KB
+Enable logging of applied rules<=>Активувати реєстрацію доданих правил 
+Location of the log file "PopManLogFile.log":<=>Розташування файла журналу "PopManLogFile.log":
+Use dial-up networking<=>Використовувати комутоване з'єднання
+Launch PopMan on Windows startup<=>Запускати PopMan разом з Windows
+Check for new mail on startup<=>Перевіряти нову пошту при запуску
+First wait<=>Очікуючи
+seconds<=>секунд
+X button hides to tray<=>Кнопка "х" ховає програму в трей
+Min button hides to tray<=>Кнопка мінімізації ховає програму в трей
+Delete confirmation in main window<=>Не підтверджувати видалення в головному вікні
+Delete confirmation in preview pane and message window<=>Не підтверджувати видалення у вікнах перегляду та повідомлення
+Delete command marks message for deletion<=>Не підтверджувати видалення вибраного повідомлення
+Enable password protection:<=>Активація пароля:
+AutoCheck only while minimized<=>Автоперевірка тільки коли згорнуто
+Don't check between:<=>Не перевіряти між:
+and<=>і
+Enable custom AutoCheck interval per account:<=>Активація вибіркового інтервалу автопроверки для кожної скриньки:
+Interval<=>Інтервал
+Custom<=>Вибірково
+Executable (*.exe)<=>Активний (*.exe)
+Hide PopMan to tray<=>Сховати PopMan в трей 
+Quit PopMan<=>Вийти з PopMan
+Email client:<=>Поштовий клієнт:
+When launching email client:<=>При роботі поштового клієнта:
+When replying<=>При відповіді
+Use temporary eml file (Outlook Express)<=>Використовувати тимчасовий файл EML (Outlook Express)
+Use mailto (without quotted original message)<=>Використовувати MAILTO (без цитування повідомлення)
+Use MAPI<=>Використовувати MAPI
+Use HTML linebreaks in reply body<=>Використовувати HTML в тілі листа при відповіді
+Enforce email address (Yahoo! Mail)<=>Вказати адресу електронної пошти (Yahoo! Mail)
+Launch email client with command line parameter:<=>Запускати поштовий клієнт з параметром командного рядка:
+Number of messages<=>Кількість повідомлень
+Show number of messages in tray icon<=>Показати кількість повідомлень на іконці в треї
+Show number of all messages<=>Показати кількість всіх повідомлень
+Show number of unread messages<=>Показати кількість непрочитаних повідомлень
+Show number of new messages<=>Показати кількість нових повідомлень
+Rotate icon for each account<=>Змінювати іконку для кожної скриньки
+Rotation interval:<=>Інтервал заміни:
+tenths of a second<=>десяті частини секунди
+Show advanced account info<=>Показати додаткову інформацію скриньки
+Enable HighColor icons in system tray<=>Активація якісної іконки в треї
+Nothing<=>Нічого
+Show Window<=>Показати вікно
+Check Mail<=>Перевірити пошту
+PopUp Menu<=>Контекстне меню
+Run Email Client<=>Запустити поштовий клієнт
+Check And Show<=>Перевірити і показати
+Toggle Window<=>Перемкніть вікно
+Toggle AutoCheck<=>Перемкніть автоперевірку
+Show Mail Info<=>Показати інформацію про пошту
+Tray Mouse Actions<=>Дії миші в треї
+Left Click:<=>Ліва кнопка:
+Right Click:<=>Права кнопка:
+Middle Click:<=>Середня кнопка:
+Double Click:<=>Подвійне клацання:
+Double click delay on click<=>Подвійне клацання з затримкою
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Нижче Ви можете вибрати мову інтерфейсу програми. Якщо Ви не знайшли свою мову, будь ласка відвідайте вебсайт PopMan:
+Language:<=>Мова:
+Author:<=>Автор:
+Email:<=>Email:
+Updated:<=>Оновлений:
+Comment:<=>Коментарі:
+
+# Source Dialog - Діалог джерела
+
+RichEdit control init failed.<=>Редактор не встановлено
+Source - "{1}"<=>Джерело - "{1}"
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Файл журналу "{1}" не  відкрито.{BR}Вхід не активний!
+Error while writing to the log file:<=>Помилка запису до файла журналу:
+Logging disabled!<=>Вхід не активний!
+
+# List View - Вигляд переліку
+
+Size<=>Розмір
+Received<=>Отримано
+Attachment<=>Вкладення
+Sent<=>Надіслано
+Priority<=>Пріоритет
+UserAgent<=>UserAgent
+High<=>Високий
+Low<=>Низький
+Normal<=>Нормальний
+Are you sure you want to delete the selected email?<=>Ви впевнені, що хочете видалити вибраний лист?
+Are you sure you want to delete the {1} selected emails?<=>Ви впевнені, що хочете видалити вибрані листи?
+&Open...{TAB}Ctrl+O<=>&Розгорнути...{TAB}Ctrl+O
+Sou&rce...<=>&Джерело...
+&Save As...{TAB}Ctrl+S<=>&Зберегти як...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Відповіс&ти відправникові{TAB}Ctrl+R
+&Block Sender<=>&Блокувати відправника
+&Delete{TAB}Del<=>&Видалити{TAB}Del
+&Unmark{TAB}Ins<=>&Зняти виділення{TAB}Ins
+This will add the following email addresses to the Black List:<=>Це дозволить додати наступні адреси електронної пошти до чорного переліку:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Зауважте: вся майбутня пошта від відправників, що знаходяться в чорному переліку, буде видалена автоматично!
+
+# Main Window - Головне вікно
+
+Empty Trash<=>Видалити з сервера
+Options<=>Налаштування
+AutoCheck<=>Перевірка
+Notification<=>Повідомлення
+Email Client<=>Клієнт
+View<=>Вигляд
+Tray Icon<=>Трей
+Language<=>Мова
+Mouse Actions<=>Миша
+Logging<=>Журнал
+&File<=>&Файл
+&Accounts...<=>&Поштові скриньки...
+&Update{TAB}F5<=>&Оновлення{TAB}F5
+&Cancel{TAB}Esc<=>&Скасування{TAB}Esc
+Delete &Marked Emails{TAB}F12<=>Видалити &зазначені листи{TAB}F12
+&Exit<=>&Вихід
+&View<=>&Вигляд
+&Toolbar<=>&Інструментальна панель
+&Statusbar<=>&Панель статистики
+&Hide Marked Messages<=>&Приховати виділені повідомлення
+Tab &View{TAB}Ctrl+M<=>&Tab Вигляд{TAB}Ctrl+M
+&Tools<=>&Засоби
+&Font...<=>&Шрифт...
+Font &Color...<=>Колір &шрифту...
+&Themes<=>&Теми
+Launch &Email Client{TAB}Ctrl+E<=>Запустити &поштовий клієнт{TAB}Ctrl+E
+&Import Accounts...<=>&Імпорт скриньок...
+&White List...<=>&Білий перелік...
+&Black List...<=>&Чорний перелік...
+&Rules...<=>&Правила...
+Add Item To Rules &List...{TAB}F9<=>Додати елемент до переліку правил...{TAB}F9
+&Options<=>&Налаштування
+&Help<=>&Допомога
+&Help Topics...{TAB}F1<=>&Зміст допомоги...{TAB}F1
+Check For &Updates<=>Перевірка &оновлень
+&About PopMan...<=>&Про PopMan...
+Edit email accounts.{BR}Accounts<=>Редагування облікових записів електронної пошти.{BR}Скриньки
+Update email listing.{BR}Update<=>Оновити список листів.{BR}Оновити
+Cancel current operation.{BR}Cancel<=>Скасувати поточну операцію{BR}Скасувати
+Show email content.{BR}Show<=>Показати зміст листа.{BR}Показати
+Show source code of this email.{BR}Source code<=>Показати кодування листа.{BR}Кодування
+Save selected email to file.{BR}Save<=>Зберегти виділенний лист у файл. {BR}Зберегти
+Create a reply message to the sender.{BR}Reply<=>Створити зустрічне повідомлення відправнику.{BR}Відповісти
+Delete selected emails.{BR}Delete<=>Видалити вибрані листи.{BR}Видалити
+Delete marked emails.{BR}Delete marked emails<=>Видалити відмічені листи. {BR}Видалити відмічені листи
+Unmark (undelete) selected emails.{BR}Unmark<=>Зняти виділення (відновити) відібрані листи.{BR}Зняти виділення
+Add sender to Black List.{BR}Block Sender<=>Додати відправника в чорний список.{BR} Блокувати відправника
+Quit the application.{BR}Exit<=>Вихід з програми. {BR} Вихід
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Показати або приховати панель.{BR}Переключити панель
+Show or hide the status bar.{BR}Toggle StatusBar<=>Переключити StatusBar <=> Показати або приховати панель статистики.{BR)Переключити панель статистики
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Увімкнути. \ Вимк. Вкладка вигляд.{BR}Переключити Вкладка вигляду
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Приховати виділені повідомлення для видалення.{BR}Приховати виділені повідомлення
+Change font.{BR}Font<=>Змінити шрифт.{BR}Шрифт
+Change font color.{BR}Font Color<=>Змінити колір шрифту.{BR}Колір шрифта
+Launch email client.{BR}Email Client<=>ЗЗапустити поштовий клієнт.{BR}Поштовий клієнт
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Імпорт поштових скриньок з Outlook Express.{BR}Імпорт поштових скриньок
+Edit the rules.{BR}Rules<=>Редагування правил.{BR}Правила
+Edit list of blocked senders.{BR}BlackList<=>едагування списку блокованих відправників.{BR}Чорний перелік
+Change program settings.{BR}Settings<=>ИЗмініть параметри налаштування програми.{BR}Параметри налаштування
+Show Help Topics.{BR}Help<=>Показати вміст допомоги.{BR}Допомога
+Check if a new version is available.{BR}Check for updates<=>ППеревірити, чи доступна нова версія.{BR}Перевірка оновлень
+Display program information, version number and copyright.{BR}About<=>Інформація про програму, номер версії та авторське право.{BR}Про програму
+Show the main window.{BR}Show<=>ППоказати головне вікно.{BR}Показати
+Enable AutoChecking.{BR}Enable<=>Увімкнути автоперевіркиу.{BR}Увімкнути
+Open the selected attachment.{BR}Open<=>Відкрити вибране вкладення.{BR}Відкрити
+Save the selected attachments.{BR}Save<=>Зберегти вибрані вкладення.{BR}Зберегти
+Save all attachments.{BR}Save All<=>берегти всі вкладення.{BR}Зберегти всі
+Change the window size.<=>Змінити розмір вікна
+Change the window position.<=>Змінити розташування вікна
+Reduce the window to an icon.<=>Зменшити вікно до значка.
+Enlarge the window to full size.<=>Розгорнути вікно до максимального розміру.
+Close the active window.<=>Закрити активне вікно.
+Restore the window to normal size.<=>Відновити вікно до нормального розміру.
+Don't display this &message again.<=>Не відображати &це повідомлення знову
+
+# Message Window - Вікно повідомлення
+
+&Print...{TAB}Ctrl+P<=>&Друк...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Закрити{TAB}Esc
+&Edit<=>&Правка
+&Cut{TAB}Ctrl+X<=>&Вирізати{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>К&опіювати{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>Вс&тавити{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Знайти...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Знайти &далі{TAB}F3
+Select &All{TAB}Ctrl+A<=>Виділити в&се{TAB}Ctrl+A
+Print this email.{BR}Print<=>Друкувати цей лист.{BR}Друкувати
+Delete this email.{BR}Delete<=>Видалити цей лист.{BR}Видалити
+Close window.{BR}Close<=>Закрити вікно.{BR}Закрити
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Вирізати виділений фрагмент в буфер обміну.??{BR}Вирізати
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Копіювати виділене в буфер обміну.??{BR}Копіювати
+Insert Clipboard contents.{BR}Paste<=>Вставити вміст буфера обміну.??{BR}Вставити
+Find the specified text.{BR}Find<=>Знайти вказаний текст.{BR}Знайти
+Find next occurence of specified text.{BR}Find next<=>Знайти далі вказаний текст.{BR}Знайти далі
+Select the entire message.{BR}Select All<=>Вибрати всі повідомлення.{BR}Вибрати всі
+"{1}" not found.<=>"{1}" не знайдено.
+&Open<=>&Відкрити
+&Save As...<=>&Зберегти як...
+Save &All...<=>Зберегти в&се...
+This attachment can not be accessed anymore.<=>До цього вкладення немає більше доступу.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}", дуже ймовірно, що він містить вірус, хробак або інший небезпечний скрипт!
+Opening this file is therefore denied.<=>Немає доступу до відкриття цього файлу.
+Do you really want to save this file to your hard disk?<=>Ви дійсно хочете зберегти цей файл?
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Ці вкладення, дуже ймовірно, що містять вірус, хробак або інший небезпечний скрипт!
+Do you really want to save these files to your hard disk?<=>Ви дійсно хочете зберегти ці файли?
+Please specify where to save the attachments.<=>Будь ласка вкажіть місце збереження вкладень
+The file "{1}" does already exist!{BR}Overwrite it?<=>Файл "{1}" вже існує!{BR}Переписати його?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Невдача завантаження листа.{BR}Натисніть Ctrl + F5, щоб оновити список пошти та спробуйте знову.
+Are you sure you want to delete this email?<=>Ви впевнені, що хочете видалити цей лист?
+Deleting email failed!<=>Відмова видалення листа!
+From:<=>Від:
+Date:<=>Дата:
+To:<=>Кому:
+Subject:<=>Тема:
+Attach:<=>Вкладення:
+
+# PopMan Start - Запуск PopMan
+
+Please start one instance only.<=>Будь ласка запустіть лише один екземпляр.
+Windows socket init failed.<=>Windows socket пошкоджено.
+{1} Beta version has been updated successfully!<=>{1} Бета версія успішно оновлена.
+You have successfully updated to version {1} !<=>Ви успішно оновлені до версії {1}!
+About PopMan<=>Про прогаму PopMan
+PopMan, Version {1}<=>PopMan, Версія {1}
+Website:<=>Вебсайт:
+Forum:<=>Форум:
+
+
+# Document - Документ
+
+The error log file "{1}" could not be created.<=>Помилка, файл журналу "{1}" не створено.
+Checking {1}...<=>Перевірка {1}...
+Error while writing to the log file:<=>Помилка запису у файл журналу:
+Logging disabled!<=>Вхід заблоковано!
+Email (*.eml)<=>Пошта (*.eml)
+Text (*.txt)<=>Текст (*.txt)
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Файл журналу "{1}" не може бути відкритий. {BR} Вхід заборонено!
+Unable to load mail system support.<=>Неможливо завантажити підтримку системи пошти.
+Mail system DLL is invalid.<=>Неприпустима бібліотека системи пошти .
+Unable to detect if a new version is available.<=>Не може виявити, чи доступна нова версія.
+There is no update available.<=>Немає доступного оновлення.
+Do you want to start the update wizard and download the latest version?<=>Ви хочете запустити майстер поновлення і завантажити останню версію?
+Deleting mail...<=>Видалення пошти...
+Downloading mail...<=>Завантаження пошти...
+AutoCheck disabled<=>Автоперевірка вимк.
+No messages<=>Нема повідомлень
+1 new message<=>1 нове повідомлення
+{1} new messages<=>{1} нових повідомлень
+PopMan - New Mail<=>PopMan - Нова пошта
+&Open PopMan<=>&Відкрити PopMan
+Check &Mail<=>Перевірка &пошти
+&Cancel<=>&Скасування
+&Email Client<=>&Поштовий клієнт
+A&utoCheck Enabled<=>А&втоперевірка увімк.
+O&ptions...<=>Н&алаштування
+&About...<=>&Про програму
+E&xit<=>В&ихід
+{1} повідомл. ({2} непрочитані, {3} новий) {TAB} {4} КБ <=> {1} повідомлень. ({2} непрочитаних, {3} нових) {TAB} {4} KB
+PopMan - Mail Info<=>PopMan - Інформація про пошту
+1 message<=>1 повідомлення
+{1} messages<=>{1} повідомлень
+1 unread message<=>1 непрочитане повідомлення
+{1} unread messages<=>{1} непрочитаних повідомлень
+in {1}<=>в {1} 
+in {1} accounts<=>у {1} скриньках
+Show<=>Показати
+Delete<=>Видалити
+Close<=>Закрити
+(last check: {1})<=>(остання перевірка: {1})
+You are about to irrevocably delete all marked messages.<=>Ви збираєтеся остаточно видалити всі позначені повідомлення?
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Ви щойно віділили повідомлення для видалення. Щоб зняти виділення, натисніть кнопку клавіатури Ins. Щоб видалити всі зазначені повідомлення, натисніть клавішу F12 або клацніть відповідною кнопкою панелі.
+You can also delete selected messages immediately by pressing Shift+Del.<=>Ви можете також видалити вибрані повідомлення негайно, натиснувши Shift + Delete
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Якщо Ви хочете відновити традиційний режим (видаліть всі відібрані повідомлення негайно), не відзначайте "{1}" в діалозі опцій.
+Failed to add item to Rules list!<=>Невдале додавання елемента в перелік Правил!
+
+# Main View - Головний вигляд
+
+Separate account | All<=>Окремий обліковий запис | Всі
+Check accounts{TAB}F7<=>Перевірка скриньок{TAB}F7
+Join with tab<=>Об'єднання з вкладкою
+Rename tab{TAB}F2<=>Перейменувати вкладку{TAB}F2
+You have to add at least one account before you can switch to tab view.<=>Ви повинні додати принаймні один обліковий запис перш, ніж Ви можете перейти до закладки перегляду ..
+Caption:<=>Заголовок: 
+Please enter the caption of the tab:<=>Будь ласка введіть заголовок вкладки:
+Rename tab<=>Перейменувати вкладку
+Trash<=>Сміття
+Tab accounts:<=>Активна скринька:
+
+# Rules - Правила
+
+Error while parsing rules file at line {1}!<=>Помилка, аналізу файлу правил в рядку {1}!
+The item is already contained in the list!<=>Елемент вже міститься в списку!
+
+# Text View
+
+Copy Link Address<=>Копія адреси посилання
+
+# 04/10/2010
+
+Type<=>Тип
+Load small emails completely<=>Завантаження невеликий електронної пошти завершено
+Small emails are <=>Малі електронні листи
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>Будь ласка, введіть адресу лектронної пошти (наприклад, somebody@somewhere.com) або домен (наприклад, somewhere.com):
+Limit tips to [PROTECTED] messages<=>Увімкнути захист важливих повідомлень від видалення 
+[PROTECTED]<=>Захищені
+Rules<=>Правила
+&Trust Sender<=>&Надійний відправник
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>Паремикання [PROTECTED] стану{TAB}Ctrl+T
+This will add the following email addresses to the White List:<=>Це дозволить додати наступні адреси електронної пошти в білий перелік
+Move Marked Messages to Tr&ash Tab<=>Перемістити позначені повідомлення до Смі&тника
+Add sender to White List.{BR}Trust Sender<=>Додати відправника в білий список.{BR}Надійний відправник.
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Перемістити позначені повідомлення в окремий "кошик" на вкладці. {BR}Задіяти кошик
+Add item to Rules list.{BR}Add To List<=>Додати пункт до переліку правил.{BR}Додати до переліку
+Edit list of trusted senders.{BR}WhiteList<=>Редагувати перелік довірених відправників.{BR}Білий перелік
+Suspend New Mail Notification Sound.{BR}Mute<=>Призупинити Новий звук повідомлення про отримання пошти.
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>Перемикання поточного [protected] стан вибраного повідомлення.{BR}Перемикання
+Protocol plugin not initialized correctly!<=>Додаток до протоколу не коректно активовано
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>Невдале створення облікового запису{1}: Відсутній додаток, який має допомогти {2}! 
+Mu&te Mode<=>Порядок вимкнення
+Mark All Mails Read<=>Помітити усі прочитані листи
+Mark All Mails Unread<=>Помітити усі непрочитані листи

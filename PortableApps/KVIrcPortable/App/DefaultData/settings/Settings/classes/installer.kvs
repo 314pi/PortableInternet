@@ -1,0 +1,64 @@
+# Automatically generated KVS class dump
+
+class("installer","object")
+{
+	function copyFiles()
+	{
+		if($0 == "")
+		{
+			echo "[Installer] Error: the first argument of copyFiles must be a source directory"
+			halt
+		}
+		
+		if($1 == "")
+		{
+			echo "[Installer] Error: the second argument of copyFiles must be a file name or file regexp"
+			halt
+		}
+		
+		if($2 == "")
+		{
+			echo "[Installer] Error: the third argument of copyFiles must be a destination directory"
+			halt
+		}
+		
+		if($file.exists($0))
+		{
+			%files[] = $file.ls($0,f,$1)
+			if($length(%files[]))
+			{
+				file.mkdir $2
+				foreach(%file,%files[])
+				{
+					$$->%lFiles[$$->%iNumFiles] = $str.replace($file.fixpath("$2/%file"),"\\\\","\\")
+					$$->%iNumFiles++;
+					file.copy -o "$0/%file" "$2/%file"
+				}
+			}
+		}
+	}
+	
+
+	function generateUninstallAlias()
+	{
+		%c  = "alias($0)$lf"
+		%c .= "{$lf"
+		if($$->%iNumFiles > 0)
+		{
+			foreach(%file,$$->%lFiles[])
+			{
+				%c .= "file.remove \"%file\"$lf";
+			}
+		}
+		%c .= "}"
+		eval %c
+	}
+	
+
+	function constructor()
+	{
+		$$->%iNumFiles = 0
+	}
+	
+
+}

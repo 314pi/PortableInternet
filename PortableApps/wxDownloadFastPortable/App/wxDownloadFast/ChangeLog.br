@@ -1,0 +1,234 @@
+0.6.0
+===================================================
+- Adicionado idioma Turco(by E.B)
+- Adicionado idioma Indonésio(by Arif Rahman)
+- Adicionado idioma Francês(by lord_nogard)
+- Adicionado idioma Holandês(by Rob van den Boorn)
+- Agora a lista de downloads é atualizada apenas
+  quando um download é alterado, fazendo com que o
+  programa fique mais rápido, e evitando que o pro-
+  grama fique bloqueado quando se está trabalhando
+  com muitos downloads
+- Adicionada opção para adicionar novos arquivos
+  no topo da lista de downloads
+- Adicionado suporte à mais segmentos(até 32)
+- Adicionado modo portável(apenas para Windows), o
+  que permite que o programa seja executado direta-
+  mente de pendrives
+- Corrigidos algums bugs relacionados a classe
+  metalink
+- Adicionado suporte a proxy
+- Adicionado classe wxSHA1
+
+0.5.4
+===================================================
+- O novo tema RipStop agora está concluído
+- Adicionado idioma Russo(por Ruslan Fedyarov)
+- Adicionado idioma Hungaro(por Erno Szabados)
+- Adicionado idioma Polonês(por Marcin Trybus)
+- Adicionado gravação automática(a cada 10s) dos
+  status dos downloads
+- Adicionada opção para ativar/desativar verificação
+  por novas versões
+- Corrigido bug de quando a velocidade atual é
+  maior que a escala do gráfico
+- Corrigidos vários bugs
+
+0.5.3
+===================================================
+- Adicionado idioma Tcheco(por David Vachulka)
+- Corrigido problema quando tentando fazer o
+  download de alguns arquivos metalink
+
+0.5.2
+===================================================
+- Adicionado um novo tema chamado RipStop
+- Agora se você tentar definir como destino um
+  diretório que não existe, o programa perguntará
+  se você deseja criá-lo
+- Corrigido alguns problemas de flickering na barra
+  de progresso e no gráfico
+- Adiciona opção para executar um comando
+  personalizado quando um download é concluído
+- Atualizado para compilar com wxWidgets 2.7.1
+
+0.5.1
+===================================================
+- Adicionado suporte a multiplos arquivos dentro
+  de um único arquivo metalink
+- Corrigido erro quando salvando as cores do gráfico
+- Corrigido erro obtendo tamanho de arquivo em
+  servidores FTP
+
+0.5.0
+===================================================
+- Corrigido erro quando o programa acessa um
+  servidor e recebe a resposta 404
+- Adicionada funções para retornar os diretórios
+  "Arquivos de Programas" e "Meus documentos"
+- Adicionada checagem do espaço em disco antes de
+  juntar as partes do arquivo depois de terminar
+  um download
+- Adicionado novo método de configuração baseado no
+  autoconf
+- Adicionado controle de largura de banda, o que
+  permite que o usuário defina um limite para taxa
+  de download
+- Adicionado suporte ao metalink. Para mais
+  informações sobre o que é metalink visite
+  www.metalinker.org
+- Adicionado um menu para o ícone na bandeja para
+  alterar com facilidade as configurações de banda
+
+0.4.5
+===================================================
+- Corrigido bug na opção "Copiar URL" e "Copiar 
+  Dados do Download"
+- Corrigido problema ao desenhar barra para número
+  de partes ímpares
+- Barra segmentada com cores diferentes
+- Corrigido bug na caixa "Novo Download", quando
+  se deixava a caixa "Endereço" vazia
+- Adicionada opção --reference, veja o arquivo
+  Readme para mais informações
+- Adicionada opção de escolha de onde salvar os
+  arquivos temporários (.part)
+- Adicionada uma nova caixa "Sobre..."
+- Adicionado menu "Doação"
+- Adicionado rotina para verificar se há novas
+  atualizações para o wxDownload Fast
+
+0.4.4
+===================================================
+- Adicionado seleção multipla nas listas de down-
+  loads concluídos e em progresso.
+- Corrigido problema na caixa Novo Download
+- Agora é possível mudar o idioma sem reiniciar
+  o programa
+- Adicionada barra de progresso segmentada
+
+0.4.3
+===================================================
+- Corrigido bug que fazia com que o primeiro item
+  da lista de downloads conclúidos, fosse substi
+  tuido por aquele na qual foi aberto a pasta de
+  destino
+- Corrigido problema ao visualizar o tamanho de
+  downloads já concluídos que fossem maior que 2Gb
+- Corrigidos alguns problemas de acesso a memória
+- Feita um reformulação total da classe 
+  mDownloadFile, que armazena as informações dos
+  downloads, ficando mais encapsulada
+- Clique duplo na lista de downloads em progresso
+  Inicia/Pára o download
+- Agora é possível adicionar várias urls por
+  download, permitindo com que o download seja
+  feito simultâneamente de vários servidores.
+
+0.4.2
+===================================================
+- Corrigido problema com o Calendário para seleção
+  de datas na opção de agendamento
+- Corrigido problemas com arquivos com caracteres
+  proibidos
+- Corrigido problema com o controle de calendário
+- Adicionado caixa de diálogo que pergunta sobre
+  abrir arquivos HTML no browser padrão
+- Adicionada comando "Abrir Diretório de Destino"
+  que abre o diretório de destino do dowload sele-
+  cionado
+- Adiciona aba "Caminhos" na caixa de opções. Nes-
+  ta são definidos os programas externos utiliza-
+  dos, como navegador internet, gerenciador de ar-
+  quivos, etc
+- Agora o tamanho dos arquivos são comparados com
+  os valores anteriores já armazenados. De modo
+  a ter certeza que o tamanho do arquivo não mudou
+  e que o arquivo não ficará corrompido
+- A estrutura interna do programa foi melhorada
+- Feito outros melhoramentos
+
+0.4.1
+===================================================
+- Adicionado idioma Alemão
+- Agora valores de velocidade maiores que a escala
+  do gráfico não são mostrados
+- Adicionada barra de status e botões "Parar todos
+  os downloads" e "Iniciar todos os downloads"
+
+0.4.0
+===================================================
+- Adicionado suporte para downloads HTTP e FTP para
+  arquivos maiores que 2GB
+- Corrigido bug no cálculo da velocidade para down-
+  loads por FTP
+- Melhorado o acesso a links dinâmicos
+- Adicionada opção para esconder o gráfico de ve-
+  locidade e para alterar a altura do gráfico
+- Agora as opções selecionadas na caixa de Novo
+  Download são lembradas para o próximo download
+- Corrigidos outros bugs
+
+0.3.2
+===================================================
+- Removidas mensagens de debug esquecidas na última
+  versão
+- Corrigidos alguns bugs.
+
+0.3.1
+===================================================
+- Agora é possível passar urls do tipo file://path
+  para downloads de arquivos locais
+- Agora é possível passar várias urls pela linha
+  de comando
+- Adicionados parâmetros --list, --destination e
+  --comments. Para mais informaçoes leia o arquivo
+  Readme.
+
+0.3.0
+===================================================
+- Adicionada opções de agendamento
+- Agora o status do download é gravado antes de
+  fechar o programa. Deste modo se um download
+  está ativo e o programa é fechado, quando for
+  reaberto o download será iniciado automatica-
+  mente.
+- Corrigidos vários bugs.
+
+0.2.2
+===================================================
+- Adicionado idioma Espanhol
+
+0.2.1
+===================================================
+- Adicionado gráfico da taxa de transferência
+
+0.2.0
+===================================================
+- Toda a rotinha de download foi reimplementada, sendo
+  adicionada a opção de dividir o arquivo em vários partes.
+- Adicionada caixa "Opções".
+- Adicionada opções que permitem que o computador seja
+  desligado, ou a conexão seja terminada, quando todos
+  os downloads forem concluídos.
+- Feitos varios melhoramentos em geral.
+- Corrigidos vários bugs.
+
+0.1.1
+===================================================
+- Corrigido problemas de "segmentation fault" no Linux
+- Corrigido problemas quando se tentava alternar o idioma
+- Adicionado arquivo makefile.vc para que quem utiliza o MSVC
+  possa compilar o programa sem problemas
+- Adicionado idioma italiano
+- Alterada a interface relacionada a downloads antigos
+- Vários bugs foram corrigidos
+- Adicionado menu que permite mover arquivos já baixados
+- Adicionado menu que permite verificar o MD5 de um arquivo
+  já baixado e comparar com o calculado previamente
+- Adicionado opções de exportar/importar as configurações
+  do programa
+
+0.1.0
+===================================================
+1º Versão

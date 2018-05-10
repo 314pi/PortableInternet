@@ -1,0 +1,60 @@
+{
+   "checksum": "93e2cb916e31a96f637b4ba4fe671488",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13090969014445871",
+            "id": "11",
+            "name": "Enable Flash",
+            "type": "url",
+            "url": "http://iron-extensions.com/en/102/adobe-flash/"
+         }, {
+            "date_added": "13003283827490175",
+            "id": "5",
+            "name": "bild.me - Imagehosting",
+            "type": "url",
+            "url": "http://www.bild.me/"
+         }, {
+            "date_added": "13098970049326290",
+            "id": "14",
+            "name": "Iron Extensions",
+            "type": "url",
+            "url": "http://iron-extensions.com/"
+         }, {
+            "date_added": "13003283815115659",
+            "id": "4",
+            "name": "Iron Forum",
+            "type": "url",
+            "url": "http://www.srware.net/forum/"
+         }, {
+            "date_added": "13046907383681428",
+            "id": "6",
+            "name": "PortableApps.com",
+            "type": "url",
+            "url": "http://portableapps.com/"
+         } ],
+         "date_added": "13003283766115659",
+         "date_modified": "13098970058343089",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13003283766116659",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13003283766116659",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

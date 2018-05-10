@@ -1,0 +1,37 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\irc]
+@="URL:IRC Protocol"
+"IRC Protocol"="http://www.kvirc.net/"
+"EditFlags"=hex:02,00,00,00
+"URL Protocol"=
+
+[HKEY_CLASSES_ROOT\irc\DefaultIcon]
+@="\"D:\\Development\\Portable Apps\\KVIrc\\Releases\\KVIrcPortable\\App\\KVIrc\\kvirc.exe\""
+
+[HKEY_CLASSES_ROOT\irc\shell]
+@=""
+
+[HKEY_CLASSES_ROOT\irc\shell\open]
+"EditFlags"=hex:01,00,00,00
+
+[HKEY_CLASSES_ROOT\irc\shell\open\command]
+@="\"D:\\Development\\Portable Apps\\KVIrc\\Releases\\KVIrcPortable\\App\\KVIrc\\kvirc.exe\" %1"
+
+[HKEY_CLASSES_ROOT\irc6]
+@="URL:IRC6 Protocol"
+"IRC6 Protocol"="http://www.kvirc.net/"
+"EditFlags"=hex:02,00,00,00
+"URL Protocol"=
+
+[HKEY_CLASSES_ROOT\irc6\DefaultIcon]
+@="\"D:\\Development\\Portable Apps\\KVIrc\\Releases\\KVIrcPortable\\App\\KVIrc\\kvirc.exe\""
+
+[HKEY_CLASSES_ROOT\irc6\shell]
+@=""
+
+[HKEY_CLASSES_ROOT\irc6\shell\open]
+"EditFlags"=hex:01,00,00,00
+
+[HKEY_CLASSES_ROOT\irc6\shell\open\command]
+@="\"D:\\Development\\Portable Apps\\KVIrc\\Releases\\KVIrcPortable\\App\\KVIrc\\kvirc.exe\" %1"

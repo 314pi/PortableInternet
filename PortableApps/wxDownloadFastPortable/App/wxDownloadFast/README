@@ -1,0 +1,142 @@
+wxDownload Fast
+=====================================================================
+
+1) Introduction
+---------------
+This program was created with the intention of replacing existing
+commercial download managers. It will have many options and be as complete
+as possible.
+
+2) Features of wxDownload Fast
+---------------------------------
+* Faster downloads (with Segmented/Multi-threaded/Accelerated transfers)
+* Download resuming (Pause and restart where you stopped)
+* Download scheduling
+* Organizes files you have already downloaded
+* View server messages (HTTP, FTP, file://). No HTTPS support.
+* Available in multiple languages and easily translated.  Now available in
+  Portuguese [Brazil], Spanish, English, German, Russian, Hungarian, Polish,
+  French, Indonesian, Turkish and Dutch
+* Connection to FTP/HTTP servers which require a password
+* Calculates the MD5/SHA1 checksum of downloaded files so they can be easily verified
+* Firefox integration through FlashGot
+* Can be used as a portable download manager (Windows only)
+* Can be used over proxy servers(HTTP proxy support)
+
+3) Command line Parameters
+--------------------------
+[URLS],
+URLs of the files to be downloaded are separated by spaces
+Ex: www.foo.com/foo.exe ftp://ftp.foo.com/foo2.exe http://foo.com:8080/foo3.exe
+
+--hide,
+Start with the the main window hidden
+
+--notray,
+Don't show the icon in the system tray
+
+-list TEXTFILE, --list=TEXTFILE,
+Parse a text file with the list of files to download
+
+-destination DIR, --destination=DIR,
+Destination directory
+
+-reference URL, --reference=URL
+Parse a URL that will be set as a reference URL
+
+-comments COMMENTS, --comments=COMMENTS,
+Add comments for the download
+
+4) Firefox Integration
+----------------------
+To integrate with Firefox, do the following:
+
+1) Install the FlashGot extension for Firefox (www.flashgot.org/getit)
+2) After restart the Firefox, go to Tools -> FlashGot -> More Options
+3) Now select the "wxDownload Fast" on the Download Manager's List
+
+
+5) Installation
+---------------
+
+5.1) Windows 2000 & XP
+----------------------
+
+- Installing from binary
+
+Is available in the page of the program contends this program.  This archive is in
+the form of an installation program.
+To install the program follow the wizard.
+
+Then to change the Language from Portuguese to English do this:
+1) Start the program
+2) Go to menu "Ver->Idiomas->"Ingles"
+
+- Compiling source code
+
+To build the program on Windows, MinGW and MSys [ www.mingw.org ] are required, 
+which are the GCC compiler for Windows and Unix environments respectively.  
+Other requirements include the library wxWidgets [www.wxwidgets.org ],
+built with the options: --enable-xrc --enable-unicode.
+Once you have the above requirements you can change to the directory where the source 
+code was unpacked and type:
+# make -f Makefile.gcc BUILD=win32
+
+With this, the executable will be generated. After that, you can copy the executable to
+another place and run it from there.
+
+- Compiling source code (Portable mode)
+
+Follow the same instructions of the last section, but add the parameter PORTABLE=1 to
+the make command:
+# make -f Makefile.gcc BUILD=win32 PORTABLE=1
+
+
+5.2) Linux
+----------
+
+- Compiling source code
+
+GCC and the program make are required to build the program in the Linux.
+Other requirements include the library wxWidgets [ www.wxwidgets.org ], built with
+the options: --enable-xrc --enable-unicode.  Once you have the above requirements you can change to
+the directory where the source code was unpacked and type:
+# ./configure
+# make
+
+With this, the executable will be generated. After that, you can copy the executable to
+another place and run it from there. To do this, type:
+# su
+# make install
+
+- Cross-compiling source code for windows
+
+This method has as objective to create a Windows executable without the Windows.
+In this case it's necessary to install MinGW on linux and build the wxWidgets
+library with the follow command:
+# ./configure --prefix=/usr/i586-mingw32msvc --host=i586-mingw32msvc --target=i586-mingw32msvc --with-msw --enable-monolithic --disable-shared --enable-xrc --enable-unicode
+# make
+
+Where "/usr/i586-mingw32msvc" is the directory that the MinGW was installed.
+
+Then to build the wxDownload Fast do:
+# ./configure --prefix=/usr/i586-mingw32msvc --host=i586-mingw32msvc  --with-wxdir=/home/user/wxWidgets-2.8.0
+# make
+
+Where "/home/user/wxWidgets-2.8.0" is the directoy where you built the wxWidgets.
+
+OBS: To build in the portable mode use the parameter: --enable-portable
+# ./configure --prefix=/usr/i586-mingw32msvc --host=i586-mingw32msvc  --with-wxdir=/home/user/wxWidgets-2.8.0 --enable-portable
+# make
+
+
+5.3) Mac OS X
+----------
+
+- Compiling source code
+
+This has not been tested but should work using the same steps as Linux. Please report
+your experiences.
+
+
+

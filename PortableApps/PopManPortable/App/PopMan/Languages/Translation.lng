@@ -1,0 +1,514 @@
+[File Info]
+
+Language=
+Author=
+Email=
+Date=
+Comment=
+LangID=
+
+
+[Translations]
+
+Not connected<=>
+Connection failure<=>
+Canceled<=>
+Invalid server response<=>
+Timeout<=>
+Login failed<=>
+Message not found<=>
+Server failure: Message not found!<=>
+Busy<=>
+Ready<=>
+Connecting...<=>
+Connected!<=>
+Login...<=>
+Successfully logged in!<=>
+Loading message ...<=>
+Loading message {1} of {2} ...<=>
+Deleting message {1} of {2} ...<=>
+
+# Update Wizard
+
+Update Wizard<=>
+There are no updates available.<=>
+There is a new version {1} available!<=>
+There is a new {1} Beta version available!<=>
+Click "Next" to update your copy of PopMan...<=>
+Unable to retrieve version infomation!<=>
+Error number: {1}<=>
+Welcome to the PopMan Update Wizard<=>
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>
+Failed to load Decompress.dll!<=>
+Initializing...<=>
+Do you really want to cancel the update process?<=>
+Update process failed!<=>
+Error while downloading initialization file!<=>
+No updates available.<=>
+Failed to retrieve temporary directory!<=>
+Saving {1} ...<=>
+Failed to create directory:<=>
+Failed to decompress file:<=>
+Failed to download file:<=>
+(checksum error)<=>
+Please try again later.<=>
+Error while saving downloaded file!<=>
+All files downloaded successfully.<=>
+Press the "Finish" button to complete the update process...<=>
+Failed to initialize the final copy process!<=>
+Downloading {1} ...<=>
+Progress all:<=>
+Progress current file:<=>
+Download of updated files<=>
+
+# Import Accounts Dialog
+
+Account<=>
+Type<=>
+User<=>
+Server<=>
+Port<=>
+Please select the accounts that you want to import from Outlook Express.<=>
+&Properties...<=>
+OK<=>
+Cancel<=>
+Import email accounts<=>
+Description<=>
+
+# Account Dialog
+
+General<=>
+Colors<=>
+Advanced<=>
+Can not change account settings while there are busy accounts.<=>
+Please enter the address of the Server!<=>
+Please enter the account name!<=>
+Please enter user name!<=>
+Account name:<=>
+Protocol:<=>
+Server:<=>
+Port:<=>
+User name:<=>
+Password:<=>
+Include this account when receiving mail<=>
+1 minute<=>
+{1} minutes<=>
+1 second<=>
+{1} seconds<=>
+Use UIDL when deleting messages<=>
+Use custom AutoCheck timer interval<=>
+Timer interval:<=>
+minutes<=>
+Server Timeouts<=>
+Short<=>
+Long<=>
+Load all emails completely<=>
+Retrieve header and {1} lines of message body<=>
+Number of lines:<=>
+Load small emails completely<=>
+Small emails are < <=>
+Parameters<=>
+Use individual font color:<=>
+Circle color in system tray:<=>
+Invalid parameter string!<=>
+Default<=>
+
+# Accounts Dialog
+
+Mail Accounts<=>
+&Add...<=>
+&Remove<=>
+Move &up<=>
+Move &down<=>
+&Close<=>
+
+# Download Dialog
+
+Loading the following mail:<=>
+Loading Mail...<=>
+
+# BlackList/WhiteList Dialog
+
+Black List<=>
+Messages from senders in the list below will be deleted automatically from the server.<=>
+White List<=>
+Messages from senders in the list below will never be deleted automatically.<=>
+Address:<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>
+Enter address<=>
+
+# Password Dialog
+
+Password - {1}<=>
+Enter the password of the following account.<=>
+Account:<=>
+Remember password<=>
+Password incorrect! Please note that the password is case-sensitive.<=>
+Please enter the password.<=>
+
+# Add item to Rules list Dialog
+
+Add item to Rules list<=>
+Destination List<=>
+New Item<=>
+Item Type<=>
+Word<=>
+String<=>
+Regular Expression<=>
+
+# Save Dialog
+
+Please specify where to save the emails.<=>
+The specified folder does not exist!<=>
+Please specify a template for the file names.<=>
+A file name must not contain any of the following characters:<=>
+Invalid template! Use a combination of the following placeholders:<=>
+Subject<=>
+From<=>
+To<=>
+Date<=>
+Time<=>
+Save As...<=>
+Destination<=>
+Folder:<=>
+Browse...<=>
+Save Format<=>
+Template For File Names<=>
+Email File (*.eml)<=>
+Text File (*.txt)<=>
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>
+Sound (*.wav)<=>
+Notify when new mail arrives<=>
+Always<=>
+When AutoChecked or minimized<=>
+Only when minimized<=>
+On new mail<=>
+Acoustic notification<=>
+Sound:<=>
+&Test<=>
+Show PopMan window<=>
+Show new mail tip<=>
+Limit tips to [PROTECTED] messages<=>
+Include sender and subject of new mails<=>
+Use balloon tip<=>
+Flash keyboard light:<=>
+Unread Messages<=>
+Display unread messages in bold font<=>
+Preview Pane<=>
+Use the preview pane to quickly view a message without opening a separate window.<=>
+Show preview pane<=>
+Be&low messages<=>
+Be&side messages<=>
+Use logging to record all data communication between PopMan and the email server.<=>
+Enable logging<=>
+Only log compact mail info instead of entire data traffic<=>
+Log file size:<=>
+KB<=>
+Enable logging of applied rules<=>
+Location of the log file "PopManLogFile.log":<=>
+Use dial-up networking<=>
+Launch PopMan on Windows startup<=>
+Check for new mail on startup<=>
+First wait<=>
+seconds<=>
+X button hides to tray<=>
+Min button hides to tray<=>
+Delete confirmation in main window<=>
+Delete confirmation in preview pane and message window<=>
+Delete command marks message for deletion<=>
+Enable password protection:<=>
+AutoCheck only while minimized<=>
+Don't check between:<=>
+and<=>
+Enable custom AutoCheck interval per account:<=>
+Interval<=>
+Custom<=>
+Executable (*.exe)<=>
+Hide PopMan to tray<=>
+Quit PopMan<=>
+Email client:<=>
+When launching email client:<=>
+When replying<=>
+Use temporary eml file (Outlook Express)<=>
+Use mailto (without quotted original message)<=>
+Use MAPI<=>
+Use HTML linebreaks in reply body<=>
+Enforce email address (Yahoo! Mail)<=>
+Launch email client with command line parameter:<=>
+Number of messages<=>
+Show number of messages in tray icon<=>
+Show number of all messages<=>
+Show number of unread messages<=>
+Show number of new messages<=>
+Rotate icon for each account<=>
+Rotation interval:<=>
+tenths of a second<=>
+Show advanced account info<=>
+Enable HighColor icons in system tray<=>
+Nothing<=>
+Show Window<=>
+Check Mail<=>
+PopUp Menu<=>
+Run Email Client<=>
+Check And Show<=>
+Toggle Window<=>
+Toggle AutoCheck<=>
+Show Mail Info<=>
+Tray Mouse Actions<=>
+Left Click:<=>
+Right Click:<=>
+Middle Click:<=>
+Double Click:<=>
+Double click delay on click<=>
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>
+Language:<=>
+Author:<=>
+Email:<=>
+Updated:<=>
+Comment:<=>
+
+# Source Dialog
+
+RichEdit control init failed.<=>
+Source - "{1}"<=>
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>
+Error while writing to the log file:<=>
+Logging disabled!<=>
+[PROTECTED]<=>
+
+# List View
+
+Size<=>
+Received<=>
+Attachment<=>
+Sent<=>
+Priority<=>
+UserAgent<=>
+Rules<=>
+High<=>
+Low<=>
+Normal<=>
+Are you sure you want to delete the selected email?<=>
+Are you sure you want to delete the {1} selected emails?<=>
+&Open...{TAB}Ctrl+O<=>
+Sou&rce...<=>
+&Save As...{TAB}Ctrl+S<=>
+Repl&y To Sender{TAB}Ctrl+R<=>
+&Trust Sender<=>
+&Block Sender<=>
+&Delete{TAB}Del<=>
+&Unmark{TAB}Ins<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+This will add the following email addresses to the Black List:<=>
+Note: All future emails from senders on the Black List will be deleted automatically!<=>
+This will add the following email addresses to the White List:<=>
+
+# Main Window
+
+Empty Trash<=>
+Options<=>
+AutoCheck<=>
+Notification<=>
+Email Client<=>
+View<=>
+Tray Icon<=>
+Language<=>
+Mouse Actions<=>
+Logging<=>
+&File<=>
+&Accounts...<=>
+&Update{TAB}F5<=>
+&Cancel{TAB}Esc<=>
+Delete &Marked Emails{TAB}F12<=>
+&Exit<=>
+&View<=>
+&Toolbar<=>
+&Statusbar<=>
+&Hide Marked Messages<=>
+Move Marked Messages to Tr&ash Tab<=>
+Tab &View{TAB}Ctrl+M<=>
+&Tools<=>
+&Font...<=>
+Font &Color...<=>
+&Themes<=>
+Launch &Email Client{TAB}Ctrl+E<=>
+&Import Accounts...<=>
+&White List...<=>
+&Black List...<=>
+&Rules...<=>
+Add Item To Rules &List...{TAB}F9<=>
+&Options<=>
+&Help<=>
+&Help Topics...{TAB}F1<=>
+Check For &Updates<=>
+&About PopMan...<=>
+Edit email accounts.{BR}Accounts<=>
+Update email listing.{BR}Update<=>
+Cancel current operation.{BR}Cancel<=>
+Show email content.{BR}Show<=>
+Show source code of this email.{BR}Source code<=>
+Save selected email to file.{BR}Save<=>
+Create a reply message to the sender.{BR}Reply<=>
+Delete selected emails.{BR}Delete<=>
+Delete marked emails.{BR}Delete marked emails<=>
+Unmark (undelete) selected emails.{BR}Unmark<=>
+Add sender to Black List.{BR}Block Sender<=>
+Add sender to White List.{BR}Trust Sender<=>
+Quit the application.{BR}Exit<=>
+Show or hide the toolbar.{BR}Toggle ToolBar<=>
+Show or hide the status bar.{BR}Toggle StatusBar<=>
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>
+Hide messages that are marked for delete.{BR}Hide marked messages<=>
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>
+Change font.{BR}Font<=>
+Change font color.{BR}Font Color<=>
+Launch email client.{BR}Email Client<=>
+Import email accounts from Outlook Express.{BR}Import Accounts<=>
+Edit the rules.{BR}Rules<=>
+Add item to Rules list.{BR}Add To List<=>
+Edit list of trusted senders.{BR}WhiteList<=>
+Edit list of blocked senders.{BR}BlackList<=>
+Change program settings.{BR}Settings<=>
+Show Help Topics.{BR}Help<=>
+Check if a new version is available.{BR}Check for updates<=>
+Display program information, version number and copyright.{BR}About<=>
+Show the main window.{BR}Show<=>
+Enable AutoChecking.{BR}Enable<=>
+Suspend New Mail Notification Sound.{BR}Mute<=>
+Open the selected attachment.{BR}Open<=>
+Save the selected attachments.{BR}Save<=>
+Save all attachments.{BR}Save All<=>
+Change the window size.<=>
+Change the window position.<=>
+Reduce the window to an icon.<=>
+Enlarge the window to full size.<=>
+Close the active window.<=>
+Restore the window to normal size.<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Don't display this &message again.<=>
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>
+&Close{TAB}Esc<=>
+&Edit<=>
+&Cut{TAB}Ctrl+X<=>
+C&opy{TAB}Ctrl+C<=>
+&Paste{TAB}Ctrl+V<=>
+&Find...{TAB}Ctrl+F<=>
+Find &Next{TAB}F3<=>
+Select &All{TAB}Ctrl+A<=>
+Print this email.{BR}Print<=>
+Delete this email.{BR}Delete<=>
+Close window.{BR}Close<=>
+Cut the selection and put it on the Clipboard.{BR}Cut<=>
+Copy the selection and put it on the Clipboard.{BR}Copy<=>
+Insert Clipboard contents.{BR}Paste<=>
+Find the specified text.{BR}Find<=>
+Find next occurence of specified text.{BR}Find next<=>
+Select the entire message.{BR}Select All<=>
+"{1}" not found.<=>
+&Open<=>
+&Save As...<=>
+Save &All...<=>
+This attachment can not be accessed anymore.<=>
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>
+Opening this file is therefore denied.<=>
+Do you really want to save this file to your hard disk?<=>
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>
+Do you really want to save these files to your hard disk?<=>
+Please specify where to save the attachments.<=>
+The file "{1}" does already exist!{BR}Overwrite it?<=>
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>
+Are you sure you want to delete this email?<=>
+Deleting email failed!<=>
+From:<=>
+Date:<=>
+To:<=>
+Subject:<=>
+Attach:<=>
+Protocol plugin not initialized correctly!<=>
+
+# PopMan Start
+
+Please start one instance only.<=>
+Windows socket init failed.<=>
+{1} Beta version has been updated successfully!<=>
+You have successfully updated to version {1} !<=>
+About PopMan<=>
+PopMan, Version {1}<=>
+Website:<=>
+Forum:<=>
+
+# Document
+
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>
+The error log file "{1}" could not be created.<=>
+Checking {1}...<=>
+Email (*.eml)<=>
+Text (*.txt)<=>
+Unable to load mail system support.<=>
+Mail system DLL is invalid.<=>
+Unable to detect if a new version is available.<=>
+There is no update available.<=>
+Do you want to start the update wizard and download the latest version?<=>
+Deleting mail...<=>
+Downloading mail...<=>
+AutoCheck disabled<=>
+No messages<=>
+1 new message<=>
+{1} new messages<=>
+PopMan - New Mail<=>
+&Open PopMan<=>
+Check &Mail<=>
+&Cancel<=>
+&Email Client<=>
+A&utoCheck Enabled<=>
+Mu&te Mode<=>
+O&ptions...<=>
+&About...<=>
+E&xit<=>
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>
+PopMan - Mail Info<=>
+1 message<=>
+{1} messages<=>
+1 unread message<=>
+{1} unread messages<=>
+in {1}<=>
+in {1} accounts<=>
+Show<=>
+Delete<=>
+Close<=>
+(last check: {1})<=>
+You are about to irrevocably delete all marked messages.<=>
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>
+You can also delete selected messages immediately by pressing Shift+Del.<=>
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>
+Failed to add item to Rules list!<=>
+
+# Main View
+
+Separate account | All<=>
+Check accounts{TAB}F7<=>
+Join with tab<=>
+Rename tab{TAB}F2<=>
+Mark All Mails Read<=>
+Mark All Mails Unread<=>
+You have to add at least one account before you can switch to tab view.<=>
+Caption:<=>
+Please enter the caption of the tab:<=>
+Rename tab<=>
+Trash<=>
+Tab accounts:<=>
+
+# Rules
+
+Error while parsing rules file at line {1}!<=>
+The item is already contained in the list!<=>
+
+# Text View
+
+Copy Link Address<=>

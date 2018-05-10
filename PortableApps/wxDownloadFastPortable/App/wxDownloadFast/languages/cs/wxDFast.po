@@ -1,0 +1,1593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wxDownload Fast\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-01-08 22:15-0300\n"
+"Last-Translator: Max Velasques <maxvelasques@mail.com>\n"
+"Language-Team: David Vachulka <david@imodelar.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-Basepath: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-SearchPath-0: /home/max/Projetos/wxDFast/src\n"
+"X-Poedit-SearchPath-1: /home/max/Projetos/wxDFast/src/wxMD5\n"
+"X-Poedit-SearchPath-2: /home/max/Projetos/wxDFast/resources\n"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:63
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:813
+msgid "Total Speed:"
+msgstr "Celková rychlost:"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:65
+msgid "Total Complete:"
+msgstr "Dokonèené:"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:67
+msgid "Downloads in progress:"
+msgstr "Stahování v bìhu:"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:84
+msgid "Hide the main window"
+msgstr "Skrýt hlavní okno"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:86
+msgid "Show the main window"
+msgstr "Zobrazit hlavní okno"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:87
+msgid "New download"
+msgstr "Nové stahování"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:88
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2726
+msgid "Close the program"
+msgstr "Zavøít program"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:91
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:167
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:184
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:202
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:423
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:430
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:438
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1764
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1771
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1779
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2422
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2434
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2446
+msgid "Band control"
+msgstr "Ovládání ¹íøky pásma"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:93
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:169
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:440
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1781
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2448
+msgid "Unlimited"
+msgstr "Neomezená ¹íøka pásma"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:93
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:95
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:96
+msgid "Just for this session. To change definitely go to \"Options\""
+msgstr "Jen pro toto spu¹tìní. Pro trvalou zmìnu nastavte ve \"Volbách\""
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:94
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:186
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:432
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1773
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2436
+msgid "Active"
+msgstr "Aktivní"
+
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:96
+#: /home/max/Projetos/wxDFast/src/TaskBarIcon.cpp:204
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:425
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1766
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2424
+msgid "Per Download"
+msgstr "Podle stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:144
+msgid "Downloads in Progress"
+msgstr "Stahování v bìhu"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:145
+msgid "Finished Downloads"
+msgstr "Dokonèená stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:345
+#: /tmp/dummy:25
+msgid "Schedule Download"
+msgstr "Naplánovat stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:346
+#: /tmp/dummy:26
+#: /tmp/dummy:89
+msgid "Start Download"
+msgstr "Spustit stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:347
+#: /tmp/dummy:27
+msgid "Stop Download"
+msgstr "Zastavit stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:348
+#: /tmp/dummy:24
+msgid "Remove Download"
+msgstr "Odebrat stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:349
+msgid "Properties of Download"
+msgstr "Vlastnosti stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:350
+#: /tmp/dummy:60
+msgid "Download File Again"
+msgstr "Stáhnout soubor znovu"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:351
+#: /tmp/dummy:57
+msgid "Move File"
+msgstr "Pøesunout soubor"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:352
+#: /tmp/dummy:58
+msgid "Check Integrity"
+msgstr "Zkontrolovat integritu"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:353
+#: /tmp/dummy:33
+msgid "Copy URL"
+msgstr "Kopírovat URL"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:354
+#: /tmp/dummy:34
+msgid "Copy Download Data"
+msgstr "Kopírovat sta¾ená data"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:355
+#: /tmp/dummy:59
+msgid "Open Destination Directory"
+msgstr "Otevøít cílový adresáø"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:416
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1757
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2869
+msgid "NEW RELEASE: "
+msgstr "Nové vydání:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:418
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1759
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2871
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2873
+msgid " is available."
+msgstr " je dostupné."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:447
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:610
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1397
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1736
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:129
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:143
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:284
+#: /tmp/dummy:100
+msgid "File type"
+msgstr "Typ souboru"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:450
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1739
+#: /tmp/dummy:101
+msgid "Preview"
+msgstr "Náhled"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:624
+msgid "Piece "
+msgstr "Díl"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1004
+msgid "Stopping the download..."
+msgstr "Zastavování stahování..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1004
+msgid "Stopping the current download before removing..."
+msgstr "Zastavování stahování pøed odebráním..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1016
+msgid "Do you also want to remove the partial downloaded file from the disk?"
+msgstr "Chcete vymazat èástìènì sta¾ené soubory z disku?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1016
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1054
+msgid "Remove..."
+msgstr "Odebírám..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1054
+msgid "Do you also want to remove downloaded file(s) from the disk?"
+msgstr "Chcete vymazat sta¾ený soubor(y) z disku?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1171
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2853
+msgid "Error creating thread!"
+msgstr "Chyba pøi vytváøení vlákna!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1171
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1179
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1344
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1456
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2081
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2148
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2154
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2174
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2212
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2532
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2543
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2554
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2765
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2915
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2918
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2921
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:45
+#: /home/max/Projetos/wxDFast/src/wxDFast.cpp:339
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:46
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:61
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:79
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:91
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:113
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:126
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:163
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:195
+msgid "Error..."
+msgstr "Chyba..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1179
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2859
+msgid "Error starting thread!"
+msgstr "Chyba pøi startu vlákna!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1218
+msgid "Starting the downloads..."
+msgstr "Spou¹tení stahování..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1235
+msgid "Stopping the downloads..."
+msgstr "Zastavování stahování..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1344
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1456
+msgid "Unable to open the clipboard!"
+msgstr "Nebylo mo¾né otevøít schránku!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1392
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:142
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:283
+msgid "Name"
+msgstr "Jméno"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1402
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:252
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:144
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:271
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:285
+msgid "Size"
+msgstr "Velikost"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1407
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:145
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:286
+msgid "Time"
+msgstr "Èas"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1412
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:146
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:287
+msgid "Destination"
+msgstr "Umístìní"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1419
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:149
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:290
+msgid "MD5"
+msgstr "MD5"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1425
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:150
+#: /tmp/dummy:94
+#: /tmp/dummy:95
+msgid "Reference URL"
+msgstr "URL odkazu"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1430
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:151
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:291
+#: /tmp/dummy:93
+msgid "Comments"
+msgstr "Komentáøe"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1435
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:152
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:292
+msgid "URLs"
+msgstr "URLs"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1537
+msgid "Find file..."
+msgstr "Najít soubor..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:1866
+#: /tmp/dummy:56
+msgid "Download Properties"
+msgstr "Vlastnosti stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2037
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2167
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:141
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:55
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:77
+msgid "Select the directory:"
+msgstr "Vybrat adresáø:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2072
+msgid "Moving..."
+msgstr "Pøesouvání..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2072
+msgid "Moving file..."
+msgstr "Pøesouvání souboru..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2081
+msgid "Error moving file."
+msgstr "Chyba pøi pøesouvání souboru."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2087
+msgid ""
+"The file isn't in the path that it was saved initially.\n"
+"Do you want to change only the old path for the current one?"
+msgstr ""
+"Soubor není na cestì, v které byl pùvodnì ulo¾en.\n"
+"Chcete zmìnit jen starou cestu na aktuální?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2090
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2758
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:108
+msgid "Continue..."
+msgstr "Pokraèovat..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2134
+msgid "Checking file's MD5..."
+msgstr "Kontrola MD5 souètu souboru..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2141
+msgid "The file was verified successfully."
+msgstr "Soubor byl úspì¹nì ovìøen."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2141
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2172
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2207
+msgid "Success..."
+msgstr "Úspìch..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2145
+msgid "The MD5 calculated previously is different from the current one."
+msgstr "MD5 døíve vypoètený je jiný ne¾ aktuální."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2146
+msgid ""
+"\n"
+"Old MD5 =\t\t"
+msgstr ""
+"\n"
+"Starý MD5 =\t\t"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2147
+msgid ""
+"\n"
+"Current MD5 =\t"
+msgstr ""
+"\n"
+"Aktuální MD5 =\t"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2154
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2921
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:107
+msgid "File not found."
+msgstr "Soubor nenalezen."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2172
+msgid "The configuration was exported successfully."
+msgstr "Nastavení bylo úspì¹nì exportováno."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2174
+msgid "Error exporting configuration."
+msgstr "Chyba pøi exportu nastavení."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2201
+msgid "Select the file..."
+msgstr "Vybrat soubor..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2207
+msgid ""
+"The configuration was imported successfully.\n"
+"The program will be restated now for the changes to take effect."
+msgstr ""
+"Nastavení bylo úspì¹nì importováno.\n"
+"Program bude nyní restartován, aby se projevily provedené zmìny."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2212
+msgid "Error importing configuration."
+msgstr "Chyba pøi importu nastavení."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2242
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2253
+msgid "Command :\t"
+msgstr "Pøíkaz:\t"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2242
+msgid "Shutdown Command..."
+msgstr "Vypnutí..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2253
+msgid "Disconnect Command..."
+msgstr "Odpojení..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2335
+msgid "Updating the configuration..."
+msgstr "Update nastavení..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2335
+msgid "Updating and saving the configuration..."
+msgstr "Update a ulo¾ení nastavení..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2531
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2542
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2553
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2764
+msgid ""
+"Unable to find the browser.\n"
+"Go to \"Options\" and specify a valid one."
+msgstr ""
+"Nemohu najít prohlí¾eè.\n"
+"Definujte ho v \"Volbách\"."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2563
+msgid "Version: "
+msgstr "Verze: "
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2564
+msgid "Author: "
+msgstr "Autor:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2566
+msgid "I'd like to thank the following contributors for their help:\n"
+msgstr "Chtìl bych podìkovat následujícím pøispìvatelùm za jejich pomoc:\n"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2568
+msgid " - several tips and donations\n"
+msgstr " - nìkolik tipù a podpora\n"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2570
+msgid ""
+" - Ripstop theme\n"
+"\n"
+msgstr ""
+" - Ripstop téma\n"
+"\n"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2571
+msgid "Visit our website:\n"
+msgstr "Nav¹tivte na¹í webovou stránku:\n"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2574
+msgid "Help to improve the program!\n"
+msgstr "Pomo¾te zlep¹it program!\n"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2575
+msgid "Donate to this project!"
+msgstr "Podpoøte projekt!"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2596
+msgid "Do you want to close the program?"
+msgstr "Chcete zavøít program?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2596
+msgid "Close..."
+msgstr "Zavøít..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2686
+#: /tmp/dummy:3
+#: /tmp/dummy:73
+msgid "Add new download"
+msgstr "Pøidat nové stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2690
+#: /tmp/dummy:5
+msgid "Remove the selected download"
+msgstr "Odebrat vybraná stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2694
+#: /tmp/dummy:7
+msgid "Mark the selected download as scheduled"
+msgstr "Oznaèit vybraná stahování jako naplánovaná"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2698
+#: /tmp/dummy:9
+msgid "Start the selected download"
+msgstr "Spustit vybraná stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2702
+#: /tmp/dummy:11
+msgid "Stop the selected download"
+msgstr "Zastavit vybraná stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2706
+#: /tmp/dummy:13
+#: /tmp/dummy:28
+msgid "Start all downloads"
+msgstr "Spustit v¹echna stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2710
+#: /tmp/dummy:15
+#: /tmp/dummy:29
+msgid "Stop all downloads"
+msgstr "Zastavit v¹echna stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2714
+msgid "Raise in one level the selected download in the queue"
+msgstr "Posunout vybrané stahování ve frontì o jednu úroveò vý¹e"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2718
+msgid "Lower in one level the selected download in the queue"
+msgstr "Posunout vybrané stahování ve frontì o jednu úroveò ní¾e"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2722
+#: /tmp/dummy:21
+msgid "Show the properties of the selected download"
+msgstr "Zobrazit vlastnosti vybraného stahování"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2757
+msgid ""
+"You have downloaded a HTML file.\n"
+"Open this file in your browser?"
+msgstr ""
+"Stáhnul jste HTML soubor.\n"
+"Otevøít v prohlí¾eèi?"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2774
+msgid "Shutting down the computer..."
+msgstr "Vypnout poèítaè..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2774
+msgid "The computer will shut down in seconds..."
+msgstr "Poèítaè bude vypnut bìhem nìkolika sekund..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2786
+msgid "Disconnecting from the Internet..."
+msgstr "Odpojování od Internetu..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2786
+msgid "The Internet connection will be closed in seconds..."
+msgstr "Internetové pøipojení bude zavøeno bìhem nìkolika sekund..."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2873
+msgid "Visit http://dfast.sourceforge.net for more informations."
+msgstr "Nav¹tivte http://dfast.sourceforge.net pro dal¹í informace."
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2911
+msgid "List of files in Zip archive:"
+msgstr "Seznam souborù v Zip archívu:"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2911
+msgid "Zip Preview"
+msgstr "Náhled zipu"
+
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2915
+#: /home/max/Projetos/wxDFast/src/MainFrame.cpp:2918
+msgid "Unable to extract zip file content!"
+msgstr "Nebylo mo¾né extrahovat obsah zip souboru!"
+
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:45
+msgid ""
+"Unable to search in this page.\n"
+"Change to another page and try again"
+msgstr ""
+"Nemohu vyhledávat na této stránce.\n"
+"Zmìnte to na jinou stránku a zkuste znovu"
+
+#: /home/max/Projetos/wxDFast/src/BoxFind.cpp:107
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:99
+msgid "Information..."
+msgstr "Informace..."
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.cpp:327
+msgid "Cannot set locale to"
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.cpp:329
+msgid "This language is not supported by your system."
+msgstr ""
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:46
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:79
+msgid "The following URL is invalid:\n"
+msgstr "Následující URL je neplatná:\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:61
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:163
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:195
+msgid "The URL is invalid!"
+msgstr "URL je neplatná!"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:91
+msgid "The following URL has a different filename:\n"
+msgstr "Následující URL má jiné jméno souboru:\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:99
+msgid "Select at least one item of the address list!\n"
+msgstr "Vyberte nejménì jednu polo¾ku ze seznamu adres!\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:108
+msgid ""
+"The destination directory does not exist!\n"
+"Do you want to create it?"
+msgstr ""
+"Cílový adresáø neexistuje!\n"
+"Chcete ho vytvoøit?"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:113
+msgid "You don't have permission to create the directory!"
+msgstr "Nemáte práva potøebná pro vytvoøení adresáøe!"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:126
+msgid "I can't split the file into so many pieces!"
+msgstr "Nemohu rozdìlit soubor na tolik dílù!"
+
+#: /home/max/Projetos/wxDFast/src/BoxNew.cpp:177
+msgid "Edit the URL"
+msgstr "Editovat URL"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:35
+msgid "Double-click on the item to Start/Stop the download"
+msgstr "Dvoj-kliknìte na polo¾ku pro Spu¹tìní/Zastavení stahování"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:208
+msgid "   [ Yes ]"
+msgstr "   [ Ano ]"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:210
+msgid "   [ No  ]"
+msgstr "   [ Ne ]"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:246
+msgid "Restart"
+msgstr "Restart"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:249
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:269
+msgid "Filename"
+msgstr "Jméno souboru"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:255
+msgid "Completed"
+msgstr "Dokonèené"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:258
+msgid "Percentage"
+msgstr "Procentuálnì"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:261
+msgid "Time Passed"
+msgstr "Uplynulý èas"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:264
+msgid "Remaining"
+msgstr "Zbývající"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:267
+msgid "Speed"
+msgstr "Rychlost"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:270
+msgid "Attempts"
+msgstr "Pokusy"
+
+#: /home/max/Projetos/wxDFast/src/InProgressList.cpp:273
+msgid "URL"
+msgstr "URL"
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:39
+msgid "Double-click on the item to open the destination directory"
+msgstr "Dvoj-kliknìte na polo¾ku pro otevøení adresáøe"
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:147
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:288
+msgid "Started"
+msgstr "Spu¹tìné"
+
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:148
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:273
+#: /home/max/Projetos/wxDFast/src/FinishedList.cpp:289
+msgid "Finished"
+msgstr "Dokonèeno"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:67
+msgid ""
+"You have downloaded a HTML file.\n"
+"Opening this file in your browser.\n"
+msgstr ""
+"Stáhnul jste HTML soubor.\n"
+"Otevøít v prohlí¾eèi.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:193
+msgid "This protocol isn't supported.\n"
+msgstr "Tento protokol není podporován.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:247
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:915
+msgid "Redirecting to "
+msgstr "Pøesmìrování na"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:265
+msgid "Metalink file detected\n"
+msgstr "Detekovám Metalink soubor\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:266
+msgid "Getting Metalink data...\n"
+msgstr "Stahuji Metalink data...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:296
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:715
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:962
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1138
+#: /tmp/dummy:176
+msgid "Not available"
+msgstr "Není dostupný"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:317
+msgid "This Metalink file contains multiples files.\n"
+msgstr "Tento Metalink soubor obsahuje nìkolik souborù.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:320
+msgid "Creating all downloads...\n"
+msgstr "Vytváøení v¹ech stahování...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:330
+msgid "Getting file number "
+msgstr "Stahování poètu souborù"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:336
+msgid "Error retrieving Metalink data\n"
+msgstr "Chyba pøi obdr¾ení Metalink dat\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:355
+msgid "New attempt in "
+msgstr "Nový pokus v"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:355
+msgid " seconds\n"
+msgstr " sekundách\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:369
+msgid "Attempt "
+msgstr "Pokus"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:369
+msgid " of "
+msgstr " ze"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:390
+msgid "Canceled.\n"
+msgstr "Zru¹eno.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:412
+msgid "Critical error!! The start point is bigger that the end point!!\n"
+msgstr "Kritická chyba!! Poèáteèní bod je vìt¹í ne¾ koncový!!\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:434
+msgid "Error establishing input stream.\n"
+msgstr "Chyba pøi vytvoøení proudu.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:449
+msgid "Copying file...\n"
+msgstr "Kopírování souboru...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:454
+msgid "Error opening file "
+msgstr "Chyba pøi otevøení souboru"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:548
+msgid "Error copying file.\n"
+msgstr "Chyba pøi kopírování souboru.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:568
+msgid "Error writing file.\n"
+msgstr "Chyba pøi zapisování souboru.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:639
+msgid "Finished this piece\n"
+msgstr "Díl dokonèen\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:657
+msgid "Waiting for the other pieces...\n"
+msgstr "Èekání na dal¹í díly...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:665
+msgid "Putting all the pieces together...\n"
+msgstr "Spojování v¹ech dílù...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:669
+msgid ""
+"Error joining the pieces.\n"
+"Try to restart the download.\n"
+msgstr ""
+"Chyba pøi spojování dílù.\n"
+"Zkuste restartovat stahování.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:675
+msgid "Checking MD5...\n"
+msgstr "Kontrola MD5...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:676
+msgid "Checking MD5 ... ("
+msgstr "Kontrola MD5... ("
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:684
+msgid "Comparing expected and calculated MD5...\n"
+msgstr "Porovnání oèekávaného a kalkulovaného MD5 souètu...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:687
+msgid "File verified successfully\n"
+msgstr "Soubor byl úspì¹nì ovìøen\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:688
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:698
+msgid "Finished\n"
+msgstr "Dokonèeno\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:692
+msgid "Error comparing MD5.\n"
+msgstr "Chyba pøi porovnání MD5.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:724
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:975
+msgid "Resolving host '"
+msgstr "Øe¹ení serveru '"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:727
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:978
+msgid ""
+"\n"
+"Host not found.\n"
+msgstr ""
+"\n"
+"Server nenalezen.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:733
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:984
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:999
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1023
+msgid " OK\n"
+msgstr " OK\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:737
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:988
+msgid "Trying to connect in '"
+msgstr "Pokous o pøipojení k '"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:742
+msgid "Connection denied.\n"
+msgstr "Pøipojení zakázáno.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:753
+msgid ""
+"Accessing server...\n"
+"\n"
+msgstr ""
+"Pøistupuji na server...\n"
+"\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:853
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1104
+msgid ""
+"The file size has changed since the last time.\n"
+"Removing the partially downloaded files...\n"
+msgstr ""
+"Velikost souboru byla zmìnìna od poslednì.\n"
+"Odebírání èásteènì sta¾ených souborù...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:885
+msgid "This server does not support restart.\n"
+msgstr "Tento server nepodporuje pøeru¹ení stahování.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:898
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:905
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1072
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1160
+msgid "Unable to return the file size.\n"
+msgstr "Nemohu získat velikost souboru.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:929
+msgid "Error requesting file.\n"
+msgstr "Chyba pøi po¾adavku na soubor.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:937
+msgid "The server timed out.\n"
+msgstr "Server neodpovìdìl.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:993
+msgid ""
+"\n"
+"Connection denied.\n"
+msgstr ""
+"\n"
+"Pøipojení zakázáno.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1003
+msgid "Waiting for welcome message.\n"
+msgstr "Èekání na uvítací zprávu.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1008
+msgid "Verifying if the server supports restarting..."
+msgstr "Ovìøování zda server podporuje pøeru¹ení..."
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1011
+msgid ""
+"\n"
+"This server does not support restart.\n"
+msgstr ""
+"\n"
+"Tento server nepodporuje pøeru¹ované stahování.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1030
+msgid "Changing to directory "
+msgstr "Zmìna adresáøe"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1033
+msgid "Invalid directory.\n"
+msgstr "Neplatný adresáø.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1042
+msgid "Changing to binary mode...\n"
+msgstr "Zmìna na binární mód...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1045
+msgid "Unable to change to binary mode.\n"
+msgstr "Nemohu zmìnit na binární mód.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1054
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1157
+msgid "Verifying the size of the "
+msgstr "Ovìøování velikosti"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1080
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1177
+msgid "File size: "
+msgstr "Velikost souboru: "
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1125
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1185
+msgid "Requesting file...\n"
+msgstr "Po¾adování souboru...\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1149
+msgid "Looking for file "
+msgstr "Vyhledávání souboru"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1152
+msgid "File not found.\n"
+msgstr "Soubor nenalezen.\n"
+
+#: /home/max/Projetos/wxDFast/src/DownloadThread.cpp:1258
+msgid "There isn't enough disk space to join the file parts.\n"
+msgstr "Není dostatek místa na disku pro spojení dílù souboru.\n"
+
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:62
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:69
+msgid "Choose a file..."
+msgstr "Výbìr souboru..."
+
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:135
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:142
+msgid "Select the date..."
+msgstr "Výbìr data..."
+
+#: /home/max/Projetos/wxDFast/src/BoxOptions.cpp:158
+msgid "Remove some items before adding a new one."
+msgstr "Odeberte nìjakou polo¾ku pøed pøidáním nové."
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:239
+msgid "Sundays"
+msgstr "Nìdele"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:239
+msgid "Mondays"
+msgstr "Pondìlí"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:239
+msgid "Tuesdays"
+msgstr "Úterý"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:240
+msgid "Wednesdays"
+msgstr "Støeda"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:240
+msgid "Thursdays"
+msgstr "Ètvrtek"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:240
+msgid "Fridays"
+msgstr "Pátek"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:241
+msgid "Saturdays"
+msgstr "Sobota"
+
+#: /home/max/Projetos/wxDFast/src/wxDFast.h:745
+msgid "OK"
+msgstr " OK"
+
+#: /tmp/dummy:1
+msgid "About..."
+msgstr "O..."
+
+#: /tmp/dummy:2
+msgid "New"
+msgstr "Nový"
+
+#: /tmp/dummy:4
+#: /tmp/dummy:165
+msgid "Remove"
+msgstr "Odebrat"
+
+#: /tmp/dummy:6
+#: /tmp/dummy:92
+msgid "Schedule"
+msgstr "Plán"
+
+#: /tmp/dummy:8
+msgid "Start"
+msgstr "Start"
+
+#: /tmp/dummy:10
+msgid "Stop"
+msgstr "Zastavit"
+
+#: /tmp/dummy:12
+msgid "Start All"
+msgstr "Spustit v¹e"
+
+#: /tmp/dummy:14
+msgid "Stop All"
+msgstr "Zastavit v¹e"
+
+#: /tmp/dummy:16
+msgid "Up"
+msgstr "Nahoru"
+
+#: /tmp/dummy:17
+msgid "Push download higher up the queue"
+msgstr "Posunout stahování nahoru ve frontì"
+
+#: /tmp/dummy:18
+msgid "Down"
+msgstr "Dolu"
+
+#: /tmp/dummy:19
+msgid "Push download lower down the queue"
+msgstr "Posunout stahování dozadu ve frontì"
+
+#: /tmp/dummy:20
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: /tmp/dummy:22
+msgid "&File"
+msgstr "&Soubor"
+
+#: /tmp/dummy:23
+msgid "New Download"
+msgstr "Nové stahování"
+
+#: /tmp/dummy:30
+msgid "Exit"
+msgstr "Ukonèit"
+
+#: /tmp/dummy:31
+#: /tmp/dummy:81
+msgid "&Edit"
+msgstr "&Editovat"
+
+#: /tmp/dummy:32
+msgid "Paste URL"
+msgstr "Vlo¾it URL"
+
+#: /tmp/dummy:35
+msgid "Select All"
+msgstr "Vybrat v¹e"
+
+#: /tmp/dummy:36
+msgid "Invert Selection"
+msgstr "Obrácený výbìr"
+
+#: /tmp/dummy:37
+msgid "Find Download"
+msgstr "Najít stahování"
+
+#: /tmp/dummy:38
+msgid "&View"
+msgstr "&Pohled"
+
+#: /tmp/dummy:39
+msgid "Show/Hide Graph"
+msgstr "Zobrazit/Skrýt graf"
+
+#: /tmp/dummy:40
+msgid "Show/Hide Progress Bar"
+msgstr "Zobrazit/Skrýt prùbìhový pruh"
+
+#: /tmp/dummy:41
+msgid "Show/Hide Details"
+msgstr "Zobrazit/Skrýt detaily"
+
+#: /tmp/dummy:42
+msgid "Language"
+msgstr "Jazyk"
+
+#: /tmp/dummy:43
+msgid "(Default)"
+msgstr "(Výchozí)"
+
+#: /tmp/dummy:44
+msgid "English"
+msgstr "Angliètina"
+
+#: /tmp/dummy:45
+msgid "Portuguese"
+msgstr "Portugal¹tina"
+
+#: /tmp/dummy:46
+msgid "Portuguese(Brazil)"
+msgstr "Portugal¹tina (Brazilská)"
+
+#: /tmp/dummy:47
+msgid "German"
+msgstr "Nìmèina"
+
+#: /tmp/dummy:48
+msgid "Spanish"
+msgstr "©panìl¹tina"
+
+#: /tmp/dummy:49
+msgid "Czech"
+msgstr "Èe¹tina"
+
+#: /tmp/dummy:50
+msgid "Russian"
+msgstr "Ru¹tina"
+
+#: /tmp/dummy:51
+msgid "Hungarian"
+msgstr "Maïar¹tina"
+
+#: /tmp/dummy:52
+msgid "Indonesian"
+msgstr "Indonéz¹tina"
+
+#: /tmp/dummy:53
+msgid "Armenian"
+msgstr "Armén¹tina"
+
+#: /tmp/dummy:54
+msgid "Polish"
+msgstr "Pol¹tina"
+
+#: /tmp/dummy:55
+msgid "&Tools"
+msgstr "&Nástroje"
+
+#: /tmp/dummy:61
+msgid "Export Configuration"
+msgstr "Export nastavení"
+
+#: /tmp/dummy:62
+msgid "Import Configuration"
+msgstr "Import nastavení"
+
+#: /tmp/dummy:63
+msgid "Shutdown when finished"
+msgstr "Ukonèit pøi dokonèení"
+
+#: /tmp/dummy:64
+#: /tmp/dummy:66
+msgid "This option is only valid in this session of the program"
+msgstr "Tyto volby jsou platné jen pøi tomto spu¹tìní programu"
+
+#: /tmp/dummy:65
+msgid "Disconnect when finished"
+msgstr "Odpojení pøi dokonèení"
+
+#: /tmp/dummy:67
+#: /tmp/dummy:102
+msgid "Options"
+msgstr "Volby"
+
+#: /tmp/dummy:68
+msgid "&Help"
+msgstr "&Nápovìda"
+
+#: /tmp/dummy:69
+msgid "wxDownload Fast Site"
+msgstr "Stránka wxDownload Fast"
+
+#: /tmp/dummy:70
+msgid "Report Bugs..."
+msgstr "Reportovat chybu..."
+
+#: /tmp/dummy:71
+msgid "Donate..."
+msgstr "Podpoøit..."
+
+#: /tmp/dummy:72
+msgid "About"
+msgstr "O programu"
+
+#: /tmp/dummy:74
+msgid "Save to:"
+msgstr "Ulo¾it do:"
+
+#: /tmp/dummy:75
+msgid "Directory"
+msgstr "Adresáø"
+
+#: /tmp/dummy:76
+msgid "Address:"
+msgstr "Adresa:"
+
+#: /tmp/dummy:77
+msgid ""
+"URL to download\n"
+"Example: http://www.foo.com/foo.exe\n"
+"Example: http://www.foo.com:80/foo.exe\n"
+"Example: ftp://ftp.foo.com:21/foo.exe"
+msgstr ""
+"URL ke sta¾ení\n"
+"Napø.:http://www.foo.com/foo.exe\n"
+"Napø.:http://www.foo.com:80/foo.exe\n"
+"Napø.: ftp://ftp.foo.com:21/foo.exe"
+
+#: /tmp/dummy:78
+#: /tmp/dummy:163
+msgid "Add"
+msgstr "Pøidat"
+
+#: /tmp/dummy:79
+msgid "Address List:"
+msgstr "Seznam adres:"
+
+#: /tmp/dummy:80
+msgid "Only the selected addresses will be downloaded"
+msgstr "Jen vybrané adresy budou sta¾eny"
+
+#: /tmp/dummy:82
+msgid "Server Permission"
+msgstr "Práva serveru"
+
+#: /tmp/dummy:83
+msgid "User:"
+msgstr "U¾ivatel:"
+
+#: /tmp/dummy:84
+msgid "Password:"
+msgstr "Heslo:"
+
+#: /tmp/dummy:85
+msgid "Segmented download"
+msgstr "Rozdìlené stahování"
+
+#: /tmp/dummy:86
+msgid ""
+"Split download into how many\n"
+"pieces?"
+msgstr "Do kolika dílù rozdìlit soubor?"
+
+#: /tmp/dummy:87
+msgid "Download bandwidth (in kB/s)"
+msgstr "©íøka pásma pro stahování (kB/s)"
+
+#: /tmp/dummy:88
+msgid ""
+"Set band width limit for this download.\n"
+"Set \"0\" to unlimited."
+msgstr ""
+"Nastavte ¹íøku pásma pou¾ívanou pro toto stahování.\n"
+"Nastavte \"0\" pro neomezenou."
+
+#: /tmp/dummy:90
+msgid "Manual"
+msgstr "Manuál"
+
+#: /tmp/dummy:91
+msgid "Now"
+msgstr "Nyní"
+
+#: /tmp/dummy:96
+#: /tmp/dummy:97
+msgid "Execute the following command after download completes"
+msgstr "Spustit následující pøíkaz pøi dokonèení stahování"
+
+#: /tmp/dummy:98
+msgid "&OK"
+msgstr "&OK"
+
+#: /tmp/dummy:99
+#: /tmp/dummy:178
+msgid "&Cancel"
+msgstr "&Zru¹it"
+
+#: /tmp/dummy:103
+msgid "General"
+msgstr "Obecné"
+
+#: /tmp/dummy:104
+msgid "Attempts:"
+msgstr "Pokusy:"
+
+#: /tmp/dummy:105
+msgid "Number of attempts"
+msgstr "Poèet pokusù"
+
+#: /tmp/dummy:106
+msgid "Time between the attempts in seconds:"
+msgstr "Èas mezi dvìmi pokusy v sekundách:"
+
+#: /tmp/dummy:107
+msgid "Number of simultaneous downloads:"
+msgstr "Poèet souèasných stahování:"
+
+#: /tmp/dummy:108
+msgid "Remember the last settings on the New Download box"
+msgstr "Pamatovat si poslední nastavení pøi novém stahování"
+
+#: /tmp/dummy:109
+msgid "Shutdown when all downloads finish"
+msgstr "Ukonèit pøi dokonèení v¹ech stahování"
+
+#: /tmp/dummy:110
+msgid "Disconnect when all downloads finish"
+msgstr "Odpojit pøi dokonèení v¹ech stahování"
+
+#: /tmp/dummy:111
+msgid "Show dialog box when program closes"
+msgstr "Zobrazit dialog pøi zavírání programu"
+
+#: /tmp/dummy:112
+msgid "Refresh rate of the download list (millisecs):"
+msgstr "Rychlost obnovování seznamu stahování (msec):"
+
+#: /tmp/dummy:113
+msgid "Download Read Buffer size(in Bytes):"
+msgstr "Velikost Read Bufferu stahování (v Bytech):"
+
+#: /tmp/dummy:114
+msgid "Restore the main window when all downloads finish"
+msgstr "Obnovit hlavní okno pøi dokonèení v¹ech stahování"
+
+#: /tmp/dummy:115
+msgid "Hide the main window when you start a download"
+msgstr "Skrýt hlavní okno pøi startu stahování"
+
+#: /tmp/dummy:116
+msgid "Check for updates automatically"
+msgstr "Kontorolovat update automaticky"
+
+#: /tmp/dummy:117
+msgid "Paths"
+msgstr "Cesty"
+
+#: /tmp/dummy:118
+msgid "Default destination:"
+msgstr "Výchozí umístìní:"
+
+#: /tmp/dummy:119
+#: /tmp/dummy:121
+#: /tmp/dummy:123
+#: /tmp/dummy:128
+#: /tmp/dummy:139
+#: /tmp/dummy:141
+#: /tmp/dummy:143
+#: /tmp/dummy:145
+#: /tmp/dummy:150
+#: /tmp/dummy:155
+msgid "..."
+msgstr "..."
+
+#: /tmp/dummy:120
+msgid "Browser path:"
+msgstr "Cesta k prohlí¾eèi:"
+
+#: /tmp/dummy:122
+msgid "File manager path:"
+msgstr "Cesta k souborovému mana¾eru:"
+
+#: /tmp/dummy:124
+msgid "Shutdown command:"
+msgstr "Pøikaz k ukonèení:"
+
+#: /tmp/dummy:125
+msgid "Disconnect command:"
+msgstr "Pøíkaz pro odpojení:"
+
+#: /tmp/dummy:126
+msgid "Partial Temporary Files Path"
+msgstr "Cesta k temp adresáøi"
+
+#: /tmp/dummy:127
+msgid "Use the destination directory"
+msgstr "Pou¾ít cílový adresáø"
+
+#: /tmp/dummy:129
+msgid "Graph"
+msgstr "Graf"
+
+#: /tmp/dummy:130
+msgid "Show Graph"
+msgstr "Zobrazit graf"
+
+#: /tmp/dummy:131
+msgid "Save how many points to graph?"
+msgstr "Ulo¾it poèet bodù v graf?"
+
+#: /tmp/dummy:132
+msgid "Graph refresh rate (millisecs):"
+msgstr "Rychlost obnovování grafu (msec):"
+
+#: /tmp/dummy:133
+msgid "Graph maximum value (kB/s):"
+msgstr "Maximální hodnota v grafu (kB/s):"
+
+#: /tmp/dummy:134
+msgid "The text area Width (pixels):"
+msgstr "©íøka textového pole (pixels)"
+
+#: /tmp/dummy:135
+msgid "Graph height:"
+msgstr "Vý¹ka grafu:"
+
+#: /tmp/dummy:136
+msgid "Text font size (points):"
+msgstr "Velikost fontu:"
+
+#: /tmp/dummy:137
+msgid "Main line width:"
+msgstr "©íøka hlavní èáry:"
+
+#: /tmp/dummy:138
+msgid "Background colour:"
+msgstr "Barva pozadí:"
+
+#: /tmp/dummy:140
+msgid "Graph grid colour:"
+msgstr "Barva møí¾ky grafu:"
+
+#: /tmp/dummy:142
+msgid "Main line colour:"
+msgstr "Barva hlavní èáry:"
+
+#: /tmp/dummy:144
+msgid "Speed font colour:"
+msgstr "Barva fontu rychlosti:"
+
+#: /tmp/dummy:146
+msgid "Scheduling"
+msgstr "Plánování"
+
+#: /tmp/dummy:147
+msgid "Activate scheduling"
+msgstr "Aktivní plánování"
+
+#: /tmp/dummy:148
+msgid "Start Date:"
+msgstr "Datum spu¹tìní:"
+
+#: /tmp/dummy:149
+msgid "Start Time:"
+msgstr "Èas spu¹tìní:"
+
+#: /tmp/dummy:151
+#: /tmp/dummy:156
+msgid "hours"
+msgstr "hodiny"
+
+#: /tmp/dummy:152
+#: /tmp/dummy:157
+msgid "minutes"
+msgstr "minuty"
+
+#: /tmp/dummy:153
+msgid "Finish Date:"
+msgstr "Datum dokonèení:"
+
+#: /tmp/dummy:154
+msgid "Finish Time:"
+msgstr "Èas dokonèení:"
+
+#: /tmp/dummy:158
+msgid "Deactivate downloads on:"
+msgstr "Deaktivovat stahování v:"
+
+#: /tmp/dummy:159
+msgid "Between"
+msgstr "Mezi"
+
+#: /tmp/dummy:160
+#: /tmp/dummy:162
+msgid ":"
+msgstr ":"
+
+#: /tmp/dummy:161
+msgid "and"
+msgstr "a"
+
+#: /tmp/dummy:164
+msgid "Exceptions List:"
+msgstr "Seznam vyjímek:"
+
+#: /tmp/dummy:166
+msgid "Bandwidth"
+msgstr "©íøka pásma"
+
+#: /tmp/dummy:167
+msgid "Bandwidth Control"
+msgstr "Ovládání ¹íøky pásma"
+
+#: /tmp/dummy:168
+msgid "Unlimited bandwidth"
+msgstr "Neomezená ¹íøka pásma"
+
+#: /tmp/dummy:169
+msgid "Limit band width independently for each download"
+msgstr "©íøka pásma nezávislá pro ka¾dé stahování"
+
+#: /tmp/dummy:170
+msgid "Limit band width for the program (in kB/s):"
+msgstr "©íøka pásma pro program (kB/s):"
+
+#: /tmp/dummy:171
+msgid "Band width limit in kB/s to be used by the program"
+msgstr "Nastavit maximální ¹íøku pásma (kB/s) pou¾ívanou v programu"
+
+#: /tmp/dummy:172
+msgid "Browser Integration"
+msgstr "Integrace v prohlí¾eèi"
+
+#: /tmp/dummy:173
+msgid "Firefox Integration"
+msgstr "Integrace ve Firefoxu"
+
+#: /tmp/dummy:174
+msgid ""
+"To integrate with Firefox, do the following:\n"
+"\n"
+"1) Install the FlashGot extension for Firefox (www.flashgot.org/getit)\n"
+"2) Then restart Firefox and go to:\n"
+"     Tools -> FlashGot -> More Options\n"
+"3)Now select the wxDownload Fast on the Download Manager's List"
+msgstr ""
+"Pro integraci ve Firefoxu:\n"
+"\n"
+"1) Nainstalujte roz¹íøení FlashGot (www.flashgot.org/getit)\n"
+"2) Po restartu Firefoxu:\n"
+"     Nástroje -> FlashGot -> Více voleb\n"
+"3) Nyní vyberte wxDownload Fast ze seznamu"
+
+#: /tmp/dummy:175
+msgid "Internet Explorer Integration"
+msgstr "Integrace v Internet Exploreru"
+
+#: /tmp/dummy:177
+msgid "&Save"
+msgstr "&Ulo¾it"
+

@@ -1,0 +1,644 @@
+Miranda Language Pack Version 1
+Language: Lithuanian
+Locale: 1063
+Last-Modified-Using: Miranda 0.1.1.0 alpha 20010708
+Author: Kostas Dragunas
+Author-email: dkostas@centras.lt
+Sanitized-by: Rimas Kudelis
+Plugins-included:
+
+;General stuff:
+[OK]
+Gerai
+[Cancel]
+Atsisakyti
+[Close]
+Uþverti
+
+;database/database.c
+;[Your profile database is subtlly but terminally corrupted. You will almost certainly have to delete it. Miranda will now kill itself.]
+[Very Very Bad]
+Labai negerai
+
+;protocols/icq/callback.c
+[Your password is incorrect]
+Nurodytas slaptaþodis yra neteisingas!
+
+;protocols/icq/icqdlgs.c
+[The changes you have made require Miranda to be restarted before they take effect]
+Kad atlikti pakeitimai ásigaliotø, turësite perleisti „Mirandà“
+[ICQ Options]
+ICQ parinktys
+[The changes you have made require you to reconnect to the ICQ network before they take effect]
+Kad atlikti pakeitimai ásigaliotø, turite ið naujo prisijungti prie ICQ tinklo
+
+;sendrecv/message/message.c
+[Message from %s]
+Þinutë nuo %s
+[Incoming Message]
+Gauta þinutë
+[&Message]
+&Þinutë
+
+;sendrecv/message/msgdialogs.c
+[Send timed out]
+Baigësi siuntimui skirtas laikas
+
+;sendrecv/url/url.c
+;[URL from %s]
+;[Incoming URL]
+;[Web Page Address (&URL)]
+
+;sendrecv/file/file.c
+[File from %s]
+Failas nuo %s
+[Incoming File Transfer]
+Gaunamas failas
+[&File]
+&Failas
+
+;sendrecv/file/filedialogs.c
+[Select Destination Folder]
+Parinkite paskirties vietà
+[Connected]
+Prisijungta
+[Initialising...]
+Ruoðiamasi...
+[Moving to next file...]
+Einama prie kito failo...
+[Receiving...]
+Gaunama...
+[Sending...]
+Siunèiama...
+;[of file]
+[Transfer completed]
+Siuntimas baigtas
+[Waiting for acceptance...]
+Laukiama patvirtinimo...
+[Request sent, waiting for acceptance...]
+[Transfer accepted, initiating...]
+Perdavimas patvirtintas, ruoðiamasi...
+[Decision sent]
+Sprendimas iðsiøstas
+;[Negotiations completed]
+;[Negotiations failed]
+[Progress]
+Eiga
+[Average Speed: %.3f KBps]
+Vidutinis greitis: %.3f KB/s
+[Current Speed: %.3f KBps]
+Dabartinis greitis: %.3f KB/s
+
+;sendrecv/email/email.c
+[Send e-mail]
+Siusti el. laiðkà
+[User has not registered an e-mail address]
+Vartotojas neturi registruoto el. paðto adreso
+[&e-mail]
+&el. paðtas
+
+;sendrecv/awaymsg/awaymsg.c
+[Re&ad %s Message]
+&Skaityti bûsenos praneðimà
+
+;sendrecv/awaymsg/sendmsg.c
+;**note: don't translate "%time%" and "%date%"
+;**note: you can change these to whatever you want - they're only the default messages
+[I've been away since %time%.]
+Manæs èia nëra nuo %time%.
+[Give it up, I'm not in!]
+Pasiduokit, manæs tikrai nëra!
+[Not right now.]
+Tik ne dabar.
+[Give a guy some peace, would ya?]
+Netrukdykit, praðau!
+[Well, I would talk to you if Miranda ICQ supported chat]
+[Yep, I'm here.]
+Taip, að èia.
+[Nope, not here.]
+Ne, ne èia.
+[I'm hiding from the mafia.]
+Slepiuosi nuo drambliuko.
+;[That'll be the phone.]
+;[Mmm...food.]
+;[Away Messages]
+
+;ui/contactlist/clistmod.c
+[Offline]
+Neprisijungæs
+[Connecting]
+Jungiamasi
+[Online]
+Esu
+[Away]
+Nesu
+[DND]
+Netrukdyti
+[NA]
+Nepasiekiamas
+[Occupied]
+Uþsiëmæs
+[Free for chat]
+Galiu kalbëtis
+[Invisible]
+Nematomas
+[On the phone]
+Kalbuosi telefonu
+[Out to lunch]
+Pietauju
+[Connecting (attempt %d)]
+Jungiamasi (%d bandymas)
+[De&lete]
+Pa&ðalinti
+[&Add permanently to list]
+Á&traukti á sàraðà
+
+;ui/contactlist/clistopts.c
+;[Hotkeys]
+[Contact List]
+Adresatø sàraðas
+
+;ui/contactlist/clistsettings.c
+[(Unknown Contact)]
+(Neþinomas adresatas)
+
+;ui/contactlist/contactlist.c
+;;[New Group] is the default name of a new group
+[New Group]
+Grupë
+
+;ui/contactlist/groups.c
+[You already have a group with that name. Please enter a unique name for the group.]
+Jûs jau turite grupæ tokiu vardu. Áveskite kitoká grupës vardà.
+[Rename Group]
+Pervardinti grupæ
+
+;ui/clui/clui.c
+[&Rename]
+Pervardinti
+
+;ui/clui/cluiopts.c
+[Display]
+Rodyti
+
+;ui/userinfo/userinfo.c
+[User &Details]
+Naudotojo &duomenys
+[View/Change My &Details...]
+Perþiûrëti/pakeisti mano &duomenis...
+[ping error]
+„ping“ klaida
+[Real IP:]
+Realus IP:
+[Male]
+Vyras
+[Female]
+Moteris
+
+;ui/options/options.c
+[Miranda Options]
+„Mirandos“ nuostatos
+[&Options...]
+&Nuostatos...
+
+;ui/history/history.c
+;[View &History]
+;[Message to %s]
+;[Message from %s]
+;[URL to %s]
+;[URL from %s]
+;[File to %s]
+;[File from %s]
+;[History for %s]
+
+;ui/help/about.c
+[Version %s]
+Versija %s
+[Built %s %s]
+Iðleista %s %s
+
+;ui/help/help.c
+[&Help]
+Pa&galba
+[&About...]
+&Apie...
+[&Index\tF1]
+&Þinyno turinys\tF1
+[&Miranda IM Homepage]
+„&Miranda IM“ programos svetainë
+[&Report Bug]
+Praneðti apie programos &klaidà
+[Check for Update]
+Tikrinti ar yra naujinimø
+[&Support]
+&Palaikymas
+
+;ui/findadd/findadd.c
+;[ICQ#]
+[ICQ e-mail]
+ICQ el. pashtas
+[ICQ Name]
+ICQ vardas
+;[UIN]
+[Nick]
+Slapyvardis
+[First Name]
+Vardas
+[Last Name]
+Pavardë
+[e-mail]
+el. paðtas
+[&Find/Add Contacts...]
+Ieðkoti / &pridëti adresatø...
+
+;ui/visibility/visibility.c
+[Visibility]
+Matomumas
+
+;random/checkupdates/checkupdates.c
+[Check for &Updates]
+Ieðkoti &naujinimø
+
+;random/firstrun/firstrun.c
+[Your ICQ number must be a positive integer]
+Jûsø ICQ numeris turi bûti sveikas teigiamas skaièius
+[ICQ Number and Password]
+ICQ numeris ir slaptazodis
+
+;random/plugins/newplugins.c
+[Plugins]
+Papildiniai
+[ICQ protocol support]
+ICQ protokolo palaikymas
+[MSN protocol support]
+MSN protokolo palaikymas
+;[Find/Add Contacts functionality]
+;[User Info context menu item and dialog]
+;[Send/Receive Instant Messages functionality]
+;[Send/Receive URLs functionality]
+;[Send e-mail functionality]
+;[ICQ Authorization send and receive functionality]
+;[Send/Receive Files functionality]
+;[Help menu items]
+;[History functionality]
+;[Check for Updates menu item]
+;[ICQ Database importing functionality]
+;[Auto-Away capability]
+;[User online notifications functionality]
+;[Encryption functionality]
+;[Sending and receiving of away messages]
+;[Ignore options and functionality]
+;[Visible/invisible list options page]
+
+;random/plugins/pluginopts.c
+[Filename]
+Failo vardas
+[Function]
+Funkcija
+[About plugin]
+Apie papildiná
+[About %s]
+Apie „%s“
+
+;random/skin/skin.c
+[Customisation]
+Tinkinimas
+[Sounds]
+Garsai
+[Icons]
+Piktogramos
+
+;random/skin/skinicons.c
+;[User Online]
+;[Group (Open)]
+;[Group (Closed)]
+;[Default]
+
+;random/skin/sounds.c
+[Description]
+Apraðas
+
+;random/autoaway/autoaway.c
+;[Auto Away]
+
+;random/useronline/useronline.c
+[%s is Online]
+%s yra prisijungæs(-usi)
+;[Online alert]
+
+;random/ignore/ignore.c
+[** Unknown contacts **]
+**Neþinomi adresatai**
+[** All contacts **]
+**Visi adresatai**
+[Ignore]
+Ignoruoti
+
+;IDD_ABOUT
+;[About]
+;[This software is released under the terms of the\nGNU General Public Licence]
+
+;IDD_ADDCONTACT1
+[Handle]
+
+;IDD_ADDCONTACT2
+[E-mail Address]
+El. paðto dresas
+
+;IDD_ADDCONTACT3
+[Nickname:]
+Slapyvardis:
+[First name:]
+Vardas:
+[Last name:]
+Pavardë:
+
+;IDD_ADDED
+[You were added]
+JÛs átrauktas
+[The following user added you to their contact list:]
+Ðis naudotojas Jus átraukë á savo adresatø sàraðà:
+[&Add To Contact List]
+Á&traukti á adresatø sàraðà
+
+;IDD_AUTHREQ
+[Authorization Request]
+Autorizacijos uþklausa
+[From:]
+Nuo:
+[Reason:]
+Prieþastis:
+[&Authorize]
+&Patvirtinti
+
+;IDD_DETAILS
+[Change my ICQ details]
+Keisti mano ICQ duomenis
+;[UIN:]
+[Gender:]
+Lytis:
+[e-mail:]
+El. paðtas:
+[City:] 
+Miestas:
+[State:]
+Valstija:
+[Country:]
+Valstybë:
+[Age:]
+Amþius:
+[Phone:]
+Telefonas:
+[Webpage:]
+Tinklalapis:
+;[GO]
+;[IP:]
+;[Ping:]
+[About:]
+Apie:
+
+;IDD_FILERECV
+[Incoming File Transfer]
+Gaunamas failas
+[Files:]
+Failai:
+[Status:]
+Bûsena:
+[Waiting for accept/decline]
+Laukiama patvirtinimo/atmetimo
+[A&ccept]
+Priimti
+[&Decline]
+Atmesti
+
+;IDD_FILESEND
+[Send File(s)]
+Siøsti failus
+;[File(s):]
+[&Choose Again...]
+Pasi&rinkti ið naujo...
+[Description:]
+Apraðas:
+[Waiting for Send command]
+Laukiama siuntimo komandos
+
+;IDD_FINDADD
+[Find/Add Contacts]
+Ieðkoti / pridëti adresatø
+[&Search]
+&Ieðkoti
+[&Clear]
+&Valyti
+[&Add User]
+&Pridëti naudotojà
+
+;IDD_GNUPL
+[Accept]
+Patvirtinti
+[Decline]
+Atmesti
+
+;IDD_HISTORY
+[Message History]
+Praneðimø þurnalas
+[&Find...]
+&Ieðkoti
+
+;IDD_HISTORY_FIND
+[Find]
+Paieðka
+[Find What:]
+Ko ieðkoti:
+[&Find Next]
+&Ieðkoti toliau
+
+;IDD_MSGRECV
+[Message Received]
+Gauta þinutë
+[Date:]
+Data:
+[&Reply]
+&Atsakyti
+[Read &Next]
+&Skaityti kità
+
+;IDD_MSGSEND
+;[Send Message]
+;[&Send]
+
+;IDD_OPT_AUTOAWAY
+;[Set Away mode when screen saver engages]
+;[Set Away mode after]
+;[minutes without mouse movement]
+;[minutes of inactivity]
+;[Set N/A mode after]
+;[minutes of away mode]
+
+;IDD_OPT_AWAYMSG
+;[Do not reply to requests for this message]
+;[Do not pop up dialog asking for new message]
+;[By default, use the same message as last time]
+;[By default, use this message:]
+;don't translate "%time%" or "%date%"
+;[Use %time% for the current time, %date% for the current date]
+
+;IDD_OPT_CLIST
+[Always on top]
+Visuomet virðuje
+;[Single Click Tray]
+;[Hide offline users]
+;[Sort contacts by status]
+
+;IDD_OPT_CLUI
+;[Tool style main window]
+;[Minimize to tray]
+;[Hide horizontal scroll bar]
+;[Title bar text:]
+;[&Transparent Contact List (Win2k only)]
+;[Inactive Transparency:]
+;[Active Transparency:]
+
+;IDD_OPT_HOTKEY
+[Show/Hide:]
+Parodyti / paslëpti:
+[Read Msg:]
+Skaityti þinutæ:
+[Net Search:]
+Tinklo paieðka:
+;[URL:]
+[Open in new browser window]
+Atverti naujame narðyklës lange
+
+;IDD_OPT_ICONS
+[Icon set:]
+Piktogramø rinkinys
+[Preview:]
+Perþiûra:
+[Download more icons]
+Parsiøsti daugiau piktogramø
+
+;IDD_OPT_ICQ
+[ICQ#:]
+ICQ numeris:
+[Password:]
+Slaptaþodis
+[Server:]
+Serveris:
+[Port:]
+Prievadas:
+[Use Proxy Server]
+Naudoti ágaliotàjá serverá
+[Proxy Server:]
+Ágaliotasis serveris:
+[Proxy Requires Authorization]
+Ágaliotasis serveris reikalauja patvirtinti tapatybæ
+[Username:]
+Abonento vardas:
+[Send Messages]
+Praneðimø siuntimas
+[Best way]
+Geriausiu keliu
+[Direct (will not send to offline clients)]
+Tiesiogiai (nesiøs neprisijungusiems adresatams)
+[Through Server (limit of 450 characters)]
+Per serverá (riba – 450 simboliø)
+
+;IDD_OPT_IGNORE
+[The following events are being ignored:]
+Ðiø ávykiø nepaisoma:
+
+;IDD_OPT_PLUGINS
+[Version:]
+Versija:
+[Description:]
+Apraðas:
+[Author:]
+Autorius:
+[Copyright:]
+Autorinës teisës:
+[Homepage:]
+Svetainë:
+[Download more plugins]
+Parsiøsti daugiau papildiniø
+[Note: Miranda will have to be restarted for changes to take effect.]
+Pastaba: kad pakeitimai ásigaliotø, reikës ið naujo paleisti „Mirandà“.
+
+;IDD_OPT_SOUND
+[&Enable Sounds]
+Á&jungti garsus
+[&Change...]
+Pa&keisti...
+[&Preview]
+&Perklausyti
+[Download more sounds]
+Parsiøsti daugiau garsø
+
+;IDD_OPT_VISIBILITY
+[You are visible to this person even when in invisible mode]
+Ðiam þmoui esate matomas net kai pasirenkate nematomà bûsenà
+[You are never visible to this person]
+Ðiam þmogui niekada nesate matomas
+
+;IDD_PASSWORD
+[ICQ# & Password]
+ICQ numeris ir slaptazodis
+
+;IDD_PLUGINCONFLICT
+[Plugin Conflict]
+Papildinio nesuderinamumas
+;[The following plugins all report that they perform the same function. Only one can be active at any time. Please select which you wish to use and click OK. Click Cancel if you wish to use the functionality built in to Miranda.]
+;[The feature that they all implement is %s]
+;[You may change your selection at a later time in the Plugins tab of the Options dialog box.]
+
+;IDD_READAWAYMSG
+;[%s Message for %s]
+;[Retrieving %s message...]
+
+;IDD_SETAWAYMSG
+;[Change %s Message]
+;[Closing in %d]
+
+;IDD_URLRECV
+[URL Recieved]
+Gautas URL
+;[URL:]
+[&Open URL]
+Atverti URL
+
+;IDD_URLSEND
+;[Send URL]
+;[To:]
+
+;IDR_CLISTMENU
+[E&xit]
+&Baigti darbà
+[&Status]
+&Bûsena
+[&Offline\tCtrl+0]
+Neprisijungæs\tCtrl+0
+[On&line\tCtrl+1]
+Esu\tCtrl+1
+[&Away\tCtrl+2]
+Nesu\tCtrl+2
+[&NA\tCtrl+3]
+Nepasiekiamas\tCtrl+3
+[Occ&upied\tCtrl+4]
+Dirbu\tCtrl+4
+[&DND\tCtrl+5]
+Netrukdyti\tCtrl+5
+[&Free for chat\tCtrl+6]
+Galiu kalbëtis\tCtrl+6
+[&Invisible\tCtrl+7]
+Nematomas\tCtrl+7
+
+;IDR_CONTACT
+[&Hide/Show]
+Paslëpti / parodyti
+[&New Group]
+&Nauja grupë
+[&Hide Offline Users]
+Ne&rodyti neprisijungusiø adresatø
+[&Rename Group]
+Per&vardinti grupæ
+[&Delete Group]
+Pa&ðalinti grupæ

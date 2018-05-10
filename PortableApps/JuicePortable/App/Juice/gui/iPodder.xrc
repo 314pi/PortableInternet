@@ -1,0 +1,3448 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource>
+  <object class="wxMenuBar" name="MENUBAR">
+    <object class="wxMenu" name="MENUBARFILE">
+      <label>file menu</label>
+      <object class="wxMenuItem" name="MENUBAROPMLIMPORT">
+        
+        <label>IMPORT_OPML</label>
+        
+        <accel>Ctrl+Shift+O</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBAROPMLEXPORT">
+        
+        <label>EXPORT_OPML</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARPREFERENCES">
+        
+        <label>PREFERENCES</label>
+      </object>
+      <object class="separator"/>
+      <object class="wxMenuItem" name="MENUBARCLOSE">
+        
+        <label>CLOSE_WINDOW</label>
+        
+        <accel>Ctrl+W</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBARQUIT">
+        
+        <label>QUIT</label>
+        
+        <accel>Ctrl+Q</accel>
+      </object>
+    </object>
+    <object class="wxMenu">
+      <object class="wxMenuItem" name="MENUBARSELECTALL">
+        
+        <label>SELECT_ALL</label>
+        
+        <accel>Ctrl+A</accel>
+      </object>
+      <label>edit</label>
+    </object>
+    <object class="wxMenu">
+      <label>view menu</label>
+      <object class="wxMenuItem" name="MENUBARDOWNLOADS">
+        
+        <label>DOWNLOADS</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARSUBSCRIPTIONS">
+        
+        <label>SUBSCRIPTIONS</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARDIRECTORY">
+        
+        <label>DIRECTORY</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARCLEANUP">
+        
+        <label>CLEANUP</label>
+      </object>
+    </object>
+    <object class="wxMenu">
+      <label>tools menu</label>
+      <object class="wxMenuItem" name="MENUBARCHECKALL">
+        
+        <label>CHECK_ALL</label>
+        
+        <accel>F5</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBARCATCHUP">
+        
+        <label>CATCH_UP</label>
+        
+        <accel>F6</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBARCHECKSELECTED">
+        
+        <label>CHECK_SELECTED</label>
+      </object>
+      <object class="separator"/>
+      <object class="wxMenuItem" name="MENUBARADDFEED">
+        
+        <label>ADD_FEED</label>
+        
+        <accel>Ctrl+N</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBARREMOVEFEED">
+        
+        <label>REMOVE_SELECTED</label>
+        
+        <accel>Ctrl+D</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBARFEEDPROPERTIES">
+        
+        <label>FEED_PROPERTIES</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARSCHEDULER">
+        
+        <label>SCHEDULER</label>
+        
+        <accel>Ctrl+L</accel>
+      </object>
+      <object class="separator"/>
+      <object class="wxMenu" name="MENUBARSELECTLANGUAGE">
+        <label>language</label>
+      </object>
+    </object>
+    <object class="wxMenu">
+      <label>help menu</label>
+      <object class="wxMenuItem" name="MENUBARHELP">
+        
+        <label>ONLINE_HELP</label>
+        
+        <accel>F1</accel>
+      </object>
+      <object class="wxMenuItem" name="MENUBARFAQ">
+        
+        <label>FAQ</label>
+      </object>
+      <object class="separator"/>
+      <object class="wxMenuItem" name="MENUBARCHECKFORUPDATES">
+        
+        <label>CHECK_FOR_UPDATE</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARREPORTPROBLEM">
+        
+        <label>REPORT_A_PROBLEM</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARGOTOWEBSITE">
+        
+        <label>GO_TO_WEBSITE</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARDONATE">
+        
+        <label>MAKE_A_DONATION</label>
+      </object>
+      <object class="separator"/>
+      <object class="wxMenuItem" name="MENUBARLICENSE">
+        
+        <label>LICENSE</label>
+      </object>
+      <object class="wxMenuItem" name="MENUBARABOUT">
+        
+        <label>ABOUT</label>
+      </object>
+    </object>
+    <style></style>
+  </object>
+  <object class="wxFrame" name="TOPWINDOW">
+    <title>iPodder v2.0</title>
+    <centered>1</centered>
+    <size></size>
+    <style>wxDEFAULT_FRAME_STYLE|wxSYSTEM_MENU</style>
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxPanel" name="MAINPANEL" subclass="gui.iPodderWindows.MainPanel">
+          <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="spacer">
+              
+              <size>0,5</size>
+            </object>
+            <object class="sizeritem">
+              <object class="wxBoxSizer">
+                <orient>wxHORIZONTAL</orient>
+                <object class="sizeritem">
+                  <object class="wxNotebook" name="NOTEBOOK">
+                    <object class="notebookpage">
+                      <label>DOWNLOADS</label>
+                      <object class="wxPanel" name="DOWNLOADS">
+                        <style></style>
+                        <object class="wxBoxSizer">
+                          <orient>wxVERTICAL</orient>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxVERTICAL</orient>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="sizeritem">
+                                    <object class="wxToolBar" name="TOOLBARHIST">
+                                      <bitmapsize>29,29</bitmapsize>
+                                      <object class="separator"/>
+                                      <object class="tool" name="TOOLHISTCLEARSELECTED">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_removelines.png</bitmap>
+                                        
+                                        <tooltip>Remove selected items</tooltip>
+                                      </object>
+                                      <size>9999,36</size>
+                                      <object class="tool" name="TOOLHISTCANCELSELECTED">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_canceldownload.png</bitmap>
+                                        
+                                        <tooltip>Stop selected download</tooltip>
+                                      </object>
+                                      <object class="separator"/>
+                                      <object class="separator"/>
+                                      <object class="separator"/>
+                                      <object class="wxStaticBitmap">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_spotlight.png</bitmap>
+                                      </object>
+                                      <object class="wxTextCtrl" name="SEARCHBOXDOWNLOADS">
+                                        
+                                        <size>150,-1</size>
+                                        
+                                        <style>wxFULL_REPAINT_ON_RESIZE</style>
+                                      </object>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                            </object>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxListCtrl" name="DOWNLOADSCTRL" subclass="gui.iPodderWindows.AutoWidthListCtrl">
+                              
+                              <style>wxLC_REPORT|wxWANTS_CHARS</style>
+                            </object>
+                            
+                            <option>1</option>
+                            
+                            <flag>wxEXPAND</flag>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxHORIZONTAL</orient>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DL_LIVE_LABEL">
+                                  
+                                  <label>Live downloads: </label>
+                                </object>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DL_LIVE">
+                                  
+                                  <label>0</label>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>5,0</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DL_ULSPEED_LABEL">
+                                  
+                                  <label>Upload speed: </label>
+                                </object>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DL_ULSPEED">
+                                  
+                                  <label>0.0kB/s</label>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>5,0</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DL_DLSPEED_LABEL">
+                                  
+                                  <label>Download speed: </label>
+                                </object>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DL_DLSPEED">
+                                  
+                                  <label>0.0kB/s</label>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                            </object>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                        </object>
+                      </object>
+                      
+                      <selected>0</selected>
+                    </object>
+                    <object class="notebookpage">
+                      <label>SUBSCRIPTIONS</label>
+                      <object class="wxPanel" name="SUBSCRIPTIONS">
+                        <style></style>
+                        <object class="wxBoxSizer">
+                          <orient>wxVERTICAL</orient>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxVERTICAL</orient>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="sizeritem">
+                                    <object class="wxToolBar" name="TOOLBARSUBSCR">
+                                      <object class="separator"/>
+                                      <object class="tool" name="TOOLCHECKALL">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_checkfeed.png</bitmap>
+                                        
+                                        <longhelp>Check all</longhelp>
+                                        
+                                        <tooltip>Check all</tooltip>
+                                      </object>
+                                      <bitmapsize>29,29</bitmapsize>
+                                      <size>9999,36</size>
+                                      <object class="tool" name="TOOLCATCHUP">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_catchup.png</bitmap>
+                                        
+                                        <tooltip>Catch-up - Only download the last new subscriptions</tooltip>
+                                      </object>
+                                      <object class="separator"/>
+                                      <object class="separator"/>
+                                      <object class="tool" name="TOOLADDFEED">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_addfeed.png</bitmap>
+                                        
+                                        <tooltip>Add new feed</tooltip>
+                                      </object>
+                                      <object class="tool" name="TOOLTOGGLECHECKED">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_deletefeed.png</bitmap>
+                                        
+                                        <tooltip>Remove selected feed</tooltip>
+                                      </object>
+                                      <object class="tool" name="TOOLFEEDPROPERTIES">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_feedproperties.png</bitmap>
+                                        
+                                        <tooltip>Properties</tooltip>
+                                      </object>
+                                      <object class="tool" name="TOOLCHECKSELECTED">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_checkselectedfeed.png</bitmap>
+                                        
+                                        <tooltip>Check selected feed</tooltip>
+                                      </object>
+                                      <object class="separator"/>
+                                      <object class="tool" name="TOOLSCHEDULER">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_scheduler_on.png</bitmap>
+                                        
+                                        <tooltip>Scheduler</tooltip>
+                                      </object>
+                                      <object class="separator"/>
+                                      <object class="separator"/>
+                                      <object class="separator"/>
+                                      <object class="wxStaticBitmap">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_spotlight.png</bitmap>
+                                      </object>
+                                      <object class="wxTextCtrl" name="SEARCHBOXFEEDS">
+                                        
+                                        <size>150,-1</size>
+                                        
+                                        <style>wxFULL_REPAINT_ON_RESIZE</style>
+                                      </object>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                            </object>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxSplitterWindow">
+                              <object class="wxScrolledWindow" name="1">
+                                <style>wxVSCROLL</style>
+                                <object class="wxBoxSizer">
+                                  <orient>wxVERTICAL</orient>
+                                  <object class="sizeritem">
+                                    <object class="wxListCtrl" name="SUBSCTRL" subclass="gui.iPodderWindows.AutoWidthListCtrl">
+                                      
+                                      <style>wxLC_REPORT|wxLC_SINGLE_SEL</style>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                </object>
+                              </object>
+                              <object class="wxScrolledWindow" name="">
+                                <object class="wxBoxSizer">
+                                  <orient>wxVERTICAL</orient>
+                                  <object class="sizeritem">
+                                    <object class="wxListCtrl" name="EPISODES" subclass="gui.iPodderWindows.AutoWidthListCtrl">
+                                      
+                                      <style>wxLC_REPORT|wxWANTS_CHARS</style>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                </object>
+                              </object>
+                              <orientation>horizontal</orientation>
+                              <minsize>100</minsize>
+                            </object>
+                            
+                            <option>1</option>
+                            
+                            <flag>wxEXPAND</flag>
+                            
+                            <minsize>100</minsize>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxHORIZONTAL</orient>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="sizeritem">
+                                    <object class="wxStaticText" name="NEXTRUNLABEL">
+                                      
+                                      <label>NEXT RUN:</label>
+                                      
+                                      <pos>25,275</pos>
+                                    </object>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>5,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxStaticText" name="NEXTRUN2">
+                                      
+                                      <label>xx:xx:xx</label>
+                                      
+                                      <pos>100,275</pos>
+                                    </object>
+                                  </object>
+                                </object>
+                              </object>
+                            </object>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                        </object>
+                      </object>
+                      
+                      <selected>1</selected>
+                    </object>
+                    <object class="notebookpage">
+                      <label>DIRECTORY</label>
+                      <object class="wxPanel" name="DIRECTORY">
+                        <object class="wxBoxSizer">
+                          <orient>wxVERTICAL</orient>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxVERTICAL</orient>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="sizeritem">
+                                    <object class="wxToolBar" name="TOOLBARDIRECTORY">
+                                      <object class="separator"/>
+                                      <object class="tool" name="TOOLREFRESHDIR">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_dir_refresh.png</bitmap>
+                                        
+                                        <tooltip>Refresh</tooltip>
+                                      </object>
+                                      <bitmapsize>29,29</bitmapsize>
+                                      <size>9999,36</size>
+                                      <object class="tool" name="TOOLOPENDIRALL">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_dir_openall.png</bitmap>
+                                        
+                                        <tooltip>Open all folders</tooltip>
+                                      </object>
+                                      <object class="tool" name="TOOLCLOSEDIR">
+                                        
+                                        <bitmap>..\icons_status\tb_icon25_dir_closeall.png</bitmap>
+                                        
+                                        <tooltip>Close all folders</tooltip>
+                                      </object>
+                                      <object class="separator"/>
+                                      <object class="separator"/>
+                                      <object class="wxTextCtrl" name="URLCTRL">
+                                        
+                                        <size>250,-1</size>
+                                        
+                                        <style></style>
+                                      </object>
+                                      <object class="wxButton" name="ID_ADDFEED">
+                                        
+                                        <label>Add</label>
+                                      </object>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                            </object>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxTreeCtrl" name="OPMLTREE" subclass="gui.tree.OPMLTree">
+                              
+                              <style>wxTR_HAS_BUTTONS</style>
+                            </object>
+                            
+                            <option>1</option>
+                            
+                            <flag>wxEXPAND</flag>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxHORIZONTAL</orient>
+                              <object class="spacer">
+                                
+                                <size>10,0</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxStaticText" name="DIRECTORY_DESCRIPTION">
+                                  
+                                  <label>str_directory_description</label>
+                                </object>
+                              </object>
+                            </object>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                        </object>
+                      </object>
+                    </object>
+                    <object class="notebookpage">
+                      <label>CLEANUP</label>
+                      <object class="wxPanel" name="CLEANUP">
+                        <object class="wxBoxSizer">
+                          <orient>wxVERTICAL</orient>
+                          <object class="spacer">
+                            
+                            <size>0,20</size>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <orient>wxVERTICAL</orient>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxStaticText" name="SELECTAFEED">
+                                      
+                                      <label>select_a_feed</label>
+                                    </object>
+                                  </object>
+                                </object>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxChoice" name="CLEANUPFEEDS">
+                                      
+                                      <content/>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>5,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxButton" name="CLEANUPREFRESH">
+                                      
+                                      <label>REFRESH</label>
+                                    </object>
+                                    
+                                    <flag></flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                </object>
+                                
+                                <flag>wxEXPAND</flag>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,10</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxStaticBoxSizer" name="LOOKFOREPISODES">
+                                      <label>LOOK IN</label>
+                                      <orient>wxVERTICAL</orient>
+                                      <object class="sizeritem">
+                                        <object class="wxBoxSizer">
+                                          <orient>wxHORIZONTAL</orient>
+                                          <object class="spacer">
+                                            
+                                            <size>5,0</size>
+                                          </object>
+                                          <object class="sizeritem">
+                                            <object class="wxBoxSizer">
+                                              <orient>wxVERTICAL</orient>
+                                              <object class="spacer">
+                                                
+                                                <size>0,5</size>
+                                              </object>
+                                              <object class="sizeritem">
+                                                <object class="wxCheckBox" name="CLEANUPSRCPLAYER">
+                                                  
+                                                  <label>PLAYER                       LIB</label>
+                                                </object>
+                                              </object>
+                                              <object class="spacer">
+                                                
+                                                <size>0,5</size>
+                                              </object>
+                                              <object class="sizeritem">
+                                                <object class="wxCheckBox" name="CLEANUPSRCFOLDER">
+                                                  
+                                                  <label>DOWNLOADS              FOLDER</label>
+                                                  
+                                                  <style></style>
+                                                </object>
+                                              </object>
+                                              <object class="spacer">
+                                                
+                                                <size>0,5</size>
+                                              </object>
+                                            </object>
+                                          </object>
+                                        </object>
+                                      </object>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                    
+                                    <minsize>200,-1</minsize>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                </object>
+                                
+                                <flag>wxEXPAND</flag>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxCheckListBox" name="CLEANUPEPISODES">
+                                      
+                                      <content/>
+                                    </object>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                </object>
+                                
+                                <option>1</option>
+                                
+                                <flag>wxEXPAND</flag>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,5</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxBoxSizer">
+                                      <orient>wxHORIZONTAL</orient>
+                                      <object class="sizeritem">
+                                        <object class="wxCheckBox" name="CLEANUPDELLIBRARY">
+                                          
+                                          <label>DELETE        LIB    ENTRIES</label>
+                                        </object>
+                                      </object>
+                                      <object class="spacer">
+                                        
+                                        <size>15,0</size>
+                                      </object>
+                                      <object class="sizeritem">
+                                        <object class="wxCheckBox" name="CLEANUPDELFILES">
+                                          
+                                          <label>DELETE                      FILES</label>
+                                        </object>
+                                      </object>
+                                    </object>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                </object>
+                                
+                                <flag>wxEXPAND</flag>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,10</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxStaticLine"/>
+                                    
+                                    <option>1</option>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                </object>
+                                
+                                <flag>wxEXPAND</flag>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,10</size>
+                              </object>
+                              <object class="sizeritem">
+                                <object class="wxBoxSizer">
+                                  <orient>wxHORIZONTAL</orient>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxButton" name="CLEANUPCHECKALL">
+                                      
+                                      <label>a           a</label>
+                                    </object>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>5,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxButton" name="CLEANUPCHECKNONE">
+                                      
+                                      <label>a             a</label>
+                                    </object>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>5,0</size>
+                                  </object>
+                                  <object class="sizeritem">
+                                    <object class="wxButton" name="CLEANUPDELETE">
+                                      
+                                      <label></label>
+                                    </object>
+                                    
+                                    <flag>wxEXPAND</flag>
+                                  </object>
+                                  <object class="spacer">
+                                    
+                                    <size>10,0</size>
+                                  </object>
+                                </object>
+                                
+                                <flag>wxALIGN_RIGHT</flag>
+                              </object>
+                              <object class="spacer">
+                                
+                                <size>0,10</size>
+                              </object>
+                            </object>
+                            
+                            <option>1</option>
+                            
+                            <flag>wxEXPAND</flag>
+                          </object>
+                        </object>
+                      </object>
+                    </object>
+                    <object class="notebookpage">
+                      <label>LOG</label>
+                      <object class="wxPanel" name="LOGPANEL">
+                        <object class="wxBoxSizer">
+                          <orient>wxVERTICAL</orient>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxTextCtrl" name="LOGWINDOW">
+                              
+                              <style>wxTE_MULTILINE|wxTE_READONLY|wxTE_RICH</style>
+                              
+                              <fg>#808080</fg>
+                            </object>
+                            
+                            <option>1</option>
+                            
+                            <flag>wxEXPAND</flag>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxButton" name="ID_CLEARLOG">
+                              
+                              <label>Clear</label>
+                              
+                              <pos>10,370</pos>
+                            </object>
+                          </object>
+                          <object class="spacer">
+                            
+                            <size>0,5</size>
+                          </object>
+                        </object>
+                      </object>
+                    </object>
+                  </object>
+                  
+                  <option>1</option>
+                  
+                  <flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+                </object>
+                <object class="sizeritem">
+                  <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="spacer">
+                      
+                      <size>0,2</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxStaticText">
+                        
+                        <label>Brought to you by:</label>
+                      </object>
+                      
+                      <flag>wxALIGN_CENTRE</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>0,5</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxToolBar" name="TOOLBARBANNER">
+                        <bitmapsize>150,325</bitmapsize>
+                        <size>157,380</size>
+                        <object class="tool" name="TOOLBANNER">
+                          
+                          <bitmap>..\images\banner.png</bitmap>
+                        </object>
+                      </object>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              
+              <option>1</option>
+              
+              <flag>wxEXPAND|wxFIXED_MINSIZE</flag>
+              
+              <minsize>450,400</minsize>
+            </object>
+          </object>
+        </object>
+        
+        <option>1</option>
+        
+        <flag>wxEXPAND</flag>
+        
+        <minsize>675,-1</minsize>
+      </object>
+    </object>
+  </object>
+  <object class="wxDialog" name="PREFERENCES" subclass="gui.iPodderWindows.PrefsDialog">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxNotebook" name="NOTEBOOK">
+              <object class="notebookpage" name="GENERALTAB">
+                <label>GENERAL</label>
+                <object class="wxPanel" name="GENERAL">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="PRF_LBL_GEN_OPTIONS">
+                            
+                            <label>GENERAL OPTIONS</label>
+                            
+                            <pos>25,32</pos>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="HIDE_ON_STARTUP">
+                                    
+                                    <label>[start2tray                                                                ]</label>
+                                    
+                                    <pos>25,55</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                  
+                                  <minsize>400,-1</minsize>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="SCAN_ON_STARTUP">
+                                    
+                                    <label>[                                  scan on start                                             ]</label>
+                                    
+                                    <pos>25,75</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="PLAY_ON_DOWNLOAD">
+                                    
+                                    <label>Play downloads right after they're downloaded</label>
+                                    
+                                    <pos>25,95</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="CHKUPDATE_ON_STARTUP">
+                                    
+                                    <label>[                        check updates on start                                    ]</label>
+                                    
+                                    <pos>25,75</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="CATCHUP_MARKS_DOWNLOADED">
+                                    
+                                    <label>[                           catchup_marks_downloaded                                       ]</label>
+                                    
+                                    <pos>25,95</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="GOTO_BACKGROUND_ON_CLOSE">
+                                    
+                                    <label>[               goto_background_on_close                                       ]</label>
+                                    
+                                    <pos>25,95</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="SORT_CLEANUP_BY_SIZE">
+                                    <label>[               sort_cleanup_by_size</label>
+                                  </object>
+                                </object>
+                                <object class="spacer">
+                                  <size>0,5</size>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxALL|wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticLine"/>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="PRF_LBL_STORAGE_LOC_STORAGE">
+                            
+                            <label>Location and storage management</label>
+                            
+                            <pos>25,32</pos>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_LBL_STORAGE_STOP">
+                                
+                                <label></label>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                              
+                              <minsize>350,-1</minsize>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="MAX_HARDDISC_SIZE_MB">
+                                
+                                <size>50,-1</size>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText">
+                                
+                                <label>MB</label>
+                              </object>
+                              
+                              <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_LBL_DOWNLOAD_FOLDER">
+                                
+                                <label>Download podcasts into this folder</label>
+                              </object>
+                            </object>
+                          </object>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="PREFSDOWNLOADDIR"/>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxButton" name="PREFSBROWSE">
+                                
+                                <label>Browse</label>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>20,0</size>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                      </object>
+                      
+                      <option>1</option>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              <object class="notebookpage">
+                <label>THREADS</label>
+                <object class="wxPanel" name="THREADS">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="PRF_MULTIPLE_DOWNLOAD">
+                            
+                            <label>Multiple download settings</label>
+                            
+                            <pos>25,32</pos>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                      <object class="wxComboBox" name="NUMFEEDSCANTHREADS">
+                                        
+                                        <content>
+                                          <item>1</item>
+                                          <item>2</item>
+                                          <item>4</item>
+                                          <item>8</item>
+                                          <item>16</item>
+                                        </content>
+                                        
+                                        <selection>2</selection>
+                                        
+                                        <size>100,-1</size>
+                                        
+                                        <style>wxCB_READONLY</style>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>10,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="PRF_MAX_FEEDSCANS">
+                                        
+                                        <label>maximal threads for feedscanning per session</label>
+                                      </object>
+                                      
+                                      <flag>wxALIGN_CENTRE</flag>
+                                    </object>
+                                  </object>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                      <object class="wxComboBox" name="NUMDOWNLOADTHREADS">
+                                        
+                                        <content>
+                                          <item>1</item>
+                                          <item>2</item>
+                                          <item>3</item>
+                                          <item>4</item>
+                                          <item>5</item>
+                                          <item>6</item>
+                                        </content>
+                                        
+                                        <selection>2</selection>
+                                        
+                                        <size>100,-1</size>
+                                        
+                                        <style>wxCB_READONLY</style>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>10,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="PRF_MAX_DOWNLOADS">
+                                        
+                                        <label>maximal downloads per session</label>
+                                      </object>
+                                      
+                                      <flag>wxALIGN_CENTRE</flag>
+                                    </object>
+                                  </object>
+                                </object>
+                              </object>
+                            </object>
+                          </object>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                      </object>
+                      
+                      <option>1</option>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              <object class="notebookpage">
+                <label>NETWORKING</label>
+                <object class="wxPanel" name="NETWORKING">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,20</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxCheckBox" name="PRFUSEPROXY">
+                            
+                            <label>Use a proxy server</label>
+                          </object>
+                          
+                          <flag>wxGROW</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>17,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_PROXY_ADDRESS">
+                                
+                                <label>Address</label>
+                              </object>
+                              
+                              <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                              
+                              <minsize>75,-1</minsize>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="TXTPRFPROXYHOST">
+                                
+                                <size>175,-1</size>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,3</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>17,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_PROXY_PORT">
+                                
+                                <label>Port</label>
+                              </object>
+                              
+                              <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                              
+                              <minsize>75,-1</minsize>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="TXTPRFPROXYPORT">
+                                
+                                <size>50,-1</size>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,3</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>17,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_PROXY_USERNAME">
+                                
+                                <label>Username</label>
+                              </object>
+                              
+                              <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                              
+                              <minsize>75,-1</minsize>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="TXTPRFPROXYUSERNAME">
+                                
+                                <size>100,-1</size>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,3</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>17,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_PROXY_PASSWORD">
+                                
+                                <label>Password</label>
+                              </object>
+                              
+                              <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                              
+                              <minsize>75,-1</minsize>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="TXTPRFPROXYPASSWORD">
+                                
+                                <size>100,-1</size>
+                                
+                                <style>wxTE_PASSWORD</style>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticLine"/>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxCheckBox" name="PRFCORALIZING">
+                            
+                            <label>Coralize url's</label>
+                            
+                            <checked>0</checked>
+                          </object>
+                          
+                          <flag>wxGROW</flag>
+                          
+                          <minsize>400,-1</minsize>
+                        </object>
+                      </object>
+                      
+                      <option>1</option>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              <object class="notebookpage">
+                <label>PLAYER</label>
+                <object class="wxPanel" name="PLAYER">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxRadioBox" name="PRF_PLAYER">
+                            
+                            <label>Choose a player</label>
+                            
+                            <content>
+                              <item>iTunes</item>
+                              <item>Windows Media Player</item>
+                              <item>Winamp</item>
+                              <item>No player</item>
+                            </content>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticLine"/>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                  <object class="wxStaticText" name="PRF_ITUNES_OPTIONS">
+                                    
+                                    <label>iTunes options</label>
+                                    
+                                    <pos>25,32</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="spacer">
+                                      
+                                      <size>15,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxBoxSizer">
+                                        <orient>wxVERTICAL</orient>
+                                        <object class="spacer">
+                                          
+                                          <size>0,5</size>
+                                        </object>
+                                        <object class="sizeritem">
+                                          <object class="wxCheckBox" name="PRF_ITUNES_OW_GENRE_ENABLE">
+                                            
+                                            <label>Overwrite track Genre to</label>
+                                            
+                                            <checked>0</checked>
+                                          </object>
+                                          
+                                          <minsize>400,-1</minsize>
+                                        </object>
+                                        <object class="spacer">
+                                          
+                                          <size>0,5</size>
+                                        </object>
+                                        <object class="sizeritem">
+                                          <object class="wxTextCtrl" name="PRF_ITUNES_OW_GENRE"/>
+                                        </object>
+                                        <object class="spacer">
+                                          
+                                          <size>0,15</size>
+                                        </object>
+                                      </object>
+                                      
+                                      <option>1</option>
+                                      
+                                      <flag>wxEXPAND</flag>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>15,0</size>
+                                    </object>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxStaticText" name="PRF_WINAMP_OPTIONS">
+                                    
+                                    <label>Winamp options</label>
+                                    
+                                    <pos>25,32</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="spacer">
+                                      
+                                      <size>15,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxBoxSizer">
+                                        <orient>wxVERTICAL</orient>
+                                        <object class="spacer">
+                                          
+                                          <size>0,5</size>
+                                        </object>
+                                        <object class="sizeritem">
+                                          <object class="wxCheckBox" name="PRF_WINAMP_ENQUEUES">
+                                            
+                                            <label>Play button enqueues selected track</label>
+                                            
+                                            <checked>0</checked>
+                                          </object>
+                                          
+                                          <minsize>400,-1</minsize>
+                                        </object>
+                                        <object class="spacer">
+                                          
+                                          <size>0,15</size>
+                                        </object>
+                                      </object>
+                                      
+                                      <option>1</option>
+                                      
+                                      <flag>wxEXPAND</flag>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>15,0</size>
+                                    </object>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,10</size>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>10,0</size>
+                            </object>
+                          </object>
+                        </object>
+                      </object>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              <object class="notebookpage" name="GENERALTAB">
+                <label>FILE TYPES</label>
+                <object class="wxPanel" name="FILETYPES">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="PRF_LBL_SUBSCRIPTION_OPTIONS">
+                            
+                            <label>SUBSCRIPTION OPTIONS</label>
+                            
+                            <pos>25,32</pos>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="HANDLE_FILETYPE_RSS">
+                                    
+                                    <label>.rss</label>
+                                    
+                                    <pos>25,55</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                  
+                                  <minsize>400,-1</minsize>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="HANDLE_FILETYPE_PCAST">
+                                    
+                                    <label>.pcast</label>
+                                    
+                                    <pos>25,75</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="HANDLE_FILETYPE_PCAST_PROTOCOL">
+                                    
+                                    <label>pcast://</label>
+                                    
+                                    <pos>25,95</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="HANDLE_FILETYPE_PODCAST_PROTOCOL">
+                                    
+                                    <label>podcast://</label>
+                                    
+                                    <pos>25,75</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,25</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="ENSURE_ONECLICK_HANDLER">
+                                    
+                                    <label>Enforce these settings at startup</label>
+                                    
+                                    <pos>25,75</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxALL|wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                      </object>
+                      
+                      <option>1</option>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              <object class="notebookpage">
+                <label>OPML</label>
+                <object class="wxPanel" name="FEEDMANAGER">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,20</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxCheckBox" name="PRF_FEEDMANAGER_ENABLE">
+                            
+                            <label>Synchronize my subscriptions to a remote service                             x</label>
+                          </object>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="LBL_FEEDMANAGER_OPML_URL">
+                                
+                                <label>OPML URL</label>
+                                
+                                <pos>25,32</pos>
+                              </object>
+                              
+                              <flag>wxGROW</flag>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="sizeritem">
+                                  <object class="wxTextCtrl" name="PRF_FEEDMANAGER_OPML">
+                                    
+                                    <pos>25,270</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                          </object>
+                          
+                          <option>0</option>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticLine"/>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="PRF_TXT_FEEDMANAGER">
+                            
+                            <label>__Compatible feedmanagers:__</label>
+                          </object>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxButton" name="PRF_FEEDMANAGER_BTN_PODNOVA">
+                            
+                            <label>www.PodNova.com - Search or browse podcasts, single click subscribing</label>
+                          </object>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                      </object>
+                      
+                      <option>1</option>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+              <object class="notebookpage" name="ADVANCEDTAB">
+                <label>ADVANCED</label>
+                <object class="wxPanel" name="ADVANCED">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="spacer">
+                          
+                          <size>0,15</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="PRF_POWER_USER">
+                            
+                            <label>These options can be used by Power Users</label>
+                            
+                            <pos>25,32</pos>
+                          </object>
+                          
+                          <flag>wxGROW</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,5</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxVERTICAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxCheckBox" name="DLCOMMANDENABLE">
+                                    
+                                    <label>Run this command after each download</label>
+                                    
+                                    <pos>25,245</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxTextCtrl" name="DLCOMMAND">
+                                    
+                                    <pos>25,270</pos>
+                                  </object>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxStaticText" name="PRF_RCMD_FULL_PATH">
+                                    
+                                    <label>%f = Full path to downloaded file</label>
+                                    
+                                    <pos>25,295</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,5</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxStaticText" name="PRF_RCMD_PODCAST_NAME">
+                                    
+                                    <label>%n = Podcast name</label>
+                                    
+                                    <pos>25,295</pos>
+                                  </object>
+                                  
+                                  <flag>wxGROW</flag>
+                                </object>
+                                <object class="spacer">
+                                  
+                                  <size>0,15</size>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>15,0</size>
+                            </object>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticLine"/>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="spacer">
+                              
+                              <size>0,15</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="PRF_OTHER_ADV_OPTION">
+                                
+                                <label>Other advanced options</label>
+                                
+                                <pos>25,32</pos>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,5</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>15,0</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxBoxSizer">
+                                    <orient>wxVERTICAL</orient>
+                                    <object class="spacer">
+                                      
+                                      <size>0,5</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxCheckBox" name="SHOWLOGPAGE">
+                                        
+                                        <label>Show log tab in application</label>
+                                        
+                                        <pos>25,320</pos>
+                                      </object>
+                                      
+                                      <flag>wxGROW</flag>
+                                      
+                                      <minsize>400,-1</minsize>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>0,5</size>
+                                    </object>
+                                  </object>
+                                </object>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,15</size>
+                            </object>
+                          </object>
+                          
+                          <option>1</option>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="spacer">
+                          
+                          <size>0,10</size>
+                        </object>
+                      </object>
+                      
+                      <option>1</option>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+            </object>
+            
+            <option>1</option>
+            
+            <flag>wxEXPAND</flag>
+            
+            <minsize>680,410</minsize>
+          </object>
+        </object>
+        
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxButton" name="PREFSSAVE">
+              
+              <label>SAVE</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>5,0</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="PREFSCANCEL">
+              
+              <label>CANCEL</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>5,0</size>
+          </object>
+        </object>
+        
+        <flag>wxALIGN_RIGHT</flag>
+      </object>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+    </object>
+    <title>PREFERENCES</title>
+    <centered>1</centered>
+    <style>wxDEFAULT_DIALOG_STYLE|wxSTAY_ON_TOP|wxRESIZE_BORDER|wxRESIZE_BOX|wxFULL_REPAINT_ON_RESIZE</style>
+  </object>
+  <object class="wxDialog" name="SCHEDDIALOG">
+    <title></title>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxNotebook" name="SCHEDNOTEBOOK">
+              <object class="notebookpage">
+                <label>Scheduler</label>
+                <object class="wxPanel" name="SCHEDULER">
+                  <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="spacer">
+                      
+                      <size>0,15</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="spacer">
+                          
+                          <size>10,0</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxCheckBox" name="ENABLEAUTO">
+                            
+                            <label>Enable scheduler</label>
+                            
+                            <pos>20,31</pos>
+                          </object>
+                          
+                          <option>1</option>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                      </object>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer"/>
+                    <object class="sizeritem">
+                      <object class="wxBoxSizer">
+                        <orient>wxHORIZONTAL</orient>
+                        <object class="spacer">
+                          
+                          <size>12,0</size>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="spacer">
+                              
+                              <size>0,10</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticLine"/>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,10</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="SCHEDSELECTTYPE">
+                                
+                                <label>Select radio buttons below to check on a regular base by time or repeatively:</label>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,20</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>17,0</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxRadioButton" name="SCHEDSPECIF">
+                                    
+                                    <label>Check at these specific times</label>
+                                    
+                                    <pos>20,52</pos>
+                                    
+                                    <style>wxRB_GROUP</style>
+                                  </object>
+                                  
+                                  <option>1</option>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,5</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>34,0</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxStaticBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxCheckBox" name="CHECKBSCHEDSPECIF1">
+                                        
+                                        <pos>20,52</pos>
+                                        
+                                        <label></label>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxTextCtrl" name="TEXTSCHEDSPECIF1">
+                                        
+                                        <size>70,-1</size>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxCheckBox" name="CHECKBSCHEDSPECIF2">
+                                        
+                                        <pos>20,52</pos>
+                                        
+                                        <label></label>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxTextCtrl" name="TEXTSCHEDSPECIF2">
+                                        
+                                        <size>70,-1</size>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxCheckBox" name="CHECKBSCHEDSPECIF3">
+                                        
+                                        <pos>20,52</pos>
+                                        
+                                        <label></label>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxTextCtrl" name="TEXTSCHEDSPECIF3">
+                                        
+                                        <size>70,-1</size>
+                                      </object>
+                                    </object>
+                                    <label></label>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                  </object>
+                                  
+                                  <option>0</option>
+                                  
+                                  <flag></flag>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag></flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,20</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>17,0</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxRadioButton" name="SCHEDREG">
+                                    
+                                    <label>Check at regular intervals</label>
+                                    
+                                    <pos>270,52</pos>
+                                    
+                                    <style>wxRB_GROUP</style>
+                                  </object>
+                                  
+                                  <option>1</option>
+                                  
+                                  <flag>wxEXPAND</flag>
+                                </object>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,7</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>33,0</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxStaticBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="REPEATEVERY">
+                                        
+                                        <label>Repeat every:</label>
+                                        
+                                        <pos>288,72</pos>
+                                        
+                                        <size>120,-1</size>
+                                      </object>
+                                      
+                                      <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>10,0</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxComboBox" name="SCHEDINTERVAL">
+                                        
+                                        <content>
+                                          <item>12 hours</item>
+                                          <item>8 hours</item>
+                                          <item>4 hours</item>
+                                          <item>2 hours</item>
+                                          <item>90 minutes</item>
+                                          <item>60 minutes</item>
+                                          <item>30 minutes</item>
+                                        </content>
+                                        
+                                        <pos>288,92</pos>
+                                        
+                                        <style>wxCB_READONLY</style>
+                                      </object>
+                                      
+                                      <minsize>120,-1</minsize>
+                                    </object>
+                                    <label></label>
+                                    <object class="spacer">
+                                      
+                                      <size>5,0</size>
+                                    </object>
+                                  </object>
+                                </object>
+                              </object>
+                              
+                              <option>1</option>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,15</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticLine"/>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,15</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                  
+                                  <size>15,0</size>
+                                </object>
+                                <object class="sizeritem">
+                                  <object class="wxBoxSizer">
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="LBL_LASTRUN">
+                                        
+                                        <label>Latest run:</label>
+                                        
+                                        <pos>25,255</pos>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>0,2</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="LASTRUN">
+                                        
+                                        <label>xx:xx:xx</label>
+                                        
+                                        <pos>100,255</pos>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>0,5</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="LBL_NEXTRUN">
+                                        
+                                        <label>Next run:</label>
+                                        
+                                        <pos>25,275</pos>
+                                      </object>
+                                    </object>
+                                    <object class="spacer">
+                                      
+                                      <size>0,2</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                      <object class="wxStaticText" name="NEXTRUN">
+                                        
+                                        <label>xx:xx:xx</label>
+                                        
+                                        <pos>100,275</pos>
+                                      </object>
+                                    </object>
+                                    <orient>wxVERTICAL</orient>
+                                  </object>
+                                </object>
+                              </object>
+                              
+                              <flag>wxEXPAND</flag>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>0,3</size>
+                            </object>
+                          </object>
+                          
+                          <option>1</option>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                      </object>
+                      
+                      <flag>wxEXPAND</flag>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>0,10</size>
+                    </object>
+                  </object>
+                </object>
+              </object>
+            </object>
+            
+            <option>1</option>
+            
+            <flag>wxEXPAND</flag>
+            
+            <minsize>450,460</minsize>
+          </object>
+        </object>
+        
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxButton" name="SAVESCHED">
+              
+              <label>SAVE</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>5,0</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="CANCELSCHED">
+              
+              <label>CANCEL</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>5,0</size>
+          </object>
+        </object>
+        
+        <flag>wxALIGN_RIGHT</flag>
+      </object>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+    </object>
+  </object>
+  <object class="wxDialog" name="ABOUT">
+    <title>ABOUT</title>
+    <object class="wxBoxSizer">
+      <orient>wxHORIZONTAL</orient>
+      <object class="spacer">
+        
+        <size>15,0</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap">
+              
+              <bitmap>..\images\about_logo.bmp</bitmap>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="ABOUTVERSION">
+              
+              <label>Version:</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticLine"/>
+            
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              
+              <label>Concept:\nAdam Curry, Dave Winer\n\nProgramming:\nErik de Jonge, Andrew Grumet, Garth Kidd\nScott Grayban (GNU/Linux)\n\nDesign:\nMartijn Venrooy\n\nContent:\nMark Posth\n\nForum/Translation Support:\nPavlos Mitropias\n\nMany thanks to all beta-testers, translators, volunteers\nand former team member's for their commitments!\n\nTranslators (in alphabetic order):\nOlivier Anh, Tobias Bergius, Foxy, Pocza Gabor, Tomoya\nKawanishi, Andy Liu, Eziquiel Menta, Nicole Simon,\nRamiro Rodriguez Suarezn,  Toni, Lukasz W. Witkowski,\nAlberto Yoldi, Perica Zivkovic\n\nBased on Feedparser and BitTorrent technology.\n</label>
+              
+              <pos>20,35</pos>
+            </object>
+            
+            <minsize>480,400</minsize>
+          </object>
+        </object>
+      </object>
+      <object class="spacer">
+        
+        <size>15,0</size>
+      </object>
+    </object>
+    <size>400,550</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <bg>#FFFFFF</bg>
+  </object>
+  <object class="wxDialog" name="FEEDWIN" subclass="gui.iPodderWindows.FeedWindow">
+    <title></title>
+    <style>wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER|wxRESIZE_BOX</style>
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxNotebook" name="FEEDWINNOTEBOOK">
+          <object class="notebookpage">
+            <label>XRC- General</label>
+            <object class="wxPanel" name="LBL_FEEDWINGENERAL">
+              <object class="wxBoxSizer">
+                <orient>wxVERTICAL</orient>
+                <object class="spacer">
+                  
+                  <size>0,10</size>
+                </object>
+                <object class="sizeritem">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxFlexGridSizer">
+                        <cols>2</cols>
+                        <rows>2</rows>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="LBL_FEEDWINTITLE">
+                            
+                            <label>XRC- Title</label>
+                            
+                            <size>85,20</size>
+                          </object>
+                          
+                          <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxTextCtrl" name="FEEDWINTITLE">
+                            
+                            <style>wxTE_READONLY</style>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="LBL_FEEDWINURL">
+                            
+                            <label>XRC- URL</label>
+                          </object>
+                          
+                          <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxTextCtrl" name="FEEDWINURL"/>
+                          
+                          <flag>wxEXPAND</flag>
+                          
+                          <minsize>350,-1</minsize>
+                        </object>
+                        <vgap>5</vgap>
+                        <object class="sizeritem">
+                          <object class="wxStaticText">
+                            
+                            <label></label>
+                          </object>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxCheckBox" name="FEEDWINGOTOSUBS">
+                            
+                            <label>XRC - Go to subscriptions tab to see this feed's episodes</label>
+                            
+                            <checked>1</checked>
+                          </object>
+                        </object>
+                      </object>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+                <object class="spacer">
+                  
+                  <size>0,10</size>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>XRC- Cleanup</label>
+            <object class="wxPanel" name="LBL_FEEDWINCLEANUP">
+              <object class="wxBoxSizer">
+                <orient>wxVERTICAL</orient>
+                <object class="spacer">
+                  
+                  <size>0,15</size>
+                </object>
+                <object class="sizeritem">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxFlexGridSizer">
+                        <cols>2</cols>
+                        <rows>2</rows>
+                        <vgap>5</vgap>
+                        <object class="sizeritem">
+                          <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="sizeritem">
+                              <object class="wxCheckBox" name="FEEDWINCLEANUP">
+                                
+                                <label>XRC - Automatically delete episodes more than</label>
+                                
+                                <checked>0</checked>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,-1</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxTextCtrl" name="FEEDWINCLEANUPMAXDAYS">
+                                
+                                <size>25,-1</size>
+                              </object>
+                            </object>
+                            <object class="spacer">
+                              
+                              <size>5,-1</size>
+                            </object>
+                            <object class="sizeritem">
+                              <object class="wxStaticText" name="FEEDWINCLEANUPDAYSLBL">
+                                
+                                <label>XRC days old</label>
+                              </object>
+                            </object>
+                          </object>
+                        </object>
+                      </object>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+                <object class="spacer">
+                  
+                  <size>0,10</size>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>XRC- Authentication</label>
+            <object class="wxPanel" name="LBL_FEEDWINAUTHENTICATION">
+              <object class="wxBoxSizer">
+                <orient>wxVERTICAL</orient>
+                <object class="spacer">
+                  
+                  <size>0,10</size>
+                </object>
+                <object class="sizeritem">
+                  <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                    <object class="sizeritem">
+                      <object class="wxFlexGridSizer">
+                        <cols>2</cols>
+                        <rows>2</rows>
+                        <vgap>5</vgap>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="LBL_FEEDWINUSERNAME">
+                            
+                            <label>XRC- Username</label>
+                            
+                            <size>85,20</size>
+                          </object>
+                          
+                          <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxTextCtrl" name="FEEDWINUSERNAME"/>
+                          
+                          <flag>wxEXPAND</flag>
+                          
+                          <minsize>350,-1</minsize>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxStaticText" name="LBL_FEEDWINPASSWORD">
+                            
+                            <label>XRC- Password</label>
+                            
+                            <style></style>
+                          </object>
+                          
+                          <flag>wxALIGN_CENTRE_VERTICAL</flag>
+                        </object>
+                        <object class="sizeritem">
+                          <object class="wxTextCtrl" name="FEEDWINPASSWORD">
+                            
+                            <style>wxTE_PASSWORD</style>
+                          </object>
+                          
+                          <flag>wxEXPAND</flag>
+                          
+                          <minsize>350,-1</minsize>
+                        </object>
+                      </object>
+                    </object>
+                    <object class="spacer">
+                      
+                      <size>10,0</size>
+                    </object>
+                  </object>
+                </object>
+                <object class="spacer">
+                  
+                  <size>0,10</size>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+        
+        <option>1</option>
+        
+        <minsize>500,175</minsize>
+      </object>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxButton" name="FEEDWINOK">
+              
+              <label>SAVE</label>
+              
+              <default>1</default>
+            </object>
+            
+            <flag>wxALIGN_RIGHT</flag>
+          </object>
+          <object class="spacer">
+            
+            <size>5,0</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="FEEDWINCANCEL">
+              
+              <label>CANCEL</label>
+              
+              <style></style>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>10,0</size>
+          </object>
+        </object>
+        
+        <flag>wxALIGN_RIGHT</flag>
+      </object>
+      <object class="spacer">
+        
+        <size>0,5</size>
+      </object>
+    </object>
+  </object>
+  <object class="wxDialog" name="DONATEDIALOG_MAC">
+    <title>`DONATE</title>
+    <object class="wxBoxSizer">
+      <orient>wxHORIZONTAL</orient>
+      <object class="spacer">
+        
+        <size>15,0</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="spacer">
+            
+            <size>0,15</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap">
+              
+              <bitmap>..\images\donate_header_please.bmp</bitmap>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="DONATEEXPL">
+              
+              <label>ASK FOR MONEY</label>
+              
+              <pos>20,35</pos>
+              
+              <size>325,100</size>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,15</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSYES">
+              
+              <label>[               YES                  ]</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSTWOWEEKS">
+              
+              <label>[                    2 weeks                           ]</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSALREADY">
+              
+              <label>[                   alread                              ]</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSNO">
+              
+              <label>[                  no                                          ]</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,15</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSONEDAY">
+              
+              <label>[                 1 day                      ]</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,20</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="DONATIONSPROCEED">
+              
+              <label>OK</label>
+            </object>
+            
+            <flag>wxALIGN_RIGHT</flag>
+          </object>
+          <object class="spacer">
+            
+            <size>0,20</size>
+          </object>
+        </object>
+      </object>
+      <object class="spacer">
+        
+        <size>15,0</size>
+      </object>
+    </object>
+    <size>440,450</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+  </object>
+  <object class="wxDialog" name="DONATEDIALOG_WIN">
+    <title>Donate to iPodder</title>
+    <object class="wxBoxSizer">
+      <orient>wxHORIZONTAL</orient>
+      <object class="spacer">
+        
+        <size>15,0</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="spacer">
+            
+            <size>0,15</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap">
+              
+              <bitmap>..\images\donate_header_please.bmp</bitmap>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="DONATEEXPL">
+              
+              <label>It's important to keep non-commercial iPodder applications online and keep this new way of consuming media free. Any amount of money will make the team happy and encourage them to work on new features!</label>
+              
+              <pos>20,35</pos>
+              
+              <size>325,55</size>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,15</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSYES">
+              
+              <label>Yes, take me to the donations page now!</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSTWOWEEKS">
+              
+              <label>I still have to check it a bit more, show this again in two weeks</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSALREADY">
+              
+              <label>I allready made a donation, don't show this dialog again</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,5</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSNO">
+              
+              <label>No, I don't want to donate, never show this dialog again</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,15</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxRadioButton" name="DONATIONSONEDAY">
+              
+              <label>Not now, notify me again in 1 day</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,20</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="DONATIONSPROCEED">
+              
+              <label>OK</label>
+            </object>
+            
+            <flag>wxALIGN_RIGHT</flag>
+          </object>
+          <object class="spacer">
+            
+            <size>0,20</size>
+          </object>
+        </object>
+      </object>
+      <object class="spacer">
+        
+        <size>15,0</size>
+      </object>
+    </object>
+    <size>380,380</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+  </object>
+  <object class="wxDialog" name="ENCODINGDIALOG" subclass="gui.iPodderWindows.EncodingDialog">
+    <title></title>
+    <object class="wxBoxSizer">
+      <orient>wxHORIZONTAL</orient>
+      <object class="spacer">
+        
+        <size>10,0</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              
+              <label>We were unabled to determine the encoding of the string below.
+Please choose an encoding that corrects the text and click OK.</label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="ENCODINGTEXT">
+              
+              <label></label>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxListBox" name="ENCODINGENC">
+              
+              <content/>
+              
+              <size>250,-1</size>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxButton" name="ENCODINGOK">
+                  
+                  <label>OK</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton" name="ENCODINGSKIP">
+                  
+                  <label>Skip (not recommended)</label>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="spacer">
+            
+            <size>0,10</size>
+          </object>
+        </object>
+      </object>
+      <object class="spacer">
+        
+        <size>10,0</size>
+      </object>
+    </object>
+  </object>
+</resource>

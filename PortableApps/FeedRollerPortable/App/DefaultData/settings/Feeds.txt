@@ -1,0 +1,11 @@
+1|http://news.google.com/news?ned=us&topic=h&output=rss|Top Stories - Google News|||
+0|http://news.google.com/news?ned=us&topic=w&output=rss|World - Google News|||
+0|http://news.google.com/news?ned=us&topic=b&output=rss|Business - Google News|||
+0|http://news.google.com/news?ned=us&topic=t&output=rss|Sci/Tech - Google News|||
+1|http://rss.news.yahoo.com/rss/topstories|Yahoo! News: Top Stories|||
+0|http://rss.news.yahoo.com/rss/world|Yahoo! News: World News|||
+0|http://rss.news.yahoo.com/rss/business|Yahoo! News: Business|||
+0|http://rss.news.yahoo.com/rss/tech|Yahoo! News: Technology News|||
+0|http://feedproxy.google.com/TechCrunch|TechCrunch|||
+1|http://sector-seven.net/rss|Sector-Seven Site Updates|||
+1|http://portableapps.com/feeds/general|PortableApps.com|||

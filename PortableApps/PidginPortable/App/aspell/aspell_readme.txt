@@ -1,0 +1,1 @@
+Place Aspell binaries here to use spellcheck.  Usually, just copy in the contents of the C:\Program Files\Aspell directory

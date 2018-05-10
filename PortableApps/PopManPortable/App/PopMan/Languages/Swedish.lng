@@ -1,0 +1,514 @@
+[File Info]
+
+Language=Swedish
+Author=Karin Andersson
+Email=karin@supportdata.net
+Date=04/14/2010
+Comment=PopMan 1.3 Swedish Translation
+LangID=29
+
+
+[Translations]
+
+Not connected<=>Ej ansluten
+Connection failure<=>Kan ej ansluta
+Canceled<=>Stoppad
+Invalid server response<=>Ogiltigt serversvar
+Timeout<=>Timeout
+Login failed<=>Inloggning misslyckades
+Message not found<=>Inga meddelanden hittades
+Server failure: Message not found!<=>Serverfel: Inga meddelanden hittades!
+Busy<=>Arbetar
+Ready<=>Klar
+Connecting...<=>Ansluter...
+Connected!<=>Ansluten!
+Login...<=>Loggar in...
+Successfully logged in!<=>Inloggningen lyckades!
+Loading message ...<=>Laddar meddelande...
+Loading message {1} of {2} ...<=>Laddar meddelande {1} av {2} ...
+Deleting message {1} of {2} ...<=>Raderar meddelande {1} av {2} ...
+
+# Update Wizard
+
+Update Wizard<=>Uppdateringshjälp
+There are no updates available.<=>Det finns inga uppdateringar.
+There is a new version {1} available!<=>Det finns en ny version {1} tillgänglig!
+There is a new {1} Beta version available!<=>Det finns en ny {1} betaversion tillgänglig!
+Click "Next" to update your copy of PopMan...<=>Klicka på "Nästa" för att uppdatera PopMan...
+Unable to retrieve version infomation!<=>Kunde ej hämta versionsinformation!
+Error number: {1}<=>Felnummer: {1}
+Welcome to the PopMan Update Wizard<=>Välkommen till PopMans uppdateringshjälp
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Hjälpen ansluter nu till PopMans webbserver och söker efter uppdateringar. Om det finns en nyare version kan alla nödvändiga filer hämtas och installeras automatiskt.
+Failed to load Decompress.dll!<=>Kunde inte ladda Decompress.dll!
+Initializing...<=>Initierar...
+Do you really want to cancel the update process?<=>Vill du avbryta uppdateringsprocessen?
+Update process failed!<=>Uppdateringsprocessen misslyckades!
+Error while downloading initialization file!<=>Fel under nedladdning av initieringsfil!
+No updates available.<=>Inga uppdateringar tillgängliga.
+Failed to retrieve temporary directory!<=>Kunde inte hämta temporär mapp!
+Saving {1} ...<=>Sparar {1} ...
+Failed to create directory:<=>Kunde inte skapa mappen:
+Failed to decompress file:<=>Kunde inte packa upp filen:
+Failed to download file:<=>Kunde inte ladda ned filen:
+(checksum error)<=>(kontrollsummefel)
+Please try again later.<=>Försök senare.
+Error while saving downloaded file!<=>Fel när den nedladdade filen sparades!
+All files downloaded successfully.<=>Alla filer nedladdade utan problem!
+Press the "Finish" button to complete the update process...<=>Klicka på "Slutför" för att fullgöra uppdateringen...
+Failed to initialize the final copy process!<=>Kunde inte initiera den slutliga kopieringsprocessen!
+Downloading {1} ...<=>Hämtar {1}...
+Progress all:<=>Förlopp totalt:
+Progress current file:<=>Förlopp aktuell fil:
+Download of updated files<=>Nadladdning av uppdaterade filer
+
+# Import Accounts Dialog
+
+Account<=>Konto
+User<=>Användarnamn
+Server<=>Server
+Port<=>Port
+Please select the accounts that you want to import from Outlook Express.<=>Välj de konton du vill importera från Outlook Express.
+&Properties...<=>&Egenskaper...
+OK<=>OK
+Cancel<=>Avbryt
+Import email accounts<=>Importera e-postkonton
+Description<=>Beskrivning
+
+# Account Dialog
+
+General<=>Allmänt
+Colors<=>Färger
+Advanced<=>Avancerat
+Can not change account settings while there are busy accounts.<=>Kan inte ändra kontoinställningar medan kontot har pågående aktivitet. 
+Please enter the address of the Server!<=>Ange adressen till servern!
+Please enter the account name!<=>Skriv in kontonamnet!
+Please enter user name!<=>Skriv in användarnamnet!
+Account name:<=>Kontonamn:
+Protocol:<=>Protokoll:
+Server:<=>Server:
+Port:<=>Port:
+User name:<=>Användarnamn:
+Password:<=>Lösenord:
+Include this account when receiving mail<=>Inkludera detta konto när e-post hämtas
+1 minute<=>1 minut
+{1} minutes<=>{1} minuter
+1 second<=>1 sekund
+{1} seconds<=>{1} sekunder
+Use UIDL when deleting messages<=>Använd UIDL när meddelanden tas bort
+Use custom AutoCheck timer interval<=>Använd inställd intervall för Autosök
+Timer interval:<=>Tidsintervall
+minutes<=>minuter
+Server Timeouts<=>Servertimeout
+Short<=>Kort
+Long<=>Lång
+Load all emails completely<=>Ladda alla meddelanden fullständigt
+Retrieve header and {1} lines of message body<=>Hämta huvud och {1} rader från meddelandet
+Number of lines:<=>Antal rader:
+Parameters<=>Parametrar:
+Use individual font color:<=>Använd individuell textfärg:
+Circle color in system tray:<=>Cirkelfärg i meddelandefältet:
+Invalid parameter string!<=>Ogiltig parametersträng!
+Default<=>Standard
+
+# Accounts Dialog
+
+Mail Accounts<=>E-postkonton
+&Add...<=>&Lägg till...
+&Remove<=>&Ta bort
+Move &up<=>Flytta &upp
+Move &down<=>Flytta &ned
+&Close<=>&Stäng
+Black List<=>Svartlista
+Messages from senders in the list below will be deleted automatically from the server.<=>Meddelanden från avsändare i listan nedan tas automatiskt bort från servern.
+Address:<=>Adress:
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>Ange den e-postadress (t.ex. någon@någonstans.com) eller domän (t.ex. någonstans.com) du vill blockera:
+Enter address<=>Ange adress
+
+# Download Dialog
+
+Loading the following mail:<=>Laddar följande e-brev:
+Loading Mail...<=>Laddar e-brev...
+
+# Password Dialog
+
+Password - {1}<=>Lösenord - {1}
+Enter the password of the following account.<=>Skriv in lösenord för följande konto.
+Account:<=>Konto:
+Remember password<=>Kom ihåg lösenordet
+Password incorrect! Please note that the password is case-sensitive.<=>Lösenordet felaktigt! Observera att lösenordet är skiftlägeskänsligt.
+Please enter the password.<=>Skriv in lösenordet.
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Ange var e-posten skall sparas.
+The specified folder does not exist!<=>Den angivna mappen finns inte!
+Please specify a template for the file names.<=>Ange en mall för filnamnen!
+A file name must not contain any of the following characters:<=>Ett filnamn får inte innehålla något av följande tecken:
+Invalid template! Use a combination of the following placeholders:<=>Felaktig mall! Använd en kombination av följande platshållare:
+Subject<=>Ämne
+From<=>Från
+To<=>Till
+Date<=>Datum
+Time<=>Tid
+Save As...<=>Spara som...
+Destination<=>Mål
+Folder:<=>Mapp:
+Browse...<=>Bläddra...
+Save Format<=>Spara i format
+Template For File Names<=>Mall för filnamn
+Email File (*.eml)<=>E-postfil (*.eml)
+Text File (*.txt)<=>Textfil (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Filen "{1}" finns inte!
+Sound (*.wav)<=>Ljud (*.wav)
+Notify when new mail arrives<=>Meddela när ny e-post anländer
+Always<=>Alltid
+When AutoChecked or minimized<=>Vid Autosök eller när programmet är minimerat
+Only when minimized<=>Endast när PopMan är minimerat
+On new mail<=>Vid ny e-post
+Acoustic notification<=>Ljudmeddelande
+Sound:<=>Ljud:
+&Test<=>&Testa
+Show PopMan window<=>Visa PopMan-fönstret
+Show new mail tip<=>Visa info om ny post
+Include sender and subject of new mails<=>Inkludera avsändare och ämne i nya e-brev
+Use balloon tip<=>Använd ballongtips
+Flash keyboard light:<=>Blinkande tangentbord:
+Unread Messages<=>Olästa meddelanden
+Display unread messages in bold font<=>Visa olästa meddelanden halvfeta
+Preview Pane<=>Förgranskningsfönster
+Use the preview pane to quickly view a message without opening a separate window.<=>Använd förgranskningsfönstret för att snabbt se ett meddelande utan att öppna ett separat fönster.
+Show preview pane<=>Visa förgranskningsfönster
+Be&low messages<=>&Under meddelanden
+Be&side messages<=>&Bredvid meddelanden
+Use logging to record all data communication between PopMan and the email server.<=>Använd loggning av all datakommunikation mellan PopMan och e-postservern
+Enable logging<=>Använd loggning
+Enable error logging<=>Logga fel
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(om ett fel inträffar under kommunikation med e-postservern sparas loggen i en separat felfil)
+Log file size:<=>Loggfilens storlek:
+KB<=>kB
+Enable logging of applied rules<=>Använd loggning av tillämpade regler
+Location of the log file "PopManLogFile.log":<=>Placering av loggfilen "PopManLogFile.log":
+Use dial-up networking<=>Använd uppringd anslutning
+Launch PopMan on Windows startup<=>Starta PopMan när Windows startar
+Check for new mail on startup<=>Sök ny e-post vid starten
+First wait<=>Vänta först
+seconds<=>sekunder
+X button hides to tray<=>X-knappen minimerar till fältet vid klockan
+Min button hides to tray<=>Minimeringsknappen stänger till fältet vid klockan
+Delete confirmation in main window<=>Bekräfta radering i huvudfönstret
+Delete confirmation in preview pane and message window<=>Bekräfta radering i förgransknings- och meddelandefönstret
+Delete command marks message for deletion<=>Raderingskommando markerar meddelande för borttagning
+Enable password protection:<=>Använd lösenordsskydd
+AutoCheck only while minimized<=>Autosök endast när PopMan är minimerat
+Don't check between:<=>Sök inte e-post mellan
+and<=>och
+Enable custom AutoCheck interval per account:<=>Använd individuell autosökintervall för olika konton:
+Interval<=>Intervall
+Custom<=>Ange
+Executable (*.exe)<=>Körbar fil (*.exe)
+Hide PopMan to tray<=>Minimera till meddelandefältet
+Quit PopMan<=>Stäng PopMan
+Email client:<=>E-postklient
+When launching email client:<=>När e-postklienten startas:
+When replying<=>Vid svar:
+Use temporary eml file (Outlook Express)<=>Använd temporär eml-fil (Outlook Express)
+Use mailto (without quotted original message)<=>Använd mailto (utan citerat originalbrev)
+Use MAPI<=>Använd MAPI
+Use HTML linebreaks in reply body<=>Använd HTML-radbrytning i svarsmeddelandet
+Enforce email address (Yahoo! Mail)<=>Visa alltid e-postadress (Yahoo! Mail)
+Launch email client with command line parameter:<=>Starta e-postklient med kommandoradsparameter:
+Number of messages<=>Antal e-brev
+Show number of messages in tray icon<=>Visa antalet e-brev i systemikonen
+Show number of all messages<=>Visa totalt antal meddelanden
+Show number of unread messages<=>Visa antalet olästa meddelanden
+Show number of new messages<=>Visa antalet nya meddelanden
+Rotate icon for each account<=>Rotera ikonen för varje konto
+Rotation interval:<=>Rotationsintervall
+tenths of a second<=>tiondelssekunder
+Show advanced account info<=>Visa avancerad kontoinformation
+Enable HighColor icons in system tray<=>Använd HighColor-ikon i systemtråget/meddelandefältet
+Nothing<=>Ingenting
+Show Window<=>Visa programfönstret
+Check Mail<=>Sök e-post
+PopUp Menu<=>Popup-meny
+Run Email Client<=>Öppna e-postklienten
+Check And Show<=>Sök och visa
+Toggle Window<=>Växla fönster
+Toggle AutoCheck<=>Växla Autosök
+Show Mail Info<=>Visa e-postinfo
+Tray Mouse Actions<=>Musfunktion för ikonen
+Left Click:<=>Vänsterklick:
+Right Click:<=>Högerklick:
+Middle Click:<=>Mellanklick:
+Double Click:<=>Dubbelklick:
+Double click delay on click<=>Fördröjd dubbelklick:
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Nedan kan du välja bland de språk som för närvarande finns i ditt PopMan.{BR}Om du inte hittar ditt språk, kan du söka det på PopMans webbplats:
+Language:<=>Språk:
+Author:<=>Översättare:
+Email:<=>E-post:
+Updated:<=>Uppdaterat:
+Comment:<=>Kommentar:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Initiering av RichEdit-kontroll misslyckades.
+Source - "{1}"<=>Källa - "{1}"
+
+# List View
+
+Size<=>Storlek
+Received<=>Mottaget
+Attachment<=>Bifogad fil
+Sent<=>Skickat
+Priority<=>Prioritering
+UserAgent<=>E-postklient
+High<=>Hög
+Low<=>Låg
+Normal<=>Normal
+Are you sure you want to delete the selected email?<=>Vill du ta bort det markerade meddelandet?
+Are you sure you want to delete the {1} selected emails?<=>Vill du ta bort de {1} markerade meddelandena?
+&Open...{TAB}Ctrl+O<=>&Öppna...{TAB}Ctrl+O
+Sou&rce...<=>&Källa...
+&Save As...{TAB}Ctrl+S<=>&Spara som...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Svara avsända&ren{TAB}Ctrl+R
+&Block Sender<=>&Blockera avsändaren
+&Delete{TAB}Del<=>&Ta bort{TAB}Del
+&Unmark{TAB}Ins<=>Av&markera{TAB}Ins
+This will add the following email addresses to the Black List:<=>Detta lägger till följande e-postadresser i svartlistan:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>OBS: Alla framtida meddelanden från avsändare i svartlistan kommer att tas bort automatiskt!
+
+
+# Main Window
+
+Empty Trash<=>Töm Papperskorgen
+Options<=>Inställningar
+AutoCheck<=>Autosök
+Notification<=>Meddelande
+Email Client<=>E-postklient
+View<=>Visa
+Tray Icon<=>Ikon vid klockan
+Language<=>Språk
+Mouse Actions<=>Musfunktioner
+Logging<=>Loggning
+&File<=>&Arkiv
+&Accounts...<=>&Konton...
+&Update{TAB}F5<=>&Uppdatera{TAB}F5
+&Cancel{TAB}Esc<=>Av&bryt{TAB}Esc
+Delete &Marked Emails{TAB}F12<=>Ta bort &markerade meddelanden{TAB}F12
+&Exit<=>&Avsluta
+&View<=>V&isa
+&Toolbar<=>V&erktygsrad
+&Statusbar<=>Stat&usrad
+&Hide Marked Messages<=>&Dölj markerade meddelanden
+Tab &View{TAB}Ctrl+M<=>Använd &kontoflikar{TAB}Ctrl+M
+&Tools<=>V&erktyg
+&Font...<=>T&ypsnitt...
+Font &Color...<=>Typsnittsf&ärg...
+&Themes<=>&Teman
+Launch &Email Client{TAB}Ctrl+E<=>Starta e-&postklient{TAB}Ctrl+E
+&Import Accounts...<=>I&mportera konton...
+&Black List...<=>&Svartlista...
+&Rules...<=>&Regler...
+&Options<=>&Inställningar
+&Help<=>&Hjälp
+&Help Topics...{TAB}F1<=>&Hjälpämnen...{TAB}F1
+Check For &Updates<=>Sök &uppdateringar
+&About PopMan...<=>&Om PopMan...
+Edit email accounts.{BR}Accounts<=>Redigera e-postkonton{BR}Konton
+Update email listing.{BR}Update<=>Uppdatera e-postlistan{BR}Uppdatera
+Cancel current operation.{BR}Cancel<=>Avbryt pågående operation{BR}Avbryt
+Show email content.{BR}Show<=>Visa e-brevets innehåll{BR}Visa
+Show source code of this email.{BR}Source code<=>Visa källkod för detta e-brev{BR}Källa
+Save selected email to file.{BR}Save<=>Spara markerat brev till fil{BR}Spara
+Create a reply message to the sender.{BR}Reply<=>Skapa ett svar till avsändaren{BR}Svara
+Delete selected emails.{BR}Delete<=>Ta bort markerade meddelanden{BR}Ta bort
+Delete marked emails.{BR}Delete marked emails<=>Ta bort markerade meddelanden{BR}Ta bort markerade meddelanden
+Unmark (undelete) selected emails.{BR}Unmark<=>Avmarkera (ta inte bort) markerade meddelanden{BR}Avmarkera
+Add sender to Black List.{BR}Block Sender<=>Lägg till avsändare i svartlistan{BR}Blockera avsändaren
+Quit the application.{BR}Exit<=>Stäng programmet{BR}Avsluta
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Visa/dölj verktygsrad{BR}Växla verktygsrad
+Show or hide the status bar.{BR}Toggle StatusBar<=>Visa/dölj statusrad{BR}Växla statusrad
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Använd/använd inte kontoflikar{BR}Växla kontoflikar
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Dölj meddelanden som är markerade för borttagning{BR}Dölj markerade meddelanden
+Change font.{BR}Font<=>Ändra typsnitt{BR}Typsnitt
+Change font color.{BR}Font Color<=>Ändra teckenfärg{BR}Teckenfärg
+Launch email client.{BR}Email Client<=>Starta e-postklient{BR}E-postklient
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importera konton från Outlook Express{BR}Importera konton
+Edit the rules.{BR}Rules<=>Redigera regler{BR}Regler
+Edit list of blocked senders.{BR}BlackList<=>Redigera listan med blockerade avsändare{BR}Svartlistan
+Change program settings.{BR}Settings<=>Ändra programinställningar{BR}Inställningar
+Show Help Topics.{BR}Help<=>Visa hjälpen{BR}Hjälp
+Check if a new version is available.{BR}Check for updates<=>Kontrollera om ny programversion finns tillgänglig{BR}Sök uppdatering
+Display program information, version number and copyright.{BR}About<=>Visa programinformation, versionsnummer och copyright{BR}Om
+Show the main window.{BR}Show<=>Visa huvudfönstret{BR}Visa
+Enable AutoChecking.{BR}Enable<=>Använd automatiskt e-postsökning{BR}Använd
+Open the selected attachment.{BR}Open<=>Öppna markerad bifogad fil{BR}Öppna
+Save the selected attachments.{BR}Save<=>Spara markerade bifogade filer{BR}Spara
+Save all attachments.{BR}Save All<=>Spara alla bifogade filer{BR}Spara alla
+Change the window size.<=>Ändra fönsterstorlek.
+Change the window position.<=>Ändra fönsterplacering.
+Reduce the window to an icon.<=>Minimera fönstret till en ikon.
+Enlarge the window to full size.<=>Maximera fönstret till full storlek.
+Close the active window.<=>Stäng det aktiva fönstret.
+Restore the window to normal size.<=>Återställ fönstret till normal storlek.
+Don't display this &message again.<=>Visa inte detta meddelande igen.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>Skriv &ut
+&Close{TAB}Esc<=>&Stäng
+&Edit<=>&Redigera
+&Cut{TAB}Ctrl+X<=>K&lipp ut{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>K&opiera{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Klistra in{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Sök...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Sök &nästa{TAB}F3
+Select &All{TAB}Ctrl+A<=>Markera &allt{TAB}Ctrl+A
+Print this email.{BR}Print<=>Skriv ut detta e-brev{BR}Skriv ut
+Delete this email.{BR}Delete<=>Radera detta e-brev{BR}Radera
+Close window.{BR}Close<=>Stäng fönstret{BR}Stäng
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Klipp ut det markerade och lägg det i klippbordet{BR}Klipp ut
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Kopiera det markerade till klippbordet{BR}Kopiera
+Insert Clipboard contents.{BR}Paste<=>Klistra in innehållet från klippbordet{BR}Klistra in
+Find the specified text.{BR}Find<=>Sök den angivna texten{BR}Sök
+Find next occurence of specified text.{BR}Find next<=>Sök nästa förekomst av den angivna texten{BR}Sök nästa
+Select the entire message.{BR}Select All<=>Markera hela meddelandet{BR}Markera allt
+"{1}" not found.<=>"{1}" hittades inte.
+&Open<=>&Öppna
+&Save As...<=>&Spara som...
+Save &All...<=>Spara &alla...
+This attachment can not be accessed anymore.<=>Denna bifogade fil är inte längre tillgänglig.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}" innehåller sannolikt virus, e-postmaskar eller liknande skadlig kod!
+Opening this file is therefore denied.<=>Filen får därför inte öppnas.
+Do you really want to save this file to your hard disk?<=>Vill du spara filen på hårddisken?
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>De bifogade filerna innehåller sannolikt virus, e-postmaskar eller liknande skadlig kod!
+Do you really want to save these files to your hard disk?<=>Vill du spara dessa filer på hårddisken?
+Please specify where to save the attachments.<=>Ange var bifogade filer skall sparas.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Filen "{1}" finns redan!{BR}Vill du skriva över den?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Kunde inte hämta e-post.{BR}Tryck Ctrl+F5 för att uppdatera listan och försök igen.
+Are you sure you want to delete this email?<=>Vill du ta bort markerat e-brev från servern?
+Deleting email failed!<=>Kunde inte ta bort e-brev!
+From:<=>Från:
+Date:<=>Datum:
+To:<=>Till:
+Subject:<=>Ämne:
+Attach:<=>Bifogat:
+
+# PopMan Start
+
+Please start one instance only.<=>Starta inte mer än en instans av programmet.
+Windows socket init failed.<=>Kunde inte initiera Windows socket.
+{1} Beta version has been updated successfully!<=>{1} betaversion har uppdaterats utan fel!
+You have successfully updated to version {1} !<=>Du har utan fel uppdaterat till version {1}!
+About PopMan<=>Om PopMan
+PopMan, Version {1}<=>PopMan, version {1}
+Website:<=>Webbplats:
+
+# Document
+
+The error log file "{1}" could not be created.<=>Felloggningsfilen "{1}" kunde inte skapas.
+Checking {1}...<=>Kontrollerar {1}
+Error while writing to the log file:<=>Fel under skrivning till loggfilen:
+Logging disabled!<=>Loggning avstängd!
+Email (*.eml)<=>E-post (*.eml)
+Text (*.txt)<=>Text (*.txt)
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Loggfilen "{1}" kunde inte öppnas.{BR}Loggning avstängd!
+Unable to load mail system support.<=>Kunde inte ladda e-postsystemstödet.
+Mail system DLL is invalid.<=>E-postsystemet DLL är felaktig.
+Unable to detect if a new version is available.<=>Kunde inte kontrollera om en ny version finns tillgänglig.
+There is no update available.<=>Det finns ingen uppdatering för närvarande.
+Do you want to start the update wizard and download the latest version?<=>Vill du starta uppdateringshjälpen och hämta den senaste versionen?
+Deleting mail...<=>Raderar e-post...
+Downloading mail...<=>Hämtar e-post...
+AutoCheck disabled<=>Autosök bortkopplad
+No messages<=>Inga meddelanden
+1 new message<=>1 nytt meddelanden
+{1} new messages<=>{1} nya meddelanden
+PopMan - New Mail<=>PopMan - Ny e-post
+&Open PopMan<=>&Öppna PopMan
+Check &Mail<=>Sök e-&post
+&Cancel<=>&Avbryt
+&Email Client<=>&E-postklient
+A&utoCheck Enabled<=>A&utosök inkopplad
+O&ptions...<=>&Inställningar
+&About...<=>&Om...
+E&xit<=>&Stäng
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} medd. ({2} oläst, {3} nytt){TAB}{4} kB
+PopMan - E-postinfo<=>
+1 message<=>1 meddelande
+{1} messages<=>{1} meddelanden
+1 unread message<=>1 oläst meddelande
+{1} unread messages<=>{1} olästa meddelanden
+in {1}<=>i  {1}
+in {1} accounts<=>i {1} konton
+Show<=>Visa
+Delete<=>Ta bort
+Close<=>Stäng
+(last check: {1})<=>(senaste sökning: {1})
+You are about to irrevocably delete all marked messages.<=>Du är på väg att oåterkalleligt ta bort alla markerade meddelanden.
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Du har markerat ett meddelande för borttagning. Tryck på Ins-tangenten för att avmarkera det. Tryck på F12 eller på Ta bort-knappen i verktygsraden för att ta bort alla markerade meddelanden.
+You can also delete selected messages immediately by pressing Shift+Del.<=>Du kan ta bort markerade meddelanden omedelbart genom att trycka på Shift+Del på tangentbordet.
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Om du vill återställa det traditionella beteendet (ta bort alla markerade meddelanden direkt), avmarkerar du "{1}" i Inställningar.
+Separate account | All<=>Separat konto | Alla
+Check accounts{TAB}F7<=>Sök på konton{TAB}F7
+Join with tab<=>Slå ihop med flik...
+Rename tab{TAB}F2<=>Ändra fliknamn{TAB}F2
+You have to add at least one account before you can switch to tab view.<=>Du måste lägga till åtminstone ett konto innan du kan använda kontoflikar.
+Caption:<=>Namn:
+Please enter the caption of the tab:<=>Ange namnet på fliken.
+Rename tab<=>Ändra namn på flik
+Tab accounts:<=>Flikens konton:
+Error while parsing rules file at line {1}!<=>Fel på rad {1} vid analys av regelfil!
+Copy Link Address<=>Kopiera länkadress
+
+# 09/30/2007
+
+Load small emails completely<=>Ladda korta e-brev fullständigt
+Small emails are < <=>Korta brev är < 
+Add item to Rules list<=>Lägg till i regellistan
+Destination List<=>Mållistan
+New Item<=>Ny
+Item Type<=>Typ
+Word<=>Ord
+String<=>Sträng
+Regular Expression<=>Reguljärt uttryck
+Only log compact mail info instead of entire data traffic<=>Logga komprimerad brevinformation i stället för hela datatrafiken
+Använd loggning av tillämpade regler<=>
+Rules<=>Regler
+Move Marked Messages to Tr&ash Tab<=>Flytta markerade brev till fliken T&a bort
+Add Item To Rules &List...{TAB}F9<=>Lägg till i &regellistan...{TAB}F9
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Flytta markerade brev till en egen "Ta bort-flik".{BR}Använd Ta bort-fliken
+Add item to Rules list.{BR}Add To List<=>Lägg till detta i regellistan.{BR}Lägg till i listan
+Forum:<=>Forum:
+PopMan - Mail Info<=>PopMan -Brevinfo
+Failed to add item to Rules list!<=>Kunde inte lägga till i listan!
+Trash<=>Ta bort
+The item is already contained in the list!<=>Detta finns redan i listan!
+
+# 10/14/2007
+
+White List<=>Vita listan
+Messages from senders in the list below will never be deleted automatically.<=>Brev från avsändare i listan kommer inte att tas bort automatiskt.
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>Skriv in e-postasdress (t.ex. kompis@bekant.se) eller domän (t.ex. bekant.se):
+&Trust Sender<=>&Godkänd avsändare
+This will add the following email addresses to the White List:<=>Detta lägger till följande e-postadresser i Vita listan:
+&White List...<=>&Vita listan...
+Add sender to White List.{BR}Trust Sender<=>Lägg till avsändare i Vita listan
+Edit list of trusted senders.{BR}WhiteList<=>Redigera listan med godkända avsändare.
+Suspend New Mail Notification Sound.{BR}Mute<=>Stäng av ljudsignal vid nya e-brev.{BR}Tyst
+Mu&te Mode<=>T&yst läge
+Mark All Mails Read<=>Markera alla brev som lästa
+Mark All Mails Unread<=>Markera alla brev som olästa
+
+# 04/10/2010
+
+Type<=>Typ
+Limit tips to [PROTECTED] messages<=> Meddelande endast vid nytt [SKYDDAT] e-brev
+[PROTECTED]<=>[SKYDDAT]
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>Vä&xla till/från [SKYDDAT] {TAB}Ctrl+T
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>Växla till/från [SKYDDAT] e-brev.{BR}Växla [SKYDDAT]
+Protocol plugin not initialized correctly!<=>Protokollet initierades inte korrekt!
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>Kunde inte initiera kontot {1}: Ingen plugin tillgänglig för protokollet {2}! 

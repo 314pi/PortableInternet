@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY app "Ekiga">
+<!ENTITY appversion "4.0">
+<!ENTITY manrevision "4.0">
+]>
+<!-- Begin -->
+<article id="index" lang="zh_CN">
+<articleinfo>
+<title><application>Ekiga</application> Manual 4.0 </title>
+
+<copyright><year>2003-2012</year><holder>Damien Sandras</holder></copyright>
+<copyright><year>2003-2004</year><holder>Matthias Redlich</holder></copyright>
+<copyright><year>2003-2004</year><holder>Christopher Warner</holder></copyright>
+<!-- translators: uncomment this:
+
+<copyright>
+<year>2002</year>
+<holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+</copyright>
+
+-->
+
+<revhistory>
+<revision>
+<revnumber>Ekiga Manual 4.0</revnumber>
+<date>2012-06-03</date>
+<revdescription>
+<para role="author">Damien Sandras</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>Ekiga 手册 3.0</revnumber>
+<date>2008-08-31</date>
+<revdescription>
+<para role="author">Damien Sandras</para>
+</revdescription>
+</revision>
+<revision>
+<revnumber>Ekiga 手册 2.0</revnumber>
+<date>2006-01-22</date>
+</revision>
+</revhistory>
+
+<publisher>
+<publishername>Damien Sandras</publishername>
+<address><email>dsandras@seconix.com</email></address>
+</publisher>
+<publisher>
+<publishername>Christopher Warner</publishername>
+<address><email>zanee@kernelcode.com</email></address>
+</publisher>
+<publisher>
+<publishername>Matthias Redlich</publishername>
+<address><email>m-redlich@t-online.de</email></address>
+</publisher>
+
+<authorgroup>
+<author role="maintainer">
+<firstname>Damien</firstname>
+<surname>Sandras</surname>
+</author>
+<author>
+<firstname>Christopher</firstname>
+<surname>Warner</surname>
+<othername>zanee</othername>
+</author>
+<author>
+<firstname>Matthias</firstname>
+<surname>Redlich</surname>
+</author>
+</authorgroup>
+
+<releaseinfo>
+This documentation is for version 4.0 of Ekiga.
+</releaseinfo>
+
+<abstract role="description">
+<para>Ekiga 是一款支持多种音视频编码的VOIP，IP 电话和视频会议软件。</para>
+</abstract>
+</articleinfo>
+
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+<indexterm zone="index">
+<primary>Ekiga</primary>
+</indexterm>
+
+<!-- INTODUCTION          -->
+<!-- What is &app; -->
+
+<section id="ekiga-introduction">
+<title>指导</title>
+
+<section><title>Ekiga</title>
+<para><application>Ekiga</application> 是一款运行于Linux和其他类UNIX操作系统(比如 BSD， OpenSolaris 或者 MacOSX)上的VOIP，IP 电话和视频会议的自由软件。它的作者是 Damien Sandras 并且按照 GNU/GPL 协议发布。</para>
+
+<para>
+Ekiga is able to use modern Voice over IP protocols like SIP and H.323. It supports all major features defined by those protocols like <emphasis>call hold</emphasis>, <emphasis>call transfer</emphasis>, <emphasis>call forwarding</emphasis>, ... It also supports <emphasis>instant messaging</emphasis>, and <emphasis>presence</emphasis>. It also has advanced support for <emphasis>NAT traversal</emphasis>.
+Ekiga supports the best <emphasis>free</emphasis> audio and video codecs, and has wideband support for a superior audio quality, together with echo cancellation.
+</para>
+</section>
+
+<section><title>SIP 和 H.323</title>
+<para>
+The Session Initiation Protocol (SIP) is a protocol developed by the IETF MMUSIC Working Group and proposed standard for initiating, modifying, and terminating an interactive user session that involves multimedia elements such as video, voice, instant messaging, online games, and virtual reality. In November 2000, SIP was accepted as a 3GPP signaling protocol and permanent element of the IMS architecture. It is one of the leading signalling protocols for Voice over IP.
+</para>
+
+<para>
+H.323 was originally created to provide a mechanism for transporting multimedia applications over LANs but it has rapidly evolved to address the growing needs of VoIP networks. One strength of H.323 was the relatively early availability of a set of standards, not only defining the basic call model, but in addition the supplementary services, needed to address business communication expectations. H.323 was the first VoIP standard to adopt the IETF standard RTP to transport audio and video over IP networks. H.323 is based on the ISDN Q.931 protocol and is suited for interworking scenarios between IP and ISDN, respectively between IP and QSIG. A call model, similar to the ISDN call model, eases the introduction of IP Telephony into existing networks of ISDN based PBX systems.
+</para>
+<para>
+<graphic fileref="figures/lumi.png"/>
+</para>
+</section>
+</section>
+
+<section id="ekiga-getting-started">
+<title>从这里开始</title>
+<para>
+When starting <application>Ekiga</application> for the first time the configuration assistant will show automatically. The Configuration Assistant is a step-by-step questionnaire that will guide you through all the steps involved in creating the basic configuration you will need to operate <application>Ekiga</application>.
+You should go through all of these steps properly, otherwise the assistant will re-appear (when it has not been completed) or <application>Ekiga</application> will not function appropriately (if some of your answers were not correct).
+You may run the Configuration Assistant at any time from the Edit menu.
+</para>
+
+<tip><title>提示</title><para>无论何时都可以通过配置窗口更改设定。</para></tip>
+
+
+<section><title>配置指导</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d1.png"/>
+</figure>
+
+<para>
+Throughout the entire configuration process navigation is available at the bottom of the window. You will be able to navigate through the questions using Back, Forward and Cancel.
+If you hit Cancel during the setup <application>Ekiga</application> will not be affected by your changes and all entered information will be discarded.
+</para>
+
+<para>
+This page welcomes you to the Configuration Assistant. There is nothing to change or edit here.
+Press the 'Forward' button towards the bottom of the window to start the configuration.
+</para>
+</section>
+
+
+<section><title>个人资料</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d2.png"/>
+</figure>
+
+<para>
+The Personal Information window requires you to supply personal information
+to use <application>Ekiga</application>.
+This information is displayed when connecting to other audio/video applications.
+</para>
+</section>
+
+
+<section><title>Accounts</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d3.png"/>
+</figure>
+
+<para>
+The Accounts window gives you a clear explanation of what accounts are for. You may simply skip it if you already know what an account is and what to use it for.
+</para>
+</section>
+
+
+<section><title>Ekiga.net 账户</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d4.png"/>
+</figure>
+
+<para>
+Ekiga.net is a free SIP services platform provided to <application>Ekiga</application> users.
+If you want to call other users and to be callable, you need a SIP address. You can get one from <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>.
+Ekiga.net also offers additional services like conference rooms, voice mail or online white pages. Please see <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink> for more information.
+</para>
+
+<para>
+Just follow the link given in the dialog to get an account if you do not have one, then fill in your username and password.
+Please press 'Forward' after having entered all required information to continue.
+</para>
+</section>
+
+
+<section><title>Ekiga Call Out 账户</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d5.png"/>
+</figure>
+
+<para><application>Ekiga</application> can be used with several Internet Telephony Service Providers. Those providers will allow calling real phones from your computer using <application>Ekiga</application> at interesting rates. We recommend you use the default <application>Ekiga</application> provider.</para>
+
+<para>If you want to create an account and use it to call your friends and family using regular phones at interesting rates, simply create an account using the "Get an Ekiga Call Out account" link. Once the account has been created, you will receive a login and a password by e-mail. Simply enter them in the dialog, and you are ready to call regular phones using <application>Ekiga</application></para>
+
+<para>With the default setup, you can simply use sip:3210444555 and choose sip.diamondcard.us to call the real phone number +3210444555, 32 is the country code, 10444555 is the number to call. We encourage you to put your favorite phone numbers in the address book.</para>
+
+<para>
+Just follow the link given in the dialog to get an account if you do not have one, then fill in your username and password.
+Please press 'Forward' after entering all required information to continue.
+</para>
+</section>
+
+
+<section><title>连接类型</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d6.png"/>
+</figure>
+
+<para>
+<application>Ekiga</application> supports several audio and video codecs. It includes codecs with excellent quality as well as codecs with medium to good quality. The higher the quality of a codec, the more bandwidth it requires. Moreover, video codecs can adapt their quality to the available bandwidth. This option is necessary in the initial configuration of <application>Ekiga</application> so that it chooses the optimal codec suited to your network connection and so that it adjusts the video quality settings.
+If your connection type is not mentioned in the list you should select the one closest to your network connection and adjust <application>Ekiga</application> manually with the preferences window (codecs section) later on.
+</para>
+
+<para>完成时，继续设置。</para>
+</section>
+
+
+<section><title>音频设备</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d7.png"/>
+</figure>
+
+<para>
+<application>Ekiga</application> requires audio devices to play and record sound. The audio output device ouputs the incoming sound stream during a call. Please select the device that your headset or speakers are connected to. The audio input device is what your microphone is connected to. These settings might be the same as the settings for the audio player if you have only one soundcard. But please note that it is also possible to record sound via another device (e.g. internal microphone in a webcam) too.
+This section also allows you to choose the ringing device. This device can be different from the audio output device. It allows you to hear the incoming call ringing sound event in your speakers, while having your headset connected for calls.
+</para>
+
+<para>完成时，继续设置。</para>
+</section>
+
+
+<section><title>视频设备</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d8.png"/>
+</figure>
+
+<para>
+This step is optional and concerns users with video devices (e.g. webcams) only. If you do not have any video devices you may skip this page.
+</para>
+
+<para>If you have a webcam or video device in the list you may select it here.</para>
+
+<para>完成时，继续设置。</para>
+</section>
+
+
+<section><title>配置完成</title>
+<figure>
+<title/>
+<graphic fileref="figures/config_d9.png"/>
+</figure>
+
+<para>
+The configuration of <application>Ekiga</application> is now completed. The last window only shows a short configuration summary of the settings you have chosen. Please verify that all these settings are correct. If something is incorrect you may use the 'Back' button in the lower right hand corner of the window to move to any page of the assistant and correct the mistake.
+</para>
+
+<para>
+If everything is correct please press the 'Apply' button to save the configuration. The assistant will be closed and the main Window of <application>Ekiga</application> will now appear. Remember, all settings can be changed via the preferences window at anytime.
+</para>
+</section>
+
+</section>
+
+
+
+
+<section id="ekiga-basic-usage">
+<title>基本使用方法</title>
+
+<section id="ekiga-calling-and-being-called">
+<title>呼叫和被呼叫</title>
+
+<graphic fileref="figures/call_d1.png"/>
+
+<section><title>从计算机到计算机(电脑到电脑)</title>
+<para>If you want to call other users and to be callable, you need a SIP address. You can get a SIP address from <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink> as described above.</para>
+
+<para>The SIP address can be used by other users to call you. Similarly, you can use the SIP address of your friends and family to call them. You can for example use <emphasis>sip:dsandras@ekiga.net</emphasis> to call the author of Ekiga.</para>
+
+<para>You can use the online address book of <application>Ekiga</application> to find the SIP addresses of other <application>Ekiga</application> users. It is of course possible to call users who are using another provider than ekiga.net. You can actually call any user using SIP software or hardware, and registered to any public SIP provider</para>
+
+<para>If you know the URI address of the party that you wish to call, you may choose the Chat -&gt; Call a number action, enter that URI into the sip: input box at the bottom of the window and press the Connect button; eg: sip:foo@ekiga.net and clicking on the Connect button would call the user at that address.</para>
+
+<para>It is also possible to call contacts using the address book, the call history or the roster. You can add contacts you call frequently to your roster, and watch their presence information in order to know when they are available. Please refer to the appropriate section of the manual for full explanations.</para>
+
+<tip><title>提示</title><para><application>Ekiga</application> also supports H.323 and as such can call any H.323 software or hardware. Please refer to the section related to URIs to learn more about the various types of URIs that can be used to call remote H.323  and SIP users.</para></tip>
+</section>
+
+<section><title>从常规电话到常规电话(电话到电话)</title>
+<para><application>Ekiga</application> can be used with several Internet Telephony Service Providers. Those providers will allow calling real phones from your computer using <application>Ekiga</application> at interesting rates. We recommend you use the default <application>Ekiga</application> provider. You can get an account using the links in the configuration assistant as described above.</para>
+
+<para>With the default setup, you can simply use sip:3210444555 and select sip.diamondcard.us in the list to call the real phone number +3210444555, 32 being the country code and 10444555 being the number you wish to call.</para>
+
+<para>You can also dial real phone numbers from the address book. If the phone number of the contact you want to call is stored in the address book, simply select Action -&gt; Call [Ekiga Call Out] when the contact is highlighted. It will dial the phone number of the contact using the Ekiga Call Out account.</para>
+
+<tip><title>提示</title><para><application>Ekiga</application> also supports connecting to H.323 and SIP PBX systems. If the PBX at your office supports those protocols, you will be able to call real phones and be called from real phones after having connected to the PBX. Please ask for the settings from your administrator.</para></tip>
+</section>
+
+<section><title>从常规电话到计算机(电话到电脑)</title>
+<para><application>Ekiga</application> can be used to receive incoming calls from regular phones. To allow this, you can simply login to your PC-To-Phone account using the Tools menu as described above, and buy a phone number in the country of your choice. <application>Ekiga</application> will ring when people will call that phone number.</para>
+
+<tip><title>提示</title><para>You can actually use any H.323 or SIP ITSP provider, including your own PBX at work. However we recommend using the integrated provider.</para></tip>
+</section>
+
+</section>
+
+
+<section id="ekiga-manage-contacts">
+<title>管理联系人</title>
+
+<section><title>添加联系人到花名册</title>
+<graphic fileref="figures/roster.png"/>
+
+<para>
+<application>Ekiga</application> allows you to add the contacts you
+dial the most to the roster, so that you can call or start a chat conversation with your friends without having to remember their URI. If supported by the service you are connecting to, <application>Ekiga</application> will display <emphasis>extended presence information</emphasis> about your friends.
+Ekiga.net supports publishing presence information for its users. Software PBX systems like <ulink url="http://www.asterisk.org" type="http">Asterisk</ulink> can report if a user is on the phone or not, and <application>Ekiga</application> will display that information in its roster.
+</para>
+
+<para>因此你可以使用 <application>Ekiga</application> 来监视你的电话交换机上的线路。</para>
+
+<para>
+<application>Ekiga</application> is also able to detect other <application>Ekiga</application> users on the LAN using the Bonjour technology popularized by Apple (tm) and to display them in the roster. That supposes you have a local mDNSResponder daemon running on your computer. On Linux systems this service will usually be provided by Avahi.
+</para>
+
+<para>
+To add a contact to the roster, select Chat -&gt; Add Contact, and fill in the required fields. If the service managing the URI you entered for the contact is able to publish presence status, Ekiga will automatically display it.
+</para>
+
+<para>
+If you do not know the VoIP URI of a contact, you might try searching for him/her using the Ekiga.net online directory. To do so, select Chat -&gt; Address Book, and start searching using the 'Search Filter' feature.
+</para>
+
+<tip><title>提示</title><para>你可以在花名册中把你的联系人编组。</para></tip>
+</section>
+
+<section><title>管理联系人</title>
+<graphic fileref="figures/addressbook_d1.png"/>
+
+<para>
+<application>Ekiga</application> allows you to look for contacts using various sources like the <ulink url="https://www.suse.com/products/desktop/features/evolution.html" type="http">Novell Evolution Email and Calendaring</ulink> address book, any LDAP directory or the Ekiga.net contact directory. You can use the result of your search to start a chat, call the contact, or simply add him to your roster if you have frequent calls with him. To start looking for contacts, select Chat -&gt; Address Book in the menu.
+To your left there will be a list dialog showing the LDAP directories as well as a list of local Address Books. The defaults are the <application>Ekiga</application> white pages, and the personal address book from <ulink url="https://www.suse.com/products/desktop/features/evolution.html" type="http">Novell Evolution</ulink>. Support for more contact sources is possible.
+</para>
+
+<para>
+<application>Ekiga</application> is able to browse any LDAP directory and use any attribute as the calling URI. For example, you could have an LDAP directory in your company, with a specific attribute containing the local extensions of all your colleagues. <application>Ekiga</application> is able to use such an LDAP directory. Simply select in Address Book -&gt; Add an LDAP Address Book, and fill in the required details. You can then right-click on the contact and call him using the call attribute as VoIP URI.
+</para>
+
+<graphic fileref="figures/addressbook_d2.png"/>
+
+<para>
+The LDAP Address Book supports a range of settings to allow it to work with any LDAPv3 directory. It allows you to choose the attribute to use for displaying a contact's name in the address book as well as a list of attributes for calling info. E.g., if the directory uses the LDAP inetOrgPerson schema you can configure the Address Book to retrieve the homePhone, mobile, and pager attributes make those values available for calling or messaging. You can also customize a Filter Template for the default LDAP search filter, and override the default filter at any time if you need to perform a more specialized search. The browser also supports all security options for LDAP including ldaps:// (LDAP over SSL), StartTLS, and SASL authentication.
+</para>
+
+<para>
+To refresh the list of users for a specific address book, simply click the Find button. It will search for all users in that address book. You can contact people by double clicking on their highlighted field. You can also message them by right-clicking or by choosing the appropriate action in the Action menu of the window.
+</para>
+
+<para>
+In certain cases you will want to search specifically for a person name, or his or her call URI in the <application>Ekiga</application> white pages. The address book window allows you to apply filters when searching for contacts. When searching an LDAP directory, entering a simple name in the Search Filter field will perform an LDAP Substring search using the configured Filter Template. If you need to perform a more specialized search you can enter a complete LDAP Filter string, and it will be used instead of the configured Filter Template.
+</para>
+
+<tip><title>提示</title><para>The <application>Ekiga</application> white pages return a limited number of results corresponding to your search. You can then add them to your personal roster to call them later.</para></tip>
+</section>
+
+<section><title>编辑联系人</title>
+<graphic fileref="figures/addressbook_d3.png"/>
+
+<para>
+Local address books provided by Novell Evolution allow you to add new contacts, or to edit existing contacts. Each different address book allows a different set of features depending on what makes sense for that specific address book. To discover what features are possible, simply select the address book and consult the Action menu, or right-click on the address book name.
+</para>
+
+<para>
+To add a contact to one of your local address books, simply select the address book you wish to add the contact to and select Action -&gt; New Contact. The option of adding a New Contact will appear and you may now enter his name and VoIP URI as well as other settings. When finished, select 'OK' and your contact has been added. You can only add contacts to local address books. The contact parameters can be changed at any time by selecting Action -&gt; Edit when the contact is highlighted. He can also be deleted by selecting Action -&gt; Remove.
+</para>
+
+<para>
+You can also add a contact from the white pages (or any other local or remote address book) to the roster by selecting Action -&gt; Add to local roster.
+</para>
+
+</section>
+
+</section>
+
+<section id="ekiga-sending-instant-messages">
+<title>发送即时消息</title>
+
+<graphic fileref="figures/chat_d1.png"/>
+
+<para><application>Ekiga</application> 允许你给远程用户发送即时消息，只要你知道他们的URI。</para>
+
+<para>
+You can send instant messages from the roster, from the call history or from the address book. From the roster or from the call history, simply select Chat -&gt; Contact -&gt; Message in the main window when a contact is highlighted. From the address book window, simply select Action -&gt; Message when the contact is highlighted. A window pops up, enter your text message, and hit the Enter key.
+</para>
+
+<tip><title>提示</title><para>你可以不使用所有的协议交换文本信息。<application>Ekiga</application> 将会只在协议被允许时显示消息菜单项。</para></tip>
+</section>
+
+
+<section id="ekiga-changing-status">
+<title>更新他自己的状态</title>
+
+<graphic fileref="figures/status.png"/>
+
+<para><application>Ekiga</application> 允许你向其他人发布你的状态。</para>
+
+<para>
+There are three categories of status messages : online, away and busy. Each of them allows you to specify a more complete status information. Simply select Custom message in the status menu at the bottom of the main window. You can then define your extended status message that will be published using all available protocols supporting it.
+</para>
+
+<tip><title>提示</title><para>Many servers will not support relaying your extended presence information. To make sure that this feature is available with the server you are using or with the PBX you are connected to, please ask your administrator. Please note that Ekiga.net will publish your presence information.</para></tip>
+</section>
+
+
+<section id="ekiga-manage-calls">
+<title>管理呼叫</title>
+
+<section><title>转接呼入</title>
+<para>
+<application>Ekiga</application> supports different policies for unanswered incoming calls. Per default it displays a popup window which allows you to decide whether you want to refuse or accept the request for an incoming call. If you do not answer the call in the required time, or if you are busy, or if you do not want to receive any call, <application>Ekiga</application> can forward the call to another party.
+</para>
+
+<para>
+Notice that you need to specify an URI where to forward calls in the preferences to be able to activate that option. Open the preferences window by choosing Edit -&gt; Preferences in the main window and select Call Options on the left. You will now see the appropriate section. It contains three checkboxes for the three cases described above. The URI of the party the calls shall be forwarded to can be configured separately in SIP Settings for SIP and accordingly in H.323 Settings for H.323.
+</para>
+</section>
+
+<section><title>控制此呼叫</title>
+<para><application>Ekiga</application> supports several actions which can be performed when being in a call. These actions enable you to control active sessions. It can be done using the menu and toolbar icons from the call window that appears as soon as a call is setup.</para>
+
+<graphic fileref="figures/call_window.png"/>
+
+<itemizedlist>
+<listitem>
+<para>Ending a call: The communication to the remote user can be ended by selecting Call -&gt; Hang up.</para>
+</listitem>
+
+<listitem>
+<para>Holding a call: You can hold a remote party call by selecting Call -&gt; Hold Call. This effectively pauses Video and Audio transmission; to continue transmission again you select Call -&gt; Retrieve Call and Video and Audio Transmission will begin again.</para>
+</listitem>
+
+<listitem>
+<para>Suspending Audio: This effectively prevents all Audio communication to your respective party when selecting Call -&gt; Mute Audio.</para>
+</listitem>
+
+<listitem>
+<para>Suspending Video: This effectively prevents all Video transmission to your respective party when selecting Call -&gt; Suspend Video.</para>
+</listitem>
+
+<listitem>
+<para>Transferring the remote party: You can transfer the remote user to another user by selecting Call -&gt; Transfer Call. It is also possible to transfer an active call by right-clicking and choosing the transfer action when a contact is highlighted in the roster, in the address book or in the call history. Double-clicking or selecting the Contact menu in the main window or the Action menu in the Address Book window and choosing the transfer action will also work.</para>
+</listitem>
+</itemizedlist>
+
+<tip><title>提示</title><para>All URIs supported by <application>Ekiga</application> can be used for call transfer if the protocol supports it.</para></tip>
+</section>
+
+<section><title>Adjusting the audio and video settings</title>
+<para>
+Your audio and video settings can be adjusted through the call window while you are in a call. The audio volume, but also the brightness, whiteness, color and contrast of your video input device can be changed to achieve the best quality.
+</para>
+
+<para>
+You can also change your audio and video devices during a call. Simply go in the preferences window by selecting Edit -&gt; Preferences in the menu, and adjust your devices in the appropriate section.
+</para>
+</section>
+
+<section><title>检查呼叫历史</title>
+
+<graphic fileref="figures/call_history.png"/>
+
+<para>The Call History stores information (date, duration, URI, Remote user) about all outgoing and incoming calls. They are divided into three groups - received calls, placed calls and missed calls. You can consult the call history by selecting View -&gt; Call History in the menu or by clicking on the appropriate icon in the toolbar.</para>
+
+<tip><title>提示</title><para>Double-clicking on a row in the Calls History will call back the selected user or transfer any active call to that user. Notice that you can also add the contact to your roster by selecting Chat -&gt; Contact -&gt; Add to local roster in the main menu when the call is highlighted.</para></tip>
+</section>
+
+</section>
+</section>
+
+<section id="ekiga-advanced-usage">
+<title>高级使用方法</title>
+
+<section id="ekiga-registering-additional-accounts">
+<title>注册附加账户</title>
+
+<section><title>账户窗口</title>
+
+<graphic fileref="figures/accounts_d1.png"/>
+
+<para>
+You can open the accounts window by selecting Edit -&gt; Accounts. This will open the accounts window. The accounts window will allow you to add Ekiga.net, Ekiga Call Out, SIP and H.323 accounts and to register to them.
+An account describes the user login and password parameters to register to SIP and H.323 services. Those <emphasis>services</emphasis> can be an Internet Telephony Service provider (like ekiga.net), or an IPBX (like CISCO, Nortel, or Asterisk).
+</para>
+</section>
+
+<section><title>添加一个 Ekiga.net 账户</title>
+
+<graphic fileref="figures/accounts_ekiga_net.png"/>
+
+<para>
+To add an Ekiga.net account, simply select Accounts -&gt; Add an Ekiga.net Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>用户：</emphasis> 你可以输入你的用户名。</para></listitem>
+<listitem><para><emphasis>密码：</emphasis> 你可以输入你的密码。</para></listitem>
+</itemizedlist>
+</para>
+
+<para>
+Ekiga.net is a free SIP services platform provided to <application>Ekiga</application> users.
+If you want to call other users and to be callable, you need a SIP address. You can get one from <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink>.
+Ekiga.net also offers additional services like conference rooms, voice mail and online white pages. Please see <ulink url="http://www.ekiga.net" type="http">http://www.ekiga.net</ulink> for more information.
+</para>
+</section>
+
+<section><title>添加 一个 Ekiga 呼出账户</title>
+
+<graphic fileref="figures/accounts_ekiga_call_out.png"/>
+
+<para>
+To add an Ekiga Call Out account, simply select Accounts -&gt; Add an Ekiga Call Out Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>Account ID:</emphasis> You can enter your account ID.</para></listitem>
+<listitem><para><emphasis>PIN 码：</emphasis> 你可以输入你的PIN码。</para></listitem>
+</itemizedlist>
+</para>
+
+<para>
+If you do not have an Ekiga Call Out account yet, you can subscribe for one using the 'Get an Ekiga.net Call Out account' link in the dialog.
+As described above, this service will allow you to call normal phones worldwide at interesting rates.
+Once the account has been added, you can recharge it, consult the balance history or the call history by selecting the appropriate menu item in the Account menu of the window when the account is highlighted.
+</para>
+</section>
+
+<section><title>添加一个 SIP 账户</title>
+
+<graphic fileref="figures/accounts_sip.png"/>
+
+<para>
+To add a SIP account, simply select Accounts -&gt; Add a SIP Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>名称：</emphasis> 你可以输入帐户名称。</para></listitem>
+<listitem><para><emphasis>注册：</emphasis> 你想注册的注册点。通常是你的互联网电话服务提供商告诉你的IP地址或者主机名。如果你想注册到 SIP IPBX的话，此项通常由你的管理员提供。</para></listitem>
+<listitem><para><emphasis>用户：</emphasis> 你可以输入你的用户名。</para></listitem>
+<listitem><para><emphasis>Authentication User:</emphasis> If it is different from the user parameter you provided above. In that case, the user field will be used to control the outgoing identity for the account you are adding, while the login will be used during the authentication phase.</para></listitem>
+<listitem><para><emphasis>密码：</emphasis> 你可以输入你的密码。</para></listitem>
+<listitem><para><emphasis>超时：</emphasis>注册应该被刷新的超时。</para></listitem>
+</itemizedlist>
+</para>
+
+</section>
+
+<section><title>添加一个 H.323 账户</title>
+
+<graphic fileref="figures/accounts_h323.png"/>
+
+<para>
+To add an H.323 account, simply select Accounts -&gt; Add an H.323 Account in the menu. A dialog will appear and allow you to enter several parameters:
+<itemizedlist>
+<listitem><para><emphasis>名称：</emphasis> 你可以输入帐户名称。</para></listitem>
+<listitem><para><emphasis>Gatekeeper:</emphasis> The gatekeeper to which you want to register. This is usually an IP address or a host name that will be given to you by your Internet Telephony Service Provider, or by your administrator if you are trying to register to an H.323 IPBX.</para></listitem>
+<listitem><para><emphasis>用户：</emphasis> 你可以输入你的用户名。</para></listitem>
+<listitem><para><emphasis>Authentication User:</emphasis> If it is different from the user parameter you provided above. In that case, the user field will be used to control the outgoing identity for the account you are adding, while the login will be used during the authentication phase.</para></listitem>
+<listitem><para><emphasis>密码：</emphasis> 你可以输入你的密码。</para></listitem>
+<listitem><para><emphasis>超时：</emphasis>注册应该被更新的超时。</para></listitem>
+</itemizedlist>
+</para>
+
+</section>
+
+</section>
+
+<section id="ekiga-uris">
+<title>Understanding URIs</title>
+
+<section><title>SIP URI's</title>
+
+<para>SIP URIs are formatted as such "sip:user@[host[:port]]"</para>
+
+<para>This permits you to call the given user or extension on the specified SIP proxy: <emphasis>sip:jonita@ekiga.net</emphasis></para>
+</section>
+
+
+<section><title>H.323 URIs</title>
+
+<para>H.323 URIs are formatted as such "h323:[user@][host[:port]]"</para>
+
+<para>此项允许你：<itemizedlist>
+<listitem><para>Call a given host on a port different from the default port which is 1720: <emphasis>h323:seconix.com:1740</emphasis></para></listitem>
+<listitem><para>Call a given user using their respective alias if registered to a gatekeeper: <emphasis>h323:jonita</emphasis></para></listitem>
+<listitem><para>Call a given phone number if you are registered to a gatekeeper for a PC-To-Phone provider, or if that user has an ENUM record associated to an H.323 URI: <emphasis>h323:003210111222</emphasis></para></listitem>
+<listitem><para>Call a given user using their alias through a specific gateway or proxy: <emphasis>h323:jonita@gateway.seconix.com</emphasis></para></listitem>
+<listitem><para>Call an MCU and join a specific room: <emphasis>h323:myfriendsroom@mcu.seconix.com</emphasis></para></listitem>
+</itemizedlist></para>
+</section>
+
+</section>
+
+
+<section id="ekiga-video-bandwidth">
+<title>控制视频带宽</title>
+
+<para><application>Ekiga</application> uses a best-effort algorithm to maintain a low bandwidth when transmitting video.  It will permit <application>Ekiga</application> to dynamically adjust the video bandwidth and the number of transmitted images per second during a call while trying to respect the requested video bandwidth.</para>
+
+<para>Notice that the algorithm is a best-effort algorithm, which means that if your video bandwidth settings are too low, it can be impossible to respect them. However, if the video bandwidth permits to transmit with a better quality, or faster than the requested values, then <application>Ekiga</application> will dynamically increase them so that the quality and the framerate are always the best possible.</para>
+
+<!-- <para>Choosing a higher framerate and a lower quality will have the same result in terms of video bandwidth as choosing a higher quality with a lower framerate. The choice depends on if you prefer using your bandwidth to transmit more lower quality images or fewer high quality images.</para>-->
+</section>
+
+
+<section id="ekiga-monitoring-lines">
+<title>监视线路</title>
+
+<graphic fileref="figures/monitoring_lines.png"/>
+
+<para><application>Ekiga</application> can connect to PBX systems supporting the SIP protocol. In that case, it is able to indicate if the line associated with a user is in use or not. Please refer to the documentation of your PBX to enable that feature.</para>
+
+<para>To enable that feature on <application>Ekiga</application>, simply add the contact with his URI in the roster. If the server supports publishing presence information, <application>Ekiga</application> will automatically publish your own presence information and display the presence of contacts in your roster.</para>
+</section>
+
+<section id="ekiga-audio-codecs">
+<title>管理编码译码</title>
+
+<section><title>音频编码译码</title>
+
+<graphic fileref="figures/audio_codecs.png"/>
+
+<para>
+The <application>Ekiga</application> audio codecs table in the preferences permits you to change the codec order as well as disabling the codecs you don't want to use. Each codec has strong and weak points. For example, G.711 will give the best voice quality but will use the most bandwidth while SPEEX will give an average voice quality but requiring a very low bandwidth usage. Notice that there are two versions of SPEEX; one of them is SPEEX WideBand, which has a 16 kHz clock rate.</para>
+</section>
+
+<section><title>视频编码译码</title>
+
+<graphic fileref="figures/video_codecs.png"/>
+
+<para>
+The <application>Ekiga</application> video codecs table in the preferences permits you to change the codec order as well as disabling the codecs you don't want to use. <application>Ekiga</application> supports codecs like H.261, H.263+, H.264, MPEG-4 or Theora.</para>
+</section>
+
+
+<section><title>Reordering the codecs</title>
+<para>
+When you reorder the codecs, you are reordering the local capabilities table, ie the codecs you will use for sending. The codec used is the first active codec on receiver which is active on sender.</para>
+</section>
+
+<section><title>Forcing the use of a specific codec</title>
+<para>
+You can force the use of a specific codec by disabling all other codecs, but it will result in failed calls if the remote user doesn't support that specific codec. The best approach is to put your preferred codecs at the top of the list so that you always transmit with them if the remote user allows it and to disable the codecs that you don't want to use for transmission and reception.</para>
+</section>
+
+<section><title>Adjusting the jitter buffer</title>
+<para>
+You can adjust the delay to wait before playing the sound buffers that you have received using the jitter buffer adjustment. If there is too much packet loss, the delay required to have received all packets could be so important that it will exceed the jitter buffer. In such a case, the sound you are receiving will be of bad quality. A solution to that problem would be to increase the maximum limit of the jitter buffer to a few seconds, resulting in a big delay but in an improved voice quality. Notice that the jitter buffer will readapt itself to the lowest delay allowing for optimum transmission, and that a bad voice quality in reception is not due to a too low jitter buffer value, but to bad internet connection quality.
+</para>
+</section>
+
+</section>
+
+
+<section id="ekiga-defining-ports">
+<title>改变端口</title>
+
+<section><title>监听的端口</title>
+<para>
+The main port used to listen for incoming connections in <application>Ekiga</application> for SIP is port 5060 (UDP), while 1720 (TCP) is used by H.323. To change those ports you need to load "gconf-editor". Open gconf-editor, select apps from the left hand side menu and then select <application>Ekiga</application>, Protocols. Then select "sip" or "h323", it should give you a list in the corresponding window to your right. Select listen_port and change it to your desired value. You can also change the UDP/RTP port ranges.
+</para>
+</section>
+
+<section><title>端口范围的扩展</title>
+
+<para>1. The "listen_port" value is the port <application>Ekiga</application> will use to listen for incoming connections. It is different for SIP and H.323.</para>
+
+<para>2. The "udp_port_range" value is the range of UDP ports that <application>Ekiga</application> will use for SIP signalling or when registering to H.323 gatekeepers. It is also used for RTP (audio and video communication channels).</para>
+
+<para>3. The "tcp_port_range" value is the range of TCP ports beside the listen_port that <application>Ekiga</application> will use for the H.245 channel with the H.323 protocol. That port range is not used by SIP. It is also not used when H.245 Tunneling is enabled, which is generally the case, except when calling old H.323 implementations like Netmeeting.</para>
+</section>
+</section>
+
+
+<section id="controlling-sip-h323-settings">
+<title>控制 SIP 和 H.323 设定</title>
+<section id="ekiga-sip">
+<title>控制 SIP 设定</title>
+
+<section><title>杂项设置</title>
+<para><emphasis>出站代理</emphasis></para>
+<para>The outbound proxy is the SIP proxy that will relay your calls. The behavior of a SIP proxy is similar to the behavior of an HTTP proxy, i.e. some entity that issues the requests on your behalf and proxies the streams.</para>
+
+<para><emphasis>转到 URL</emphasis></para>
+<para>The URI to which SIP incoming calls should be forwarded if configured in the preferences.</para>
+
+</section>
+</section>
+
+<section id="ekiga-h323">
+<title>控制 H.323 设定</title>
+
+<section><title>杂项设置</title>
+<para><emphasis>转到 URL</emphasis></para>
+<para>The URI to which H.323 incoming calls should be forwarded if configured in the preferences.</para>
+
+</section>
+
+<section><title>高级设置</title>
+<para><application>Ekiga</application> permits a fine control of the H.323 settings in the Advanced H.323 Settings section of the preferences. You can enable H.245 Tunneling, Early H.245 and Fast Start.</para>
+
+<para><emphasis>H.245 封装</emphasis></para>
+
+<para>H.245 Tunneling is the encapsulation of H.245 messages within H.225/Q.931 messages (H.245 Tunneling). If you have a firewall and enable H.245 Tunneling, there is one less TCP port that you need to allow for incoming connections.</para>
+
+<para><emphasis>早期的 H.245</emphasis></para>
+
+<para>This enables H.245 early in the setup and permits achieving faster call initiation.</para>
+
+<para><emphasis>快速开始</emphasis></para>
+
+<para>Fast Connect is a new method of call setup that bypasses some usual steps in order to make it faster. In addition to the speed improvement, Fast Connect allows the media channels to be operational before the CONNECT message is sent, which is a requirement for certain billing procedures. It was introduced in H.323 version 2.</para>
+</section>
+
+</section>
+</section>
+</section>
+
+<section id="ekiga-about">
+<title>关于 <application>Ekiga</application></title>
+<para><application>Ekiga</application> is written by Damien Sandras (<email>dsandras@seconix.com</email>) with the help of many volunteers. Active maintainers are Damien Sandras (<email>dsandras@seconix.com</email>), Eugen Dedu (<email>Eugen.Dedu@pu-pm.univ-fcomte.fr</email>) and Julien Puydt (<email>jpuydt@free.fr</email>).
+To find more information about <application>Ekiga</application>, please visit the <ulink url="http://www.ekiga.org" type="http"><application>Ekiga</application> Home Page</ulink>.
+</para>
+
+<para>报告本文档和软件的缺陷或者提出建议，请点击 <ulink url="ghelp:user-guide?feedback" type="help">本文档</ulink>。</para>
+
+<para>This program is distributed under the terms of the GNU General Public license as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. A copy of this license can be found at this <ulink url="ghelp:gpl" type="help">link</ulink>, or in the file COPYING included with the source code of this program. </para>
+</section>
+
+
+
+<section id="ekiga-appendix">
+<title>附录</title>
+
+<section id="ekiga-related">
+<title>相关软件</title>
+
+<para><emphasis>IPBX</emphasis></para>
+<itemizedlist>
+<listitem><para>Asterisk 电话交换机(PBX)： <ulink url="http://asterisk.org" type="http">http://asterisk.org</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>SIP</emphasis></para>
+<itemizedlist>
+<listitem><para>SIP Express Router: <ulink url="http://www.iptel.org/ser" type="http">http://www.iptel.org/ser</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>H.323</emphasis></para>
+<itemizedlist>
+<listitem><para>OpenH323 Gatekeeper: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+<listitem><para>GNU Gatekeeper: <ulink url="http://www.gnugk.org" type="http">http://www.gnugk.org</ulink></para></listitem>
+<listitem><para>OpenH323 代理： <ulink url="http://openh323.sourceforge.net" type="http">http://openh323.sourceforge.net</ulink></para></listitem>
+<listitem><para>H323 - ISDN 网关： <ulink url="http://www.telos.de/linux/H323/" type="http">http://www.telos.de/linux/H323/</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>会议/VoIP软件</emphasis></para>
+
+<itemizedlist>
+<listitem><para>OpenMCU: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+</itemizedlist>
+
+<para><emphasis>类似客户端</emphasis></para>
+
+<itemizedlist>
+<listitem><para>XTen: <ulink url="http://www.xten.com" type="http">http://www.xten.com</ulink></para></listitem>
+<listitem><para>SJPhone: <ulink url="http://www.sjlabs.com/" type="http">http://www.sjlabs.com/</ulink></para></listitem>
+<listitem><para>OpenPhone: <ulink url="http://www.openh323.org" type="http">http://www.openh323.org</ulink></para></listitem>
+<listitem><para>Netmeeting: <ulink url="http://www.microsoft.com" type="http">http://www.microsoft.com</ulink></para></listitem>
+</itemizedlist>
+
+</section>
+</section>
+
+</article>
+<!-- END -->

@@ -1,0 +1,4 @@
+addons.mozilla.org:HPKP	0	17617	1527349403345,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+addons.mozilla.org:HSTS	0	17617	1553701403344,1,0,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	17617	1553701294020,1,1,2
+aus5.mozilla.org:HSTS	0	17617	1553701487745,1,0,2

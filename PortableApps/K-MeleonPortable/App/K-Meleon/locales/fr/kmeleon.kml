@@ -1,0 +1,846 @@
+# K-Meleon Localization (version 1.5, encoding must be UTF-8)
+
+OK=OK
+Cancel=Annuler
+Close=Fermer
+
+# ----- Toolbar Names (View > Toolbars)
+
+Bookmarks=Signets
+Favorites=Favoris
+Hotlist=Hotlist
+URL Bar=Barre d'Adresse
+
+# ---------- Plugins -----------------------------------------------------------------------------------------------
+
+# external, gestures, rebarmenu
+This plugin has no user configurable options.=Ce plugin n'a pas d'option configurable
+
+# bookmarks
+Failed to create bookmark toolbar=Impossible de créer la barre des signets
+
+# favorites
+Links=Liens
+
+# history
+All URLs=Toutes les adresses
+Delete=Supprimer
+Deletion is not implemented=Suppression non implémentée
+Delete all items in your History folder?=Supprimer toutes les entrées de l'Historique
+
+# rebarmenu
+Error! Failed to create menu toolbar=Erreur! Impossible de créer la barre de menu
+
+# toolbars
+Failed to create toolbar=Impossible de créer la barre d'outils
+Could not open file=Ouverture impossible du fichier 
+Extra { found=Erreur dans toolbars.cfg. Caractère '{' inattendu
+
+# ---------- menus.cfg ---------------------------------------------------------------------------------------------
+
+# ----- Plugins
+
+&Add Page=&Ajout
+&Edit...=&Édition...
+Se&ttings...=&Paramétrages...
+
+# Bookmarks
+&Bookmarks=&Signets
+Add Page To &Bookmarks=Ajouter la page aux &Signets
+Add Link To &Bookmarks=Ajouter le lien aux &Signets
+
+# Favorites
+F&avorites=Fa&voris
+Add Page To F&avorites=Ajouter la page aux Fa&voris
+Add Link To F&avorites=Ajouter le lien aux Fa&voris
+
+# Hotlist
+H&otlist=&Hotlist
+Add Page To H&otlist=Ajouter la page à la &Hotlist
+Add Link To H&otlist=Ajouter le lien à la &Hotlist
+
+# Fullscreen
+Fu&ll Screen=&Plein-Écran
+
+# History
+Histor&y=&Historique
+View &History=Afficher l'&Historique
+&Clear History=Effa&cer l'Historique
+
+# Tabs/Windows
+T&abs=&Onglets
+&Windows=&Fenêtres
+C&lose Tab=&Fermer l'Onglet
+Close All Ta&bs=Fermer &Tous les Onglets
+Close Ot&her Tabs=Fermer les &Autres Onglets
+N&ext Tab=Onglet &Suivant
+Previ&ous Tab=Onglet P&récédent
+Previously Sele&cted Tab=&Onglet Précédemment Sélectionné
+
+# Privacy
+&Clear Data=&Effacer les données
+Clear C&ache=Effacer le C&ache
+Clear &Cookies=Effacer les Co&okies
+Clear Pass&words=Effacer les &Mots de Passe
+Clear &History=Effacer l'&Historique
+Clear &URL Bar History=Effacer l'Historique de la &Barre d'Adresse
+Clear Au&tomatically...=Effacer Au&tomatiquement...
+
+# Sessions
+&Sessions=&Sessions
+&Load Session=&Ouvrir une Session
+&Save Session=&Enregistrer la Session
+&Undo Last Closed=&Ouvrir le dernier onglet fermé
+
+# ----- Toolbars
+
+Tool&bars=&Barres d'outils
+Loc&k Toolbars=&Verrouiller les barres d'outils
+&Status Bar=&Barre d'état
+
+# Main Bar
+&Print...=&Imprimer...
+Print Pre&view=Aperçu a&vant impression
+Page Set&up=Mise en pa&ge
+
+# Tab/Window Buttons
+Pre&vious Window=Fenêtre p&récédente
+Ne&xt Window=Fenêtre &suivante
+New &Tab=Nouvel &Onglet
+&New Window=Nouvelle &Fenêtre
+&Close Window=&Fermer la fenêtre
+Exit &K-Meleon=&Quitter K-meleon
+
+# ----- Main Menu
+
+# File
+&File=&Fichier
+Work O&ffline=Navigation &Hors-ligne
+&Open...=&Ouvrir...
+
+# Edit
+&Edit=&Édition
+&Redo=&Répeter
+Cu&t=Co&uper
+&Copy=&Copier
+&Paste=C&oller
+Select &All=&Sélectionner tout
+&Find In Page=&Chercher dans la page
+Find Ne&xt=Chercher le &suivant
+Find Pre&vious=Chercher le &précédent
+&Manage Profiles...=&Gérer les profils...
+Pr&eferences=Pré&férences
+
+# View
+&View=Aff&ichage
+Bac&k=&Précédent
+For&ward=&Suivant
+S&top=&Arrêter
+&Reload=&Recharger
+&Force Reload=&Forcer le rechargement
+Open &Home Page=Ouvrir la &page d'Accueil
+Zoom In &Text=Zoom Avant du &Texte
+Zoom Out T&ext=Zoom Arrière du Te&xte
+Page &Properties=&Propriétés de la Page
+Page Pro&perties=&Propriétés de la Page
+Frame &Properties=&Propriétés du Cadre
+&Background Image=Image d'&Arrière-Plan
+So&urce Code=Voir le code &Source
+Cache &Information=Information du &Cache
+
+# Tools
+&Tools=&Outils
+&Web Search=Recherche &Web
+&Privacy=&Confidentialité
+P&ermissions=P&ermissions
+Co&okies=Co&okies
+&Popups=&Popups
+Im&ages=Im&ages
+Vie&w Data=Voir les &Données
+View Co&okies=Voir les Co&okies
+View &Passwords=Voir les Mots de &Passe
+
+# Help
+&Help=&Aide
+About &Plugins=A propos des &Plugins
+About &K-Meleon=&A propos de K-Meleon
+&User's Guide=Guide &Utilisateur en ligne
+&FAQ=&Questions/Réponses
+K-Meleon &Forums=&Forums K-Meleon
+K-Meleon &Home=&Site Web K-Meleon
+
+# ----- Context Menus
+
+# Document Elements
+&Save Page As...=Enregistrer la Page &sous...
+&Save Frame As...=Enregistrer le &Cadre sous...
+&Save Image As...=Enregistrer l'&Image sous...
+&Save Link Target As...=Enregistrer le &Lien sous...
+Show &Only This Frame=Afficher le &Cadre Seul
+&Frame=&Cadre
+Open In Ne&w Tab=Ouvrir dans un Nouvel &Onglet
+Open In Bac&kground Tab=Ouvrir dans un Onglet en &Arrière-Plan
+Open In &New Window=Ouvrir dans une Nouvelle &Fenêtre
+Open In Backgro&und Window=Ouvrir dans une Fenêtre en Arrière-&Plan
+C&opy Image=&Copier l'Image
+&Copy Image URL=Copier l'&Adresse de l'Image
+&Copy Link URL=&Copier l'Adresse du Lien
+&View Image=&Voir l'Image
+I&mage=&Image
+
+# Text
+&Undo=&Défaire
+
+# Selected Text
+&Delete=&Supprimer
+
+# ---------- toolbars.cfg ------------------------------------------------------------------------------------------
+
+&Main Bar=Barre &Principale
+Go back one page=Page &précédente
+Go forward one page=Page &suivante
+Stop loading this page=&Arrêter le chargement de la page
+Reload this page=Recharger cette page
+Reload this page. Right-click for more options.=Recharger la page courante. Clic-Droit pour plus d'options.
+Open Home Page=Aller à la page d'accueil
+Open Home Page. Right-click for more options.=Page d'accueil. Clic-Droit pour plus d'options.
+Edit Bookmarks. Right-click to view Bookmarks menu.=Éditer les signets. Clic-Droit pour voir les Signets.
+Edit Hotlist. Right-click to view Hotlist menu.=Éditer la Hotlist. Clic-Droit pour voir les Hotlist.
+Explore Favorites. Right-click to view Favorites menu.=Éditer les Favoris. Clic-Droit pour voir les Favoris.
+Open Group or Folder. Right-click to view Groups menu.=Ouvrir un groupe ou un dossier. Clic-Droit pour voir les Groupes.
+View History. Right-click for more options.=Voir l'historique. Clic-Droit pour plus d'options.
+Print this page. Right-click for more options.=Imprimer cette page. Clic-Droit pour plus d'options.
+Block Popups. Press F8 to toggle.=Bloquer les Popups. F8 pour changer l'état.
+View Preferences. Right-click to view Compact Menu.=Voir les préférences. Clic-Droit pour afficher le menu compact.
+
+Mail/&News Buttons=&Courrier
+Read Mail. Right-click for more options.=Lire le courrier. Clic-Droit pour plus d'options.
+Read News=Lire les nouvelles
+Read RSS Feeds=Lire les flux RSS
+
+&Zoom Buttons=Boutons de &Zoom
+Zoom In Text=Zoom Avant Texte
+Zoom Out Text=Zoom Arrière Texte
+Zoom In. Right-click for more options.=Zoom Avant. Clic-Droit pour plus d'options.
+Zoom Out. Right-click for more options.=Zoom Arrière. Clic-Droit pour plus d'options.
+
+&Search Buttons=&Recherche
+Search the Web=Recherche sur le web
+Type a word or phrase in the URL Bar, then click this button or press Ctrl+G to search the Web. Right-click to choose different search engine.=Tapez un mot ou une phrase dans la barre d'adresse, et cliquez sur ce bouton ou utilisez Ctrl+G pour rechercher sur le web. Clic-Droit pour choisir un autre moteur de recherche.
+Search K-Meleon Forums=Recherche sur les forums K-Meleon
+
+&Go Buttons=&Navigation
+Go to URL=Aller à l'adresse
+Go to URL. Right-click for more options.=Aller à l'adresse. Clic-Droit pour plus d'options.
+Go up one directory level. Right-click for more options.=Remonter d'un répertoire. Clic-Droit pour plus d'options.
+
+Tab/&Window Buttons=Boutons &Onglet/Fenêtre
+Previous Window. Right-click for more options.=Fenêtre précédente. Clic-Droit pour plus d'options.
+Next Window. Right-click for more options.=Fenêtre suivante. Clic-Droit pour plus d'options.
+New Window=Nouvelle fenêtre
+Close Window. Right-click for more options.=Fermer la fenêtre. Clic-Droit pour plus d'options.
+Previous Tab. Right-click for more options.=Onglet précédent. Clic-Droit pour plus d'options.
+Next Tab. Right-click for more options.=Onglet suivant. Clic-Droit pour plus d'options.
+New Tab. Right-click for more options.=Nouvel onglet. Clic-Droit pour plus d'options.
+Close Tab. Right-click for more options.=Fermer l'onglet. Clic-Droit pour plus d'options.
+
+&Privacy Bar=&Confidentialité
+Block Image Animation=Bloquer les Animations
+Block Page Colors=Bloquer les Couleurs
+Block Cookies=Bloquer les Cookies
+Block Images. Press F9 to toggle.=Bloquer les Images. F9 pour changer l'état.
+Block Java Applets=Bloquer les Applets Java
+Block JavaScript. Press F7 to toggle.=Bloquer JavaScript. F7 pour changer l'état.
+Block Popups. Press F8 to toggle.=Bloquer les Popups. F8 pour changer l'état.
+Block HTTP Referer=Bloquer les Referers HTTP
+Clear Cache=Effacer le Cache
+Clear Cookies=Effacer les Cookies
+Clear History=Effacer l'Historique
+Clear Passwords=Effacer les Mots de Passe
+Clear URL Bar History=Effacer l'Historique de la Barre d'Adresse
+Clear All=Tout effacer
+Kill Flash Objects=Tuer les Animations Flash
+Kill Java Applets=Tuer les Applets Java
+Check Browser Identity. Right-click to choose different User Agent.=Vérifier l'identification du navigateur. Clic-Droit pour changer.
+
+# ---------- main.kmm ----------------------------------------------------------------------------------------------
+
+enabled=activé
+disabled=désactivé
+
+# ----- K-Meleon Plugins/Tabs
+
+Reloa&ding=&Rechargement
+Reload &All Tabs=Recharger &Tous les Onglets
+Reload all tabs in the current window=Recharger &Tous les Onglets dans la fenêtre courante
+&Detach Tab=&Détacher l'onglet
+Detach this tab from the current window=Détacher cet Onglet de la fenêtre courante
+Clear A&ll=Tout &Effacer
+Clear all privacy related data=Effacer toutes les données de confidentialité
+
+# ----- K-Meleon Preferences Panel (kmPrefs)
+
+Con&figure...=Con&figurer...
+&Options...=&Options...
+Change preferences and settings=Modifier les préférences et les paramètres
+Mouse &Gestures...=Mouvements de &Souris
+&JavaScript=&JavaScript
+
+# ----- File Handling
+
+%s File=Fichier %s
+
+# ----- Opening URLs
+
+Enter URL:=Entrez l'Adresse:
+Open=Ouvrir
+Prompt for an URL to open=Saisir une adresse à ouvrir
+
+# ----- Mozilla Chrome
+
+C&onfiguration=&Configuration
+View cache information=Voir les informations du cache
+View the browser configuration page=Voir la page de configuration du navigateur
+View C&ache=Voir le C&ache
+View information about the Cache Service=Voir les informations sue le service cache
+View &Certificates=Voir les &Certificats
+View stored certificates=Voir les certificats enregistrés
+Error &Console=&Console d'Erreur
+Open the error console=Ouvrir la console d'erreur
+
+# ----- Mozilla Preferences
+
+# Accessibility/Privacy/Security
+Toggle image animation=Inverser l'état des animations d'image
+Toggle page colors=Inverser l'état des couleurs de page
+Toggle cookie acceptance=Inverser l'état des paramètres cookie
+Toggle frame support=Inverser l'état du support des cadres
+Toggle image loading=Inverser l'état du chargement des images
+Toggle Java support=Inverser l'état du support de Java
+Toggle JavaScript execution=Inverser l'état d'exécution de JavaScript
+Toggle popup blocking=Inverser l'état du blocage des popups
+Toggle HTTP referer transmission=Inverser l'état de la transmission des referers
+Image animation %s=Animation d'Image %s
+Page color usage %s=Couleur de Page %s
+Cookie acceptance %s=Cookie %s
+Frame support %s=Cadres %s
+Image loading %s=Images %s 
+Java support %s=Java %s
+JavaScript execution %s=JavaScript %s
+Popup blocking %s=Blocage des Popups %s
+HTTP referer transmission %s=HTTP Referer %s
+Block Co&okies=Bloquer les Co&okies
+Block &Java=Bloquer les Applets &Java
+Block Java&Script=Bloquer Java&Script
+Block &Popups=Bloquer les &Popups
+Block &Images=Bloquer les &Images
+Block Image Ani&mation=Bloquer les Ani&mations
+Block Page Co&lors=Bloquer les Cou&leurs
+Block &Frames=Bloquer les &Cadres
+Block HTTP &Referer=Bloquer les &Referers HTTP
+Disable flash for this website=Bloquer les animations Flash pour ce site
+Enable flash for this website=Autoriser les animations Flash pour ce site
+
+# Type Ahead Find
+Toggle Find As You Type=Inverser l'état de la recherche de texte saisi
+Toggle Find As You Type Autostart=Inverser l'état du démarrage automatique de la recherche de texte saisi
+Toggle Find As You Type in links only=Inverser l'état de la recherche de texte dans les liens uniquement
+Find As You Type %s.=Recherche du Texte Saisi %s.
+Find As You Type Autostart %s.=Démarrage Automatique de la Recherche de Texte Saisi %s.
+Search All Text.=Recherche dans Tout le Texte.
+Search Links Only.=Recherche des Liens Uniquement.
+Page &Search=&Chercher dans la Page
+Find As You &Type=Rechercher le &Texte Saisi
+Start &Automatically=Démarrage &Automatique
+Search &Links Only=&Liens Seulement
+
+# ----- K-Meleon Preferences
+
+Toggle Flashblock=Basculer l'état de FlashBlock
+Toggle Ad-Blocking StyleSheet=Basculer l'état du blocage par feuille de style
+Flashblock %s=Blocage du Flash %s
+CSS Ad-Blocking %s= Blocage de %s par CSS
+Set the current page as the Home page=Définir la page courante comme page d'accueil
+Let K-Meleon start with a blank page=Démarrer K-Meleon avec une page vierge
+Let K-Meleon start with the Home page=Démarrer K-Meleon avec la page d'accueil
+Let K-Meleon start with a saved session=Démarrer K-Meleon avec une session enregistrée
+Ho&me=Page d'&Accueil
+M&ake This Page Your Home Page=&Définir comme Page d'Accueil
+Start With Home &Page=Démarrer avec la &Page d'Accueil
+Start With &Blank Page=Démarrer avec une Page &Vierge
+Start With &Session...=Démarrer avec la &Session
+Block F&lash=Bloquer les Animations Flash
+Block A&dvertisement=Bloquer les Avertissements
+
+# ----- JavaScript Document Handling
+
+Reload the current frame=Recharger le cadre courant
+Reload the current image=Recharger l'image courante
+Erase all Java applets in the current page=Supprimer tous les applets Java de la page courante
+Erase all Flash objects in the current page=Supprimer tous les objets Flash de la page courante
+Scroll to the top of the current page=Faire défiler la page courante vers le haut
+Scroll to the bottom of the current page=Faire défiler la page courante vers le bas
+Scroll to the left end of the current page=Faire défiler la page courante vers le bord gauche
+Scroll to the right end of the current page=Faire défiler la page courante vers le bord droit
+Kill Fl&ash Objects=Tuer les Animations &Flash
+Kill Ja&va Applets=Tuer les Applets &Java
+&Reload Image=&Recharger l'Image
+
+# ----- Miscellaneous
+
+# Go Buttons
+Copy URL Bar contents to the Clipboard=Copier le contenu de la barre d'adresse dans le presse-papiers
+Open URL Bar contents in a new page=Ouvrir le contenu de la barre d'adresse dans une nouvelle page
+Open Clipboard contents as URL=Ouvrir le contenu du presse-papiers comme une adresse web
+Reset the URL Bar=Réinitialiser la barre d'adresse
+Open the selected text as URL or open URL Bar contents=Ouvrir le texte sélection comme une adresse ou ouvrir le contenu de la barre d'adresse
+Go to the topmost directory level of the current domain=Remonter au répertoire de niveau le plus haut du domaine courant
+Go up one directory level in the current domain=Remonter d'un niveau dans le domaine courant
+Open In &New Page=Ouvrir dans une Nouvelle &Page
+&Paste And Go=&Coller et Aller
+&Reset URL Bar=&Effacer la Barre d'Adresse
+Go &Up One Directory Level=Re&monter d'un Répertoire
+Go To &Top Directory Level=Revenir à la &Racine du Site
+
+# Home Button
+Perform the Home button action=Exécuter l'action du bouton de la page d'accueil
+
+# RSS Button
+Perform the RSS button action=Exécuter l'action du bouton RSS
+
+# Special Opening
+Open the selected text as URL=Ouvrir le texte sélectionné comme adresse
+View basic information on the K-Meleon project=Voir l'information de base du projet K-Meleon
+Go to the K-Meleon Wiki=Aller sur le Wiki K-Meleon
+Wel&come to K-Meleon !=&Bienvenue dans K-Meleon !
+K-Meleon &Wiki=&Wiki K-Meleon
+Open In &Background=Ouvrir en &Arrière-Plan
+&Open As URL=&Ouvrir comme Adresse
+
+# Special Macro Execution
+Frame support is currently disabled. It must be enabled to use this feature.=Le support des cadres est actuellement désactivé. Il doit être activé pour l'utilisation de cette caractéristique. 
+JavaScript execution is currently disabled. It must be enabled to use this feature.=Le support de JavaScript est actuellement désactivé. Il doit être activé pour l'utilisation de cette caractéristique.
+Enable frame support and continue?=Valider le support des cadres et continuer?
+Enable JavaScript execution and continue?=Valider JavaScript et continuer?
+Frame Support Disabled=Cadres désactivés
+JavaScript Execution Disabled=JavaScript désactivé
+
+# ---------- accel.kmm ---------------------------------------------------------------------------------------------
+
+Apply the specified mouse accelerator configuration=Appliquer la configuration de l'accélérateur souris spécifié
+Mouse &Accelerators=&Accélérateurs Souris
+Default=K-Meleon (par défaut)
+
+# ---------- cfg.kmm -----------------------------------------------------------------------------------------------
+
+The file %s could not be found.=Le fichier %s n'a pas été trouve
+Open the profile directory=Ouvrir le répertoire du profil
+Open the settings directory=Ouvrir le répertoire des paramètres
+Open the default macros directory=Ouvrir le répertoire par défaut des macros
+Open the user macros directory=Ouvrir le répertoire des macros de l'utilisateur
+View a list of commands available for menus, macros and toolbars=Voir la liste des commandes disponibles pour les menus, macros et barres d'outils
+Edit a skin configuration file=Éditer un fichier de configuration d'habillage
+Edit a configuration file=Éditer un fichier de configuration
+Edit a preferences file=Éditer un fichier de préférences
+Edit a user style sheet=Éditer un fichier de style utilisateur
+Browser Con&figuration=&Configuration du Navigateur
+JavaScript &Console=Console &JavaScript
+&Profile Settings=Préférences &Profil
+&User Settings=Préférences &Utilisateur
+User-Defined &StyleSheet=&Style des Pages
+Ad-&Blocking StyleSheet=Feuille de Style de blocage de pubs
+&Toolbars=Barres d'&Outils
+Me&nu Icons=&Icônes des Menus
+A&ccelerators=&Accélérateurs
+M&acros=&Macros
+User-Defined Macr&os=Macr&os Utilisateur
+M&enus=M&enus
+Co&mmands List=Liste des &Commandes
+Profile &Directory=Répertoire du Pro&fil
+Settings D&irectory=&Répertoire des Paramètres
+
+# ---------- compat.kmm --------------------------------------------------------------------------------------------
+
+Your profile was created by a version prior to K-Meleon %1. The following data has been updated:=Votre profil a été créé par une version plus ancienne que K-Meleon %1. Les données suivantes ont été mises à jour:
+Please restart K-Meleon.=Veuillez redémarrer K-Meleon
+Welcome to K-Meleon %1 !=Bienvenue dans K-Meleon %1 !
+Groups=Groupes
+Groups converted to Sessions=Groupes convertis en sessions
+Former group:=Ancien groupe:
+
+# ---------- console2.kmm ------------------------------------------------------------------------------------------
+
+Error &Console=Console d'erreur
+Open the enhanced error console=Ouvrir la console améliorée d'erreur
+
+# ---------- docinfo.kmm -------------------------------------------------------------------------------------------
+
+View image properties=Voir les propriétés de l'image
+Image Properties:=Propriétés de l\\'image
+URL:\\t%s=Adresse:\\t%s
+Size:\\t%W x %H Pixels=Taille:\\t\\t%W x %H Pixels
+Alt. Text:\\t%s=Texte alternatif:\\t%s
+A description is available for this image. Do you want to view it now?=Une description est disponible pour cette image. Voulez-vous l\\'afficher maintenant?
+View link properties=Voir les propriétés du lien
+Link Properties:=Propriétés du lien
+Ping:\\t%s=Ping:\\t%s
+Properties of Linked Resource:=Propriétés de la ressource liée
+MIME Type:\\t%s=Type MIME:\\t%s
+Language:\\t%s=Langue:\\t%s
+Do you want to view the linked resource now?=Voulez-vous voir la resource maintenant?
+View all links in the current page=Voir tous les liens de la page courante
+View all links in the current frame=Voir tous les liens du cadre courant
+View all images linked by the current page=Voir tous les liens image de la page courante
+View all images linked by the current frame=Voir tous les liens image du cadre courant
+View all images in the current page=Voir toutes les images de la page courante
+View all images in the current frame=Voir toutes les images du cadre courant
+(unknown)=(inconnu)
+A script error occured accessing this frame. Probably this frame belongs to another domain and access was denied for security reasons.=Erreur de script lors de l\\'accès à ce cadre. Ce cadre appartient probablement à un autre domaine et l\\'accès en a été probablement refusé pour des raisons de sécurité.
+No links found.=Aucun lien.
+Links: %s=Liens: %s
+No linked images found.=Aucune image liée
+Linked Images: %s=Images liées: %s
+No images found.=Aucune image
+Images: %s=Images: %s
+
+Image &Properties=Propriétés de l'&Image
+Link &Properties=Propriétés du &Lien
+Li&nks=Lie&ns
+Link&ed Images=Imag&es Liées
+#Im&ages=
+
+# ---------- domcomplete.kmm ---------------------------------------------------------------------------------------
+
+Apply the specified domain completion=Appliquer la complétion spécifiée du domaine
+
+# ---------- encoding.kmm ------------------------------------------------------------------------------------------
+
+En&coding=&Codage
+
+Apply the specified character set autodetection method=Détection automatique du codage des caractères 
+&Auto Detect=&Auto-Détection
+(O&ff)=&désactivé(e)
+Uni&versal=Uni&versel
+Ch&inese=C&hinois
+J&apanese=&Japonais
+K&orean=C&oréen
+&East Asian=&Est-Asiatique
+Ru&ssian=R&usse
+U&krainian=U&krainien
+
+&More Encodings=&Plus de codages
+&West European=Europe de l'&Ouest
+E&ast European=Europe de l'&Est
+&SE And SW Asian=&Asie du SE et du SO
+&Middle Eastern=&Moyen-Orient
+&Unicode=&Unicode
+
+Force the specified character set encoding=Imposer le codage des caractères
+# see chrome\xx-YY.jar!/locale/xx-YY/global/charsetTitles.properties
+&Western (ISO-8859-1)=&Western (ISO-8859-1)
+Western (ISO-8859-15)=Western (ISO-8859-15)
+Western (IBM-850)=Western (IBM-850)
+Western (MacRoman)=Western (MacRoman)
+We&stern (Windows-1252)=We&stern (Windows-1252)
+Celtic (ISO-8859-14)=Celtique (ISO-8859-14)
+Greek (ISO-8859-7)=Grec (ISO-8859-7)
+Greek (MacGreek)=Grec (Mac-Grec)
+Greek (Windows-1253)=Grec (Windows-1253)
+Icelandic (MacIcelandic)=Islandais (Mac-Islandais)
+Nordic (ISO-8859-10)=Nordique (ISO-8859-10)
+South European (ISO-8859-3)=Europe du Sud (ISO-8859-3)
+Baltic (ISO-8859-4)=Baltique (ISO-8859-4)
+Baltic (ISO-8859-13)=Baltique (ISO-8859-13)
+Baltic (Windows-1257)=Baltique (Windows-1257)
+Central European (IBM-852)=Europe centrale (IBM-852)
+Central European (ISO-8859-2)=Europe centrale (ISO-8859-2)
+Central European (MacCE)=Europe centrale (MacCE)
+Central European (Windows-1250)=Europe centrale (Windows-1250)
+Croatian (MacCroatian)=Croate (Mac-Croate)
+Cyrillic (IBM-855)=Cyrillique (IBM-855)
+Cyrillic (ISO-8859-5)=Cyrillique (ISO-8859-5)
+Cyrillic (ISO-IR-111)=Cyrillique (ISO-IR-111)
+Cyrillic (KOI8-R)=Cyrillique (KOI8-R)
+Cyrillic (MacCyrillic)=Cyrillique (Mac-Cyrillique)
+Cyrillic (Windows-1251)=Cyrillique (Windows-1251)
+Cyrillic/Russian (CP-866)=Cyrillique/Russe (CP-866)
+Cyrillic/Ukrainian (KOI8-U)=Cyrillique/Ukrainien (KOI8-U)
+Cyrillic/Ukrainian (MacUkrainian)=Cyrillique/Ukrainien (Mac-Ukrainien)
+Romanian (ISO-8859-16)=Roumain (ISO-8859-16)
+Romanian (MacRomanian)=Roumain (Mac-Roumain)
+Chinese Simplified (GB2312)=Chinois Simple (GB2312)
+Chinese Simplified (GBK)=Chinois Simple (GBK)
+Chinese Simplified (GB18030)=Chinois Simple (GB18030)
+Chinese Simplified (HZ)=Chinois Simple (HZ)
+Chinese Simplified (ISO-2022-CN)=Chinois Simple (ISO-2022-CN)
+Chinese Traditional (Big5)=Chinois Traditionnel (Big5)
+Chinese Traditional (Big5-HKSCS)=Chinois Traditionnel (Big5-HKSCS)
+Chinese Traditional (EUC-TW)=Chinois Traditionnel (EUC-TW)
+Japanese (EUC-JP)=Japonais (EUC-JP)
+Japanese (ISO-2022-JP)=Japonais (ISO-2022-JP)
+Japanese (Shift_JIS)=Japonais (Shift_JIS)
+Korean (EUC-KR)=Coréen (EUC-KR)
+Korean (UHC)=Coréen (UHC)
+Korean (JOHAB)=Coréen (JOHAB)
+Korean (ISO-2022-KR)=Coréen (ISO-2022-KR)
+Armenian (ARMSCII-8)=Arménien (ARMSCII-8)
+Georgian (GEOSTD8)=Géorgien (GEOSTD8)
+Thai (TIS-620)=Thaï (TIS-620)
+Thai (ISO-8859-11)=Thaï (ISO-8859-11)
+Thai (Windows-874)=Thaï (Windows-874)
+Turkish (IBM-857)=Turc (IBM-857)
+Turkish (ISO-8859-9)=Turc (ISO-8859-9)
+Turkish (MacTurkish)=Turc (Mac-Turc)
+Turkish (Windows-1254)=Turc (Windows-1254)
+Vietnamese (TCVN)=Vietnamien (TCVN)
+Vietnamese (VISCII)=Vietnamien (VISCII)
+Vietnamese (VPS)=Vietnamien (VPS)
+Vietnamese (Windows-1258)=Vietnamien (Windows-1258)
+Hindi (MacDevanagari)=Hindi (Mac-Devanagari)
+Gujarati (MacGujarati)=Gujarati (Mac-Gujarati)
+Gurmukhi (MacGurmukhi)=Gurmukhi (Mac-Gurmukhi)
+Arabic (ISO-8859-6)=Arabe (ISO-8859-6)
+Arabic (Windows-1256)=Arabe (Windows-1256)
+Arabic (IBM-864)=Arabe (IBM-864)
+Arabic (MacArabic)=Arabe (Mac-Arabe)
+Farsi (MacFarsi)=Farsi (Mac-Farsi)
+Hebrew (ISO-8859-8-I)=Hébreu (ISO-8859-8-I)
+Hebrew (Windows-1255)=Hébreu (Windows-1255)
+Hebrew Visual (ISO-8859-8)=Hébreu Visuel (ISO-8859-8)
+Hebrew (IBM-862)=Hébreu (IBM-862)
+Hebrew (MacHebrew)=Hébreu (Mac-Hébreu)
+&Unicode (UTF-8)=&Unicode (UTF-8)
+U&nicode (UTF-16)=U&nicode (UTF-16)
+Unicode (UTF-16 Little Endian)=Unicode (UTF-16 Little Endian)
+Unicode (UTF-16 Big Endian)=Unicode (UTF-16 Big Endian)
+Unicode (UTF-32 Little Endian)=Unicode (UTF-32 Little Endian)
+Unicode (UTF-32 Big Endian)=Unicode (UTF-32 Big Endian)
+Unicode (UTF-7)=Unicode (UTF-7)
+
+# ---------- hotlink.kmm -------------------------------------------------------------------------------------------
+
+&Hotlinks...=Liens rapides
+Open the specified hotlink=Ouvrir le lien rapide spécifié
+
+# ---------- ie.kmm ------------------------------------------------------------------------------------------------
+
+Open page in Internet Explorer=Ouvrir la page dans Internet Explorer
+Open link in Internet Explorer=Ouvrir le lien dans Internet Explorer
+Open image in Internet Explorer=Ouvrir l'image dans Internet Explorer
+Open URL Bar contents in Internet Explorer=Ouvrir le contenu de la barre d'adresse dans Internet Explorer
+Program Files=Program Files
+Open In &Internet Explorer=Ouvrir dans &Internet Explorer
+&Internet Explorer=&Internet Explorer
+
+# ---------- mail.kmm ----------------------------------------------------------------------------------------------
+
+Mail Configuration=Configuration du client Mail
+News Configuration=Configuration du client News
+Enter your mail client's path or your web mailer's URL:=Donnez le chemin de votre client mail ou l'adresse du client mail web:
+Enter your news client's path or your news provider's URL:=Donnez le chemin de votre client news ou l'adresse du serveur news:
+
+Specify your client for reading mail=Spécifier votre client Mail
+Specify your client for reading news=Spécifier votre client News
+Open your client for reading mail=Ouvrir votre client pour lire les mails
+Open your client for reading news=Ouvrir votre client pour lire les news
+Compose a new message=Composer un nouveau message
+Send a link to the current page by mail=Envoyer un lien de la page courante par mail
+Send the current link by mail=Envoyer le lien courant par mail
+Send a link to the current image by mail=Envoyer un lien de l'image courante par mail
+Send a link to the current frame by mail=Envoyer un lien du cadre courant par mail
+Send the selected text by mail=Envoyer les texte sélectionné par mail
+
+&Mail And News=C&ourrier et Nouvelles
+Read &Mail=Lire son &Courrier
+Read &News=Lire les &Nouvelles
+Read &RSS Feeds=&Flux de Nouvelles RSS
+Configure M&ail...=Con&figurer le Courrier...
+Configure N&ews...=Confi&gurer les Nouvelles...
+New Me&ssage...=Créer un &Nouveau Message
+Sen&d Page As Link...=Envoyer l'Adresse de la &Page...
+Sen&d Frame As Link...=Envoyer l'Adresse du &Cadre...
+Sen&d Image As Link...=Envoyer l'Adresse de l'&Image...
+Sen&d Link URL...=Envoyer l'Adresse du &Lien...
+Sen&d By Mail...=Envoyer par &Courrier...
+
+# ---------- mtypes.kmm --------------------------------------------------------------------------------------------
+
+MIME T&ypes=Éditer les T&ypes MIME
+Change file type settings=Changer les paramètres du type de fichier
+
+# ---------- newsfox.kmm -------------------------------------------------------------------------------------------
+
+NewsFo&x=Lecteur NewsFo&x
+Open NewsFox for reading news feeds=Ouvrir NewsFox pour lire les flux
+
+# ---------- proxy.kmm ---------------------------------------------------------------------------------------------
+
+Connect directly to the Internet=Se connecter directement à Internet
+Connecting directly=Se connecter directement
+Connect to the Internet over any detected proxy=Se connecter à Internet par un proxy détecté
+Connecting over any detected proxy=Connexion par un proxy détecté
+Connect to the Internet over the specified proxy=Se connecter à Internet par un proxy spécifié
+Connecting over proxy '%s'=Connexion par le proxy '%s'
+
+Pro&xy=Conne&xion
+&Direct Connection=Connexion &Directe
+#&Auto Detect=
+#Con&figure...=
+
+# ---------- reload.kmm --------------------------------------------------------------------------------------------
+
+Continuously reload the current page=Rechargement automatique de la page courante
+Continuous Reload=Rechargement Automatique
+Enter number of seconds between reloads:=Donnez le délai en secondes entre les chargements
+hours=heures
+minutes=minutes
+seconds=secondes
+Reloading: %s=Rechargement: %s
+Reloading in %t %u (Click to abort)=Rechargement dans %t %u (Cliquer pour arrêter)
+&Continuous Reload...=Rechargement &Automatique...
+
+# ---------- search.kmm --------------------------------------------------------------------------------------------
+
+Consult the default search engine=Consulter le moteur de recherche par défaut
+Search the Web for Clipboard contents=Rechercher le contenu du presse-papiers sur la toile
+Lock or unlock the current search engine as the default engine=Verrouiller ou déverrouiller le moteur de recherche courant comme le moteur par défaut
+Last used engine=Dernier moteur utilisé
+Default search engine: %s=Moteur de recherche par défaut: %s
+Search the Web using multiple engines=Recherche multi-moteurs sur la toile
+Search the K-Meleon forums=Chercher sur les forums K-Meleon
+K-Meleon Forums Search=Recherche sur les Forums K-Meleon
+Search the Web using the specified engine=Recherche sur la toile avec le moteur spécifié
+Enter search query:=Chaîne à chercher:
+Search (%s)=Recherche web (%s)
+Multisearch=Multi-moteurs
+
+K-Meleon Forums &Search...=C&hercher sur les forums...
+&Multisearch=&Multi-moteurs
+Use As &Default Engine=Définir par &défaut
+Paste And &Search=Coller et &rechercher
+
+# ---------- sendto.kmm --------------------------------------------------------------------------------------------
+
+S&end Page To=Ouvrir la &Page avec
+S&end Link To=Ouvrir le &Lien avec
+S&end Image To=Ouvrir l'&Image avec
+S&end To=&Ouvrir avec
+
+# ---------- translate.kmm -----------------------------------------------------------------------------------------
+
+Translate from the specified language=Traduire depuis la langue spécifiée
+Translate to the specified language=Traduire vers la langue spécifiée
+Show languages from the specified region in the translation menu or not=Voir ou non les langues de la région spécifiée
+Sorry, local and secure pages cannot be translated!=Désolé, mais les pages sécurisées ou locales ne peuvent pas être traduites.
+&Translation=&Traduction
+&Languages=Langues
+&To=Vers
+&Using=En &utilisant
+#&West European=
+&North European=Europe du &Nord
+#E&ast European=
+S&outh European=Europe du &Sud
+#&East Asian=
+#&SE And SW Asian=
+#&Middle Eastern=
+
+Use Babel Fish Translation=Utiliser Babel Fish Traduction
+&Babel Fish Translation=&Babel Fish
+Use Google Translate=Utiliser Google Traduction
+&Google Translate=&Google
+From (Detect &Language)=Depuis (&langue détectée)
+From &English=Depuis l'&Anglais
+From &Spanish=Depuis l'E&spagnol
+From &Portuguese=Depuis le &Portugais
+From &French=Depuis le &Français
+From &German=Depuis l'Alle&mand
+From &Dutch=Depuis le &Néerlandais
+From Da&nish=Depuis le &Danois
+From S&wedish=Depuis le S&uédois
+From Fi&nnish=Depuis le &Finlandais
+From &Norwegian=Depuis le No&rvégien
+From &Russian=Depuis le &Russe
+From P&olish=Depuis le P&olonais
+From C&zech=Depuis le &Tchèque
+From &Italian=Depuis l'&Italien
+From Cro&atian=Depuis le &Croate
+From Ro&manian=Depuis le &Roumain
+From &Bulgarian=Depuis le &Bulgare
+From Gr&eek=Depuis le &Grec
+From Chi&nese (Simplified)=Depuis le Chinois Simpl&e
+From &Chinese (Traditional)=Depuis le &Chinois Traditionnel
+From &Korean=Depuis le C&oréen
+From &Japanese=Depuis le &Japonais
+From &Hindi=Depuis l'&Hindi
+From &Arabic=Depuis l'&Arabe
+&English=&Anglais
+&Spanish=E&spagnol
+&Portuguese=&Portugais
+&French=&Français
+&German=Alle&mand
+&Dutch=&Néerlandais
+Da&nish=Da&nois
+S&wedish=S&uédois
+Fi&nnish=&Finlandais
+&Norwegian=&Norvégien
+&Russian=&Russe
+P&olish=&Polonais
+C&zech=&Tchèque
+&Italian=&Italien
+Cro&atian=&Croate
+Ro&manian=&Roumain
+&Bulgarian=&Bulgare
+Gr&eek=&Grec
+Chi&nese (Simplified)=Chinois Simpl&e
+&Chinese (Traditional)=&Chinois Traditionnel
+&Korean=C&oréen
+&Japanese=&Japonais
+&Hindi=&Hindi
+&Arabic=&Arabe
+
+# ---------- useragent.kmm -----------------------------------------------------------------------------------------
+
+Set the specified User Agent string=Mettre la chaîne d'identification spécifiée
+Set a custom User Agent string=Mettre une chaîne d'identification personnalisée
+Enter the User Agent string to identify K-Meleon as:=Entrez la chaîne que vous voulez utiliser pour identifier K-Meleon:
+Custom User Agent=Chaîne d'identification personnalisée
+View the current User Agent string=Voir la chaîne d'identification courante
+Current User Agent String:=Chaîne d'identification courante:
+Toggle resetting the default User Agent string when exiting=Inverser l'état de réinitialisation de la chaîne d'identification en quittant
+
+&User Agent=Chaîne d'&identification
+#Default=
+&Custom...=&Personnalisée...
+&Reset To Default On Exit=&Réinitialiser à 'Défaut' en quittant
+
+# ---------- useragentmode.kmm ---------------------------------------------------------------------------------------
+Firefox compatibility mode=Mode de compatibilité Firefox
+
+# ---------- zoom.kmm ----------------------------------------------------------------------------------------------
+
+Perform the Zoom In button action=Exécute le Zoom Avant
+Perform the Zoom Out button action=Exécute le Zoom Arrière
+Zoom into the current page=Zoom Avant de la page courante
+Zoom out of the current page=Zoom Arrière de la page courante
+Increase image size=Agrandir l'image
+Decrease image size=Réduire l'image
+Increase the size of the current image=Agrandir la taille de l'image courante
+Decrease the size of the current image=Réduire la taille de l'image courante
+Let zoom buttons effect text and images=Appliquer l'effet de zoom au texte et au images
+Zoom buttons effect text and images.=Effet de zoom sur le texte et les images
+Let zoom buttons effect text only=Appliquer l'effet de zoom au texte seulement
+Zoom buttons effect text only.=Effet de zoom sur le texte seulement
+Let zoom buttons effect images only=Appliquer l'effet de zoom aux images seulement
+Zoom buttons effect images only.=Effet de zoom sur les images seulement
+
+&Zoom=&Zoom
+Zoom In &Page=Zoom avant de la &Page
+Zoom In &Images=Zoom avant des &Images
+Zoom Out P&age=Zoom arrière de la P&age
+Zoom Out I&mages=Zoom arrière des I&mages
+Zoom I&n=&Zoom Avant
+Zoom Ou&t=Z&oom Arrière
+Zoom &Buttons=&Bouton de Zoom par défaut
+Zoom Full &Page=Zoom de la &Page
+Zoom &Text Only=Zoom &Texte Seulement
+Zoom &Images Only=Zoom &Images Seulement

@@ -1,0 +1,251 @@
+/* Resets */
+html, body, div, span, applet, object, iframe, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* Page setup */
+@page {
+size: auto;
+margin: 20mm 0 25mm 15mm;
+}
+
+/*Body styles */
+
+html, body {
+font-size: 100%;
+font-family: 'Helvetica', 'Arial', helvetica, san-serif;
+color: #000000;
+background-color: #FFFFFF;
+overflow: none;
+}
+
+a, div.main a, div.main div.content a {
+color: #000000;
+text-decoration: none;
+}
+
+
+/* Text  */
+
+p, blockquote { 
+word-spacing: 0.25em; 
+text-align: left;
+font: 12pt/1.25;
+margin-top: 1.5em;
+margin-bottom: 0;
+text-indent: 0;
+hyphenate: auto;
+hyphenate-before: 2;
+hyphenate-after: 3;
+hypehnate-lines: 3;
+widows: 4;
+orphans: 4;
+}
+
+footer p {
+word-spacing: 0.25em;
+font: 10pt/1.25;
+line-height: 1.8;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+
+div.main h1 { 
+font-family: 'Helvetica', 'Arial', helvetica, sans-serif;
+font-size: 2.25em;
+color: #000000;
+page-break-before: auto;
+}
+
+div.main h2 {
+font-family: 'Helvetica', 'Arial', helvetica, sans-serif;
+font-size: 1.125em;
+color: #000000;
+page-break-before: auto;
+}
+
+div.main div.content h1, div.main div.content h1 a {
+font-family: 'Helvetica', 'Arial', helvetica, sans-serif;
+font-size: 1.5em;
+color: #000000;
+line-height: 1.286;
+margin-top: 1.929em;
+margin-bottom: 0.643em;
+text-decoration: none;
+page-break-before: auto;
+}
+
+div.main div.content h2 {
+font-family: 'Helvetica', 'Arial', helvetica, sans-serif;
+font-size: 1.125em;
+color: #000000;
+line-height: 1.286;
+margin-top: 1.929em;
+margin-bottom: 0.643em;
+text-decoration: none;
+page-break-before: auto;
+}
+
+div.main div.content h3 {
+font-size: 1em;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+margin-top: 1.929em;
+margin-bottom: 0.643em;
+page-break-before: auto;
+}
+
+div.main blockquote {
+margin: 1.5em;
+page-break-before: auto;
+}
+
+.verse pre {
+font-family: inherit;
+text-align: center;
+}
+
+.verse pre span {
+text-align: left;
+display: inline-block;
+white-space: pre;
+}
+
+abbr {
+letter-spacing: 0.1em;
+text-transform: lowercase;
+font-variant: small-caps;
+}
+
+/* Inherited text formatting */
+pre, code, samp, tt, kbd, var { 
+  font-family: 'lucida console', 'dejavu sans mono', 'bitstream vera sans mono', consolas, 'andale mono', monaco, fixed, monospace;
+}
+
+pre code, * code { 
+font-size:100%; 
+}
+
+kbd, span.button {
+color: #000;
+background-color:#ddd;
+outline: 1px solid #bbb;
+border: 1px solid #bbb;
+border-top-color: #fff;
+border-left-color: #fff;
+min-width:1em;
+}
+
+span.url, span.mailaddress, span.html, span.mime, span.file,
+code.url, code.mailaddress, code.html, code.mime, code.file {
+font-family: 'lucida console', 'dejavu sans mono', 'bitstream vera sans mono', consolas, 'andale mono', monaco, fixed, monospace;
+white-space: nowrap;
+}
+	
+kbd {
+white-space: nowrap;
+}
+	
+table kbd {
+font-size: 90%;
+}
+
+
+/* Table styles */
+
+div.main div.content table {
+margin: 1.5em auto;
+font-family: inherit;
+}
+
+div.main div.content table a {
+color: #000000;
+font-family: inherit;
+}
+
+th, table.nice th {
+font-weight: normal;
+text-align: left;
+padding: 0 0.5em 0 0;
+}
+
+td:before, table.nice td:before{
+content: "&#8226;"
+padding-right: 0.5em;
+}
+
+td, table.nice td {
+font-style: italic;
+text-align: left;
+padding: 0;
+}
+
+table.nice {
+	border-collapse: collapse;
+	border-style: hidden;
+	border-spacing: 0;
+}
+
+table.nice td, table.nice th {
+border: 1px solid #ddd;
+padding: 0.25em;
+}
+
+div.nice {
+width: -o-skin; 
+height: -o-skin;
+display: inline-block;   
+}
+
+
+/* Div styles*/
+div.main div.content { 
+background: #FFFFFF;
+padding: 0;
+width: 33em; 
+margin-left: 0.75em;
+}
+
+div.main nav {
+display: none;
+float: clear;
+margin: 0;
+}
+
+header {
+display: none;
+margin: 0;
+}
+
+div.main { 
+float: clear; 
+padding: 0;
+background: #FFFFFF;
+width: 36em;
+}
+
+footer {
+font-family: 'Helvetica', 'Arial', helvetica, sans-serif;
+}
+
+
+/* Images */
+img {
+border: none;
+float: left;
+padding: 0.75em 1.5em 0.75em 0;
+}

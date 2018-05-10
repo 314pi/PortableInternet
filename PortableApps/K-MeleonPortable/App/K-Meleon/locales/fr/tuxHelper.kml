@@ -1,0 +1,34 @@
+# TuxHelpers for K-Meleon
+# Alain Aupeix (2014)
+
+# sendto.kmm
+Mailed from the webpage:=Envoyé depuis la page web:
+
+# mail.kmm
+Link URL from '=Adresse de lien depuis '
+Link URL:=Adresse du lien:
+Image URL from '=Adresse d'image depuis '
+Image URL:=Adresse de l'image:
+Frame URL from '=Adresse de cadre depuis '
+Frame URL=Adresse du cadre:
+Selected text from '=Texte sélectionné depuis '
+# Error box
+To be able to use this function, you need to install a packet named=Afin de pouvoir utiliser cette fonction, vous devez installer un
+"                                      xdg_utils."="                        paquet nommé: xdg_utils."
+For that purpose, you can use this command in a terminal:=Pour ce faire, vous pouvez, dans un terminal, lancer la commande :
+"                       sudo apt-get install xdg_utils"="                       sudo apt-get install xdg_utils"
+If xdg_utils is already installed, you have to set it in :=Si xdg_utils est dèjà installé, vous devez le paramétrer :
+"Edit => Configuration => Tux Helper=> Configure Mailto program"="Edition => Configuration => Tux Helper=> Configurer le client Mailto"
+"                     Example: Z:\\\\usr\\\\bin\\\\xdg_email"="                     Example: Z:\\\\usr\\\\bin\\\\xdg_email"
+Missing packet ... or setting to do=Paquet manquant ... ou paramétrage à faire
+
+#tuxhelper.kmm
+Configure &Mailto program=Configurer le client &Mailto
+Configure &Open file program=Configurer le client &Open
+Specify your client for mailto protocol=Spécifier votre client pour le protocole Mailto
+Mailto client path configuration=Configuration du client Mailto
+Enter your mailto client's path:=Donnez le chemin de votre client mailto
+Specify your client to open files=Spécifier le client pour l'ouverture des fichiers
+Open client path configuration=Configuration du client Open
+Enter your open client's path:=Donnez le chemin de votre client Open
+

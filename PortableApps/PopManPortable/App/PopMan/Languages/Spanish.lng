@@ -1,0 +1,523 @@
+[File Info]
+
+Language=Español
+Author=Supertitovic; y Grupo KLUR Team
+Email=supertitovic@alcachondeo.net;  klur@ubbi.com
+Date=04/16/2010
+Comment=PopMan 1.3 Spanish Translation
+LangID=10
+
+
+[Translations]
+
+Not connected<=>No conectado
+Connection failure<=>Fallo de conexión
+Canceled<=>Cancelado
+Invalid server response<=>Respuesta del servidor no válida
+Timeout<=>Tiempo de espera agotado
+Login failed<=>Fallo de autorización
+Message not found<=>Mensaje no encontrado
+Server failure: Message not found!<=>Fallo del servidor: ¡Mensaje no encontrado!
+Busy<=>Ocupado
+Ready<=>Listo
+Connecting...<=>Conectando...
+Connected!<=>¡Conectado!
+Login...<=>Autorizando...
+Successfully logged in!<=>¡Autorización con éxito!
+Loading message ...<=>Cargando mensaje...
+Loading message {1} of {2} ...<=>Cargando mensaje {1} de {2} ...
+Deleting message {1} of {2} ...<=>Eliminando mensaje {1} de {2} ...
+
+# Update Wizard
+
+Update Wizard<=>Asistente de actualización
+There are no updates available.<=>No hay actualizaciones disponibles.
+There is a new version {1} available!<=>¡Hay una nueva versión {1} disponible!
+There is a new {1} Beta version available!<=>¡Hay una nueva {1} versión Beta disponible!
+Click "Next" to update your copy of PopMan...<=>Pulse en "Siguiente" para actualizar su copia de PopMan...
+Unable to retrieve version infomation!<=>¡No es posible acceder a la información sobre la versión!
+Error number: {1}<=>Error número: {1}
+Welcome to the PopMan Update Wizard<=>Bienvenido al asistente de actualización de PopMan
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>El asistente conectará ahora con el servidor Web de PopMan para comprobar actualizaciones. Si hay una nueva versión disponible, todos los archivos necesarios se descargarán e instalarán automáticamente.
+Failed to load Decompress.dll!<=>¡Fallo al cargar Decompress.dll!
+Initializing...<=>Inicializando...
+Do you really want to cancel the update process?<=>¿Desea cancelar el proceso de actualización?
+Update process failed!<=>¡Fallo en el proceso de actualización!
+Error while downloading initialization file!<=>¡Error al descargar archivo de inicialización!
+No updates available.<=>No hay actualizaciones disponibles.
+Failed to retrieve temporary directory!<=>¡Fallo al recuperar directorio temporal!
+Saving {1} ...<=>Guardando {1} ...
+Failed to create directory:<=>Fallo al crear directorio:
+Failed to decompress file:<=>Fallo al descomprimir archivo:
+Failed to download file:<=>Fallo al descargar archivo:
+(checksum error)<=>(error en suma de control)
+Please try again later.<=>¡Por favor, inténtelo más tarde!.
+Error while saving downloaded file!<=>¡Error al guardar el archivo descargado!
+All files downloaded successfully.<=>¡Archivos descargados con éxito!
+Press the "Finish" button to complete the update process...<=>Pulse en "Terminar" para completar el proceso de actualización...
+Failed to initialize the final copy process!<=>¡Fallo al inicializar el proceso de copia final!
+Downloading {1} ...<=>Descargando {1} ...
+Progress all:<=>Progeso total:
+Progress current file:<=>Progreso archivo actual:
+Download of updated files<=>Descarga de archivos de actualización
+
+# Import Accounts Dialog
+
+Account<=>Cuenta
+User<=>Usuario
+Server<=>Servidor
+Port<=>Puerto
+Please select the accounts that you want to import from Outlook Express.<=>Elija las cuentas de correo que desea importar de Outlook Express.
+&Properties...<=>Propiedades
+OK<=>Aceptar
+Cancel<=>Cancelar
+Import email accounts<=>Importar cuentas de correo
+Description<=>Descripción
+
+# Account Dialog
+
+General<=>General
+Colors<=>Colores
+Advanced<=>Avanzado
+Can not change account settings while there are busy accounts.<=>No se puede cambiar la configuración de las cuentas cuando están activadas
+Please enter the address of the Server!<=>Introduzca la dirección del servidor
+Please enter the account name!<=>Introduzca el nombre de la cuenta
+Please enter user name!<=>Introduzca el nombre de usuario
+Account name:<=>Nombre de la cuenta:
+Protocol:<=>Protocolo:
+Server:<=>Servidor:
+Port:<=>Puerto:
+User name:<=>Usuario:
+Password:<=>Contraseña:
+Include this account when receiving mail<=>Incluir esta cuenta para recibir correo
+1 minute<=>1 minuto
+{1} minutes<=>{1} minutos
+1 second<=>1 segundo
+{1} seconds<=>{1} segundos
+Use custom AutoCheck timer interval<=>Utilizar intervalo personalizado de autochequeo
+Timer interval:<=>Intervalo:
+minutes<=>minutos
+Server Timeouts<=>Tiempo de espera al servidor
+Short<=>Corto
+Long<=>Largo
+Load all emails completely<=>Descargar todos los mensajes por completo
+Retrieve header and {1} lines of message body<=>Mostrar la cabecera y {1} líneas del mensaje
+Number of lines:<=>Nº de líneas:
+Use individual font color:<=>Color para las letras:
+Circle color in system tray:<=>Color del círculo en bandeja de sistema:
+Invalid parameter string!<=>¡Parámetro no válido!
+Default<=>Por defecto
+
+# Accounts Dialog
+
+Mail Accounts<=>Cuentas de correo
+&Add...<=>&Añadir...
+&Remove<=>&Borrar...
+Move &up<=>&Mover arriba...
+Move &down<=>Mover &abajo...
+&Close<=>&Cerrar
+Black List<=>Lista Negra
+Messages from senders in the list below will be deleted automatically from the server.<=>Los mensajes de los remitentes incluídos en esta lista serán automáticamente borrados del servidor.
+Address:<=>Direcciones:
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>Introduzca las direcciones de correo (p. ej. cualquiera@nadie.com) o el dominio (p. ej. nadie.com), que desee bloquear:
+Enter address<=>Introduzca las direcciones 
+
+# Download Dialog
+
+Loading the following mail:<=>Cargando el siguiente mensaje:
+Loading Mail...<=>Cargando el mensaje...
+
+# Password Dialog
+
+Password - {1}<=>Contraseña - {1]
+Enter the password of the following account.<=>Introduzca contraseña para la siguiente cuenta.
+Account:<=>Cuenta:
+Remember password<=>Recordar contraseña
+Password incorrect! Please note that the password is case-sensitive.<=>¡Contraseña incorrecta! Tenga en cuenta mayúsculas/minúsculas.
+Please enter the password.<=>Introduzca la contraseña.
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Indique dónde guardar los mensajes.
+The specified folder does not exist!<=>!La carpeta indicada no existe!
+Please specify a template for the file names.<=>Indique una plantilla para los nombres de archivo.
+A file name must not contain any of the following characters:<=>El nombre de archivo no debe tener ninguno de los siguientes caracteres:
+Invalid template! Use a combination of the following placeholders:<=>¡Plantilla no válida! Use una combinación de los siguientes marcadores:
+Subject<=>Asunto
+From<=>De
+To<=>Para
+Date<=>Fecha
+Time<=>Hora
+Save As...<=>Guardar como...
+Destination<=>Destino
+Folder:<=>Carpeta:
+Browse...<=>Buscar...
+Save Format<=>Guardar formato
+Template For File Names<=>Plantilla para nombres de archivo
+Email File (*.eml)<=>Correo (*.eml)
+Text File (*.txt)<=>Archivo de texto (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>¡El archivo "{1}" no existe!
+Sound (*.wav)<=>Sonido (*.wav)
+Notify when new mail arrives<=>Avisar si llega un nuevo mensaje:
+Always<=>Siempre
+When AutoChecked or minimized<=>Minimizado o en AutoComprobación
+Only when minimized<=>Sólo cuando esté minimizado
+On new mail<=>Si hay mensaje nuevo:
+Acoustic notification<=>Aviso sonoro
+Sound:<=>Sonido:
+&Test<=>&Probar
+Show PopMan window<=>Mostrar la ventana de PopMan
+Show new mail tip<=>Mostrar aviso de nuevo correo
+Include sender and subject of new mails<=>Incluir Remitente y Asunto de los mensajes nuevos
+Use balloon tip<=>Usar globo emergente
+Flash keyboard light:<=>Iluminar la tecla:
+Unread Messages<=>Mensajes sin leer
+Display unread messages in bold font<=>Mostrar en negrita los mensajes sin leer
+Preview Pane<=>Vista previa
+Use the preview pane to quickly view a message without opening a separate window.<=>Usar el panel de vista previa para ver rápidamente un mensaje, sin abrir una ventana aparte.
+Show preview pane<=>Mostrar vista previa
+Be&low messages<=>Mensajes &abajo
+Be&side messages<=>Mensajes a un &lado
+Use logging to record all data communication between PopMan and the email server.<=>Se puede usar un arch. de registro para guardar los datos de comunicación entre PopMan y el servidor de correo.
+Enable logging<=>Activar registro
+Enable error logging<=>Activar registro de errores
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(Si al comunicarse con el servidor ocurre un problema, el registro se guardará en un archivo de errores aparte)
+Log file size:<=>Tamaño del archivo:
+KB<=>KB
+Location of the log file "PopManLogFile.log":<=>Ubicación del archivo de errores "PopManLogFile.log":
+Use dial-up networking<=>Usar conexión a red (dial-up)
+Launch PopMan on Windows startup<=>Ejecutar PopMan al iniciar Windows
+Check for new mail on startup<=>Comprobar si hay correo nuevo al iniciar...
+First wait<=>...tras esperar
+seconds<=>segundos
+X button hides to tray<=>Botón Cerrar ('X') -> oculta en bandeja
+Min button hides to tray<=>Botón Minimizar -> oculta en bandeja
+Delete confirmation in main window<=>Confirmar 'eliminar' en la ventana principal
+Delete confirmation in preview pane and message window<=>Confirmar 'eliminar' en vista previa y ventana de mensaje
+Enable password protection:<=>Activar la protección por contraseña
+AutoCheck only while minimized<=>AutoComprobar sólo mientras esté minimizado
+Don't check between:<=>No comprobar entre:
+and<=>y
+Enable custom AutoCheck interval per account:<=>Activar intervalo de autochequeo personalizado para las cuentas:
+Interval<=>Intervalo
+Custom<=>Personalizar
+Executable (*.exe)<=>Ejecutable (*.exe)
+Hide PopMan to tray<=>Ocultar PopMan en bandeja
+Quit PopMan<=>Salir de PopMan
+Email client:<=>Cliente de correo
+When launching email client:<=>Al iniciar el cliente de correo:
+When replying<=>Al contestar:
+Use temporary eml file (Outlook Express)<=>Usar archivo *.eml temporal (Outlook Express)
+Use mailto (without quotted original message)<=>Usar 'mailto' (sin copia del mensaje original)
+Use MAPI<=>Usar MAPI
+Use HTML linebreaks in reply body<=>Usar lineas HTML al responder
+Enforce email address (Yahoo! Mail)<=>Forzar direcciones (Correo Yahoo!)
+Launch email client with command line parameter:<=>Lanzar cliente de correo con parámetros de linea de comando:
+Number of messages<=>Nº de mensajes:
+Show number of messages in tray icon<=>Mostrar número de mensajes en bandeja de sistema
+Show number of all messages<=>Mostrar número de todos los mensajes
+Show number of unread messages<=>Mostrar número de mensajes sin leer
+Show number of new messages<=>Mostrar número de mensajes nuevos
+Rotate icon for each account<=>Icono giratorio para cada cuenta
+Rotation interval:<=>Rotación cada:
+tenths of a second<=>décimas de segundo
+Show advanced account info<=>Mostrar por adelantado información de la cuenta
+Enable HighColor icons in system tray<=>Activar iconos de alta calidad en bandeja
+Nothing<=>Ninguna acción
+Show Window<=>Mostrar ventana
+Check Mail<=>Comprobar correo
+PopUp Menu<=>Menú emergente
+Run Email Client<=>Lanzar Cliente de Correo
+Check And Show<=>Comprobar y Mostrar
+Toggle Window<=>Alternar ventana
+Toggle AutoCheck<=>Alternar AutoComprobar
+Show Mail Info<=>Mostrar información del correo
+Tray Mouse Actions<=>Acciones del ratón en bandeja
+Left Click:<=>Clic izquierdo
+Right Click:<=>Clic derecho
+Middle Click:<=>Clic central
+Double Click:<=>Doble clic
+Double click delay on click<=>Doble clic con demora
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Puede escoger entre las traducciones actualmente disponibles en su sistema.{BR}Si no encuentra su idioma, visite la pág. Web de PopMan:
+Language:<=>Idioma:
+Author:<=>Autor:
+Email:<=>Email:
+Updated:<=>Actualizado:
+Comment:<=>Comentario:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Fallo en Control RichEdit
+Source - "{1}"<=>Código fuente -"{1}"
+
+# List View
+
+Size<=>Tamaño
+Received<=>Recibido
+Attachment<=>Adjunto
+Sent<=>Enviado
+Priority<=>Prioridad
+UserAgent<=>Progr. Usado
+High<=>Alta
+Low<=>Baja
+Normal<=>Normal
+Are you sure you want to delete the selected email?<=>¿Seguro que desea borrar este correo?
+Are you sure you want to delete the {1} selected emails?<=>¿Seguro que desea borrar los {1} mensajes seleccionados?
+&Open...{TAB}Ctrl+O<=>A&brir...{TAB}Ctrl+O
+Sou&rce...<=>Código &fuente...
+&Save As...{TAB}Ctrl+S<=>&Guardar como...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Con&testar al remitente{TAB}Ctrl+R
+&Block Sender<=>&Bloquear remitente
+&Delete{TAB}Del<=>&Eliminar{TAB}Supr
+This will add the following email addresses to the Black List:<=>Esto añadirá la siguiente dirección de correo a la Lista Negra:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Nota: Todos los futuros mensajes que provengan de renitentes incluidos en la Lista Negra serán borrados automáticamente.
+
+# Main Window
+
+Options<=>Opciones
+AutoCheck<=>AutoComprobar
+Notification<=>Notificaciones
+Email Client<=>Cliente de Correo
+View<=>Ver
+Tray Icon<=>Icono en bandeja
+Language<=>Idioma
+Mouse Actions<=>Acciones del ratón
+Logging<=>Registro
+&File<=>&Archivo
+&Accounts...<=>&Cuentas...
+&Update{TAB}F5<=>&Actualizar{TAB}F5
+&Cancel{TAB}Esc<=>Ca&ncelar{TAB}Esc
+&Exit<=>&Salir
+&View<=>&Ver
+&Toolbar<=>Barra de &herramientas
+&Statusbar<=>Barra de &estado
+Tab &View{TAB}Ctrl+M<=>&Panel con lengüetas{TAB}Ctrl+M
+&Tools<=>&Herramientas
+&Font...<=>&Tipo de letra...
+Font &Color...<=>&Color de letras...
+&Themes<=>T&emas
+Launch &Email Client{TAB}Ctrl+E<=>&Lanzar Cliente de Correo{TAB}Ctrl+E
+&Import Accounts...<=>&Importar Cuentas...
+&Black List...<=>Lista Negra...
+&Options<=>&Opciones...
+&Help<=>A&yuda
+&Help Topics...{TAB}F1<=>&Temas de ayuda (en inglés)...{TAB}F1
+Check For &Updates<=>&Comprobar actualizaciones
+&About PopMan...<=>&Acerca de PopMan
+Default<=>Por defecto
+Edit email accounts.{BR}Accounts<=>Editar las cuentas de correo.{BR}Cuentas
+Update email listing.{BR}Update<=>Actualizar la lista de mensajes.{BR}Actualizar
+Cancel current operation.{BR}Cancel<=>Cancelar la operación actual.{BR}Cancelar
+Show email content.{BR}Show<=>Mostrar contenido del mensaje.{BR}Mostrar
+Show source code of this email.{BR}Source code<=>Mostrar código fuente de este mensaje.{BR}Código fuente
+Save selected email to file.{BR}Save<=>Guardar el mensaje seleccionado.{BR}Guardar
+Create a reply message to the sender.{BR}Reply<=>Crear un mensaje de respuesta para el remitente.{BR}Responder
+Delete selected emails.{BR}Delete<=>Borrar los mensajes seleccionados.{BR}Borrar
+Add sender to Black List.{BR}Block Sender<=>Añadir remitente e la Lista Negra. {BR} Bloquear remitente
+Quit the application.{BR}Exit<=>Cierrar la aplicación.{BR}Salir
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Mostrar/Ocultar la barra de herramientas.{BR}Alternar barra de herramientas
+Show or hide the status bar.{BR}Toggle StatusBar<=>Mostrar/Ocultar la barra de estado.{BR}Alternar barra de estado
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>Activar/Desactivar la vista con lengüetas. {BR}Alternar vista con lengüetas
+Change font.{BR}Font<=>Cambiar el tipo de letra.{BR}Tipo de letra
+Change font color.{BR}Font Color<=>Cambiar el color de letra.{BR}Color de letra
+Launch email client.{BR}Email Client<=>Lanzar el Cliente de Correo.{BR}Cliente de Correo
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Importar cuentas de correo desde Outlook Express.{BR}Importar Cuentas
+Edit list of blocked senders.{BR}BlackList<=>Editar la lista de remitentes bloqueados.{BR}Lista Negra
+Change program settings.{BR}Settings<=>Cambiar los ajustes del programa.{BR}Ajustes
+Show Help Topics.{BR}Help<=>Mostrar los temas de ayuda.{BR}Ayuda
+Check if a new version is available.{BR}Check for updates<=>Comprobar si existe una nueva versión disponible.{BR}Comprobar actualizaciones
+Display program information, version number and copyright.{BR}About<=>Información del programa, versión y copyright.{BR}Acerca de
+Show the main window.{BR}Show<=>Mostrar la ventana principal.{BR}Mostrar
+Enable AutoChecking.{BR}Enable<=>Activar 
+Open the selected attachment.{BR}Open<=>Abrir el adjunto seleccionado.{BR}Abrir
+Save the selected attachments.{BR}Save<=>Guardar los adjuntos seleccionados.{BR}Guardar
+Save all attachments.{BR}Save All<=>Guardar todos los adjuntos.{BR}Guardar todos
+Change the window size.<=>Cambiar tamaño de la ventana.
+Change the window position.<=>Cambiar posición de la ventana.
+Reduce the window to an icon.<=>Minimizar la ventana.
+Enlarge the window to full size.<=>Maximizar la ventana.
+Close the active window.<=>Cerrar la ventana activa.
+Restore the window to normal size.<=>Restaurar la ventana al tamaño normal.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>Im&primir...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Cerrar{TAB}Esc
+&Edit<=>&Editar
+&Cut{TAB}Ctrl+X<=>Cor&tar{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>C&opiar{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Pegar{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Buscar...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Buscar &siguiente{TAB}F3
+Select &All{TAB}Ctrl+A<=>Seleccionar &todo{TAB}Ctrl+A
+Print this email.{BR}Print<=>Imprimir este mensaje.{BR}Imprimir
+Delete this email.{BR}Delete<=>Borrar este mensaje.{BR}Borrar
+Close window.{BR}Close<=>Cerrar ventana.{BR}Cerrar
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Cortar lo seleccionado y pegarlo al portapapeles.{BR}Cortar
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Copiar lo seleccionado y ponerlo al portapapeles.{BR}Copiar
+Insert Clipboard contents.{BR}Paste<=>Insertar el contenido del portapapeles.{BR}Pegar
+Find the specified text.{BR}Find<=>Buscar el texto especificado.{BR}Buscar
+Find next occurence of specified text.{BR}Find next<=>Buscar la siguiente secuencia del texto especificado.{BR}Buscar siguiente
+Select the entire message.{BR}Select All<=>Seleccionar todo el mensaje.{BR}Seleccionar todo
+"{1}" not found.<=>"{1}" no encontrado.
+&Open<=>&Abrir
+&Save As...<=>&Guardar como...
+Save &All...<=>Guardar &todo...
+This attachment can not be accessed anymore.<=>Este adjunto ya no es accesible.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1}" es muy probable que contenga un virus, gusano o cualquier otro código malicioso!
+Opening this file is therefore denied.<=>Por eso, es mejor no abrir este archivo.
+Do you really want to save this file to your hard disk?<=>¿Desea guardar este archivo en su disco duro?
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Es muy posible que estos adjuntos contengan un virus, gusano o cualquier otro código malicioso!
+Do you really want to save these files to your hard disk?<=>¿Desea guardar este archivo en su disco duro?
+Please specify where to save the attachments.<=>Especifique dónde guardar los adjuntos
+The file "{1}" does already exist!{BR}Overwrite it?<=>El archivo "{1}" ya existe actualmente!{BR}¿Desea sobreescribirlo?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Fallo al descargar correo.{BR}Pulse Ctrl+F5 para actualizar la lista, e intentarlo nuevamente
+Are you sure you want to delete this email?<=>¿Seguro que desea borrar este mensaje?
+Deleting email failed!<=>¡Fallo al eliminar mensaje!
+From:<=>De:
+Date:<=>Fecha:
+To:<=>Para:
+Subject:<=>Asunto:
+Attach:<=>Adjuntos:
+
+# PopMan Start
+
+Please start one instance only.<=>¡Por favor, inicie el programa una sola vez!
+Windows socket init failed.<=>fallo de Windows 'init'.
+{1} Beta version has been updated successfully!<=>¡{1} versión Beta actualizada con éxito!
+You have successfully updated to version {1} !<=>¡Se ha actualizado con éxito a la versión {1} !
+About PopMan<=>Acerca de PopMan
+PopMan, Version {1}<=>PopMan, versión {1}
+Website:<=>Sitio Web:
+
+# Document
+
+The error log file "{1}" could not be created.<=>No se ha podido crear el archivo de error "{1}".
+Checking {1}...<=>Comprobando {1}...
+Error while writing to the log file:<=>Error al escribir en archivo log:
+Logging disabled!<=>Registro desactivado
+Email (*.eml)<=>mensaje (*.eml)
+Text (*.txt)<=>Texto (*.txt)
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>El archivo de registro "{1}" no puede abrirse.{BR}¡Registro desactivado!
+Unable to load mail system support.<=>Incapaz de cargar sistema de soporte del correo.
+Mail system DLL is invalid.<=>DLL de sistema no válida.
+Unable to detect if a new version is available.<=>Incapaz de detectar si una nueva versión está disponible.
+There is no update available.<=>No hay actualizaciones disponibles.
+want to start
+Do you want to start the update wizard and download the latest version?<=>¿Desea iniciar el asistente de actualización y descargar la última versión?
+Deleting mail...<=>Eliminando mensaje...
+Downloading mail...<=>Descargando mensaje...
+AutoCheck disabled<=>AutoComprobar desactivado
+No messages<=>No hay mensajes
+1 new message<=>1 mensaje nuevo
+{1} new messages<=>{1} mensajes nuevos
+PopMan - New Mail<=>PopMan - mensaje Nuevo
+&Open PopMan<=>&Abrir PopMan
+Check &Mail<=>&Comprobar Correo
+&Cancel<=>Ca&ncelar
+&Email Client<=>Clien&te de Correo
+A&utoCheck Enabled<=>Activar A&utoComprobar
+O&ptions...<=>O&pciones...
+&About...<=>A&cerca de...
+E&xit<=>Sa&lir...
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} msjs. ({2} sin leer, {3} nuevos){TAB}{4} KB
+PopMan - Mail Info<=>PopMan - Información del Correo
+1 message<=>1 mensaje
+{1} messages<=>{1} mensajes
+1 unread message<=>1 mensaje sin leer
+{1} unread messages<=>{1} mensajes sin leer
+in {1}<=>en {1}
+in {1} accounts<=>en {1} cuentas
+Show<=>Mostrar
+Delete<=>Borrar
+Close<=>Cerrar
+(last check: {1})<=>(última comprobación: {1})
+Separate account | All<=>Separar cuentas | Todas
+Check accounts{TAB}F7<=>Comprobar cuentas {TAB}F7
+Join with tab<=>Unir cuentas (con | )
+Rename tab{TAB}F2<=>Renombrar lengüeta {TAB}F2
+You have to add at least one account before you can switch to tab view.<=>Hay que añadir al menos una cuenta para poder acceder a ver el panel con lengüetas.
+Caption:<=>Título:
+Please enter the caption of the tab:<=>Introduzca el título para la lengüeta:
+Rename tab<=>Renombrer lengüeta
+Tab accounts:<=>Cuenta/s
+Copy Link Address<=>Copiar la dirección/enlace
+
+# 10/22/2005
+
+Parameters<=>Parámetros
+Invalid parameter string!<=>Parámetro no válido
+This will add the following email addresses to the Black List:<=>Esto añadirá la siguiente dirección de correo a la Lista Negra:
+Note: All future emails from senders on the Black List will be deleted automatically!<=>Nota: Todos los futuros mensajes enviados por los remitentes incluídos en la Lista Negra se borrarán automáticamente.
+Open the selected attachment.{BR}Open<=>Abrir el adjunto seleccionado.{BR}Abrir
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>Usar UIDL al borrar mensajes
+Delete command marks message for deletion<=>Marcar (con tachadura) los mensajes a eliminar
+&Unmark{TAB}Ins<=>&Quitar marca de borrado{TAB}Ins
+Empty Trash<=>Eliminar tachados
+Delete &Marked Emails{TAB}F12<=>&Borrar mensajes marcados{TAB}F12
+&Hide Marked Messages<=>&Ocultar mensajes marcados para borrar
+&Rules...<=>&Reglas
+Delete marked emails.{BR}Delete marked emails<=>Borrar los marcados.{BR}Borrar los marcados
+Unmark (undelete) selected emails.{BR}Unmark<=>Quitar marca a seleccionados.{BR}Quitar marca
+Hide messages that are marked for delete.{BR}Hide marked messages<=>Ocultar mensajes marcados para su borrado.{BR}Ocultar mensajes marcados
+Edit the rules.{BR}Rules<=>Editar reglas.{BR}Reglas
+Don't display this &message again.<=>&No mostrar más este mensaje.
+You are about to irrevocably delete all marked messages.<=>Está a punto de borrar definitivamente todos los mensajes marcados.
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>Acaba de marcar un mensaje para su borrado. Para quitar la marca, pulse la tecla 'Ins'. Para borrar todos los mensajes marcados, pulse F12 o haga clic en 'Eliminar tachados' en la barra de herramientas.
+You can also delete selected messages immediately by pressing Shift+Del.<=>También puede borrar los mensajes seleccionados pulsando Shift+Del.
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>Si desea volver a la forma tradicional (borrar los mensajes de forma inmediata), desactive "{1}" en el diálogo 'Opciones/General'.
+Error while parsing rules file at line {1}!<=>¡Error al analizar las reglas de la fila {1}!
+
+# 09/30/2007
+
+Load small emails completely<=>Cargar por completo los correos pequeños
+Small emails are < <=>Los correos pequeños son <
+Add item to Rules list<=>Añadir elemento a Lista de Reglas
+Destination List<=>Lista de destino
+New Item<=>Nuevo elemento
+Item Type<=>Tipo de elemento
+Word<=>Palabra
+String<=>Secuencia
+Regular Expression<=>Expresión regular
+Only log compact mail info instead of entire data traffic<=>Sólo información compactada, en lugar de todos los datos de tráfico
+Enable logging of applied rules<=>Activar el registro de reglas aplicadas
+Rules<=>Reglas
+Move Marked Messages to Tr&ash Tab<=>Mover los mensajes marcados a lengüeta de P&apelera
+Add Item To Rules &List...{TAB}F9<=>Añadir elemento a Lista de &Reglas...{TAB}F9
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>Mover los mensajes marcados a la lengüeta separada Papelera.{BR}Activar lengüeta de Papelera
+Add item to Rules list.{BR}Add To List<=>Añadir elemento a Lista de Reglas.{BR}Añadir a la Lista
+Forum:<=>Foro:
+Failed to add item to Rules list!<=>¡Fallo al añadir elemento a la Liusta de Reglas!
+Trash<=>Papelera
+The item is already contained in the list!<=>Este elemento ya está en la Lista!
+
+# 10/14/2007
+
+White List<=>Lista Blanca
+Messages from senders in the list below will never be deleted automatically.<=>Los mensajes de estos remitentes nunca se borrarán automáticamente.
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>!Por favor, introduzca la dirección de correo (p. ej. cualquiera@nadie.com) o el dominio (p. ej. nadie.com)¡
+&Trust Sender<=>Remitente de &confianza
+This will add the following email addresses to the White List:<=>Puede añadir esta/s dirección/es de remitentes a la Lista Blanca:
+&White List...<=>Lista &Blanca
+Add sender to White List.{BR}Trust Sender<=>Añadir remitente a la Lista Blanca.{BR}Remitente de confianza.{BR}Remitente de confianza
+Edit list of trusted senders.{BR}WhiteList<=>Editar lista de remitentes de confianza.{BR}Lista Blanca
+Suspend New Mail Notification Sound.{BR}Mute<=>Suspender sonido de notificación de nuevo correo.{BR}Silenciar
+Mu&te Mode<=>Mo&do Silencio
+Mark All Mails Read<=>Marcar todos los correos como 'leidos'
+Mark All Mails Unread<=>Marcar todos los correos como 'no leidos'
+
+# 04/10/2010
+
+Type<=>Tipo
+Limit tips to [PROTECTED] messages<=>Limitar avisos a mensajes de [PROTEGIDO]
+[PROTECTED]<=>[PROTEGIDO]
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>A&ctivar posición de [PROTEGIDO]{TAB}Ctrl+T
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>Activar actual posición de [PROTEGIDO] de los mensajes seleccionados.{BR}Activar [PROTEGIDO]
+Protocol plugin not initialized correctly!<=>¡Protocolo de conexión iniciado incorrectamente!
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>¡Fallo al iniciar la cuenta {1}: No hay conexión disponible para proveer protocolo {2}!

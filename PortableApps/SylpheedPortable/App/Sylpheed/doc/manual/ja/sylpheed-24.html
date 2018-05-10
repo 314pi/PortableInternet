@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+ <META NAME="GENERATOR" CONTENT="LinuxDoc-Tools 0.9.69">
+ <TITLE>Sylpheed ユーザーズマニュアル: 情報</TITLE>
+ <LINK HREF="sylpheed-25.html" REL=next>
+ <LINK HREF="sylpheed-23.html" REL=previous>
+ <LINK HREF="sylpheed.html#toc24" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="sylpheed-25.html">次のページ</A>
+<A HREF="sylpheed-23.html">前のページ</A>
+<A HREF="sylpheed.html#toc24">目次へ</A>
+<HR>
+<H2><A NAME="s24">24.</A> <A HREF="sylpheed.html#toc24">情報</A></H2>
+
+
+<H2><A NAME="ss24.1">24.1</A> <A HREF="sylpheed.html#toc24.1">Sylpheed 関連サイト</A>
+</H2>
+
+
+<H3>Sylpheed オフィシャルWebサイト</H3>
+
+<P>Sylpheed オフィシャルWebサイトの場所は、
+<A HREF="http://sylpheed.sraoss.jp/">http://sylpheed.sraoss.jp/</A>
+です。</P>
+<H3>Sylpheed 最新版入手先</H3>
+
+<P>Sylpheedの最新版は
+<A HREF="http://sylpheed.sraoss.jp/ja/download.html">http://sylpheed.sraoss.jp/ja/download.html</A> から入手できます。</P>
+
+<H2><A NAME="Sylpheed-ML"></A> <A NAME="ss24.2">24.2</A> <A HREF="sylpheed.html#toc24.2">メーリングリスト</A>
+</H2>
+
+<P>Sylpheed に関する全般的な話題を扱うメーリングリストです。日本語
+(
+<A HREF="sylpheed-jp@sraoss.jp">sylpheed-jp@sraoss.jp</A>) と
+英語 (
+<A HREF="sylpheed@sraoss.jp">sylpheed@sraoss.jp</A>) の2種類があります。</P>
+<P>また、リリースアナウンス専用の ML として sylpheed-announce ML (
+<A HREF="sylpheed-announce@sraoss.jp">sylpheed-announce@sraoss.jp</A>) があります。</P>
+
+<H3>参加方法</H3>
+
+<P>
+<A HREF="http://www.sraoss.jp/mailman/listinfo/">http://www.sraoss.jp/mailman/listinfo/</A> から入会したいメーリングリストを選択します。その後は指示に従ってください。</P>
+<P>投稿先は 
+<A HREF="sylpheed-jp@sraoss.jp">sylpheed-jp@sraoss.jp</A> です。</P>
+
+<H3>退会方法</H3>
+
+<P>上記のページから退会処理ができます。</P>
+<P>過去ログも上記のページから参照できます。
+以前の過去ログは
+<A HREF="http://www.tmtm.org/sylpheed/ml/">http://www.tmtm.org/sylpheed/ml/</A>から入手できます。</P>
+<H2><A NAME="ss24.3">24.3</A> <A HREF="sylpheed.html#toc24.3">Anonymous SVN</A>
+</H2>
+
+<P>Sylpheedの開発はSVNを利用して行われています。
+SVNの説明に関しては、
+<A HREF="http://subversion.bluegate.org/doc/book.html">http://subversion.bluegate.org/doc/book.html</A>などのサイトや書籍を参考にしてください。</P>
+<P>SVNから最新のSylpheedを入手するには、subversion をインストールし、svn://sylpheed.sraoss.jp/sylpheed にアクセスしてください。
+<PRE>
+$ mkdir svn
+$ cd svn
+$ svn checkout svn://sylpheed.sraoss.jp/sylpheed/trunk sylpheed
+</PRE>
+
+でカレントディレクトリ以下にtrunkのソースツリーが作成されます。</P>
+<P>リポジトリの sylpheed ディレクトリ以下は次のように分かれています。
+<UL>
+<LI>trunk/ メインのツリー</LI>
+<LI>branches/ 各種実験用ブランチ</LI>
+<LI>tags/ リリースタグを付けたブランチ</LI>
+</UL>
+</P>
+<P>最新のソースツリーにアップデートするには、対象となるディレクトリで
+<PRE>
+$ svn update
+</PRE>
+
+を実行してください。</P>
+<P>Subversion ツリーには自動生成されるファイルは入っていないので、そのままでは ./configure できません。コンパイルするには、通常必要なものの他に autoconf, automake, libtool, gettext などがインストールされている必要があります。インストールされていれば、 ./autogen.sh で必要なファイルが自動生成されます。</P>
+
+<HR>
+<A HREF="sylpheed-25.html">次のページ</A>
+<A HREF="sylpheed-23.html">前のページ</A>
+<A HREF="sylpheed.html#toc24">目次へ</A>
+</BODY>
+</HTML>

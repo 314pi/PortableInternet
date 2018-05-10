@@ -1,0 +1,536 @@
+[File Info]
+
+Language=Estonian
+Author=andrustamm
+Email=andrust@kohila.ee
+Date=05/17/2004
+Comment=PopMan 1.3 Estonian Translation
+LangID=37
+
+
+[Translations]
+
+Not connected<=>Ühendamata
+Connection failure<=>Ühenduse viga
+Canceled<=>Katkestatud
+Invalid server response<=>Server ei vasta
+Timeout<=>Timeout
+Login failed<=>sisselogimine ebaõnnestus
+Message not found<=>Ei ole teadet
+Server failure: Message not found!<=>Serveri viga: Ei ole teadet
+Busy<=>Hõivatud
+Ready<=>Valmis
+Connecting...<=>Ühendan...
+Connected!<=>Ühendatud!
+Login...<=>Login sisse...
+Successfully logged in!<=>Sisselogimine õnnestus!
+Loading message ...<=>Laen teadet...
+Loading message {1} of {2} ...<=>Laen teadet {1} of {2}
+Deleting message {1} of {2} ...<=>Kustutan teadet {1} of {2}
+
+# Update Wizard
+
+Update Wizard<=>Uuenduste abiline
+There are no updates available.<=>Uuendusi ei ole saadaval
+There is a new version {1} available!<=>Uus versioon {1} on saadaval!
+There is a new {1} Beta version available!<=>Uus {1} Beta versioon on saadaval!
+Click "Next" to update your copy of PopMan...<=>Kliki "Next" tarkvara uuendamiseks...
+Unable to retrieve version infomation!<=>Ei saa infot versiooni kohta!
+Error number: {1}<=>Vea number: {1}
+Welcome to the PopMan Update Wizard<=>PopMan uuenduste abiline
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Abiline otsib PopMan serverist uendusi. Kui uuendusi on ole saadaval, siis kõik vajalikud failid laaditakse alla ja installeeritakse automaatselt.
+Failed to load Decompress.dll!<=>Ei saa alla laadida faili Decompress.dll!
+Initializing...<=>Seadistan...
+Do you really want to cancel the update process?<=>Kas tahad tõesti uuendamist katkestada?
+Update process failed!<=>Uuendamine ebaõnnestus!
+Error while downloading initialization file!<=>Viga seadistusfaili allalaadimisel!
+No updates available.<=>Uuendusi ei ole saadaval.
+Failed to retrieve temporary directory!<=>Ei saa alla laadida ajutist kataloogi!
+Saving {1} ...<=>salvestan {1} ... 
+Failed to create directory:<=>Viga kataloogi loomisel:
+Failed to decompress file:<=>Viga faili lahtipakkimisel:
+Failed to download file:<=>Viga faili allalaadimisel
+(checksum error)<=>
+Please try again later.<=>Palun ürita hiljem uuesti.
+Error while saving downloaded file!<=>Viga allalaaditud faili salvestamisel!
+All files downloaded successfully.<=>Kõik failid on alla laaditud.
+Press the "Finish" button to complete the update process...<=>Vajuta "Finish" uuendusprotsessi lõpetamiseks
+Failed to initialize the final copy process!<=>
+Downloading {1} ...<=>Laadin {1} ...
+Progress all:<=>
+Progress current file:<=>Tegutsen failiga:
+Download of updated files<=>Uuendusfailide allalaadimine
+
+# Import Accounts Dialog
+
+Account<=>Konto
+User<=>Kasutaja
+Server<=>Server
+Port<=>Port
+Please select the accounts that you want to import from Outlook Express.<=>Vali konto, millist tahad importida Outlook Express-ist.
+&Properties...<=>&Omadused
+OK<=>
+Cancel<=>Katkesta
+Import email accounts<=>Impordi e-maili kontod
+Description<=>Selgitus
+
+# Account Dialog
+
+General<=>Üldine
+Advanced<=>Täpsustused
+Please enter the account name!<=>Sisesta meilikonto nimi!
+Please enter the address of the POP3 server!<=>Sisesta POP3 serveri nimi!
+Please enter user name!<=>Sisesta kasutajanimi!
+Account name:<=>Konto nimi
+POP3 server:<=>POP3 server:
+Port:<=>Port:
+User name:<=>Kasutajanimi:
+Password:<=>Parool:
+Include this account when receiving mail<=>Lisa see konto kontrollitavate nimekirja
+1 minute<=>1 minut
+{1} minutes<=>{1} minutit
+1 second<=>1 sekund
+{1} seconds<=>{1} sekundit
+Colors<=>Värvid
+Use individual font color:<=>Kasuta individuaalset tähemärgi värvi:
+Circle color in system tray:<=>Teavituskujundi värv system tray-l
+Server Timeouts<=>Serveri Timeouts
+Short<=>Lühike
+Long<=>Pikk
+Load big emails incompletely<=>Lae mahukaid e-maile osaliselt
+Limit size:<=>Piira suurus:
+
+# Accounts Dialog
+
+Mail Accounts<=>E-maili kontod
+&Add...<=>&Lisa...
+&Remove<=>&Kustuta
+Move &up<=>Säti &ettepoole
+Move &down<=>Säti &allapoole
+&Close<=>&Sulge
+
+# Download Dialog
+
+Loading the following mail:<=>Laen alla teadet:
+Loading Mail...<=>Laen e-maili...
+
+# Password Dialog
+
+Password - {1}<=>Parool - {1}
+Enter the password of the following server.<=>Sisesta serveri parool.
+Server:<=>Server:
+Remember password<=>Salvesta parool
+Password incorrect! Please note that the password is case-sensitive.<=>Vale parool! Meeldetuletuseks - parool on tõusutundlik! (olulised on ka suurtähed)
+Please enter the password.<=>Sisesta parool.
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Palun seadista kuhu salvestada e-mailid.
+The specified folder does not exist!<=>Seda kataloogi ei eksisteeri!
+Please specify a template for the file names.<=>Palun seadista failinimede mallid.
+A file name must not contain any of the following characters:<=>Failinimi ei tohi sisaldada ühtegi järgmistest tähemärkidest:
+Invalid template! Use a combination of the following placeholders:<=>
+Subject<=>Subjekt
+From<=>Kellelt
+To<=>Kellele
+Date<=>Kuupäev
+Time<=>Kellaaeg
+Save As...<=>Salvesta kui...
+Destination<=>Sihtkoht
+Folder:<=>Kataloog:
+Browse...<=>Vali...
+Save Format<=>Salvestusformaat
+Template For File Names<=>Failinimede mallid
+Email File (*.eml)<=>
+Text File (*.txt)<=>tekstifail .txt
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Faili "{1}" ei ole!
+Sound (*.wav)<=>Heli (*.wav)
+Notify when new mail arrrives<=>Teavita, kui uus e-mail saabub
+Always<=>Alati
+When AutoChecked or minimized<=>
+Only when minimized<=>ainult kui on minimaliseeritud
+On new mail<=>Uue e-maili saabumisel
+Acoustic notification<=>Teavitus heliga
+Sound:<=>Heli:
+&Test<=>
+Show PopMan window<=>Näita PopMan akent
+Show new mail tip<=>näita nõuandeid
+Include sender and subject of new mails<=>
+Use balloon tip<=>Kasuta baloonikujulisi nõuandeid
+Unread Messages<=>Lugemata e-mailid
+Display unread messages in bold font<=>Näita lugemata e-maile rasvase sriftiga
+Preview Pane<=>Eelvaade
+Use the preview pane to quickly view a message without opening a separate window.<=>Kasuta eelvaadet e-mailide kiireks vaatluseks, avamata neid eraldi aknas.
+Show preview pane<=>Näita eelvaadet
+Be&low messages<=>
+Be&side messages<=>
+Use logging to record all data communication between PopMan and the email server.<=>Kasuta sisselogimist et salvestada kõik andmed PopMan-i ja e-maili serveri vahel
+Enable logging<=>Luba sisselogimist
+Enable error logging<=>Luba veateadete logimist
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(kui e-maili serveriga ühendamiseltekib viga, salvestatakse eraldi logifail)
+Log file size:<=>logifaili suurus
+KB<=>
+Location of the log file "PopManLogFile.log":<=>Logifaili "PopManLogFile.log" asukoht
+Use dial-up networking<=>Kasuta dial-up ühendust
+Launch PopMan on Windows startup<=>Käivita PopMan Windows-i käivitamisel
+Check for new mail on startup<=>Kontrolli e-posti programmi käivitamisel
+First wait<=>Oota
+seconds<=>sekundit
+X button hides to tray<=>klahv X vähendab programmi käivitusribale
+Min button hides to tray<=>klahv Min vähendab programmi käivitusribale
+Delete confirmation in main window<=>
+Delete confirmation in preview pane and message window<=>
+Enable password protection:<=>Luba parooliga kaitsmist:
+Timer interval:<=>Intervall:
+minutes<=>minutit
+AutoCheck only while minimized<=>KOntrolli automaatselt vaid siis kui on minimeeritud
+Don't check between:<=>Ära kontrolli ajavahemikul:
+and<=>ja
+Executable (*.exe)<=>exe-fail (*.exe)
+Hide PopMan to tray<=>Vähenda PopMan käivitusribale
+Quit PopMan<=>Välju PopMan-ist
+Email client:<=>e-maili klient:
+When launching email client:<=>Kui käivitad e-maili kliendi:
+When replying<=>Kui vastad
+Use temporary eml file (Outlook Express)<=>kasuta ajutist eml-faili (Outlook Express)
+Use mailto (without quotted original message)<=>Kasuta "mailto" edasisaatmist (koos originaalteatega)
+Use MAPI<=>Kasuta MAPI
+Use HTML linebreaks in reply body<=>Kasuta HTML reavahesid vastamisel
+Enforce email address (Yahoo! Mail)<=>
+Number of messages<=>teadete arv
+Show number of messages in tray icon<=>Näita teadete arvu käivitusriba ikoonil
+Show number of all messages<=>Näita kõikide teadete arvu
+Show number of unread messages<=>Näita lugemata teadete arvu
+Show number of new messages<=>Näita uute teadete arvu
+Rotate icon for each account<=>Pööra ikooni iga konto jaoks eraldi
+Rotation interval:<=>Pöörlemise intervall:
+tenths of a second<=>sekundikümnendik
+Show advanced account info<=>Näita täpsemat konto infot
+Enable HighColor icons in system tray<=>Võimalda värvilisi ikoone käivitusribal
+Nothing<=>Mitte midagi
+Show Window<=>Näita akent
+Check Mail<=>Kontrolli meili
+PopUp Menu<=>PopUp menüü
+Run Email Client<=>Käivita e-maili klient
+Check And Show<=>Kontrolli ja näita
+Toggle Window<=>
+Toggle AutoCheck<=>
+Show Mail Info<=>Näita meili infot
+Tray Mouse Actions<=>Hiiire käsklused käivitusribal
+Left Click:<=>Vasak klikk:
+Right Click:<=>Parem klikk:
+Middle Click:<=>Keskmine klikk:
+Double Click:<=>Topeltklikk:
+Double click delay on click<=>Topeltkliki viivitus
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Allpool saad valida sinnul installeeritud olemasolevate keelte vahel.{BR}Kui tahad leida mõnda muud keelt, külasta palun PopMan-i veebilehte:
+Language:<=>Keel:
+Author:<=>Autor:
+Email:<=>e-mail:
+Updated:<=>Uuendatud:
+Comment:<=>Kommentaar:
+
+# Source Dialog
+
+RichEdit control init failed.<=>
+Source - "{1}"<=>Allikas - "{1}
+
+# Main Window
+
+Options<=>Seadistused
+AutoCheck<=>Automaatne kontroll
+Notification<=>Märguanne
+Email Client<=>e-maili klient
+View<=>Vaade
+Tray Icon<=>käivitusriba ikoon
+Language<=>Keel
+Mouse Actions<=>Hiire käsklused
+Logging<=>Sisselogimine
+&File<=>
+&Accounts...<=>&Kontod...
+&Update{TAB}F5<=>Uuenda{TAB}F5
+&Cancel{TAB}Esc<=>&Katkesta{TAB}Esc
+&Open...{TAB}Ctrl+O<=>&Ava...{TAB}Ctrl+O
+Sou&rce...<=>All&ikas...
+&Save As...{TAB}Ctrl+S<=>&Salvesta kui...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=Vast&a saatjale{TAB}Ctrl+R
+&Delete{TAB}Del<=>&Kustuta{TAB}Del
+&Exit<=>&Välju
+&View<=>&Vaade
+&Toolbar<=>
+&Statusbar<=>
+&Tools<=>
+&Font...<=>
+Font &Color...<=>
+Launch &Email Client{TAB}Ctrl+E<=>
+&Import Accounts...<=>
+&Options<=>&Seadistused
+&Help<=>&Abi
+&Help Topics...{TAB}F1<=>
+Check For &Updates<=>Kontrolli &uuendusi
+&About PopMan...<=>& PopMan-ist...
+Edit email accounts.{BR}Accounts<=>Seadista e-mail kontosid.{BR}Kontod
+Update email listing.{BR}Update<=>Uuenda emailide nimekirja.{BR}Update
+Cancel current operation.{BR}Cancel<=>Katkesta käimasolev tegevus.{BR}Cancel
+Show email content.{BR}Show<=>Näita e-maili sisu.{BR}Show
+Show source code of this email.{BR}Source code<=>Näita selle email algteksti.{BR}Source code
+Save selected email to file.{BR}Save<=>Salvesta valitud email faili.{BR}Save
+Create a reply message to the sender.{BR}Reply<=>Koosta vastuskiri saatjale.{BR}Reply
+Delete selected emails.{BR}Delete<=>Kustuta valitud emailid.{BR}Delete
+Quit the application.{BR}Exit<=>Sulge programm.{BR}Exit
+Show or hide the toolbar.{BR}Toggle ToolBar<=>
+Show or hide the status bar.{BR}Toggle StatusBar<=>
+Change font.{BR}Font<=>Muuda fonti.{BR}Font
+Change font color.{BR}Font Color<=>Muuda tähtede värvi.{BR}Font Color
+Launch email client.{BR}Email Client<=>Käivita email kliendiprogramm.{BR}Email Client
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Impordi emaili kontod Outlook Express-ist.{BR}Import Accounts
+Change program settings.{BR}Settings<=>Muuda programmi seadistusi.{BR}Settings
+Show Help Topics.{BR}Help<=>Näita abifaile.{BR}Help
+Check if a new version is available.{BR}Check for updates<=>Kontrolli, kas uus versioon on saadaval.{BR}Check for updates
+Display program information, version number and copyright.{BR}About<=>
+Show the main window.{BR}Show<=>Näita peaakent.{BR}Show
+Enable AutoChecking.{BR}Enable<=>Luba AutoChecking.{BR}Enable
+Open the selected attachment.{BR}Open<=>Ava valitud attachment.{BR}Open
+Save the selected attachments.{BR}Save<=>Salvesta selekteeritud attachmentdid.{BR}Save
+Save all attachments.{BR}Save All<=>Salvesta kõik attachmendid.{BR}Save All
+Change the window size.<=>Muuda akna suurust.
+Change the window position.<=>Muuda akna asetust.
+Reduce the window to an icon.<=>Vähenda aken ikooniks.
+Enlarge the window to full size.<=>Suurenda aken täissuurusele.
+Close the active window.<=>Sulge aktiivne aken.
+Restore the window to normal size.<=>Taasta aken normaalsuuruses.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>&Prindi...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Sulge{TAB}Esc
+&Edit<=>&Muuda
+&Cut{TAB}Ctrl+X<=>&Lõika{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>K&opeeri{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>&Aseta{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Otsi...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Otsi &järgmine{TAB}F3
+Select &All{TAB}Ctrl+A<=>Vali &kõik{TAB}Ctrl+A<=>
+Print this email.{BR}Print<=>Prindi see email.{BR}Print
+Delete this email.{BR}Delete<=>Kustuta see email.{BR}Delete
+Close window.{BR}Close<=>Sulge aken.{BR}Close
+Cut the selection and put it on the Clipboard.{BR}Cut<=>
+Copy the selection and put it on the Clipboard.{BR}Copy<=>
+Insert Clipboard contents.{BR}Paste<=>
+Find the specified text.{BR}Find<=>
+Find next occurence of specified text.{BR}Find next<=>
+Select the entire message.{BR}Select All<=>Selekteeri kogu teade.{BR}Selekteeri kõik
+"{1}" not found.<=>Ei leia "{1}"
+&Open<=>&Ava
+&Save As...<=>&Salvesta kui...
+Save &All...<=>Salvesta &kõik...
+This attachment can not be accessed anymore.<=>See attachment ei ole avatav.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>On tõenäoline, et "{1}" sisaldab viirust või mõnda muud ohtlikku koodijuppi!
+Opening this file is therefore denied.<=>Faili avamine on seetõttu keelatud.
+Do you really want to save this file to your hard disk?<=>Kas tõesti soovid salvestada seda faili kõvakettale?
+Attachment<=>
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Need attachmendid näivad sisaldavat viirust või mõnda muud ohtlikku koodijuppi!
+Do you really want to save these files to your hard disk?<=>Kas tõesti soovid salvestada need failid kõvakettale?
+Please specify where to save the attachments.<=>Palun näita kuhu salvestada attachmendid.
+The file "{1}" does already exist!{BR}Overwrite it?<=>File "{1}" juba eksisteerib!{BR}Kas kirjutan üle?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Emaili allalaadimine ebaõnnestus.{BR}Vajuta Ctrl+F5 et uuendada nimekirja ning üritada uuesti.
+Are you sure you want to delete this email?<=>Kas oled kindel, et tahad seda emaili kustutada?
+Deleting email failed!<=>emaili kustutamine ebaõnnestus!
+From:<=>
+Date:<=>
+To:<=>
+Subject:<=>
+Attach:<=>
+
+# PopMan Start
+
+Please start one instance only.<=>Palun alusta vaid üks kord!
+Windows socket init failed.<=>
+{1} Beta version has been updated successfully!<=>{1} Beta versioon uuendatud edukalt!
+You have successfully updated to version {1} !<=>Edukalt uuendatud uuele versioonile {1} !
+About PopMan<=>
+PopMan, Version {1}<=>
+Website:<=>
+
+# Document
+
+The error log file "{1}" could not be created.<=>Vigade logifili "{1}" ei saanud luua.
+Checking {1}...<=>KOntrollin {1}...
+Error while writing to the log file:<=>Logifaili kirjutamisel ilmnes viga
+Logging disabled!<=>Sisselogimine keelatud!
+Email (*.eml)<=>
+Text (*.txt)<=>
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Logifili "{1}" ei saa avada.{BR}Sisselogimine keelatud!
+Unable to load mail system support.<=>Ei saa laadida süsteemi tuge
+Mail system DLL is invalid.<=>meilisüsteemi DLL on vigane
+Unable to detect if a new version is available.<=>
+There is no update available.<=>Uuendusi ei ole sadaaval
+Do you want to start the update wizard and download the latest version?<=>Kas soovid käivitada uuenduse abimeest ja alla laadida uusima versiooni?
+Deleting mail...<=>Kustutan teate...
+Downloading mail...<=>Laadin teateid...
+AutoCheck disabled<=>AutoCheck ei ole lubatud
+No messages<=>Ei ole uusi teateid
+1 new message<=>1 uus teade
+{1} new messages<=>{1} uut teadet
+PopMan - New Mail<=>
+&Open PopMan<=>&Ava PopMan
+Check &Mail<=>Kontrolli &e-maili
+&Cancel<=>&Katkesta
+&Email Client<=>
+A&utoCheck Enabled<=>A&utoCheck Lubatud
+O&ptions...<=>S&eadistused...
+&About...<=>
+E&xit<=>V&älju
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} teadet ({2} lugemata, {3} new){TAB}{4} KB
+PopMan - Mail Info<=>
+1 message<=>1 teade
+{1} messages<=>{1} teadet
+1 unread message<=>1 lugemata teade
+{1} unread messages<=>{1} lugemata teadet
+in {1}<=>
+in {1} accounts<=> {1} kontol
+Show<=>Näita
+Delete<=>Kustuta
+Close<=>Sulge
+(last check: {1})<=>(viimati kontrollitud: {1})
+
+# Main View
+
+Size<=>Suurus
+Received<=>Saabunud
+Are you sure you want to delete the selected email?<=>Kas oled kindel, et soovid selle e-maili kustutada?
+Are you sure you want to delete the {1} selected emails?<=>Kas oled kindel, et soovid need e-mailid {1} kustutada?
+
+# 12/22/2004
+
+Can not change account settings while there are busy accounts.<=>
+Please enter the address of the Server!<=>
+Protocol:<=>
+Load all emails completely<=>
+Retrieve header and {1} lines of message body<=>
+Number of lines:<=>
+Black List<=>
+Messages from senders in the list below will be deleted automatically from the server.<=>
+Address:<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>
+Enter address<=>
+Enter the password of the following account.<=>
+Account:<=>
+Notify when new mail arrives<=>
+Repl&y To Sender{TAB}Ctrl+R<=>
+&Block Sender<=>
+&Black List...<=>
+Add sender to Black List.{BR}Block Sender<=>
+Edit list of blocked senders.{BR}BlackList<=>
+This will add the following email addresses to the Black List:<=>
+Note: All future emails from senders on the Black List will be deleted automatically!<=>
+
+# 03/12/2005
+
+Launch email client with command line parameter:<=>
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>
+Rename tab{TAB}F2<=>
+Join with tab<=>
+You have to add at least one account before you can switch to tab view.<=>
+Caption:<=>
+Please enter the caption of the tab:<=>
+Rename tab<=>
+Copy Link Address<=>
+Separate account | All<=>
+Check accounts{TAB}F7<=>
+Tab accounts:<=>
+
+# 04/10/2005
+
+Use custom AutoCheck timer interval<=>
+Sent<=>
+Priority<=>
+UserAgent<=>
+High<=>
+Low<=>
+Normal<=>
+
+# 05/07/2005
+
+Flash keyboard light:<=>
+Enable custom AutoCheck interval per account:<=>
+Interval<=>
+Custom<=>
+&Themes<=>
+Default<=>
+
+# 10/22/2005
+
+Parameters<=>
+Invalid parameter string!<=>
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>
+Delete command marks message for deletion<=>
+&Unmark{TAB}Ins<=>
+Empty Trash<=>
+Delete &Marked Emails{TAB}F12<=>
+&Hide Marked Messages<=>
+Tab &View{TAB}Ctrl+M<=>
+&Rules...<=>
+Delete marked emails.{BR}Delete marked emails<=>
+Unmark (undelete) selected emails.{BR}Unmark<=>
+Hide messages that are marked for delete.{BR}Hide marked messages<=>
+Edit the rules.{BR}Rules<=>
+Don't display this &message again.<=>
+You are about to irrevocably delete all marked messages.<=>
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>
+You can also delete selected messages immediately by pressing Shift+Del.<=>
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>
+Error while parsing rules file at line {1}!<=>
+
+# 09/30/2007
+
+Load small emails completely<=>
+Small emails are < <=>
+Add item to Rules list<=>
+Destination List<=>
+New Item<=>
+Item Type<=>
+Word<=>
+String<=>
+Regular Expression<=>
+Only log compact mail info instead of entire data traffic<=>
+Enable logging of applied rules<=>
+Rules<=>
+Move Marked Messages to Tr&ash Tab<=>
+Add Item To Rules &List...{TAB}F9<=>
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>
+Add item to Rules list.{BR}Add To List<=>
+Forum:<=>
+Failed to add item to Rules list!<=>
+Trash<=>
+The item is already contained in the list!<=>
+
+# 10/14/2007
+
+White List<=>
+Messages from senders in the list below will never be deleted automatically.<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>
+&Trust Sender<=>
+This will add the following email addresses to the White List:<=>
+&White List...<=>
+Add sender to White List.{BR}Trust Sender<=>
+Edit list of trusted senders.{BR}WhiteList<=>
+Suspend New Mail Notification Sound.{BR}Mute<=>
+Mu&te Mode<=>
+Mark All Mails Read<=>
+Mark All Mails Unread<=>
+
+# 04/10/2010
+
+Type<=>
+Limit tips to [PROTECTED] messages<=>
+[PROTECTED]<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Protocol plugin not initialized correctly!<=>
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>

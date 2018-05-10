@@ -1,0 +1,25 @@
+# LANGUAGE DEFINITION FILE
+
+#--------------------------------------------------------
+# Added by SearchBar Extension (don't edit this comment)
+#--------------------------------------------------------
+searchbarext=Панель поиска
+&Search Bar=Панель поиска
+&Auto Engine=Автоопределение поисковой машины
+&Define Engine=Определить поисковую машину
+&Change Bar Title=Сменить заголовок панели
+Enter the Search Bar Title ('_none_'->no bar title, '_default_'->default title):=Введите заголовок панели ('_none_'->без заголовка, '_default_'->по умолчанию)
+Search Bar Title=Заголовок панели поиска
+&Opening Mode=Открывать результаты поиска в
+Current Window/Layer=Текущем окне/вкладке
+Background=В фоне
+New Window=Новом окне
+Keep the number of the choosen engine and enter it in the next box=Введите номер поисковой машины в следующее поле
+# , when present, gives the manual Search Bar engine=# , означает ручной выбор поисковой машины
+* , when present, gives the current Search Bar engine=* , означает выбор текущей поисковой машины
++ , when present, gives the current K-Meleon engine=+ , означает выбор текущей поисковой машины
+Give the number of the choosen engine=Введите номер поисковой машины
+Default Search Bar Engine=Поисковая машина по умолчанию
+You have to restart K-Meleon to make this change take effect.=Для вступления изменений в силу нужно перезапустить браузер
+Default Search Bar Engine has changed=Поисковая машина по умолчанию изменена
+#--------------------------------------------------------

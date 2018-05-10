@@ -1,0 +1,50 @@
+{
+   "browser": {
+      "last_clear_browsing_data_time": "13037929591374859",
+      "window_placement": {
+         "height": 870,
+         "left": 240,
+         "maximized": false,
+         "top": 145,
+         "width": 1440
+      }
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2 ],
+      "startup_list": [ 1 ]
+   },
+   "download": {
+      "directory_upgrade": true,
+      "prompt_for_download": true
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "autoupdate": {
+         "next_check": "13037929836757128"
+      },
+      "last_opera_version": "36.0.2130.80",
+      "settings": {
+         
+      }
+   },
+   "net": {
+      "http_server_properties": {
+         "version": 2
+      }
+   },
+   "quick_access_bar": {
+      "visible": true
+   },
+   "savefile": {
+      "default_directory": ""
+   },
+   "statistics": {
+      "collection_asked": true,
+      "collection_enabled": false
+   },
+   "turbo": {
+      "client_id": ""
+   }
+}

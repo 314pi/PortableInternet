@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created by Max Velasques-->
+<resource version="2.3.0.1">
+    <object class="wxDialog" name="boxnew" subclass="mBoxNew">
+        <style>wxDEFAULT_DIALOG_STYLE</style>
+        <title>Add new download</title>
+        <object class="wxFlexGridSizer">
+            <hgap>0</hgap>
+            <rows>1</rows>
+            <cols>3</cols>
+            <vgap>0</vgap>
+            <object class="spacer">
+                <size>10, 20</size>
+            </object>
+            <object class="sizeritem">
+                <option>1</option>
+                <flag>wxEXPAND</flag>
+                <object class="wxFlexGridSizer">
+                    <hgap>0</hgap>
+                    <rows>12</rows>
+                    <cols>1</cols>
+                    <vgap>0</vgap>
+                    <object class="spacer">
+                        <size>20, 5</size>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <object class="wxFlexGridSizer">
+                            <hgap>5</hgap>
+                            <rows>2</rows>
+                            <cols>3</cols>
+                            <vgap>5</vgap>
+                            <object class="sizeritem">
+                                <object class="wxStaticText" name="lbldestination">
+                                    <label>Save to:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <object class="wxTextCtrl" name="edtdestination">
+                                    <size>290, 23</size>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <object class="wxButton" name="btndir">
+                                    <size>70, 30</size>
+                                    <label>Directory</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <object class="wxStaticText" name="lblurl">
+                                    <label>Address:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <object class="wxTextCtrl" name="edturl">
+                                    <focused>1</focused>
+                                    <tooltip>URL to download\nExample: http://www.foo.com/foo.exe\nExample: http://www.foo.com:80/foo.exe\nExample: ftp://ftp.foo.com:21/foo.exe</tooltip>
+                                    <size>290, 23</size>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <object class="wxButton" name="btnadd">
+                                    <default>1</default>
+                                    <size>70, 23</size>
+                                    <label>Add</label>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="spacer">
+                        <size>20, 5</size>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <flag>wxFIXED_MINSIZE</flag>
+                        <object class="wxStaticText" name="lbladdresslist">
+                            <label>Address List:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <object class="wxFlexGridSizer">
+                            <hgap>0</hgap>
+                            <rows>3</rows>
+                            <cols>1</cols>
+                            <vgap>5</vgap>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <object class="wxCheckListBox" name="lstaddresslist">
+                                    <tooltip>Only the selected addresses will be downloaded</tooltip>
+                                    <style>wxLB_SINGLE</style>
+                                    <size>420,100</size>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <object class="wxCheckBox" name="chkaddontop">
+                                    <label>Add on top of download queue</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_RIGHT</flag>
+                                <object class="wxButton" name="btnedit">
+                                    <size>70, 23</size>
+                                    <label>_Edit</label>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="spacer">
+                        <size>20, 5</size>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <flag>wxEXPAND</flag>
+                        <object class="wxFlexGridSizer">
+                            <hgap>0</hgap>
+                            <rows>1</rows>
+                            <cols>3</cols>
+                            <vgap>0</vgap>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxFlexGridSizer">
+                                    <hgap>0</hgap>
+                                    <rows>4</rows>
+                                    <cols>1</cols>
+                                    <vgap>0</vgap>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <object class="wxStaticBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <label>Server Permission</label>
+                                            <object class="sizeritem">
+                                                <option>1</option>
+                                                <flag>wxEXPAND</flag>
+                                                <object class="wxFlexGridSizer">
+                                                    <hgap>0</hgap>
+                                                    <rows>5</rows>
+                                                    <cols>3</cols>
+                                                    <vgap>0</vgap>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxStaticText" name="label_2">
+                                                            <label>User:</label>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>0, 20</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxTextCtrl" name="edtuser">
+                                                            <size>130, 23</size>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxStaticText" name="label_3">
+                                                            <label>Password:</label>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>0, 20</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxTextCtrl" name="edtpassword">
+                                                            <style>wxTE_PASSWORD</style>
+                                                            <size>130, 23</size>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="spacer">
+                                        <size>20, 5</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <object class="wxStaticBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <label>Segmented download</label>
+                                            <object class="sizeritem">
+                                                <option>1</option>
+                                                <flag>wxEXPAND</flag>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <option>1</option>
+                                                        <flag>wxEXPAND</flag>
+                                                        <object class="wxBoxSizer">
+                                                            <orient>wxVERTICAL</orient>
+                                                            <object class="sizeritem">
+                                                                <object class="wxStaticText" name="label_4">
+                                                                    <label>Split download into how many\npieces?</label>
+                                                                </object>
+                                                            </object>
+                                                            <object class="spacer">
+                                                                <size>20, 5</size>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <option>1</option>
+                                                                <flag>wxEXPAND</flag>
+                                                                <object class="wxBoxSizer">
+                                                                    <orient>wxHORIZONTAL</orient>
+                                                                    <object class="spacer">
+                                                                        <size>120, 20</size>
+                                                                    </object>
+                                                                    <object class="sizeritem">
+                                                                        <object class="wxSpinCtrl" name="spinsplit">
+                                                                            <style>wxSP_ARROW_KEYS|wxSP_WRAP</style>
+                                                                            <min>1</min>
+                                                                            <max>30</max>
+                                                                            <value>1</value>
+                                                                            <size>40, 20</size>
+                                                                        </object>
+                                                                    </object>
+                                                                </object>
+                                                            </object>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 15</size>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <object class="wxStaticBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <label>Download bandwidth (in kB/s)</label>
+                                            <object class="sizeritem">
+                                                <option>1</option>
+                                                <flag>wxEXPAND</flag>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxHORIZONTAL</orient>
+                                                    <object class="spacer">
+                                                        <size>100, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxSpinCtrl" name="spinbandwidth">
+                                                            <style>wxSP_ARROW_KEYS|wxSP_WRAP</style>
+                                                            <min>0</min>
+                                                            <max>100</max>
+                                                            <value>0</value>
+                                                            <tooltip>Set band width limit for this download.\nSet "0" to unlimited.</tooltip>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                            <object class="spacer">
+                                <size>5, 5</size>
+                            </object>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxFlexGridSizer">
+                                    <hgap>0</hgap>
+                                    <rows>3</rows>
+                                    <cols>1</cols>
+                                    <vgap>0</vgap>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <object class="wxStaticBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <label>Start Download</label>
+                                            <object class="sizeritem">
+                                                <option>1</option>
+                                                <flag>wxEXPAND</flag>
+                                                <object class="wxFlexGridSizer">
+                                                    <hgap>0</hgap>
+                                                    <rows>7</rows>
+                                                    <cols>2</cols>
+                                                    <vgap>0</vgap>
+                                                    <object class="spacer">
+                                                        <size>115, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>85, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxRadioButton" name="optmanual">
+                                                            <label>Manual</label>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxRadioButton" name="optnow">
+                                                            <label>Now</label>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxRadioButton" name="optschedule">
+                                                            <label>Schedule</label>
+                                                        </object>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 20</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 15</size>
+                                                    </object>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="spacer">
+                                        <size>20, 5</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <option>1</option>
+                                        <object class="wxStaticBoxSizer">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <label>Comments</label>
+                                            <object class="sizeritem">
+                                                <option>1</option>
+                                                <flag>wxEXPAND</flag>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <object class="spacer">
+                                                        <size>20, 5</size>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <object class="wxTextCtrl" name="edtcomments">
+                                                            <style>wxTE_MULTILINE</style>
+                                                            <size>200, 80</size>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <object class="wxStaticBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <label>Reference URL</label>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxBoxSizer">
+                                    <orient>wxVERTICAL</orient>
+                                    <object class="sizeritem">
+                                        <object class="wxTextCtrl" name="edtreferenceurl">
+                                            <tooltip>Reference URL</tooltip>
+                                            <size>415, 23</size>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <object class="wxStaticBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <label>Execute the following command after download completes</label>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxEXPAND</flag>
+                                <object class="wxBoxSizer">
+                                    <orient>wxVERTICAL</orient>
+                                    <object class="sizeritem">
+                                        <object class="wxTextCtrl" name="edtcommand">
+                                            <tooltip>Execute the following command after download completes</tooltip>
+                                            <size>415, 23</size>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <option>1</option>
+                        <flag>wxEXPAND|wxALIGN_RIGHT</flag>
+                        <object class="wxFlexGridSizer">
+                            <hgap>0</hgap>
+                            <rows>3</rows>
+                            <cols>1</cols>
+                            <vgap>0</vgap>
+                            <object class="spacer">
+                                <size>20, 10</size>
+                            </object>
+                            <object class="sizeritem">
+                                <option>1</option>
+                                <flag>wxALIGN_RIGHT</flag>
+                                <object class="wxFlexGridSizer">
+                                    <hgap>0</hgap>
+                                    <rows>1</rows>
+                                    <cols>5</cols>
+                                    <vgap>0</vgap>
+                                    <object class="spacer">
+                                        <size>250, 20</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <object class="wxButton" name="btnok">
+                                            <label>_OK</label>
+                                        </object>
+                                    </object>
+                                    <object class="spacer">
+                                        <size>20, 20</size>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <object class="wxButton" name="btncancel">
+                                            <label>_Cancel</label>
+                                        </object>
+                                    </object>
+                                    <object class="spacer">
+                                        <size>10, 20</size>
+                                    </object>
+                                    <object class="spacer">
+                                        <size>20, 10</size>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

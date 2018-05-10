@@ -1,0 +1,7 @@
+Toggle User Agent string Firefox compatible = Переключение режима совместимости с Firefox
+User Agent is Firefox compatible mode = Режим совместимости с Firefox включен: K-Meleon будет представляться сайтам как Firefox 
+User Agent is K-Meleon default = Режим совместимости выключен: браузер представляется сайтам как K-Meleon
+Reset to the default User Agent string when exiting = При выходе устанавливать режим совместимости по умолчанию
+User Agent Mo&de = &Режим представления браузера сайтам
+&FireFox Compatible = Совместимый с &Firefox
+&Reset To K-Meleon On Exit = Сброс: представляться как K-Meleon при следующем запуске

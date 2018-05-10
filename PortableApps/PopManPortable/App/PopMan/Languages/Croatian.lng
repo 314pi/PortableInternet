@@ -1,0 +1,542 @@
+[File Info]
+
+Language=Croatian
+Author=Višnja Željeznjak
+Email=visnja@webmajstori.net
+Date=09/11/2003
+Comment=PopMan 1.3 Croatian Translation
+LangID=26
+
+
+[Translations]
+
+# Import Accounts Dialog
+
+Account<=>Raèun
+User<=>Korisnik
+Server<=>Poslužitelj
+Port<=>Port
+Please select the accounts that you want to import from Outlook Express.<=>Odaberite raèune koje želite uvesti iz Outlook Expressa.
+&Properties...<=>&Svojstva
+OK<=>U redu
+Cancel<=>Odustani
+Import email accounts<=>Uvezi raèune e-pošte
+
+# Account Dialog
+
+General<=>Opæenito
+Advanced<=>Napredno
+Please enter the account name!<=>Unesite naziv raèuna!
+Please enter the address of the POP3 server!<=>Unesite adresu POP3 poslužitelja!
+Please enter user name!<=>Unesite korisnièko ime!
+Account name:<=>Naziv raèuna:
+POP3 server:<=>POP3:
+Port:<=>Port:
+User name:<=>Korisnièko ime:
+Password:<=>Lozinka:
+Include this account when receiving mail<=>Uvrsti ovaj raèun prilikom primanja pošte
+1 minute<=>1 minuta
+{1} minutes<=>{1} minuta
+1 second<=>1 sekunda
+{1} seconds<=>{1} sekundi
+Colors<=>Boje
+Use individual font color:<=>Koristi zasebnu boju fonta:
+Circle color in system tray:<=>Mijenjaj boje u sistemskoj traci programa:
+Server Timeouts<=>Istek vremena na poslužiteljima
+Short<=>Kratak
+Long<=>Dugaèak
+Load big emails incompletely<=>Velike poruke nemoj uèitati do kraja
+Limit size:<=>Ogranièi na:
+
+# Accounts Dialog
+
+Mail Accounts<=>Raèuni pošte
+&Add...<=>&Dodaj...
+&Remove<=>&Ukloni
+Move &up<=>Pomakni &gore
+Move &down<=>Pomakni d&olje
+&Close<=>&Zatvori
+
+# Download Dialog
+
+Loading the following mail:<=>Uèitaj sljedeæu poštu:
+Loading Mail...<=>Uèitavanje pošte...
+
+# Password Dialog
+
+Password - {1}<=>Lozinka - {1}
+Enter the password of the following server.<=>Unesite lozinku za sljedeæi poslužitelj.
+Server:<=>Poslužitelj:
+Remember password<=>Zapamti lozinku
+
+# Save Dialog
+
+Please specify where to save the emails.<=>Navedite gdje želite spremiti poruke.
+The specified folder does not exist!<=>Navedena mapa ne postoji!
+Please specify a template for the file names.<=>Navedite predložak za nazive datoteka.
+A file name must not contain any of the following characters:<=>Naziv datoteke mora sadržavati neki od ovih znakova:
+Invalid template! Use a combination of the following placeholders:<=>Predložak nije valjan! Koristite kombinaciju sljedeæih rezerviranih mjesta:
+Subject<=>Predmet
+From<=>Šalje
+To<=>Prima
+Date<=>Datum
+Time<=>Vrijeme
+Save As...<=>Spremi kao...
+Destination<=>Odredište
+Folder:<=>Mapa:
+Browse...<=>Pregledaj...
+Save Format<=>Oblik zapisa
+Template For File Names<=>Predložak za nazive datoteka
+Email File (*.eml)<=>Datoteka e-pošte (*.eml)
+Text File (*.txt)<=>Tekstualna datoteka (*.txt)
+
+# Options Dialog
+
+The file "{1}" doesn't exist!<=>Datoteka "{1}" ne postoji!
+Sound (*.wav)<=>Zvuk (*.wav)
+Notify when new mail arrives<=>Obavijesti me kada stigne nova pošta
+Always<=>Uvijek
+When AutoChecked or minimized<=>Kod automatske provjere ili minimiziranog stanja
+Only when minimized<=>Samo kod minimiziranog stanja
+On new mail<=>Kada stigne nova pošta
+Acoustic notification<=>Obavijesti pomoæu zvuka
+Sound:<=>Zvuk:
+&Test<=>&Testiraj
+Show PopMan window<=>Pokaži prozor PopMana
+Show new mail tip<=>Pokaži obavijest o novoj pošti
+Include sender and subject of new mails<=>Ukljuèi pošiljatelja i predmet nove pošte
+Use balloon tip<=>Koristi oblaèiæ sa savjetom
+Unread Messages<=>Neproèitane poruke
+Display unread messages in bold font<=>Prikaži neproèitane poruke podebljano
+Preview Pane<=>Okno za pretpregled
+Use the preview pane to quickly view a message without opening a separate window.<=>Koristite okno za pretpregled da biste brzo pogledali poruku bez otvaranja zasebnog prozora.
+Show preview pane<=>Pokaži okno za pretpregled
+Be&low messages<=>I&spod poruka
+Be&side messages<=>I&znad poruka
+Use logging to record all data communication between PopMan and the email server.<=>Koristite zapisivanje da biste snimili kompletnu podatkovnu komunikaciju izmeðu PopMana i poslužitelja e-pošte.
+Enable logging<=>Omoguæi zapisivanje
+Reset log on program startup<=>Pri pokretanju programa vrati zapisnik na izvorno stanje
+Enable error logging<=>Omoguæi zapisivanje pogrešaka
+(if a problem occurs while communicating with the email server, the log is saved in a separate error file)<=>(ako se problem pojavi za vrijeme komunikacije s poslužiteljem e-pošte, zapisnik æe se spremiti u zasebnu datoteku s pogreškama)
+Use dial-up networking<=>Koristi pozivnu vezu
+Launch PopMan on Windows startup<=>Pokreni PopMan prilikom pokretanja Windowsa
+Check for new mail on startup<=>Provjeri ima li nove pošte prilikom pokretanja
+First wait<=>Èekaj
+seconds<=>sekundi
+X button hides to tray<=>Gumb X skriva program u traku programa
+Min button hides to tray<=>Gumb za minimiziranje skriva program u traku programa
+Delete confirmation in main window<=>Potvrda brisanja u glavnom prozoru
+Delete confirmation in preview pane and message window<=>Potvrda brisanja u oknu za pretpregled i prozoru s porukama
+Timer interval:<=>Provjeri svakih:
+minutes<=>minuta
+AutoCheck only while minimized<=>Automatska provjera samo kod minimiziranog stanja
+Don't check between:<=>Nemoj provjeravati izmeðu:
+and<=>i
+Executable (*.exe)<=>Izvršna datoteka (*.exe)
+Email client:<=>Program za poštu:
+Quit PopMan when launching email client<=>Zatvori PopMan prilikom pokretanja programa za poštu
+When replying<=>Prilikom odgovaranja
+Use temporary eml file (Outlook Express)<=>Koristi privremenu eml datoteku (Outlook Express)
+Use mailto (without quotted original message)<=>Koristi mailto (bez citirane izvorne poruke)
+Use MAPI<=>Koristi MAPI
+Use HTML linebreaks in reply body<=>U tijelu odgovora koristi HTML prekide redaka
+Enforce email address (Yahoo! Mail)<=>Koristi adresu e-pošte (Yahoo! Mail)
+Number of messages<=>Broj poruka
+Show number of messages in tray icon<=>Pokaži broj poruka u traci programa
+Show number of all messages<=>Pokaži broj svih poruka
+Show number of unread messages<=>Pokaži broj neproèitanih poruka
+Show number of new messages<=>Pokaži broj novih poruka
+Rotate icon for each account<=>Mijenjaj boju za svaki raèun
+Rotation interval:<=>Interval mijenjanja:
+tenths of a second<=>desetina sekunde
+Show advanced account info<=>Pokaži napredne informacije o raèunu
+Enable HighColor icons in system tray<=>Omoguæi HighColor ikone u sistemskoj traci programa
+Nothing<=>Ništa
+Show Window<=>Pokaži prozor
+Check Mail<=>Provjeri poštu
+PopUp Menu<=>Pokaži izbornik
+Run Email Client<=>Pokreni program za poštu
+Check And Show<=>Provjeri i pokaži
+Toggle Window<=>Ukljuèi/iskljuèi prozor
+Toggle AutoCheck<=>Ukljuèi/iskljuèi automatsku provjeru
+Show Mail Info<=>Pokaži informacije o pošti
+Tray Mouse Actions<=>Akcije mišem kada je program minimiziran u traci programa
+Left Click:<=>Klik lijevom tipkom:
+Right Click:<=>Klik desnom tipkom:
+Middle Click:<=>Klik srednjom tipkom:
+Double Click:<=>Dvoklik:
+Double click delay on click<=>Odgoda dvoklika nakon klika
+Below you can choose between the translations currently on your system.{BR}If you don't find your language, please visit the PopMan web site:<=>Odaberite instalirane prijevode.{BR}Ako ne vidite svoj jezik, posjetite web-lokaciju PopMana:
+Language:<=>Jezik:
+Author:<=>Autor:
+Email:<=>E-pošta:
+Updated:<=>Ažurirano:
+Comment:<=>Komentar:
+
+# Source Dialog
+
+RichEdit control init failed.<=>Inicijalizacija kontrole RichEdit neuspješna.
+Source - "{1}"<=>Izvor - "{1}"
+
+# Main Window
+
+Options<=>Moguænosti
+AutoCheck<=>Automatska provjera
+Notification<=>Obavještavanje
+Email Client<=>Program za poštu
+View<=>Pogled
+Tray Icon<=>Ikona u traci programa
+Language<=>Jezik
+Mouse Actions<=>Akcije mišem
+Logging<=>Zapisivanje
+&File<=>&Datoteka
+&Accounts...<=>&Raèuni...
+&Update{TAB}F5<=>&Ažuriraj{TAB}F5
+&Cancel{TAB}Esc<=>&Odustani{TAB}Esc
+&Open...{TAB}Ctrl+O<=>O&tvori...{TAB}Ctrl+O
+Sou&rce...<=>Iz&vor...
+&Save As...{TAB}Ctrl+S<=>&Spremi kao...{TAB}Ctrl+S
+Repl&y To Sender{TAB}Ctrl+R<=>Odgovori &pošiljatelju{TAB}Ctrl+R
+&Delete{TAB}Del<=>Iz&briši{TAB}Del
+&Exit<=>&Izlaz
+&View<=>Po&gled
+&Toolbar<=>Alatna tra&ka
+&Statusbar<=>Traka sta&nja
+&Tools<=>A&lati
+&Font...<=>&Font...
+Font &Color...<=>&Boja fonta...
+Launch &Email Client{TAB}Ctrl+E<=>Pokreni p&rogram za poštu{TAB}Ctrl+E
+&Import Accounts...<=>&Uvezi raèune...
+&Options<=>&Moguænosti
+&Help<=>&Pomoæ
+&Help Topics...{TAB}F1<=>&Teme pomoæi...{TAB}F1
+Check For &Updates<=>Pro&vjeri ažuriranja
+&About PopMan...<=>&O PopManu...
+Ready<=>Spremno
+Edit email accounts.{BR}Accounts<=>Ureðuje raèune e-pošte.{BR}Raèuni
+Update email listing.{BR}Update<=>Ažurira popis e-pošte.{BR}Ažuriraj
+Cancel current operation.{BR}Cancel<=>Poništava trenutnu operaciju.{BR}Poništi
+Show email content.{BR}Show<=>Pokazuje sadržaj e-pošte.{BR}Pokaži
+Show source code of this email.{BR}Source code<=>Pokazuje izvodni kod ove poruke.{BR}Izvorni kod
+Save selected email to file.{BR}Save<=>Sprema oznaèene poruke u datoteku.{BR}Spremi
+Create a reply message to the sender.{BR}Reply<=>Stvara odgovor pošiljatelju.{BR}Odgovori
+Delete selected emails.{BR}Delete<=>Briše oznaèene poruke.{BR}Izbriši
+Quit the application.{BR}Exit<=>Zatvara aplikaciju.{BR}Izlaz
+Show or hide the toolbar.{BR}Toggle ToolBar<=>Pokazuje ili skriva alatnu traku.{BR}Ukljuèi/iskljuèi alatnu traku
+Show or hide the status bar.{BR}Toggle StatusBar<=>Pokazuje ili skriva traku stanja.{BR}Ukljuèi/iskljuèi traku stanja
+Change font.{BR}Font<=>Mijenja font.{BR}Font
+Change font color.{BR}Font Color<=>Mijenja boju fonta.{BR}Boja fonta
+Launch email client.{BR}Email Client<=>Pokreæe program za poštu.{BR}Program za poštu
+Import email accounts from Outlook Express.{BR}Import Accounts<=>Uvozi raèune e-pošte iz Outlook Expressa.{BR}Uvezi raèune
+Change program settings.{BR}Settings<=>Mijenja postavke programa.{BR}Postavke
+Show Help Topics.{BR}Help<=>Pokazuje teme pomoæi.{BR}Pomoæ
+Check if a new version is available.{BR}Check for updates<=>Provjerava je li dostupna nova verzija.{BR}Provjeri ažuriranja
+Display program information, version number and copyright.{BR}About<=>Prikazuje informacije o programu, verziji i autorskim pravima.{BR}O
+Show the main window.{BR}Show<=>Pokazuje glavni prozor.{BR}Pokaži
+Enable AutoChecking.{BR}Enable<=>Omoguæuje automatsku provjeru.{BR}Omoguæi
+Open the selected attachment.{BR}Open<=>Otvara odabrani privitak.{BR}Otvori
+Save the selected attachments.{BR}Save<=>Sprema odabrane privitke.{BR}Spremi
+Save all attachments.{BR}Save All<=>Sprema sve privitke.{BR}Spremi sve
+Change the window size.<=>Mijenja velièinu prozora.
+Change the window position.<=>Mijenja položaj prozora.
+Reduce the window to an icon.<=>Smanjuje prozor na ikonu.
+Enlarge the window to full size.<=>Poveæava prozor na punu velièinu.
+Close the active window.<=>Zatvara aktivni prozor.
+Restore the window to normal size.<=>Vraæa prozor za normalnu velièinu.
+
+# Message Window
+
+&Print...{TAB}Ctrl+P<=>&Ispiši...{TAB}Ctrl+P
+&Close{TAB}Esc<=>&Zatvori{TAB}Esc
+&Edit<=>&Uredi
+&Cut{TAB}Ctrl+X<=>Izr&eži{TAB}Ctrl+X
+C&opy{TAB}Ctrl+C<=>&Kopiraj{TAB}Ctrl+C
+&Paste{TAB}Ctrl+V<=>Zali&jepi{TAB}Ctrl+V
+&Find...{TAB}Ctrl+F<=>&Traži...{TAB}Ctrl+F
+Find &Next{TAB}F3<=>Traži &sljedeæe{TAB}F3
+Select &All{TAB}Ctrl+A<=>Odaberi s&ve{TAB}Ctrl+A
+Print this email.{BR}Print<=>Ispisuje ovu poruku.{BR}Ispiši
+Delete this email.{BR}Delete<=>Briše ovu poruku.{BR}Izbriši
+Close window.{BR}Close<=>Zatvara prozor.{BR}Zatvori
+Cut the selection and put it on the Clipboard.{BR}Cut<=>Izrezuje odabir i stavlja ga u meðuspremnik.{BR}Izreži
+Copy the selection and put it on the Clipboard.{BR}Copy<=>Kopira odabir i stavlja ga u meðuspremnik.{BR}Kopiraj
+Insert Clipboard contents.{BR}Paste<=>Umeæe sadržaj meðuspremnika.{BR}Zalijepi
+Find the specified text.{BR}Find<=>Traži navedeni tekst.{BR}Traži
+Find next occurence of specified text.{BR}Find next<=>Traži sljedeæe pojavljivanje navedenog teksta.{BR}Traži sljedeæe
+Select the entire message.{BR}Select All<=>Odabire cijelu poruku.{BR}Odaberi sve
+"{1}" not found.<=>"{1}" nije pronaðeno.
+&Open<=>&Otvori
+&Save As...<=>Sp&remi kao...
+Save &All...<=>Spremi s&ve...
+This attachment can not be accessed anymore.<=>Ovom privitku više nije moguæe pristupiti.
+"{1}" is very likely to contain a virus, worm or any other sort of dangerous code!<=>"{1} najvjerojatnije sadrži virus, crv ili neki drugi opasan program!
+Opening this file is therefore denied.<=>Otvaranje ove datoteke zbog toga je odbijeno.
+Do you really want to save this file to your hard disk?<=>Želite li zaista spremiti ovu datoteku na tvrdi disk?
+Attachment<=>Privitak
+These attachments are very likely to contain a virus, worm or any other sort of dangerous code!<=>Ovi privici najvjerojatnije sadrže virus, crv ili neki drugi opasan program!
+Do you really want to save these files to your hard disk?<=>Želite li zaista spremiti ove datoteke na tvrdi disk?
+Please specify where to save the attachments.<=>Navedite gdje želite spremiti privitke.
+The file "{1}" does already exist!{BR}Overwrite it?<=>Datoteka "{1}" veæ postoji!{BR}Želite li je prebrisati?
+Downloading email failed.{BR}Press Ctrl+F5 to update the email listing and try again.<=>Preuzimanje pošte neuspješno.{BR}Pritisnite CTRL+F5 da biste ažurirali popis pošte i pokušali ponovno.
+Are you sure you want to delete this email?<=>Jeste li sigurni da želite izbrisati ovu poštu?
+Deleting email failed!<=>Brisanje pošte neuspješno!
+From:<=>Šalje:
+Date:<=>Datum:
+To:<=>Prima:
+Subject:<=>Predmet:
+Attach:<=>Priloži:
+
+# PopMan Start
+
+Please start one instance only.<=>Pokrenite samo jednu instancu programa.
+Windows socket init failed.<=>Inicijalizacija Windowsovog utora neuspješna.
+About PopMan<=>O PopManu
+PopMan, Version {1}<=>PopMan, verzija {1}
+Website:<=>Web:
+
+# Document
+
+The error log file "{1}" could not be created.<=>Datoteku zapisnika s pogreškama "{1}" nije moguæe stvoriti.
+Checking {1}...<=>Provjera {1}...
+Email (*.eml)<=>E-pošta (*.eml)
+Text (*.txt)<=>Tekst (*.txt)
+Connecting...<=>Povezivanje...
+Connected!<=>Povezano!
+Login...<=>Prijava...
+Successfully logged in!<=>Prijava uspješna!
+Loading message ...<=>Uèitavanje poruke...
+Loading message {1} of {2} ...<=>Uèitavanje poruke {1} od {2}...
+Deleting message {1} of {2} ...<=>Brisanje poruke {1} od {2}...
+Not connected<=>Nije povezano
+Connection failure<=>Povezivanje neuspješno
+Canceled<=>Poništeno
+Invalid server response<=>Odgovor poslužitelja nije valjan
+Timeout<=>Vrijeme isteklo
+Login failed<=>Prijava neuspješna
+Message not found<=>Poruka nije pronaðena
+Server failure: Message not found!<=>Pogreška na poslužitelju: poruka nije pronaðena!
+Busy<=>Zauzeto
+The log file "{1}" could not be opened.{BR}Logging disabled!<=>Datoteku zapisnika "{1}" nije moguæe otvoriti.{BR}Zapisivanje onemoguæeno!
+Unable to load mail system support.<=>¨Podršku za sustav pošte nije moguæe uèitati.
+Mail system DLL is invalid.<=>DLL datoteka sustava pošte nije valjana.
+Unable to detect if a new version is available.<=>Nije moguæe otkriti je li dostupna nova verzija.
+There is no update available.<=>Nema dostupnih ažuriranja.
+New version {1} available!{BR}Do you want to go to the PopMan website and download the latest version?<=>Dostupna je nova verzija {1}!{BR}Želite li posjetiti web-lokaciju PopMana i preuzeti najnoviju verziju?
+Deleting mail...<=>Brisanje pošte...
+Downloading mail...<=>Preuzimanje pošte...
+AutoCheck disabled<=>Automatska provjera onemoguæena
+No messages<=>Nema poruka
+1 new message<=>1 nova poruka
+{1} new messages<=>{1} novih poruka
+PopMan - New Mail<=>PopMan - nova pošta
+&Open PopMan<=>&Otvori PopMan
+Check &Mail<=>Provjeri &poštu
+&Cancel<=>O&dustani
+&Email Client<=>P&rogram za poštu
+A&utoCheck Enabled<=>&Automatska provjera omoguæena
+O&ptions...<=>&Moguænosti...
+&About...<=>O PopMa&nu...
+E&xit<=>I&zlaz
+{1} msgs. ({2} unread, {3} new){TAB}{4} KB<=>{1} poruka. ({2} neproèitanih, {3} novih){TAB}{4} kB
+PopMan - Mail Info<=>PopMan - informacije o pošti
+1 message<=>1 poruka
+{1} messages<=>{1} poruka
+1 unread message<=>1 neproèitana poruka
+{1} unread messages<=>{1} neproèitanih poruka
+in {1}<=>u {1}
+in {1} accounts<=>u {1} raèuna
+
+# Main View
+
+Size<=>Velièina
+Received<=>Primljeno
+Are you sure you want to delete the selected email?<=>Jeste li sigurni da želite izbrisati oznaèene poruke?
+Are you sure you want to delete the {1} selected emails?<=>Jeste li sigurni da želite izbrisati {1} oznaèenih poruka?
+
+# 12/28/2003
+
+Update Wizard<=>Èarobnjak za ažuriranja
+There are no updates available.<=>Nema dostupnih ažuriranja.
+There is a new version {1} available!<=>Dostupna je nova verzija programa {1}!
+There is a new {1} Beta version available!<=>Dostupna je nova beta verzija programa {1}!
+Click "Next" to update your copy of PopMan...<=>Kliknite "Sljedeæe" da biste ažurirali svoju kopiju PopMana...
+Unable to retrieve version infomation!<=>Nije moguæe uèitati informaciju o verziji!
+Error number: {1}<=>Broj pogreške: {1}
+Welcome to the PopMan Update Wizard<=>Dobrodošli u èarobnjak za ažuriranje PopMana
+The wizard is now connecting to the PopMan webserver checking for updates. If there is a new version available, all necessary files can be downloaded and installed automatically.<=>Èarobnjak se sada povezuje s PopManovim poslužiteljem u potrazi za ažuriranjima. Ako je dostupna nova verzija, sve se potrebne datoteke mogu automatski preuzeti i instalirati.
+Failed to load Decompress.dll!<=>Uèitavanje datoteke Decompress.dll nije uspjelo!
+Initializing...<=>Inicijalizacija...
+Do you really want to cancel the update process?<=>Želite li zaista poništiti postupak ažuriranja?
+Update process failed!<=>Postupak ažuriranja nije uspio!
+Error while downloading initialization file!<=>Pogreška prilikom preuzimanja inicijalizacijske datoteke!
+No updates available.<=>Nema dostupnih ažuriranja.
+Failed to retrieve temporary directory!<=>Dohvaæanje privremenog imenika nije uspjelo!
+Saving {1} ...<=>Spremanje {1} ...
+Failed to create directory:<=>Nije uspjelo stvaranje imenika:
+Failed to decompress file:<=>Nije uspjelo raspakiravanje datoteke:
+Failed to download file:<=>Nije uspjelo preuzimanje datoteke:
+(checksum error)<=>checksum pogreška
+Please try again later.<=>Pokušajte ponovno kasnije.
+Error while saving downloaded file!<=>Pogreška prilikom spremanja preuzete datoteke!
+All files downloaded successfully.<=>Sve su se datoteke uspješno preuzele.
+Press the "Finish" button to complete the update process...<=>Kliknite gumb "Završi" da biste dovršili postupak ažuriranja...
+Failed to initialize the final copy process!<=>Nije uspjela inicijalizacija postupka završnog kopiranja!
+Downloading {1} ...<=>Preuzimanje {1} ...
+Progress all:<=>Ukupni napredak:
+Progress current file:<=>Napredak trenutne datoteke:
+Download of updated files<=>Preuzimanje ažuriranih datoteka
+Log file size:<=>Velièina datoteke zapisnika:
+KB<=>kB
+{1} Beta version has been updated successfully!<=> Beta verzija programa {1} uspješno je ažurirana!
+You have successfully updated to version {1} !<=>Uspješno ste ažurirali program na verziju {1} !
+Error while writing to the log file:<=>Pogreška prilikom zapisivanja u datoteku zapisnika:
+Logging disabled!<=>Datoteka zapisnika onemoguæena!
+Do you want to start the update wizard and download the latest version?<=>Želite li pokrenuti èarobnjak za ažuriranje i preuzeti najnoviju verziju?
+Show<=>Pokaži
+Delete<=>Izbriši
+Close<=>Zatvori
+
+# 01/26/2004
+
+Description<=>Opis
+Password incorrect! Please note that the password is case-sensitive.<=>Neispravna lozinka! Pazite na velika i mala slova prilikom upisa lozinke.
+Please enter the password.<=>Unesite lozinku.
+Location of the log file "PopManLogFile.log":<=>Mjesto datoteke zapisnika "PopManLogFile.log":
+Enable password protection:<=>Omoguæi zaštitu lozinkom:
+Hide PopMan to tray<=>Sakrij PopMan u traku programa
+Quit PopMan<=>Izaði iz PopMana
+When launching email client:<=>Prilikom pokretanja klijenta za e-poštu:
+(last check: {1})<=>(posljednja provjera: {1})
+
+# 11/01/2004
+
+Can not change account settings while there are busy accounts.<=>
+Please enter the address of the Server!<=>
+Protocol:<=>
+Black List<=>
+Messages from senders in the list below will be deleted automatically from the server.<=>
+Address:<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com), that you want to block:<=>
+Enter address<=>
+Enter the password of the following account.<=>
+Account:<=>
+&Block Sender<=>
+&Black List...<=>
+Add sender to Black List.{BR}Block Sender<=>
+Edit list of blocked senders.{BR}BlackList<=>
+This will add the following email addresses to the Black List:<=>
+Note: All future emails from senders on the Black List will be deleted automatically!<=>
+
+# 12/22/2004
+
+Load all emails completely<=>
+Retrieve header and {1} lines of message body<=>
+Number of lines:<=>
+
+# 03/12/2005
+
+Launch email client with command line parameter:<=>
+Enable\Disable the Tab view.{BR}Toggle Tab view<=>
+Rename tab{TAB}F2<=>
+Join with tab<=>
+You have to add at least one account before you can switch to tab view.<=>
+Caption:<=>
+Please enter the caption of the tab:<=>
+Rename tab<=>
+Copy Link Address<=>
+Separate account | All<=>
+Check accounts{TAB}F7<=>
+Tab accounts:<=>
+
+# 04/10/2005
+
+Use custom AutoCheck timer interval<=>
+Sent<=>
+Priority<=>
+UserAgent<=>
+High<=>
+Low<=>
+Normal<=>
+
+# 05/07/2005
+
+Flash keyboard light:<=>
+Enable custom AutoCheck interval per account:<=>
+Interval<=>
+Custom<=>
+&Themes<=>
+Default<=>
+
+# 10/22/2005
+
+Parameters<=>
+Invalid parameter string!<=>
+
+# 04/22/2006
+
+Use UIDL when deleting messages<=>
+Delete command marks message for deletion<=>
+&Unmark{TAB}Ins<=>
+Empty Trash<=>
+Delete &Marked Emails{TAB}F12<=>
+&Hide Marked Messages<=>
+Tab &View{TAB}Ctrl+M<=>
+&Rules...<=>
+Delete marked emails.{BR}Delete marked emails<=>
+Unmark (undelete) selected emails.{BR}Unmark<=>
+Hide messages that are marked for delete.{BR}Hide marked messages<=>
+Edit the rules.{BR}Rules<=>
+Don't display this &message again.<=>
+You are about to irrevocably delete all marked messages.<=>
+You have just marked a message for deletion. To unmark it, press the Ins keyboard button. To delete all marked messages, press F12 or click the appropriate toolbar button.<=>
+You can also delete selected messages immediately by pressing Shift+Del.<=>
+If you want to restore the traditional behaviour (delete all selected messages immediately), uncheck "{1}" in the options dialog.<=>
+Error while parsing rules file at line {1}!<=>
+
+# 09/30/2007
+
+Load small emails completely<=>
+Small emails are < <=>
+Add item to Rules list<=>
+Destination List<=>
+New Item<=>
+Item Type<=>
+Word<=>
+String<=>
+Regular Expression<=>
+Only log compact mail info instead of entire data traffic<=>
+Enable logging of applied rules<=>
+Rules<=>
+Move Marked Messages to Tr&ash Tab<=>
+Add Item To Rules &List...{TAB}F9<=>
+Move marked messages to a separate "trash" tab.{BR}Enable trash tab<=>
+Add item to Rules list.{BR}Add To List<=>
+Forum:<=>
+Failed to add item to Rules list!<=>
+Trash<=>
+The item is already contained in the list!<=>
+
+# 10/14/2007
+
+White List<=>
+Messages from senders in the list below will never be deleted automatically.<=>
+Please enter the email address (e.g. somebody@somewhere.com) or the domain (e.g. somewhere.com):<=>
+&Trust Sender<=>
+This will add the following email addresses to the White List:<=>
+&White List...<=>
+Add sender to White List.{BR}Trust Sender<=>
+Edit list of trusted senders.{BR}WhiteList<=>
+Suspend New Mail Notification Sound.{BR}Mute<=>
+Mu&te Mode<=>
+Mark All Mails Read<=>
+Mark All Mails Unread<=>
+
+# 04/10/2010
+
+Type<=>
+Limit tips to [PROTECTED] messages<=>
+[PROTECTED]<=>
+To&ggle [PROTECTED] State{TAB}Ctrl+T<=>
+Toggle the current [PROTECTED] state of the selected messages.{BR}Toggle [PROTECTED]<=>
+Protocol plugin not initialized correctly!<=>
+Failed to initialize account {1}: No plugin available to provide protocol {2}!<=>

@@ -1,0 +1,16 @@
+**** BEGIN LOGGING AT Wed Jan  4 22:08:58 2017
+
+Jan 04 22:08:58 *	Connecting to chat.freenode.net (149.56.134.238:6697)
+Jan 04 22:08:58 *	* Certification info:
+Jan 04 22:08:58 *	  Subject:
+Jan 04 22:08:58 *	    CN=cherryh.freenode.net
+Jan 04 22:08:58 *	  Issuer:
+Jan 04 22:08:58 *	    C=US
+Jan 04 22:08:58 *	    O=Let's Encrypt
+Jan 04 22:08:58 *	    CN=Let's Encrypt Authority X3
+Jan 04 22:08:58 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jan 04 22:08:58 *	  Sign algorithm sha256WithRSAEncryption
+Jan 04 22:08:58 *	  Valid since Dec 26 19:54:00 2016 GM to Mar 26 19:54:00 2017 GM
+Jan 04 22:08:58 *	* Cipher info:
+Jan 04 22:08:58 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jan 04 22:08:59 *	Connected. Now logging in.
